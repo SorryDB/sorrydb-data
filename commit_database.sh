@@ -20,7 +20,7 @@ docker run \
   --memory-swap=10g \
   --mount type=bind,source=/home/austin/development/lean/sorry-index/sorry-db-data,target=/data \
   sorrydb:latest \
-  poetry run update_db --database-file /data/sorry_database.json
+  poetry run profiling/profile_update_database.py
 
 # Get current timestamp
 CURRENT_TIME=$(date "+%Y-%m-%d %H:%M:%S")
