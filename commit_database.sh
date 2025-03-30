@@ -20,7 +20,7 @@ docker run \
   --memory-swap=10g \
   --mount type=bind,source=/home/austin/development/lean/sorry-index/sorry-db-data,target=/data \
   sorrydb:latest \
-  poetry run update_db --database-file /data/sorry_database.json
+  poetry run update_db --database-file /data/sorry_database.json --stats-file /data/update_database_stats.json
 
 # Get current timestamp
 CURRENT_TIME=$(date "+%Y-%m-%d %H:%M:%S")
@@ -39,13 +39,20 @@ if ! git diff --staged --quiet; then
     handle_error "Failed to commit changes"
   fi
 
-  echo "Pushing changes..."
-  # Push changes
-  if ! git push; then
-    handle_error "Failed to push changes"
+  echo "Creating tag with today's date..."
+  # Create a tag with today's date
+  TAG_DATE=$(date "+%Y-%m-%d")
+  if ! git tag -a "${TAG_DATE}" -m "Database update on ${CURRENT_TIME}"; then
+    handle_error "Failed to create tag"
+  fi
+
+  echo "Pushing changes and tags..."
+  # Push changes and tags
+  if ! git push && git push --tags; then
+    handle_error "Failed to push changes and tags"
   fi
   
-  echo "Successfully updated, committed, and pushed changes"
+  echo "Successfully updated, committed, tagged, and pushed changes"
 else
   echo "No changes to commit"
 fi
