@@ -1,0 +1,48 @@
+{
+  "https://github.com/m4lvin/pdl": {},
+  "https://github.com/vihdzp/combinatorial-games": {},
+  "https://github.com/leanprover-community/flt-regular": {},
+  "https://github.com/dwrensha/compfiles": {
+    "5779ebcec5af9a08b122c89e9dcc326000c6ed50": {
+      "count": 171
+    }
+  },
+  "https://github.com/emilyriehl/InfinityCosmos": {},
+  "https://github.com/HEPLean/PhysLean": {
+    "160bd1858b70ba09c9ed8f2afc7527ef1d204885": {
+      "count": 0
+    }
+  },
+  "https://github.com/FormalizedFormalLogic/arithmetization": {},
+  "https://github.com/FormalizedFormalLogic/Foundation": {
+    "96ecdcf3310a2fd8245872e8a962c668d61f0ce5": {
+      "count": 12
+    }
+  },
+  "https://github.com/forked-from-1kasper/GroundZero": {},
+  "https://github.com/leanprover-community/SphereEversion": {},
+  "https://github.com/ah1112/synthetic_euclid_4": {},
+  "https://github.com/leanprover/TensorLib": {},
+  "https://github.com/Ivan-Sergeyev/Seymour": {
+    "bbad9d83cf06964e8f38b251a3fd0692cba13a83": {
+      "count": 22
+    }
+  },
+  "https://github.com/vltanh/lean4-analysis-tao": {},
+  "https://github.com/fpvandoorn/carleson": {},
+  "https://github.com/teorth/PFR": {},
+  "https://github.com/Verified-zkEVM/Zklib": {},
+  "https://github.com/YaelDillies/LeanCamCombi": {},
+  "https://github.com/YaelDillies/LeanAPAP": {},
+  "https://github.com/ImperialCollegeLondon/FLT": {},
+  "https://github.com/teorth/expdb": {
+    "e85b097a7082f3963f64be28e840424440993f87": {
+      "count": 0
+    }
+  },
+  "https://github.com/optsuite/convex": {},
+  "https://github.com/leanprover-community/ConNF": {},
+  "https://github.com/Timeroot/computableReal": {},
+  "https://github.com/ImperialCollegeLondon/M1F-explained": {},
+  "https://github.com/mo271/FormalBook": {}
+}
