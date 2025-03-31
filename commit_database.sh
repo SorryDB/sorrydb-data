@@ -47,9 +47,14 @@ if ! git diff --staged --quiet; then
   fi
 
   echo "Pushing changes and tags..."
-  # Push changes and tags
-  if ! git push && git push --tags; then
-    handle_error "Failed to push changes and tags"
+  # Push changes
+  if ! git push; then
+    handle_error "Failed to push changes"
+  fi
+  
+  # Push tags
+  if ! git push --tags; then
+    handle_error "Failed to push tags"
   fi
   
   echo "Successfully updated, committed, tagged, and pushed changes"
