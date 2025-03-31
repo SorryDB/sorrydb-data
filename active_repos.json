@@ -1,0 +1,218 @@
+{
+  "documentation": "List of active repositories pulled from reservoir. Generated on 2025-03-31T17:57:31.977967. Includes repositories which have been updated since 2025-03-01 and have at least 30 GitHub stars.",
+  "repos": [
+    {
+      "remote": "https://github.com/alexkeizer/QpfTypes"
+    },
+    {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd"
+    },
+    {
+      "remote": "https://github.com/argumentcomputer/yatima"
+    },
+    {
+      "remote": "https://github.com/argumentcomputer/LSpec"
+    },
+    {
+      "remote": "https://github.com/axiomed/http"
+    },
+    {
+      "remote": "https://github.com/cmu-l3/llmlean"
+    },
+    {
+      "remote": "https://github.com/dwrensha/compfiles"
+    },
+    {
+      "remote": "https://github.com/emilyriehl/infinity-cosmos"
+    },
+    {
+      "remote": "https://github.com/eric-wieser/lean-matrix-cookbook"
+    },
+    {
+      "remote": "https://github.com/fgdorais/lean4-parser"
+    },
+    {
+      "remote": "https://github.com/forked-from-1kasper/ground_zero"
+    },
+    {
+      "remote": "https://github.com/FormalizedFormalLogic/Foundation"
+    },
+    {
+      "remote": "https://github.com/fpvandoorn/carleson"
+    },
+    {
+      "remote": "https://github.com/frenzymath/jixia"
+    },
+    {
+      "remote": "https://github.com/google-deepmind/debate"
+    },
+    {
+      "remote": "https://github.com/HEPLean/PhysLean"
+    },
+    {
+      "remote": "https://github.com/ImperialCollegeLondon/formalising-mathematics-2024"
+    },
+    {
+      "remote": "https://github.com/ImperialCollegeLondon/FLT"
+    },
+    {
+      "remote": "https://github.com/JamesGallicchio/LeanColls"
+    },
+    {
+      "remote": "https://github.com/kim-em/lean-training-data"
+    },
+    {
+      "remote": "https://github.com/kmill/lean4-raytracer"
+    },
+    {
+      "remote": "https://github.com/lean-dojo/LeanCopilot"
+    },
+    {
+      "remote": "https://github.com/lean-ja/lean-by-example"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/tutorials4"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/sphere-eversion"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/quote4"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/ProofWidgets4"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/plausible"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/mathport"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/lean4-metaprogramming-book"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/iris-lean"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/NNG4"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/flt-regular"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/duper"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/con-nf"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/batteries"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/lean-auto"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/aesop"
+    },
+    {
+      "remote": "https://github.com/leanprover/verso"
+    },
+    {
+      "remote": "https://github.com/leanprover/reference-manual"
+    },
+    {
+      "remote": "https://github.com/leanprover/doc-gen4"
+    },
+    {
+      "remote": "https://github.com/leanprover/lean4-cli"
+    },
+    {
+      "remote": "https://github.com/lecopivo/SciLean"
+    },
+    {
+      "remote": "https://github.com/loganrjmurphy/LeanEuclid"
+    },
+    {
+      "remote": "https://github.com/marcusrossel/lean-egg"
+    },
+    {
+      "remote": "https://github.com/mo271/FormalBook"
+    },
+    {
+      "remote": "https://github.com/NethermindEth/EVMYulLean"
+    },
+    {
+      "remote": "https://github.com/nomeata/loogle"
+    },
+    {
+      "remote": "https://github.com/opencompl/lean-mlir"
+    },
+    {
+      "remote": "https://github.com/optsuite/optlib"
+    },
+    {
+      "remote": "https://github.com/Paper-Proof/paperproof"
+    },
+    {
+      "remote": "https://github.com/PatrickMassot/verbose-lean4"
+    },
+    {
+      "remote": "https://github.com/PatrickMassot/GlimpseOfLean"
+    },
+    {
+      "remote": "https://github.com/pitmonticone/LeanProject"
+    },
+    {
+      "remote": "https://github.com/rami3l/plfl"
+    },
+    {
+      "remote": "https://github.com/reilabs/proven-zk"
+    },
+    {
+      "remote": "https://github.com/risc0/risc0-lean4"
+    },
+    {
+      "remote": "https://github.com/siddhartha-gadgil/LeanAide"
+    },
+    {
+      "remote": "https://github.com/starkware-libs/formal-proofs"
+    },
+    {
+      "remote": "https://github.com/teorth/pfr"
+    },
+    {
+      "remote": "https://github.com/teorth/expdb"
+    },
+    {
+      "remote": "https://github.com/teorth/equational_theories"
+    },
+    {
+      "remote": "https://github.com/Timeroot/ComputableReal"
+    },
+    {
+      "remote": "https://github.com/tydeu/lean4-alloy"
+    },
+    {
+      "remote": "https://github.com/ufmg-smite/lean-smt"
+    },
+    {
+      "remote": "https://github.com/verified-optimization/CvxLean"
+    },
+    {
+      "remote": "https://github.com/Verified-zkEVM/ZKLib"
+    },
+    {
+      "remote": "https://github.com/verse-lab/lean-ssr"
+    },
+    {
+      "remote": "https://github.com/wellecks/llmstep"
+    },
+    {
+      "remote": "https://github.com/YaelDillies/LeanCamCombi"
+    },
+    {
+      "remote": "https://github.com/yangky11/miniF2F-lean4"
+    }
+  ]
+}
