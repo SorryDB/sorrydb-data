@@ -241,11 +241,6 @@
       "remote_heads_hash": "66ecf34277ff"
     },
     {
-      "remote_url": "https://github.com/opencompl/lean-mlir",
-      "last_time_visited": "2025-04-01T07:42:50.165085+00:00",
-      "remote_heads_hash": "2ec9f8b5529e"
-    },
-    {
       "remote_url": "https://github.com/optsuite/optlib",
       "last_time_visited": "2025-04-01T08:44:43.735507+00:00",
       "remote_heads_hash": "bd52ad3a2cec"
@@ -284,11 +279,6 @@
       "remote_url": "https://github.com/risc0/risc0-lean4",
       "last_time_visited": "2025-04-01T08:46:34.068570+00:00",
       "remote_heads_hash": "76fff39fd5ca"
-    },
-    {
-      "remote_url": "https://github.com/siddhartha-gadgil/LeanAide",
-      "last_time_visited": "2025-04-01T08:46:34.694498+00:00",
-      "remote_heads_hash": "e1b85efef8f9"
     },
     {
       "remote_url": "https://github.com/starkware-libs/formal-proofs",
