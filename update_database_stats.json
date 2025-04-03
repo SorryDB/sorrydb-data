@@ -1,121 +1,107 @@
 {
   "https://github.com/alexkeizer/QpfTypes": {},
-  "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd": {},
+  "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd": {
+    "eecfe42d9f3940f546592b5401bf7713731f6855": {
+      "count": 14
+    }
+  },
   "https://github.com/argumentcomputer/yatima": {},
   "https://github.com/argumentcomputer/LSpec": {},
   "https://github.com/axiomed/http": {},
   "https://github.com/cmu-l3/llmlean": {},
   "https://github.com/dwrensha/compfiles": {
-    "06fa2da2f539bc599c43b7272eab4aa383d4f021": {
+    "b3732b993f744ef833daad18119fac3df179f1e0": {
       "count": 171
     }
   },
-  "https://github.com/emilyriehl/infinity-cosmos": {},
+  "https://github.com/emilyriehl/infinity-cosmos": {
+    "bf1885e46ff0fde2a1cde218001d9b90307f4224": {
+      "count": 5
+    }
+  },
   "https://github.com/eric-wieser/lean-matrix-cookbook": {},
-  "https://github.com/fgdorais/lean4-parser": {},
+  "https://github.com/fgdorais/lean4-parser": {
+    "20fe5d7717f952df26a911f15278ceba9d6755bf": {
+      "count": 0
+    }
+  },
   "https://github.com/forked-from-1kasper/ground_zero": {},
   "https://github.com/FormalizedFormalLogic/Foundation": {
-    "6dae8031804c759018a683f463dedd06bf637e52": {
-      "count": 11
-    },
-    "96ecdcf3310a2fd8245872e8a962c668d61f0ce5": {
-      "count": 12
+    "c46560f83a9b19eaa4a76edae702441896ef08ea": {
+      "count": 19
     }
   },
   "https://github.com/fpvandoorn/carleson": {
-    "568cd953edd45f2bc231af421de6bfdb23a7cca8": {
-      "count": 90
+    "f24f307dc53f01080bbe6b549e4ab55c63c4079e": {
+      "count": 89
     }
   },
-  "https://github.com/frenzymath/jixia": {},
+  "https://github.com/frenzymath/jixia": {
+    "e1b95c8346bac7b29f013b69b1c72af5f6af812d": {
+      "count": 1
+    }
+  },
   "https://github.com/google-deepmind/debate": {},
   "https://github.com/HEPLean/PhysLean": {
-    "c3c090b53efd96bafbb7e61866fca3e016548197": {
+    "a4aeea445ea75060cdb848902d47c517d5243ee4": {
       "count": 0
     },
-    "5f72147486d3b043483f467b56afb8ee7f105541": {
+    "fd99d2f45e3e7806ee1b26617bb3f353527ff1be": {
       "count": 0
     },
-    "cac586d1bf2e5109687d50f6c4c389ccb3fb6f06": {
+    "ac79060bf771878c343ccc26c11cdc4a03a69286": {
       "count": 0
     }
   },
   "https://github.com/ImperialCollegeLondon/formalising-mathematics-2024": {},
   "https://github.com/ImperialCollegeLondon/FLT": {
-    "1931e82cc53f2ac4820966a54b4e8f3aa9582b5a": {
+    "4597c397b700852fc21356e7f7b2f092d1d2ad88": {
       "count": 56
+    },
+    "baf13ed036c950e6ba953da2b333b32477709072": {
+      "count": 55
     }
   },
   "https://github.com/JamesGallicchio/LeanColls": {},
   "https://github.com/kim-em/lean-training-data": {},
   "https://github.com/kmill/lean4-raytracer": {},
   "https://github.com/lean-dojo/LeanCopilot": {},
-  "https://github.com/lean-ja/lean-by-example": {},
+  "https://github.com/lean-ja/lean-by-example": {
+    "c2d04ec60de33d733c21e592cf6b46d51d9d195c": {
+      "count": 16
+    }
+  },
   "https://github.com/leanprover-community/tutorials4": {},
-  "https://github.com/leanprover-community/sphere-eversion": {},
-  "https://github.com/leanprover-community/quote4": {
-    "9b22588224d0aa93beb74cfa07e31e5e612dfc37": {
-      "count": 1
-    },
-    "0e05c2f090b7dd7a2f530bdc48a26b546f4837c7": {
-      "count": 1
+  "https://github.com/leanprover-community/sphere-eversion": {
+    "de1662a714dd7d3edad1aaa9688282628815ab35": {
+      "count": 0
     }
   },
+  "https://github.com/leanprover-community/quote4": {},
   "https://github.com/leanprover-community/ProofWidgets4": {},
-  "https://github.com/leanprover-community/plausible": {
-    "9833a9ce31d5fc216839d2b985554260577a0c85": {
-      "count": 0
-    },
-    "115177554fb2f67d583586886a9cfe1db2899945": {
-      "count": 0
-    }
-  },
+  "https://github.com/leanprover-community/plausible": {},
   "https://github.com/leanprover-community/mathport": {},
   "https://github.com/leanprover-community/lean4-metaprogramming-book": {},
   "https://github.com/leanprover-community/iris-lean": {
-    "9b6fc88debcc2049200141ac76eba36bb726c6a8": {
+    "bd0f91bf06c2504347ccba8eb2d1dd6d0152d6ca": {
       "count": 0
     }
   },
   "https://github.com/leanprover-community/NNG4": {},
-  "https://github.com/leanprover-community/flt-regular": {},
-  "https://github.com/leanprover-community/duper": {
-    "a0ebd1405a29e4d85cc6c5076c487f1024b09ce9": {
-      "count": 3
+  "https://github.com/leanprover-community/flt-regular": {
+    "0b7f9c46932801ba73d465643fb34959dab6c335": {
+      "count": 0
     }
   },
+  "https://github.com/leanprover-community/duper": {},
   "https://github.com/leanprover-community/con-nf": {},
-  "https://github.com/leanprover-community/batteries": {
-    "0bcf3aa6fed6eeecf2dd8a4d3228fe7975061634": {
-      "count": 4
-    },
-    "c8f7890187ca39f9b34001953b7fb720dcd9fb05": {
-      "count": 4
-    },
-    "613510345e4d4b3ce3d8c129595e7241990d5b39": {
-      "count": 4
-    },
-    "e999a0ec8886033ddc976941670dd4a35c2a3417": {
-      "count": 4
-    }
-  },
+  "https://github.com/leanprover-community/batteries": {},
   "https://github.com/leanprover-community/lean-auto": {},
-  "https://github.com/leanprover-community/aesop": {
-    "2bcdf2985dbe37cff63ca18346d8b26b8a448d3d": {
-      "count": 11
-    }
-  },
+  "https://github.com/leanprover-community/aesop": {},
   "https://github.com/leanprover/verso": {},
   "https://github.com/leanprover/reference-manual": {},
   "https://github.com/leanprover/doc-gen4": {},
-  "https://github.com/leanprover/lean4-cli": {
-    "663759405cce4cd6d672913c715b1f4cea4d2ac7": {
-      "count": 0
-    },
-    "7cde559c7e6541d964984bff81caca3fe4e763a6": {
-      "count": 0
-    }
-  },
+  "https://github.com/leanprover/lean4-cli": {},
   "https://github.com/lecopivo/SciLean": {},
   "https://github.com/loganrjmurphy/LeanEuclid": {},
   "https://github.com/marcusrossel/lean-egg": {},
@@ -124,7 +110,11 @@
   "https://github.com/nomeata/loogle": {},
   "https://github.com/optsuite/optlib": {},
   "https://github.com/Paper-Proof/paperproof": {},
-  "https://github.com/PatrickMassot/verbose-lean4": {},
+  "https://github.com/PatrickMassot/verbose-lean4": {
+    "f9527d466dc89713ff26113a0b32f21f4edb2fdc": {
+      "count": 0
+    }
+  },
   "https://github.com/PatrickMassot/GlimpseOfLean": {},
   "https://github.com/pitmonticone/LeanProject": {},
   "https://github.com/rami3l/plfl": {},
@@ -133,7 +123,7 @@
   "https://github.com/starkware-libs/formal-proofs": {},
   "https://github.com/teorth/pfr": {},
   "https://github.com/teorth/expdb": {
-    "01693bd1cbf64fb5d5c614bac918b9f6597fe543": {
+    "28be64f0e49adda35e42be532cf4df6e09f7d322": {
       "count": 0
     }
   },
@@ -145,10 +135,6 @@
   "https://github.com/Verified-zkEVM/ZKLib": {},
   "https://github.com/verse-lab/lean-ssr": {},
   "https://github.com/wellecks/llmstep": {},
-  "https://github.com/YaelDillies/LeanCamCombi": {
-    "37435275210067380f8d00d9535d81047c785d89": {
-      "count": 40
-    }
-  },
+  "https://github.com/YaelDillies/LeanCamCombi": {},
   "https://github.com/yangky11/miniF2F-lean4": {}
 }
