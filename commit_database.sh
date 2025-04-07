@@ -13,6 +13,10 @@ if ! cd /home/austin/development/lean/sorry-index/sorry-db-data; then
   handle_error "Failed to change to repository directory"
 fi
 
+# Get current timestamp
+CURRENT_TIME=$(date "+%Y-%m-%d_%H:%M:%S")
+LOG_FILE="${CURRENT_TIME}_logs"
+
 echo "Updating database..."
 # Run the Docker container with the mounted volume to update databse
 docker run \
@@ -20,7 +24,7 @@ docker run \
   --memory-swap=10g \
   --mount type=bind,source=/home/austin/development/lean/sorry-index/sorry-db-data,target=/data \
   sorrydb:latest \
-  poetry run update_db --database-file /data/sorry_database.json --stats-file /data/update_database_stats.json
+  poetry run update_db --database-file /data/sorry_database.json --stats-file /data/update_database_stats.json --log-file "/data/logs/${LOG_FILE}"
 
 # Get current timestamp
 CURRENT_TIME=$(date "+%Y-%m-%d %H:%M:%S")
