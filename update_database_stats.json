@@ -41,23 +41,23 @@
   },
   "https://github.com/cmu-l3/llmlean": {
     "counts": {},
-    "new_leaf_commit": false,
-    "start_processing_time": null,
-    "end_processing_time": null,
-    "total_processing_time": null,
+    "new_leaf_commit": true,
+    "start_processing_time": "2025-04-07T23:00:40.949003+00:00",
+    "end_processing_time": "2025-04-07T23:01:06.493057+00:00",
+    "total_processing_time": "25s",
     "lake_timeout": null
   },
   "https://github.com/dwrensha/compfiles": {
     "counts": {
-      "dfc5f2b72994603cb8063642389fac8ade084221": {
+      "785b667fe6d53cb201a74627f7a139c132f388f1": {
         "count": 171,
-        "count_new": 0
+        "count_new": 2
       }
     },
     "new_leaf_commit": true,
-    "start_processing_time": "2025-04-05T23:00:41.478535+00:00",
-    "end_processing_time": "2025-04-05T23:10:59.156377+00:00",
-    "total_processing_time": "10m 17s",
+    "start_processing_time": "2025-04-07T23:01:06.649138+00:00",
+    "end_processing_time": "2025-04-07T23:11:41.601371+00:00",
+    "total_processing_time": "10m 34s",
     "lake_timeout": null
   },
   "https://github.com/emilyriehl/infinity-cosmos": {
@@ -94,36 +94,32 @@
   },
   "https://github.com/FormalizedFormalLogic/Foundation": {
     "counts": {
-      "4a34d75c074c7614a1f16661ac73fd0725263c32": {
+      "d773e9c193bd4782c94b32ea63ede4aae696573a": {
+        "count": 15,
+        "count_new": 4
+      },
+      "d89c6d4b9450463c705814a1d204b573148759fa": {
         "count": 11,
         "count_new": 0
       }
     },
     "new_leaf_commit": true,
-    "start_processing_time": "2025-04-05T23:10:59.978657+00:00",
-    "end_processing_time": "2025-04-05T23:42:49.540047+00:00",
-    "total_processing_time": "31m 49s",
+    "start_processing_time": "2025-04-07T23:11:42.526233+00:00",
+    "end_processing_time": "2025-04-08T00:03:54.998829+00:00",
+    "total_processing_time": "52m 12s",
     "lake_timeout": null
   },
   "https://github.com/fpvandoorn/carleson": {
     "counts": {
-      "d6273ee1eced7a38fd1d3db0010c6c7ab14b5316": {
-        "count": 91,
-        "count_new": 3
-      },
-      "0f7490900e368adf4ce64fefb98057d612c70b4e": {
-        "count": 89,
-        "count_new": 0
-      },
-      "ecd3c7a4ff98f52b2cd3675939ac8de95b3f450c": {
+      "4a50e68d584e8b969077c9fccaade753eb7ef77a": {
         "count": 89,
         "count_new": 0
       }
     },
     "new_leaf_commit": true,
-    "start_processing_time": "2025-04-05T23:42:49.676119+00:00",
-    "end_processing_time": "2025-04-06T00:39:10.043268+00:00",
-    "total_processing_time": "56m 20s",
+    "start_processing_time": "2025-04-08T00:03:55.169021+00:00",
+    "end_processing_time": "2025-04-08T00:29:03.591402+00:00",
+    "total_processing_time": "25m 8s",
     "lake_timeout": null
   },
   "https://github.com/frenzymath/jixia": {
@@ -145,9 +141,9 @@
   "https://github.com/HEPLean/PhysLean": {
     "counts": {},
     "new_leaf_commit": true,
-    "start_processing_time": "2025-04-06T00:39:10.637004+00:00",
-    "end_processing_time": "2025-04-06T00:41:30.131278+00:00",
-    "total_processing_time": "2m 19s",
+    "start_processing_time": "2025-04-08T00:29:04.213767+00:00",
+    "end_processing_time": "2025-04-08T00:56:24.054221+00:00",
+    "total_processing_time": "27m 19s",
     "lake_timeout": null
   },
   "https://github.com/ImperialCollegeLondon/formalising-mathematics-2024": {
@@ -160,15 +156,15 @@
   },
   "https://github.com/ImperialCollegeLondon/FLT": {
     "counts": {
-      "d45fbf2daa10dbd19240bf8e657ac92cb84c8e34": {
-        "count": 55,
-        "count_new": 5
+      "2a627787ad7a1954e5a0d374569a9b800c15550e": {
+        "count": 54,
+        "count_new": 1
       }
     },
     "new_leaf_commit": true,
-    "start_processing_time": "2025-04-06T00:41:30.482898+00:00",
-    "end_processing_time": "2025-04-06T01:00:59.881420+00:00",
-    "total_processing_time": "19m 29s",
+    "start_processing_time": "2025-04-08T00:56:24.610058+00:00",
+    "end_processing_time": "2025-04-08T01:10:01.905193+00:00",
+    "total_processing_time": "13m 37s",
     "lake_timeout": null
   },
   "https://github.com/JamesGallicchio/LeanColls": {
@@ -204,11 +200,16 @@
     "lake_timeout": null
   },
   "https://github.com/lean-ja/lean-by-example": {
-    "counts": {},
-    "new_leaf_commit": false,
-    "start_processing_time": null,
-    "end_processing_time": null,
-    "total_processing_time": null,
+    "counts": {
+      "2b9b611d914d31a7dd1c56ae725b06d98db82c86": {
+        "count": 16,
+        "count_new": 0
+      }
+    },
+    "new_leaf_commit": true,
+    "start_processing_time": "2025-04-08T01:10:02.979552+00:00",
+    "end_processing_time": "2025-04-08T01:13:30.996485+00:00",
+    "total_processing_time": "3m 28s",
     "lake_timeout": null
   },
   "https://github.com/leanprover-community/tutorials4": {
@@ -221,10 +222,10 @@
   },
   "https://github.com/leanprover-community/sphere-eversion": {
     "counts": {},
-    "new_leaf_commit": true,
-    "start_processing_time": "2025-04-06T01:01:01.178862+00:00",
-    "end_processing_time": "2025-04-06T01:06:31.845728+00:00",
-    "total_processing_time": "5m 30s",
+    "new_leaf_commit": false,
+    "start_processing_time": null,
+    "end_processing_time": null,
+    "total_processing_time": null,
     "lake_timeout": null
   },
   "https://github.com/leanprover-community/quote4": {
@@ -269,10 +270,10 @@
   },
   "https://github.com/leanprover-community/iris-lean": {
     "counts": {},
-    "new_leaf_commit": true,
-    "start_processing_time": "2025-04-06T01:06:32.886685+00:00",
-    "end_processing_time": "2025-04-06T01:07:39.807806+00:00",
-    "total_processing_time": "1m 6s",
+    "new_leaf_commit": false,
+    "start_processing_time": null,
+    "end_processing_time": null,
+    "total_processing_time": null,
     "lake_timeout": null
   },
   "https://github.com/leanprover-community/NNG4": {
@@ -286,22 +287,17 @@
   "https://github.com/leanprover-community/flt-regular": {
     "counts": {},
     "new_leaf_commit": true,
-    "start_processing_time": "2025-04-06T01:07:40.201303+00:00",
-    "end_processing_time": "2025-04-06T01:12:15.997214+00:00",
-    "total_processing_time": "4m 35s",
+    "start_processing_time": "2025-04-08T01:13:32.969054+00:00",
+    "end_processing_time": "2025-04-08T01:17:49.688868+00:00",
+    "total_processing_time": "4m 16s",
     "lake_timeout": null
   },
   "https://github.com/leanprover-community/duper": {
-    "counts": {
-      "4f71a99b24c1b6dc946f258ff94afec41f24ee2d": {
-        "count": 3,
-        "count_new": 0
-      }
-    },
-    "new_leaf_commit": true,
-    "start_processing_time": "2025-04-06T01:12:16.138534+00:00",
-    "end_processing_time": "2025-04-06T01:22:38.184701+00:00",
-    "total_processing_time": "10m 22s",
+    "counts": {},
+    "new_leaf_commit": false,
+    "start_processing_time": null,
+    "end_processing_time": null,
+    "total_processing_time": null,
     "lake_timeout": null
   },
   "https://github.com/leanprover-community/con-nf": {
@@ -314,15 +310,27 @@
   },
   "https://github.com/leanprover-community/batteries": {
     "counts": {
-      "24081084144be88e6872b53f3b0bc57dd3f141e7": {
+      "6c611968fc60c75bbf53cfc5dfcb6d83201c9dc1": {
+        "count": 4,
+        "count_new": 0
+      },
+      "214cc795dd122b7695575186d89c7eed1ac9d06d": {
+        "count": 4,
+        "count_new": 0
+      },
+      "f1a7afdb343196b33bf9137b232eb69446065925": {
+        "count": 4,
+        "count_new": 0
+      },
+      "15ac7942db324d9a60b67a7dba01378dee771a43": {
         "count": 4,
         "count_new": 0
       }
     },
     "new_leaf_commit": true,
-    "start_processing_time": "2025-04-06T01:22:38.570846+00:00",
-    "end_processing_time": "2025-04-06T01:28:48.220268+00:00",
-    "total_processing_time": "6m 9s",
+    "start_processing_time": "2025-04-08T01:17:50.247634+00:00",
+    "end_processing_time": "2025-04-08T01:32:38.713363+00:00",
+    "total_processing_time": "14m 48s",
     "lake_timeout": null
   },
   "https://github.com/leanprover-community/lean-auto": {
@@ -343,18 +351,18 @@
   },
   "https://github.com/leanprover/verso": {
     "counts": {},
-    "new_leaf_commit": false,
-    "start_processing_time": null,
-    "end_processing_time": null,
-    "total_processing_time": null,
+    "new_leaf_commit": true,
+    "start_processing_time": "2025-04-08T01:32:39.275413+00:00",
+    "end_processing_time": "2025-04-08T01:36:49.407445+00:00",
+    "total_processing_time": "4m 10s",
     "lake_timeout": null
   },
   "https://github.com/leanprover/reference-manual": {
     "counts": {},
-    "new_leaf_commit": false,
-    "start_processing_time": null,
-    "end_processing_time": null,
-    "total_processing_time": null,
+    "new_leaf_commit": true,
+    "start_processing_time": "2025-04-08T01:36:49.564369+00:00",
+    "end_processing_time": "2025-04-08T01:39:31.535569+00:00",
+    "total_processing_time": "2m 41s",
     "lake_timeout": null
   },
   "https://github.com/leanprover/doc-gen4": {
@@ -375,10 +383,10 @@
   },
   "https://github.com/lecopivo/SciLean": {
     "counts": {},
-    "new_leaf_commit": false,
-    "start_processing_time": null,
-    "end_processing_time": null,
-    "total_processing_time": null,
+    "new_leaf_commit": true,
+    "start_processing_time": "2025-04-08T01:39:32.041958+00:00",
+    "end_processing_time": "2025-04-08T01:49:38.987192+00:00",
+    "total_processing_time": "10m 6s",
     "lake_timeout": null
   },
   "https://github.com/loganrjmurphy/LeanEuclid": {
@@ -391,10 +399,10 @@
   },
   "https://github.com/marcusrossel/lean-egg": {
     "counts": {},
-    "new_leaf_commit": false,
-    "start_processing_time": null,
-    "end_processing_time": null,
-    "total_processing_time": null,
+    "new_leaf_commit": true,
+    "start_processing_time": "2025-04-08T01:49:39.370809+00:00",
+    "end_processing_time": "2025-04-08T01:49:51.793722+00:00",
+    "total_processing_time": "12s",
     "lake_timeout": null
   },
   "https://github.com/mo271/FormalBook": {
@@ -407,10 +415,10 @@
   },
   "https://github.com/NethermindEth/EVMYulLean": {
     "counts": {},
-    "new_leaf_commit": false,
-    "start_processing_time": null,
-    "end_processing_time": null,
-    "total_processing_time": null,
+    "new_leaf_commit": true,
+    "start_processing_time": "2025-04-08T01:49:52.171154+00:00",
+    "end_processing_time": "2025-04-08T01:52:33.619355+00:00",
+    "total_processing_time": "2m 41s",
     "lake_timeout": null
   },
   "https://github.com/nomeata/loogle": {
@@ -431,26 +439,31 @@
   },
   "https://github.com/Paper-Proof/paperproof": {
     "counts": {},
-    "new_leaf_commit": false,
-    "start_processing_time": null,
-    "end_processing_time": null,
-    "total_processing_time": null,
+    "new_leaf_commit": true,
+    "start_processing_time": "2025-04-08T01:52:34.172877+00:00",
+    "end_processing_time": "2025-04-08T01:54:38.914309+00:00",
+    "total_processing_time": "2m 4s",
     "lake_timeout": null
   },
   "https://github.com/PatrickMassot/verbose-lean4": {
     "counts": {},
-    "new_leaf_commit": false,
-    "start_processing_time": null,
-    "end_processing_time": null,
-    "total_processing_time": null,
+    "new_leaf_commit": true,
+    "start_processing_time": "2025-04-08T01:54:39.054262+00:00",
+    "end_processing_time": "2025-04-08T01:58:13.800422+00:00",
+    "total_processing_time": "3m 34s",
     "lake_timeout": null
   },
   "https://github.com/PatrickMassot/GlimpseOfLean": {
-    "counts": {},
-    "new_leaf_commit": false,
-    "start_processing_time": null,
-    "end_processing_time": null,
-    "total_processing_time": null,
+    "counts": {
+      "a84b4daae32cae02894378145115cc503d53c248": {
+        "count": 107,
+        "count_new": 90
+      }
+    },
+    "new_leaf_commit": true,
+    "start_processing_time": "2025-04-08T01:58:13.951654+00:00",
+    "end_processing_time": "2025-04-08T02:01:57.388605+00:00",
+    "total_processing_time": "3m 43s",
     "lake_timeout": null
   },
   "https://github.com/pitmonticone/LeanProject": {
@@ -512,9 +525,9 @@
   "https://github.com/teorth/equational_theories": {
     "counts": {},
     "new_leaf_commit": true,
-    "start_processing_time": "2025-04-06T01:28:52.526854+00:00",
-    "end_processing_time": "2025-04-06T01:47:18.086108+00:00",
-    "total_processing_time": "18m 25s",
+    "start_processing_time": "2025-04-08T02:01:58.788264+00:00",
+    "end_processing_time": "2025-04-08T02:21:57.029379+00:00",
+    "total_processing_time": "19m 58s",
     "lake_timeout": null
   },
   "https://github.com/Timeroot/ComputableReal": {
