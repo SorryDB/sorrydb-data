@@ -24,7 +24,8 @@ docker run \
   --memory-swap=10g \
   --mount type=bind,source=/home/austin/development/lean/sorry-index/sorry-db-data,target=/data \
   sorrydb:latest \
-  poetry run update_db --database-file /data/sorry_database.json --stats-file /data/update_database_stats.json --log-file "/data/logs/${LOG_FILE}"
+  sh -c "poetry run update_db --database-file /data/sorry_database.json --stats-file /data/update_database_stats.json --log-file \"/data/logs/${LOG_FILE}\" \
+    && poetry run deduplicate_db --database-file /data/sorry_database.json --results-file /data/deduplicated_sorries.json --log-file \"/data/logs/${LOG_FILE}\""
 
 # Get current timestamp
 CURRENT_TIME=$(date "+%Y-%m-%d %H:%M:%S")
