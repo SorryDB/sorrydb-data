@@ -8303,7 +8303,7 @@
     "repo": {
       "remote": "https://github.com/leanprover-community/batteries",
       "branch": "docs",
-      "commit": "3371b243ac747ea12433343b17b93e5eb64337bf",
+      "commit": "e119df7e78d94b18b34067db93e8fc0d448d696f",
       "lean_version": "v4.19.0-rc2"
     },
     "location": {
@@ -8315,20 +8315,20 @@
     },
     "debug_info": {
       "goal": "\u03b1 : Type u_1\ninst\u271d : Mul \u03b1\na x y : \u03b1\u1d50\u1d52\u1d56\n\u22a2 SemiconjBy a.unop y.unop x.unop \u2194 SemiconjBy a x y",
-      "url": "https://github.com/leanprover-community/batteries/blob/3371b243ac747ea12433343b17b93e5eb64337bf/BatteriesTest/lintsimp.lean#L37"
+      "url": "https://github.com/leanprover-community/batteries/blob/e119df7e78d94b18b34067db93e8fc0d448d696f/BatteriesTest/lintsimp.lean#L37"
     },
     "metadata": {
       "blame_email_hash": "8a7dcd08b95f",
       "blame_date": "2022-12-18T15:51:52-05:00",
-      "inclusion_date": "2025-04-18T23:34:18.435224+00:00"
+      "inclusion_date": "2025-04-19T23:12:57.296938+00:00"
     },
-    "id": "728b603ec2771ca5f715d536c068e47f84be2bd3a258b8d99a7a01999ec1acab"
+    "id": "e1542347fe5e9dc2a40d2cac899422d0df37bc4c913cc2e3cc593c04ffb7a65d"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/batteries",
       "branch": "docs",
-      "commit": "3371b243ac747ea12433343b17b93e5eb64337bf",
+      "commit": "e119df7e78d94b18b34067db93e8fc0d448d696f",
       "lean_version": "v4.19.0-rc2"
     },
     "location": {
@@ -8340,20 +8340,20 @@
     },
     "debug_info": {
       "goal": "h : 1 = 1\n\u22a2 True",
-      "url": "https://github.com/leanprover-community/batteries/blob/3371b243ac747ea12433343b17b93e5eb64337bf/BatteriesTest/lintunused.lean#L7"
+      "url": "https://github.com/leanprover-community/batteries/blob/e119df7e78d94b18b34067db93e8fc0d448d696f/BatteriesTest/lintunused.lean#L7"
     },
     "metadata": {
       "blame_email_hash": "45b5ed8e3c8e",
       "blame_date": "2023-08-08T02:17:31+02:00",
-      "inclusion_date": "2025-04-18T23:34:18.435224+00:00"
+      "inclusion_date": "2025-04-19T23:12:57.296938+00:00"
     },
-    "id": "d60abb02c5e2a92c73da9980f0d129899340e3c1d3ef688a07312015d51a7236"
+    "id": "717a60f83b722fc9c02985514b6197506a8d59af6ee5a6c5939ff166aa9eedd4"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/batteries",
       "branch": "docs",
-      "commit": "3371b243ac747ea12433343b17b93e5eb64337bf",
+      "commit": "e119df7e78d94b18b34067db93e8fc0d448d696f",
       "lean_version": "v4.19.0-rc2"
     },
     "location": {
@@ -8365,20 +8365,20 @@
     },
     "debug_info": {
       "goal": "\u22a2 1 = 1",
-      "url": "https://github.com/leanprover-community/batteries/blob/3371b243ac747ea12433343b17b93e5eb64337bf/BatteriesTest/lint_unreachableTactic.lean#L23"
+      "url": "https://github.com/leanprover-community/batteries/blob/e119df7e78d94b18b34067db93e8fc0d448d696f/BatteriesTest/lint_unreachableTactic.lean#L23"
     },
     "metadata": {
       "blame_email_hash": "45b5ed8e3c8e",
       "blame_date": "2023-08-26T11:27:15+01:00",
-      "inclusion_date": "2025-04-18T23:34:18.435224+00:00"
+      "inclusion_date": "2025-04-19T23:12:57.296938+00:00"
     },
-    "id": "564865696e74329a26ead4aa15a36bf54b5cd25609e8bc9f4be9c1350f1c8cd2"
+    "id": "7930ba36e981d8f34ca02e2b2f69267e90a25f50622363404251df0a48d390fd"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/batteries",
       "branch": "docs",
-      "commit": "3371b243ac747ea12433343b17b93e5eb64337bf",
+      "commit": "e119df7e78d94b18b34067db93e8fc0d448d696f",
       "lean_version": "v4.19.0-rc2"
     },
     "location": {
@@ -8390,14 +8390,14 @@
     },
     "debug_info": {
       "goal": "aa : Nat\n\u22a2 aa = 0 \u2192 t aa = 0",
-      "url": "https://github.com/leanprover-community/batteries/blob/3371b243ac747ea12433343b17b93e5eb64337bf/BatteriesTest/lint_unreachableTactic.lean#L31"
+      "url": "https://github.com/leanprover-community/batteries/blob/e119df7e78d94b18b34067db93e8fc0d448d696f/BatteriesTest/lint_unreachableTactic.lean#L31"
     },
     "metadata": {
       "blame_email_hash": "45b5ed8e3c8e",
       "blame_date": "2023-08-26T11:27:15+01:00",
-      "inclusion_date": "2025-04-18T23:34:18.435224+00:00"
+      "inclusion_date": "2025-04-19T23:12:57.296938+00:00"
     },
-    "id": "37f7065a0a75081e5a32124253bee373ab360b30e25fe65705fe1957c4fab245"
+    "id": "5ae592af575f9d39b38ea75b4736d6928de37f3222ef742a839097c4ac96f47c"
   },
   {
     "repo": {
