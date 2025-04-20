@@ -1,0 +1,2502 @@
+[
+  {
+    "repo": {
+      "remote": "https://github.com/dwrensha/compfiles",
+      "branch": "main",
+      "commit": "fa63371f54d5353ab86e7e2b97473832c417e5ba",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 32,
+      "start_column": 2,
+      "end_line": 32,
+      "end_column": 7,
+      "file": "Compfiles/Imo2020P3.lean"
+    },
+    "debug_info": {
+      "goal": "n : \u2115\nc : Fin (4 * n) \u2192 Fin n\nh : \u2200 (i : Fin n), #{j | c j = i} = 4\n\u22a2 \u2203 S, \u2211 i \u2208 S, (\u2191i + 1) = \u2211 i \u2208 S\u1d9c, (\u2191i + 1) \u2227 \u2200 (i : Fin n), #({j \u2208 S | c j = i}) = 2",
+      "url": "https://github.com/dwrensha/compfiles/blob/fa63371f54d5353ab86e7e2b97473832c417e5ba/Compfiles/Imo2020P3.lean#L32"
+    },
+    "metadata": {
+      "blame_email_hash": "acdd9d7e744e",
+      "blame_date": "2025-04-08T13:09:24-04:00",
+      "inclusion_date": "2025-04-12T23:25:20.561445+00:00"
+    },
+    "id": "70eb82b882388275af62794a7d8761678aee0776c17f603eefa6183ecd229e75"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/FormalizedFormalLogic/Foundation",
+      "branch": "SnO2WMaN/issue323",
+      "commit": "2d0d958822ddfb22e58f2cb6266a52f3bb219fff",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "start_line": 24,
+      "start_column": 63,
+      "end_line": 24,
+      "end_column": 68,
+      "file": "Foundation/ProvabilityLogic/Grz/Completeness.lean"
+    },
+    "debug_info": {
+      "goal": "\u03b1 : Type ?u.2318\ninst\u271d : DecidableEq \u03b1\nl : List \u03b1\nx y : \u03b1\nn : \u2115\n\u22a2 Chain (fun x1 x2 => x1 < x2) 0 (range n)",
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2d0d958822ddfb22e58f2cb6266a52f3bb219fff/Foundation/ProvabilityLogic/Grz/Completeness.lean#L24"
+    },
+    "metadata": {
+      "blame_email_hash": "165d0178d95d",
+      "blame_date": "2025-04-13T21:16:44+09:00",
+      "inclusion_date": "2025-04-13T23:27:10.210093+00:00"
+    },
+    "id": "650ac9f6087ca15b30b5b57ba9fe78e3a6c2e98a039aacf7b7d25d28e31b8a9d"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/fpvandoorn/carleson",
+      "branch": "MR-generalise-weaktype",
+      "commit": "d6273ee1eced7a38fd1d3db0010c6c7ab14b5316",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 79,
+      "start_column": 43,
+      "end_line": 79,
+      "end_column": 48,
+      "file": "Carleson/ToMathlib/ENorm.lean"
+    },
+    "debug_info": {
+      "goal": "\u03b5 : Type u_9\n\u03b5' : Type u_10\ninst\u271d\u00b3 : TopologicalSpace \u03b5\ninst\u271d\u00b2 : ContinuousENorm \u03b5\ninst\u271d\u00b9 : TopologicalSpace \u03b5'\ninst\u271d : ContinuousENorm \u03b5'\n\u03b1 : Type u_11\nm0 : MeasurableSpace \u03b1\n\u03bc : Measure \u03b1\nf : \u03b1 \u2192 \u03b5\ng : \u03b1 \u2192 \u03b5'\nc : \u211d\u22650\nh : \u2200\u1d50 (x : \u03b1) \u2202\u03bc, \u2016f x\u2016\u2091 \u2264 \u2191c * \u2016g x\u2016\u2091\np : \u211d\nhp : 0 < p\n\u22a2 eLpNorm' f p \u03bc \u2264 c \u2022 eLpNorm' g p \u03bc",
+      "url": "https://github.com/fpvandoorn/carleson/blob/d6273ee1eced7a38fd1d3db0010c6c7ab14b5316/Carleson/ToMathlib/ENorm.lean#L79"
+    },
+    "metadata": {
+      "blame_email_hash": "13ebe891461f",
+      "blame_date": "2025-04-05T21:50:03+02:00",
+      "inclusion_date": "2025-04-05T23:48:05.381022+00:00"
+    },
+    "id": "81c61f87d56a75a64a440ada9e33545c4d24b088778c74663b9d71ad5e93debf"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ImperialCollegeLondon/FLT",
+      "branch": "kbuzzard-topology-experiments",
+      "commit": "0154f974209547c3aca34ba45310bdb785a6d13b",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 148,
+      "start_column": 2,
+      "end_line": 148,
+      "end_column": 7,
+      "file": "FLT/QuaternionAlgebra/NumberField.lean"
+    },
+    "debug_info": {
+      "goal": "m : Type u_3\n\u03b1 : Type u_4\n\u03b2 : Type u_5\ninst\u271d\u2075 : Fintype m\ninst\u271d\u2074 : DecidableEq m\ninst\u271d\u00b3 : NonAssocSemiring \u03b1\ninst\u271d\u00b2 : NonAssocSemiring \u03b2\ninst\u271d\u00b9 : TopologicalSpace \u03b1\ninst\u271d : TopologicalSpace \u03b2\nf : \u03b1 \u2192+* \u03b2\nhf : Topology.IsOpenEmbedding \u21d1f\n\u22a2 IsOpenMap \u21d1f.mapMatrix",
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/0154f974209547c3aca34ba45310bdb785a6d13b/FLT/QuaternionAlgebra/NumberField.lean#L148"
+    },
+    "metadata": {
+      "blame_email_hash": "6a0fe98fa9e8",
+      "blame_date": "2025-04-14T10:40:13-04:00",
+      "inclusion_date": "2025-04-15T00:32:26.311805+00:00"
+    },
+    "id": "47e1be26d6aab916d27553170f755f5e0fea0491529dcb4535fcfdb07b6e776b"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/quote4",
+      "branch": "stable",
+      "commit": "0e05c2f090b7dd7a2f530bdc48a26b546f4837c7",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 16,
+      "start_column": 18,
+      "end_line": 16,
+      "end_column": 23,
+      "file": "examples/introQ.lean"
+    },
+    "debug_info": {
+      "goal": "\u00ab$P\u00bb : \u2200 {n : Nat}, n = 1\n$fst\u271d : Nat\n\u00ab$m\u00bb : $fst\u271d = 1\n\u22a2 $fst\u271d = 1",
+      "url": "https://github.com/leanprover-community/quote4/blob/0e05c2f090b7dd7a2f530bdc48a26b546f4837c7/examples/introQ.lean#L16"
+    },
+    "metadata": {
+      "blame_email_hash": "1c4ac4603b04",
+      "blame_date": "2023-07-14T18:25:43-07:00",
+      "inclusion_date": "2025-04-01T06:53:57.698796+00:00"
+    },
+    "id": "4a596dc45a099ab4825721aa3116636a61dedcf62aa39d13f71a9d0257939471"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/duper",
+      "branch": "dev",
+      "commit": "e28c4e11389116ccb6a48ff0fe9c3d1a9d7642e4",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 18,
+      "start_column": 50,
+      "end_line": 18,
+      "end_column": 55,
+      "file": "Duper/Tests/test_continuity.lean"
+    },
+    "debug_info": {
+      "goal": "a : Real\n\u22a2 dist a a = zero",
+      "url": "https://github.com/leanprover-community/duper/blob/e28c4e11389116ccb6a48ff0fe9c3d1a9d7642e4/Duper/Tests/test_continuity.lean#L18"
+    },
+    "metadata": {
+      "blame_email_hash": "4ac7eab8a488",
+      "blame_date": "2023-06-05T10:39:00+02:00",
+      "inclusion_date": "2025-04-17T23:35:43.089654+00:00"
+    },
+    "id": "b966b1b22abc4e5fcbce08d9256b604f5cc81bbbb6813fc17f9fd07bbfad6965"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/batteries",
+      "branch": "docs",
+      "commit": "e119df7e78d94b18b34067db93e8fc0d448d696f",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 23,
+      "start_column": 2,
+      "end_line": 24,
+      "end_column": 5,
+      "file": "BatteriesTest/lint_unreachableTactic.lean"
+    },
+    "debug_info": {
+      "goal": "\u22a2 1 = 1",
+      "url": "https://github.com/leanprover-community/batteries/blob/e119df7e78d94b18b34067db93e8fc0d448d696f/BatteriesTest/lint_unreachableTactic.lean#L23"
+    },
+    "metadata": {
+      "blame_email_hash": "45b5ed8e3c8e",
+      "blame_date": "2023-08-26T11:27:15+01:00",
+      "inclusion_date": "2025-04-19T23:12:57.296938+00:00"
+    },
+    "id": "7930ba36e981d8f34ca02e2b2f69267e90a25f50622363404251df0a48d390fd"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/aesop",
+      "branch": "rpinf-precomp",
+      "commit": "dd78c1426f5fc783ec1ba23ad769471cc69bb8b4",
+      "lean_version": "v4.17.0-rc1"
+    },
+    "location": {
+      "start_line": 103,
+      "start_column": 12,
+      "end_line": 103,
+      "end_column": 17,
+      "file": "AesopTest/ExtScript.lean"
+    },
+    "debug_info": {
+      "goal": "case a\n\u03b1 \u03b2 \u03b3 \u03b4 \u03b9 : Type\nx y : T\n\u22a2 u = v",
+      "url": "https://github.com/leanprover-community/aesop/blob/dd78c1426f5fc783ec1ba23ad769471cc69bb8b4/AesopTest/ExtScript.lean#L103"
+    },
+    "metadata": {
+      "blame_email_hash": "555bc3b21621",
+      "blame_date": "2024-09-10T21:14:20+02:00",
+      "inclusion_date": "2025-04-11T00:07:12.176717+00:00"
+    },
+    "id": "7c57f355a27694db1d671e93d37daeaef694c70087489db22c8e6ee6fdd504fc"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/YaelDillies/LeanCamCombi",
+      "branch": "master",
+      "commit": "5df79658756ef6d112f2464eec3aece31e35cc83",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 46,
+      "start_column": 75,
+      "end_line": 46,
+      "end_column": 80,
+      "file": "LeanCamCombi/ExtrProbCombi/BinomialRandomGraph.lean"
+    },
+    "debug_info": {
+      "goal": "\u03b1 : Type u_1\n\u03a9 : Type u_2\ninst\u271d : MeasurableSpace \u03a9\nG : \u03a9 \u2192 SimpleGraph \u03b1\np : \u211d\u22650\n\u03bc : Measure \u03a9\nhG : IsBinomialRandomGraph G p \u03bc\n\u22a2 iIndepFun (fun e \u03c9 => e \u2208 (G \u03c9).edgeSet) \u03bc",
+      "url": "https://github.com/YaelDillies/LeanCamCombi/blob/5df79658756ef6d112f2464eec3aece31e35cc83/LeanCamCombi/ExtrProbCombi/BinomialRandomGraph.lean#L46"
+    },
+    "metadata": {
+      "blame_email_hash": "97e8591fe714",
+      "blame_date": "2025-03-06T17:45:28+00:00",
+      "inclusion_date": "2025-04-18T00:01:05.296811+00:00"
+    },
+    "id": "46b51bb59c19a979862a472d54fe0443db1e06fd4900df7d9725c480a4a05693"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "AK_work",
+      "commit": "4250adfc9aab5e09d276549d7a645627cb2dce39",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 353,
+      "start_column": 23,
+      "end_line": 353,
+      "end_column": 28,
+      "file": "PrimeNumberTheoremAnd/MediumPNT.lean"
+    },
+    "debug_info": {
+      "goal": "SmoothingF : \u211d \u2192 \u211d\ndiffSmoothingF : ContDiff \u211d 1 SmoothingF\nsuppSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\nX : \u211d\nC : \u211d := sorry\n\u22a2 3 < C",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/4250adfc9aab5e09d276549d7a645627cb2dce39/PrimeNumberTheoremAnd/MediumPNT.lean#L353"
+    },
+    "metadata": {
+      "blame_email_hash": "4bcdc021face",
+      "blame_date": "2025-03-08T10:26:01-05:00",
+      "inclusion_date": "2025-04-15T23:18:41.650749+00:00"
+    },
+    "id": "7cd7f714bb60d5fceb755f385d9fc4575549abc79bdfff0a0cd095a8765828dd"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/emilyriehl/infinity-cosmos",
+      "branch": "main",
+      "commit": "bf1885e46ff0fde2a1cde218001d9b90307f4224",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "start_line": 133,
+      "start_column": 50,
+      "end_line": 133,
+      "end_column": 55,
+      "file": "InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean"
+    },
+    "debug_info": {
+      "goal": "A : SSet\nf\u271d g\u271d f g h : A _\u298b1\u298c\nH\u2081 : HomotopyL f g\nH\u2082 : HomotopyL f h\n\u03c3 : Subpresheaf.toPresheaf \u039b[3, 1] \u27f6 A := sorry\n\u03c4 : A _\u298b3\u298c := sorry\n\u22a2 SimplicialObject.\u03b4 A 0 \u03c4 = (SimplicialObject.\u03b4 A 0 \u226b SimplicialObject.\u03c3 A 0 \u226b SimplicialObject.\u03c3 A 0) g",
+      "url": "https://github.com/emilyriehl/infinity-cosmos/blob/bf1885e46ff0fde2a1cde218001d9b90307f4224/InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean#L133"
+    },
+    "metadata": {
+      "blame_email_hash": "f0d6831918ab",
+      "blame_date": "2024-12-17T23:14:43+01:00",
+      "inclusion_date": "2025-04-03T01:40:20.137259+00:00"
+    },
+    "id": "cfd3dc29049763dfb7ec03d093b090ff50e67fd456005bc3a48eb351e6a948c3"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/frenzymath/jixia",
+      "branch": "main",
+      "commit": "e6d1448771f53b540a450fdf5180f1217efaaab8",
+      "lean_version": "v4.16.0"
+    },
+    "location": {
+      "start_line": 82,
+      "start_column": 55,
+      "end_line": 82,
+      "end_column": 60,
+      "file": "Example.lean"
+    },
+    "debug_info": {
+      "goal": "\u03b1 : Type u\n\u22a2 \u00acnone.IsSome",
+      "url": "https://github.com/frenzymath/jixia/blob/e6d1448771f53b540a450fdf5180f1217efaaab8/Example.lean#L82"
+    },
+    "metadata": {
+      "blame_email_hash": "aa8cba96a488",
+      "blame_date": "2024-06-20T19:17:07+08:00",
+      "inclusion_date": "2025-04-17T23:34:54.132174+00:00"
+    },
+    "id": "fb6b54e94ab974a1669ade99e27f8f182289c98744606a2a314245d519821c12"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/lean-ja/lean-by-example",
+      "branch": "main",
+      "commit": "3ebe85bea550147ea661babd12b968bf8e97a7ed",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 115,
+      "start_column": 2,
+      "end_line": 115,
+      "end_column": 7,
+      "file": "LeanByExample/Tactic/Ring.lean"
+    },
+    "debug_info": {
+      "goal": "m n : MyNat\n\u22a2 n * (n + m) = n * n + n * m",
+      "url": "https://github.com/lean-ja/lean-by-example/blob/3ebe85bea550147ea661babd12b968bf8e97a7ed/LeanByExample/Tactic/Ring.lean#L115"
+    },
+    "metadata": {
+      "blame_email_hash": "a84937a2d49e",
+      "blame_date": "2025-02-17T22:51:43+09:00",
+      "inclusion_date": "2025-04-13T23:49:22.692160+00:00"
+    },
+    "id": "6ac5c29f24a3d2073f45d3561bcfa69e5449133c0a3b6e198de77518f3f9c971"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/teorth/pfr",
+      "branch": "master",
+      "commit": "0010cb5c36c6605a2d0e957390ab4955e6c9e3ff",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 36,
+      "start_column": 79,
+      "end_line": 36,
+      "end_column": 84,
+      "file": "PFR/BoundingMutual.lean"
+    },
+    "debug_info": {
+      "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Type u\nh\u03a9 : MeasureSpace \u03a9\nX : Fin p.m \u2192 \u03a9 \u2192 G\nh_indep : iIndepFun X \u2119\nh_min : multiTauMinimizes p (fun x => \u03a9) (fun x => h\u03a9) X\n\u03a9' : Type u_1\ninst\u271d : MeasureSpace \u03a9'\nX' : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh_indep' : iIndepFun X' \u2119\nhperm : \u2200 (j : Fin p.m), \u2203 e, IdentDistrib (fun \u03c9 i => X' (i, j) \u03c9) (fun \u03c9 i => X (e i) \u03c9) \u2119 \u2119\n\u22a2 I[fun \u03c9 j => \u2211 i, X' (i, j) \u03c9 : fun \u03c9 i => \u2211 j, X' (i, j) \u03c9|fun \u03c9 => \u2211 i, \u2211 j, X' (i, j) \u03c9] \u2264\n    4 * \u2191p.m ^ 2 * p.\u03b7 * D[X ; fun x => h\u03a9]",
+      "url": "https://github.com/teorth/pfr/blob/0010cb5c36c6605a2d0e957390ab4955e6c9e3ff/PFR/BoundingMutual.lean#L36"
+    },
+    "metadata": {
+      "blame_email_hash": "7d87c0724495",
+      "blame_date": "2025-03-07T08:53:46+01:00",
+      "inclusion_date": "2025-04-05T02:25:45.802608+00:00"
+    },
+    "id": "1bbff35f827b226473c16ec439932d644591efee74849ae8e1338c81a2fe5eeb"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "arend/poly",
+      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 267,
+      "start_column": 73,
+      "end_line": 267,
+      "end_column": 78,
+      "file": "Mathlib/Tactic/Algebra.lean"
+    },
+    "debug_info": {
+      "goal": "\u00ab$u\u00bb \u00ab$v\u00bb \u00ab$w\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$R\u2081\u00bb : Type v\n\u00ab$R\u2082\u00bb : Type w\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$sR\u2081\u00bb : CommSemiring \u00ab$R\u2081\u00bb\n\u00ab$sRA\u2081\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n\u00ab$sR\u2082\u00bb : CommSemiring \u00ab$R\u2082\u00bb\n\u00ab$sRA\u2082\u00bb : Algebra \u00ab$R\u2082\u00bb \u00ab$A\u00bb\n\u00ab$r\u2081\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$r\u2082\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$a\u2081\u00bb \u00ab$a\u2082\u00bb : \u00ab$A\u00bb\n\u00ab$pf_isNat_zero\u00bb : NormNum.IsNat (\u00ab$a\u2081\u00bb + \u00ab$a\u2082\u00bb) 0\n\u22a2 1 \u2022 \u00ab$a\u2081\u00bb + 1 \u2022 \u00ab$a\u2082\u00bb = 1 \u2022 0",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L267"
+    },
+    "metadata": {
+      "blame_email_hash": "677e25bc67b0",
+      "blame_date": "2025-04-14T17:07:18+02:00",
+      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+    },
+    "id": "3f78f6436b79d4f9920d80e3c666ec2d11b19a8aa4fc0c36e76159ad2f67c16d"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/PatrickMassot/GlimpseOfLean",
+      "branch": "master",
+      "commit": "435db8d6c9b3c72e68e0fcf95563921a3e17c88b",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 54,
+      "start_column": 2,
+      "end_line": 54,
+      "end_column": 7,
+      "file": "GlimpseOfLean/Exercises/Topics/Probability.lean"
+    },
+    "debug_info": {
+      "goal": "\u03a9 : Type\ninst\u271d\u00b9 : MeasureSpace \u03a9\ninst\u271d : IsProbabilityMeasure \u2119\nA B : Set \u03a9\n\u22a2 IndepSet A B \u2192 IndepSet B A",
+      "url": "https://github.com/PatrickMassot/GlimpseOfLean/blob/435db8d6c9b3c72e68e0fcf95563921a3e17c88b/GlimpseOfLean/Exercises/Topics/Probability.lean#L54"
+    },
+    "metadata": {
+      "blame_email_hash": "369c5f9cb018",
+      "blame_date": "2025-03-07T14:30:17+01:00",
+      "inclusion_date": "2025-04-16T23:24:19.102810+00:00"
+    },
+    "id": "2f9731105fae795b1ca7739f54772f72f05c51adec11b26fa333257973f8fd31"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/nomeata/loogle",
+      "branch": "master",
+      "commit": "b340a5b73a68fd54d624ac1f9c025c11f638bb53",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 102,
+      "start_column": 2,
+      "end_line": 102,
+      "end_column": 7,
+      "file": "Tests.lean"
+    },
+    "debug_info": {
+      "goal": "n m : Nat\n\u22a2 List.replicate (2 * n) () = List.replicate n () ++ List.replicate n ()",
+      "url": "https://github.com/nomeata/loogle/blob/b340a5b73a68fd54d624ac1f9c025c11f638bb53/Tests.lean#L102"
+    },
+    "metadata": {
+      "blame_email_hash": "1e9dd229978a",
+      "blame_date": "2023-11-11T14:02:18+01:00",
+      "inclusion_date": "2025-04-14T00:17:19.239440+00:00"
+    },
+    "id": "568abb06ec8e089d6c8f26eee9d0f75ef985ded6e40ac5c66ad644307715bf6d"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/Verified-zkEVM/ZKLib",
+      "branch": "main",
+      "commit": "7b2a35da9cc686c666671ac006d1c2ec4757302c",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 80,
+      "start_column": 4,
+      "end_line": 80,
+      "end_column": 9,
+      "file": "ZKLib/OracleReduction/Equiv.lean"
+    },
+    "debug_info": {
+      "goal": "case h.h.none\n\u22a2 (evalDist (OptionT.bind (liftM (query 1 ())) (OptionT.pure \u2218 fun a => (0, \u2191a)))) none =\n    \u2211' (a : Fin 2), 2\u207b\u00b9 * (evalDist (OptionT.bind (liftM (query 0 ())) (OptionT.pure \u2218 fun a_1 => (0, \u2191a)))) none",
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b2a35da9cc686c666671ac006d1c2ec4757302c/ZKLib/OracleReduction/Equiv.lean#L80"
+    },
+    "metadata": {
+      "blame_email_hash": "d0850777cf0b",
+      "blame_date": "2025-04-16T18:04:04-04:00",
+      "inclusion_date": "2025-04-18T23:50:11.233985+00:00"
+    },
+    "id": "823835bfcc90ee0fd00760af2e7d7f9fce5499acc786b30ffd39f17e433cdf47"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/dwrensha/compfiles",
+      "branch": "main",
+      "commit": "fa63371f54d5353ab86e7e2b97473832c417e5ba",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 36,
+      "start_column": 38,
+      "end_line": 36,
+      "end_column": 43,
+      "file": "Compfiles/Imo2010P3.lean"
+    },
+    "debug_info": {
+      "goal": "case h\ng : \u2124>0 \u2192 \u2124>0\nc : \u2124>0\nhc : \u2200 (x : \u2124>0), g x = x + c\nm n : \u2124>0\n\u22a2 (m + c + n) * (n + c + m) = (m + n + c) * (m + n + c)",
+      "url": "https://github.com/dwrensha/compfiles/blob/fa63371f54d5353ab86e7e2b97473832c417e5ba/Compfiles/Imo2010P3.lean#L36"
+    },
+    "metadata": {
+      "blame_email_hash": "acdd9d7e744e",
+      "blame_date": "2025-01-21T08:16:08-05:00",
+      "inclusion_date": "2025-04-12T23:25:20.561445+00:00"
+    },
+    "id": "94668c81e3549dfecb4822c85b43a18d85126a7d88d79f594fe3876d79f93f9a"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/FormalizedFormalLogic/Foundation",
+      "branch": "SnO2WMaN/issue323",
+      "commit": "2d0d958822ddfb22e58f2cb6266a52f3bb219fff",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "start_line": 34,
+      "start_column": 2,
+      "end_line": 34,
+      "end_column": 7,
+      "file": "Foundation/ProvabilityLogic/Grz/Completeness.lean"
+    },
+    "debug_info": {
+      "goal": "case intro\n\u03b1 : Type u_1\ninst\u271d\u00b2 : DecidableEq \u03b1\nR : \u03b1 \u2192 \u03b1 \u2192 Prop\ninst\u271d\u00b9 : DecidableEq \u03b1\ninst\u271d : IsTrans \u03b1 R\nl : List \u03b1\ni j : Fin l.length\nh : Chain' R l\neij : i \u2260 j\nnRij : \u00acR (l.get i) (l.get j)\nnRji : \u00acR (l.get j) (l.get i)\n\u22a2 False",
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2d0d958822ddfb22e58f2cb6266a52f3bb219fff/Foundation/ProvabilityLogic/Grz/Completeness.lean#L34"
+    },
+    "metadata": {
+      "blame_email_hash": "165d0178d95d",
+      "blame_date": "2025-04-13T21:16:44+09:00",
+      "inclusion_date": "2025-04-13T23:27:10.210093+00:00"
+    },
+    "id": "13f7907fcb967107aee729b6da7cf90baf7fbdc05eb71d1afb5150d435ec800b"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/fpvandoorn/carleson",
+      "branch": "MR-generalise-weaktype",
+      "commit": "d6273ee1eced7a38fd1d3db0010c6c7ab14b5316",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 83,
+      "start_column": 90,
+      "end_line": 83,
+      "end_column": 95,
+      "file": "Carleson/ToMathlib/ENorm.lean"
+    },
+    "debug_info": {
+      "goal": "\u03b5 : Type u_9\n\u03b5' : Type u_10\ninst\u271d\u00b3 : TopologicalSpace \u03b5\ninst\u271d\u00b2 : ContinuousENorm \u03b5\ninst\u271d\u00b9 : TopologicalSpace \u03b5'\ninst\u271d : ContinuousENorm \u03b5'\n\u03b1 : Type u_11\nm0 : MeasurableSpace \u03b1\n\u03bc : Measure \u03b1\nf : \u03b1 \u2192 \u03b5\ng : \u03b1 \u2192 \u03b5'\nc : \u211d\u22650\nh : \u2200\u1d50 (x : \u03b1) \u2202\u03bc, \u2016f x\u2016\u2091 \u2264 \u2191c * \u2016g x\u2016\u2091\n\u22a2 eLpNormEssSup f \u03bc \u2264 c \u2022 eLpNormEssSup g \u03bc",
+      "url": "https://github.com/fpvandoorn/carleson/blob/d6273ee1eced7a38fd1d3db0010c6c7ab14b5316/Carleson/ToMathlib/ENorm.lean#L83"
+    },
+    "metadata": {
+      "blame_email_hash": "13ebe891461f",
+      "blame_date": "2025-04-05T21:50:03+02:00",
+      "inclusion_date": "2025-04-05T23:48:05.381022+00:00"
+    },
+    "id": "b845d5c723853d801ec19af37505f118126947084cb0f03384055585a5e985fe"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ImperialCollegeLondon/FLT",
+      "branch": "kbuzzard-distribHaarChar-harder-results",
+      "commit": "b2cbce8e4933bae37a3a22712e17cf6467d25edd",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 25,
+      "start_column": 2,
+      "end_line": 25,
+      "end_column": 7,
+      "file": "FLT/HaarMeasure/DistribHaarChar/LessBasic.lean"
+    },
+    "debug_info": {
+      "goal": "R : Type u_1\ninst\u271d\u2075 : TopologicalSpace R\ninst\u271d\u2074 : LocallyCompactSpace R\ninst\u271d\u00b3 : CommRing R\ninst\u271d\u00b2 : IsTopologicalRing R\ninst\u271d\u00b9 : MeasurableSpace R\ninst\u271d : BorelSpace R\n\u22a2 Continuous \u21d1(distribHaarChar R)",
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/b2cbce8e4933bae37a3a22712e17cf6467d25edd/FLT/HaarMeasure/DistribHaarChar/LessBasic.lean#L25"
+    },
+    "metadata": {
+      "blame_email_hash": "c7989443bd81",
+      "blame_date": "2025-04-14T15:27:33+01:00",
+      "inclusion_date": "2025-04-14T23:58:47.451190+00:00"
+    },
+    "id": "2d9a654995dde411660797fa06220ff10e86cae6be456c754a9d914c9ddc3ee3"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/duper",
+      "branch": "dev",
+      "commit": "e28c4e11389116ccb6a48ff0fe9c3d1a9d7642e4",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 20,
+      "start_column": 48,
+      "end_line": 20,
+      "end_column": 53,
+      "file": "Duper/Tests/test_continuity.lean"
+    },
+    "debug_info": {
+      "goal": "a : Real\n\u22a2 lt zero one",
+      "url": "https://github.com/leanprover-community/duper/blob/e28c4e11389116ccb6a48ff0fe9c3d1a9d7642e4/Duper/Tests/test_continuity.lean#L20"
+    },
+    "metadata": {
+      "blame_email_hash": "4ac7eab8a488",
+      "blame_date": "2023-06-05T10:39:00+02:00",
+      "inclusion_date": "2025-04-17T23:35:43.089654+00:00"
+    },
+    "id": "567af2ce88922b7d056f8a3aad8263d50c1f37bb62f9ea737e4918503646aed5"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/batteries",
+      "branch": "docs",
+      "commit": "e119df7e78d94b18b34067db93e8fc0d448d696f",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 31,
+      "start_column": 33,
+      "end_line": 31,
+      "end_column": 38,
+      "file": "BatteriesTest/lint_unreachableTactic.lean"
+    },
+    "debug_info": {
+      "goal": "aa : Nat\n\u22a2 aa = 0 \u2192 t aa = 0",
+      "url": "https://github.com/leanprover-community/batteries/blob/e119df7e78d94b18b34067db93e8fc0d448d696f/BatteriesTest/lint_unreachableTactic.lean#L31"
+    },
+    "metadata": {
+      "blame_email_hash": "45b5ed8e3c8e",
+      "blame_date": "2023-08-26T11:27:15+01:00",
+      "inclusion_date": "2025-04-19T23:12:57.296938+00:00"
+    },
+    "id": "5ae592af575f9d39b38ea75b4736d6928de37f3222ef742a839097c4ac96f47c"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/aesop",
+      "branch": "rpinf-precomp",
+      "commit": "dd78c1426f5fc783ec1ba23ad769471cc69bb8b4",
+      "lean_version": "v4.17.0-rc1"
+    },
+    "location": {
+      "start_line": 103,
+      "start_column": 12,
+      "end_line": 103,
+      "end_column": 17,
+      "file": "AesopTest/ExtScript.lean"
+    },
+    "debug_info": {
+      "goal": "case a\n\u03b1 \u03b2 \u03b3 \u03b4 \u03b9 : Type\nx y : T\nu v : U\n\u22a2 u = v",
+      "url": "https://github.com/leanprover-community/aesop/blob/dd78c1426f5fc783ec1ba23ad769471cc69bb8b4/AesopTest/ExtScript.lean#L103"
+    },
+    "metadata": {
+      "blame_email_hash": "555bc3b21621",
+      "blame_date": "2024-09-10T21:14:20+02:00",
+      "inclusion_date": "2025-04-11T00:07:12.176717+00:00"
+    },
+    "id": "f40601536a7fdf2e3b89401ddecea18ce3ed8c7a0b62ac2eafbae48eb95bbc5e"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/YaelDillies/LeanCamCombi",
+      "branch": "master",
+      "commit": "5df79658756ef6d112f2464eec3aece31e35cc83",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 117,
+      "start_column": 8,
+      "end_line": 117,
+      "end_column": 13,
+      "file": "LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean"
+    },
+    "debug_info": {
+      "goal": "case refine_1.refine_1\n\u03b1 : Type u_1\n\u03a9 : Type u_2\ninst\u271d\u00b9 : MeasurableSpace \u03a9\nX Y : \u03a9 \u2192 Set \u03b1\n\u03bc : Measure \u03a9\np q : \u211d\u22650\nhX : IsBernoulliSeq X p \u03bc\nhY : IsBernoulliSeq Y q \u03bc\ninst\u271d : IsProbabilityMeasure \u03bc\nh : IndepFun X Y \u03bc\ni : \u03b1\n\u22a2 MeasurableSet fun \u03c9 => X \u03c9 i",
+      "url": "https://github.com/YaelDillies/LeanCamCombi/blob/5df79658756ef6d112f2464eec3aece31e35cc83/LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean#L117"
+    },
+    "metadata": {
+      "blame_email_hash": "97e8591fe714",
+      "blame_date": "2025-03-05T14:51:44+00:00",
+      "inclusion_date": "2025-04-18T00:01:05.296811+00:00"
+    },
+    "id": "c06097e51866c5822f2ad5c1f1270bafce0377529b89ed6cb91d59de11397399"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "AK_work",
+      "commit": "4250adfc9aab5e09d276549d7a645627cb2dce39",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 431,
+      "start_column": 2,
+      "end_line": 431,
+      "end_column": 7,
+      "file": "PrimeNumberTheoremAnd/MediumPNT.lean"
+    },
+    "debug_info": {
+      "goal": "SmoothingF : \u211d \u2192 \u211d\n\u03b5 : \u211d\n\u03b5_pos : 0 < \u03b5\nX T : \u211d\nT_pos : 0 < T\n\u03c3\u2080 : \u211d\n\u03c3\u2080_pos : 0 < \u03c3\u2080\nholoOn : HolomorphicOn (SmoothedChebyshevIntegrand SmoothingF \u03b5 X) (Icc \u03c3\u2080 2 \u00d7\u2102 univ \\ {1})\nsuppSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\n\u22a2 Integrable (fun t => SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u2191(1 + (Real.log X)\u207b\u00b9) + \u2191t * I)) volume",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/4250adfc9aab5e09d276549d7a645627cb2dce39/PrimeNumberTheoremAnd/MediumPNT.lean#L431"
+    },
+    "metadata": {
+      "blame_email_hash": "4bcdc021face",
+      "blame_date": "2025-03-07T17:04:05-05:00",
+      "inclusion_date": "2025-04-15T23:18:41.650749+00:00"
+    },
+    "id": "3ec42e380be1018b541105196279d6fa12aca71336e2f1701cda98424bc2d9f9"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/emilyriehl/infinity-cosmos",
+      "branch": "main",
+      "commit": "bf1885e46ff0fde2a1cde218001d9b90307f4224",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "start_line": 134,
+      "start_column": 36,
+      "end_line": 134,
+      "end_column": 41,
+      "file": "InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean"
+    },
+    "debug_info": {
+      "goal": "A : SSet\nf\u271d g\u271d f g h : A _\u298b1\u298c\nH\u2081 : HomotopyL f g\nH\u2082 : HomotopyL f h\n\u03c3 : Subpresheaf.toPresheaf \u039b[3, 1] \u27f6 A := sorry\n\u03c4 : A _\u298b3\u298c := sorry\n\u03c4\u2080 : SimplicialObject.\u03b4 A 0 \u03c4 = (SimplicialObject.\u03b4 A 0 \u226b SimplicialObject.\u03c3 A 0 \u226b SimplicialObject.\u03c3 A 0) g\n\u22a2 SimplicialObject.\u03b4 A 2 \u03c4 = H\u2082.simplex",
+      "url": "https://github.com/emilyriehl/infinity-cosmos/blob/bf1885e46ff0fde2a1cde218001d9b90307f4224/InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean#L134"
+    },
+    "metadata": {
+      "blame_email_hash": "f0d6831918ab",
+      "blame_date": "2024-12-17T23:14:43+01:00",
+      "inclusion_date": "2025-04-03T01:40:20.137259+00:00"
+    },
+    "id": "c99a8d113bee64a70cf1bcbe629fa772aa7fbb91c729b58868bedda1057ee67d"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/lean-ja/lean-by-example",
+      "branch": "main",
+      "commit": "3ebe85bea550147ea661babd12b968bf8e97a7ed",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 60,
+      "start_column": 2,
+      "end_line": 60,
+      "end_column": 7,
+      "file": "LeanByExample/Attribute/Aesop.lean"
+    },
+    "debug_info": {
+      "goal": "P : Prop\nhp : P\n\u22a2 MyAnd P P",
+      "url": "https://github.com/lean-ja/lean-by-example/blob/3ebe85bea550147ea661babd12b968bf8e97a7ed/LeanByExample/Attribute/Aesop.lean#L60"
+    },
+    "metadata": {
+      "blame_email_hash": "a84937a2d49e",
+      "blame_date": "2025-01-08T22:40:33+09:00",
+      "inclusion_date": "2025-04-13T23:49:22.692160+00:00"
+    },
+    "id": "9a3464a8a3704a49b2292a811715e854fc1a1287ea0a702edbd56d942da7a48e"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/teorth/pfr",
+      "branch": "master",
+      "commit": "0010cb5c36c6605a2d0e957390ab4955e6c9e3ff",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 873,
+      "start_column": 82,
+      "end_line": 873,
+      "end_column": 87,
+      "file": "PFR/MoreRuzsaDist.lean"
+    },
+    "debug_info": {
+      "goal": "G : Type u_8\nhG : MeasurableSpace G\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : MeasurableSingletonClass G\ninst\u271d : Countable G\nm : \u2115\nhm : m \u2265 2\n\u03a9 : Type u_9\nh\u03a9 : MeasureSpace \u03a9\nX : Fin m \u2192 \u03a9 \u2192 G\nh_indep : iIndepFun X \u2119\n\u22a2 d[\u2211 i, X i # \u2211 i, X i] \u2264 2 * D[X ; fun x => h\u03a9]",
+      "url": "https://github.com/teorth/pfr/blob/0010cb5c36c6605a2d0e957390ab4955e6c9e3ff/PFR/MoreRuzsaDist.lean#L873"
+    },
+    "metadata": {
+      "blame_email_hash": "7d87c0724495",
+      "blame_date": "2025-03-07T08:53:46+01:00",
+      "inclusion_date": "2025-04-05T02:25:45.802608+00:00"
+    },
+    "id": "c2520a606cf7e2d5f451db4e8ba0e272bcf4c9aa6a21d0424c7abe5524c58452"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "arend/poly",
+      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 269,
+      "start_column": 52,
+      "end_line": 269,
+      "end_column": 57,
+      "file": "Mathlib/Tactic/Algebra.lean"
+    },
+    "debug_info": {
+      "goal": "\u00ab$u\u00bb \u00ab$v\u00bb \u00ab$w\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$R\u2081\u00bb : Type v\n\u00ab$R\u2082\u00bb : Type w\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$sR\u2081\u00bb : CommSemiring \u00ab$R\u2081\u00bb\n\u00ab$sRA\u2081\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n\u00ab$sR\u2082\u00bb : CommSemiring \u00ab$R\u2082\u00bb\n\u00ab$sRA\u2082\u00bb : Algebra \u00ab$R\u2082\u00bb \u00ab$A\u00bb\n\u00ab$r\u2081\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$r\u2082\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$a\u2081\u00bb \u00ab$a\u2082\u00bb $expr\u271d : \u00ab$A\u00bb\n\u00ab$pa\u00bb : \u00ab$a\u2081\u00bb + \u00ab$a\u2082\u00bb = $expr\u271d\n\u22a2 1 \u2022 \u00ab$a\u2081\u00bb + 1 \u2022 \u00ab$a\u2082\u00bb = 1 \u2022 $expr\u271d",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L269"
+    },
+    "metadata": {
+      "blame_email_hash": "677e25bc67b0",
+      "blame_date": "2025-04-14T17:07:18+02:00",
+      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+    },
+    "id": "03ee8c96d596ba8c9756e5cd4a87b72567ef832c45c8f9bbd0faa737052b54e1"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/PatrickMassot/GlimpseOfLean",
+      "branch": "master",
+      "commit": "435db8d6c9b3c72e68e0fcf95563921a3e17c88b",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 64,
+      "start_column": 2,
+      "end_line": 64,
+      "end_column": 7,
+      "file": "GlimpseOfLean/Exercises/Topics/Probability.lean"
+    },
+    "debug_info": {
+      "goal": "\u03a9 : Type\ninst\u271d\u00b9 : MeasureSpace \u03a9\ninst\u271d : IsProbabilityMeasure \u2119\nA B : Set \u03a9\nhA : MeasurableSet A\nhB : MeasurableSet B\n\u22a2 IndepSet A B \u2192 IndepSet A B\u1d9c",
+      "url": "https://github.com/PatrickMassot/GlimpseOfLean/blob/435db8d6c9b3c72e68e0fcf95563921a3e17c88b/GlimpseOfLean/Exercises/Topics/Probability.lean#L64"
+    },
+    "metadata": {
+      "blame_email_hash": "369c5f9cb018",
+      "blame_date": "2025-03-07T14:30:17+01:00",
+      "inclusion_date": "2025-04-16T23:24:19.102810+00:00"
+    },
+    "id": "ddadc8968c74f61b562b9d11dc06f3747e3e596bfe5d52314d62ebacd1c24b2b"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/nomeata/loogle",
+      "branch": "master",
+      "commit": "b340a5b73a68fd54d624ac1f9c025c11f638bb53",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 108,
+      "start_column": 2,
+      "end_line": 108,
+      "end_column": 7,
+      "file": "Tests.lean"
+    },
+    "debug_info": {
+      "goal": "n m : Nat\n\u22a2 List.replicate n () ++ List.replicate m () = List.replicate (n + m) ()",
+      "url": "https://github.com/nomeata/loogle/blob/b340a5b73a68fd54d624ac1f9c025c11f638bb53/Tests.lean#L108"
+    },
+    "metadata": {
+      "blame_email_hash": "1e9dd229978a",
+      "blame_date": "2023-11-11T14:02:18+01:00",
+      "inclusion_date": "2025-04-14T00:17:19.239440+00:00"
+    },
+    "id": "10527d7f182ae93d223919a1aae377f5dbbc2cc4afe42783e7b9c55e20d27741"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/Verified-zkEVM/ZKLib",
+      "branch": "main",
+      "commit": "d006bfadcfa73fe62c453e059621fb0baf69146f",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 167,
+      "start_column": 4,
+      "end_line": 167,
+      "end_column": 9,
+      "file": "ZKLib/CommitmentScheme/MerkleTree.lean"
+    },
+    "debug_info": {
+      "goal": "case succ\n\u03b1 : Type\ninst\u271d\u00b2 : DecidableEq \u03b1\ninst\u271d\u00b9 : Inhabited \u03b1\ninst\u271d : Fintype \u03b1\nn : \u2115\nleaves : List.Vector \u03b1 (2 ^ (n + 1))\ni : Fin (2 ^ (n + 1))\nih :\n  \u2200 (leaves : List.Vector \u03b1 (2 ^ n)) (i : Fin (2 ^ n)),\n    (buildMerkleTree \u03b1 n leaves).neverFails \u2227\n      \u2200 x \u2208 (buildMerkleTree \u03b1 n leaves).support,\n        verifyProof \u03b1 i (leaves.get i) (x 0).head\n            (List.Vector.ofFn fun layer => (x \u2191\u2191layer).get \u2191\u2191(findNeighbors i layer)) =\n          pure ()\n\u22a2 (do\n        let a \u2190 buildLayer \u03b1 n leaves\n        (fun a =>\n              (leaves.get i, (Cache.cons \u03b1 n leaves a 0).head,\n                List.Vector.ofFn fun layer => (Cache.cons \u03b1 n leaves a \u2191\u2191layer).get \u2191\u2191(findNeighbors i layer))) <$>\n            buildMerkleTree \u03b1 n a).neverFails \u2227\n    \u2200 (a a_1 : \u03b1) (b : List.Vector \u03b1 (n + 1)),\n      \u2200 x \u2208 (buildLayer \u03b1 n leaves).finSupport,\n        (a, a_1, b) \u2208\n            ((fun a =>\n                  (leaves.get i, (Cache.cons \u03b1 n leaves a 0).head,\n                    List.Vector.ofFn fun layer => (Cache.cons \u03b1 n leaves a \u2191\u2191layer).get \u2191\u2191(findNeighbors i layer))) <$>\n                buildMerkleTree \u03b1 n x).finSupport \u2192\n          verifyProof \u03b1 i a a_1 b = pure ()",
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/d006bfadcfa73fe62c453e059621fb0baf69146f/ZKLib/CommitmentScheme/MerkleTree.lean#L167"
+    },
+    "metadata": {
+      "blame_email_hash": "d0850777cf0b",
+      "blame_date": "2025-04-16T18:04:04-04:00",
+      "inclusion_date": "2025-04-17T23:52:18.829560+00:00"
+    },
+    "id": "e869651a93ee12de3b514f32d3a43f6d80a30e4a6577df77a65d9e7542352036"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/dwrensha/compfiles",
+      "branch": "main",
+      "commit": "fa63371f54d5353ab86e7e2b97473832c417e5ba",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 76,
+      "start_column": 44,
+      "end_line": 76,
+      "end_column": 49,
+      "file": "Compfiles/Bulgaria1998P1.lean"
+    },
+    "debug_info": {
+      "goal": "case h.intro.mk.intro.intro.mk.intro.intro.intro.intro.\u00ab1\u00bb.\u00ab1\u00bb\ni j : \u2115\nhi1 : 1 \u2264 1\nhi2 : 1 \u2264 8\nhj1 : 1 \u2264 1\nhj2 : 1 \u2264 8\nhij1 : \u27e81, \u22ef\u27e9 < \u27e81, \u22ef\u27e9\nhij2 : 2 * \u2191\u27e81, \u22ef\u27e9 - \u2191\u27e81, \u22ef\u27e9 \u2208 Set.Icc 1 8\nhc1 :\n  (match \u27e81, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0) =\n    match \u27e81, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0\nhc2 :\n  (match \u27e81, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0) =\n    match \u27e82 * 1 - 1, hij2\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0\n\u22a2 False",
+      "url": "https://github.com/dwrensha/compfiles/blob/fa63371f54d5353ab86e7e2b97473832c417e5ba/Compfiles/Bulgaria1998P1.lean#L76"
+    },
+    "metadata": {
+      "blame_email_hash": "acdd9d7e744e",
+      "blame_date": "2024-12-02T21:25:12-05:00",
+      "inclusion_date": "2025-04-12T23:25:20.561445+00:00"
+    },
+    "id": "f5eccdc3c1087ce8e0fa5de98487c4b9f0e17b466a14c6ff17bfd51f7ee844df"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/FormalizedFormalLogic/Foundation",
+      "branch": "SnO2WMaN/issue323",
+      "commit": "2d0d958822ddfb22e58f2cb6266a52f3bb219fff",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "start_line": 110,
+      "start_column": 4,
+      "end_line": 110,
+      "end_column": 9,
+      "file": "Foundation/ProvabilityLogic/Grz/Completeness.lean"
+    },
+    "debug_info": {
+      "goal": "case p\nF : Frame\nr : F.World\ninst\u271d : F.IsRooted r\nn : \u2115+\n\u22a2 List.Chain' (fun a b => a < b) do\n    let a \u2190 List.range \u2191n\n    pure \u2191a",
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2d0d958822ddfb22e58f2cb6266a52f3bb219fff/Foundation/ProvabilityLogic/Grz/Completeness.lean#L110"
+    },
+    "metadata": {
+      "blame_email_hash": "165d0178d95d",
+      "blame_date": "2025-04-13T21:16:44+09:00",
+      "inclusion_date": "2025-04-13T23:27:10.210093+00:00"
+    },
+    "id": "7e5768b4d669745331e05caaaf79d9696e81c2e9a8db94176ec685729336e0e0"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/fpvandoorn/carleson",
+      "branch": "MR-generalise-weaktype",
+      "commit": "d6273ee1eced7a38fd1d3db0010c6c7ab14b5316",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 533,
+      "start_column": 2,
+      "end_line": 533,
+      "end_column": 7,
+      "file": "Carleson/ToMathlib/HardyLittlewood.lean"
+    },
+    "debug_info": {
+      "goal": "X : Type u_1\nE : Type u_2\nA : \u211d\u22650\ninst\u271d\u2078 : MetricSpace X\ninst\u271d\u2077 : MeasurableSpace X\n\u03bc : Measure X\ninst\u271d\u2076 : \u03bc.IsDoubling A\ninst\u271d\u2075 : NormedAddCommGroup E\ninst\u271d\u2074 : ProperSpace X\ninst\u271d\u00b3 : BorelSpace X\ninst\u271d\u00b2 : IsFiniteMeasureOnCompacts \u03bc\ninst\u271d\u00b9 : Nonempty X\ninst\u271d : \u03bc.IsOpenPosMeasure\np\u2081 p\u2082 : \u211d\u22650\nhp\u2081 : 1 \u2264 p\u2081\nhp\u2081\u2082 : p\u2081 < p\u2082\n\u22a2 HasStrongType\n    (fun u x =>\n      (\u2191A ^ 2).toReal * (maximalFunction \u03bc (\u22ef.choose \u00d7\u02e2 univ) (fun x => x.1) (fun x => 2 ^ x.2) (\u2191p\u2081) u x).toReal)\n    (\u2191p\u2082) (\u2191p\u2082) \u03bc \u03bc \u2191(A ^ 2 * C2_0_6 A p\u2081 p\u2082)",
+      "url": "https://github.com/fpvandoorn/carleson/blob/d6273ee1eced7a38fd1d3db0010c6c7ab14b5316/Carleson/ToMathlib/HardyLittlewood.lean#L533"
+    },
+    "metadata": {
+      "blame_email_hash": "13ebe891461f",
+      "blame_date": "2025-04-04T23:13:58+02:00",
+      "inclusion_date": "2025-04-05T23:48:05.381022+00:00"
+    },
+    "id": "61e81a0a60df1dee63473d6d592c13a9baa9ca1ca59d46690dab11a133343760"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ImperialCollegeLondon/FLT",
+      "branch": "kbuzzard-distribHaarChar-harder-results",
+      "commit": "b2cbce8e4933bae37a3a22712e17cf6467d25edd",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 48,
+      "start_column": 2,
+      "end_line": 48,
+      "end_column": 7,
+      "file": "FLT/HaarMeasure/DistribHaarChar/LessBasic.lean"
+    },
+    "debug_info": {
+      "goal": "R : Type u_1\ninst\u271d\u00b9\u00b2 : TopologicalSpace R\ninst\u271d\u00b9\u00b9 : LocallyCompactSpace R\ninst\u271d\u00b9\u2070 : CommRing R\ninst\u271d\u2079 : IsTopologicalRing R\ninst\u271d\u2078 : MeasurableSpace R\ninst\u271d\u2077 : BorelSpace R\nS : Type u_2\ninst\u271d\u2076 : TopologicalSpace S\ninst\u271d\u2075 : LocallyCompactSpace S\ninst\u271d\u2074 : CommRing S\ninst\u271d\u00b3 : IsTopologicalRing S\ninst\u271d\u00b2 : MeasurableSpace S\ninst\u271d\u00b9 : BorelSpace S\ninst\u271d : SecondCountableTopologyEither R S\nr : R\u02e3\ns : S\u02e3\n\u22a2 (distribHaarChar (R \u00d7 S)) (MulEquiv.prodUnits.symm (r, s)) = (distribHaarChar R) r * (distribHaarChar S) s",
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/b2cbce8e4933bae37a3a22712e17cf6467d25edd/FLT/HaarMeasure/DistribHaarChar/LessBasic.lean#L48"
+    },
+    "metadata": {
+      "blame_email_hash": "c7989443bd81",
+      "blame_date": "2025-04-14T15:27:33+01:00",
+      "inclusion_date": "2025-04-14T23:58:47.451190+00:00"
+    },
+    "id": "009491d4d2ba3d50fda0bed62f549b9a80519cc7f21744b5aedfa1c50be971fc"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/duper",
+      "branch": "dev",
+      "commit": "e28c4e11389116ccb6a48ff0fe9c3d1a9d7642e4",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 35,
+      "start_column": 13,
+      "end_line": 35,
+      "end_column": 18,
+      "file": "Duper/Tests/lastAsylum.lean"
+    },
+    "debug_info": {
+      "goal": "ax1 : \u2200 (x : Inhab), Peculiar x \u2194 (Sane x \u2194 \u00acDoctor x)\nax2 : \u2200 (x : Inhab), Special x \u2194 \u2200 (y : Inhab), \u00acDoctor y \u2194 (Sane y \u2194 Peculiar x)\nax3 : \u2200 (x y : Inhab), (Sane x \u2194 Special y) \u2192 (Sane (bf x) \u2194 \u00acDoctor y)\nax4 : Sane Tarr \u2194 \u2200 (x : Inhab), Doctor x \u2192 Sane x\nax5 : Sane Fether \u2194 \u2200 (x : Inhab), \u00acDoctor x \u2192 \u00acSane x\nax6 : Sane Fether \u2194 Sane Tarr\n\u22a2 False",
+      "url": "https://github.com/leanprover-community/duper/blob/e28c4e11389116ccb6a48ff0fe9c3d1a9d7642e4/Duper/Tests/lastAsylum.lean#L35"
+    },
+    "metadata": {
+      "blame_email_hash": "d9c480704efb",
+      "blame_date": "2022-08-01T22:37:02-04:00",
+      "inclusion_date": "2025-04-17T23:35:43.089654+00:00"
+    },
+    "id": "5f8931515d1dc44fc9e729e87dd4ce870879c1b1c7234a9a7823508fbc9962d2"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/batteries",
+      "branch": "docs",
+      "commit": "e119df7e78d94b18b34067db93e8fc0d448d696f",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 7,
+      "start_column": 2,
+      "end_line": 7,
+      "end_column": 7,
+      "file": "BatteriesTest/lintunused.lean"
+    },
+    "debug_info": {
+      "goal": "h : 1 = 1\n\u22a2 True",
+      "url": "https://github.com/leanprover-community/batteries/blob/e119df7e78d94b18b34067db93e8fc0d448d696f/BatteriesTest/lintunused.lean#L7"
+    },
+    "metadata": {
+      "blame_email_hash": "45b5ed8e3c8e",
+      "blame_date": "2023-08-08T02:17:31+02:00",
+      "inclusion_date": "2025-04-19T23:12:57.296938+00:00"
+    },
+    "id": "717a60f83b722fc9c02985514b6197506a8d59af6ee5a6c5939ff166aa9eedd4"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/aesop",
+      "branch": "rpinf-precomp",
+      "commit": "dd78c1426f5fc783ec1ba23ad769471cc69bb8b4",
+      "lean_version": "v4.17.0-rc1"
+    },
+    "location": {
+      "start_line": 30,
+      "start_column": 12,
+      "end_line": 30,
+      "end_column": 17,
+      "file": "AesopTest/ExtScript.lean"
+    },
+    "debug_info": {
+      "goal": "case fst\n\u03b1 \u03b2 \u03b3 \u03b4 \u03b9 : Type\np q : MyProd \u03b1 \u03b2\n\u22a2 p.fst = q.fst",
+      "url": "https://github.com/leanprover-community/aesop/blob/dd78c1426f5fc783ec1ba23ad769471cc69bb8b4/AesopTest/ExtScript.lean#L30"
+    },
+    "metadata": {
+      "blame_email_hash": "555bc3b21621",
+      "blame_date": "2024-06-07T02:10:37+02:00",
+      "inclusion_date": "2025-04-11T00:07:12.176717+00:00"
+    },
+    "id": "c3229030ad831325954035a5f33f9029581a2092a6f0bac30408489ea8d45a80"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/YaelDillies/LeanCamCombi",
+      "branch": "master",
+      "commit": "5df79658756ef6d112f2464eec3aece31e35cc83",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 118,
+      "start_column": 8,
+      "end_line": 118,
+      "end_column": 13,
+      "file": "LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean"
+    },
+    "debug_info": {
+      "goal": "case refine_1.refine_2\n\u03b1 : Type u_1\n\u03a9 : Type u_2\ninst\u271d\u00b9 : MeasurableSpace \u03a9\nX Y : \u03a9 \u2192 Set \u03b1\n\u03bc : Measure \u03a9\np q : \u211d\u22650\nhX : IsBernoulliSeq X p \u03bc\nhY : IsBernoulliSeq Y q \u03bc\ninst\u271d : IsProbabilityMeasure \u03bc\nh : IndepFun X Y \u03bc\ni : \u03b1\n\u22a2 MeasurableSet fun \u03c9 => Y \u03c9 i",
+      "url": "https://github.com/YaelDillies/LeanCamCombi/blob/5df79658756ef6d112f2464eec3aece31e35cc83/LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean#L118"
+    },
+    "metadata": {
+      "blame_email_hash": "97e8591fe714",
+      "blame_date": "2025-03-05T14:51:44+00:00",
+      "inclusion_date": "2025-04-18T00:01:05.296811+00:00"
+    },
+    "id": "c5663979c4e4160eb9e17548e7362b1b6a1e30575570fc12969c59fdaf579ebc"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "AK_work",
+      "commit": "4250adfc9aab5e09d276549d7a645627cb2dce39",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 2452,
+      "start_column": 2,
+      "end_line": 2452,
+      "end_column": 7,
+      "file": "PrimeNumberTheoremAnd/ZetaBounds.lean"
+    },
+    "debug_info": {
+      "goal": "case h\nA : \u211d\nhA : A \u2208 Ioc 0 (1 / 2)\nh\u271d :\n  \u2203 C,\n    \u2203 (_ : 0 < C),\n      \u2200 (\u03c3 t : \u211d),\n        3 < |t| \u2192\n          \u03c3 \u2208 Ico (1 - A / Real.log |t| ^ 9) 1 \u2192 \u2016deriv \u03b6 (\u2191\u03c3 + \u2191t * I) / \u03b6 (\u2191\u03c3 + \u2191t * I)\u2016 \u2264 C * Real.log |t| ^ 9\nT : \u211d\nT_gt : 3 < T\n\u22a2 HolomorphicOn (fun s => deriv \u03b6 s / \u03b6 s) (Ioc (1 - A / Real.log T ^ 9) 2 \u00d7\u2102 Icc (-T) T \\ {1})",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/4250adfc9aab5e09d276549d7a645627cb2dce39/PrimeNumberTheoremAnd/ZetaBounds.lean#L2452"
+    },
+    "metadata": {
+      "blame_email_hash": "4bcdc021face",
+      "blame_date": "2025-03-07T16:45:37-05:00",
+      "inclusion_date": "2025-04-15T23:18:41.650749+00:00"
+    },
+    "id": "ff893eaaec46b69d8a2462e16a6c7dcd102c794c5b57ed51c4d58eadcac3abae"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/emilyriehl/infinity-cosmos",
+      "branch": "main",
+      "commit": "bf1885e46ff0fde2a1cde218001d9b90307f4224",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "start_line": 135,
+      "start_column": 36,
+      "end_line": 135,
+      "end_column": 41,
+      "file": "InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean"
+    },
+    "debug_info": {
+      "goal": "A : SSet\nf\u271d g\u271d f g h : A _\u298b1\u298c\nH\u2081 : HomotopyL f g\nH\u2082 : HomotopyL f h\n\u03c3 : Subpresheaf.toPresheaf \u039b[3, 1] \u27f6 A := sorry\n\u03c4 : A _\u298b3\u298c := sorry\n\u03c4\u2080 : SimplicialObject.\u03b4 A 0 \u03c4 = (SimplicialObject.\u03b4 A 0 \u226b SimplicialObject.\u03c3 A 0 \u226b SimplicialObject.\u03c3 A 0) g\n\u03c4\u2082 : SimplicialObject.\u03b4 A 2 \u03c4 = H\u2082.simplex\n\u22a2 SimplicialObject.\u03b4 A 3 \u03c4 = H\u2081.simplex",
+      "url": "https://github.com/emilyriehl/infinity-cosmos/blob/bf1885e46ff0fde2a1cde218001d9b90307f4224/InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean#L135"
+    },
+    "metadata": {
+      "blame_email_hash": "f0d6831918ab",
+      "blame_date": "2024-12-17T23:14:43+01:00",
+      "inclusion_date": "2025-04-03T01:40:20.137259+00:00"
+    },
+    "id": "1528c409e6d9f4b249cb94a57aa78f1be7ddfed06270f1e227b9d44a90aa57c2"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/lean-ja/lean-by-example",
+      "branch": "main",
+      "commit": "3ebe85bea550147ea661babd12b968bf8e97a7ed",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 88,
+      "start_column": 2,
+      "end_line": 88,
+      "end_column": 7,
+      "file": "LeanByExample/Attribute/Aesop.lean"
+    },
+    "debug_info": {
+      "goal": "\u22a2 NonEmpty (MyList.cons 1 MyList.nil)",
+      "url": "https://github.com/lean-ja/lean-by-example/blob/3ebe85bea550147ea661babd12b968bf8e97a7ed/LeanByExample/Attribute/Aesop.lean#L88"
+    },
+    "metadata": {
+      "blame_email_hash": "a84937a2d49e",
+      "blame_date": "2025-01-08T22:40:33+09:00",
+      "inclusion_date": "2025-04-13T23:49:22.692160+00:00"
+    },
+    "id": "1c30fc32ce15f669075451698d47ff13a411eeaeb7c51b6964ed5e274eeafc8f"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/teorth/pfr",
+      "branch": "master",
+      "commit": "0010cb5c36c6605a2d0e957390ab4955e6c9e3ff",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 857,
+      "start_column": 105,
+      "end_line": 857,
+      "end_column": 110,
+      "file": "PFR/MoreRuzsaDist.lean"
+    },
+    "debug_info": {
+      "goal": "G : Type u_8\nhG : MeasurableSpace G\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : MeasurableSingletonClass G\ninst\u271d : Countable G\nm : \u2115\nhm : m \u2265 2\n\u03a9 : Fin m \u2192 Type u_9\nh\u03a9 : (i : Fin m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin m) \u2192 \u03a9 i \u2192 G\n\u22a2 (\u2211 j, \u2211 k, if j = k then 0 else d[X j # X k]) \u2264 \u2191m * (\u2191m - 1) * D[X ; h\u03a9]",
+      "url": "https://github.com/teorth/pfr/blob/0010cb5c36c6605a2d0e957390ab4955e6c9e3ff/PFR/MoreRuzsaDist.lean#L857"
+    },
+    "metadata": {
+      "blame_email_hash": "97e8591fe714",
+      "blame_date": "2024-10-17T18:26:36+00:00",
+      "inclusion_date": "2025-04-05T02:25:45.802608+00:00"
+    },
+    "id": "9de8ea8429dbd769777e03886a061a9d6d1fea2772386257a7abea2d694c9251"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "arend/poly",
+      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 283,
+      "start_column": 49,
+      "end_line": 283,
+      "end_column": 54,
+      "file": "Mathlib/Tactic/Algebra.lean"
+    },
+    "debug_info": {
+      "goal": "\u00ab$u\u00bb \u00ab$v\u00bb \u00ab$w\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$R\u2082\u00bb : Type w\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$sR\u2082\u00bb : CommSemiring \u00ab$R\u2082\u00bb\n\u00ab$sRA\u2082\u00bb : Algebra \u00ab$R\u2082\u00bb \u00ab$A\u00bb\n$r\u2082\u271d\u00b9 : \u00ab$R\u2082\u00bb\n$a\u2081\u271d $a\u2082\u271d : \u00ab$A\u00bb\n$r\u2082\u271d \u00ab$r\u2082\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$a\u2082\u00bb : \u00ab$A\u00bb\n\u00ab$pra\u2082\u00bb : $r\u2082\u271d \u2022 $a\u2082\u271d = \u00ab$r\u2082\u00bb \u2022 \u00ab$a\u2082\u00bb\n\u00ab$a\u2081\u00bb : \u00ab$A\u00bb := \u00ab$a\u2082\u00bb\n\u00ab$R\u2081\u00bb : Type w := \u00ab$R\u2082\u00bb\n\u00ab$sR\u2081\u00bb : CommSemiring \u00ab$R\u2081\u00bb\n\u00ab$sRA\u2081\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n$r\u2081\u271d\u00b9 $r\u2081\u271d \u00ab$r\u2081\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$pra\u2081\u00bb : $r\u2081\u271d \u2022 $a\u2081\u271d = \u00ab$r\u2081\u00bb \u2022 \u00ab$a\u2081\u00bb\n\u00ab$r\u2081'\u00bb \u00ab$r\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$pr\u00bb : \u00ab$r\u2081'\u00bb + \u00ab$r\u2082\u00bb = \u00ab$r\u00bb\n\u22a2 $r\u2081\u271d \u2022 $a\u2081\u271d + $r\u2082\u271d \u2022 $a\u2082\u271d = \u00ab$r\u00bb \u2022 \u00ab$a\u2082\u00bb",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L283"
+    },
+    "metadata": {
+      "blame_email_hash": "677e25bc67b0",
+      "blame_date": "2025-04-14T17:07:18+02:00",
+      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+    },
+    "id": "21dc9ddd09c87661527cd840e63c9f6182a37c62ea72180992fb21cb2c390416"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/PatrickMassot/GlimpseOfLean",
+      "branch": "master",
+      "commit": "435db8d6c9b3c72e68e0fcf95563921a3e17c88b",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 71,
+      "start_column": 2,
+      "end_line": 71,
+      "end_column": 7,
+      "file": "GlimpseOfLean/Exercises/Topics/Probability.lean"
+    },
+    "debug_info": {
+      "goal": "\u03a9 : Type\ninst\u271d\u00b9 : MeasureSpace \u03a9\ninst\u271d : IsProbabilityMeasure \u2119\nA B : Set \u03a9\nhA : MeasurableSet A\nhB : MeasurableSet B\n\u22a2 IndepSet A B\u1d9c \u2194 IndepSet A B",
+      "url": "https://github.com/PatrickMassot/GlimpseOfLean/blob/435db8d6c9b3c72e68e0fcf95563921a3e17c88b/GlimpseOfLean/Exercises/Topics/Probability.lean#L71"
+    },
+    "metadata": {
+      "blame_email_hash": "369c5f9cb018",
+      "blame_date": "2025-03-07T14:30:17+01:00",
+      "inclusion_date": "2025-04-16T23:24:19.102810+00:00"
+    },
+    "id": "67addfe9d8c814b350ca38bee763cec3b650b9c3262e865cfe7f79eea442a813"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/nomeata/loogle",
+      "branch": "master",
+      "commit": "b340a5b73a68fd54d624ac1f9c025c11f638bb53",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 169,
+      "start_column": 82,
+      "end_line": 169,
+      "end_column": 87,
+      "file": "Tests.lean"
+    },
+    "debug_info": {
+      "goal": "R : Type u_1\ninst\u271d\u00b9 : Mul R\ninst\u271d : Star R\nx : R\n\u22a2 star x * x = x * star x",
+      "url": "https://github.com/nomeata/loogle/blob/b340a5b73a68fd54d624ac1f9c025c11f638bb53/Tests.lean#L169"
+    },
+    "metadata": {
+      "blame_email_hash": "1e9dd229978a",
+      "blame_date": "2023-11-11T14:02:18+01:00",
+      "inclusion_date": "2025-04-14T00:17:19.239440+00:00"
+    },
+    "id": "b8e6a617e0cd645aeb14c4d11910d7b306f6b4356a8ac700d9b76dcbed5d1792"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/Verified-zkEVM/ZKLib",
+      "branch": "main",
+      "commit": "7b2a35da9cc686c666671ac006d1c2ec4757302c",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 267,
+      "start_column": 6,
+      "end_line": 267,
+      "end_column": 11,
+      "file": "ZKLib/ProofSystem/Sumcheck/Basic.lean"
+    },
+    "debug_info": {
+      "goal": "case mk.convert_7.left\nR : Type\ninst\u271d\u00b9 : CommSemiring R\nd m : \u2115\nD : Fin m \u21aa R\ninst\u271d : VCVCompatible R\ntarget : R\noStmt : (i : Unit) \u2192 InputOracleStatement R d i\nhValid : inputRelation R d D (target, oStmt) ()\npoly : R[X]\nhp : poly \u2208 R\u2983\u2264 \u2191d\u2984[X]\nh : oStmt () = \u27e8poly, hp\u27e9\n\u22a2 ((fun a => ((a, fun x => oStmt ()), (), Transcript.snoc a (Transcript.snoc (oStmt ()) default))) <$>\n      liftM (query (Sum.inr \u27e81, \u22ef\u27e9) ())).neverFails",
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b2a35da9cc686c666671ac006d1c2ec4757302c/ZKLib/ProofSystem/Sumcheck/Basic.lean#L267"
+    },
+    "metadata": {
+      "blame_email_hash": "d0850777cf0b",
+      "blame_date": "2025-04-16T18:04:04-04:00",
+      "inclusion_date": "2025-04-18T23:50:11.233985+00:00"
+    },
+    "id": "b938b3e1056500192ff45b5c7ac46bae00ebe6d3fd2e0aa9c6f8cc8ffd257a66"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/dwrensha/compfiles",
+      "branch": "main",
+      "commit": "fa63371f54d5353ab86e7e2b97473832c417e5ba",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 76,
+      "start_column": 44,
+      "end_line": 76,
+      "end_column": 49,
+      "file": "Compfiles/Bulgaria1998P1.lean"
+    },
+    "debug_info": {
+      "goal": "case h.intro.mk.intro.intro.mk.intro.intro.intro.intro.\u00ab1\u00bb.\u00ab2\u00bb\ni j : \u2115\nhi1 : 1 \u2264 1\nhi2 : 1 \u2264 8\nhj1 : 1 \u2264 2\nhj2 : 2 \u2264 8\nhij1 : \u27e81, \u22ef\u27e9 < \u27e82, \u22ef\u27e9\nhij2 : 2 * \u2191\u27e82, \u22ef\u27e9 - \u2191\u27e81, \u22ef\u27e9 \u2208 Set.Icc 1 8\nhc1 :\n  (match \u27e81, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0) =\n    match \u27e82, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0\nhc2 :\n  (match \u27e81, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0) =\n    match \u27e82 * 2 - 1, hij2\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0\n\u22a2 False",
+      "url": "https://github.com/dwrensha/compfiles/blob/fa63371f54d5353ab86e7e2b97473832c417e5ba/Compfiles/Bulgaria1998P1.lean#L76"
+    },
+    "metadata": {
+      "blame_email_hash": "acdd9d7e744e",
+      "blame_date": "2024-12-02T21:25:12-05:00",
+      "inclusion_date": "2025-04-12T23:25:20.561445+00:00"
+    },
+    "id": "1b4549a7f99321c680d5eba196ed48a2f03b1c6e38b415b48bae98b318c4572d"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/FormalizedFormalLogic/Foundation",
+      "branch": "SnO2WMaN/issue323",
+      "commit": "2d0d958822ddfb22e58f2cb6266a52f3bb219fff",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "start_line": 251,
+      "start_column": 2,
+      "end_line": 251,
+      "end_column": 7,
+      "file": "Foundation/ProvabilityLogic/Grz/Completeness.lean"
+    },
+    "debug_info": {
+      "goal": "M : Model\ninst\u271d\u00b9 : IsTrans M.World M.Rel\ninst\u271d : IsIrrefl M.World M.Rel\nl : List M.World\nn : \u2115+\nl_length : l.length = \u2191n + 1\nl_chain : List.Chain' (fun x1 x2 => x1 \u227a x2) l\n\u0393 : Finset (Formula \u2115)\n\u0393_length : \u0393.card = \u2191n\n\u22a2 \u2203 x \u2208 l, x \u22a7 (Finset.image (fun \u03b3 => \u25a1\u03b3 \u279d \u03b3) \u0393).conj",
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2d0d958822ddfb22e58f2cb6266a52f3bb219fff/Foundation/ProvabilityLogic/Grz/Completeness.lean#L251"
+    },
+    "metadata": {
+      "blame_email_hash": "165d0178d95d",
+      "blame_date": "2025-04-13T21:16:44+09:00",
+      "inclusion_date": "2025-04-13T23:27:10.210093+00:00"
+    },
+    "id": "7f5dce4b990d4048d1d39c649b212d3d27864fbed8fcab8fd277eeb38c28a088"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/fpvandoorn/carleson",
+      "branch": "master",
+      "commit": "596e40748eb59deb1cd6229204f84c13360bb7f3",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 551,
+      "start_column": 9,
+      "end_line": 551,
+      "end_column": 14,
+      "file": "Carleson/ToMathlib/HardyLittlewood.lean"
+    },
+    "debug_info": {
+      "goal": "case a\nX : Type u_1\nE : Type u_2\nA : \u211d\u22650\ninst\u271d\u2078 : MetricSpace X\ninst\u271d\u2077 : MeasurableSpace X\n\u03bc : Measure X\ninst\u271d\u2076 : \u03bc.IsDoubling A\ninst\u271d\u2075 : NormedAddCommGroup E\ninst\u271d\u2074 : ProperSpace X\ninst\u271d\u00b3 : BorelSpace X\ninst\u271d\u00b2 : IsFiniteMeasureOnCompacts \u03bc\ninst\u271d\u00b9 : Nonempty X\ninst\u271d : \u03bc.IsOpenPosMeasure\np\u2081 p\u2082 : \u211d\u22650\nhp\u2081 : 1 \u2264 p\u2081\nhp\u2081\u2082 : p\u2081 \u2264 p\u2082\nthis : \u2191p\u2082 \u2260 0\n\u22a2 HasWeakType\n      (fun u x =>\n        (\u2191A ^ 2).toReal * (maximalFunction \u03bc (\u22ef.choose \u00d7\u02e2 univ) (fun x => x.1) (fun x => 2 ^ x.2) (\u2191p\u2081) u x).toReal)\n      (\u2191p\u2082) (\u2191p\u2082) \u03bc \u03bc (\u2191A ^ 4) \u2194\n    MemLp ?convert_4 (\u2191p\u2082) \u03bc \u2192\n      AEStronglyMeasurable ((fun f x => A ^ 2 * ?convert_2 f x) ?convert_4) \u03bc \u2227\n        wnorm ((fun f x => A ^ 2 * ?convert_2 f x) ?convert_4) (\u2191p\u2082) \u03bc \u2264 \u2016A ^ 2\u2016\u2091 * \u2191A ^ 2 * eLpNorm ?convert_4 (\u2191p\u2082) \u03bc",
+      "url": "https://github.com/fpvandoorn/carleson/blob/596e40748eb59deb1cd6229204f84c13360bb7f3/Carleson/ToMathlib/HardyLittlewood.lean#L551"
+    },
+    "metadata": {
+      "blame_email_hash": "13ebe891461f",
+      "blame_date": "2025-04-04T17:09:00+02:00",
+      "inclusion_date": "2025-04-12T23:35:25.195113+00:00"
+    },
+    "id": "1b8ceb4a3627eb18cd924f0b5c8dac8101b0dc2757319bfd9d2b3f318a9a6769"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ImperialCollegeLondon/FLT",
+      "branch": "kbuzzard-adele-refactor",
+      "commit": "c5f85a01641c0135f6e95906e74b59461497f5cf",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 170,
+      "start_column": 4,
+      "end_line": 170,
+      "end_column": 9,
+      "file": "FLT/NumberField/AdeleRing.lean"
+    },
+    "debug_info": {
+      "goal": "case h.refine_1.ht\nintegralAdeles : Set (FiniteAdeleRing (\ud835\udcde \u211a) \u211a) :=\n  {f |\n    \u2200 (v : IsDedekindDomain.HeightOneSpectrum (\ud835\udcde \u211a)),\n      f v \u2208 IsDedekindDomain.HeightOneSpectrum.adicCompletionIntegers \u211a v}\n\u22a2 IsOpen integralAdeles",
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/c5f85a01641c0135f6e95906e74b59461497f5cf/FLT/NumberField/AdeleRing.lean#L170"
+    },
+    "metadata": {
+      "blame_email_hash": "c7989443bd81",
+      "blame_date": "2025-04-06T18:09:43+01:00",
+      "inclusion_date": "2025-04-14T23:44:51.413177+00:00"
+    },
+    "id": "7ff98dbd552c3feaca88b99da397b1db5fd47b3a853e70778b49ce125fcec19d"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/batteries",
+      "branch": "docs",
+      "commit": "e119df7e78d94b18b34067db93e8fc0d448d696f",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 37,
+      "start_column": 64,
+      "end_line": 37,
+      "end_column": 69,
+      "file": "BatteriesTest/lintsimp.lean"
+    },
+    "debug_info": {
+      "goal": "\u03b1 : Type u_1\ninst\u271d : Mul \u03b1\na x y : \u03b1\u1d50\u1d52\u1d56\n\u22a2 SemiconjBy a.unop y.unop x.unop \u2194 SemiconjBy a x y",
+      "url": "https://github.com/leanprover-community/batteries/blob/e119df7e78d94b18b34067db93e8fc0d448d696f/BatteriesTest/lintsimp.lean#L37"
+    },
+    "metadata": {
+      "blame_email_hash": "8a7dcd08b95f",
+      "blame_date": "2022-12-18T15:51:52-05:00",
+      "inclusion_date": "2025-04-19T23:12:57.296938+00:00"
+    },
+    "id": "e1542347fe5e9dc2a40d2cac899422d0df37bc4c913cc2e3cc593c04ffb7a65d"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/aesop",
+      "branch": "rpinf-precomp",
+      "commit": "dd78c1426f5fc783ec1ba23ad769471cc69bb8b4",
+      "lean_version": "v4.17.0-rc1"
+    },
+    "location": {
+      "start_line": 30,
+      "start_column": 12,
+      "end_line": 30,
+      "end_column": 17,
+      "file": "AesopTest/ExtScript.lean"
+    },
+    "debug_info": {
+      "goal": "case snd\n\u03b1 \u03b2 \u03b3 \u03b4 \u03b9 : Type\np q : MyProd \u03b1 \u03b2\n\u22a2 p.snd = q.snd",
+      "url": "https://github.com/leanprover-community/aesop/blob/dd78c1426f5fc783ec1ba23ad769471cc69bb8b4/AesopTest/ExtScript.lean#L30"
+    },
+    "metadata": {
+      "blame_email_hash": "555bc3b21621",
+      "blame_date": "2024-06-07T02:10:37+02:00",
+      "inclusion_date": "2025-04-11T00:07:12.176717+00:00"
+    },
+    "id": "be79c28e3a06d6dd4228684903c0c50e5cd9b53fb4b76b9fdf6dec9370cad4cf"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/YaelDillies/LeanCamCombi",
+      "branch": "master",
+      "commit": "5df79658756ef6d112f2464eec3aece31e35cc83",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 126,
+      "start_column": 8,
+      "end_line": 126,
+      "end_column": 13,
+      "file": "LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean"
+    },
+    "debug_info": {
+      "goal": "case refine_2.refine_1\n\u03b1 : Type u_1\n\u03a9 : Type u_2\ninst\u271d\u00b9 : MeasurableSpace \u03a9\nX Y : \u03a9 \u2192 Set \u03b1\n\u03bc : Measure \u03a9\np q : \u211d\u22650\nhX : IsBernoulliSeq X p \u03bc\nhY : IsBernoulliSeq Y q \u03bc\ninst\u271d : IsProbabilityMeasure \u03bc\nh : IndepFun X Y \u03bc\ns : Finset \u03b1\ni : \u03b1\nhi : i \u2208 s\n\u22a2 MeasurableSet {\u03c9 | X \u03c9 i}",
+      "url": "https://github.com/YaelDillies/LeanCamCombi/blob/5df79658756ef6d112f2464eec3aece31e35cc83/LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean#L126"
+    },
+    "metadata": {
+      "blame_email_hash": "97e8591fe714",
+      "blame_date": "2025-03-05T14:51:44+00:00",
+      "inclusion_date": "2025-04-18T00:01:05.296811+00:00"
+    },
+    "id": "2d1ba1571cdeea5db20afd81a9e33e81b25c72235079eeeba0fbfcd78bcbaede"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "AK_work",
+      "commit": "4250adfc9aab5e09d276549d7a645627cb2dce39",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 399,
+      "start_column": 2,
+      "end_line": 399,
+      "end_column": 7,
+      "file": "PrimeNumberTheoremAnd/MediumPNT.lean"
+    },
+    "debug_info": {
+      "goal": "SmoothingF : \u211d \u2192 \u211d\n\u03b5 : \u211d\n\u03b5_pos : 0 < \u03b5\nX \u03c3\u2080 : \u211d\n\u03c3\u2080_pos : 0 < \u03c3\u2080\nholoOn : HolomorphicOn (SmoothedChebyshevIntegrand SmoothingF \u03b5 X) (Icc \u03c3\u2080 2 \u00d7\u2102 univ \\ {1})\nsuppSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\n\u22a2 Integrable (fun t => SmoothedChebyshevIntegrand SmoothingF \u03b5 X (2 + \u2191t * I)) volume",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/4250adfc9aab5e09d276549d7a645627cb2dce39/PrimeNumberTheoremAnd/MediumPNT.lean#L399"
+    },
+    "metadata": {
+      "blame_email_hash": "4bcdc021face",
+      "blame_date": "2025-02-28T10:57:09-05:00",
+      "inclusion_date": "2025-04-15T23:18:41.650749+00:00"
+    },
+    "id": "2d00d71173c85f7b81de53e9eff36a9f616d5a4c7589dcaa6dc85c6adb6aa594"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/emilyriehl/infinity-cosmos",
+      "branch": "main",
+      "commit": "bf1885e46ff0fde2a1cde218001d9b90307f4224",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "start_line": 159,
+      "start_column": 39,
+      "end_line": 159,
+      "end_column": 44,
+      "file": "InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean"
+    },
+    "debug_info": {
+      "goal": "A : SSet\nf g : A _\u298b1\u298c\ninst\u271d : A.Quasicategory\n\u22a2 HomotopicL f g \u2194 HomotopicR f g",
+      "url": "https://github.com/emilyriehl/infinity-cosmos/blob/bf1885e46ff0fde2a1cde218001d9b90307f4224/InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean#L159"
+    },
+    "metadata": {
+      "blame_email_hash": "f0d6831918ab",
+      "blame_date": "2024-12-05T19:17:58+01:00",
+      "inclusion_date": "2025-04-03T01:40:20.137259+00:00"
+    },
+    "id": "e249ec833ea90c2ddfe12e1930391d2504dbfc2f252d7d4181076bbdae672197"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/lean-ja/lean-by-example",
+      "branch": "main",
+      "commit": "3ebe85bea550147ea661babd12b968bf8e97a7ed",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 107,
+      "start_column": 2,
+      "end_line": 107,
+      "end_column": 7,
+      "file": "LeanByExample/Attribute/Aesop.lean"
+    },
+    "debug_info": {
+      "goal": "a b c d e : Nat\nh1 : a \u2264 b\nh2 : b \u2264 c\nh3 : c \u2264 d\nh4 : d \u2264 e\n\u22a2 a \u2264 e",
+      "url": "https://github.com/lean-ja/lean-by-example/blob/3ebe85bea550147ea661babd12b968bf8e97a7ed/LeanByExample/Attribute/Aesop.lean#L107"
+    },
+    "metadata": {
+      "blame_email_hash": "a84937a2d49e",
+      "blame_date": "2025-01-08T22:40:33+09:00",
+      "inclusion_date": "2025-04-13T23:49:22.692160+00:00"
+    },
+    "id": "6d2c3b7d4bcf5ccac594be3ea46f32f7f20d5aef868e6c6eace910f2a0097045"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/teorth/pfr",
+      "branch": "master",
+      "commit": "0010cb5c36c6605a2d0e957390ab4955e6c9e3ff",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 862,
+      "start_column": 69,
+      "end_line": 862,
+      "end_column": 74,
+      "file": "PFR/MoreRuzsaDist.lean"
+    },
+    "debug_info": {
+      "goal": "G : Type u_8\nhG : MeasurableSpace G\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : MeasurableSingletonClass G\ninst\u271d : Countable G\nm : \u2115\nhm : m \u2265 2\n\u03a9 : Fin m \u2192 Type u_9\nh\u03a9 : (i : Fin m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin m) \u2192 \u03a9 i \u2192 G\n\u22a2 \u2211 j, d[X j # X j] \u2264 2 * \u2191m * D[X ; h\u03a9]",
+      "url": "https://github.com/teorth/pfr/blob/0010cb5c36c6605a2d0e957390ab4955e6c9e3ff/PFR/MoreRuzsaDist.lean#L862"
+    },
+    "metadata": {
+      "blame_email_hash": "97e8591fe714",
+      "blame_date": "2024-10-17T18:26:36+00:00",
+      "inclusion_date": "2025-04-05T02:25:45.802608+00:00"
+    },
+    "id": "02a6bfca12778b8d54058abf6a2be8276203ac786965e258b31668ea565b4848"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "arend/poly",
+      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 294,
+      "start_column": 48,
+      "end_line": 294,
+      "end_column": 53,
+      "file": "Mathlib/Tactic/Algebra.lean"
+    },
+    "debug_info": {
+      "goal": "\u00ab$u\u00bb \u00ab$v\u00bb \u00ab$w\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$R\u2081\u00bb : Type v\n\u00ab$R\u2082\u00bb : Type w\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$sR\u2081\u00bb : CommSemiring \u00ab$R\u2081\u00bb\n\u00ab$sRA\u2081\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n\u00ab$sR\u2082\u00bb : CommSemiring \u00ab$R\u2082\u00bb\n\u00ab$sRA\u2082\u00bb : Algebra \u00ab$R\u2082\u00bb \u00ab$A\u00bb\n$r\u2081\u271d\u00b9 : \u00ab$R\u2081\u00bb\n$r\u2082\u271d\u00b9 : \u00ab$R\u2082\u00bb\n$a\u2081\u271d $a\u2082\u271d : \u00ab$A\u00bb\n$r\u2082\u271d : \u00ab$R\u2082\u00bb\n$r\u2081\u271d \u00ab$r\u2081\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$r\u2082\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$a\u2082\u00bb : \u00ab$A\u00bb\n\u00ab$pra\u2082\u00bb : $r\u2082\u271d \u2022 $a\u2082\u271d = \u00ab$r\u2082\u00bb \u2022 \u00ab$a\u2082\u00bb\n\u00ab$a\u2081\u00bb : \u00ab$A\u00bb := \u00ab$a\u2082\u00bb\n\u00ab$pra\u2081\u00bb : $r\u2081\u271d \u2022 $a\u2081\u271d = \u00ab$r\u2081\u00bb \u2022 \u00ab$a\u2081\u00bb\n\u00ab$_i\u2083\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$R\u2082\u00bb\n\u00ab$_i\u2084\u00bb : IsScalarTower \u00ab$R\u2081\u00bb \u00ab$R\u2082\u00bb \u00ab$A\u00bb\n\u00ab$r\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$pr\u00bb : \u00ab$r\u2081\u00bb \u2022 1 + Nat.rawCast 0 + \u00ab$r\u2082\u00bb = \u00ab$r\u00bb\n\u22a2 $r\u2081\u271d \u2022 $a\u2081\u271d + $r\u2082\u271d \u2022 $a\u2082\u271d = \u00ab$r\u00bb \u2022 \u00ab$a\u2082\u00bb",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L294"
+    },
+    "metadata": {
+      "blame_email_hash": "677e25bc67b0",
+      "blame_date": "2025-04-14T17:07:18+02:00",
+      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+    },
+    "id": "1234d8b57ec5afcc2ad682a4a316769f9438e7c94608d26f8bee4166502a9573"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/PatrickMassot/GlimpseOfLean",
+      "branch": "master",
+      "commit": "435db8d6c9b3c72e68e0fcf95563921a3e17c88b",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 77,
+      "start_column": 2,
+      "end_line": 77,
+      "end_column": 7,
+      "file": "GlimpseOfLean/Exercises/Topics/Probability.lean"
+    },
+    "debug_info": {
+      "goal": "\u03a9 : Type\ninst\u271d\u00b9 : MeasureSpace \u03a9\ninst\u271d : IsProbabilityMeasure \u2119\nA B : Set \u03a9\nhA : MeasurableSet A\nhB : MeasurableSet B\nh : IndepSet A B\n\u22a2 IndepSet A\u1d9c B",
+      "url": "https://github.com/PatrickMassot/GlimpseOfLean/blob/435db8d6c9b3c72e68e0fcf95563921a3e17c88b/GlimpseOfLean/Exercises/Topics/Probability.lean#L77"
+    },
+    "metadata": {
+      "blame_email_hash": "369c5f9cb018",
+      "blame_date": "2025-03-07T14:30:17+01:00",
+      "inclusion_date": "2025-04-16T23:24:19.102810+00:00"
+    },
+    "id": "3577f3cf5999bad2f3b6bd7ce1a7b4b43afe49b10f7643e474cff5dfb1aa018b"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/nomeata/loogle",
+      "branch": "master",
+      "commit": "b340a5b73a68fd54d624ac1f9c025c11f638bb53",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 227,
+      "start_column": 78,
+      "end_line": 227,
+      "end_column": 83,
+      "file": "Tests.lean"
+    },
+    "debug_info": {
+      "goal": "\u03b1 : Type u_1\ninst\u271d\u00b2 : Zero \u03b1\ninst\u271d\u00b9 : HMul \u03b1 \u03b1 \u03b1\ninst\u271d : LE \u03b1\na : \u03b1\n\u22a2 0 \u2264 a * a",
+      "url": "https://github.com/nomeata/loogle/blob/b340a5b73a68fd54d624ac1f9c025c11f638bb53/Tests.lean#L227"
+    },
+    "metadata": {
+      "blame_email_hash": "1e9dd229978a",
+      "blame_date": "2023-11-11T14:02:18+01:00",
+      "inclusion_date": "2025-04-14T00:17:19.239440+00:00"
+    },
+    "id": "22068073ae32646f2534f7f35f61036cb591dbebdc590fc9800937fe1d753b29"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/Verified-zkEVM/ZKLib",
+      "branch": "main",
+      "commit": "7b2a35da9cc686c666671ac006d1c2ec4757302c",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 276,
+      "start_column": 27,
+      "end_line": 276,
+      "end_column": 32,
+      "file": "ZKLib/ProofSystem/Sumcheck/Basic.lean"
+    },
+    "debug_info": {
+      "goal": "case pos\nR : Type\ninst\u271d\u00b9 : CommSemiring R\nd m : \u2115\nD : Fin m \u21aa R\ninst\u271d : VCVCompatible R\ntarget : R\noStmt : (i : Unit) \u2192 InputOracleStatement R d i\nhValid : inputRelation R d D (target, oStmt) ()\npoly : R[X]\nhp : poly \u2208 R\u2983\u2264 \u2191d\u2984[X]\nh : oStmt () = \u27e8poly, hp\u27e9\nstmt : R\noStmtOut : (i : Unit \u2295 Unit) \u2192 OutputOracleStatement R d i\nfst\u271d : Unit\ntranscript : (pSpec R d).FullTranscript\nh1 : (fun x => oStmt ()) = oStmtOut\nh2 : Transcript.snoc stmt (Transcript.snoc (oStmt ()) default) = transcript\nhEval : \u2211 x, Polynomial.eval (D x) poly = target\n\u22a2 (pure (stmt, fun x => \u27e8poly, hp\u27e9)).neverFailsWhen fun {\u03b1} x => Set.univ",
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b2a35da9cc686c666671ac006d1c2ec4757302c/ZKLib/ProofSystem/Sumcheck/Basic.lean#L276"
+    },
+    "metadata": {
+      "blame_email_hash": "d0850777cf0b",
+      "blame_date": "2025-04-16T18:04:04-04:00",
+      "inclusion_date": "2025-04-18T23:50:11.233985+00:00"
+    },
+    "id": "a9accd2716149ecd2b347d52a05707f3ebe4cfda83f6f7b7932328406841b619"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/dwrensha/compfiles",
+      "branch": "main",
+      "commit": "fa63371f54d5353ab86e7e2b97473832c417e5ba",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 76,
+      "start_column": 44,
+      "end_line": 76,
+      "end_column": 49,
+      "file": "Compfiles/Bulgaria1998P1.lean"
+    },
+    "debug_info": {
+      "goal": "case h.intro.mk.intro.intro.mk.intro.intro.intro.intro.\u00ab1\u00bb.\u00ab3\u00bb\ni j : \u2115\nhi1 : 1 \u2264 1\nhi2 : 1 \u2264 8\nhj1 : 1 \u2264 3\nhj2 : 3 \u2264 8\nhij1 : \u27e81, \u22ef\u27e9 < \u27e83, \u22ef\u27e9\nhij2 : 2 * \u2191\u27e83, \u22ef\u27e9 - \u2191\u27e81, \u22ef\u27e9 \u2208 Set.Icc 1 8\nhc1 :\n  (match \u27e81, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0) =\n    match \u27e83, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0\nhc2 :\n  (match \u27e81, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0) =\n    match \u27e82 * 3 - 1, hij2\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0\n\u22a2 False",
+      "url": "https://github.com/dwrensha/compfiles/blob/fa63371f54d5353ab86e7e2b97473832c417e5ba/Compfiles/Bulgaria1998P1.lean#L76"
+    },
+    "metadata": {
+      "blame_email_hash": "acdd9d7e744e",
+      "blame_date": "2024-12-02T21:25:12-05:00",
+      "inclusion_date": "2025-04-12T23:25:20.561445+00:00"
+    },
+    "id": "0e47e1dc204fb0cd9d9105a3bd0d11899f287fb03839c8ba1cda4499b53d0920"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/FormalizedFormalLogic/Foundation",
+      "branch": "palalansouki/issue303",
+      "commit": "a2cbf6a6c08a4e59a8ac27e0e85e5c562af7bb32",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "start_line": 251,
+      "start_column": 57,
+      "end_line": 251,
+      "end_column": 62,
+      "file": "Foundation/ProvabilityLogic/S/Completeness.lean"
+    },
+    "debug_info": {
+      "goal": "L : Language\ninst\u271d\u2076 : Semiterm.Operator.GoedelNumber L (Sentence L)\ninst\u271d\u2075 : L.DecidableEq\nT\u2080 T : Theory \u2112\u2092\u1d63\ninst\u271d\u2074 : T\u2080 \u2aaf T\ninst\u271d\u00b3 : Diagonalization T\u2080\n\ud835\udd05 : ProvabilityPredicate T\u2080 T\ninst\u271d\u00b2 : \ud835\udd05.HBL\ninst\u271d\u00b9 : \u2115 \u22a7\u2098* T\ninst\u271d : \ud835\udd05.Justified \u2115\nA B : Modal.Formula \u2115\n\u22a2 Arith.SoundOn \ud835\udc08\ud835\udeba\u2081 (Arith.Hierarchy \ud835\udeb7 2)",
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/a2cbf6a6c08a4e59a8ac27e0e85e5c562af7bb32/Foundation/ProvabilityLogic/S/Completeness.lean#L251"
+    },
+    "metadata": {
+      "blame_email_hash": "165d0178d95d",
+      "blame_date": "2025-04-06T15:53:13+09:00",
+      "inclusion_date": "2025-04-10T00:17:12.335006+00:00"
+    },
+    "id": "561aea2f41ccdded4a549bba38c20c7aff4ca18aed7fa403980d371473caf511"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/fpvandoorn/carleson",
+      "branch": "master",
+      "commit": "596e40748eb59deb1cd6229204f84c13360bb7f3",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 551,
+      "start_column": 9,
+      "end_line": 551,
+      "end_column": 14,
+      "file": "Carleson/ToMathlib/HardyLittlewood.lean"
+    },
+    "debug_info": {
+      "goal": "case convert_3\nX : Type u_1\nE : Type u_2\nA : \u211d\u22650\ninst\u271d\u2078 : MetricSpace X\ninst\u271d\u2077 : MeasurableSpace X\n\u03bc : Measure X\ninst\u271d\u2076 : \u03bc.IsDoubling A\ninst\u271d\u2075 : NormedAddCommGroup E\ninst\u271d\u2074 : ProperSpace X\ninst\u271d\u00b3 : BorelSpace X\ninst\u271d\u00b2 : IsFiniteMeasureOnCompacts \u03bc\ninst\u271d\u00b9 : Nonempty X\ninst\u271d : \u03bc.IsOpenPosMeasure\np\u2081 p\u2082 : \u211d\u22650\nhp\u2081 : 1 \u2264 p\u2081\nhp\u2081\u2082 : p\u2081 \u2264 p\u2082\nthis : \u2191p\u2082 \u2260 0\n\u22a2 HasWeakType sorry (\u2191p\u2082) (\u2191p\u2082) \u03bc \u03bc (\u2191A ^ 2)",
+      "url": "https://github.com/fpvandoorn/carleson/blob/596e40748eb59deb1cd6229204f84c13360bb7f3/Carleson/ToMathlib/HardyLittlewood.lean#L551"
+    },
+    "metadata": {
+      "blame_email_hash": "13ebe891461f",
+      "blame_date": "2025-04-04T17:09:00+02:00",
+      "inclusion_date": "2025-04-12T23:35:25.195113+00:00"
+    },
+    "id": "a14850251f9f3be49295603c5034136e361ae1afdf316c66d134e31e74728ccd"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ImperialCollegeLondon/FLT",
+      "branch": "kbuzzard-rigidification-refactor",
+      "commit": "aa6d8c9e1d5f5b404fac024c800062d156669ef0",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 213,
+      "start_column": 87,
+      "end_line": 213,
+      "end_column": 92,
+      "file": "FLT/QuaternionAlgebra/NumberField.lean"
+    },
+    "debug_info": {
+      "goal": "F : Type u_1\ninst\u271d\u2074 : Field F\ninst\u271d\u00b3 : NumberField F\nD : Type u_2\ninst\u271d\u00b2 : Ring D\ninst\u271d\u00b9 : Algebra F D\ninst\u271d : IsQuaternionAlgebra F D\nS : Finset (HeightOneSpectrum (\ud835\udcde F))\n\u22a2 Module.Finite (FiniteAdeleRing (\ud835\udcde F) F) (D \u2297[F] FiniteAdeleRing (\ud835\udcde F) F)",
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/aa6d8c9e1d5f5b404fac024c800062d156669ef0/FLT/QuaternionAlgebra/NumberField.lean#L213"
+    },
+    "metadata": {
+      "blame_email_hash": "c7989443bd81",
+      "blame_date": "2025-04-04T17:21:54+01:00",
+      "inclusion_date": "2025-04-05T01:25:01.623280+00:00"
+    },
+    "id": "77d883852a3a57f13c9c67e2b2b4a11a04b867d157857bff82e2313ea837a85f"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/aesop",
+      "branch": "rpinf-precomp",
+      "commit": "dd78c1426f5fc783ec1ba23ad769471cc69bb8b4",
+      "lean_version": "v4.17.0-rc1"
+    },
+    "location": {
+      "start_line": 46,
+      "start_column": 12,
+      "end_line": 46,
+      "end_column": 17,
+      "file": "AesopTest/ExtScript.lean"
+    },
+    "debug_info": {
+      "goal": "case fst\n\u03b1 \u03b2 \u03b3 \u03b4 \u03b9 : Type\np q : MyProd \u03b1 (MyProd \u03b2 \u03b3)\n\u22a2 p.fst = q.fst",
+      "url": "https://github.com/leanprover-community/aesop/blob/dd78c1426f5fc783ec1ba23ad769471cc69bb8b4/AesopTest/ExtScript.lean#L46"
+    },
+    "metadata": {
+      "blame_email_hash": "555bc3b21621",
+      "blame_date": "2024-06-07T02:10:37+02:00",
+      "inclusion_date": "2025-04-11T00:07:12.176717+00:00"
+    },
+    "id": "b569dd2ed098ab4ff9f2491ffb734b81b26283e69489b058fc4927802aa2ea7e"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/YaelDillies/LeanCamCombi",
+      "branch": "master",
+      "commit": "5df79658756ef6d112f2464eec3aece31e35cc83",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 127,
+      "start_column": 8,
+      "end_line": 127,
+      "end_column": 13,
+      "file": "LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean"
+    },
+    "debug_info": {
+      "goal": "case refine_2.refine_2\n\u03b1 : Type u_1\n\u03a9 : Type u_2\ninst\u271d\u00b9 : MeasurableSpace \u03a9\nX Y : \u03a9 \u2192 Set \u03b1\n\u03bc : Measure \u03a9\np q : \u211d\u22650\nhX : IsBernoulliSeq X p \u03bc\nhY : IsBernoulliSeq Y q \u03bc\ninst\u271d : IsProbabilityMeasure \u03bc\nh : IndepFun X Y \u03bc\ns : Finset \u03b1\ni : \u03b1\nhi : i \u2208 s\n\u22a2 MeasurableSet {\u03c9 | Y \u03c9 i}",
+      "url": "https://github.com/YaelDillies/LeanCamCombi/blob/5df79658756ef6d112f2464eec3aece31e35cc83/LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean#L127"
+    },
+    "metadata": {
+      "blame_email_hash": "97e8591fe714",
+      "blame_date": "2025-03-05T14:51:44+00:00",
+      "inclusion_date": "2025-04-18T00:01:05.296811+00:00"
+    },
+    "id": "bc51c379889ca30374c7178ae2623e99043d06fd3c005f816ba5bebedcd3509a"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "AK_work",
+      "commit": "4250adfc9aab5e09d276549d7a645627cb2dce39",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 539,
+      "start_column": 23,
+      "end_line": 539,
+      "end_column": 28,
+      "file": "PrimeNumberTheoremAnd/MediumPNT.lean"
+    },
+    "debug_info": {
+      "goal": "c : \u211d := sorry\n\u22a2 0 < c",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/4250adfc9aab5e09d276549d7a645627cb2dce39/PrimeNumberTheoremAnd/MediumPNT.lean#L539"
+    },
+    "metadata": {
+      "blame_email_hash": "4bcdc021face",
+      "blame_date": "2025-02-14T15:25:09-05:00",
+      "inclusion_date": "2025-04-15T23:18:41.650749+00:00"
+    },
+    "id": "6aaf1d8c94ab08329e25cba63011d7c4917d3a0c372a36204f3a64e0da754651"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/emilyriehl/infinity-cosmos",
+      "branch": "main",
+      "commit": "bf1885e46ff0fde2a1cde218001d9b90307f4224",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "start_line": 70,
+      "start_column": 44,
+      "end_line": 70,
+      "end_column": 49,
+      "file": "InfinityCosmos/ForMathlib/InfinityCosmos/Isofibrations.lean"
+    },
+    "debug_info": {
+      "goal": "K : Type u\ninst\u271d\u00b9 : Category.{v, u} K\ninst\u271d : InfinityCosmos K\nX Y X' Y' : K\nf : X \u21a0 Y\ng : X' \u21a0 Y'\n\u22a2 IsIsofibration (prod.map \u2191f \u2191g)",
+      "url": "https://github.com/emilyriehl/infinity-cosmos/blob/bf1885e46ff0fde2a1cde218001d9b90307f4224/InfinityCosmos/ForMathlib/InfinityCosmos/Isofibrations.lean#L70"
+    },
+    "metadata": {
+      "blame_email_hash": "eaaeec08515d",
+      "blame_date": "2024-12-03T11:33:30-05:00",
+      "inclusion_date": "2025-04-03T01:40:20.137259+00:00"
+    },
+    "id": "76c8504fdd8e486111651526b1cea668d0f1e6f547032ca4ea7086750d71f6f2"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/lean-ja/lean-by-example",
+      "branch": "main",
+      "commit": "3ebe85bea550147ea661babd12b968bf8e97a7ed",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 47,
+      "start_column": 2,
+      "end_line": 47,
+      "end_column": 7,
+      "file": "LeanByExample/Tactic/Ext.lean"
+    },
+    "debug_info": {
+      "goal": "\u03b1 : Type u\na b : Set \u03b1\nh : \u2200 (x : \u03b1), x \u2208 a \u2194 x \u2208 b\n\u22a2 a = b",
+      "url": "https://github.com/lean-ja/lean-by-example/blob/3ebe85bea550147ea661babd12b968bf8e97a7ed/LeanByExample/Tactic/Ext.lean#L47"
+    },
+    "metadata": {
+      "blame_email_hash": "a84937a2d49e",
+      "blame_date": "2025-01-08T20:05:37+09:00",
+      "inclusion_date": "2025-04-13T23:49:22.692160+00:00"
+    },
+    "id": "a79fbc1f99b4e315596137033e19ea503dda427a7c0dce0aaa7b85b74fd76775"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/teorth/pfr",
+      "branch": "master",
+      "commit": "0010cb5c36c6605a2d0e957390ab4955e6c9e3ff",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 868,
+      "start_column": 108,
+      "end_line": 868,
+      "end_column": 113,
+      "file": "PFR/MoreRuzsaDist.lean"
+    },
+    "debug_info": {
+      "goal": "G : Type u_8\nhG : MeasurableSpace G\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : MeasurableSingletonClass G\ninst\u271d : Countable G\nm : \u2115\nhm : m \u2265 2\n\u03a9 : Fin m \u2192 Type u_9\nh\u03a9 : (i : Fin m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin m) \u2192 \u03a9 i \u2192 G\nhidenT : \u2200 (j k : Fin m), IdentDistrib (X j) (X k) \u2119 \u2119\n\u22a2 \u2200 (i : Fin m), D[X ; h\u03a9] \u2264 \u2191m * d[X i # X i]",
+      "url": "https://github.com/teorth/pfr/blob/0010cb5c36c6605a2d0e957390ab4955e6c9e3ff/PFR/MoreRuzsaDist.lean#L868"
+    },
+    "metadata": {
+      "blame_email_hash": "97e8591fe714",
+      "blame_date": "2024-10-17T18:26:36+00:00",
+      "inclusion_date": "2025-04-05T02:25:45.802608+00:00"
+    },
+    "id": "48ea0753abd67fbe6fe270d0a60c2749648b01ff3c66fd725d932e1a3aeeeae7"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "arend/poly",
+      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 304,
+      "start_column": 48,
+      "end_line": 304,
+      "end_column": 53,
+      "file": "Mathlib/Tactic/Algebra.lean"
+    },
+    "debug_info": {
+      "goal": "\u00ab$u\u00bb \u00ab$v\u00bb \u00ab$w\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$R\u2081\u00bb : Type v\n\u00ab$R\u2082\u00bb : Type w\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$sR\u2081\u00bb : CommSemiring \u00ab$R\u2081\u00bb\n\u00ab$sRA\u2081\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n\u00ab$sR\u2082\u00bb : CommSemiring \u00ab$R\u2082\u00bb\n\u00ab$sRA\u2082\u00bb : Algebra \u00ab$R\u2082\u00bb \u00ab$A\u00bb\n$r\u2081\u271d\u00b9 : \u00ab$R\u2081\u00bb\n$r\u2082\u271d\u00b9 : \u00ab$R\u2082\u00bb\n$a\u2081\u271d $a\u2082\u271d : \u00ab$A\u00bb\n$r\u2082\u271d : \u00ab$R\u2082\u00bb\n$r\u2081\u271d \u00ab$r\u2081\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$r\u2082\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$a\u2082\u00bb : \u00ab$A\u00bb\n\u00ab$pra\u2082\u00bb : $r\u2082\u271d \u2022 $a\u2082\u271d = \u00ab$r\u2082\u00bb \u2022 \u00ab$a\u2082\u00bb\n\u00ab$a\u2081\u00bb : \u00ab$A\u00bb := \u00ab$a\u2082\u00bb\n\u00ab$pra\u2081\u00bb : $r\u2081\u271d \u2022 $a\u2081\u271d = \u00ab$r\u2081\u00bb \u2022 \u00ab$a\u2081\u00bb\n\u00ab$_i\u2083\u00bb : Algebra \u00ab$R\u2082\u00bb \u00ab$R\u2081\u00bb\n\u00ab$_i\u2084\u00bb : IsScalarTower \u00ab$R\u2082\u00bb \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n\u00ab$r\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$pr\u00bb : \u00ab$r\u2082\u00bb \u2022 1 + Nat.rawCast 0 + \u00ab$r\u2081\u00bb = \u00ab$r\u00bb\n\u22a2 $r\u2081\u271d \u2022 $a\u2081\u271d + $r\u2082\u271d \u2022 $a\u2082\u271d = \u00ab$r\u00bb \u2022 \u00ab$a\u2081\u00bb",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L304"
+    },
+    "metadata": {
+      "blame_email_hash": "677e25bc67b0",
+      "blame_date": "2025-04-14T17:07:18+02:00",
+      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+    },
+    "id": "ba0ef1d502fe07082fa9b6489fda91b0d81c1e35e1cbbcae48ae84306b3f5038"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/PatrickMassot/GlimpseOfLean",
+      "branch": "master",
+      "commit": "435db8d6c9b3c72e68e0fcf95563921a3e17c88b",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 86,
+      "start_column": 2,
+      "end_line": 86,
+      "end_column": 7,
+      "file": "GlimpseOfLean/Exercises/Topics/Probability.lean"
+    },
+    "debug_info": {
+      "goal": "\u03a9 : Type\ninst\u271d\u00b9 : MeasureSpace \u03a9\ninst\u271d : IsProbabilityMeasure \u2119\nA : Set \u03a9\nh : IndepSet A A\n\u22a2 \u2119 A = 0 \u2228 \u2119 A = 1",
+      "url": "https://github.com/PatrickMassot/GlimpseOfLean/blob/435db8d6c9b3c72e68e0fcf95563921a3e17c88b/GlimpseOfLean/Exercises/Topics/Probability.lean#L86"
+    },
+    "metadata": {
+      "blame_email_hash": "369c5f9cb018",
+      "blame_date": "2025-03-07T14:30:17+01:00",
+      "inclusion_date": "2025-04-16T23:24:19.102810+00:00"
+    },
+    "id": "926e207c68bf5e0eee2705fbb68f26df59dede909b1f81f8c8ef961360bae260"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/Verified-zkEVM/ZKLib",
+      "branch": "main",
+      "commit": "7b2a35da9cc686c666671ac006d1c2ec4757302c",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 219,
+      "start_column": 6,
+      "end_line": 219,
+      "end_column": 11,
+      "file": "ZKLib/CommitmentScheme/MerkleTree.lean"
+    },
+    "debug_info": {
+      "goal": "case succ\n\u03b1 : Type\ninst\u271d\u00b2 : DecidableEq \u03b1\ninst\u271d\u00b9 : Inhabited \u03b1\ninst\u271d : Fintype \u03b1\nhash : \u03b1 \u00d7 \u03b1 \u2192 \u03b1\nn : \u2115\nih :\n  \u2200 (leaves : List.Vector \u03b1 (2 ^ n)) (i : Fin (2 ^ n)),\n    (simulateQ (implement_with_function \u03b1 hash)\n        (do\n          let cache \u2190 buildMerkleTree \u03b1 n leaves\n          let proof : List.Vector \u03b1 n := generateProof \u03b1 i cache\n          verifyProof \u03b1 i leaves[i] (getRoot \u03b1 cache) proof\n          pure PUnit.unit)\n        ()).neverFails\nleaves : List.Vector \u03b1 (2 ^ (n + 1))\ni : Fin (2 ^ (n + 1))\n\u22a2 ((((Option.elimM (OptionT.run (buildMerkleTree \u03b1 (n + 1) leaves)) (FreeMonad.pure none)\n                (OptionT.run \u2218 fun cache =>\n                  verifyProof \u03b1 i (leaves.get i) (getRoot \u03b1 cache) (generateProof \u03b1 i cache))).mapM\n            fun {\u03b1_1} q =>\n            match \u03b1_1, q with\n            | .((spec \u03b1).range i), query i (left, right) => pure (hash (left, right))) >>=\n          fun __do_lift => __do_lift.getM)\n        ()).neverFailsWhen\n    fun {\u03b1} x => Set.univ",
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b2a35da9cc686c666671ac006d1c2ec4757302c/ZKLib/CommitmentScheme/MerkleTree.lean#L219"
+    },
+    "metadata": {
+      "blame_email_hash": "ab200eba5736",
+      "blame_date": "2025-04-16T13:24:09-07:00",
+      "inclusion_date": "2025-04-18T23:50:11.233985+00:00"
+    },
+    "id": "4771b3d3db601fc7c1651f675a3985efdfcc4664a281f4879d70f344ab1c9872"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/dwrensha/compfiles",
+      "branch": "main",
+      "commit": "fa63371f54d5353ab86e7e2b97473832c417e5ba",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 76,
+      "start_column": 44,
+      "end_line": 76,
+      "end_column": 49,
+      "file": "Compfiles/Bulgaria1998P1.lean"
+    },
+    "debug_info": {
+      "goal": "case h.intro.mk.intro.intro.mk.intro.intro.intro.intro.\u00ab1\u00bb.\u00ab4\u00bb\ni j : \u2115\nhi1 : 1 \u2264 1\nhi2 : 1 \u2264 8\nhj1 : 1 \u2264 4\nhj2 : 4 \u2264 8\nhij1 : \u27e81, \u22ef\u27e9 < \u27e84, \u22ef\u27e9\nhij2 : 2 * \u2191\u27e84, \u22ef\u27e9 - \u2191\u27e81, \u22ef\u27e9 \u2208 Set.Icc 1 8\nhc1 :\n  (match \u27e81, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0) =\n    match \u27e84, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0\nhc2 :\n  (match \u27e81, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0) =\n    match \u27e82 * 4 - 1, hij2\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0\n\u22a2 False",
+      "url": "https://github.com/dwrensha/compfiles/blob/fa63371f54d5353ab86e7e2b97473832c417e5ba/Compfiles/Bulgaria1998P1.lean#L76"
+    },
+    "metadata": {
+      "blame_email_hash": "acdd9d7e744e",
+      "blame_date": "2024-12-02T21:25:12-05:00",
+      "inclusion_date": "2025-04-12T23:25:20.561445+00:00"
+    },
+    "id": "2d3c34ee5b51b3c60b46be7841a5183ec00109f623349a618507daf3252ca1db"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/FormalizedFormalLogic/Foundation",
+      "branch": "palalansouki/issue303",
+      "commit": "a2cbf6a6c08a4e59a8ac27e0e85e5c562af7bb32",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "start_line": 253,
+      "start_column": 81,
+      "end_line": 253,
+      "end_column": 86,
+      "file": "Foundation/ProvabilityLogic/S/Completeness.lean"
+    },
+    "debug_info": {
+      "goal": "L : Language\ninst\u271d\u2078 : Semiterm.Operator.GoedelNumber L (Sentence L)\ninst\u271d\u2077 : L.DecidableEq\nT\u2080 T : Theory \u2112\u2092\u1d63\ninst\u271d\u2076 : T\u2080 \u2aaf T\ninst\u271d\u2075 : Diagonalization T\u2080\n\ud835\udd05 : ProvabilityPredicate T\u2080 T\ninst\u271d\u2074 : \ud835\udd05.HBL\ninst\u271d\u00b3 : \u2115 \u22a7\u2098* T\ninst\u271d\u00b2 : \ud835\udd05.Justified \u2115\nA B : Modal.Formula \u2115\ninst\u271d\u00b9 : \ud835\udc08\ud835\udeba\u2081 \u2aaf T\ninst\u271d : T.Delta1Definable\n\u22a2 \u2200 {\u03c3 : Sentence \u2112\u2092\u1d63}, T \u22a2!. \u03c3 \u2194 \u2115 \u22a7\u2098\u2080 \u2191(\ud835\udc08\ud835\udeba\u2081.standardDP T) \u03c3",
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/a2cbf6a6c08a4e59a8ac27e0e85e5c562af7bb32/Foundation/ProvabilityLogic/S/Completeness.lean#L253"
+    },
+    "metadata": {
+      "blame_email_hash": "165d0178d95d",
+      "blame_date": "2025-04-06T15:53:13+09:00",
+      "inclusion_date": "2025-04-10T00:17:12.335006+00:00"
+    },
+    "id": "258a7b918aeb06e842e71f2a126f95eb9e77b9b4822bcaaa065e40580452cc13"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/fpvandoorn/carleson",
+      "branch": "MR-leanoptions",
+      "commit": "d309c77ab38cf0bbb8502c49471cf1f00085c535",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 551,
+      "start_column": 9,
+      "end_line": 551,
+      "end_column": 14,
+      "file": "Carleson/ToMathlib/HardyLittlewood.lean"
+    },
+    "debug_info": {
+      "goal": "case a\nX : Type u_1\nE : Type u_2\nA : \u211d\u22650\ninst\u271d\u2078 : MetricSpace X\ninst\u271d\u2077 : MeasurableSpace X\n\u03bc : Measure X\ninst\u271d\u2076 : \u03bc.IsDoubling A\ninst\u271d\u2075 : NormedAddCommGroup E\ninst\u271d\u2074 : ProperSpace X\ninst\u271d\u00b3 : BorelSpace X\ninst\u271d\u00b2 : IsFiniteMeasureOnCompacts \u03bc\ninst\u271d\u00b9 : Nonempty X\ninst\u271d : \u03bc.IsOpenPosMeasure\np\u2081 p\u2082 : \u211d\u22650\nhp\u2081 : 1 \u2264 p\u2081\nhp\u2081\u2082 : p\u2081 \u2264 p\u2082\nthis : \u2191p\u2082 \u2260 0\n\u22a2 HasWeakType\n      (fun u x =>\n        (\u2191A ^ 2).toReal * (maximalFunction \u03bc (\u22ef.choose \u00d7\u02e2 univ) (fun x => x.1) (fun x => 2 ^ x.2) (\u2191p\u2081) u x).toReal)\n      (\u2191p\u2082) (\u2191p\u2082) \u03bc \u03bc (A ^ 4) \u2194\n    MemLp ?convert_4 (\u2191p\u2082) \u03bc \u2192\n      AEStronglyMeasurable ((fun f x => A ^ 2 * ?convert_2 f x) ?convert_4) \u03bc \u2227\n        wnorm ((fun f x => A ^ 2 * ?convert_2 f x) ?convert_4) (\u2191p\u2082) \u03bc \u2264\n          \u2191(\u2016A ^ 2\u2016\u208a * A ^ 2) * eLpNorm ?convert_4 (\u2191p\u2082) \u03bc",
+      "url": "https://github.com/fpvandoorn/carleson/blob/d309c77ab38cf0bbb8502c49471cf1f00085c535/Carleson/ToMathlib/HardyLittlewood.lean#L551"
+    },
+    "metadata": {
+      "blame_email_hash": "13ebe891461f",
+      "blame_date": "2025-04-04T17:09:00+02:00",
+      "inclusion_date": "2025-04-05T00:22:31.974081+00:00"
+    },
+    "id": "0d9aee127c8f347b0bb1e30e57bd700904d28c75c0ce542cb6e1e8c93cd8b977"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ImperialCollegeLondon/FLT",
+      "branch": "kbuzzard-topology-experiments",
+      "commit": "464ae0dba10c7aa3460d147aa375eaa865f2f552",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 66,
+      "start_column": 2,
+      "end_line": 66,
+      "end_column": 7,
+      "file": "FLT/QuaternionAlgebra/NumberField.lean"
+    },
+    "debug_info": {
+      "goal": "M : Type u_3\nN : Type u_4\ninst\u271d\u00b3 : Monoid M\ninst\u271d\u00b2 : Monoid N\ninst\u271d\u00b9 : TopologicalSpace M\ninst\u271d : TopologicalSpace N\nf : M \u2192* N\nhf : IsOpenMap \u21d1f\n\u22a2 IsOpenMap fun u => { val := f \u2191u, inv := f \u2191u\u207b\u00b9, val_inv := \u22ef, inv_val := \u22ef }",
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/464ae0dba10c7aa3460d147aa375eaa865f2f552/FLT/QuaternionAlgebra/NumberField.lean#L66"
+    },
+    "metadata": {
+      "blame_email_hash": "c7989443bd81",
+      "blame_date": "2025-04-04T09:45:19+01:00",
+      "inclusion_date": "2025-04-05T01:35:42.149777+00:00"
+    },
+    "id": "afd41ed70417ad4135fcbab1dfec134972d96099d85e20347bbe4ba85e6769d5"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/aesop",
+      "branch": "rpinf-precomp",
+      "commit": "dd78c1426f5fc783ec1ba23ad769471cc69bb8b4",
+      "lean_version": "v4.17.0-rc1"
+    },
+    "location": {
+      "start_line": 46,
+      "start_column": 12,
+      "end_line": 46,
+      "end_column": 17,
+      "file": "AesopTest/ExtScript.lean"
+    },
+    "debug_info": {
+      "goal": "case snd.fst\n\u03b1 \u03b2 \u03b3 \u03b4 \u03b9 : Type\np q : MyProd \u03b1 (MyProd \u03b2 \u03b3)\n\u22a2 p.snd.fst = q.snd.fst",
+      "url": "https://github.com/leanprover-community/aesop/blob/dd78c1426f5fc783ec1ba23ad769471cc69bb8b4/AesopTest/ExtScript.lean#L46"
+    },
+    "metadata": {
+      "blame_email_hash": "555bc3b21621",
+      "blame_date": "2024-06-07T02:10:37+02:00",
+      "inclusion_date": "2025-04-11T00:07:12.176717+00:00"
+    },
+    "id": "fe29e2a6c3c87ab8d89b7a9b934bfa86db3ec7bb6397076079052344ce6b040e"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/YaelDillies/LeanCamCombi",
+      "branch": "master",
+      "commit": "5df79658756ef6d112f2464eec3aece31e35cc83",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 130,
+      "start_column": 6,
+      "end_line": 130,
+      "end_column": 11,
+      "file": "LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean"
+    },
+    "debug_info": {
+      "goal": "case refine_2.hs\n\u03b1 : Type u_1\n\u03a9 : Type u_2\ninst\u271d\u00b9 : MeasurableSpace \u03a9\nX Y : \u03a9 \u2192 Set \u03b1\n\u03bc : Measure \u03a9\np q : \u211d\u22650\nhX : IsBernoulliSeq X p \u03bc\nhY : IsBernoulliSeq Y q \u03bc\ninst\u271d : IsProbabilityMeasure \u03bc\nh : IndepFun X Y \u03bc\ns : Finset \u03b1\n\u22a2 MeasurableSet (\u22c2 i \u2208 s, {\u03c9 | X \u03c9 i})",
+      "url": "https://github.com/YaelDillies/LeanCamCombi/blob/5df79658756ef6d112f2464eec3aece31e35cc83/LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean#L130"
+    },
+    "metadata": {
+      "blame_email_hash": "97e8591fe714",
+      "blame_date": "2025-03-05T14:51:44+00:00",
+      "inclusion_date": "2025-04-18T00:01:05.296811+00:00"
+    },
+    "id": "0183bd953d3b7d8140d29187a408e2af62297dfb521544521b74627a89e2ee62"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "main",
+      "commit": "5365476bb7e0988aaeb959174f4a06734f34bb6c",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 319,
+      "start_column": 23,
+      "end_line": 319,
+      "end_column": 28,
+      "file": "PrimeNumberTheoremAnd/MediumPNT.lean"
+    },
+    "debug_info": {
+      "goal": "SmoothingF : \u211d \u2192 \u211d\ndiffSmoothingF : ContDiff \u211d 1 SmoothingF\nsuppSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\nX : \u211d\nC : \u211d := sorry\n\u22a2 0 < C",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/5365476bb7e0988aaeb959174f4a06734f34bb6c/PrimeNumberTheoremAnd/MediumPNT.lean#L319"
+    },
+    "metadata": {
+      "blame_email_hash": "4bcdc021face",
+      "blame_date": "2025-02-14T14:09:55-05:00",
+      "inclusion_date": "2025-04-03T23:00:27.846420+00:00"
+    },
+    "id": "e4cd836f68b87abd12d1bb72274170a0000a0b422f6cca8373d9eefaf090295f"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/lean-ja/lean-by-example",
+      "branch": "main",
+      "commit": "3ebe85bea550147ea661babd12b968bf8e97a7ed",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 95,
+      "start_column": 2,
+      "end_line": 95,
+      "end_column": 7,
+      "file": "LeanByExample/Tactic/Ext.lean"
+    },
+    "debug_info": {
+      "goal": "\u03b1 : Type\np q : Foo\nhx : p.x = q.x\nhy : p.y = q.y\n\u22a2 p = q",
+      "url": "https://github.com/lean-ja/lean-by-example/blob/3ebe85bea550147ea661babd12b968bf8e97a7ed/LeanByExample/Tactic/Ext.lean#L95"
+    },
+    "metadata": {
+      "blame_email_hash": "a84937a2d49e",
+      "blame_date": "2025-01-08T20:05:37+09:00",
+      "inclusion_date": "2025-04-13T23:49:22.692160+00:00"
+    },
+    "id": "5f71aae7fe81842dbdfa9970601f6c62c5de0ff5b96d88d5fb78baef222d3b88"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/teorth/pfr",
+      "branch": "master",
+      "commit": "0010cb5c36c6605a2d0e957390ab4955e6c9e3ff",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 877,
+      "start_column": 235,
+      "end_line": 877,
+      "end_column": 240,
+      "file": "PFR/MoreRuzsaDist.lean"
+    },
+    "debug_info": {
+      "goal": "G : Type u_8\nhG : MeasurableSpace G\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : MeasurableSingletonClass G\ninst\u271d : Countable G\nm : \u2115\nhm : m \u2265 2\n\u03a9 : Fin m \u2192 Type u_9\nh\u03a9 : (i : Fin m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin m) \u2192 \u03a9 i \u2192 G\nhvanish : D[X ; h\u03a9] = 0\n\u22a2 \u2200 (i : Fin m), \u2203 H U, Measurable U \u2227 IsUniform (\u2191H) U \u2119 \u2227 d[X i # U] = 0",
+      "url": "https://github.com/teorth/pfr/blob/0010cb5c36c6605a2d0e957390ab4955e6c9e3ff/PFR/MoreRuzsaDist.lean#L877"
+    },
+    "metadata": {
+      "blame_email_hash": "97e8591fe714",
+      "blame_date": "2024-10-17T18:26:36+00:00",
+      "inclusion_date": "2025-04-05T02:25:45.802608+00:00"
+    },
+    "id": "c52d6e6eb7a0dded9b209c517f5a02052305d773f48d73baaa445693f6829613"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "arend/poly",
+      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 623,
+      "start_column": 2,
+      "end_line": 623,
+      "end_column": 7,
+      "file": "Mathlib/Tactic/Algebra.lean"
+    },
+    "debug_info": {
+      "goal": "x : \u211a\n\u22a2 x + x + x = 3 * x",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L623"
+    },
+    "metadata": {
+      "blame_email_hash": "677e25bc67b0",
+      "blame_date": "2025-04-14T17:07:18+02:00",
+      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+    },
+    "id": "ef0d20c676f00a4a6c9a5591cdf2e55d2feaad0147ed9bedcd787d8658a24105"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/PatrickMassot/GlimpseOfLean",
+      "branch": "master",
+      "commit": "435db8d6c9b3c72e68e0fcf95563921a3e17c88b",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 108,
+      "start_column": 2,
+      "end_line": 108,
+      "end_column": 7,
+      "file": "GlimpseOfLean/Exercises/Topics/Probability.lean"
+    },
+    "debug_info": {
+      "goal": "\u03a9 : Type\ninst\u271d\u00b9 : MeasureSpace \u03a9\ninst\u271d : IsProbabilityMeasure \u2119\nA B : Set \u03a9\nhA : \u2119 A = 0\n\u22a2 \u2119(A|B) = 0",
+      "url": "https://github.com/PatrickMassot/GlimpseOfLean/blob/435db8d6c9b3c72e68e0fcf95563921a3e17c88b/GlimpseOfLean/Exercises/Topics/Probability.lean#L108"
+    },
+    "metadata": {
+      "blame_email_hash": "369c5f9cb018",
+      "blame_date": "2025-03-07T14:30:17+01:00",
+      "inclusion_date": "2025-04-16T23:24:19.102810+00:00"
+    },
+    "id": "212f9d566f3205e8383b7539fb3aef5fba81877c8733ec919faed61dcbe31141"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/Verified-zkEVM/ZKLib",
+      "branch": "main",
+      "commit": "7b2a35da9cc686c666671ac006d1c2ec4757302c",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 557,
+      "start_column": 4,
+      "end_line": 557,
+      "end_column": 9,
+      "file": "ZKLib/Data/Math/Fin.lean"
+    },
+    "debug_info": {
+      "goal": "l : List \u2115\nj a : \u2115\nl' : List \u2115\nh : j < a + l'.sum\n\u22a2 \u2203 n, (a :: l').findSum j = some n",
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b2a35da9cc686c666671ac006d1c2ec4757302c/ZKLib/Data/Math/Fin.lean#L557"
+    },
+    "metadata": {
+      "blame_email_hash": "d0850777cf0b",
+      "blame_date": "2025-03-14T00:01:07-04:00",
+      "inclusion_date": "2025-04-18T23:50:11.233985+00:00"
+    },
+    "id": "430c2defa963b531026921902c06152034171fad542fcb6d1d2cb447e1a2c79c"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/dwrensha/compfiles",
+      "branch": "main",
+      "commit": "fa63371f54d5353ab86e7e2b97473832c417e5ba",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 76,
+      "start_column": 44,
+      "end_line": 76,
+      "end_column": 49,
+      "file": "Compfiles/Bulgaria1998P1.lean"
+    },
+    "debug_info": {
+      "goal": "case h.intro.mk.intro.intro.mk.intro.intro.intro.intro.\u00ab1\u00bb.\u00ab5\u00bb\ni j : \u2115\nhi1 : 1 \u2264 1\nhi2 : 1 \u2264 8\nhj1 : 1 \u2264 5\nhj2 : 5 \u2264 8\nhij1 : \u27e81, \u22ef\u27e9 < \u27e85, \u22ef\u27e9\nhij2 : 2 * \u2191\u27e85, \u22ef\u27e9 - \u2191\u27e81, \u22ef\u27e9 \u2208 Set.Icc 1 8\nhc1 :\n  (match \u27e81, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0) =\n    match \u27e85, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0\nhc2 :\n  (match \u27e81, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0) =\n    match \u27e82 * 5 - 1, hij2\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0\n\u22a2 False",
+      "url": "https://github.com/dwrensha/compfiles/blob/fa63371f54d5353ab86e7e2b97473832c417e5ba/Compfiles/Bulgaria1998P1.lean#L76"
+    },
+    "metadata": {
+      "blame_email_hash": "acdd9d7e744e",
+      "blame_date": "2024-12-02T21:25:12-05:00",
+      "inclusion_date": "2025-04-12T23:25:20.561445+00:00"
+    },
+    "id": "4e114f0a36a4c9f3e461bebd312cba323468378cb66eca708aa012370dc94ff2"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/FormalizedFormalLogic/Foundation",
+      "branch": "SnO2WMaN/issue303",
+      "commit": "d773e9c193bd4782c94b32ea63ede4aae696573a",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "start_line": 375,
+      "start_column": 27,
+      "end_line": 375,
+      "end_column": 32,
+      "file": "Foundation/ProvabilityLogic/S/Completeness.lean"
+    },
+    "debug_info": {
+      "goal": "T : Theory \u2112\u2092\u1d63\ninst\u271d\u00b3 : \u2115 \u22a7\u2098* T\nA : Modal.Formula \u2115\ninst\u271d\u00b2 : T.Delta1Definable\ninst\u271d\u00b9 : \ud835\udc08\ud835\udeba\u2081 \u2aaf T\ninst\u271d : SoundOn T (Hierarchy \ud835\udeb7 2)\ntfae_1_to_2 : Finset.conj A.rflSubformula \u279d A \u2208 Logic.GL \u2192 A \u2208 Logic.S\ntfae_2_to_3 : A \u2208 Logic.S \u2192 \u2200 (f : Realization \u2112\u2092\u1d63), \u2115 \u22a7\u2098\u2080 f.interpret (\ud835\udc08\ud835\udeba\u2081.standardDP T) A\nhA : Finset.conj A.rflSubformula \u279d A \u2209 Logic.GL\nM\u2081 : Model\nr\u2081 : M\u2081.World\nleft\u271d : M\u2081.IsFiniteTree r\u2081\nM\u2080 : Model := M\u2081.extendRoot r\u2081\nr\u2080\u271d : M\u2080.World := Model.extendRoot.root\nhA\u2081 : \u2200 \u03c6 \u2208 A.rflSubformula, Satisfies M\u2080 (Sum.inr r\u2081) \u03c6\nhA\u2082 : \u00acSatisfies M\u2080 (Sum.inr r\u2081) A\nthis\u271d : Fintype (M\u2081.extendRoot r\u2081).World\n\u03c3 : SolovaySentences (\ud835\udc08\ud835\udeba\u2081.standardDP T) (M\u2081.extendRoot r\u2081).toFrame r\u2080\u271d :=\n  SolovaySentence.standard (M\u2081.extendRoot r\u2081).toFrame Frame.extendRoot.root\nr\u2080 : (M\u2081.extendRoot r\u2081).World := Model.extendRoot.root\nB : Modal.Formula \u2115\nihB :\n  B \u2208 A.subformulas \u2192\n    (Satisfies M\u2080 (Sum.inr r\u2081) B \u2192 \ud835\udc08\ud835\udeba\u2081 \u22a2!. \u03c3.\u03c3 r\u2080 \u279d \u03c3.realization.interpret (\ud835\udc08\ud835\udeba\u2081.standardDP T) B) \u2227\n      (\u00acSatisfies M\u2080 (Sum.inr r\u2081) B \u2192 \ud835\udc08\ud835\udeba\u2081 \u22a2!. \u03c3.\u03c3 r\u2080 \u279d \u223c\u03c3.realization.interpret (\ud835\udc08\ud835\udeba\u2081.standardDP T) B)\nB_sub : \u25a1B \u2208 A.subformulas\nh : Satisfies M\u2080 (Sum.inr r\u2081) (\u25a1B)\nthis : \ud835\udc08\ud835\udeba\u2081 \u22a2!. (\u2a56 j, \u03c3.\u03c3 j) \u279d \u03c3.realization.interpret (\ud835\udc08\ud835\udeba\u2081.standardDP T) B\n\u22a2 \ud835\udc08\ud835\udeba\u2081.alt \u22a2! \u2a56 j, \u03c3.\u03c3 j",
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/d773e9c193bd4782c94b32ea63ede4aae696573a/Foundation/ProvabilityLogic/S/Completeness.lean#L375"
+    },
+    "metadata": {
+      "blame_email_hash": "165d0178d95d",
+      "blame_date": "2025-04-06T15:53:13+09:00",
+      "inclusion_date": "2025-04-06T23:10:57.403358+00:00"
+    },
+    "id": "d7a66edadb2d3aea140f4728c8b1dd14daaa81c197de56e13742652f79511831"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/fpvandoorn/carleson",
+      "branch": "MR-leanoptions",
+      "commit": "d309c77ab38cf0bbb8502c49471cf1f00085c535",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 551,
+      "start_column": 9,
+      "end_line": 551,
+      "end_column": 14,
+      "file": "Carleson/ToMathlib/HardyLittlewood.lean"
+    },
+    "debug_info": {
+      "goal": "case convert_3\nX : Type u_1\nE : Type u_2\nA : \u211d\u22650\ninst\u271d\u2078 : MetricSpace X\ninst\u271d\u2077 : MeasurableSpace X\n\u03bc : Measure X\ninst\u271d\u2076 : \u03bc.IsDoubling A\ninst\u271d\u2075 : NormedAddCommGroup E\ninst\u271d\u2074 : ProperSpace X\ninst\u271d\u00b3 : BorelSpace X\ninst\u271d\u00b2 : IsFiniteMeasureOnCompacts \u03bc\ninst\u271d\u00b9 : Nonempty X\ninst\u271d : \u03bc.IsOpenPosMeasure\np\u2081 p\u2082 : \u211d\u22650\nhp\u2081 : 1 \u2264 p\u2081\nhp\u2081\u2082 : p\u2081 \u2264 p\u2082\nthis : \u2191p\u2082 \u2260 0\n\u22a2 HasWeakType sorry (\u2191p\u2082) (\u2191p\u2082) \u03bc \u03bc (A ^ 2)",
+      "url": "https://github.com/fpvandoorn/carleson/blob/d309c77ab38cf0bbb8502c49471cf1f00085c535/Carleson/ToMathlib/HardyLittlewood.lean#L551"
+    },
+    "metadata": {
+      "blame_email_hash": "13ebe891461f",
+      "blame_date": "2025-04-04T17:09:00+02:00",
+      "inclusion_date": "2025-04-05T00:22:31.974081+00:00"
+    },
+    "id": "ed26d0428aed69bbe7e40b125abb6bb124bc00c6fc837132db120f9d3007342c"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ImperialCollegeLondon/FLT",
+      "branch": "kbuzzard-topology-experiments",
+      "commit": "464ae0dba10c7aa3460d147aa375eaa865f2f552",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 82,
+      "start_column": 2,
+      "end_line": 82,
+      "end_column": 7,
+      "file": "FLT/QuaternionAlgebra/NumberField.lean"
+    },
+    "debug_info": {
+      "goal": "F : Type u_1\ninst\u271d\u2074 : Field F\ninst\u271d\u00b3 : NumberField F\nD : Type u_2\ninst\u271d\u00b2 : Ring D\ninst\u271d\u00b9 : Algebra F D\ninst\u271d : IsQuaternionAlgebra F D\nv : HeightOneSpectrum (\ud835\udcde F)\n\u22a2 IsOpenMap \u21d1(Units.map \u2191(HeightOneSpectrum.adicCompletionIntegers F v).subtype.mapMatrix)",
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/464ae0dba10c7aa3460d147aa375eaa865f2f552/FLT/QuaternionAlgebra/NumberField.lean#L82"
+    },
+    "metadata": {
+      "blame_email_hash": "c7989443bd81",
+      "blame_date": "2025-04-04T09:45:19+01:00",
+      "inclusion_date": "2025-04-05T01:35:42.149777+00:00"
+    },
+    "id": "be1cf925cb078da15ecb1bd227b47a63c3b7c6aa5cf8e03a733fc38ffd1e4c47"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/aesop",
+      "branch": "rpinf-precomp",
+      "commit": "dd78c1426f5fc783ec1ba23ad769471cc69bb8b4",
+      "lean_version": "v4.17.0-rc1"
+    },
+    "location": {
+      "start_line": 46,
+      "start_column": 12,
+      "end_line": 46,
+      "end_column": 17,
+      "file": "AesopTest/ExtScript.lean"
+    },
+    "debug_info": {
+      "goal": "case snd.snd\n\u03b1 \u03b2 \u03b3 \u03b4 \u03b9 : Type\np q : MyProd \u03b1 (MyProd \u03b2 \u03b3)\n\u22a2 p.snd.snd = q.snd.snd",
+      "url": "https://github.com/leanprover-community/aesop/blob/dd78c1426f5fc783ec1ba23ad769471cc69bb8b4/AesopTest/ExtScript.lean#L46"
+    },
+    "metadata": {
+      "blame_email_hash": "555bc3b21621",
+      "blame_date": "2024-06-07T02:10:37+02:00",
+      "inclusion_date": "2025-04-11T00:07:12.176717+00:00"
+    },
+    "id": "50daf915780aa645c8c851eba9520e52aa0d67bcc42c149286051ec97252df33"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/YaelDillies/LeanCamCombi",
+      "branch": "master",
+      "commit": "5df79658756ef6d112f2464eec3aece31e35cc83",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 131,
+      "start_column": 6,
+      "end_line": 131,
+      "end_column": 11,
+      "file": "LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean"
+    },
+    "debug_info": {
+      "goal": "case refine_2.ht\n\u03b1 : Type u_1\n\u03a9 : Type u_2\ninst\u271d\u00b9 : MeasurableSpace \u03a9\nX Y : \u03a9 \u2192 Set \u03b1\n\u03bc : Measure \u03a9\np q : \u211d\u22650\nhX : IsBernoulliSeq X p \u03bc\nhY : IsBernoulliSeq Y q \u03bc\ninst\u271d : IsProbabilityMeasure \u03bc\nh : IndepFun X Y \u03bc\ns : Finset \u03b1\n\u22a2 MeasurableSet (\u22c2 i \u2208 s, {\u03c9 | Y \u03c9 i})",
+      "url": "https://github.com/YaelDillies/LeanCamCombi/blob/5df79658756ef6d112f2464eec3aece31e35cc83/LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean#L131"
+    },
+    "metadata": {
+      "blame_email_hash": "97e8591fe714",
+      "blame_date": "2025-03-05T14:51:44+00:00",
+      "inclusion_date": "2025-04-18T00:01:05.296811+00:00"
+    },
+    "id": "06324b761a5af46b48dd70c49ede9cbd3c0668d0e42d231cd7f1e810746e51ab"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "main",
+      "commit": "5365476bb7e0988aaeb959174f4a06734f34bb6c",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 399,
+      "start_column": 2,
+      "end_line": 399,
+      "end_column": 7,
+      "file": "PrimeNumberTheoremAnd/MediumPNT.lean"
+    },
+    "debug_info": {
+      "goal": "SmoothingF : \u211d \u2192 \u211d\n\u03b5 : \u211d\n\u03b5_pos : 0 < \u03b5\nX T : \u211d\nT_pos : 0 < T\n\u03c3\u2080 : \u211d\n\u03c3\u2080_pos : 0 < \u03c3\u2080\nholoOn : HolomorphicOn (SmoothedChebyshevIntegrand SmoothingF \u03b5 X) (Icc \u03c3\u2080 2 \u00d7\u2102 univ \\ {1})\nsuppSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\n\u22a2 (1 / (2 * \u2191\u03c0 * I)) \u2022\n      ((I \u2022 \u222b (t : \u211d) in Iic (-T), SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u21912 + \u2191t * I)) +\n          VIntegral (SmoothedChebyshevIntegrand SmoothingF \u03b5 X) 2 (-T) T +\n        I \u2022 \u222b (t : \u211d) in Ici T, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u21912 + \u2191t * I)) =\n    \ud835\udcdc (fun x => \u2191(Smooth1 SmoothingF \u03b5 x)) 1 * \u2191X +\n      1 / (2 * \u2191\u03c0 * I) *\n        (((((I * \u222b (t : \u211d) in Iic (-T), SmoothedChebyshevIntegrand SmoothingF \u03b5 X (2 + \u2191t * I)) -\n                \u222b (s : \u211d) in Icc \u03c3\u2080 2, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u2191s - \u2191T * I)) +\n              I * \u222b (t : \u211d) in Icc (-T) T, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u2191\u03c3\u2080 + \u2191t * I)) +\n            \u222b (s : \u211d) in Icc \u03c3\u2080 2, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u2191s + \u2191T * I)) +\n          I * \u222b (t : \u211d) in Ici T, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (2 + \u2191t * I))",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/5365476bb7e0988aaeb959174f4a06734f34bb6c/PrimeNumberTheoremAnd/MediumPNT.lean#L399"
+    },
+    "metadata": {
+      "blame_email_hash": "4bcdc021face",
+      "blame_date": "2025-02-10T12:59:29-05:00",
+      "inclusion_date": "2025-04-03T23:00:27.846420+00:00"
+    },
+    "id": "31c65ced468f10fc3f00f36c27e5cb760072a684862c7c0e417029e696c5ac28"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/lean-ja/lean-by-example",
+      "branch": "main",
+      "commit": "3ebe85bea550147ea661babd12b968bf8e97a7ed",
+      "lean_version": "v4.19.0-rc2"
+    },
+    "location": {
+      "start_line": 67,
+      "start_column": 2,
+      "end_line": 67,
+      "end_column": 7,
+      "file": "LeanByExample/Tactic/Plausible.lean"
+    },
+    "debug_info": {
+      "goal": "\u22a2 \u2200 (a b : MyNat), a = b",
+      "url": "https://github.com/lean-ja/lean-by-example/blob/3ebe85bea550147ea661babd12b968bf8e97a7ed/LeanByExample/Tactic/Plausible.lean#L67"
+    },
+    "metadata": {
+      "blame_email_hash": "a84937a2d49e",
+      "blame_date": "2024-11-25T09:56:34+09:00",
+      "inclusion_date": "2025-04-13T23:49:22.692160+00:00"
+    },
+    "id": "2923421152e5be64de021405d7350f597dee8d1e824b49847a8ac1aec39e67b6"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/teorth/pfr",
+      "branch": "master",
+      "commit": "0010cb5c36c6605a2d0e957390ab4955e6c9e3ff",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 1518,
+      "start_column": 54,
+      "end_line": 1518,
+      "end_column": 59,
+      "file": "PFR/MoreRuzsaDist.lean"
+    },
+    "debug_info": {
+      "goal": "G : Type u_5\nhG : MeasurableSpace G\ninst\u271d\u00b3 : MeasurableSingletonClass G\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : Countable G\ninst\u271d : Fintype G\nm : \u2115\nhm : m \u2265 1\n\u03a9 : Type u_8\nh\u03a9 : MeasureSpace \u03a9\nX : Fin (m + 1) \u00d7 Fin (m + 1) \u2192 \u03a9 \u2192 G\nh_indep : iIndepFun X \u2119\n\u22a2 I[fun \u03c9 j => \u2211 i, X (i, j) \u03c9 : fun \u03c9 i => \u2211 j, X (i, j) \u03c9|\u2211 p, X p] \u2264\n    \u2211 j,\n          (D[fun i => X (i, j) ; fun x => h\u03a9] -\n            D[fun i => X (i, j) | fun i => \u2211 k \u2208 Finset.Ici j, X (i, k) ; fun x => h\u03a9]) +\n        D[fun i => X (i, \u2191m) ; fun x => h\u03a9] -\n      D[fun i => \u2211 j, X (i, j) ; fun x => h\u03a9]",
+      "url": "https://github.com/teorth/pfr/blob/0010cb5c36c6605a2d0e957390ab4955e6c9e3ff/PFR/MoreRuzsaDist.lean#L1518"
+    },
+    "metadata": {
+      "blame_email_hash": "97e8591fe714",
+      "blame_date": "2024-10-17T18:26:36+00:00",
+      "inclusion_date": "2025-04-05T02:25:45.802608+00:00"
+    },
+    "id": "52a1721dbb8c0782862edb4930da8a40c05f7962f40ed2c64d0bf263ae0810ea"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "arend/poly",
+      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "start_line": 649,
+      "start_column": 2,
+      "end_line": 649,
+      "end_column": 7,
+      "file": "Mathlib/Tactic/Algebra.lean"
+    },
+    "debug_info": {
+      "goal": "x y : \u211a\n\u22a2 x ^ 2 + x * y = 1",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L649"
+    },
+    "metadata": {
+      "blame_email_hash": "677e25bc67b0",
+      "blame_date": "2025-04-14T17:07:18+02:00",
+      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+    },
+    "id": "23843aaf991ffc6ecb13c778b8376f79f6c0b05f7aeb64daf34429d0f22028db"
+  }
+]
