@@ -8303,7 +8303,7 @@
     "repo": {
       "remote": "https://github.com/leanprover-community/batteries",
       "branch": "docs",
-      "commit": "f43a87c5d193ef931476b014596ec73e0d2dd9b6",
+      "commit": "86bbec03f28444c38c342564467db39644ecad43",
       "lean_version": "v4.19.0-rc2"
     },
     "location": {
@@ -8315,20 +8315,20 @@
     },
     "debug_info": {
       "goal": "\u03b1 : Type u_1\ninst\u271d : Mul \u03b1\na x y : \u03b1\u1d50\u1d52\u1d56\n\u22a2 SemiconjBy a.unop y.unop x.unop \u2194 SemiconjBy a x y",
-      "url": "https://github.com/leanprover-community/batteries/blob/f43a87c5d193ef931476b014596ec73e0d2dd9b6/BatteriesTest/lintsimp.lean#L37"
+      "url": "https://github.com/leanprover-community/batteries/blob/86bbec03f28444c38c342564467db39644ecad43/BatteriesTest/lintsimp.lean#L37"
     },
     "metadata": {
       "blame_email_hash": "8a7dcd08b95f",
       "blame_date": "2022-12-18T15:51:52-05:00",
-      "inclusion_date": "2025-04-20T23:52:25.909958+00:00"
+      "inclusion_date": "2025-04-21T23:49:51.264781+00:00"
     },
-    "id": "b35a047d758c24ce953c4eaf673e634492a719f06f65859544c1fb8d726be97b"
+    "id": "fad15d300a3f6046664fe6934ff4f955311261103402fe05a7081f02cc9f2b55"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/batteries",
       "branch": "docs",
-      "commit": "f43a87c5d193ef931476b014596ec73e0d2dd9b6",
+      "commit": "86bbec03f28444c38c342564467db39644ecad43",
       "lean_version": "v4.19.0-rc2"
     },
     "location": {
@@ -8340,20 +8340,20 @@
     },
     "debug_info": {
       "goal": "h : 1 = 1\n\u22a2 True",
-      "url": "https://github.com/leanprover-community/batteries/blob/f43a87c5d193ef931476b014596ec73e0d2dd9b6/BatteriesTest/lintunused.lean#L7"
+      "url": "https://github.com/leanprover-community/batteries/blob/86bbec03f28444c38c342564467db39644ecad43/BatteriesTest/lintunused.lean#L7"
     },
     "metadata": {
       "blame_email_hash": "45b5ed8e3c8e",
       "blame_date": "2023-08-08T02:17:31+02:00",
-      "inclusion_date": "2025-04-20T23:52:25.909958+00:00"
+      "inclusion_date": "2025-04-21T23:49:51.264781+00:00"
     },
-    "id": "347f7b7c2f15be1437ce4096524298f92941e3809d94cf4b2450be3f5f5749db"
+    "id": "ce5d2f09f7f0ca5994740d3dec48da1a983bb4ad946d671132b63fcf458e7bf5"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/batteries",
       "branch": "docs",
-      "commit": "f43a87c5d193ef931476b014596ec73e0d2dd9b6",
+      "commit": "86bbec03f28444c38c342564467db39644ecad43",
       "lean_version": "v4.19.0-rc2"
     },
     "location": {
@@ -8365,20 +8365,20 @@
     },
     "debug_info": {
       "goal": "\u22a2 1 = 1",
-      "url": "https://github.com/leanprover-community/batteries/blob/f43a87c5d193ef931476b014596ec73e0d2dd9b6/BatteriesTest/lint_unreachableTactic.lean#L23"
+      "url": "https://github.com/leanprover-community/batteries/blob/86bbec03f28444c38c342564467db39644ecad43/BatteriesTest/lint_unreachableTactic.lean#L23"
     },
     "metadata": {
       "blame_email_hash": "45b5ed8e3c8e",
       "blame_date": "2023-08-26T11:27:15+01:00",
-      "inclusion_date": "2025-04-20T23:52:25.909958+00:00"
+      "inclusion_date": "2025-04-21T23:49:51.264781+00:00"
     },
-    "id": "4a083653601a81edd36b688cdd4605f45e7ba0872ec23767860bc6585e17ea5b"
+    "id": "3ff163f60db5f07cec68b6c10904be4f75c4dba100353cf27e9814851e79eee8"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/batteries",
       "branch": "docs",
-      "commit": "f43a87c5d193ef931476b014596ec73e0d2dd9b6",
+      "commit": "86bbec03f28444c38c342564467db39644ecad43",
       "lean_version": "v4.19.0-rc2"
     },
     "location": {
@@ -8390,14 +8390,14 @@
     },
     "debug_info": {
       "goal": "aa : Nat\n\u22a2 aa = 0 \u2192 t aa = 0",
-      "url": "https://github.com/leanprover-community/batteries/blob/f43a87c5d193ef931476b014596ec73e0d2dd9b6/BatteriesTest/lint_unreachableTactic.lean#L31"
+      "url": "https://github.com/leanprover-community/batteries/blob/86bbec03f28444c38c342564467db39644ecad43/BatteriesTest/lint_unreachableTactic.lean#L31"
     },
     "metadata": {
       "blame_email_hash": "45b5ed8e3c8e",
       "blame_date": "2023-08-26T11:27:15+01:00",
-      "inclusion_date": "2025-04-20T23:52:25.909958+00:00"
+      "inclusion_date": "2025-04-21T23:49:51.264781+00:00"
     },
-    "id": "6044a8482f000b1a86896d490055d1b3ed523ba553558cd60cced7aac0c1189e"
+    "id": "d4cdb8fb54c40434ee2115e05afbae83c4d3d5d22952a0e43f007443bb10e06b"
   },
   {
     "repo": {
@@ -9677,8 +9677,8 @@
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "update-cheby",
-      "commit": "c943e3626cec55ca113ec72a5167a88618171835",
+      "branch": "main",
+      "commit": "89c431184f7af947a3127c71c18730224e168bda",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -9690,20 +9690,20 @@
     },
     "debug_info": {
       "goal": "A x : \u211d\nG : \u2102 \u2192 \u2102\nf : \u2115 \u2192 \u211d\nhpos : 0 \u2264 f\nhG : ContinuousOn G {s | 1 \u2264 s.re}\nhG' : EqOn G (fun s => LSeries (fun n => \u2191(f n)) s - \u2191A / (s - 1)) {s | 1 < s.re}\nhf : \u2200 (\u03c3' : \u211d), 1 < \u03c3' \u2192 Summable (nterm (fun n => \u2191(f n)) \u03c3')\n\u03c8 : CS 2 \u2102\nh\u03c8pos : \u2200 (y : \u211d), 0 \u2264 (\ud835\udcd5 \u03c8.toFun y).re \u2227 (\ud835\udcd5 \u03c8.toFun y).im = 0\nhx : 1 \u2264 x\n\u22a2 \u2211' (n : \u2115), \u2191(f n) / \u2191n * \ud835\udcd5 \u03c8.toFun (1 / (2 * \u03c0) * Real.log (\u2191n / x)) -\n      \u2191A * \u222b (u : \u211d) in Ici (-Real.log x), \ud835\udcd5 \u03c8.toFun (u / (2 * \u03c0)) =\n    \u222b (t : \u211d), G (1 + \u2191t * I) * \u03c8.toFun t * \u2191x ^ (\u2191t * I)",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/c943e3626cec55ca113ec72a5167a88618171835/PrimeNumberTheoremAnd/Wiener.lean#L2275"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/89c431184f7af947a3127c71c18730224e168bda/PrimeNumberTheoremAnd/Wiener.lean#L2275"
     },
     "metadata": {
       "blame_email_hash": "d7f0e4a42bbb",
       "blame_date": "2024-04-04T12:17:01-07:00",
-      "inclusion_date": "2025-04-20T23:27:10.006326+00:00"
+      "inclusion_date": "2025-04-21T23:18:04.027780+00:00"
     },
-    "id": "3daaefca3e53ea61ceeda121ad498bf8772c261e949d2e2112ddd24302304a0c"
+    "id": "bf42e60cb656be3afbf004c04698b3eaef26c35ce22b8517b85496962752fa3e"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "update-cheby",
-      "commit": "c943e3626cec55ca113ec72a5167a88618171835",
+      "branch": "main",
+      "commit": "89c431184f7af947a3127c71c18730224e168bda",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -9715,20 +9715,20 @@
     },
     "debug_info": {
       "goal": "A : \u211d\nG : \u2102 \u2192 \u2102\nf : \u2115 \u2192 \u211d\nhpos : 0 \u2264 f\nhG : ContinuousOn G {s | 1 \u2264 s.re}\nhG' : EqOn G (fun s => LSeries (fun n => \u2191(f n)) s - \u2191A / (s - 1)) {s | 1 < s.re}\nhf : \u2200 (\u03c3' : \u211d), 1 < \u03c3' \u2192 Summable (nterm (fun n => \u2191(f n)) \u03c3')\n\u03c8 : CS 2 \u2102\nh\u03c8pos : \u2200 (y : \u211d), 0 \u2264 (\ud835\udcd5 \u03c8.toFun y).re \u2227 (\ud835\udcd5 \u03c8.toFun y).im = 0\n\u22a2 \u2203 B, \u2200 (x : \u211d), 0 < x \u2192 \u2016\u2211' (n : \u2115), \u2191(f n) / \u2191n * \ud835\udcd5 \u03c8.toFun (1 / (2 * \u03c0) * Real.log (\u2191n / x))\u2016 \u2264 B",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/c943e3626cec55ca113ec72a5167a88618171835/PrimeNumberTheoremAnd/Wiener.lean#L2297"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/89c431184f7af947a3127c71c18730224e168bda/PrimeNumberTheoremAnd/Wiener.lean#L2297"
     },
     "metadata": {
       "blame_email_hash": "4d01d7c10d46",
       "blame_date": "2024-04-16T02:15:35+02:00",
-      "inclusion_date": "2025-04-20T23:27:10.006326+00:00"
+      "inclusion_date": "2025-04-21T23:18:04.027780+00:00"
     },
-    "id": "755559439a299968d87ab1551ad3240e3c3f56061822ccf0aa2892b2a56588d6"
+    "id": "520457e1f0d2e7250f0878b0209d6145b18befc38cc01b64f39f34a1e7dc7d0f"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "update-cheby",
-      "commit": "c943e3626cec55ca113ec72a5167a88618171835",
+      "branch": "main",
+      "commit": "89c431184f7af947a3127c71c18730224e168bda",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -9740,20 +9740,20 @@
     },
     "debug_info": {
       "goal": "A : \u211d\nG : \u2102 \u2192 \u2102\nf : \u2115 \u2192 \u211d\nhpos : 0 \u2264 f\nhf : \u2200 (\u03c3' : \u211d), 1 < \u03c3' \u2192 Summable (nterm (fun n => \u2191(f n)) \u03c3')\nhG : ContinuousOn G {s | 1 \u2264 s.re}\nhG' : EqOn G (fun s => LSeries (fun n => \u2191(f n)) s - \u2191A / (s - 1)) {s | 1 < s.re}\n\u22a2 cheby fun n => \u2191(f n)",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/c943e3626cec55ca113ec72a5167a88618171835/PrimeNumberTheoremAnd/Wiener.lean#L2315"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/89c431184f7af947a3127c71c18730224e168bda/PrimeNumberTheoremAnd/Wiener.lean#L2315"
     },
     "metadata": {
       "blame_email_hash": "4d01d7c10d46",
       "blame_date": "2024-04-16T02:15:35+02:00",
-      "inclusion_date": "2025-04-20T23:27:10.006326+00:00"
+      "inclusion_date": "2025-04-21T23:18:04.027780+00:00"
     },
-    "id": "10e39b424f1828c18ee2635308ad6fd405ff2775eb300a8520ca4797f9c31b6e"
+    "id": "b95d2c7a770490b019b59c2ded7e2de30f5e5f9b2c1006481198e3b0cc5605f3"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "update-cheby",
-      "commit": "c943e3626cec55ca113ec72a5167a88618171835",
+      "branch": "main",
+      "commit": "89c431184f7af947a3127c71c18730224e168bda",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -9765,20 +9765,20 @@
     },
     "debug_info": {
       "goal": "SmoothingF : \u211d \u2192 \u211d\ndiffSmoothingF : ContDiff \u211d 1 SmoothingF\nsuppSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\nX\u271d : \u211d\nC : \u211d := sorry\nCpos : 0 < C\nX : \u211d\nX_ge_C : C < X\n\u03b5 : \u211d\n\u03b5pos : 0 < \u03b5\n\u03b5_lt_one : \u03b5 < 1\n\u22a2 \u2016\u2191(\u2211' (n : \u2115), \u039b n * Smooth1 SmoothingF \u03b5 (\u2191n / X)) - \u2191((Finset.range \u230aX\u230b\u208a).sum \u21d1\u039b)\u2016 \u2264 C * \u03b5 * X * Real.log X",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/c943e3626cec55ca113ec72a5167a88618171835/PrimeNumberTheoremAnd/MediumPNT.lean#L328"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/89c431184f7af947a3127c71c18730224e168bda/PrimeNumberTheoremAnd/MediumPNT.lean#L328"
     },
     "metadata": {
       "blame_email_hash": "4bcdc021face",
       "blame_date": "2024-03-11T23:23:22-04:00",
-      "inclusion_date": "2025-04-20T23:27:10.006326+00:00"
+      "inclusion_date": "2025-04-21T23:18:04.027780+00:00"
     },
-    "id": "bfdd591a8a1baab68ef4e09dc43b59633bb47454ef2301745fabe8c0de33892d"
+    "id": "5f3104a917032b249932ce6f08c0c08e464ff200ddc7419e5587a268f0caa950"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "update-cheby",
-      "commit": "c943e3626cec55ca113ec72a5167a88618171835",
+      "branch": "main",
+      "commit": "89c431184f7af947a3127c71c18730224e168bda",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -9790,20 +9790,20 @@
     },
     "debug_info": {
       "goal": "SmoothingF : \u211d \u2192 \u211d\ndiffSmoothingF : ContDiff \u211d 1 SmoothingF\nsuppSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\nX : \u211d\nC : \u211d := sorry\n\u22a2 0 < C",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/c943e3626cec55ca113ec72a5167a88618171835/PrimeNumberTheoremAnd/MediumPNT.lean#L319"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/89c431184f7af947a3127c71c18730224e168bda/PrimeNumberTheoremAnd/MediumPNT.lean#L319"
     },
     "metadata": {
       "blame_email_hash": "4bcdc021face",
       "blame_date": "2025-02-14T14:09:55-05:00",
-      "inclusion_date": "2025-04-20T23:27:10.006326+00:00"
+      "inclusion_date": "2025-04-21T23:18:04.027780+00:00"
     },
-    "id": "48c07cb765752e64618e0f89ae078b7996a3ee09be4067104dfc7e5f1fa1aa4e"
+    "id": "d31421907a8b6b41381cf2b924520747406162ce8610f001d46fc402352275bb"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "update-cheby",
-      "commit": "c943e3626cec55ca113ec72a5167a88618171835",
+      "branch": "main",
+      "commit": "89c431184f7af947a3127c71c18730224e168bda",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -9815,20 +9815,20 @@
     },
     "debug_info": {
       "goal": "SmoothingF : \u211d \u2192 \u211d\n\u03b5 : \u211d\n\u03b5_pos : 0 < \u03b5\nX \u03c3\u2080 : \u211d\n\u03c3\u2080_pos : 0 < \u03c3\u2080\nholoOn : HolomorphicOn (SmoothedChebyshevIntegrand SmoothingF \u03b5 X) (Icc \u03c3\u2080 2 \u00d7\u2102 univ \\ {1})\nsuppSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\n\u22a2 Integrable (fun t => SmoothedChebyshevIntegrand SmoothingF \u03b5 X (2 + \u2191t * I)) volume",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/c943e3626cec55ca113ec72a5167a88618171835/PrimeNumberTheoremAnd/MediumPNT.lean#L365"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/89c431184f7af947a3127c71c18730224e168bda/PrimeNumberTheoremAnd/MediumPNT.lean#L365"
     },
     "metadata": {
       "blame_email_hash": "4bcdc021face",
       "blame_date": "2025-02-28T10:57:09-05:00",
-      "inclusion_date": "2025-04-20T23:27:10.006326+00:00"
+      "inclusion_date": "2025-04-21T23:18:04.027780+00:00"
     },
-    "id": "5708b82c2e1ee43b5c412d6b4aa6f6dd67698307802cb8c78f3bfb97b5c8339f"
+    "id": "1e012fa8e721c16a5a5609079fc52308969208b5e434f92efa975840c2832c11"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "update-cheby",
-      "commit": "c943e3626cec55ca113ec72a5167a88618171835",
+      "branch": "main",
+      "commit": "89c431184f7af947a3127c71c18730224e168bda",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -9840,20 +9840,20 @@
     },
     "debug_info": {
       "goal": "SmoothingF : \u211d \u2192 \u211d\n\u03b5 : \u211d\n\u03b5_pos : 0 < \u03b5\nX T : \u211d\nT_pos : 0 < T\n\u03c3\u2080 : \u211d\n\u03c3\u2080_pos : 0 < \u03c3\u2080\nholoOn : HolomorphicOn (SmoothedChebyshevIntegrand SmoothingF \u03b5 X) (Icc \u03c3\u2080 2 \u00d7\u2102 univ \\ {1})\nsuppSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\n\u22a2 (1 / (2 * \u2191\u03c0 * I)) \u2022\n      ((I \u2022 \u222b (t : \u211d) in Iic (-T), SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u21912 + \u2191t * I)) +\n          VIntegral (SmoothedChebyshevIntegrand SmoothingF \u03b5 X) 2 (-T) T +\n        I \u2022 \u222b (t : \u211d) in Ici T, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u21912 + \u2191t * I)) =\n    \ud835\udcdc (fun x => \u2191(Smooth1 SmoothingF \u03b5 x)) 1 * \u2191X +\n      1 / (2 * \u2191\u03c0 * I) *\n        (((((I * \u222b (t : \u211d) in Iic (-T), SmoothedChebyshevIntegrand SmoothingF \u03b5 X (2 + \u2191t * I)) -\n                \u222b (s : \u211d) in Icc \u03c3\u2080 2, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u2191s - \u2191T * I)) +\n              I * \u222b (t : \u211d) in Icc (-T) T, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u2191\u03c3\u2080 + \u2191t * I)) +\n            \u222b (s : \u211d) in Icc \u03c3\u2080 2, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u2191s + \u2191T * I)) +\n          I * \u222b (t : \u211d) in Ici T, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (2 + \u2191t * I))",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/c943e3626cec55ca113ec72a5167a88618171835/PrimeNumberTheoremAnd/MediumPNT.lean#L399"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/89c431184f7af947a3127c71c18730224e168bda/PrimeNumberTheoremAnd/MediumPNT.lean#L399"
     },
     "metadata": {
       "blame_email_hash": "4bcdc021face",
       "blame_date": "2025-02-10T12:59:29-05:00",
-      "inclusion_date": "2025-04-20T23:27:10.006326+00:00"
+      "inclusion_date": "2025-04-21T23:18:04.027780+00:00"
     },
-    "id": "e137b214c1a32251b76158064c39fa7379adfb600411960c017e9b341a84fcbd"
+    "id": "8a5f497557d4896ce8c37874eca4b8585364a3abd8ceb30f6ee6171d8482ad06"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "update-cheby",
-      "commit": "c943e3626cec55ca113ec72a5167a88618171835",
+      "branch": "main",
+      "commit": "89c431184f7af947a3127c71c18730224e168bda",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -9865,20 +9865,20 @@
     },
     "debug_info": {
       "goal": "c : \u211d := sorry\ncpos : 0 < c\nC : \u211d := sorry\nX\u2080 : \u211d := sorry\nX : \u211d\nX_ge_X\u2080 : X \u2265 X\u2080\n\u22a2 \u2016(ChebyshevPsi - id) X\u2016 \u2264 C * \u2016X * rexp (-c * Real.log X ^ (1 / 10))\u2016",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/c943e3626cec55ca113ec72a5167a88618171835/PrimeNumberTheoremAnd/MediumPNT.lean#L511"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/89c431184f7af947a3127c71c18730224e168bda/PrimeNumberTheoremAnd/MediumPNT.lean#L511"
     },
     "metadata": {
       "blame_email_hash": "4bcdc021face",
       "blame_date": "2024-03-11T23:23:22-04:00",
-      "inclusion_date": "2025-04-20T23:27:10.006326+00:00"
+      "inclusion_date": "2025-04-21T23:18:04.027780+00:00"
     },
-    "id": "0994819bf12933f44cd20fc8c0891644302eb397b42cd8f83374ca2a6aa009aa"
+    "id": "06d286d38a1822df79fb6cecfe97f52dcda8255daa248e6e5fdc68bffcf5f982"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "update-cheby",
-      "commit": "c943e3626cec55ca113ec72a5167a88618171835",
+      "branch": "main",
+      "commit": "89c431184f7af947a3127c71c18730224e168bda",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -9890,20 +9890,20 @@
     },
     "debug_info": {
       "goal": "c : \u211d := sorry\n\u22a2 0 < c",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/c943e3626cec55ca113ec72a5167a88618171835/PrimeNumberTheoremAnd/MediumPNT.lean#L501"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/89c431184f7af947a3127c71c18730224e168bda/PrimeNumberTheoremAnd/MediumPNT.lean#L501"
     },
     "metadata": {
       "blame_email_hash": "4bcdc021face",
       "blame_date": "2025-02-14T15:25:09-05:00",
-      "inclusion_date": "2025-04-20T23:27:10.006326+00:00"
+      "inclusion_date": "2025-04-21T23:18:04.027780+00:00"
     },
-    "id": "50cf3800f13ebe6f94ba6f42ea29a31564090d34dae1b2645f8e37586302df72"
+    "id": "7abbc3ed8d442ac777ee7b24e56250ba81752a871d4e15f84b9af0dfdd5cdc40"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "update-cheby",
-      "commit": "c943e3626cec55ca113ec72a5167a88618171835",
+      "branch": "main",
+      "commit": "89c431184f7af947a3127c71c18730224e168bda",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -9915,14 +9915,14 @@
     },
     "debug_info": {
       "goal": "\u22a2 \u2203 c, (c =o[atTop] fun x => 1) \u2227 \u2200 (n : \u2115), \u2191(nth Nat.Prime n) = (1 + c n) * \u2191n * log \u2191n",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/c943e3626cec55ca113ec72a5167a88618171835/PrimeNumberTheoremAnd/Consequences.lean#L1843"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/89c431184f7af947a3127c71c18730224e168bda/PrimeNumberTheoremAnd/Consequences.lean#L1843"
     },
     "metadata": {
       "blame_email_hash": "11451cd2f124",
       "blame_date": "2024-02-19T02:44:41-08:00",
-      "inclusion_date": "2025-04-20T23:27:10.006326+00:00"
+      "inclusion_date": "2025-04-21T23:18:04.027780+00:00"
     },
-    "id": "07556914bfa631ad5a521d836aee612e2ffa839370b68769ee772d11ba2d20cc"
+    "id": "854705ad4af4af94ae067b9a2008bd912742cbed7e7b331468ef90c00e9a103d"
   },
   {
     "repo": {
@@ -9952,77 +9952,77 @@
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "update-cheby",
-      "commit": "c943e3626cec55ca113ec72a5167a88618171835",
+      "branch": "main",
+      "commit": "89c431184f7af947a3127c71c18730224e168bda",
       "lean_version": "v4.18.0"
     },
     "location": {
-      "start_line": 2161,
+      "start_line": 2574,
       "start_column": 81,
-      "end_line": 2161,
+      "end_line": 2574,
       "end_column": 86,
       "file": "PrimeNumberTheoremAnd/Consequences.lean"
     },
     "debug_info": {
       "goal": "\u22a2 (fun x => \u2211 n \u2208 range \u230ax\u230b\u208a, \u03bc n) =o[atTop] fun x => x",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/c943e3626cec55ca113ec72a5167a88618171835/PrimeNumberTheoremAnd/Consequences.lean#L2161"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/89c431184f7af947a3127c71c18730224e168bda/PrimeNumberTheoremAnd/Consequences.lean#L2574"
     },
     "metadata": {
       "blame_email_hash": "5ecb8fcfe98c",
       "blame_date": "2025-02-06T17:41:08+01:00",
-      "inclusion_date": "2025-04-20T23:27:10.006326+00:00"
+      "inclusion_date": "2025-04-21T23:18:04.027780+00:00"
     },
-    "id": "67584bbcfeb2d1af0196ad19e7da19b1887ce9555b3cdce9baee0f5d1cc79ca0"
+    "id": "4c6a0455a8b34b52a7f64e32b417e8316186eaa3044d52e3d6bb7f5dd6b6c930"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "update-cheby",
-      "commit": "c943e3626cec55ca113ec72a5167a88618171835",
+      "branch": "main",
+      "commit": "89c431184f7af947a3127c71c18730224e168bda",
       "lean_version": "v4.18.0"
     },
     "location": {
-      "start_line": 2197,
+      "start_line": 2610,
       "start_column": 2,
-      "end_line": 2197,
+      "end_line": 2610,
       "end_column": 7,
       "file": "PrimeNumberTheoremAnd/Consequences.lean"
     },
     "debug_info": {
       "goal": "\u22a2 (fun x => \u2211 n \u2208 range \u230ax\u230b\u208a, (-1) ^ \u03a9 n) =o[atTop] fun x => x",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/c943e3626cec55ca113ec72a5167a88618171835/PrimeNumberTheoremAnd/Consequences.lean#L2197"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/89c431184f7af947a3127c71c18730224e168bda/PrimeNumberTheoremAnd/Consequences.lean#L2610"
     },
     "metadata": {
       "blame_email_hash": "11451cd2f124",
       "blame_date": "2024-02-19T02:44:41-08:00",
-      "inclusion_date": "2025-04-20T23:27:10.006326+00:00"
+      "inclusion_date": "2025-04-21T23:18:04.027780+00:00"
     },
-    "id": "7eaefbb8ef90467e5e8900eadbbaff828c8b7787a84eee62f8e0cb9551596ff0"
+    "id": "c7459a88ec8bad35d847133968a3043cc0982421b5b59fe3e1dd7365c8a117a2"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "update-cheby",
-      "commit": "c943e3626cec55ca113ec72a5167a88618171835",
+      "branch": "main",
+      "commit": "89c431184f7af947a3127c71c18730224e168bda",
       "lean_version": "v4.18.0"
     },
     "location": {
-      "start_line": 2221,
+      "start_line": 2634,
       "start_column": 98,
-      "end_line": 2221,
+      "end_line": 2634,
       "end_column": 103,
       "file": "PrimeNumberTheoremAnd/Consequences.lean"
     },
     "debug_info": {
       "goal": "\u22a2 (fun x => \u2211 n \u2208 range \u230ax\u230b\u208a, \u2191(\u03bc n) / \u2191n) =o[atTop] fun x => 1",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/c943e3626cec55ca113ec72a5167a88618171835/PrimeNumberTheoremAnd/Consequences.lean#L2221"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/89c431184f7af947a3127c71c18730224e168bda/PrimeNumberTheoremAnd/Consequences.lean#L2634"
     },
     "metadata": {
       "blame_email_hash": "5ecb8fcfe98c",
       "blame_date": "2025-02-06T17:41:08+01:00",
-      "inclusion_date": "2025-04-20T23:27:10.006326+00:00"
+      "inclusion_date": "2025-04-21T23:18:04.027780+00:00"
     },
-    "id": "0f59815286b08def7e2cd6c620d62da97626e51ea14d572f1bb282581500f1ea"
+    "id": "66776fc89f5135769ea9e5f5bfb90ce7fba07bcf07c1a95cc8a671b1390a8799"
   },
   {
     "repo": {
