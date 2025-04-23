@@ -14,7 +14,7 @@
       "file": "Compfiles/Imo2020P3.lean"
     },
     "debug_info": {
-      "goal": "n : \u2115\nc : Fin (4 * n) \u2192 Fin n\nh : \u2200 (i : Fin n), #{j | c j = i} = 4\n\u22a2 \u2203 S, \u2211 i \u2208 S, (\u2191i + 1) = \u2211 i \u2208 S\u1d9c, (\u2191i + 1) \u2227 \u2200 (i : Fin n), #({j \u2208 S | c j = i}) = 2",
+      "goal": "n : ℕ\nc : Fin (4 * n) → Fin n\nh : ∀ (i : Fin n), #{j | c j = i} = 4\n⊢ ∃ S, ∑ i ∈ S, (↑i + 1) = ∑ i ∈ Sᶜ, (↑i + 1) ∧ ∀ (i : Fin n), #({j ∈ S | c j = i}) = 2",
       "url": "https://github.com/dwrensha/compfiles/blob/fa63371f54d5353ab86e7e2b97473832c417e5ba/Compfiles/Imo2020P3.lean#L32"
     },
     "metadata": {
@@ -39,7 +39,7 @@
       "file": "Foundation/ProvabilityLogic/Grz/Completeness.lean"
     },
     "debug_info": {
-      "goal": "\u03b1 : Type ?u.2318\ninst\u271d : DecidableEq \u03b1\nl : List \u03b1\nx y : \u03b1\nn : \u2115\n\u22a2 Chain (fun x1 x2 => x1 < x2) 0 (range n)",
+      "goal": "α : Type ?u.2318\ninst✝ : DecidableEq α\nl : List α\nx y : α\nn : ℕ\n⊢ Chain (fun x1 x2 => x1 < x2) 0 (range n)",
       "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2d0d958822ddfb22e58f2cb6266a52f3bb219fff/Foundation/ProvabilityLogic/Grz/Completeness.lean#L24"
     },
     "metadata": {
@@ -64,7 +64,7 @@
       "file": "Carleson/ToMathlib/ENorm.lean"
     },
     "debug_info": {
-      "goal": "\u03b5 : Type u_9\n\u03b5' : Type u_10\ninst\u271d\u00b3 : TopologicalSpace \u03b5\ninst\u271d\u00b2 : ContinuousENorm \u03b5\ninst\u271d\u00b9 : TopologicalSpace \u03b5'\ninst\u271d : ContinuousENorm \u03b5'\n\u03b1 : Type u_11\nm0 : MeasurableSpace \u03b1\n\u03bc : Measure \u03b1\nf : \u03b1 \u2192 \u03b5\ng : \u03b1 \u2192 \u03b5'\nc : \u211d\u22650\nh : \u2200\u1d50 (x : \u03b1) \u2202\u03bc, \u2016f x\u2016\u2091 \u2264 \u2191c * \u2016g x\u2016\u2091\np : \u211d\nhp : 0 < p\n\u22a2 eLpNorm' f p \u03bc \u2264 c \u2022 eLpNorm' g p \u03bc",
+      "goal": "ε : Type u_9\nε' : Type u_10\ninst✝³ : TopologicalSpace ε\ninst✝² : ContinuousENorm ε\ninst✝¹ : TopologicalSpace ε'\ninst✝ : ContinuousENorm ε'\nα : Type u_11\nm0 : MeasurableSpace α\nμ : Measure α\nf : α → ε\ng : α → ε'\nc : ℝ≥0\nh : ∀ᵐ (x : α) ∂μ, ‖f x‖ₑ ≤ ↑c * ‖g x‖ₑ\np : ℝ\nhp : 0 < p\n⊢ eLpNorm' f p μ ≤ c • eLpNorm' g p μ",
       "url": "https://github.com/fpvandoorn/carleson/blob/d6273ee1eced7a38fd1d3db0010c6c7ab14b5316/Carleson/ToMathlib/ENorm.lean#L79"
     },
     "metadata": {
@@ -89,7 +89,7 @@
       "file": "FLT/QuaternionAlgebra/NumberField.lean"
     },
     "debug_info": {
-      "goal": "m : Type u_3\n\u03b1 : Type u_4\n\u03b2 : Type u_5\ninst\u271d\u2075 : Fintype m\ninst\u271d\u2074 : DecidableEq m\ninst\u271d\u00b3 : NonAssocSemiring \u03b1\ninst\u271d\u00b2 : NonAssocSemiring \u03b2\ninst\u271d\u00b9 : TopologicalSpace \u03b1\ninst\u271d : TopologicalSpace \u03b2\nf : \u03b1 \u2192+* \u03b2\nhf : Topology.IsOpenEmbedding \u21d1f\n\u22a2 IsOpenMap \u21d1f.mapMatrix",
+      "goal": "m : Type u_3\nα : Type u_4\nβ : Type u_5\ninst✝⁵ : Fintype m\ninst✝⁴ : DecidableEq m\ninst✝³ : NonAssocSemiring α\ninst✝² : NonAssocSemiring β\ninst✝¹ : TopologicalSpace α\ninst✝ : TopologicalSpace β\nf : α →+* β\nhf : Topology.IsOpenEmbedding ⇑f\n⊢ IsOpenMap ⇑f.mapMatrix",
       "url": "https://github.com/ImperialCollegeLondon/FLT/blob/0154f974209547c3aca34ba45310bdb785a6d13b/FLT/QuaternionAlgebra/NumberField.lean#L148"
     },
     "metadata": {
@@ -114,7 +114,7 @@
       "file": "examples/introQ.lean"
     },
     "debug_info": {
-      "goal": "\u00ab$P\u00bb : \u2200 {n : Nat}, n = 1\n$fst\u271d : Nat\n\u00ab$m\u00bb : $fst\u271d = 1\n\u22a2 $fst\u271d = 1",
+      "goal": "«$P» : ∀ {n : Nat}, n = 1\n$fst✝ : Nat\n«$m» : $fst✝ = 1\n⊢ $fst✝ = 1",
       "url": "https://github.com/leanprover-community/quote4/blob/0e05c2f090b7dd7a2f530bdc48a26b546f4837c7/examples/introQ.lean#L16"
     },
     "metadata": {
@@ -139,7 +139,7 @@
       "file": "Duper/Tests/test_continuity.lean"
     },
     "debug_info": {
-      "goal": "a : Real\n\u22a2 dist a a = zero",
+      "goal": "a : Real\n⊢ dist a a = zero",
       "url": "https://github.com/leanprover-community/duper/blob/e28c4e11389116ccb6a48ff0fe9c3d1a9d7642e4/Duper/Tests/test_continuity.lean#L18"
     },
     "metadata": {
@@ -164,7 +164,7 @@
       "file": "BatteriesTest/lint_unreachableTactic.lean"
     },
     "debug_info": {
-      "goal": "\u22a2 1 = 1",
+      "goal": "⊢ 1 = 1",
       "url": "https://github.com/leanprover-community/batteries/blob/e119df7e78d94b18b34067db93e8fc0d448d696f/BatteriesTest/lint_unreachableTactic.lean#L23"
     },
     "metadata": {
@@ -189,7 +189,7 @@
       "file": "AesopTest/ExtScript.lean"
     },
     "debug_info": {
-      "goal": "case a\n\u03b1 \u03b2 \u03b3 \u03b4 \u03b9 : Type\nx y : T\n\u22a2 u = v",
+      "goal": "case a\nα β γ δ ι : Type\nx y : T\n⊢ u = v",
       "url": "https://github.com/leanprover-community/aesop/blob/dd78c1426f5fc783ec1ba23ad769471cc69bb8b4/AesopTest/ExtScript.lean#L103"
     },
     "metadata": {
@@ -214,7 +214,7 @@
       "file": "LeanCamCombi/ExtrProbCombi/BinomialRandomGraph.lean"
     },
     "debug_info": {
-      "goal": "\u03b1 : Type u_1\n\u03a9 : Type u_2\ninst\u271d : MeasurableSpace \u03a9\nG : \u03a9 \u2192 SimpleGraph \u03b1\np : \u211d\u22650\n\u03bc : Measure \u03a9\nhG : IsBinomialRandomGraph G p \u03bc\n\u22a2 iIndepFun (fun e \u03c9 => e \u2208 (G \u03c9).edgeSet) \u03bc",
+      "goal": "α : Type u_1\nΩ : Type u_2\ninst✝ : MeasurableSpace Ω\nG : Ω → SimpleGraph α\np : ℝ≥0\nμ : Measure Ω\nhG : IsBinomialRandomGraph G p μ\n⊢ iIndepFun (fun e ω => e ∈ (G ω).edgeSet) μ",
       "url": "https://github.com/YaelDillies/LeanCamCombi/blob/5df79658756ef6d112f2464eec3aece31e35cc83/LeanCamCombi/ExtrProbCombi/BinomialRandomGraph.lean#L46"
     },
     "metadata": {
@@ -239,7 +239,7 @@
       "file": "PrimeNumberTheoremAnd/MediumPNT.lean"
     },
     "debug_info": {
-      "goal": "SmoothingF : \u211d \u2192 \u211d\ndiffSmoothingF : ContDiff \u211d 1 SmoothingF\nsuppSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\nX : \u211d\nC : \u211d := sorry\n\u22a2 3 < C",
+      "goal": "SmoothingF : ℝ → ℝ\ndiffSmoothingF : ContDiff ℝ 1 SmoothingF\nsuppSmoothingF : support SmoothingF ⊆ Icc (1 / 2) 2\nSmoothingFnonneg : ∀ x > 0, 0 ≤ SmoothingF x\nmass_one : ∫ (x : ℝ) in Ioi 0, SmoothingF x / x = 1\nX : ℝ\nC : ℝ := sorry\n⊢ 3 < C",
       "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/4250adfc9aab5e09d276549d7a645627cb2dce39/PrimeNumberTheoremAnd/MediumPNT.lean#L353"
     },
     "metadata": {
@@ -264,7 +264,7 @@
       "file": "InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean"
     },
     "debug_info": {
-      "goal": "A : SSet\nf\u271d g\u271d f g h : A _\u298b1\u298c\nH\u2081 : HomotopyL f g\nH\u2082 : HomotopyL f h\n\u03c3 : Subpresheaf.toPresheaf \u039b[3, 1] \u27f6 A := sorry\n\u03c4 : A _\u298b3\u298c := sorry\n\u22a2 SimplicialObject.\u03b4 A 0 \u03c4 = (SimplicialObject.\u03b4 A 0 \u226b SimplicialObject.\u03c3 A 0 \u226b SimplicialObject.\u03c3 A 0) g",
+      "goal": "A : SSet\nf✝ g✝ f g h : A _⦋1⦌\nH₁ : HomotopyL f g\nH₂ : HomotopyL f h\nσ : Subpresheaf.toPresheaf Λ[3, 1] ⟶ A := sorry\nτ : A _⦋3⦌ := sorry\n⊢ SimplicialObject.δ A 0 τ = (SimplicialObject.δ A 0 ≫ SimplicialObject.σ A 0 ≫ SimplicialObject.σ A 0) g",
       "url": "https://github.com/emilyriehl/infinity-cosmos/blob/bf1885e46ff0fde2a1cde218001d9b90307f4224/InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean#L133"
     },
     "metadata": {
@@ -289,7 +289,7 @@
       "file": "Example.lean"
     },
     "debug_info": {
-      "goal": "\u03b1 : Type u\n\u22a2 \u00acnone.IsSome",
+      "goal": "α : Type u\n⊢ ¬none.IsSome",
       "url": "https://github.com/frenzymath/jixia/blob/e6d1448771f53b540a450fdf5180f1217efaaab8/Example.lean#L82"
     },
     "metadata": {
@@ -314,7 +314,7 @@
       "file": "LeanByExample/Tactic/Ring.lean"
     },
     "debug_info": {
-      "goal": "m n : MyNat\n\u22a2 n * (n + m) = n * n + n * m",
+      "goal": "m n : MyNat\n⊢ n * (n + m) = n * n + n * m",
       "url": "https://github.com/lean-ja/lean-by-example/blob/3ebe85bea550147ea661babd12b968bf8e97a7ed/LeanByExample/Tactic/Ring.lean#L115"
     },
     "metadata": {
@@ -339,7 +339,7 @@
       "file": "PFR/BoundingMutual.lean"
     },
     "debug_info": {
-      "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Type u\nh\u03a9 : MeasureSpace \u03a9\nX : Fin p.m \u2192 \u03a9 \u2192 G\nh_indep : iIndepFun X \u2119\nh_min : multiTauMinimizes p (fun x => \u03a9) (fun x => h\u03a9) X\n\u03a9' : Type u_1\ninst\u271d : MeasureSpace \u03a9'\nX' : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh_indep' : iIndepFun X' \u2119\nhperm : \u2200 (j : Fin p.m), \u2203 e, IdentDistrib (fun \u03c9 i => X' (i, j) \u03c9) (fun \u03c9 i => X (e i) \u03c9) \u2119 \u2119\n\u22a2 I[fun \u03c9 j => \u2211 i, X' (i, j) \u03c9 : fun \u03c9 i => \u2211 j, X' (i, j) \u03c9|fun \u03c9 => \u2211 i, \u2211 j, X' (i, j) \u03c9] \u2264\n    4 * \u2191p.m ^ 2 * p.\u03b7 * D[X ; fun x => h\u03a9]",
+      "goal": "G Ωₒ : Type u\ninst✝² : MeasureableFinGroup G\ninst✝¹ : MeasureSpace Ωₒ\np : multiRefPackage G Ωₒ\nΩ : Type u\nhΩ : MeasureSpace Ω\nX : Fin p.m → Ω → G\nh_indep : iIndepFun X ℙ\nh_min : multiTauMinimizes p (fun x => Ω) (fun x => hΩ) X\nΩ' : Type u_1\ninst✝ : MeasureSpace Ω'\nX' : Fin p.m × Fin p.m → Ω' → G\nh_indep' : iIndepFun X' ℙ\nhperm : ∀ (j : Fin p.m), ∃ e, IdentDistrib (fun ω i => X' (i, j) ω) (fun ω i => X (e i) ω) ℙ ℙ\n⊢ I[fun ω j => ∑ i, X' (i, j) ω : fun ω i => ∑ j, X' (i, j) ω|fun ω => ∑ i, ∑ j, X' (i, j) ω] ≤\n    4 * ↑p.m ^ 2 * p.η * D[X ; fun x => hΩ]",
       "url": "https://github.com/teorth/pfr/blob/0010cb5c36c6605a2d0e957390ab4955e6c9e3ff/PFR/BoundingMutual.lean#L36"
     },
     "metadata": {
@@ -364,7 +364,7 @@
       "file": "Mathlib/Tactic/Algebra.lean"
     },
     "debug_info": {
-      "goal": "\u00ab$u\u00bb \u00ab$v\u00bb \u00ab$w\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$R\u2081\u00bb : Type v\n\u00ab$R\u2082\u00bb : Type w\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$sR\u2081\u00bb : CommSemiring \u00ab$R\u2081\u00bb\n\u00ab$sRA\u2081\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n\u00ab$sR\u2082\u00bb : CommSemiring \u00ab$R\u2082\u00bb\n\u00ab$sRA\u2082\u00bb : Algebra \u00ab$R\u2082\u00bb \u00ab$A\u00bb\n\u00ab$r\u2081\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$r\u2082\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$a\u2081\u00bb \u00ab$a\u2082\u00bb : \u00ab$A\u00bb\n\u00ab$pf_isNat_zero\u00bb : NormNum.IsNat (\u00ab$a\u2081\u00bb + \u00ab$a\u2082\u00bb) 0\n\u22a2 1 \u2022 \u00ab$a\u2081\u00bb + 1 \u2022 \u00ab$a\u2082\u00bb = 1 \u2022 0",
+      "goal": "«$u» «$v» «$w» : Level\n«$A» : Type u\n«$R₁» : Type v\n«$R₂» : Type w\n«$sA» : CommSemiring «$A»\n«$sR₁» : CommSemiring «$R₁»\n«$sRA₁» : Algebra «$R₁» «$A»\n«$sR₂» : CommSemiring «$R₂»\n«$sRA₂» : Algebra «$R₂» «$A»\n«$r₁» : «$R₁»\n«$r₂» : «$R₂»\n«$a₁» «$a₂» : «$A»\n«$pf_isNat_zero» : NormNum.IsNat («$a₁» + «$a₂») 0\n⊢ 1 • «$a₁» + 1 • «$a₂» = 1 • 0",
       "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L267"
     },
     "metadata": {
@@ -389,7 +389,7 @@
       "file": "GlimpseOfLean/Exercises/Topics/Probability.lean"
     },
     "debug_info": {
-      "goal": "\u03a9 : Type\ninst\u271d\u00b9 : MeasureSpace \u03a9\ninst\u271d : IsProbabilityMeasure \u2119\nA B : Set \u03a9\n\u22a2 IndepSet A B \u2192 IndepSet B A",
+      "goal": "Ω : Type\ninst✝¹ : MeasureSpace Ω\ninst✝ : IsProbabilityMeasure ℙ\nA B : Set Ω\n⊢ IndepSet A B → IndepSet B A",
       "url": "https://github.com/PatrickMassot/GlimpseOfLean/blob/435db8d6c9b3c72e68e0fcf95563921a3e17c88b/GlimpseOfLean/Exercises/Topics/Probability.lean#L54"
     },
     "metadata": {
@@ -414,7 +414,7 @@
       "file": "Tests.lean"
     },
     "debug_info": {
-      "goal": "n m : Nat\n\u22a2 List.replicate (2 * n) () = List.replicate n () ++ List.replicate n ()",
+      "goal": "n m : Nat\n⊢ List.replicate (2 * n) () = List.replicate n () ++ List.replicate n ()",
       "url": "https://github.com/nomeata/loogle/blob/b340a5b73a68fd54d624ac1f9c025c11f638bb53/Tests.lean#L102"
     },
     "metadata": {
@@ -439,7 +439,7 @@
       "file": "ZKLib/OracleReduction/Equiv.lean"
     },
     "debug_info": {
-      "goal": "case h.h.none\n\u22a2 (evalDist (OptionT.bind (liftM (query 1 ())) (OptionT.pure \u2218 fun a => (0, \u2191a)))) none =\n    \u2211' (a : Fin 2), 2\u207b\u00b9 * (evalDist (OptionT.bind (liftM (query 0 ())) (OptionT.pure \u2218 fun a_1 => (0, \u2191a)))) none",
+      "goal": "case h.h.none\n⊢ (evalDist (OptionT.bind (liftM (query 1 ())) (OptionT.pure ∘ fun a => (0, ↑a)))) none =\n    ∑' (a : Fin 2), 2⁻¹ * (evalDist (OptionT.bind (liftM (query 0 ())) (OptionT.pure ∘ fun a_1 => (0, ↑a)))) none",
       "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b2a35da9cc686c666671ac006d1c2ec4757302c/ZKLib/OracleReduction/Equiv.lean#L80"
     },
     "metadata": {
@@ -464,7 +464,7 @@
       "file": "Compfiles/Imo2010P3.lean"
     },
     "debug_info": {
-      "goal": "case h\ng : \u2124>0 \u2192 \u2124>0\nc : \u2124>0\nhc : \u2200 (x : \u2124>0), g x = x + c\nm n : \u2124>0\n\u22a2 (m + c + n) * (n + c + m) = (m + n + c) * (m + n + c)",
+      "goal": "case h\ng : ℤ>0 → ℤ>0\nc : ℤ>0\nhc : ∀ (x : ℤ>0), g x = x + c\nm n : ℤ>0\n⊢ (m + c + n) * (n + c + m) = (m + n + c) * (m + n + c)",
       "url": "https://github.com/dwrensha/compfiles/blob/fa63371f54d5353ab86e7e2b97473832c417e5ba/Compfiles/Imo2010P3.lean#L36"
     },
     "metadata": {
@@ -489,7 +489,7 @@
       "file": "Foundation/ProvabilityLogic/Grz/Completeness.lean"
     },
     "debug_info": {
-      "goal": "case intro\n\u03b1 : Type u_1\ninst\u271d\u00b2 : DecidableEq \u03b1\nR : \u03b1 \u2192 \u03b1 \u2192 Prop\ninst\u271d\u00b9 : DecidableEq \u03b1\ninst\u271d : IsTrans \u03b1 R\nl : List \u03b1\ni j : Fin l.length\nh : Chain' R l\neij : i \u2260 j\nnRij : \u00acR (l.get i) (l.get j)\nnRji : \u00acR (l.get j) (l.get i)\n\u22a2 False",
+      "goal": "case intro\nα : Type u_1\ninst✝² : DecidableEq α\nR : α → α → Prop\ninst✝¹ : DecidableEq α\ninst✝ : IsTrans α R\nl : List α\ni j : Fin l.length\nh : Chain' R l\neij : i ≠ j\nnRij : ¬R (l.get i) (l.get j)\nnRji : ¬R (l.get j) (l.get i)\n⊢ False",
       "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2d0d958822ddfb22e58f2cb6266a52f3bb219fff/Foundation/ProvabilityLogic/Grz/Completeness.lean#L34"
     },
     "metadata": {
@@ -514,7 +514,7 @@
       "file": "Carleson/ToMathlib/ENorm.lean"
     },
     "debug_info": {
-      "goal": "\u03b5 : Type u_9\n\u03b5' : Type u_10\ninst\u271d\u00b3 : TopologicalSpace \u03b5\ninst\u271d\u00b2 : ContinuousENorm \u03b5\ninst\u271d\u00b9 : TopologicalSpace \u03b5'\ninst\u271d : ContinuousENorm \u03b5'\n\u03b1 : Type u_11\nm0 : MeasurableSpace \u03b1\n\u03bc : Measure \u03b1\nf : \u03b1 \u2192 \u03b5\ng : \u03b1 \u2192 \u03b5'\nc : \u211d\u22650\nh : \u2200\u1d50 (x : \u03b1) \u2202\u03bc, \u2016f x\u2016\u2091 \u2264 \u2191c * \u2016g x\u2016\u2091\n\u22a2 eLpNormEssSup f \u03bc \u2264 c \u2022 eLpNormEssSup g \u03bc",
+      "goal": "ε : Type u_9\nε' : Type u_10\ninst✝³ : TopologicalSpace ε\ninst✝² : ContinuousENorm ε\ninst✝¹ : TopologicalSpace ε'\ninst✝ : ContinuousENorm ε'\nα : Type u_11\nm0 : MeasurableSpace α\nμ : Measure α\nf : α → ε\ng : α → ε'\nc : ℝ≥0\nh : ∀ᵐ (x : α) ∂μ, ‖f x‖ₑ ≤ ↑c * ‖g x‖ₑ\n⊢ eLpNormEssSup f μ ≤ c • eLpNormEssSup g μ",
       "url": "https://github.com/fpvandoorn/carleson/blob/d6273ee1eced7a38fd1d3db0010c6c7ab14b5316/Carleson/ToMathlib/ENorm.lean#L83"
     },
     "metadata": {
@@ -539,7 +539,7 @@
       "file": "FLT/HaarMeasure/DistribHaarChar/LessBasic.lean"
     },
     "debug_info": {
-      "goal": "R : Type u_1\ninst\u271d\u2075 : TopologicalSpace R\ninst\u271d\u2074 : LocallyCompactSpace R\ninst\u271d\u00b3 : CommRing R\ninst\u271d\u00b2 : IsTopologicalRing R\ninst\u271d\u00b9 : MeasurableSpace R\ninst\u271d : BorelSpace R\n\u22a2 Continuous \u21d1(distribHaarChar R)",
+      "goal": "R : Type u_1\ninst✝⁵ : TopologicalSpace R\ninst✝⁴ : LocallyCompactSpace R\ninst✝³ : CommRing R\ninst✝² : IsTopologicalRing R\ninst✝¹ : MeasurableSpace R\ninst✝ : BorelSpace R\n⊢ Continuous ⇑(distribHaarChar R)",
       "url": "https://github.com/ImperialCollegeLondon/FLT/blob/b2cbce8e4933bae37a3a22712e17cf6467d25edd/FLT/HaarMeasure/DistribHaarChar/LessBasic.lean#L25"
     },
     "metadata": {
@@ -564,7 +564,7 @@
       "file": "Duper/Tests/test_continuity.lean"
     },
     "debug_info": {
-      "goal": "a : Real\n\u22a2 lt zero one",
+      "goal": "a : Real\n⊢ lt zero one",
       "url": "https://github.com/leanprover-community/duper/blob/e28c4e11389116ccb6a48ff0fe9c3d1a9d7642e4/Duper/Tests/test_continuity.lean#L20"
     },
     "metadata": {
@@ -589,7 +589,7 @@
       "file": "BatteriesTest/lint_unreachableTactic.lean"
     },
     "debug_info": {
-      "goal": "aa : Nat\n\u22a2 aa = 0 \u2192 t aa = 0",
+      "goal": "aa : Nat\n⊢ aa = 0 → t aa = 0",
       "url": "https://github.com/leanprover-community/batteries/blob/e119df7e78d94b18b34067db93e8fc0d448d696f/BatteriesTest/lint_unreachableTactic.lean#L31"
     },
     "metadata": {
@@ -614,7 +614,7 @@
       "file": "AesopTest/ExtScript.lean"
     },
     "debug_info": {
-      "goal": "case a\n\u03b1 \u03b2 \u03b3 \u03b4 \u03b9 : Type\nx y : T\nu v : U\n\u22a2 u = v",
+      "goal": "case a\nα β γ δ ι : Type\nx y : T\nu v : U\n⊢ u = v",
       "url": "https://github.com/leanprover-community/aesop/blob/dd78c1426f5fc783ec1ba23ad769471cc69bb8b4/AesopTest/ExtScript.lean#L103"
     },
     "metadata": {
@@ -639,7 +639,7 @@
       "file": "LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean"
     },
     "debug_info": {
-      "goal": "case refine_1.refine_1\n\u03b1 : Type u_1\n\u03a9 : Type u_2\ninst\u271d\u00b9 : MeasurableSpace \u03a9\nX Y : \u03a9 \u2192 Set \u03b1\n\u03bc : Measure \u03a9\np q : \u211d\u22650\nhX : IsBernoulliSeq X p \u03bc\nhY : IsBernoulliSeq Y q \u03bc\ninst\u271d : IsProbabilityMeasure \u03bc\nh : IndepFun X Y \u03bc\ni : \u03b1\n\u22a2 MeasurableSet fun \u03c9 => X \u03c9 i",
+      "goal": "case refine_1.refine_1\nα : Type u_1\nΩ : Type u_2\ninst✝¹ : MeasurableSpace Ω\nX Y : Ω → Set α\nμ : Measure Ω\np q : ℝ≥0\nhX : IsBernoulliSeq X p μ\nhY : IsBernoulliSeq Y q μ\ninst✝ : IsProbabilityMeasure μ\nh : IndepFun X Y μ\ni : α\n⊢ MeasurableSet fun ω => X ω i",
       "url": "https://github.com/YaelDillies/LeanCamCombi/blob/5df79658756ef6d112f2464eec3aece31e35cc83/LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean#L117"
     },
     "metadata": {
@@ -664,7 +664,7 @@
       "file": "PrimeNumberTheoremAnd/MediumPNT.lean"
     },
     "debug_info": {
-      "goal": "SmoothingF : \u211d \u2192 \u211d\n\u03b5 : \u211d\n\u03b5_pos : 0 < \u03b5\nX T : \u211d\nT_pos : 0 < T\n\u03c3\u2080 : \u211d\n\u03c3\u2080_pos : 0 < \u03c3\u2080\nholoOn : HolomorphicOn (SmoothedChebyshevIntegrand SmoothingF \u03b5 X) (Icc \u03c3\u2080 2 \u00d7\u2102 univ \\ {1})\nsuppSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\n\u22a2 Integrable (fun t => SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u2191(1 + (Real.log X)\u207b\u00b9) + \u2191t * I)) volume",
+      "goal": "SmoothingF : ℝ → ℝ\nε : ℝ\nε_pos : 0 < ε\nX T : ℝ\nT_pos : 0 < T\nσ₀ : ℝ\nσ₀_pos : 0 < σ₀\nholoOn : HolomorphicOn (SmoothedChebyshevIntegrand SmoothingF ε X) (Icc σ₀ 2 ×ℂ univ \\ {1})\nsuppSmoothingF : support SmoothingF ⊆ Icc (1 / 2) 2\nSmoothingFnonneg : ∀ x > 0, 0 ≤ SmoothingF x\nmass_one : ∫ (x : ℝ) in Ioi 0, SmoothingF x / x = 1\n⊢ Integrable (fun t => SmoothedChebyshevIntegrand SmoothingF ε X (↑(1 + (Real.log X)⁻¹) + ↑t * I)) volume",
       "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/4250adfc9aab5e09d276549d7a645627cb2dce39/PrimeNumberTheoremAnd/MediumPNT.lean#L431"
     },
     "metadata": {
@@ -689,7 +689,7 @@
       "file": "InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean"
     },
     "debug_info": {
-      "goal": "A : SSet\nf\u271d g\u271d f g h : A _\u298b1\u298c\nH\u2081 : HomotopyL f g\nH\u2082 : HomotopyL f h\n\u03c3 : Subpresheaf.toPresheaf \u039b[3, 1] \u27f6 A := sorry\n\u03c4 : A _\u298b3\u298c := sorry\n\u03c4\u2080 : SimplicialObject.\u03b4 A 0 \u03c4 = (SimplicialObject.\u03b4 A 0 \u226b SimplicialObject.\u03c3 A 0 \u226b SimplicialObject.\u03c3 A 0) g\n\u22a2 SimplicialObject.\u03b4 A 2 \u03c4 = H\u2082.simplex",
+      "goal": "A : SSet\nf✝ g✝ f g h : A _⦋1⦌\nH₁ : HomotopyL f g\nH₂ : HomotopyL f h\nσ : Subpresheaf.toPresheaf Λ[3, 1] ⟶ A := sorry\nτ : A _⦋3⦌ := sorry\nτ₀ : SimplicialObject.δ A 0 τ = (SimplicialObject.δ A 0 ≫ SimplicialObject.σ A 0 ≫ SimplicialObject.σ A 0) g\n⊢ SimplicialObject.δ A 2 τ = H₂.simplex",
       "url": "https://github.com/emilyriehl/infinity-cosmos/blob/bf1885e46ff0fde2a1cde218001d9b90307f4224/InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean#L134"
     },
     "metadata": {
@@ -714,7 +714,7 @@
       "file": "LeanByExample/Attribute/Aesop.lean"
     },
     "debug_info": {
-      "goal": "P : Prop\nhp : P\n\u22a2 MyAnd P P",
+      "goal": "P : Prop\nhp : P\n⊢ MyAnd P P",
       "url": "https://github.com/lean-ja/lean-by-example/blob/3ebe85bea550147ea661babd12b968bf8e97a7ed/LeanByExample/Attribute/Aesop.lean#L60"
     },
     "metadata": {
@@ -739,7 +739,7 @@
       "file": "PFR/MoreRuzsaDist.lean"
     },
     "debug_info": {
-      "goal": "G : Type u_8\nhG : MeasurableSpace G\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : MeasurableSingletonClass G\ninst\u271d : Countable G\nm : \u2115\nhm : m \u2265 2\n\u03a9 : Type u_9\nh\u03a9 : MeasureSpace \u03a9\nX : Fin m \u2192 \u03a9 \u2192 G\nh_indep : iIndepFun X \u2119\n\u22a2 d[\u2211 i, X i # \u2211 i, X i] \u2264 2 * D[X ; fun x => h\u03a9]",
+      "goal": "G : Type u_8\nhG : MeasurableSpace G\ninst✝² : AddCommGroup G\ninst✝¹ : MeasurableSingletonClass G\ninst✝ : Countable G\nm : ℕ\nhm : m ≥ 2\nΩ : Type u_9\nhΩ : MeasureSpace Ω\nX : Fin m → Ω → G\nh_indep : iIndepFun X ℙ\n⊢ d[∑ i, X i # ∑ i, X i] ≤ 2 * D[X ; fun x => hΩ]",
       "url": "https://github.com/teorth/pfr/blob/0010cb5c36c6605a2d0e957390ab4955e6c9e3ff/PFR/MoreRuzsaDist.lean#L873"
     },
     "metadata": {
@@ -764,7 +764,7 @@
       "file": "Mathlib/Tactic/Algebra.lean"
     },
     "debug_info": {
-      "goal": "\u00ab$u\u00bb \u00ab$v\u00bb \u00ab$w\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$R\u2081\u00bb : Type v\n\u00ab$R\u2082\u00bb : Type w\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$sR\u2081\u00bb : CommSemiring \u00ab$R\u2081\u00bb\n\u00ab$sRA\u2081\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n\u00ab$sR\u2082\u00bb : CommSemiring \u00ab$R\u2082\u00bb\n\u00ab$sRA\u2082\u00bb : Algebra \u00ab$R\u2082\u00bb \u00ab$A\u00bb\n\u00ab$r\u2081\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$r\u2082\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$a\u2081\u00bb \u00ab$a\u2082\u00bb $expr\u271d : \u00ab$A\u00bb\n\u00ab$pa\u00bb : \u00ab$a\u2081\u00bb + \u00ab$a\u2082\u00bb = $expr\u271d\n\u22a2 1 \u2022 \u00ab$a\u2081\u00bb + 1 \u2022 \u00ab$a\u2082\u00bb = 1 \u2022 $expr\u271d",
+      "goal": "«$u» «$v» «$w» : Level\n«$A» : Type u\n«$R₁» : Type v\n«$R₂» : Type w\n«$sA» : CommSemiring «$A»\n«$sR₁» : CommSemiring «$R₁»\n«$sRA₁» : Algebra «$R₁» «$A»\n«$sR₂» : CommSemiring «$R₂»\n«$sRA₂» : Algebra «$R₂» «$A»\n«$r₁» : «$R₁»\n«$r₂» : «$R₂»\n«$a₁» «$a₂» $expr✝ : «$A»\n«$pa» : «$a₁» + «$a₂» = $expr✝\n⊢ 1 • «$a₁» + 1 • «$a₂» = 1 • $expr✝",
       "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L269"
     },
     "metadata": {
@@ -789,7 +789,7 @@
       "file": "GlimpseOfLean/Exercises/Topics/Probability.lean"
     },
     "debug_info": {
-      "goal": "\u03a9 : Type\ninst\u271d\u00b9 : MeasureSpace \u03a9\ninst\u271d : IsProbabilityMeasure \u2119\nA B : Set \u03a9\nhA : MeasurableSet A\nhB : MeasurableSet B\n\u22a2 IndepSet A B \u2192 IndepSet A B\u1d9c",
+      "goal": "Ω : Type\ninst✝¹ : MeasureSpace Ω\ninst✝ : IsProbabilityMeasure ℙ\nA B : Set Ω\nhA : MeasurableSet A\nhB : MeasurableSet B\n⊢ IndepSet A B → IndepSet A Bᶜ",
       "url": "https://github.com/PatrickMassot/GlimpseOfLean/blob/435db8d6c9b3c72e68e0fcf95563921a3e17c88b/GlimpseOfLean/Exercises/Topics/Probability.lean#L64"
     },
     "metadata": {
@@ -814,7 +814,7 @@
       "file": "Tests.lean"
     },
     "debug_info": {
-      "goal": "n m : Nat\n\u22a2 List.replicate n () ++ List.replicate m () = List.replicate (n + m) ()",
+      "goal": "n m : Nat\n⊢ List.replicate n () ++ List.replicate m () = List.replicate (n + m) ()",
       "url": "https://github.com/nomeata/loogle/blob/b340a5b73a68fd54d624ac1f9c025c11f638bb53/Tests.lean#L108"
     },
     "metadata": {
@@ -839,7 +839,7 @@
       "file": "ZKLib/CommitmentScheme/MerkleTree.lean"
     },
     "debug_info": {
-      "goal": "case succ\n\u03b1 : Type\ninst\u271d\u00b2 : DecidableEq \u03b1\ninst\u271d\u00b9 : Inhabited \u03b1\ninst\u271d : Fintype \u03b1\nn : \u2115\nleaves : List.Vector \u03b1 (2 ^ (n + 1))\ni : Fin (2 ^ (n + 1))\nih :\n  \u2200 (leaves : List.Vector \u03b1 (2 ^ n)) (i : Fin (2 ^ n)),\n    (buildMerkleTree \u03b1 n leaves).neverFails \u2227\n      \u2200 x \u2208 (buildMerkleTree \u03b1 n leaves).support,\n        verifyProof \u03b1 i (leaves.get i) (x 0).head\n            (List.Vector.ofFn fun layer => (x \u2191\u2191layer).get \u2191\u2191(findNeighbors i layer)) =\n          pure ()\n\u22a2 (do\n        let a \u2190 buildLayer \u03b1 n leaves\n        (fun a =>\n              (leaves.get i, (Cache.cons \u03b1 n leaves a 0).head,\n                List.Vector.ofFn fun layer => (Cache.cons \u03b1 n leaves a \u2191\u2191layer).get \u2191\u2191(findNeighbors i layer))) <$>\n            buildMerkleTree \u03b1 n a).neverFails \u2227\n    \u2200 (a a_1 : \u03b1) (b : List.Vector \u03b1 (n + 1)),\n      \u2200 x \u2208 (buildLayer \u03b1 n leaves).finSupport,\n        (a, a_1, b) \u2208\n            ((fun a =>\n                  (leaves.get i, (Cache.cons \u03b1 n leaves a 0).head,\n                    List.Vector.ofFn fun layer => (Cache.cons \u03b1 n leaves a \u2191\u2191layer).get \u2191\u2191(findNeighbors i layer))) <$>\n                buildMerkleTree \u03b1 n x).finSupport \u2192\n          verifyProof \u03b1 i a a_1 b = pure ()",
+      "goal": "case succ\nα : Type\ninst✝² : DecidableEq α\ninst✝¹ : Inhabited α\ninst✝ : Fintype α\nn : ℕ\nleaves : List.Vector α (2 ^ (n + 1))\ni : Fin (2 ^ (n + 1))\nih :\n  ∀ (leaves : List.Vector α (2 ^ n)) (i : Fin (2 ^ n)),\n    (buildMerkleTree α n leaves).neverFails ∧\n      ∀ x ∈ (buildMerkleTree α n leaves).support,\n        verifyProof α i (leaves.get i) (x 0).head\n            (List.Vector.ofFn fun layer => (x ↑↑layer).get ↑↑(findNeighbors i layer)) =\n          pure ()\n⊢ (do\n        let a ← buildLayer α n leaves\n        (fun a =>\n              (leaves.get i, (Cache.cons α n leaves a 0).head,\n                List.Vector.ofFn fun layer => (Cache.cons α n leaves a ↑↑layer).get ↑↑(findNeighbors i layer))) <$>\n            buildMerkleTree α n a).neverFails ∧\n    ∀ (a a_1 : α) (b : List.Vector α (n + 1)),\n      ∀ x ∈ (buildLayer α n leaves).finSupport,\n        (a, a_1, b) ∈\n            ((fun a =>\n                  (leaves.get i, (Cache.cons α n leaves a 0).head,\n                    List.Vector.ofFn fun layer => (Cache.cons α n leaves a ↑↑layer).get ↑↑(findNeighbors i layer))) <$>\n                buildMerkleTree α n x).finSupport →\n          verifyProof α i a a_1 b = pure ()",
       "url": "https://github.com/Verified-zkEVM/ZKLib/blob/d006bfadcfa73fe62c453e059621fb0baf69146f/ZKLib/CommitmentScheme/MerkleTree.lean#L167"
     },
     "metadata": {
@@ -864,7 +864,7 @@
       "file": "Compfiles/Bulgaria1998P1.lean"
     },
     "debug_info": {
-      "goal": "case h.intro.mk.intro.intro.mk.intro.intro.intro.intro.\u00ab1\u00bb.\u00ab1\u00bb\ni j : \u2115\nhi1 : 1 \u2264 1\nhi2 : 1 \u2264 8\nhj1 : 1 \u2264 1\nhj2 : 1 \u2264 8\nhij1 : \u27e81, \u22ef\u27e9 < \u27e81, \u22ef\u27e9\nhij2 : 2 * \u2191\u27e81, \u22ef\u27e9 - \u2191\u27e81, \u22ef\u27e9 \u2208 Set.Icc 1 8\nhc1 :\n  (match \u27e81, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0) =\n    match \u27e81, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0\nhc2 :\n  (match \u27e81, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0) =\n    match \u27e82 * 1 - 1, hij2\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0\n\u22a2 False",
+      "goal": "case h.intro.mk.intro.intro.mk.intro.intro.intro.intro.«1».«1»\ni j : ℕ\nhi1 : 1 ≤ 1\nhi2 : 1 ≤ 8\nhj1 : 1 ≤ 1\nhj2 : 1 ≤ 8\nhij1 : ⟨1, ⋯⟩ < ⟨1, ⋯⟩\nhij2 : 2 * ↑⟨1, ⋯⟩ - ↑⟨1, ⋯⟩ ∈ Set.Icc 1 8\nhc1 :\n  (match ⟨1, ⋯⟩ with\n    | ⟨1, property⟩ => 0\n    | ⟨2, property⟩ => 1\n    | ⟨3, property⟩ => 0\n    | ⟨4, property⟩ => 1\n    | ⟨5, property⟩ => 1\n    | ⟨6, property⟩ => 0\n    | ⟨7, property⟩ => 1\n    | ⟨8, property⟩ => 0\n    | x => 0) =\n    match ⟨1, ⋯⟩ with\n    | ⟨1, property⟩ => 0\n    | ⟨2, property⟩ => 1\n    | ⟨3, property⟩ => 0\n    | ⟨4, property⟩ => 1\n    | ⟨5, property⟩ => 1\n    | ⟨6, property⟩ => 0\n    | ⟨7, property⟩ => 1\n    | ⟨8, property⟩ => 0\n    | x => 0\nhc2 :\n  (match ⟨1, ⋯⟩ with\n    | ⟨1, property⟩ => 0\n    | ⟨2, property⟩ => 1\n    | ⟨3, property⟩ => 0\n    | ⟨4, property⟩ => 1\n    | ⟨5, property⟩ => 1\n    | ⟨6, property⟩ => 0\n    | ⟨7, property⟩ => 1\n    | ⟨8, property⟩ => 0\n    | x => 0) =\n    match ⟨2 * 1 - 1, hij2⟩ with\n    | ⟨1, property⟩ => 0\n    | ⟨2, property⟩ => 1\n    | ⟨3, property⟩ => 0\n    | ⟨4, property⟩ => 1\n    | ⟨5, property⟩ => 1\n    | ⟨6, property⟩ => 0\n    | ⟨7, property⟩ => 1\n    | ⟨8, property⟩ => 0\n    | x => 0\n⊢ False",
       "url": "https://github.com/dwrensha/compfiles/blob/fa63371f54d5353ab86e7e2b97473832c417e5ba/Compfiles/Bulgaria1998P1.lean#L76"
     },
     "metadata": {
@@ -889,7 +889,7 @@
       "file": "Foundation/ProvabilityLogic/Grz/Completeness.lean"
     },
     "debug_info": {
-      "goal": "case p\nF : Frame\nr : F.World\ninst\u271d : F.IsRooted r\nn : \u2115+\n\u22a2 List.Chain' (fun a b => a < b) do\n    let a \u2190 List.range \u2191n\n    pure \u2191a",
+      "goal": "case p\nF : Frame\nr : F.World\ninst✝ : F.IsRooted r\nn : ℕ+\n⊢ List.Chain' (fun a b => a < b) do\n    let a ← List.range ↑n\n    pure ↑a",
       "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2d0d958822ddfb22e58f2cb6266a52f3bb219fff/Foundation/ProvabilityLogic/Grz/Completeness.lean#L110"
     },
     "metadata": {
@@ -914,7 +914,7 @@
       "file": "Carleson/ToMathlib/HardyLittlewood.lean"
     },
     "debug_info": {
-      "goal": "X : Type u_1\nE : Type u_2\nA : \u211d\u22650\ninst\u271d\u2078 : MetricSpace X\ninst\u271d\u2077 : MeasurableSpace X\n\u03bc : Measure X\ninst\u271d\u2076 : \u03bc.IsDoubling A\ninst\u271d\u2075 : NormedAddCommGroup E\ninst\u271d\u2074 : ProperSpace X\ninst\u271d\u00b3 : BorelSpace X\ninst\u271d\u00b2 : IsFiniteMeasureOnCompacts \u03bc\ninst\u271d\u00b9 : Nonempty X\ninst\u271d : \u03bc.IsOpenPosMeasure\np\u2081 p\u2082 : \u211d\u22650\nhp\u2081 : 1 \u2264 p\u2081\nhp\u2081\u2082 : p\u2081 < p\u2082\n\u22a2 HasStrongType\n    (fun u x =>\n      (\u2191A ^ 2).toReal * (maximalFunction \u03bc (\u22ef.choose \u00d7\u02e2 univ) (fun x => x.1) (fun x => 2 ^ x.2) (\u2191p\u2081) u x).toReal)\n    (\u2191p\u2082) (\u2191p\u2082) \u03bc \u03bc \u2191(A ^ 2 * C2_0_6 A p\u2081 p\u2082)",
+      "goal": "X : Type u_1\nE : Type u_2\nA : ℝ≥0\ninst✝⁸ : MetricSpace X\ninst✝⁷ : MeasurableSpace X\nμ : Measure X\ninst✝⁶ : μ.IsDoubling A\ninst✝⁵ : NormedAddCommGroup E\ninst✝⁴ : ProperSpace X\ninst✝³ : BorelSpace X\ninst✝² : IsFiniteMeasureOnCompacts μ\ninst✝¹ : Nonempty X\ninst✝ : μ.IsOpenPosMeasure\np₁ p₂ : ℝ≥0\nhp₁ : 1 ≤ p₁\nhp₁₂ : p₁ < p₂\n⊢ HasStrongType\n    (fun u x =>\n      (↑A ^ 2).toReal * (maximalFunction μ (⋯.choose ×ˢ univ) (fun x => x.1) (fun x => 2 ^ x.2) (↑p₁) u x).toReal)\n    (↑p₂) (↑p₂) μ μ ↑(A ^ 2 * C2_0_6 A p₁ p₂)",
       "url": "https://github.com/fpvandoorn/carleson/blob/d6273ee1eced7a38fd1d3db0010c6c7ab14b5316/Carleson/ToMathlib/HardyLittlewood.lean#L533"
     },
     "metadata": {
@@ -939,7 +939,7 @@
       "file": "FLT/HaarMeasure/DistribHaarChar/LessBasic.lean"
     },
     "debug_info": {
-      "goal": "R : Type u_1\ninst\u271d\u00b9\u00b2 : TopologicalSpace R\ninst\u271d\u00b9\u00b9 : LocallyCompactSpace R\ninst\u271d\u00b9\u2070 : CommRing R\ninst\u271d\u2079 : IsTopologicalRing R\ninst\u271d\u2078 : MeasurableSpace R\ninst\u271d\u2077 : BorelSpace R\nS : Type u_2\ninst\u271d\u2076 : TopologicalSpace S\ninst\u271d\u2075 : LocallyCompactSpace S\ninst\u271d\u2074 : CommRing S\ninst\u271d\u00b3 : IsTopologicalRing S\ninst\u271d\u00b2 : MeasurableSpace S\ninst\u271d\u00b9 : BorelSpace S\ninst\u271d : SecondCountableTopologyEither R S\nr : R\u02e3\ns : S\u02e3\n\u22a2 (distribHaarChar (R \u00d7 S)) (MulEquiv.prodUnits.symm (r, s)) = (distribHaarChar R) r * (distribHaarChar S) s",
+      "goal": "R : Type u_1\ninst✝¹² : TopologicalSpace R\ninst✝¹¹ : LocallyCompactSpace R\ninst✝¹⁰ : CommRing R\ninst✝⁹ : IsTopologicalRing R\ninst✝⁸ : MeasurableSpace R\ninst✝⁷ : BorelSpace R\nS : Type u_2\ninst✝⁶ : TopologicalSpace S\ninst✝⁵ : LocallyCompactSpace S\ninst✝⁴ : CommRing S\ninst✝³ : IsTopologicalRing S\ninst✝² : MeasurableSpace S\ninst✝¹ : BorelSpace S\ninst✝ : SecondCountableTopologyEither R S\nr : Rˣ\ns : Sˣ\n⊢ (distribHaarChar (R × S)) (MulEquiv.prodUnits.symm (r, s)) = (distribHaarChar R) r * (distribHaarChar S) s",
       "url": "https://github.com/ImperialCollegeLondon/FLT/blob/b2cbce8e4933bae37a3a22712e17cf6467d25edd/FLT/HaarMeasure/DistribHaarChar/LessBasic.lean#L48"
     },
     "metadata": {
@@ -964,7 +964,7 @@
       "file": "Duper/Tests/lastAsylum.lean"
     },
     "debug_info": {
-      "goal": "ax1 : \u2200 (x : Inhab), Peculiar x \u2194 (Sane x \u2194 \u00acDoctor x)\nax2 : \u2200 (x : Inhab), Special x \u2194 \u2200 (y : Inhab), \u00acDoctor y \u2194 (Sane y \u2194 Peculiar x)\nax3 : \u2200 (x y : Inhab), (Sane x \u2194 Special y) \u2192 (Sane (bf x) \u2194 \u00acDoctor y)\nax4 : Sane Tarr \u2194 \u2200 (x : Inhab), Doctor x \u2192 Sane x\nax5 : Sane Fether \u2194 \u2200 (x : Inhab), \u00acDoctor x \u2192 \u00acSane x\nax6 : Sane Fether \u2194 Sane Tarr\n\u22a2 False",
+      "goal": "ax1 : ∀ (x : Inhab), Peculiar x ↔ (Sane x ↔ ¬Doctor x)\nax2 : ∀ (x : Inhab), Special x ↔ ∀ (y : Inhab), ¬Doctor y ↔ (Sane y ↔ Peculiar x)\nax3 : ∀ (x y : Inhab), (Sane x ↔ Special y) → (Sane (bf x) ↔ ¬Doctor y)\nax4 : Sane Tarr ↔ ∀ (x : Inhab), Doctor x → Sane x\nax5 : Sane Fether ↔ ∀ (x : Inhab), ¬Doctor x → ¬Sane x\nax6 : Sane Fether ↔ Sane Tarr\n⊢ False",
       "url": "https://github.com/leanprover-community/duper/blob/e28c4e11389116ccb6a48ff0fe9c3d1a9d7642e4/Duper/Tests/lastAsylum.lean#L35"
     },
     "metadata": {
@@ -989,7 +989,7 @@
       "file": "BatteriesTest/lintunused.lean"
     },
     "debug_info": {
-      "goal": "h : 1 = 1\n\u22a2 True",
+      "goal": "h : 1 = 1\n⊢ True",
       "url": "https://github.com/leanprover-community/batteries/blob/e119df7e78d94b18b34067db93e8fc0d448d696f/BatteriesTest/lintunused.lean#L7"
     },
     "metadata": {
@@ -1014,7 +1014,7 @@
       "file": "AesopTest/ExtScript.lean"
     },
     "debug_info": {
-      "goal": "case fst\n\u03b1 \u03b2 \u03b3 \u03b4 \u03b9 : Type\np q : MyProd \u03b1 \u03b2\n\u22a2 p.fst = q.fst",
+      "goal": "case fst\nα β γ δ ι : Type\np q : MyProd α β\n⊢ p.fst = q.fst",
       "url": "https://github.com/leanprover-community/aesop/blob/dd78c1426f5fc783ec1ba23ad769471cc69bb8b4/AesopTest/ExtScript.lean#L30"
     },
     "metadata": {
@@ -1039,7 +1039,7 @@
       "file": "LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean"
     },
     "debug_info": {
-      "goal": "case refine_1.refine_2\n\u03b1 : Type u_1\n\u03a9 : Type u_2\ninst\u271d\u00b9 : MeasurableSpace \u03a9\nX Y : \u03a9 \u2192 Set \u03b1\n\u03bc : Measure \u03a9\np q : \u211d\u22650\nhX : IsBernoulliSeq X p \u03bc\nhY : IsBernoulliSeq Y q \u03bc\ninst\u271d : IsProbabilityMeasure \u03bc\nh : IndepFun X Y \u03bc\ni : \u03b1\n\u22a2 MeasurableSet fun \u03c9 => Y \u03c9 i",
+      "goal": "case refine_1.refine_2\nα : Type u_1\nΩ : Type u_2\ninst✝¹ : MeasurableSpace Ω\nX Y : Ω → Set α\nμ : Measure Ω\np q : ℝ≥0\nhX : IsBernoulliSeq X p μ\nhY : IsBernoulliSeq Y q μ\ninst✝ : IsProbabilityMeasure μ\nh : IndepFun X Y μ\ni : α\n⊢ MeasurableSet fun ω => Y ω i",
       "url": "https://github.com/YaelDillies/LeanCamCombi/blob/5df79658756ef6d112f2464eec3aece31e35cc83/LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean#L118"
     },
     "metadata": {
@@ -1064,7 +1064,7 @@
       "file": "PrimeNumberTheoremAnd/ZetaBounds.lean"
     },
     "debug_info": {
-      "goal": "case h\nA : \u211d\nhA : A \u2208 Ioc 0 (1 / 2)\nh\u271d :\n  \u2203 C,\n    \u2203 (_ : 0 < C),\n      \u2200 (\u03c3 t : \u211d),\n        3 < |t| \u2192\n          \u03c3 \u2208 Ico (1 - A / Real.log |t| ^ 9) 1 \u2192 \u2016deriv \u03b6 (\u2191\u03c3 + \u2191t * I) / \u03b6 (\u2191\u03c3 + \u2191t * I)\u2016 \u2264 C * Real.log |t| ^ 9\nT : \u211d\nT_gt : 3 < T\n\u22a2 HolomorphicOn (fun s => deriv \u03b6 s / \u03b6 s) (Ioc (1 - A / Real.log T ^ 9) 2 \u00d7\u2102 Icc (-T) T \\ {1})",
+      "goal": "case h\nA : ℝ\nhA : A ∈ Ioc 0 (1 / 2)\nh✝ :\n  ∃ C,\n    ∃ (_ : 0 < C),\n      ∀ (σ t : ℝ),\n        3 < |t| →\n          σ ∈ Ico (1 - A / Real.log |t| ^ 9) 1 → ‖deriv ζ (↑σ + ↑t * I) / ζ (↑σ + ↑t * I)‖ ≤ C * Real.log |t| ^ 9\nT : ℝ\nT_gt : 3 < T\n⊢ HolomorphicOn (fun s => deriv ζ s / ζ s) (Ioc (1 - A / Real.log T ^ 9) 2 ×ℂ Icc (-T) T \\ {1})",
       "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/4250adfc9aab5e09d276549d7a645627cb2dce39/PrimeNumberTheoremAnd/ZetaBounds.lean#L2452"
     },
     "metadata": {
@@ -1089,7 +1089,7 @@
       "file": "InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean"
     },
     "debug_info": {
-      "goal": "A : SSet\nf\u271d g\u271d f g h : A _\u298b1\u298c\nH\u2081 : HomotopyL f g\nH\u2082 : HomotopyL f h\n\u03c3 : Subpresheaf.toPresheaf \u039b[3, 1] \u27f6 A := sorry\n\u03c4 : A _\u298b3\u298c := sorry\n\u03c4\u2080 : SimplicialObject.\u03b4 A 0 \u03c4 = (SimplicialObject.\u03b4 A 0 \u226b SimplicialObject.\u03c3 A 0 \u226b SimplicialObject.\u03c3 A 0) g\n\u03c4\u2082 : SimplicialObject.\u03b4 A 2 \u03c4 = H\u2082.simplex\n\u22a2 SimplicialObject.\u03b4 A 3 \u03c4 = H\u2081.simplex",
+      "goal": "A : SSet\nf✝ g✝ f g h : A _⦋1⦌\nH₁ : HomotopyL f g\nH₂ : HomotopyL f h\nσ : Subpresheaf.toPresheaf Λ[3, 1] ⟶ A := sorry\nτ : A _⦋3⦌ := sorry\nτ₀ : SimplicialObject.δ A 0 τ = (SimplicialObject.δ A 0 ≫ SimplicialObject.σ A 0 ≫ SimplicialObject.σ A 0) g\nτ₂ : SimplicialObject.δ A 2 τ = H₂.simplex\n⊢ SimplicialObject.δ A 3 τ = H₁.simplex",
       "url": "https://github.com/emilyriehl/infinity-cosmos/blob/bf1885e46ff0fde2a1cde218001d9b90307f4224/InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean#L135"
     },
     "metadata": {
@@ -1114,7 +1114,7 @@
       "file": "LeanByExample/Attribute/Aesop.lean"
     },
     "debug_info": {
-      "goal": "\u22a2 NonEmpty (MyList.cons 1 MyList.nil)",
+      "goal": "⊢ NonEmpty (MyList.cons 1 MyList.nil)",
       "url": "https://github.com/lean-ja/lean-by-example/blob/3ebe85bea550147ea661babd12b968bf8e97a7ed/LeanByExample/Attribute/Aesop.lean#L88"
     },
     "metadata": {
@@ -1139,7 +1139,7 @@
       "file": "PFR/MoreRuzsaDist.lean"
     },
     "debug_info": {
-      "goal": "G : Type u_8\nhG : MeasurableSpace G\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : MeasurableSingletonClass G\ninst\u271d : Countable G\nm : \u2115\nhm : m \u2265 2\n\u03a9 : Fin m \u2192 Type u_9\nh\u03a9 : (i : Fin m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin m) \u2192 \u03a9 i \u2192 G\n\u22a2 (\u2211 j, \u2211 k, if j = k then 0 else d[X j # X k]) \u2264 \u2191m * (\u2191m - 1) * D[X ; h\u03a9]",
+      "goal": "G : Type u_8\nhG : MeasurableSpace G\ninst✝² : AddCommGroup G\ninst✝¹ : MeasurableSingletonClass G\ninst✝ : Countable G\nm : ℕ\nhm : m ≥ 2\nΩ : Fin m → Type u_9\nhΩ : (i : Fin m) → MeasureSpace (Ω i)\nX : (i : Fin m) → Ω i → G\n⊢ (∑ j, ∑ k, if j = k then 0 else d[X j # X k]) ≤ ↑m * (↑m - 1) * D[X ; hΩ]",
       "url": "https://github.com/teorth/pfr/blob/0010cb5c36c6605a2d0e957390ab4955e6c9e3ff/PFR/MoreRuzsaDist.lean#L857"
     },
     "metadata": {
@@ -1164,7 +1164,7 @@
       "file": "Mathlib/Tactic/Algebra.lean"
     },
     "debug_info": {
-      "goal": "\u00ab$u\u00bb \u00ab$v\u00bb \u00ab$w\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$R\u2082\u00bb : Type w\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$sR\u2082\u00bb : CommSemiring \u00ab$R\u2082\u00bb\n\u00ab$sRA\u2082\u00bb : Algebra \u00ab$R\u2082\u00bb \u00ab$A\u00bb\n$r\u2082\u271d\u00b9 : \u00ab$R\u2082\u00bb\n$a\u2081\u271d $a\u2082\u271d : \u00ab$A\u00bb\n$r\u2082\u271d \u00ab$r\u2082\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$a\u2082\u00bb : \u00ab$A\u00bb\n\u00ab$pra\u2082\u00bb : $r\u2082\u271d \u2022 $a\u2082\u271d = \u00ab$r\u2082\u00bb \u2022 \u00ab$a\u2082\u00bb\n\u00ab$a\u2081\u00bb : \u00ab$A\u00bb := \u00ab$a\u2082\u00bb\n\u00ab$R\u2081\u00bb : Type w := \u00ab$R\u2082\u00bb\n\u00ab$sR\u2081\u00bb : CommSemiring \u00ab$R\u2081\u00bb\n\u00ab$sRA\u2081\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n$r\u2081\u271d\u00b9 $r\u2081\u271d \u00ab$r\u2081\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$pra\u2081\u00bb : $r\u2081\u271d \u2022 $a\u2081\u271d = \u00ab$r\u2081\u00bb \u2022 \u00ab$a\u2081\u00bb\n\u00ab$r\u2081'\u00bb \u00ab$r\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$pr\u00bb : \u00ab$r\u2081'\u00bb + \u00ab$r\u2082\u00bb = \u00ab$r\u00bb\n\u22a2 $r\u2081\u271d \u2022 $a\u2081\u271d + $r\u2082\u271d \u2022 $a\u2082\u271d = \u00ab$r\u00bb \u2022 \u00ab$a\u2082\u00bb",
+      "goal": "«$u» «$v» «$w» : Level\n«$A» : Type u\n«$R₂» : Type w\n«$sA» : CommSemiring «$A»\n«$sR₂» : CommSemiring «$R₂»\n«$sRA₂» : Algebra «$R₂» «$A»\n$r₂✝¹ : «$R₂»\n$a₁✝ $a₂✝ : «$A»\n$r₂✝ «$r₂» : «$R₂»\n«$a₂» : «$A»\n«$pra₂» : $r₂✝ • $a₂✝ = «$r₂» • «$a₂»\n«$a₁» : «$A» := «$a₂»\n«$R₁» : Type w := «$R₂»\n«$sR₁» : CommSemiring «$R₁»\n«$sRA₁» : Algebra «$R₁» «$A»\n$r₁✝¹ $r₁✝ «$r₁» : «$R₁»\n«$pra₁» : $r₁✝ • $a₁✝ = «$r₁» • «$a₁»\n«$r₁'» «$r» : «$R₂»\n«$pr» : «$r₁'» + «$r₂» = «$r»\n⊢ $r₁✝ • $a₁✝ + $r₂✝ • $a₂✝ = «$r» • «$a₂»",
       "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L283"
     },
     "metadata": {
@@ -1189,7 +1189,7 @@
       "file": "GlimpseOfLean/Exercises/Topics/Probability.lean"
     },
     "debug_info": {
-      "goal": "\u03a9 : Type\ninst\u271d\u00b9 : MeasureSpace \u03a9\ninst\u271d : IsProbabilityMeasure \u2119\nA B : Set \u03a9\nhA : MeasurableSet A\nhB : MeasurableSet B\n\u22a2 IndepSet A B\u1d9c \u2194 IndepSet A B",
+      "goal": "Ω : Type\ninst✝¹ : MeasureSpace Ω\ninst✝ : IsProbabilityMeasure ℙ\nA B : Set Ω\nhA : MeasurableSet A\nhB : MeasurableSet B\n⊢ IndepSet A Bᶜ ↔ IndepSet A B",
       "url": "https://github.com/PatrickMassot/GlimpseOfLean/blob/435db8d6c9b3c72e68e0fcf95563921a3e17c88b/GlimpseOfLean/Exercises/Topics/Probability.lean#L71"
     },
     "metadata": {
@@ -1214,7 +1214,7 @@
       "file": "Tests.lean"
     },
     "debug_info": {
-      "goal": "R : Type u_1\ninst\u271d\u00b9 : Mul R\ninst\u271d : Star R\nx : R\n\u22a2 star x * x = x * star x",
+      "goal": "R : Type u_1\ninst✝¹ : Mul R\ninst✝ : Star R\nx : R\n⊢ star x * x = x * star x",
       "url": "https://github.com/nomeata/loogle/blob/b340a5b73a68fd54d624ac1f9c025c11f638bb53/Tests.lean#L169"
     },
     "metadata": {
@@ -1239,7 +1239,7 @@
       "file": "ZKLib/ProofSystem/Sumcheck/Basic.lean"
     },
     "debug_info": {
-      "goal": "case mk.convert_7.left\nR : Type\ninst\u271d\u00b9 : CommSemiring R\nd m : \u2115\nD : Fin m \u21aa R\ninst\u271d : VCVCompatible R\ntarget : R\noStmt : (i : Unit) \u2192 InputOracleStatement R d i\nhValid : inputRelation R d D (target, oStmt) ()\npoly : R[X]\nhp : poly \u2208 R\u2983\u2264 \u2191d\u2984[X]\nh : oStmt () = \u27e8poly, hp\u27e9\n\u22a2 ((fun a => ((a, fun x => oStmt ()), (), Transcript.snoc a (Transcript.snoc (oStmt ()) default))) <$>\n      liftM (query (Sum.inr \u27e81, \u22ef\u27e9) ())).neverFails",
+      "goal": "case mk.convert_7.left\nR : Type\ninst✝¹ : CommSemiring R\nd m : ℕ\nD : Fin m ↪ R\ninst✝ : VCVCompatible R\ntarget : R\noStmt : (i : Unit) → InputOracleStatement R d i\nhValid : inputRelation R d D (target, oStmt) ()\npoly : R[X]\nhp : poly ∈ R⦃≤ ↑d⦄[X]\nh : oStmt () = ⟨poly, hp⟩\n⊢ ((fun a => ((a, fun x => oStmt ()), (), Transcript.snoc a (Transcript.snoc (oStmt ()) default))) <$>\n      liftM (query (Sum.inr ⟨1, ⋯⟩) ())).neverFails",
       "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b2a35da9cc686c666671ac006d1c2ec4757302c/ZKLib/ProofSystem/Sumcheck/Basic.lean#L267"
     },
     "metadata": {
@@ -1264,7 +1264,7 @@
       "file": "Compfiles/Bulgaria1998P1.lean"
     },
     "debug_info": {
-      "goal": "case h.intro.mk.intro.intro.mk.intro.intro.intro.intro.\u00ab1\u00bb.\u00ab2\u00bb\ni j : \u2115\nhi1 : 1 \u2264 1\nhi2 : 1 \u2264 8\nhj1 : 1 \u2264 2\nhj2 : 2 \u2264 8\nhij1 : \u27e81, \u22ef\u27e9 < \u27e82, \u22ef\u27e9\nhij2 : 2 * \u2191\u27e82, \u22ef\u27e9 - \u2191\u27e81, \u22ef\u27e9 \u2208 Set.Icc 1 8\nhc1 :\n  (match \u27e81, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0) =\n    match \u27e82, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0\nhc2 :\n  (match \u27e81, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0) =\n    match \u27e82 * 2 - 1, hij2\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0\n\u22a2 False",
+      "goal": "case h.intro.mk.intro.intro.mk.intro.intro.intro.intro.«1».«2»\ni j : ℕ\nhi1 : 1 ≤ 1\nhi2 : 1 ≤ 8\nhj1 : 1 ≤ 2\nhj2 : 2 ≤ 8\nhij1 : ⟨1, ⋯⟩ < ⟨2, ⋯⟩\nhij2 : 2 * ↑⟨2, ⋯⟩ - ↑⟨1, ⋯⟩ ∈ Set.Icc 1 8\nhc1 :\n  (match ⟨1, ⋯⟩ with\n    | ⟨1, property⟩ => 0\n    | ⟨2, property⟩ => 1\n    | ⟨3, property⟩ => 0\n    | ⟨4, property⟩ => 1\n    | ⟨5, property⟩ => 1\n    | ⟨6, property⟩ => 0\n    | ⟨7, property⟩ => 1\n    | ⟨8, property⟩ => 0\n    | x => 0) =\n    match ⟨2, ⋯⟩ with\n    | ⟨1, property⟩ => 0\n    | ⟨2, property⟩ => 1\n    | ⟨3, property⟩ => 0\n    | ⟨4, property⟩ => 1\n    | ⟨5, property⟩ => 1\n    | ⟨6, property⟩ => 0\n    | ⟨7, property⟩ => 1\n    | ⟨8, property⟩ => 0\n    | x => 0\nhc2 :\n  (match ⟨1, ⋯⟩ with\n    | ⟨1, property⟩ => 0\n    | ⟨2, property⟩ => 1\n    | ⟨3, property⟩ => 0\n    | ⟨4, property⟩ => 1\n    | ⟨5, property⟩ => 1\n    | ⟨6, property⟩ => 0\n    | ⟨7, property⟩ => 1\n    | ⟨8, property⟩ => 0\n    | x => 0) =\n    match ⟨2 * 2 - 1, hij2⟩ with\n    | ⟨1, property⟩ => 0\n    | ⟨2, property⟩ => 1\n    | ⟨3, property⟩ => 0\n    | ⟨4, property⟩ => 1\n    | ⟨5, property⟩ => 1\n    | ⟨6, property⟩ => 0\n    | ⟨7, property⟩ => 1\n    | ⟨8, property⟩ => 0\n    | x => 0\n⊢ False",
       "url": "https://github.com/dwrensha/compfiles/blob/fa63371f54d5353ab86e7e2b97473832c417e5ba/Compfiles/Bulgaria1998P1.lean#L76"
     },
     "metadata": {
@@ -1289,7 +1289,7 @@
       "file": "Foundation/ProvabilityLogic/Grz/Completeness.lean"
     },
     "debug_info": {
-      "goal": "M : Model\ninst\u271d\u00b9 : IsTrans M.World M.Rel\ninst\u271d : IsIrrefl M.World M.Rel\nl : List M.World\nn : \u2115+\nl_length : l.length = \u2191n + 1\nl_chain : List.Chain' (fun x1 x2 => x1 \u227a x2) l\n\u0393 : Finset (Formula \u2115)\n\u0393_length : \u0393.card = \u2191n\n\u22a2 \u2203 x \u2208 l, x \u22a7 (Finset.image (fun \u03b3 => \u25a1\u03b3 \u279d \u03b3) \u0393).conj",
+      "goal": "M : Model\ninst✝¹ : IsTrans M.World M.Rel\ninst✝ : IsIrrefl M.World M.Rel\nl : List M.World\nn : ℕ+\nl_length : l.length = ↑n + 1\nl_chain : List.Chain' (fun x1 x2 => x1 ≺ x2) l\nΓ : Finset (Formula ℕ)\nΓ_length : Γ.card = ↑n\n⊢ ∃ x ∈ l, x ⊧ (Finset.image (fun γ => □γ ➝ γ) Γ).conj",
       "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2d0d958822ddfb22e58f2cb6266a52f3bb219fff/Foundation/ProvabilityLogic/Grz/Completeness.lean#L251"
     },
     "metadata": {
@@ -1314,7 +1314,7 @@
       "file": "Carleson/ToMathlib/HardyLittlewood.lean"
     },
     "debug_info": {
-      "goal": "case a\nX : Type u_1\nE : Type u_2\nA : \u211d\u22650\ninst\u271d\u2078 : MetricSpace X\ninst\u271d\u2077 : MeasurableSpace X\n\u03bc : Measure X\ninst\u271d\u2076 : \u03bc.IsDoubling A\ninst\u271d\u2075 : NormedAddCommGroup E\ninst\u271d\u2074 : ProperSpace X\ninst\u271d\u00b3 : BorelSpace X\ninst\u271d\u00b2 : IsFiniteMeasureOnCompacts \u03bc\ninst\u271d\u00b9 : Nonempty X\ninst\u271d : \u03bc.IsOpenPosMeasure\np\u2081 p\u2082 : \u211d\u22650\nhp\u2081 : 1 \u2264 p\u2081\nhp\u2081\u2082 : p\u2081 \u2264 p\u2082\nthis : \u2191p\u2082 \u2260 0\n\u22a2 HasWeakType\n      (fun u x =>\n        (\u2191A ^ 2).toReal * (maximalFunction \u03bc (\u22ef.choose \u00d7\u02e2 univ) (fun x => x.1) (fun x => 2 ^ x.2) (\u2191p\u2081) u x).toReal)\n      (\u2191p\u2082) (\u2191p\u2082) \u03bc \u03bc (\u2191A ^ 4) \u2194\n    MemLp ?convert_4 (\u2191p\u2082) \u03bc \u2192\n      AEStronglyMeasurable ((fun f x => A ^ 2 * ?convert_2 f x) ?convert_4) \u03bc \u2227\n        wnorm ((fun f x => A ^ 2 * ?convert_2 f x) ?convert_4) (\u2191p\u2082) \u03bc \u2264 \u2016A ^ 2\u2016\u2091 * \u2191A ^ 2 * eLpNorm ?convert_4 (\u2191p\u2082) \u03bc",
+      "goal": "case a\nX : Type u_1\nE : Type u_2\nA : ℝ≥0\ninst✝⁸ : MetricSpace X\ninst✝⁷ : MeasurableSpace X\nμ : Measure X\ninst✝⁶ : μ.IsDoubling A\ninst✝⁵ : NormedAddCommGroup E\ninst✝⁴ : ProperSpace X\ninst✝³ : BorelSpace X\ninst✝² : IsFiniteMeasureOnCompacts μ\ninst✝¹ : Nonempty X\ninst✝ : μ.IsOpenPosMeasure\np₁ p₂ : ℝ≥0\nhp₁ : 1 ≤ p₁\nhp₁₂ : p₁ ≤ p₂\nthis : ↑p₂ ≠ 0\n⊢ HasWeakType\n      (fun u x =>\n        (↑A ^ 2).toReal * (maximalFunction μ (⋯.choose ×ˢ univ) (fun x => x.1) (fun x => 2 ^ x.2) (↑p₁) u x).toReal)\n      (↑p₂) (↑p₂) μ μ (↑A ^ 4) ↔\n    MemLp ?convert_4 (↑p₂) μ →\n      AEStronglyMeasurable ((fun f x => A ^ 2 * ?convert_2 f x) ?convert_4) μ ∧\n        wnorm ((fun f x => A ^ 2 * ?convert_2 f x) ?convert_4) (↑p₂) μ ≤ ‖A ^ 2‖ₑ * ↑A ^ 2 * eLpNorm ?convert_4 (↑p₂) μ",
       "url": "https://github.com/fpvandoorn/carleson/blob/596e40748eb59deb1cd6229204f84c13360bb7f3/Carleson/ToMathlib/HardyLittlewood.lean#L551"
     },
     "metadata": {
@@ -1339,7 +1339,7 @@
       "file": "FLT/NumberField/AdeleRing.lean"
     },
     "debug_info": {
-      "goal": "case h.refine_1.ht\nintegralAdeles : Set (FiniteAdeleRing (\ud835\udcde \u211a) \u211a) :=\n  {f |\n    \u2200 (v : IsDedekindDomain.HeightOneSpectrum (\ud835\udcde \u211a)),\n      f v \u2208 IsDedekindDomain.HeightOneSpectrum.adicCompletionIntegers \u211a v}\n\u22a2 IsOpen integralAdeles",
+      "goal": "case h.refine_1.ht\nintegralAdeles : Set (FiniteAdeleRing (𝓞 ℚ) ℚ) :=\n  {f |\n    ∀ (v : IsDedekindDomain.HeightOneSpectrum (𝓞 ℚ)),\n      f v ∈ IsDedekindDomain.HeightOneSpectrum.adicCompletionIntegers ℚ v}\n⊢ IsOpen integralAdeles",
       "url": "https://github.com/ImperialCollegeLondon/FLT/blob/c5f85a01641c0135f6e95906e74b59461497f5cf/FLT/NumberField/AdeleRing.lean#L170"
     },
     "metadata": {
@@ -1364,7 +1364,7 @@
       "file": "BatteriesTest/lintsimp.lean"
     },
     "debug_info": {
-      "goal": "\u03b1 : Type u_1\ninst\u271d : Mul \u03b1\na x y : \u03b1\u1d50\u1d52\u1d56\n\u22a2 SemiconjBy a.unop y.unop x.unop \u2194 SemiconjBy a x y",
+      "goal": "α : Type u_1\ninst✝ : Mul α\na x y : αᵐᵒᵖ\n⊢ SemiconjBy a.unop y.unop x.unop ↔ SemiconjBy a x y",
       "url": "https://github.com/leanprover-community/batteries/blob/e119df7e78d94b18b34067db93e8fc0d448d696f/BatteriesTest/lintsimp.lean#L37"
     },
     "metadata": {
@@ -1389,7 +1389,7 @@
       "file": "AesopTest/ExtScript.lean"
     },
     "debug_info": {
-      "goal": "case snd\n\u03b1 \u03b2 \u03b3 \u03b4 \u03b9 : Type\np q : MyProd \u03b1 \u03b2\n\u22a2 p.snd = q.snd",
+      "goal": "case snd\nα β γ δ ι : Type\np q : MyProd α β\n⊢ p.snd = q.snd",
       "url": "https://github.com/leanprover-community/aesop/blob/dd78c1426f5fc783ec1ba23ad769471cc69bb8b4/AesopTest/ExtScript.lean#L30"
     },
     "metadata": {
@@ -1414,7 +1414,7 @@
       "file": "LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean"
     },
     "debug_info": {
-      "goal": "case refine_2.refine_1\n\u03b1 : Type u_1\n\u03a9 : Type u_2\ninst\u271d\u00b9 : MeasurableSpace \u03a9\nX Y : \u03a9 \u2192 Set \u03b1\n\u03bc : Measure \u03a9\np q : \u211d\u22650\nhX : IsBernoulliSeq X p \u03bc\nhY : IsBernoulliSeq Y q \u03bc\ninst\u271d : IsProbabilityMeasure \u03bc\nh : IndepFun X Y \u03bc\ns : Finset \u03b1\ni : \u03b1\nhi : i \u2208 s\n\u22a2 MeasurableSet {\u03c9 | X \u03c9 i}",
+      "goal": "case refine_2.refine_1\nα : Type u_1\nΩ : Type u_2\ninst✝¹ : MeasurableSpace Ω\nX Y : Ω → Set α\nμ : Measure Ω\np q : ℝ≥0\nhX : IsBernoulliSeq X p μ\nhY : IsBernoulliSeq Y q μ\ninst✝ : IsProbabilityMeasure μ\nh : IndepFun X Y μ\ns : Finset α\ni : α\nhi : i ∈ s\n⊢ MeasurableSet {ω | X ω i}",
       "url": "https://github.com/YaelDillies/LeanCamCombi/blob/5df79658756ef6d112f2464eec3aece31e35cc83/LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean#L126"
     },
     "metadata": {
@@ -1439,7 +1439,7 @@
       "file": "PrimeNumberTheoremAnd/MediumPNT.lean"
     },
     "debug_info": {
-      "goal": "SmoothingF : \u211d \u2192 \u211d\n\u03b5 : \u211d\n\u03b5_pos : 0 < \u03b5\nX \u03c3\u2080 : \u211d\n\u03c3\u2080_pos : 0 < \u03c3\u2080\nholoOn : HolomorphicOn (SmoothedChebyshevIntegrand SmoothingF \u03b5 X) (Icc \u03c3\u2080 2 \u00d7\u2102 univ \\ {1})\nsuppSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\n\u22a2 Integrable (fun t => SmoothedChebyshevIntegrand SmoothingF \u03b5 X (2 + \u2191t * I)) volume",
+      "goal": "SmoothingF : ℝ → ℝ\nε : ℝ\nε_pos : 0 < ε\nX σ₀ : ℝ\nσ₀_pos : 0 < σ₀\nholoOn : HolomorphicOn (SmoothedChebyshevIntegrand SmoothingF ε X) (Icc σ₀ 2 ×ℂ univ \\ {1})\nsuppSmoothingF : support SmoothingF ⊆ Icc (1 / 2) 2\nSmoothingFnonneg : ∀ x > 0, 0 ≤ SmoothingF x\nmass_one : ∫ (x : ℝ) in Ioi 0, SmoothingF x / x = 1\n⊢ Integrable (fun t => SmoothedChebyshevIntegrand SmoothingF ε X (2 + ↑t * I)) volume",
       "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/4250adfc9aab5e09d276549d7a645627cb2dce39/PrimeNumberTheoremAnd/MediumPNT.lean#L399"
     },
     "metadata": {
@@ -1464,7 +1464,7 @@
       "file": "InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean"
     },
     "debug_info": {
-      "goal": "A : SSet\nf g : A _\u298b1\u298c\ninst\u271d : A.Quasicategory\n\u22a2 HomotopicL f g \u2194 HomotopicR f g",
+      "goal": "A : SSet\nf g : A _⦋1⦌\ninst✝ : A.Quasicategory\n⊢ HomotopicL f g ↔ HomotopicR f g",
       "url": "https://github.com/emilyriehl/infinity-cosmos/blob/bf1885e46ff0fde2a1cde218001d9b90307f4224/InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean#L159"
     },
     "metadata": {
@@ -1489,7 +1489,7 @@
       "file": "LeanByExample/Attribute/Aesop.lean"
     },
     "debug_info": {
-      "goal": "a b c d e : Nat\nh1 : a \u2264 b\nh2 : b \u2264 c\nh3 : c \u2264 d\nh4 : d \u2264 e\n\u22a2 a \u2264 e",
+      "goal": "a b c d e : Nat\nh1 : a ≤ b\nh2 : b ≤ c\nh3 : c ≤ d\nh4 : d ≤ e\n⊢ a ≤ e",
       "url": "https://github.com/lean-ja/lean-by-example/blob/3ebe85bea550147ea661babd12b968bf8e97a7ed/LeanByExample/Attribute/Aesop.lean#L107"
     },
     "metadata": {
@@ -1514,7 +1514,7 @@
       "file": "PFR/MoreRuzsaDist.lean"
     },
     "debug_info": {
-      "goal": "G : Type u_8\nhG : MeasurableSpace G\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : MeasurableSingletonClass G\ninst\u271d : Countable G\nm : \u2115\nhm : m \u2265 2\n\u03a9 : Fin m \u2192 Type u_9\nh\u03a9 : (i : Fin m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin m) \u2192 \u03a9 i \u2192 G\n\u22a2 \u2211 j, d[X j # X j] \u2264 2 * \u2191m * D[X ; h\u03a9]",
+      "goal": "G : Type u_8\nhG : MeasurableSpace G\ninst✝² : AddCommGroup G\ninst✝¹ : MeasurableSingletonClass G\ninst✝ : Countable G\nm : ℕ\nhm : m ≥ 2\nΩ : Fin m → Type u_9\nhΩ : (i : Fin m) → MeasureSpace (Ω i)\nX : (i : Fin m) → Ω i → G\n⊢ ∑ j, d[X j # X j] ≤ 2 * ↑m * D[X ; hΩ]",
       "url": "https://github.com/teorth/pfr/blob/0010cb5c36c6605a2d0e957390ab4955e6c9e3ff/PFR/MoreRuzsaDist.lean#L862"
     },
     "metadata": {
@@ -1539,7 +1539,7 @@
       "file": "Mathlib/Tactic/Algebra.lean"
     },
     "debug_info": {
-      "goal": "\u00ab$u\u00bb \u00ab$v\u00bb \u00ab$w\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$R\u2081\u00bb : Type v\n\u00ab$R\u2082\u00bb : Type w\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$sR\u2081\u00bb : CommSemiring \u00ab$R\u2081\u00bb\n\u00ab$sRA\u2081\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n\u00ab$sR\u2082\u00bb : CommSemiring \u00ab$R\u2082\u00bb\n\u00ab$sRA\u2082\u00bb : Algebra \u00ab$R\u2082\u00bb \u00ab$A\u00bb\n$r\u2081\u271d\u00b9 : \u00ab$R\u2081\u00bb\n$r\u2082\u271d\u00b9 : \u00ab$R\u2082\u00bb\n$a\u2081\u271d $a\u2082\u271d : \u00ab$A\u00bb\n$r\u2082\u271d : \u00ab$R\u2082\u00bb\n$r\u2081\u271d \u00ab$r\u2081\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$r\u2082\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$a\u2082\u00bb : \u00ab$A\u00bb\n\u00ab$pra\u2082\u00bb : $r\u2082\u271d \u2022 $a\u2082\u271d = \u00ab$r\u2082\u00bb \u2022 \u00ab$a\u2082\u00bb\n\u00ab$a\u2081\u00bb : \u00ab$A\u00bb := \u00ab$a\u2082\u00bb\n\u00ab$pra\u2081\u00bb : $r\u2081\u271d \u2022 $a\u2081\u271d = \u00ab$r\u2081\u00bb \u2022 \u00ab$a\u2081\u00bb\n\u00ab$_i\u2083\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$R\u2082\u00bb\n\u00ab$_i\u2084\u00bb : IsScalarTower \u00ab$R\u2081\u00bb \u00ab$R\u2082\u00bb \u00ab$A\u00bb\n\u00ab$r\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$pr\u00bb : \u00ab$r\u2081\u00bb \u2022 1 + Nat.rawCast 0 + \u00ab$r\u2082\u00bb = \u00ab$r\u00bb\n\u22a2 $r\u2081\u271d \u2022 $a\u2081\u271d + $r\u2082\u271d \u2022 $a\u2082\u271d = \u00ab$r\u00bb \u2022 \u00ab$a\u2082\u00bb",
+      "goal": "«$u» «$v» «$w» : Level\n«$A» : Type u\n«$R₁» : Type v\n«$R₂» : Type w\n«$sA» : CommSemiring «$A»\n«$sR₁» : CommSemiring «$R₁»\n«$sRA₁» : Algebra «$R₁» «$A»\n«$sR₂» : CommSemiring «$R₂»\n«$sRA₂» : Algebra «$R₂» «$A»\n$r₁✝¹ : «$R₁»\n$r₂✝¹ : «$R₂»\n$a₁✝ $a₂✝ : «$A»\n$r₂✝ : «$R₂»\n$r₁✝ «$r₁» : «$R₁»\n«$r₂» : «$R₂»\n«$a₂» : «$A»\n«$pra₂» : $r₂✝ • $a₂✝ = «$r₂» • «$a₂»\n«$a₁» : «$A» := «$a₂»\n«$pra₁» : $r₁✝ • $a₁✝ = «$r₁» • «$a₁»\n«$_i₃» : Algebra «$R₁» «$R₂»\n«$_i₄» : IsScalarTower «$R₁» «$R₂» «$A»\n«$r» : «$R₂»\n«$pr» : «$r₁» • 1 + Nat.rawCast 0 + «$r₂» = «$r»\n⊢ $r₁✝ • $a₁✝ + $r₂✝ • $a₂✝ = «$r» • «$a₂»",
       "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L294"
     },
     "metadata": {
@@ -1564,7 +1564,7 @@
       "file": "GlimpseOfLean/Exercises/Topics/Probability.lean"
     },
     "debug_info": {
-      "goal": "\u03a9 : Type\ninst\u271d\u00b9 : MeasureSpace \u03a9\ninst\u271d : IsProbabilityMeasure \u2119\nA B : Set \u03a9\nhA : MeasurableSet A\nhB : MeasurableSet B\nh : IndepSet A B\n\u22a2 IndepSet A\u1d9c B",
+      "goal": "Ω : Type\ninst✝¹ : MeasureSpace Ω\ninst✝ : IsProbabilityMeasure ℙ\nA B : Set Ω\nhA : MeasurableSet A\nhB : MeasurableSet B\nh : IndepSet A B\n⊢ IndepSet Aᶜ B",
       "url": "https://github.com/PatrickMassot/GlimpseOfLean/blob/435db8d6c9b3c72e68e0fcf95563921a3e17c88b/GlimpseOfLean/Exercises/Topics/Probability.lean#L77"
     },
     "metadata": {
@@ -1589,7 +1589,7 @@
       "file": "Tests.lean"
     },
     "debug_info": {
-      "goal": "\u03b1 : Type u_1\ninst\u271d\u00b2 : Zero \u03b1\ninst\u271d\u00b9 : HMul \u03b1 \u03b1 \u03b1\ninst\u271d : LE \u03b1\na : \u03b1\n\u22a2 0 \u2264 a * a",
+      "goal": "α : Type u_1\ninst✝² : Zero α\ninst✝¹ : HMul α α α\ninst✝ : LE α\na : α\n⊢ 0 ≤ a * a",
       "url": "https://github.com/nomeata/loogle/blob/b340a5b73a68fd54d624ac1f9c025c11f638bb53/Tests.lean#L227"
     },
     "metadata": {
@@ -1614,7 +1614,7 @@
       "file": "ZKLib/ProofSystem/Sumcheck/Basic.lean"
     },
     "debug_info": {
-      "goal": "case pos\nR : Type\ninst\u271d\u00b9 : CommSemiring R\nd m : \u2115\nD : Fin m \u21aa R\ninst\u271d : VCVCompatible R\ntarget : R\noStmt : (i : Unit) \u2192 InputOracleStatement R d i\nhValid : inputRelation R d D (target, oStmt) ()\npoly : R[X]\nhp : poly \u2208 R\u2983\u2264 \u2191d\u2984[X]\nh : oStmt () = \u27e8poly, hp\u27e9\nstmt : R\noStmtOut : (i : Unit \u2295 Unit) \u2192 OutputOracleStatement R d i\nfst\u271d : Unit\ntranscript : (pSpec R d).FullTranscript\nh1 : (fun x => oStmt ()) = oStmtOut\nh2 : Transcript.snoc stmt (Transcript.snoc (oStmt ()) default) = transcript\nhEval : \u2211 x, Polynomial.eval (D x) poly = target\n\u22a2 (pure (stmt, fun x => \u27e8poly, hp\u27e9)).neverFailsWhen fun {\u03b1} x => Set.univ",
+      "goal": "case pos\nR : Type\ninst✝¹ : CommSemiring R\nd m : ℕ\nD : Fin m ↪ R\ninst✝ : VCVCompatible R\ntarget : R\noStmt : (i : Unit) → InputOracleStatement R d i\nhValid : inputRelation R d D (target, oStmt) ()\npoly : R[X]\nhp : poly ∈ R⦃≤ ↑d⦄[X]\nh : oStmt () = ⟨poly, hp⟩\nstmt : R\noStmtOut : (i : Unit ⊕ Unit) → OutputOracleStatement R d i\nfst✝ : Unit\ntranscript : (pSpec R d).FullTranscript\nh1 : (fun x => oStmt ()) = oStmtOut\nh2 : Transcript.snoc stmt (Transcript.snoc (oStmt ()) default) = transcript\nhEval : ∑ x, Polynomial.eval (D x) poly = target\n⊢ (pure (stmt, fun x => ⟨poly, hp⟩)).neverFailsWhen fun {α} x => Set.univ",
       "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b2a35da9cc686c666671ac006d1c2ec4757302c/ZKLib/ProofSystem/Sumcheck/Basic.lean#L276"
     },
     "metadata": {
@@ -1639,7 +1639,7 @@
       "file": "Compfiles/Bulgaria1998P1.lean"
     },
     "debug_info": {
-      "goal": "case h.intro.mk.intro.intro.mk.intro.intro.intro.intro.\u00ab1\u00bb.\u00ab3\u00bb\ni j : \u2115\nhi1 : 1 \u2264 1\nhi2 : 1 \u2264 8\nhj1 : 1 \u2264 3\nhj2 : 3 \u2264 8\nhij1 : \u27e81, \u22ef\u27e9 < \u27e83, \u22ef\u27e9\nhij2 : 2 * \u2191\u27e83, \u22ef\u27e9 - \u2191\u27e81, \u22ef\u27e9 \u2208 Set.Icc 1 8\nhc1 :\n  (match \u27e81, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0) =\n    match \u27e83, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0\nhc2 :\n  (match \u27e81, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0) =\n    match \u27e82 * 3 - 1, hij2\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0\n\u22a2 False",
+      "goal": "case h.intro.mk.intro.intro.mk.intro.intro.intro.intro.«1».«3»\ni j : ℕ\nhi1 : 1 ≤ 1\nhi2 : 1 ≤ 8\nhj1 : 1 ≤ 3\nhj2 : 3 ≤ 8\nhij1 : ⟨1, ⋯⟩ < ⟨3, ⋯⟩\nhij2 : 2 * ↑⟨3, ⋯⟩ - ↑⟨1, ⋯⟩ ∈ Set.Icc 1 8\nhc1 :\n  (match ⟨1, ⋯⟩ with\n    | ⟨1, property⟩ => 0\n    | ⟨2, property⟩ => 1\n    | ⟨3, property⟩ => 0\n    | ⟨4, property⟩ => 1\n    | ⟨5, property⟩ => 1\n    | ⟨6, property⟩ => 0\n    | ⟨7, property⟩ => 1\n    | ⟨8, property⟩ => 0\n    | x => 0) =\n    match ⟨3, ⋯⟩ with\n    | ⟨1, property⟩ => 0\n    | ⟨2, property⟩ => 1\n    | ⟨3, property⟩ => 0\n    | ⟨4, property⟩ => 1\n    | ⟨5, property⟩ => 1\n    | ⟨6, property⟩ => 0\n    | ⟨7, property⟩ => 1\n    | ⟨8, property⟩ => 0\n    | x => 0\nhc2 :\n  (match ⟨1, ⋯⟩ with\n    | ⟨1, property⟩ => 0\n    | ⟨2, property⟩ => 1\n    | ⟨3, property⟩ => 0\n    | ⟨4, property⟩ => 1\n    | ⟨5, property⟩ => 1\n    | ⟨6, property⟩ => 0\n    | ⟨7, property⟩ => 1\n    | ⟨8, property⟩ => 0\n    | x => 0) =\n    match ⟨2 * 3 - 1, hij2⟩ with\n    | ⟨1, property⟩ => 0\n    | ⟨2, property⟩ => 1\n    | ⟨3, property⟩ => 0\n    | ⟨4, property⟩ => 1\n    | ⟨5, property⟩ => 1\n    | ⟨6, property⟩ => 0\n    | ⟨7, property⟩ => 1\n    | ⟨8, property⟩ => 0\n    | x => 0\n⊢ False",
       "url": "https://github.com/dwrensha/compfiles/blob/fa63371f54d5353ab86e7e2b97473832c417e5ba/Compfiles/Bulgaria1998P1.lean#L76"
     },
     "metadata": {
@@ -1664,7 +1664,7 @@
       "file": "Foundation/ProvabilityLogic/S/Completeness.lean"
     },
     "debug_info": {
-      "goal": "L : Language\ninst\u271d\u2076 : Semiterm.Operator.GoedelNumber L (Sentence L)\ninst\u271d\u2075 : L.DecidableEq\nT\u2080 T : Theory \u2112\u2092\u1d63\ninst\u271d\u2074 : T\u2080 \u2aaf T\ninst\u271d\u00b3 : Diagonalization T\u2080\n\ud835\udd05 : ProvabilityPredicate T\u2080 T\ninst\u271d\u00b2 : \ud835\udd05.HBL\ninst\u271d\u00b9 : \u2115 \u22a7\u2098* T\ninst\u271d : \ud835\udd05.Justified \u2115\nA B : Modal.Formula \u2115\n\u22a2 Arith.SoundOn \ud835\udc08\ud835\udeba\u2081 (Arith.Hierarchy \ud835\udeb7 2)",
+      "goal": "L : Language\ninst✝⁶ : Semiterm.Operator.GoedelNumber L (Sentence L)\ninst✝⁵ : L.DecidableEq\nT₀ T : Theory ℒₒᵣ\ninst✝⁴ : T₀ ⪯ T\ninst✝³ : Diagonalization T₀\n𝔅 : ProvabilityPredicate T₀ T\ninst✝² : 𝔅.HBL\ninst✝¹ : ℕ ⊧ₘ* T\ninst✝ : 𝔅.Justified ℕ\nA B : Modal.Formula ℕ\n⊢ Arith.SoundOn 𝐈𝚺₁ (Arith.Hierarchy 𝚷 2)",
       "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/a2cbf6a6c08a4e59a8ac27e0e85e5c562af7bb32/Foundation/ProvabilityLogic/S/Completeness.lean#L251"
     },
     "metadata": {
@@ -1689,7 +1689,7 @@
       "file": "Carleson/ToMathlib/HardyLittlewood.lean"
     },
     "debug_info": {
-      "goal": "case convert_3\nX : Type u_1\nE : Type u_2\nA : \u211d\u22650\ninst\u271d\u2078 : MetricSpace X\ninst\u271d\u2077 : MeasurableSpace X\n\u03bc : Measure X\ninst\u271d\u2076 : \u03bc.IsDoubling A\ninst\u271d\u2075 : NormedAddCommGroup E\ninst\u271d\u2074 : ProperSpace X\ninst\u271d\u00b3 : BorelSpace X\ninst\u271d\u00b2 : IsFiniteMeasureOnCompacts \u03bc\ninst\u271d\u00b9 : Nonempty X\ninst\u271d : \u03bc.IsOpenPosMeasure\np\u2081 p\u2082 : \u211d\u22650\nhp\u2081 : 1 \u2264 p\u2081\nhp\u2081\u2082 : p\u2081 \u2264 p\u2082\nthis : \u2191p\u2082 \u2260 0\n\u22a2 HasWeakType sorry (\u2191p\u2082) (\u2191p\u2082) \u03bc \u03bc (\u2191A ^ 2)",
+      "goal": "case convert_3\nX : Type u_1\nE : Type u_2\nA : ℝ≥0\ninst✝⁸ : MetricSpace X\ninst✝⁷ : MeasurableSpace X\nμ : Measure X\ninst✝⁶ : μ.IsDoubling A\ninst✝⁵ : NormedAddCommGroup E\ninst✝⁴ : ProperSpace X\ninst✝³ : BorelSpace X\ninst✝² : IsFiniteMeasureOnCompacts μ\ninst✝¹ : Nonempty X\ninst✝ : μ.IsOpenPosMeasure\np₁ p₂ : ℝ≥0\nhp₁ : 1 ≤ p₁\nhp₁₂ : p₁ ≤ p₂\nthis : ↑p₂ ≠ 0\n⊢ HasWeakType sorry (↑p₂) (↑p₂) μ μ (↑A ^ 2)",
       "url": "https://github.com/fpvandoorn/carleson/blob/596e40748eb59deb1cd6229204f84c13360bb7f3/Carleson/ToMathlib/HardyLittlewood.lean#L551"
     },
     "metadata": {
@@ -1714,7 +1714,7 @@
       "file": "FLT/QuaternionAlgebra/NumberField.lean"
     },
     "debug_info": {
-      "goal": "F : Type u_1\ninst\u271d\u2074 : Field F\ninst\u271d\u00b3 : NumberField F\nD : Type u_2\ninst\u271d\u00b2 : Ring D\ninst\u271d\u00b9 : Algebra F D\ninst\u271d : IsQuaternionAlgebra F D\nS : Finset (HeightOneSpectrum (\ud835\udcde F))\n\u22a2 Module.Finite (FiniteAdeleRing (\ud835\udcde F) F) (D \u2297[F] FiniteAdeleRing (\ud835\udcde F) F)",
+      "goal": "F : Type u_1\ninst✝⁴ : Field F\ninst✝³ : NumberField F\nD : Type u_2\ninst✝² : Ring D\ninst✝¹ : Algebra F D\ninst✝ : IsQuaternionAlgebra F D\nS : Finset (HeightOneSpectrum (𝓞 F))\n⊢ Module.Finite (FiniteAdeleRing (𝓞 F) F) (D ⊗[F] FiniteAdeleRing (𝓞 F) F)",
       "url": "https://github.com/ImperialCollegeLondon/FLT/blob/aa6d8c9e1d5f5b404fac024c800062d156669ef0/FLT/QuaternionAlgebra/NumberField.lean#L213"
     },
     "metadata": {
@@ -1739,7 +1739,7 @@
       "file": "AesopTest/ExtScript.lean"
     },
     "debug_info": {
-      "goal": "case fst\n\u03b1 \u03b2 \u03b3 \u03b4 \u03b9 : Type\np q : MyProd \u03b1 (MyProd \u03b2 \u03b3)\n\u22a2 p.fst = q.fst",
+      "goal": "case fst\nα β γ δ ι : Type\np q : MyProd α (MyProd β γ)\n⊢ p.fst = q.fst",
       "url": "https://github.com/leanprover-community/aesop/blob/dd78c1426f5fc783ec1ba23ad769471cc69bb8b4/AesopTest/ExtScript.lean#L46"
     },
     "metadata": {
@@ -1764,7 +1764,7 @@
       "file": "LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean"
     },
     "debug_info": {
-      "goal": "case refine_2.refine_2\n\u03b1 : Type u_1\n\u03a9 : Type u_2\ninst\u271d\u00b9 : MeasurableSpace \u03a9\nX Y : \u03a9 \u2192 Set \u03b1\n\u03bc : Measure \u03a9\np q : \u211d\u22650\nhX : IsBernoulliSeq X p \u03bc\nhY : IsBernoulliSeq Y q \u03bc\ninst\u271d : IsProbabilityMeasure \u03bc\nh : IndepFun X Y \u03bc\ns : Finset \u03b1\ni : \u03b1\nhi : i \u2208 s\n\u22a2 MeasurableSet {\u03c9 | Y \u03c9 i}",
+      "goal": "case refine_2.refine_2\nα : Type u_1\nΩ : Type u_2\ninst✝¹ : MeasurableSpace Ω\nX Y : Ω → Set α\nμ : Measure Ω\np q : ℝ≥0\nhX : IsBernoulliSeq X p μ\nhY : IsBernoulliSeq Y q μ\ninst✝ : IsProbabilityMeasure μ\nh : IndepFun X Y μ\ns : Finset α\ni : α\nhi : i ∈ s\n⊢ MeasurableSet {ω | Y ω i}",
       "url": "https://github.com/YaelDillies/LeanCamCombi/blob/5df79658756ef6d112f2464eec3aece31e35cc83/LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean#L127"
     },
     "metadata": {
@@ -1789,7 +1789,7 @@
       "file": "PrimeNumberTheoremAnd/MediumPNT.lean"
     },
     "debug_info": {
-      "goal": "c : \u211d := sorry\n\u22a2 0 < c",
+      "goal": "c : ℝ := sorry\n⊢ 0 < c",
       "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/4250adfc9aab5e09d276549d7a645627cb2dce39/PrimeNumberTheoremAnd/MediumPNT.lean#L539"
     },
     "metadata": {
@@ -1814,7 +1814,7 @@
       "file": "InfinityCosmos/ForMathlib/InfinityCosmos/Isofibrations.lean"
     },
     "debug_info": {
-      "goal": "K : Type u\ninst\u271d\u00b9 : Category.{v, u} K\ninst\u271d : InfinityCosmos K\nX Y X' Y' : K\nf : X \u21a0 Y\ng : X' \u21a0 Y'\n\u22a2 IsIsofibration (prod.map \u2191f \u2191g)",
+      "goal": "K : Type u\ninst✝¹ : Category.{v, u} K\ninst✝ : InfinityCosmos K\nX Y X' Y' : K\nf : X ↠ Y\ng : X' ↠ Y'\n⊢ IsIsofibration (prod.map ↑f ↑g)",
       "url": "https://github.com/emilyriehl/infinity-cosmos/blob/bf1885e46ff0fde2a1cde218001d9b90307f4224/InfinityCosmos/ForMathlib/InfinityCosmos/Isofibrations.lean#L70"
     },
     "metadata": {
@@ -1839,7 +1839,7 @@
       "file": "LeanByExample/Tactic/Ext.lean"
     },
     "debug_info": {
-      "goal": "\u03b1 : Type u\na b : Set \u03b1\nh : \u2200 (x : \u03b1), x \u2208 a \u2194 x \u2208 b\n\u22a2 a = b",
+      "goal": "α : Type u\na b : Set α\nh : ∀ (x : α), x ∈ a ↔ x ∈ b\n⊢ a = b",
       "url": "https://github.com/lean-ja/lean-by-example/blob/3ebe85bea550147ea661babd12b968bf8e97a7ed/LeanByExample/Tactic/Ext.lean#L47"
     },
     "metadata": {
@@ -1864,7 +1864,7 @@
       "file": "PFR/MoreRuzsaDist.lean"
     },
     "debug_info": {
-      "goal": "G : Type u_8\nhG : MeasurableSpace G\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : MeasurableSingletonClass G\ninst\u271d : Countable G\nm : \u2115\nhm : m \u2265 2\n\u03a9 : Fin m \u2192 Type u_9\nh\u03a9 : (i : Fin m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin m) \u2192 \u03a9 i \u2192 G\nhidenT : \u2200 (j k : Fin m), IdentDistrib (X j) (X k) \u2119 \u2119\n\u22a2 \u2200 (i : Fin m), D[X ; h\u03a9] \u2264 \u2191m * d[X i # X i]",
+      "goal": "G : Type u_8\nhG : MeasurableSpace G\ninst✝² : AddCommGroup G\ninst✝¹ : MeasurableSingletonClass G\ninst✝ : Countable G\nm : ℕ\nhm : m ≥ 2\nΩ : Fin m → Type u_9\nhΩ : (i : Fin m) → MeasureSpace (Ω i)\nX : (i : Fin m) → Ω i → G\nhidenT : ∀ (j k : Fin m), IdentDistrib (X j) (X k) ℙ ℙ\n⊢ ∀ (i : Fin m), D[X ; hΩ] ≤ ↑m * d[X i # X i]",
       "url": "https://github.com/teorth/pfr/blob/0010cb5c36c6605a2d0e957390ab4955e6c9e3ff/PFR/MoreRuzsaDist.lean#L868"
     },
     "metadata": {
@@ -1889,7 +1889,7 @@
       "file": "Mathlib/Tactic/Algebra.lean"
     },
     "debug_info": {
-      "goal": "\u00ab$u\u00bb \u00ab$v\u00bb \u00ab$w\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$R\u2081\u00bb : Type v\n\u00ab$R\u2082\u00bb : Type w\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$sR\u2081\u00bb : CommSemiring \u00ab$R\u2081\u00bb\n\u00ab$sRA\u2081\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n\u00ab$sR\u2082\u00bb : CommSemiring \u00ab$R\u2082\u00bb\n\u00ab$sRA\u2082\u00bb : Algebra \u00ab$R\u2082\u00bb \u00ab$A\u00bb\n$r\u2081\u271d\u00b9 : \u00ab$R\u2081\u00bb\n$r\u2082\u271d\u00b9 : \u00ab$R\u2082\u00bb\n$a\u2081\u271d $a\u2082\u271d : \u00ab$A\u00bb\n$r\u2082\u271d : \u00ab$R\u2082\u00bb\n$r\u2081\u271d \u00ab$r\u2081\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$r\u2082\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$a\u2082\u00bb : \u00ab$A\u00bb\n\u00ab$pra\u2082\u00bb : $r\u2082\u271d \u2022 $a\u2082\u271d = \u00ab$r\u2082\u00bb \u2022 \u00ab$a\u2082\u00bb\n\u00ab$a\u2081\u00bb : \u00ab$A\u00bb := \u00ab$a\u2082\u00bb\n\u00ab$pra\u2081\u00bb : $r\u2081\u271d \u2022 $a\u2081\u271d = \u00ab$r\u2081\u00bb \u2022 \u00ab$a\u2081\u00bb\n\u00ab$_i\u2083\u00bb : Algebra \u00ab$R\u2082\u00bb \u00ab$R\u2081\u00bb\n\u00ab$_i\u2084\u00bb : IsScalarTower \u00ab$R\u2082\u00bb \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n\u00ab$r\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$pr\u00bb : \u00ab$r\u2082\u00bb \u2022 1 + Nat.rawCast 0 + \u00ab$r\u2081\u00bb = \u00ab$r\u00bb\n\u22a2 $r\u2081\u271d \u2022 $a\u2081\u271d + $r\u2082\u271d \u2022 $a\u2082\u271d = \u00ab$r\u00bb \u2022 \u00ab$a\u2081\u00bb",
+      "goal": "«$u» «$v» «$w» : Level\n«$A» : Type u\n«$R₁» : Type v\n«$R₂» : Type w\n«$sA» : CommSemiring «$A»\n«$sR₁» : CommSemiring «$R₁»\n«$sRA₁» : Algebra «$R₁» «$A»\n«$sR₂» : CommSemiring «$R₂»\n«$sRA₂» : Algebra «$R₂» «$A»\n$r₁✝¹ : «$R₁»\n$r₂✝¹ : «$R₂»\n$a₁✝ $a₂✝ : «$A»\n$r₂✝ : «$R₂»\n$r₁✝ «$r₁» : «$R₁»\n«$r₂» : «$R₂»\n«$a₂» : «$A»\n«$pra₂» : $r₂✝ • $a₂✝ = «$r₂» • «$a₂»\n«$a₁» : «$A» := «$a₂»\n«$pra₁» : $r₁✝ • $a₁✝ = «$r₁» • «$a₁»\n«$_i₃» : Algebra «$R₂» «$R₁»\n«$_i₄» : IsScalarTower «$R₂» «$R₁» «$A»\n«$r» : «$R₁»\n«$pr» : «$r₂» • 1 + Nat.rawCast 0 + «$r₁» = «$r»\n⊢ $r₁✝ • $a₁✝ + $r₂✝ • $a₂✝ = «$r» • «$a₁»",
       "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L304"
     },
     "metadata": {
@@ -1914,7 +1914,7 @@
       "file": "GlimpseOfLean/Exercises/Topics/Probability.lean"
     },
     "debug_info": {
-      "goal": "\u03a9 : Type\ninst\u271d\u00b9 : MeasureSpace \u03a9\ninst\u271d : IsProbabilityMeasure \u2119\nA : Set \u03a9\nh : IndepSet A A\n\u22a2 \u2119 A = 0 \u2228 \u2119 A = 1",
+      "goal": "Ω : Type\ninst✝¹ : MeasureSpace Ω\ninst✝ : IsProbabilityMeasure ℙ\nA : Set Ω\nh : IndepSet A A\n⊢ ℙ A = 0 ∨ ℙ A = 1",
       "url": "https://github.com/PatrickMassot/GlimpseOfLean/blob/435db8d6c9b3c72e68e0fcf95563921a3e17c88b/GlimpseOfLean/Exercises/Topics/Probability.lean#L86"
     },
     "metadata": {
@@ -1939,7 +1939,7 @@
       "file": "ZKLib/CommitmentScheme/MerkleTree.lean"
     },
     "debug_info": {
-      "goal": "case succ\n\u03b1 : Type\ninst\u271d\u00b2 : DecidableEq \u03b1\ninst\u271d\u00b9 : Inhabited \u03b1\ninst\u271d : Fintype \u03b1\nhash : \u03b1 \u00d7 \u03b1 \u2192 \u03b1\nn : \u2115\nih :\n  \u2200 (leaves : List.Vector \u03b1 (2 ^ n)) (i : Fin (2 ^ n)),\n    (simulateQ (implement_with_function \u03b1 hash)\n        (do\n          let cache \u2190 buildMerkleTree \u03b1 n leaves\n          let proof : List.Vector \u03b1 n := generateProof \u03b1 i cache\n          verifyProof \u03b1 i leaves[i] (getRoot \u03b1 cache) proof\n          pure PUnit.unit)\n        ()).neverFails\nleaves : List.Vector \u03b1 (2 ^ (n + 1))\ni : Fin (2 ^ (n + 1))\n\u22a2 ((((Option.elimM (OptionT.run (buildMerkleTree \u03b1 (n + 1) leaves)) (FreeMonad.pure none)\n                (OptionT.run \u2218 fun cache =>\n                  verifyProof \u03b1 i (leaves.get i) (getRoot \u03b1 cache) (generateProof \u03b1 i cache))).mapM\n            fun {\u03b1_1} q =>\n            match \u03b1_1, q with\n            | .((spec \u03b1).range i), query i (left, right) => pure (hash (left, right))) >>=\n          fun __do_lift => __do_lift.getM)\n        ()).neverFailsWhen\n    fun {\u03b1} x => Set.univ",
+      "goal": "case succ\nα : Type\ninst✝² : DecidableEq α\ninst✝¹ : Inhabited α\ninst✝ : Fintype α\nhash : α × α → α\nn : ℕ\nih :\n  ∀ (leaves : List.Vector α (2 ^ n)) (i : Fin (2 ^ n)),\n    (simulateQ (implement_with_function α hash)\n        (do\n          let cache ← buildMerkleTree α n leaves\n          let proof : List.Vector α n := generateProof α i cache\n          verifyProof α i leaves[i] (getRoot α cache) proof\n          pure PUnit.unit)\n        ()).neverFails\nleaves : List.Vector α (2 ^ (n + 1))\ni : Fin (2 ^ (n + 1))\n⊢ ((((Option.elimM (OptionT.run (buildMerkleTree α (n + 1) leaves)) (FreeMonad.pure none)\n                (OptionT.run ∘ fun cache =>\n                  verifyProof α i (leaves.get i) (getRoot α cache) (generateProof α i cache))).mapM\n            fun {α_1} q =>\n            match α_1, q with\n            | .((spec α).range i), query i (left, right) => pure (hash (left, right))) >>=\n          fun __do_lift => __do_lift.getM)\n        ()).neverFailsWhen\n    fun {α} x => Set.univ",
       "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b2a35da9cc686c666671ac006d1c2ec4757302c/ZKLib/CommitmentScheme/MerkleTree.lean#L219"
     },
     "metadata": {
@@ -1964,7 +1964,7 @@
       "file": "Compfiles/Bulgaria1998P1.lean"
     },
     "debug_info": {
-      "goal": "case h.intro.mk.intro.intro.mk.intro.intro.intro.intro.\u00ab1\u00bb.\u00ab4\u00bb\ni j : \u2115\nhi1 : 1 \u2264 1\nhi2 : 1 \u2264 8\nhj1 : 1 \u2264 4\nhj2 : 4 \u2264 8\nhij1 : \u27e81, \u22ef\u27e9 < \u27e84, \u22ef\u27e9\nhij2 : 2 * \u2191\u27e84, \u22ef\u27e9 - \u2191\u27e81, \u22ef\u27e9 \u2208 Set.Icc 1 8\nhc1 :\n  (match \u27e81, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0) =\n    match \u27e84, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0\nhc2 :\n  (match \u27e81, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0) =\n    match \u27e82 * 4 - 1, hij2\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0\n\u22a2 False",
+      "goal": "case h.intro.mk.intro.intro.mk.intro.intro.intro.intro.«1».«4»\ni j : ℕ\nhi1 : 1 ≤ 1\nhi2 : 1 ≤ 8\nhj1 : 1 ≤ 4\nhj2 : 4 ≤ 8\nhij1 : ⟨1, ⋯⟩ < ⟨4, ⋯⟩\nhij2 : 2 * ↑⟨4, ⋯⟩ - ↑⟨1, ⋯⟩ ∈ Set.Icc 1 8\nhc1 :\n  (match ⟨1, ⋯⟩ with\n    | ⟨1, property⟩ => 0\n    | ⟨2, property⟩ => 1\n    | ⟨3, property⟩ => 0\n    | ⟨4, property⟩ => 1\n    | ⟨5, property⟩ => 1\n    | ⟨6, property⟩ => 0\n    | ⟨7, property⟩ => 1\n    | ⟨8, property⟩ => 0\n    | x => 0) =\n    match ⟨4, ⋯⟩ with\n    | ⟨1, property⟩ => 0\n    | ⟨2, property⟩ => 1\n    | ⟨3, property⟩ => 0\n    | ⟨4, property⟩ => 1\n    | ⟨5, property⟩ => 1\n    | ⟨6, property⟩ => 0\n    | ⟨7, property⟩ => 1\n    | ⟨8, property⟩ => 0\n    | x => 0\nhc2 :\n  (match ⟨1, ⋯⟩ with\n    | ⟨1, property⟩ => 0\n    | ⟨2, property⟩ => 1\n    | ⟨3, property⟩ => 0\n    | ⟨4, property⟩ => 1\n    | ⟨5, property⟩ => 1\n    | ⟨6, property⟩ => 0\n    | ⟨7, property⟩ => 1\n    | ⟨8, property⟩ => 0\n    | x => 0) =\n    match ⟨2 * 4 - 1, hij2⟩ with\n    | ⟨1, property⟩ => 0\n    | ⟨2, property⟩ => 1\n    | ⟨3, property⟩ => 0\n    | ⟨4, property⟩ => 1\n    | ⟨5, property⟩ => 1\n    | ⟨6, property⟩ => 0\n    | ⟨7, property⟩ => 1\n    | ⟨8, property⟩ => 0\n    | x => 0\n⊢ False",
       "url": "https://github.com/dwrensha/compfiles/blob/fa63371f54d5353ab86e7e2b97473832c417e5ba/Compfiles/Bulgaria1998P1.lean#L76"
     },
     "metadata": {
@@ -1989,7 +1989,7 @@
       "file": "Foundation/ProvabilityLogic/S/Completeness.lean"
     },
     "debug_info": {
-      "goal": "L : Language\ninst\u271d\u2078 : Semiterm.Operator.GoedelNumber L (Sentence L)\ninst\u271d\u2077 : L.DecidableEq\nT\u2080 T : Theory \u2112\u2092\u1d63\ninst\u271d\u2076 : T\u2080 \u2aaf T\ninst\u271d\u2075 : Diagonalization T\u2080\n\ud835\udd05 : ProvabilityPredicate T\u2080 T\ninst\u271d\u2074 : \ud835\udd05.HBL\ninst\u271d\u00b3 : \u2115 \u22a7\u2098* T\ninst\u271d\u00b2 : \ud835\udd05.Justified \u2115\nA B : Modal.Formula \u2115\ninst\u271d\u00b9 : \ud835\udc08\ud835\udeba\u2081 \u2aaf T\ninst\u271d : T.Delta1Definable\n\u22a2 \u2200 {\u03c3 : Sentence \u2112\u2092\u1d63}, T \u22a2!. \u03c3 \u2194 \u2115 \u22a7\u2098\u2080 \u2191(\ud835\udc08\ud835\udeba\u2081.standardDP T) \u03c3",
+      "goal": "L : Language\ninst✝⁸ : Semiterm.Operator.GoedelNumber L (Sentence L)\ninst✝⁷ : L.DecidableEq\nT₀ T : Theory ℒₒᵣ\ninst✝⁶ : T₀ ⪯ T\ninst✝⁵ : Diagonalization T₀\n𝔅 : ProvabilityPredicate T₀ T\ninst✝⁴ : 𝔅.HBL\ninst✝³ : ℕ ⊧ₘ* T\ninst✝² : 𝔅.Justified ℕ\nA B : Modal.Formula ℕ\ninst✝¹ : 𝐈𝚺₁ ⪯ T\ninst✝ : T.Delta1Definable\n⊢ ∀ {σ : Sentence ℒₒᵣ}, T ⊢!. σ ↔ ℕ ⊧ₘ₀ ↑(𝐈𝚺₁.standardDP T) σ",
       "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/a2cbf6a6c08a4e59a8ac27e0e85e5c562af7bb32/Foundation/ProvabilityLogic/S/Completeness.lean#L253"
     },
     "metadata": {
@@ -2014,7 +2014,7 @@
       "file": "Carleson/ToMathlib/HardyLittlewood.lean"
     },
     "debug_info": {
-      "goal": "case a\nX : Type u_1\nE : Type u_2\nA : \u211d\u22650\ninst\u271d\u2078 : MetricSpace X\ninst\u271d\u2077 : MeasurableSpace X\n\u03bc : Measure X\ninst\u271d\u2076 : \u03bc.IsDoubling A\ninst\u271d\u2075 : NormedAddCommGroup E\ninst\u271d\u2074 : ProperSpace X\ninst\u271d\u00b3 : BorelSpace X\ninst\u271d\u00b2 : IsFiniteMeasureOnCompacts \u03bc\ninst\u271d\u00b9 : Nonempty X\ninst\u271d : \u03bc.IsOpenPosMeasure\np\u2081 p\u2082 : \u211d\u22650\nhp\u2081 : 1 \u2264 p\u2081\nhp\u2081\u2082 : p\u2081 \u2264 p\u2082\nthis : \u2191p\u2082 \u2260 0\n\u22a2 HasWeakType\n      (fun u x =>\n        (\u2191A ^ 2).toReal * (maximalFunction \u03bc (\u22ef.choose \u00d7\u02e2 univ) (fun x => x.1) (fun x => 2 ^ x.2) (\u2191p\u2081) u x).toReal)\n      (\u2191p\u2082) (\u2191p\u2082) \u03bc \u03bc (A ^ 4) \u2194\n    MemLp ?convert_4 (\u2191p\u2082) \u03bc \u2192\n      AEStronglyMeasurable ((fun f x => A ^ 2 * ?convert_2 f x) ?convert_4) \u03bc \u2227\n        wnorm ((fun f x => A ^ 2 * ?convert_2 f x) ?convert_4) (\u2191p\u2082) \u03bc \u2264\n          \u2191(\u2016A ^ 2\u2016\u208a * A ^ 2) * eLpNorm ?convert_4 (\u2191p\u2082) \u03bc",
+      "goal": "case a\nX : Type u_1\nE : Type u_2\nA : ℝ≥0\ninst✝⁸ : MetricSpace X\ninst✝⁷ : MeasurableSpace X\nμ : Measure X\ninst✝⁶ : μ.IsDoubling A\ninst✝⁵ : NormedAddCommGroup E\ninst✝⁴ : ProperSpace X\ninst✝³ : BorelSpace X\ninst✝² : IsFiniteMeasureOnCompacts μ\ninst✝¹ : Nonempty X\ninst✝ : μ.IsOpenPosMeasure\np₁ p₂ : ℝ≥0\nhp₁ : 1 ≤ p₁\nhp₁₂ : p₁ ≤ p₂\nthis : ↑p₂ ≠ 0\n⊢ HasWeakType\n      (fun u x =>\n        (↑A ^ 2).toReal * (maximalFunction μ (⋯.choose ×ˢ univ) (fun x => x.1) (fun x => 2 ^ x.2) (↑p₁) u x).toReal)\n      (↑p₂) (↑p₂) μ μ (A ^ 4) ↔\n    MemLp ?convert_4 (↑p₂) μ →\n      AEStronglyMeasurable ((fun f x => A ^ 2 * ?convert_2 f x) ?convert_4) μ ∧\n        wnorm ((fun f x => A ^ 2 * ?convert_2 f x) ?convert_4) (↑p₂) μ ≤\n          ↑(‖A ^ 2‖₊ * A ^ 2) * eLpNorm ?convert_4 (↑p₂) μ",
       "url": "https://github.com/fpvandoorn/carleson/blob/d309c77ab38cf0bbb8502c49471cf1f00085c535/Carleson/ToMathlib/HardyLittlewood.lean#L551"
     },
     "metadata": {
@@ -2039,7 +2039,7 @@
       "file": "FLT/QuaternionAlgebra/NumberField.lean"
     },
     "debug_info": {
-      "goal": "M : Type u_3\nN : Type u_4\ninst\u271d\u00b3 : Monoid M\ninst\u271d\u00b2 : Monoid N\ninst\u271d\u00b9 : TopologicalSpace M\ninst\u271d : TopologicalSpace N\nf : M \u2192* N\nhf : IsOpenMap \u21d1f\n\u22a2 IsOpenMap fun u => { val := f \u2191u, inv := f \u2191u\u207b\u00b9, val_inv := \u22ef, inv_val := \u22ef }",
+      "goal": "M : Type u_3\nN : Type u_4\ninst✝³ : Monoid M\ninst✝² : Monoid N\ninst✝¹ : TopologicalSpace M\ninst✝ : TopologicalSpace N\nf : M →* N\nhf : IsOpenMap ⇑f\n⊢ IsOpenMap fun u => { val := f ↑u, inv := f ↑u⁻¹, val_inv := ⋯, inv_val := ⋯ }",
       "url": "https://github.com/ImperialCollegeLondon/FLT/blob/464ae0dba10c7aa3460d147aa375eaa865f2f552/FLT/QuaternionAlgebra/NumberField.lean#L66"
     },
     "metadata": {
@@ -2064,7 +2064,7 @@
       "file": "AesopTest/ExtScript.lean"
     },
     "debug_info": {
-      "goal": "case snd.fst\n\u03b1 \u03b2 \u03b3 \u03b4 \u03b9 : Type\np q : MyProd \u03b1 (MyProd \u03b2 \u03b3)\n\u22a2 p.snd.fst = q.snd.fst",
+      "goal": "case snd.fst\nα β γ δ ι : Type\np q : MyProd α (MyProd β γ)\n⊢ p.snd.fst = q.snd.fst",
       "url": "https://github.com/leanprover-community/aesop/blob/dd78c1426f5fc783ec1ba23ad769471cc69bb8b4/AesopTest/ExtScript.lean#L46"
     },
     "metadata": {
@@ -2089,7 +2089,7 @@
       "file": "LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean"
     },
     "debug_info": {
-      "goal": "case refine_2.hs\n\u03b1 : Type u_1\n\u03a9 : Type u_2\ninst\u271d\u00b9 : MeasurableSpace \u03a9\nX Y : \u03a9 \u2192 Set \u03b1\n\u03bc : Measure \u03a9\np q : \u211d\u22650\nhX : IsBernoulliSeq X p \u03bc\nhY : IsBernoulliSeq Y q \u03bc\ninst\u271d : IsProbabilityMeasure \u03bc\nh : IndepFun X Y \u03bc\ns : Finset \u03b1\n\u22a2 MeasurableSet (\u22c2 i \u2208 s, {\u03c9 | X \u03c9 i})",
+      "goal": "case refine_2.hs\nα : Type u_1\nΩ : Type u_2\ninst✝¹ : MeasurableSpace Ω\nX Y : Ω → Set α\nμ : Measure Ω\np q : ℝ≥0\nhX : IsBernoulliSeq X p μ\nhY : IsBernoulliSeq Y q μ\ninst✝ : IsProbabilityMeasure μ\nh : IndepFun X Y μ\ns : Finset α\n⊢ MeasurableSet (⋂ i ∈ s, {ω | X ω i})",
       "url": "https://github.com/YaelDillies/LeanCamCombi/blob/5df79658756ef6d112f2464eec3aece31e35cc83/LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean#L130"
     },
     "metadata": {
@@ -2114,7 +2114,7 @@
       "file": "PrimeNumberTheoremAnd/MediumPNT.lean"
     },
     "debug_info": {
-      "goal": "SmoothingF : \u211d \u2192 \u211d\ndiffSmoothingF : ContDiff \u211d 1 SmoothingF\nsuppSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\nX : \u211d\nC : \u211d := sorry\n\u22a2 0 < C",
+      "goal": "SmoothingF : ℝ → ℝ\ndiffSmoothingF : ContDiff ℝ 1 SmoothingF\nsuppSmoothingF : support SmoothingF ⊆ Icc (1 / 2) 2\nSmoothingFnonneg : ∀ x > 0, 0 ≤ SmoothingF x\nmass_one : ∫ (x : ℝ) in Ioi 0, SmoothingF x / x = 1\nX : ℝ\nC : ℝ := sorry\n⊢ 0 < C",
       "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/5365476bb7e0988aaeb959174f4a06734f34bb6c/PrimeNumberTheoremAnd/MediumPNT.lean#L319"
     },
     "metadata": {
@@ -2139,7 +2139,7 @@
       "file": "LeanByExample/Tactic/Ext.lean"
     },
     "debug_info": {
-      "goal": "\u03b1 : Type\np q : Foo\nhx : p.x = q.x\nhy : p.y = q.y\n\u22a2 p = q",
+      "goal": "α : Type\np q : Foo\nhx : p.x = q.x\nhy : p.y = q.y\n⊢ p = q",
       "url": "https://github.com/lean-ja/lean-by-example/blob/3ebe85bea550147ea661babd12b968bf8e97a7ed/LeanByExample/Tactic/Ext.lean#L95"
     },
     "metadata": {
@@ -2164,7 +2164,7 @@
       "file": "PFR/MoreRuzsaDist.lean"
     },
     "debug_info": {
-      "goal": "G : Type u_8\nhG : MeasurableSpace G\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : MeasurableSingletonClass G\ninst\u271d : Countable G\nm : \u2115\nhm : m \u2265 2\n\u03a9 : Fin m \u2192 Type u_9\nh\u03a9 : (i : Fin m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin m) \u2192 \u03a9 i \u2192 G\nhvanish : D[X ; h\u03a9] = 0\n\u22a2 \u2200 (i : Fin m), \u2203 H U, Measurable U \u2227 IsUniform (\u2191H) U \u2119 \u2227 d[X i # U] = 0",
+      "goal": "G : Type u_8\nhG : MeasurableSpace G\ninst✝² : AddCommGroup G\ninst✝¹ : MeasurableSingletonClass G\ninst✝ : Countable G\nm : ℕ\nhm : m ≥ 2\nΩ : Fin m → Type u_9\nhΩ : (i : Fin m) → MeasureSpace (Ω i)\nX : (i : Fin m) → Ω i → G\nhvanish : D[X ; hΩ] = 0\n⊢ ∀ (i : Fin m), ∃ H U, Measurable U ∧ IsUniform (↑H) U ℙ ∧ d[X i # U] = 0",
       "url": "https://github.com/teorth/pfr/blob/0010cb5c36c6605a2d0e957390ab4955e6c9e3ff/PFR/MoreRuzsaDist.lean#L877"
     },
     "metadata": {
@@ -2189,7 +2189,7 @@
       "file": "Mathlib/Tactic/Algebra.lean"
     },
     "debug_info": {
-      "goal": "x : \u211a\n\u22a2 x + x + x = 3 * x",
+      "goal": "x : ℚ\n⊢ x + x + x = 3 * x",
       "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L623"
     },
     "metadata": {
@@ -2214,7 +2214,7 @@
       "file": "GlimpseOfLean/Exercises/Topics/Probability.lean"
     },
     "debug_info": {
-      "goal": "\u03a9 : Type\ninst\u271d\u00b9 : MeasureSpace \u03a9\ninst\u271d : IsProbabilityMeasure \u2119\nA B : Set \u03a9\nhA : \u2119 A = 0\n\u22a2 \u2119(A|B) = 0",
+      "goal": "Ω : Type\ninst✝¹ : MeasureSpace Ω\ninst✝ : IsProbabilityMeasure ℙ\nA B : Set Ω\nhA : ℙ A = 0\n⊢ ℙ(A|B) = 0",
       "url": "https://github.com/PatrickMassot/GlimpseOfLean/blob/435db8d6c9b3c72e68e0fcf95563921a3e17c88b/GlimpseOfLean/Exercises/Topics/Probability.lean#L108"
     },
     "metadata": {
@@ -2239,7 +2239,7 @@
       "file": "ZKLib/Data/Math/Fin.lean"
     },
     "debug_info": {
-      "goal": "l : List \u2115\nj a : \u2115\nl' : List \u2115\nh : j < a + l'.sum\n\u22a2 \u2203 n, (a :: l').findSum j = some n",
+      "goal": "l : List ℕ\nj a : ℕ\nl' : List ℕ\nh : j < a + l'.sum\n⊢ ∃ n, (a :: l').findSum j = some n",
       "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b2a35da9cc686c666671ac006d1c2ec4757302c/ZKLib/Data/Math/Fin.lean#L557"
     },
     "metadata": {
@@ -2264,7 +2264,7 @@
       "file": "Compfiles/Bulgaria1998P1.lean"
     },
     "debug_info": {
-      "goal": "case h.intro.mk.intro.intro.mk.intro.intro.intro.intro.\u00ab1\u00bb.\u00ab5\u00bb\ni j : \u2115\nhi1 : 1 \u2264 1\nhi2 : 1 \u2264 8\nhj1 : 1 \u2264 5\nhj2 : 5 \u2264 8\nhij1 : \u27e81, \u22ef\u27e9 < \u27e85, \u22ef\u27e9\nhij2 : 2 * \u2191\u27e85, \u22ef\u27e9 - \u2191\u27e81, \u22ef\u27e9 \u2208 Set.Icc 1 8\nhc1 :\n  (match \u27e81, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0) =\n    match \u27e85, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0\nhc2 :\n  (match \u27e81, \u22ef\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0) =\n    match \u27e82 * 5 - 1, hij2\u27e9 with\n    | \u27e81, property\u27e9 => 0\n    | \u27e82, property\u27e9 => 1\n    | \u27e83, property\u27e9 => 0\n    | \u27e84, property\u27e9 => 1\n    | \u27e85, property\u27e9 => 1\n    | \u27e86, property\u27e9 => 0\n    | \u27e87, property\u27e9 => 1\n    | \u27e88, property\u27e9 => 0\n    | x => 0\n\u22a2 False",
+      "goal": "case h.intro.mk.intro.intro.mk.intro.intro.intro.intro.«1».«5»\ni j : ℕ\nhi1 : 1 ≤ 1\nhi2 : 1 ≤ 8\nhj1 : 1 ≤ 5\nhj2 : 5 ≤ 8\nhij1 : ⟨1, ⋯⟩ < ⟨5, ⋯⟩\nhij2 : 2 * ↑⟨5, ⋯⟩ - ↑⟨1, ⋯⟩ ∈ Set.Icc 1 8\nhc1 :\n  (match ⟨1, ⋯⟩ with\n    | ⟨1, property⟩ => 0\n    | ⟨2, property⟩ => 1\n    | ⟨3, property⟩ => 0\n    | ⟨4, property⟩ => 1\n    | ⟨5, property⟩ => 1\n    | ⟨6, property⟩ => 0\n    | ⟨7, property⟩ => 1\n    | ⟨8, property⟩ => 0\n    | x => 0) =\n    match ⟨5, ⋯⟩ with\n    | ⟨1, property⟩ => 0\n    | ⟨2, property⟩ => 1\n    | ⟨3, property⟩ => 0\n    | ⟨4, property⟩ => 1\n    | ⟨5, property⟩ => 1\n    | ⟨6, property⟩ => 0\n    | ⟨7, property⟩ => 1\n    | ⟨8, property⟩ => 0\n    | x => 0\nhc2 :\n  (match ⟨1, ⋯⟩ with\n    | ⟨1, property⟩ => 0\n    | ⟨2, property⟩ => 1\n    | ⟨3, property⟩ => 0\n    | ⟨4, property⟩ => 1\n    | ⟨5, property⟩ => 1\n    | ⟨6, property⟩ => 0\n    | ⟨7, property⟩ => 1\n    | ⟨8, property⟩ => 0\n    | x => 0) =\n    match ⟨2 * 5 - 1, hij2⟩ with\n    | ⟨1, property⟩ => 0\n    | ⟨2, property⟩ => 1\n    | ⟨3, property⟩ => 0\n    | ⟨4, property⟩ => 1\n    | ⟨5, property⟩ => 1\n    | ⟨6, property⟩ => 0\n    | ⟨7, property⟩ => 1\n    | ⟨8, property⟩ => 0\n    | x => 0\n⊢ False",
       "url": "https://github.com/dwrensha/compfiles/blob/fa63371f54d5353ab86e7e2b97473832c417e5ba/Compfiles/Bulgaria1998P1.lean#L76"
     },
     "metadata": {
@@ -2289,7 +2289,7 @@
       "file": "Foundation/ProvabilityLogic/S/Completeness.lean"
     },
     "debug_info": {
-      "goal": "T : Theory \u2112\u2092\u1d63\ninst\u271d\u00b3 : \u2115 \u22a7\u2098* T\nA : Modal.Formula \u2115\ninst\u271d\u00b2 : T.Delta1Definable\ninst\u271d\u00b9 : \ud835\udc08\ud835\udeba\u2081 \u2aaf T\ninst\u271d : SoundOn T (Hierarchy \ud835\udeb7 2)\ntfae_1_to_2 : Finset.conj A.rflSubformula \u279d A \u2208 Logic.GL \u2192 A \u2208 Logic.S\ntfae_2_to_3 : A \u2208 Logic.S \u2192 \u2200 (f : Realization \u2112\u2092\u1d63), \u2115 \u22a7\u2098\u2080 f.interpret (\ud835\udc08\ud835\udeba\u2081.standardDP T) A\nhA : Finset.conj A.rflSubformula \u279d A \u2209 Logic.GL\nM\u2081 : Model\nr\u2081 : M\u2081.World\nleft\u271d : M\u2081.IsFiniteTree r\u2081\nM\u2080 : Model := M\u2081.extendRoot r\u2081\nr\u2080\u271d : M\u2080.World := Model.extendRoot.root\nhA\u2081 : \u2200 \u03c6 \u2208 A.rflSubformula, Satisfies M\u2080 (Sum.inr r\u2081) \u03c6\nhA\u2082 : \u00acSatisfies M\u2080 (Sum.inr r\u2081) A\nthis\u271d : Fintype (M\u2081.extendRoot r\u2081).World\n\u03c3 : SolovaySentences (\ud835\udc08\ud835\udeba\u2081.standardDP T) (M\u2081.extendRoot r\u2081).toFrame r\u2080\u271d :=\n  SolovaySentence.standard (M\u2081.extendRoot r\u2081).toFrame Frame.extendRoot.root\nr\u2080 : (M\u2081.extendRoot r\u2081).World := Model.extendRoot.root\nB : Modal.Formula \u2115\nihB :\n  B \u2208 A.subformulas \u2192\n    (Satisfies M\u2080 (Sum.inr r\u2081) B \u2192 \ud835\udc08\ud835\udeba\u2081 \u22a2!. \u03c3.\u03c3 r\u2080 \u279d \u03c3.realization.interpret (\ud835\udc08\ud835\udeba\u2081.standardDP T) B) \u2227\n      (\u00acSatisfies M\u2080 (Sum.inr r\u2081) B \u2192 \ud835\udc08\ud835\udeba\u2081 \u22a2!. \u03c3.\u03c3 r\u2080 \u279d \u223c\u03c3.realization.interpret (\ud835\udc08\ud835\udeba\u2081.standardDP T) B)\nB_sub : \u25a1B \u2208 A.subformulas\nh : Satisfies M\u2080 (Sum.inr r\u2081) (\u25a1B)\nthis : \ud835\udc08\ud835\udeba\u2081 \u22a2!. (\u2a56 j, \u03c3.\u03c3 j) \u279d \u03c3.realization.interpret (\ud835\udc08\ud835\udeba\u2081.standardDP T) B\n\u22a2 \ud835\udc08\ud835\udeba\u2081.alt \u22a2! \u2a56 j, \u03c3.\u03c3 j",
+      "goal": "T : Theory ℒₒᵣ\ninst✝³ : ℕ ⊧ₘ* T\nA : Modal.Formula ℕ\ninst✝² : T.Delta1Definable\ninst✝¹ : 𝐈𝚺₁ ⪯ T\ninst✝ : SoundOn T (Hierarchy 𝚷 2)\ntfae_1_to_2 : Finset.conj A.rflSubformula ➝ A ∈ Logic.GL → A ∈ Logic.S\ntfae_2_to_3 : A ∈ Logic.S → ∀ (f : Realization ℒₒᵣ), ℕ ⊧ₘ₀ f.interpret (𝐈𝚺₁.standardDP T) A\nhA : Finset.conj A.rflSubformula ➝ A ∉ Logic.GL\nM₁ : Model\nr₁ : M₁.World\nleft✝ : M₁.IsFiniteTree r₁\nM₀ : Model := M₁.extendRoot r₁\nr₀✝ : M₀.World := Model.extendRoot.root\nhA₁ : ∀ φ ∈ A.rflSubformula, Satisfies M₀ (Sum.inr r₁) φ\nhA₂ : ¬Satisfies M₀ (Sum.inr r₁) A\nthis✝ : Fintype (M₁.extendRoot r₁).World\nσ : SolovaySentences (𝐈𝚺₁.standardDP T) (M₁.extendRoot r₁).toFrame r₀✝ :=\n  SolovaySentence.standard (M₁.extendRoot r₁).toFrame Frame.extendRoot.root\nr₀ : (M₁.extendRoot r₁).World := Model.extendRoot.root\nB : Modal.Formula ℕ\nihB :\n  B ∈ A.subformulas →\n    (Satisfies M₀ (Sum.inr r₁) B → 𝐈𝚺₁ ⊢!. σ.σ r₀ ➝ σ.realization.interpret (𝐈𝚺₁.standardDP T) B) ∧\n      (¬Satisfies M₀ (Sum.inr r₁) B → 𝐈𝚺₁ ⊢!. σ.σ r₀ ➝ ∼σ.realization.interpret (𝐈𝚺₁.standardDP T) B)\nB_sub : □B ∈ A.subformulas\nh : Satisfies M₀ (Sum.inr r₁) (□B)\nthis : 𝐈𝚺₁ ⊢!. (⩖ j, σ.σ j) ➝ σ.realization.interpret (𝐈𝚺₁.standardDP T) B\n⊢ 𝐈𝚺₁.alt ⊢! ⩖ j, σ.σ j",
       "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/d773e9c193bd4782c94b32ea63ede4aae696573a/Foundation/ProvabilityLogic/S/Completeness.lean#L375"
     },
     "metadata": {
@@ -2314,7 +2314,7 @@
       "file": "Carleson/ToMathlib/HardyLittlewood.lean"
     },
     "debug_info": {
-      "goal": "case convert_3\nX : Type u_1\nE : Type u_2\nA : \u211d\u22650\ninst\u271d\u2078 : MetricSpace X\ninst\u271d\u2077 : MeasurableSpace X\n\u03bc : Measure X\ninst\u271d\u2076 : \u03bc.IsDoubling A\ninst\u271d\u2075 : NormedAddCommGroup E\ninst\u271d\u2074 : ProperSpace X\ninst\u271d\u00b3 : BorelSpace X\ninst\u271d\u00b2 : IsFiniteMeasureOnCompacts \u03bc\ninst\u271d\u00b9 : Nonempty X\ninst\u271d : \u03bc.IsOpenPosMeasure\np\u2081 p\u2082 : \u211d\u22650\nhp\u2081 : 1 \u2264 p\u2081\nhp\u2081\u2082 : p\u2081 \u2264 p\u2082\nthis : \u2191p\u2082 \u2260 0\n\u22a2 HasWeakType sorry (\u2191p\u2082) (\u2191p\u2082) \u03bc \u03bc (A ^ 2)",
+      "goal": "case convert_3\nX : Type u_1\nE : Type u_2\nA : ℝ≥0\ninst✝⁸ : MetricSpace X\ninst✝⁷ : MeasurableSpace X\nμ : Measure X\ninst✝⁶ : μ.IsDoubling A\ninst✝⁵ : NormedAddCommGroup E\ninst✝⁴ : ProperSpace X\ninst✝³ : BorelSpace X\ninst✝² : IsFiniteMeasureOnCompacts μ\ninst✝¹ : Nonempty X\ninst✝ : μ.IsOpenPosMeasure\np₁ p₂ : ℝ≥0\nhp₁ : 1 ≤ p₁\nhp₁₂ : p₁ ≤ p₂\nthis : ↑p₂ ≠ 0\n⊢ HasWeakType sorry (↑p₂) (↑p₂) μ μ (A ^ 2)",
       "url": "https://github.com/fpvandoorn/carleson/blob/d309c77ab38cf0bbb8502c49471cf1f00085c535/Carleson/ToMathlib/HardyLittlewood.lean#L551"
     },
     "metadata": {
@@ -2339,7 +2339,7 @@
       "file": "FLT/QuaternionAlgebra/NumberField.lean"
     },
     "debug_info": {
-      "goal": "F : Type u_1\ninst\u271d\u2074 : Field F\ninst\u271d\u00b3 : NumberField F\nD : Type u_2\ninst\u271d\u00b2 : Ring D\ninst\u271d\u00b9 : Algebra F D\ninst\u271d : IsQuaternionAlgebra F D\nv : HeightOneSpectrum (\ud835\udcde F)\n\u22a2 IsOpenMap \u21d1(Units.map \u2191(HeightOneSpectrum.adicCompletionIntegers F v).subtype.mapMatrix)",
+      "goal": "F : Type u_1\ninst✝⁴ : Field F\ninst✝³ : NumberField F\nD : Type u_2\ninst✝² : Ring D\ninst✝¹ : Algebra F D\ninst✝ : IsQuaternionAlgebra F D\nv : HeightOneSpectrum (𝓞 F)\n⊢ IsOpenMap ⇑(Units.map ↑(HeightOneSpectrum.adicCompletionIntegers F v).subtype.mapMatrix)",
       "url": "https://github.com/ImperialCollegeLondon/FLT/blob/464ae0dba10c7aa3460d147aa375eaa865f2f552/FLT/QuaternionAlgebra/NumberField.lean#L82"
     },
     "metadata": {
@@ -2364,7 +2364,7 @@
       "file": "AesopTest/ExtScript.lean"
     },
     "debug_info": {
-      "goal": "case snd.snd\n\u03b1 \u03b2 \u03b3 \u03b4 \u03b9 : Type\np q : MyProd \u03b1 (MyProd \u03b2 \u03b3)\n\u22a2 p.snd.snd = q.snd.snd",
+      "goal": "case snd.snd\nα β γ δ ι : Type\np q : MyProd α (MyProd β γ)\n⊢ p.snd.snd = q.snd.snd",
       "url": "https://github.com/leanprover-community/aesop/blob/dd78c1426f5fc783ec1ba23ad769471cc69bb8b4/AesopTest/ExtScript.lean#L46"
     },
     "metadata": {
@@ -2389,7 +2389,7 @@
       "file": "LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean"
     },
     "debug_info": {
-      "goal": "case refine_2.ht\n\u03b1 : Type u_1\n\u03a9 : Type u_2\ninst\u271d\u00b9 : MeasurableSpace \u03a9\nX Y : \u03a9 \u2192 Set \u03b1\n\u03bc : Measure \u03a9\np q : \u211d\u22650\nhX : IsBernoulliSeq X p \u03bc\nhY : IsBernoulliSeq Y q \u03bc\ninst\u271d : IsProbabilityMeasure \u03bc\nh : IndepFun X Y \u03bc\ns : Finset \u03b1\n\u22a2 MeasurableSet (\u22c2 i \u2208 s, {\u03c9 | Y \u03c9 i})",
+      "goal": "case refine_2.ht\nα : Type u_1\nΩ : Type u_2\ninst✝¹ : MeasurableSpace Ω\nX Y : Ω → Set α\nμ : Measure Ω\np q : ℝ≥0\nhX : IsBernoulliSeq X p μ\nhY : IsBernoulliSeq Y q μ\ninst✝ : IsProbabilityMeasure μ\nh : IndepFun X Y μ\ns : Finset α\n⊢ MeasurableSet (⋂ i ∈ s, {ω | Y ω i})",
       "url": "https://github.com/YaelDillies/LeanCamCombi/blob/5df79658756ef6d112f2464eec3aece31e35cc83/LeanCamCombi/ExtrProbCombi/BernoulliSeq.lean#L131"
     },
     "metadata": {
@@ -2414,7 +2414,7 @@
       "file": "PrimeNumberTheoremAnd/MediumPNT.lean"
     },
     "debug_info": {
-      "goal": "SmoothingF : \u211d \u2192 \u211d\n\u03b5 : \u211d\n\u03b5_pos : 0 < \u03b5\nX T : \u211d\nT_pos : 0 < T\n\u03c3\u2080 : \u211d\n\u03c3\u2080_pos : 0 < \u03c3\u2080\nholoOn : HolomorphicOn (SmoothedChebyshevIntegrand SmoothingF \u03b5 X) (Icc \u03c3\u2080 2 \u00d7\u2102 univ \\ {1})\nsuppSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\n\u22a2 (1 / (2 * \u2191\u03c0 * I)) \u2022\n      ((I \u2022 \u222b (t : \u211d) in Iic (-T), SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u21912 + \u2191t * I)) +\n          VIntegral (SmoothedChebyshevIntegrand SmoothingF \u03b5 X) 2 (-T) T +\n        I \u2022 \u222b (t : \u211d) in Ici T, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u21912 + \u2191t * I)) =\n    \ud835\udcdc (fun x => \u2191(Smooth1 SmoothingF \u03b5 x)) 1 * \u2191X +\n      1 / (2 * \u2191\u03c0 * I) *\n        (((((I * \u222b (t : \u211d) in Iic (-T), SmoothedChebyshevIntegrand SmoothingF \u03b5 X (2 + \u2191t * I)) -\n                \u222b (s : \u211d) in Icc \u03c3\u2080 2, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u2191s - \u2191T * I)) +\n              I * \u222b (t : \u211d) in Icc (-T) T, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u2191\u03c3\u2080 + \u2191t * I)) +\n            \u222b (s : \u211d) in Icc \u03c3\u2080 2, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u2191s + \u2191T * I)) +\n          I * \u222b (t : \u211d) in Ici T, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (2 + \u2191t * I))",
+      "goal": "SmoothingF : ℝ → ℝ\nε : ℝ\nε_pos : 0 < ε\nX T : ℝ\nT_pos : 0 < T\nσ₀ : ℝ\nσ₀_pos : 0 < σ₀\nholoOn : HolomorphicOn (SmoothedChebyshevIntegrand SmoothingF ε X) (Icc σ₀ 2 ×ℂ univ \\ {1})\nsuppSmoothingF : support SmoothingF ⊆ Icc (1 / 2) 2\nSmoothingFnonneg : ∀ x > 0, 0 ≤ SmoothingF x\nmass_one : ∫ (x : ℝ) in Ioi 0, SmoothingF x / x = 1\n⊢ (1 / (2 * ↑π * I)) •\n      ((I • ∫ (t : ℝ) in Iic (-T), SmoothedChebyshevIntegrand SmoothingF ε X (↑2 + ↑t * I)) +\n          VIntegral (SmoothedChebyshevIntegrand SmoothingF ε X) 2 (-T) T +\n        I • ∫ (t : ℝ) in Ici T, SmoothedChebyshevIntegrand SmoothingF ε X (↑2 + ↑t * I)) =\n    𝓜 (fun x => ↑(Smooth1 SmoothingF ε x)) 1 * ↑X +\n      1 / (2 * ↑π * I) *\n        (((((I * ∫ (t : ℝ) in Iic (-T), SmoothedChebyshevIntegrand SmoothingF ε X (2 + ↑t * I)) -\n                ∫ (s : ℝ) in Icc σ₀ 2, SmoothedChebyshevIntegrand SmoothingF ε X (↑s - ↑T * I)) +\n              I * ∫ (t : ℝ) in Icc (-T) T, SmoothedChebyshevIntegrand SmoothingF ε X (↑σ₀ + ↑t * I)) +\n            ∫ (s : ℝ) in Icc σ₀ 2, SmoothedChebyshevIntegrand SmoothingF ε X (↑s + ↑T * I)) +\n          I * ∫ (t : ℝ) in Ici T, SmoothedChebyshevIntegrand SmoothingF ε X (2 + ↑t * I))",
       "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/5365476bb7e0988aaeb959174f4a06734f34bb6c/PrimeNumberTheoremAnd/MediumPNT.lean#L399"
     },
     "metadata": {
@@ -2439,7 +2439,7 @@
       "file": "LeanByExample/Tactic/Plausible.lean"
     },
     "debug_info": {
-      "goal": "\u22a2 \u2200 (a b : MyNat), a = b",
+      "goal": "⊢ ∀ (a b : MyNat), a = b",
       "url": "https://github.com/lean-ja/lean-by-example/blob/3ebe85bea550147ea661babd12b968bf8e97a7ed/LeanByExample/Tactic/Plausible.lean#L67"
     },
     "metadata": {
@@ -2464,7 +2464,7 @@
       "file": "PFR/MoreRuzsaDist.lean"
     },
     "debug_info": {
-      "goal": "G : Type u_5\nhG : MeasurableSpace G\ninst\u271d\u00b3 : MeasurableSingletonClass G\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : Countable G\ninst\u271d : Fintype G\nm : \u2115\nhm : m \u2265 1\n\u03a9 : Type u_8\nh\u03a9 : MeasureSpace \u03a9\nX : Fin (m + 1) \u00d7 Fin (m + 1) \u2192 \u03a9 \u2192 G\nh_indep : iIndepFun X \u2119\n\u22a2 I[fun \u03c9 j => \u2211 i, X (i, j) \u03c9 : fun \u03c9 i => \u2211 j, X (i, j) \u03c9|\u2211 p, X p] \u2264\n    \u2211 j,\n          (D[fun i => X (i, j) ; fun x => h\u03a9] -\n            D[fun i => X (i, j) | fun i => \u2211 k \u2208 Finset.Ici j, X (i, k) ; fun x => h\u03a9]) +\n        D[fun i => X (i, \u2191m) ; fun x => h\u03a9] -\n      D[fun i => \u2211 j, X (i, j) ; fun x => h\u03a9]",
+      "goal": "G : Type u_5\nhG : MeasurableSpace G\ninst✝³ : MeasurableSingletonClass G\ninst✝² : AddCommGroup G\ninst✝¹ : Countable G\ninst✝ : Fintype G\nm : ℕ\nhm : m ≥ 1\nΩ : Type u_8\nhΩ : MeasureSpace Ω\nX : Fin (m + 1) × Fin (m + 1) → Ω → G\nh_indep : iIndepFun X ℙ\n⊢ I[fun ω j => ∑ i, X (i, j) ω : fun ω i => ∑ j, X (i, j) ω|∑ p, X p] ≤\n    ∑ j,\n          (D[fun i => X (i, j) ; fun x => hΩ] -\n            D[fun i => X (i, j) | fun i => ∑ k ∈ Finset.Ici j, X (i, k) ; fun x => hΩ]) +\n        D[fun i => X (i, ↑m) ; fun x => hΩ] -\n      D[fun i => ∑ j, X (i, j) ; fun x => hΩ]",
       "url": "https://github.com/teorth/pfr/blob/0010cb5c36c6605a2d0e957390ab4955e6c9e3ff/PFR/MoreRuzsaDist.lean#L1518"
     },
     "metadata": {
@@ -2489,7 +2489,7 @@
       "file": "Mathlib/Tactic/Algebra.lean"
     },
     "debug_info": {
-      "goal": "x y : \u211a\n\u22a2 x ^ 2 + x * y = 1",
+      "goal": "x y : ℚ\n⊢ x ^ 2 + x * y = 1",
       "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L649"
     },
     "metadata": {
