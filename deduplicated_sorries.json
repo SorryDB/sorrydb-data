@@ -17027,52 +17027,52 @@
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
-      "branch": "arend/poly",
-      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
       "lean_version": "v4.18.0"
     },
     "location": {
       "path": "Mathlib/Tactic/Algebra.lean",
-      "start_line": 319,
+      "start_line": 365,
       "start_column": 22,
-      "end_line": 319,
+      "end_line": 365,
       "end_column": 27
     },
     "debug_info": {
       "goal": "\u00ab$u\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n$a\u2081\u271d \u00ab$a\u2082\u00bb \u00ab$a\u2081\u00bb : \u00ab$A\u00bb\n\u22a2 \u00ab$a\u2081\u00bb + Nat.rawCast 0 = \u00ab$a\u2081\u00bb",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L319"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L365"
     },
     "metadata": {
       "blame_email_hash": "677e25bc67b0",
       "blame_date": "2025-04-09T00:17:18+02:00",
-      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
     },
-    "id": "88b35be1c8a9bc6c964f27cc7f922e809e723148541872db621bae530e0646e8"
+    "id": "1ef5aef31b60b2bd2ea607397c7bb58be8b365d4b99166c2781f8827aa6fdb9a"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
-      "branch": "arend/poly",
-      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
       "lean_version": "v4.18.0"
     },
     "location": {
       "path": "Mathlib/Tactic/Algebra.lean",
-      "start_line": 322,
+      "start_line": 368,
       "start_column": 22,
-      "end_line": 322,
+      "end_line": 368,
       "end_column": 27
     },
     "debug_info": {
       "goal": "\u00ab$u\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$a\u2081\u00bb $a\u2082\u271d \u00ab$a\u2082\u00bb : \u00ab$A\u00bb\n\u22a2 Nat.rawCast 0 + \u00ab$a\u2082\u00bb = \u00ab$a\u2082\u00bb",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L322"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L368"
     },
     "metadata": {
       "blame_email_hash": "677e25bc67b0",
       "blame_date": "2025-04-10T16:14:36+02:00",
-      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
     },
-    "id": "eb9325db7d4b4597f0b1166d83d7e5fbc37aa126bd5f98bbb63f47bdd29cf964"
+    "id": "94f99dc277db30fabcf3fc1e314d2d1d5233ba6411cdb446c46a3eab97e15849"
   },
   {
     "repo": {
@@ -17202,27 +17202,27 @@
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
-      "branch": "arend/poly",
-      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
       "lean_version": "v4.18.0"
     },
     "location": {
       "path": "Mathlib/Tactic/Algebra.lean",
-      "start_line": 362,
+      "start_line": 416,
       "start_column": 24,
-      "end_line": 362,
+      "end_line": 416,
       "end_column": 29
     },
     "debug_info": {
       "goal": "\u00ab$u\u00bb : Level\n$A\u271d : Type u\n$sA\u271d : CommSemiring $A\u271d\n\u00ab$a\u2081\u00bb : $A\u271d\n\u00ab$A\u00bb : Type u\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$a\u2082\u00bb : \u00ab$A\u00bb\n\u22a2 Nat.rawCast 0 * \u00ab$a\u2082\u00bb = Nat.rawCast 0",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L362"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L416"
     },
     "metadata": {
       "blame_email_hash": "677e25bc67b0",
       "blame_date": "2025-04-09T00:17:18+02:00",
-      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
     },
-    "id": "92dbde403e0e2d156407443088723fcc42044b211bac83b28afd18e0a95f3b6b"
+    "id": "0575aaa2b15dd73ae7ba285d4245c4a2e5d20eca43d2ca6984cac44df8dafb38"
   },
   {
     "repo": {
@@ -17252,52 +17252,52 @@
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
-      "branch": "arend/poly",
-      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
       "lean_version": "v4.18.0"
     },
     "location": {
       "path": "Mathlib/Tactic/Algebra.lean",
-      "start_line": 370,
+      "start_line": 424,
       "start_column": 38,
-      "end_line": 370,
+      "end_line": 424,
       "end_column": 43
     },
     "debug_info": {
       "goal": "\u00ab$u\u00bb : Level\n$A\u271d : Type u\n$sA\u271d : CommSemiring $A\u271d\n\u00ab$a\u2081\u00bb : $A\u271d\n\u00ab$A\u00bb : Type u\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n$v\u271d : Level\n\u00ab$R\u00bb : Type v\u271d\n\u00ab$sR\u00bb : CommSemiring \u00ab$R\u00bb\n\u00ab$r\u00bb : \u00ab$R\u00bb\n\u00ab$a\u00bb \u00ab$t\u00bb : \u00ab$A\u00bb\n\u00ab$sRA\u00bb : Algebra \u00ab$R\u00bb \u00ab$A\u00bb\n\u00ab$a\u2082\u00bb \u00ab$a'\u00bb : \u00ab$A\u00bb\n\u00ab$pa'\u00bb : \u00ab$a\u00bb * \u00ab$a\u2082\u00bb = \u00ab$a'\u00bb\n\u00ab$t'\u00bb : \u00ab$A\u00bb\n\u00ab$pt'\u00bb : \u00ab$t\u00bb * \u00ab$a\u2082\u00bb = \u00ab$t'\u00bb\n\u22a2 (\u00ab$r\u00bb \u2022 \u00ab$a\u00bb + \u00ab$t\u00bb) * \u00ab$a\u2082\u00bb = \u00ab$r\u00bb \u2022 \u00ab$a'\u00bb + \u00ab$t'\u00bb",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L370"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L424"
     },
     "metadata": {
       "blame_email_hash": "677e25bc67b0",
       "blame_date": "2025-04-09T00:17:18+02:00",
-      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
     },
-    "id": "e70927f4f2859e45f3df5bf2ed5ebf2b3b507f496f563993c2a9996519f9bb37"
+    "id": "f6c4834f885c7e7fca5de16dd9672ca8bc0802def0f32c1f6d9bad5e4b8e06be"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
-      "branch": "arend/poly",
-      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
       "lean_version": "v4.18.0"
     },
     "location": {
       "path": "Mathlib/Tactic/Algebra.lean",
-      "start_line": 378,
+      "start_line": 432,
       "start_column": 24,
-      "end_line": 378,
+      "end_line": 432,
       "end_column": 29
     },
     "debug_info": {
       "goal": "\u00ab$u\u00bb : Level\n$A\u271d : Type u\n$sA\u271d : CommSemiring $A\u271d\n\u00ab$a\u2082\u00bb : $A\u271d\n\u00ab$A\u00bb : Type u\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$a\u2081\u00bb : \u00ab$A\u00bb\n\u22a2 \u00ab$a\u2081\u00bb * Nat.rawCast 0 = Nat.rawCast 0",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L378"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L432"
     },
     "metadata": {
       "blame_email_hash": "677e25bc67b0",
       "blame_date": "2025-04-09T00:17:18+02:00",
-      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
     },
-    "id": "51076a2b0119d234d94a21f2334ae42f51c7a6d32ae1e91c7636cce6194838fb"
+    "id": "2080ab0026588630603ca85fd29eecd73d56ec12c94c71c041576b3092175bcf"
   },
   {
     "repo": {
@@ -17327,33 +17327,33 @@
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
-      "branch": "arend/poly",
-      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
       "lean_version": "v4.18.0"
     },
     "location": {
       "path": "Mathlib/Tactic/Algebra.lean",
-      "start_line": 495,
-      "start_column": 38,
-      "end_line": 495,
-      "end_column": 43
+      "start_line": 552,
+      "start_column": 45,
+      "end_line": 552,
+      "end_column": 50
     },
     "debug_info": {
       "goal": "\u00ab$u\u00bb \u00ab$v\u00bb : Level\n\u00ab$R\u00bb : Type u\n\u00ab$A\u00bb : Type v\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$sR\u00bb : CommSemiring \u00ab$R\u00bb\n\u00ab$sRA\u00bb : Algebra \u00ab$R\u00bb \u00ab$A\u00bb\n\u00ab$r\u00bb : \u00ab$R\u00bb\n$a\u271d : \u00ab$A\u00bb\n$v\u271d : Level\n\u00ab$S\u00bb : Type v\u271d\n\u00ab$sS\u00bb : CommSemiring \u00ab$S\u00bb\n\u00ab$s\u00bb : \u00ab$S\u00bb\n\u00ab$a\u00bb $b\u271d : \u00ab$A\u00bb\n\u00ab$sSA\u00bb : Algebra \u00ab$S\u00bb \u00ab$A\u00bb\n\u00ab$et\u00bb : \u00ab$A\u00bb\n\u00ab$pt\u00bb : \u00ab$r\u00bb \u2022 $b\u271d = \u00ab$et\u00bb\n\u00ab$u\u2081\u00bb : Level\n\u00ab$R\u2081\u00bb : Type u\u2081\n\u00ab$iR\u2081\u00bb : CommSemiring \u00ab$R\u2081\u00bb\n\u00ab$sR\u2081A\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n\u00ab$r\u2081\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$pr\u2081\u00bb : \u00ab$s\u00bb \u2022 \u00ab$r\u00bb \u2022 \u00ab$a\u00bb = \u00ab$r\u2081\u00bb \u2022 \u00ab$a\u00bb\n\u22a2 \u00ab$r\u00bb \u2022 (\u00ab$s\u00bb \u2022 \u00ab$a\u00bb + $b\u271d) = \u00ab$r\u2081\u00bb \u2022 \u00ab$a\u00bb + \u00ab$et\u00bb",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L495"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L552"
     },
     "metadata": {
       "blame_email_hash": "677e25bc67b0",
-      "blame_date": "2025-03-31T18:54:54+02:00",
-      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+      "blame_date": "2025-04-25T17:49:22+02:00",
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
     },
-    "id": "8a760a1503c22d1615b738bcdfd78628353aa3f997b5e9c5c3ebc0bfaaf502cf"
+    "id": "afd5daa4c3ca42aa080901cd9553277d665a3136aa7551403719c13a7882bf00"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
-      "branch": "arend/poly",
-      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -17365,20 +17365,20 @@
     },
     "debug_info": {
       "goal": "a : \u211a\n\u22a2 a + a = 2 * a",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Polynomial.lean#L530"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Polynomial.lean#L530"
     },
     "metadata": {
       "blame_email_hash": "677e25bc67b0",
       "blame_date": "2025-02-25T18:05:11+01:00",
-      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
     },
-    "id": "bb4e8a8b5fe4ac30d4496be459ded460c04b5cb009507b556d6a4260462c7620"
+    "id": "ddf72bb6ac2cf2c05db381d9ca1375187d640bb059f5c12d727fdcf11446862c"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
-      "branch": "arend/poly",
-      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -17390,14 +17390,14 @@
     },
     "debug_info": {
       "goal": "a : \u211a\n\u22a2 a * a = a ^ 2",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Polynomial.lean#L530"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Polynomial.lean#L530"
     },
     "metadata": {
       "blame_email_hash": "677e25bc67b0",
       "blame_date": "2025-02-25T18:05:11+01:00",
-      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
     },
-    "id": "519b40fe6363b33886691745570984819d01d9e8fa1d68f46a9da632e19bd843"
+    "id": "54c8904e9c3eec29624b69fcded63c952e134526ae499f399817b4a9c96766c0"
   },
   {
     "repo": {
@@ -20027,77 +20027,77 @@
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
-      "branch": "arend/poly",
-      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
       "lean_version": "v4.18.0"
     },
     "location": {
       "path": "Mathlib/Tactic/Algebra.lean",
-      "start_line": 216,
+      "start_line": 257,
       "start_column": 36,
-      "end_line": 216,
+      "end_line": 257,
       "end_column": 41
     },
     "debug_info": {
       "goal": "\u00ab$u\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n$a\u271d : \u00ab$A\u00bb\n$hyp\u271d : Option Expr\n\u00ab$n\u00bb : \u2115\n\u00ab$a\u00bb : \u00ab$A\u00bb := \u2191\u00ab$n\u00bb * 1\n\u22a2 \u00ab$a\u00bb = \u2191\u00ab$n\u00bb * 1",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L216"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L257"
     },
     "metadata": {
       "blame_email_hash": "677e25bc67b0",
       "blame_date": "2025-04-13T18:43:26+02:00",
-      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
     },
-    "id": "9d45431a387b81457a8fe631f6e30f197f423fd8532d9964b10f38e57473e9ea"
+    "id": "3e22c038a8638536ea261624648d8ffa0b9cfee6e8b4ca0491f72044fddec3e2"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
-      "branch": "arend/poly",
-      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
       "lean_version": "v4.18.0"
     },
     "location": {
       "path": "Mathlib/Tactic/Algebra.lean",
-      "start_line": 219,
+      "start_line": 260,
       "start_column": 36,
-      "end_line": 219,
+      "end_line": 260,
       "end_column": 41
     },
     "debug_info": {
       "goal": "\u00ab$u\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$a\u00bb $x\u271d : \u00ab$A\u00bb\n$e\u271d : \u2115\n$b\u271d : \u00ab$A\u00bb\n\u00ab$n\u00bb : \u2115\n\u00ab$b'\u00bb : \u00ab$A\u00bb\n\u00ab$pb'\u00bb : $b\u271d = \u2191\u00ab$n\u00bb * \u00ab$b'\u00bb\n\u22a2 $x\u271d ^ $e\u271d * $b\u271d = \u2191\u00ab$n\u00bb * ($x\u271d ^ $e\u271d * \u00ab$b'\u00bb)",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L219"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L260"
     },
     "metadata": {
       "blame_email_hash": "677e25bc67b0",
       "blame_date": "2025-04-13T18:43:26+02:00",
-      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
     },
-    "id": "218921d7aaf2d0ca99df7c9ad56cbe41c922d918f30b5e8f9dfe79c641658120"
+    "id": "bb729561dfb5dc36a85d7f562ad085ea19bcc50f58ea59974a0a03ba8cb85a43"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
-      "branch": "arend/poly",
-      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
       "lean_version": "v4.18.0"
     },
     "location": {
       "path": "Mathlib/Tactic/Algebra.lean",
-      "start_line": 241,
+      "start_line": 282,
       "start_column": 28,
-      "end_line": 241,
+      "end_line": 282,
       "end_column": 33
     },
     "debug_info": {
       "goal": "\u00ab$u\u00bb \u00ab$v\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$R\u00bb : Type v\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$sR\u00bb : CommSemiring \u00ab$R\u00bb\n\u00ab$sRA\u00bb : Algebra \u00ab$R\u00bb \u00ab$A\u00bb\n\u00ab$r\u00bb : \u00ab$R\u00bb\n$a\u271d : \u00ab$A\u00bb\n\u00ab$n\u00bb : \u2115\n\u00ab$a\u00bb : \u00ab$A\u00bb\n\u00ab$pa\u00bb : $a\u271d = \u2191\u00ab$n\u00bb * \u00ab$a\u00bb\n\u22a2 \u00ab$r\u00bb \u2022 $a\u271d = \u00ab$r\u00bb \u2022 \u00ab$a\u00bb",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L241"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L282"
     },
     "metadata": {
       "blame_email_hash": "677e25bc67b0",
       "blame_date": "2025-04-13T18:43:26+02:00",
-      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
     },
-    "id": "766769845569eb006c7a112b671258ab15540aa03b804ec12b3f5e954697a2f0"
+    "id": "810bcb3f4e7138f9ea91eb72c1fa602f5d2e6f10405d12f76fc16c93d470b024"
   },
   {
     "repo": {
@@ -20227,77 +20227,77 @@
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
-      "branch": "arend/poly",
-      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
       "lean_version": "v4.18.0"
     },
     "location": {
       "path": "Mathlib/Tactic/Algebra.lean",
-      "start_line": 388,
+      "start_line": 442,
       "start_column": 20,
-      "end_line": 388,
+      "end_line": 442,
       "end_column": 25
     },
     "debug_info": {
       "goal": "\u00ab$u\u00bb : Level\n$A\u271d : Type u\n$sA\u271d : CommSemiring $A\u271d\n\u00ab$a\u2082\u00bb : $A\u271d\n\u00ab$A\u00bb : Type u\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n$v\u271d : Level\n\u00ab$R\u00bb : Type v\u271d\n\u00ab$sR\u00bb : CommSemiring \u00ab$R\u00bb\n\u00ab$r\u00bb : \u00ab$R\u00bb\n\u00ab$a\u00bb \u00ab$t\u00bb : \u00ab$A\u00bb\n\u00ab$sRA\u00bb : Algebra \u00ab$R\u00bb \u00ab$A\u00bb\n\u00ab$a\u2081\u00bb \u00ab$a'\u00bb : \u00ab$A\u00bb\n\u00ab$pa'\u00bb : \u00ab$a\u2081\u00bb * \u00ab$a\u00bb = \u00ab$a'\u00bb\n\u00ab$ra'\u00bb : \u00ab$A\u00bb\n\u00ab$pra'\u00bb : \u00ab$r\u00bb \u2022 \u00ab$a'\u00bb = \u00ab$ra'\u00bb\n\u00ab$t'\u00bb : \u00ab$A\u00bb\n\u00ab$pt'\u00bb : \u00ab$a\u2081\u00bb * \u00ab$t\u00bb = \u00ab$t'\u00bb\n$expr\u271d : \u00ab$A\u00bb\n\u00ab$p\u00bb : \u00ab$ra'\u00bb + \u00ab$t'\u00bb = $expr\u271d\n\u22a2 \u00ab$a\u2081\u00bb * (\u00ab$r\u00bb \u2022 \u00ab$a\u00bb + \u00ab$t\u00bb) = $expr\u271d",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L388"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L442"
     },
     "metadata": {
       "blame_email_hash": "677e25bc67b0",
       "blame_date": "2025-04-13T18:43:26+02:00",
-      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
     },
-    "id": "80f7c3b8bdf32dd060c26f4723bd3e60fc578f5ac7b8ddd2cf0cab67e47d272c"
+    "id": "3f097a67c22927235d073e4a7885b39506d8af44631d24be9330eed46efa347d"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
-      "branch": "arend/poly",
-      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
       "lean_version": "v4.18.0"
     },
     "location": {
       "path": "Mathlib/Tactic/Algebra.lean",
-      "start_line": 543,
+      "start_line": 600,
       "start_column": 24,
-      "end_line": 543,
+      "end_line": 600,
       "end_column": 29
     },
     "debug_info": {
       "goal": "\u00ab$u\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$n\u00bb : Name\n$us\u271d : List Level\n$x\u271d : Expr \u00d7 Expr \u00d7 Bool\n\u00ab$a\u00bb \u00ab$b\u00bb : \u00ab$A\u00bb\n\u00ab$e\u00bb : \u00ab$A\u00bb := \u00ab$a\u00bb + \u00ab$b\u00bb\n$expr\u271d\u00b2 : \u00ab$A\u00bb\n\u00ab$pa\u00bb : \u00ab$a\u00bb = $expr\u271d\u00b2\n$expr\u271d\u00b9 : \u00ab$A\u00bb\n\u00ab$pb\u00bb : \u00ab$b\u00bb = $expr\u271d\u00b9\n$expr\u271d : \u00ab$A\u00bb\n\u00ab$pab\u00bb : $expr\u271d\u00b2 + $expr\u271d\u00b9 = $expr\u271d\n\u22a2 \u00ab$e\u00bb = $expr\u271d",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L543"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L600"
     },
     "metadata": {
       "blame_email_hash": "677e25bc67b0",
       "blame_date": "2025-04-13T18:43:26+02:00",
-      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
     },
-    "id": "802f97fd289945fd786424c05ef6eeea45921efd06b350ebb384983750929b4d"
+    "id": "e6fcf08d10360d883313e545cc1b93d6bcc0f7431ac667cae3a1fe43bfc5d508"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
-      "branch": "arend/poly",
-      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
       "lean_version": "v4.18.0"
     },
     "location": {
       "path": "Mathlib/Tactic/Algebra.lean",
-      "start_line": 552,
+      "start_line": 609,
       "start_column": 24,
-      "end_line": 552,
+      "end_line": 609,
       "end_column": 29
     },
     "debug_info": {
       "goal": "\u00ab$u\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$n\u00bb : Name\n$us\u271d : List Level\n$x\u271d : Expr \u00d7 Expr \u00d7 Bool\n\u00ab$a\u00bb \u00ab$b\u00bb : \u00ab$A\u00bb\n\u00ab$e\u00bb : \u00ab$A\u00bb := \u00ab$a\u00bb * \u00ab$b\u00bb\n$expr\u271d\u00b2 : \u00ab$A\u00bb\n\u00ab$pa\u00bb : \u00ab$a\u00bb = $expr\u271d\u00b2\n$expr\u271d\u00b9 : \u00ab$A\u00bb\n\u00ab$pb\u00bb : \u00ab$b\u00bb = $expr\u271d\u00b9\n$expr\u271d : \u00ab$A\u00bb\n\u00ab$pab\u00bb : $expr\u271d\u00b2 * $expr\u271d\u00b9 = $expr\u271d\n\u22a2 \u00ab$e\u00bb = $expr\u271d",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L552"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L609"
     },
     "metadata": {
       "blame_email_hash": "677e25bc67b0",
       "blame_date": "2025-04-13T18:43:26+02:00",
-      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
     },
-    "id": "c9add0da1cab1289b4cc5d6816833eec11214f7239ce989bc5de35b10dc35e51"
+    "id": "9356c2954c552e9818e1035a084eec05c0b00a4387b0ad36167ae1903d2ff4d0"
   },
   {
     "repo": {
@@ -20577,52 +20577,52 @@
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
-      "branch": "arend/poly",
-      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
       "lean_version": "v4.18.0"
     },
     "location": {
       "path": "Mathlib/Tactic/Algebra.lean",
-      "start_line": 267,
+      "start_line": 309,
       "start_column": 73,
-      "end_line": 267,
+      "end_line": 309,
       "end_column": 78
     },
     "debug_info": {
       "goal": "\u00ab$u\u00bb \u00ab$v\u00bb \u00ab$w\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$R\u2081\u00bb : Type v\n\u00ab$R\u2082\u00bb : Type w\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$sR\u2081\u00bb : CommSemiring \u00ab$R\u2081\u00bb\n\u00ab$sRA\u2081\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n\u00ab$sR\u2082\u00bb : CommSemiring \u00ab$R\u2082\u00bb\n\u00ab$sRA\u2082\u00bb : Algebra \u00ab$R\u2082\u00bb \u00ab$A\u00bb\n\u00ab$r\u2081\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$r\u2082\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$a\u2081\u00bb \u00ab$a\u2082\u00bb : \u00ab$A\u00bb\n\u00ab$pf_isNat_zero\u00bb : NormNum.IsNat (\u00ab$a\u2081\u00bb + \u00ab$a\u2082\u00bb) 0\n\u22a2 1 \u2022 \u00ab$a\u2081\u00bb + 1 \u2022 \u00ab$a\u2082\u00bb = 1 \u2022 0",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L267"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L309"
     },
     "metadata": {
       "blame_email_hash": "677e25bc67b0",
       "blame_date": "2025-04-14T17:07:18+02:00",
-      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
     },
-    "id": "3f78f6436b79d4f9920d80e3c666ec2d11b19a8aa4fc0c36e76159ad2f67c16d"
+    "id": "96b68d4fb4e2fb05e809ec7917b749c91882484fe8b5e4a4b83e611917d8651c"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
-      "branch": "arend/poly",
-      "commit": "270c9100487679a942d640442ca9771ed77a0bc7",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
       "lean_version": "v4.18.0"
     },
     "location": {
       "path": "Mathlib/Tactic/Algebra.lean",
-      "start_line": 269,
+      "start_line": 311,
       "start_column": 52,
-      "end_line": 269,
+      "end_line": 311,
       "end_column": 57
     },
     "debug_info": {
       "goal": "\u00ab$u\u00bb \u00ab$v\u00bb \u00ab$w\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$R\u2081\u00bb : Type v\n\u00ab$R\u2082\u00bb : Type w\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$sR\u2081\u00bb : CommSemiring \u00ab$R\u2081\u00bb\n\u00ab$sRA\u2081\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n\u00ab$sR\u2082\u00bb : CommSemiring \u00ab$R\u2082\u00bb\n\u00ab$sRA\u2082\u00bb : Algebra \u00ab$R\u2082\u00bb \u00ab$A\u00bb\n\u00ab$r\u2081\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$r\u2082\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$a\u2081\u00bb \u00ab$a\u2082\u00bb $expr\u271d : \u00ab$A\u00bb\n\u00ab$pa\u00bb : \u00ab$a\u2081\u00bb + \u00ab$a\u2082\u00bb = $expr\u271d\n\u22a2 1 \u2022 \u00ab$a\u2081\u00bb + 1 \u2022 \u00ab$a\u2082\u00bb = 1 \u2022 $expr\u271d",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/270c9100487679a942d640442ca9771ed77a0bc7/Mathlib/Tactic/Algebra.lean#L269"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L311"
     },
     "metadata": {
       "blame_email_hash": "677e25bc67b0",
       "blame_date": "2025-04-14T17:07:18+02:00",
-      "inclusion_date": "2025-04-14T23:12:00.632566+00:00"
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
     },
-    "id": "03ee8c96d596ba8c9756e5cd4a87b72567ef832c45c8f9bbd0faa737052b54e1"
+    "id": "6196316dfb8c51a29432d750d1019641dda3bd0266d6d066625f61fecd0e0251"
   },
   {
     "repo": {
@@ -25348,5 +25348,230 @@
       "inclusion_date": "2025-04-25T13:23:47.451861+00:00"
     },
     "id": "07360f171b5f050ee560707a280cd644dd538f50cbf288a838b33a200e9aed60"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "path": "Mathlib/Tactic/Algebra.lean",
+      "start_line": 162,
+      "start_column": 60,
+      "end_line": 162,
+      "end_column": 65
+    },
+    "debug_info": {
+      "goal": "\u00ab$v\u00bb : Level\n\u00ab$A\u00bb : Type v\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$a\u00bb : \u00ab$A\u00bb\n\u22a2 \u00ab$a\u00bb = 1 \u2022 1 + Nat.rawCast 0",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L162"
+    },
+    "metadata": {
+      "blame_email_hash": "677e25bc67b0",
+      "blame_date": "2025-04-25T17:49:22+02:00",
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
+    },
+    "id": "3e73ea66dc72bdb85506f47a4a61f55d8f848317d1ad0f0b59db9e1e294be3eb"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "path": "Mathlib/Tactic/Algebra.lean",
+      "start_line": 163,
+      "start_column": 25,
+      "end_line": 163,
+      "end_column": 30
+    },
+    "debug_info": {
+      "goal": "\u00ab$v\u00bb : Level\n\u00ab$A\u00bb : Type v\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$a\u00bb $a\u271d : \u00ab$A\u00bb\n\u22a2 \u00ab$a\u00bb = $a\u271d",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L163"
+    },
+    "metadata": {
+      "blame_email_hash": "677e25bc67b0",
+      "blame_date": "2025-04-25T17:49:22+02:00",
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
+    },
+    "id": "79fd4a7061657af5982a0065d004d1068dc38de3e72637483590fc5463b805bc"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "path": "Mathlib/Tactic/Algebra.lean",
+      "start_line": 285,
+      "start_column": 31,
+      "end_line": 285,
+      "end_column": 36
+    },
+    "debug_info": {
+      "goal": "\u00ab$u\u00bb \u00ab$v\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$R\u00bb : Type v\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$sR\u00bb : CommSemiring \u00ab$R\u00bb\n\u00ab$sRA\u00bb : Algebra \u00ab$R\u00bb \u00ab$A\u00bb\n$r\u271d : \u00ab$R\u00bb\n$a\u271d : \u00ab$A\u00bb\n\u00ab$n\u00bb : \u2115\n\u00ab$a\u00bb : \u00ab$A\u00bb\n\u00ab$pa\u00bb : $a\u271d = \u2191\u00ab$n\u00bb * \u00ab$a\u00bb\n$expr\u271d : \u00ab$R\u00bb\n\u00ab$pr'\u00bb : $r\u271d = $expr\u271d\n\u00ab$r\u00bb : \u00ab$R\u00bb\n\u00ab$pr\u00bb : $expr\u271d * \u2191\u00ab$n\u00bb = \u00ab$r\u00bb\n\u22a2 $r\u271d \u2022 $a\u271d = \u00ab$r\u00bb \u2022 \u00ab$a\u00bb",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L285"
+    },
+    "metadata": {
+      "blame_email_hash": "677e25bc67b0",
+      "blame_date": "2025-04-25T17:49:22+02:00",
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
+    },
+    "id": "9cb0a255d75f77b1ed12710e068bfdd121bb69ac79c8e5645ddabe273810c759"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "path": "Mathlib/Tactic/Algebra.lean",
+      "start_line": 327,
+      "start_column": 54,
+      "end_line": 327,
+      "end_column": 59
+    },
+    "debug_info": {
+      "goal": "\u00ab$u\u00bb \u00ab$v\u00bb \u00ab$w\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$R\u2082\u00bb : Type w\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$sR\u2082\u00bb : CommSemiring \u00ab$R\u2082\u00bb\n\u00ab$sRA\u2082\u00bb : Algebra \u00ab$R\u2082\u00bb \u00ab$A\u00bb\n$r\u2082\u271d\u00b9 : \u00ab$R\u2082\u00bb\n$a\u2081\u271d $a\u2082\u271d : \u00ab$A\u00bb\n$r\u2082\u271d \u00ab$r\u2082\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$a\u2082\u00bb : \u00ab$A\u00bb\n\u00ab$pra\u2082\u00bb : $r\u2082\u271d \u2022 $a\u2082\u271d = \u00ab$r\u2082\u00bb \u2022 \u00ab$a\u2082\u00bb\n\u00ab$a\u2081\u00bb : \u00ab$A\u00bb := \u00ab$a\u2082\u00bb\n\u00ab$R\u2081\u00bb : Type w := \u00ab$R\u2082\u00bb\n\u00ab$sR\u2081\u00bb : CommSemiring \u00ab$R\u2081\u00bb\n\u00ab$sRA\u2081\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n$r\u2081\u271d\u00b9 $r\u2081\u271d \u00ab$r\u2081\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$pra\u2081\u00bb : $r\u2081\u271d \u2022 $a\u2081\u271d = \u00ab$r\u2081\u00bb \u2022 \u00ab$a\u2081\u00bb\n$r\u2081'\u271d \u00ab$r\u2081'\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$pr\u2081'\u00bb : $r\u2081'\u271d = \u00ab$r\u2081'\u00bb\n\u00ab$r\u2082'\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$pr\u2082'\u00bb : \u00ab$r\u2082\u00bb = \u00ab$r\u2082'\u00bb\n\u00ab$r\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$pr\u00bb : \u00ab$r\u2081'\u00bb + \u00ab$r\u2082'\u00bb = \u00ab$r\u00bb\n\u22a2 $r\u2081\u271d \u2022 $a\u2081\u271d + $r\u2082\u271d \u2022 $a\u2082\u271d = \u00ab$r\u00bb \u2022 \u00ab$a\u2082\u00bb",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L327"
+    },
+    "metadata": {
+      "blame_email_hash": "677e25bc67b0",
+      "blame_date": "2025-04-25T17:49:22+02:00",
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
+    },
+    "id": "c41558a93128b8d42d5ec663bb1321f82091cd9b9f748a971fd3d8c91149677a"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "path": "Mathlib/Tactic/Algebra.lean",
+      "start_line": 339,
+      "start_column": 53,
+      "end_line": 339,
+      "end_column": 58
+    },
+    "debug_info": {
+      "goal": "\u00ab$u\u00bb \u00ab$v\u00bb \u00ab$w\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$R\u2081\u00bb : Type v\n\u00ab$R\u2082\u00bb : Type w\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$sR\u2081\u00bb : CommSemiring \u00ab$R\u2081\u00bb\n\u00ab$sRA\u2081\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n\u00ab$sR\u2082\u00bb : CommSemiring \u00ab$R\u2082\u00bb\n\u00ab$sRA\u2082\u00bb : Algebra \u00ab$R\u2082\u00bb \u00ab$A\u00bb\n$r\u2081\u271d\u00b9 : \u00ab$R\u2081\u00bb\n$r\u2082\u271d\u00b9 : \u00ab$R\u2082\u00bb\n$a\u2081\u271d $a\u2082\u271d : \u00ab$A\u00bb\n$r\u2082\u271d : \u00ab$R\u2082\u00bb\n$r\u2081\u271d \u00ab$r\u2081\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$r\u2082\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$a\u2082\u00bb : \u00ab$A\u00bb\n\u00ab$pra\u2082\u00bb : $r\u2082\u271d \u2022 $a\u2082\u271d = \u00ab$r\u2082\u00bb \u2022 \u00ab$a\u2082\u00bb\n\u00ab$a\u2081\u00bb : \u00ab$A\u00bb := \u00ab$a\u2082\u00bb\n\u00ab$pra\u2081\u00bb : $r\u2081\u271d \u2022 $a\u2081\u271d = \u00ab$r\u2081\u00bb \u2022 \u00ab$a\u2081\u00bb\n\u00ab$_i\u2083\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$R\u2082\u00bb\n\u00ab$_i\u2084\u00bb : IsScalarTower \u00ab$R\u2081\u00bb \u00ab$R\u2082\u00bb \u00ab$A\u00bb\n$expr\u271d : \u00ab$R\u2082\u00bb\n\u00ab$pr\u2082\u00bb : \u00ab$r\u2082\u00bb = $expr\u271d\n\u00ab$r\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$pr\u00bb : \u00ab$r\u2081\u00bb \u2022 1 + Nat.rawCast 0 + $expr\u271d = \u00ab$r\u00bb\n\u22a2 $r\u2081\u271d \u2022 $a\u2081\u271d + $r\u2082\u271d \u2022 $a\u2082\u271d = \u00ab$r\u00bb \u2022 \u00ab$a\u2082\u00bb",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L339"
+    },
+    "metadata": {
+      "blame_email_hash": "677e25bc67b0",
+      "blame_date": "2025-04-25T17:49:22+02:00",
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
+    },
+    "id": "38d93f8c987b0bd1ca9604ac5477590e4ef15aaf46ac5353baed1d6b225e6d6a"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "path": "Mathlib/Tactic/Algebra.lean",
+      "start_line": 350,
+      "start_column": 53,
+      "end_line": 350,
+      "end_column": 58
+    },
+    "debug_info": {
+      "goal": "\u00ab$u\u00bb \u00ab$v\u00bb \u00ab$w\u00bb : Level\n\u00ab$A\u00bb : Type u\n\u00ab$R\u2081\u00bb : Type v\n\u00ab$R\u2082\u00bb : Type w\n\u00ab$sA\u00bb : CommSemiring \u00ab$A\u00bb\n\u00ab$sR\u2081\u00bb : CommSemiring \u00ab$R\u2081\u00bb\n\u00ab$sRA\u2081\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n\u00ab$sR\u2082\u00bb : CommSemiring \u00ab$R\u2082\u00bb\n\u00ab$sRA\u2082\u00bb : Algebra \u00ab$R\u2082\u00bb \u00ab$A\u00bb\n$r\u2081\u271d\u00b9 : \u00ab$R\u2081\u00bb\n$r\u2082\u271d\u00b9 : \u00ab$R\u2082\u00bb\n$a\u2081\u271d $a\u2082\u271d : \u00ab$A\u00bb\n$r\u2082\u271d : \u00ab$R\u2082\u00bb\n$r\u2081\u271d \u00ab$r\u2081\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$r\u2082\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$a\u2082\u00bb : \u00ab$A\u00bb\n\u00ab$pra\u2082\u00bb : $r\u2082\u271d \u2022 $a\u2082\u271d = \u00ab$r\u2082\u00bb \u2022 \u00ab$a\u2082\u00bb\n\u00ab$a\u2081\u00bb : \u00ab$A\u00bb := \u00ab$a\u2082\u00bb\n\u00ab$pra\u2081\u00bb : $r\u2081\u271d \u2022 $a\u2081\u271d = \u00ab$r\u2081\u00bb \u2022 \u00ab$a\u2081\u00bb\n\u00ab$_i\u2083\u00bb : Algebra \u00ab$R\u2082\u00bb \u00ab$R\u2081\u00bb\n\u00ab$_i\u2084\u00bb : IsScalarTower \u00ab$R\u2082\u00bb \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n$expr\u271d : \u00ab$R\u2081\u00bb\n\u00ab$pr\u2081\u00bb : \u00ab$r\u2081\u00bb = $expr\u271d\n\u00ab$r\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$pr\u00bb : \u00ab$r\u2082\u00bb \u2022 1 + Nat.rawCast 0 + $expr\u271d = \u00ab$r\u00bb\n\u22a2 $r\u2081\u271d \u2022 $a\u2081\u271d + $r\u2082\u271d \u2022 $a\u2082\u271d = \u00ab$r\u00bb \u2022 \u00ab$a\u2081\u00bb",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L350"
+    },
+    "metadata": {
+      "blame_email_hash": "677e25bc67b0",
+      "blame_date": "2025-04-25T17:49:22+02:00",
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
+    },
+    "id": "615b85ce20348b7db69790997369ea18935333141092218ce11b3c694d0af33f"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "path": "Mathlib/Tactic/Algebra.lean",
+      "start_line": 507,
+      "start_column": 37,
+      "end_line": 507,
+      "end_column": 42
+    },
+    "debug_info": {
+      "goal": "\u00ab$v\u00bb : Level\n\u00ab$A\u00bb : Type v\n\u00ab$iA\u00bb : Semiring \u00ab$A\u00bb\n\u00ab$u\u2081\u00bb \u00ab$u\u2082\u00bb : Level\n\u00ab$R\u2082\u00bb : Type u\u2082\n\u00ab$iR\u2082\u00bb : CommSemiring \u00ab$R\u2082\u00bb\n\u00ab$iRA\u2082\u00bb : Algebra \u00ab$R\u2082\u00bb \u00ab$A\u00bb\n\u00ab$r\u2082\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$a\u00bb : \u00ab$A\u00bb\n\u00ab$R\u2081\u00bb : Type u\u2082 := \u00ab$R\u2082\u00bb\n\u00ab$iR\u2081\u00bb : CommSemiring \u00ab$R\u2081\u00bb\n\u00ab$iRA\u2081\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n\u00ab$r\u2081\u00bb : \u00ab$R\u2081\u00bb\n$r\u2081'\u271d \u00ab$r\u2082'\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$pr\u2082'\u00bb : \u00ab$r\u2082\u00bb = \u00ab$r\u2082'\u00bb\n\u00ab$r\u2081'\u00bb : \u00ab$R\u2082\u00bb := \u00ab$r\u2081\u00bb\n\u00ab$pr\u2081'\u00bb : $r\u2081'\u271d = \u00ab$r\u2081'\u00bb\n\u00ab$r\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$pr\u00bb : \u00ab$r\u2081'\u00bb * \u00ab$r\u2082'\u00bb = \u00ab$r\u00bb\n\u22a2 \u00ab$r\u2081\u00bb \u2022 \u00ab$r\u2082\u00bb \u2022 \u00ab$a\u00bb = \u00ab$r\u00bb \u2022 \u00ab$a\u00bb",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L507"
+    },
+    "metadata": {
+      "blame_email_hash": "677e25bc67b0",
+      "blame_date": "2025-04-08T17:33:25+02:00",
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
+    },
+    "id": "3ac5707ea2567ae38fa216b3247478e017c5c611efcf6858b24c57082e48a466"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "path": "Mathlib/Tactic/Algebra.lean",
+      "start_line": 519,
+      "start_column": 38,
+      "end_line": 519,
+      "end_column": 43
+    },
+    "debug_info": {
+      "goal": "\u00ab$v\u00bb : Level\n\u00ab$A\u00bb : Type v\n\u00ab$iA\u00bb : Semiring \u00ab$A\u00bb\n\u00ab$u\u2081\u00bb : Level\n\u00ab$R\u2081\u00bb : Type u\u2081\n\u00ab$u\u2082\u00bb : Level\n\u00ab$R\u2082\u00bb : Type u\u2082\n\u00ab$iR\u2082\u00bb : CommSemiring \u00ab$R\u2082\u00bb\n\u00ab$iRA\u2082\u00bb : Algebra \u00ab$R\u2082\u00bb \u00ab$A\u00bb\n\u00ab$r\u2081\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$r\u2082\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$a\u00bb : \u00ab$A\u00bb\n\u00ab$_i\u2081\u00bb : CommSemiring \u00ab$R\u2081\u00bb\n\u00ab$_i\u2083\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$R\u2082\u00bb\n\u00ab$iR\u2081\u00bb : CommSemiring \u00ab$R\u2081\u00bb := \u00ab$_i\u2081\u00bb\n\u00ab$iRA\u2081\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n\u00ab$_i\u2084\u00bb : IsScalarTower \u00ab$R\u2081\u00bb \u00ab$R\u2082\u00bb \u00ab$A\u00bb\n\u00ab$r\u2082'\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$pr\u2082'\u00bb : \u00ab$r\u2082\u00bb = \u00ab$r\u2082'\u00bb\n\u00ab$r\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$pr\u00bb : \u00ab$r\u2081\u00bb \u2022 \u00ab$r\u2082'\u00bb = \u00ab$r\u00bb\n\u22a2 \u00ab$r\u2081\u00bb \u2022 \u00ab$r\u2082\u00bb \u2022 \u00ab$a\u00bb = \u00ab$r\u00bb \u2022 \u00ab$a\u00bb",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L519"
+    },
+    "metadata": {
+      "blame_email_hash": "677e25bc67b0",
+      "blame_date": "2025-04-25T17:49:22+02:00",
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
+    },
+    "id": "9ac0a2c4ba67793806bd3a51e572c62f30ec0221a884accb1d73b35dbaf6308c"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "arend/algebra",
+      "commit": "6706af18f127b0a3c0e8442a9af50d9257bb7703",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "path": "Mathlib/Tactic/Algebra.lean",
+      "start_line": 530,
+      "start_column": 38,
+      "end_line": 530,
+      "end_column": 43
+    },
+    "debug_info": {
+      "goal": "\u00ab$v\u00bb : Level\n\u00ab$A\u00bb : Type v\n\u00ab$iA\u00bb : Semiring \u00ab$A\u00bb\n\u00ab$u\u2081\u00bb : Level\n\u00ab$R\u2081\u00bb : Type u\u2081\n\u00ab$iR\u2081\u00bb : CommSemiring \u00ab$R\u2081\u00bb\n\u00ab$iRA\u2081\u00bb : Algebra \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n\u00ab$u\u2082\u00bb : Level\n\u00ab$R\u2082\u00bb : Type u\u2082\n\u00ab$r\u2081\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$r\u2082\u00bb : \u00ab$R\u2082\u00bb\n\u00ab$a\u00bb : \u00ab$A\u00bb\n\u00ab$_i\u2081\u00bb : CommSemiring \u00ab$R\u2082\u00bb\n\u00ab$_i\u2083\u00bb : Algebra \u00ab$R\u2082\u00bb \u00ab$R\u2081\u00bb\n\u00ab$iR\u2082\u00bb : CommSemiring \u00ab$R\u2082\u00bb := \u00ab$_i\u2081\u00bb\n\u00ab$iRA\u2082\u00bb : Algebra \u00ab$R\u2082\u00bb \u00ab$A\u00bb\n\u00ab$_i\u2084\u00bb : IsScalarTower \u00ab$R\u2082\u00bb \u00ab$R\u2081\u00bb \u00ab$A\u00bb\n\u00ab$r\u2081'\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$pr\u2081'\u00bb : \u00ab$r\u2081\u00bb = \u00ab$r\u2081'\u00bb\n\u00ab$r\u00bb : \u00ab$R\u2081\u00bb\n\u00ab$pr\u00bb : \u00ab$r\u2082\u00bb \u2022 \u00ab$r\u2081'\u00bb = \u00ab$r\u00bb\n\u22a2 \u00ab$r\u2081\u00bb \u2022 \u00ab$r\u2082\u00bb \u2022 \u00ab$a\u00bb = \u00ab$r\u00bb \u2022 \u00ab$a\u00bb",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/6706af18f127b0a3c0e8442a9af50d9257bb7703/Mathlib/Tactic/Algebra.lean#L530"
+    },
+    "metadata": {
+      "blame_email_hash": "677e25bc67b0",
+      "blame_date": "2025-04-25T17:49:22+02:00",
+      "inclusion_date": "2025-04-25T23:03:15.027137+00:00"
+    },
+    "id": "eddefc05c612826bd4abb6b6c341a52be7f105fa2cf77b54664a3024abecc6a8"
   }
 ]
