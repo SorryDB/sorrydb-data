@@ -8228,7 +8228,7 @@
     "repo": {
       "remote": "https://github.com/leanprover-community/duper",
       "branch": "dev",
-      "commit": "1db97af9ae87a0ecc0c4a983c990e3739d91abd8",
+      "commit": "d7ce7dcd3454aca1804feb088c16ad836094b89d",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -8240,20 +8240,20 @@
     },
     "debug_info": {
       "goal": "ax1 : \u2200 (x : Inhab), Peculiar x \u2194 (Sane x \u2194 \u00acDoctor x)\nax2 : \u2200 (x : Inhab), Special x \u2194 \u2200 (y : Inhab), \u00acDoctor y \u2194 (Sane y \u2194 Peculiar x)\nax3 : \u2200 (x y : Inhab), (Sane x \u2194 Special y) \u2192 (Sane (bf x) \u2194 \u00acDoctor y)\nax4 : Sane Tarr \u2194 \u2200 (x : Inhab), Doctor x \u2192 Sane x\nax5 : Sane Fether \u2194 \u2200 (x : Inhab), \u00acDoctor x \u2192 \u00acSane x\nax6 : Sane Fether \u2194 Sane Tarr\n\u22a2 False",
-      "url": "https://github.com/leanprover-community/duper/blob/1db97af9ae87a0ecc0c4a983c990e3739d91abd8/Duper/Tests/lastAsylum.lean#L35"
+      "url": "https://github.com/leanprover-community/duper/blob/d7ce7dcd3454aca1804feb088c16ad836094b89d/Duper/Tests/lastAsylum.lean#L35"
     },
     "metadata": {
       "blame_email_hash": "d9c480704efb",
       "blame_date": "2022-08-01T22:37:02-04:00",
-      "inclusion_date": "2025-04-25T13:44:21.854513+00:00"
+      "inclusion_date": "2025-04-27T23:16:57.924870+00:00"
     },
-    "id": "71dbc6ccc12dc8a34b742b1c4ebe91ecf5c6993713cc48d837bcfe30afc65c06"
+    "id": "fafc5cd9165e8512f1454d08fea2ee7c9ca1349e1bd361095057033b87158e14"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/duper",
       "branch": "dev",
-      "commit": "1db97af9ae87a0ecc0c4a983c990e3739d91abd8",
+      "commit": "d7ce7dcd3454aca1804feb088c16ad836094b89d",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -8265,20 +8265,20 @@
     },
     "debug_info": {
       "goal": "a : Real\n\u22a2 dist a a = zero",
-      "url": "https://github.com/leanprover-community/duper/blob/1db97af9ae87a0ecc0c4a983c990e3739d91abd8/Duper/Tests/test_continuity.lean#L18"
+      "url": "https://github.com/leanprover-community/duper/blob/d7ce7dcd3454aca1804feb088c16ad836094b89d/Duper/Tests/test_continuity.lean#L18"
     },
     "metadata": {
       "blame_email_hash": "4ac7eab8a488",
       "blame_date": "2023-06-05T10:39:00+02:00",
-      "inclusion_date": "2025-04-25T13:44:21.854513+00:00"
+      "inclusion_date": "2025-04-27T23:16:57.924870+00:00"
     },
-    "id": "96ec49e5a8a0352d9d633fa1e81a279b194d105c9f45a1d589548603b962d721"
+    "id": "01396a5701d5dca61ce61ab6711a98142e3d7f272e4b44b50a57a6cce6b296ee"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/duper",
       "branch": "dev",
-      "commit": "1db97af9ae87a0ecc0c4a983c990e3739d91abd8",
+      "commit": "d7ce7dcd3454aca1804feb088c16ad836094b89d",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -8290,20 +8290,20 @@
     },
     "debug_info": {
       "goal": "a : Real\n\u22a2 lt zero one",
-      "url": "https://github.com/leanprover-community/duper/blob/1db97af9ae87a0ecc0c4a983c990e3739d91abd8/Duper/Tests/test_continuity.lean#L20"
+      "url": "https://github.com/leanprover-community/duper/blob/d7ce7dcd3454aca1804feb088c16ad836094b89d/Duper/Tests/test_continuity.lean#L20"
     },
     "metadata": {
       "blame_email_hash": "4ac7eab8a488",
       "blame_date": "2023-06-05T10:39:00+02:00",
-      "inclusion_date": "2025-04-25T13:44:21.854513+00:00"
+      "inclusion_date": "2025-04-27T23:16:57.924870+00:00"
     },
-    "id": "07ee0f8c898fb80f179672600fc7e540646ff51cba51c37e2d48f449fde8b869"
+    "id": "9934efb71f1677122ff5575b58afe67f0225326e49cb830114a4e6219b6d6d09"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/batteries",
       "branch": "docs",
-      "commit": "a194b7b995c53df12f7773ba4e2b96d76c44493d",
+      "commit": "e08f382e8eef128ea6881d6e81d407665f9b29a1",
       "lean_version": "v4.19.0-rc2"
     },
     "location": {
@@ -8315,20 +8315,20 @@
     },
     "debug_info": {
       "goal": "\u03b1 : Type u_1\ninst\u271d : Mul \u03b1\na x y : \u03b1\u1d50\u1d52\u1d56\n\u22a2 SemiconjBy a.unop y.unop x.unop \u2194 SemiconjBy a x y",
-      "url": "https://github.com/leanprover-community/batteries/blob/a194b7b995c53df12f7773ba4e2b96d76c44493d/BatteriesTest/lintsimp.lean#L37"
+      "url": "https://github.com/leanprover-community/batteries/blob/e08f382e8eef128ea6881d6e81d407665f9b29a1/BatteriesTest/lintsimp.lean#L37"
     },
     "metadata": {
       "blame_email_hash": "8a7dcd08b95f",
       "blame_date": "2022-12-18T15:51:52-05:00",
-      "inclusion_date": "2025-04-26T23:50:23.300338+00:00"
+      "inclusion_date": "2025-04-27T23:28:01.228229+00:00"
     },
-    "id": "f990a06083893701b9dce0754f24f05dfbe0adb41df1d4b7e961a30293b3a8cb"
+    "id": "ff1bbe2412f55d088de1f1224c0df3917dedd57f6132f45dbc73cd91cfd0fa66"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/batteries",
       "branch": "docs",
-      "commit": "a194b7b995c53df12f7773ba4e2b96d76c44493d",
+      "commit": "e08f382e8eef128ea6881d6e81d407665f9b29a1",
       "lean_version": "v4.19.0-rc2"
     },
     "location": {
@@ -8340,20 +8340,20 @@
     },
     "debug_info": {
       "goal": "h : 1 = 1\n\u22a2 True",
-      "url": "https://github.com/leanprover-community/batteries/blob/a194b7b995c53df12f7773ba4e2b96d76c44493d/BatteriesTest/lintunused.lean#L7"
+      "url": "https://github.com/leanprover-community/batteries/blob/e08f382e8eef128ea6881d6e81d407665f9b29a1/BatteriesTest/lintunused.lean#L7"
     },
     "metadata": {
       "blame_email_hash": "45b5ed8e3c8e",
       "blame_date": "2023-08-08T02:17:31+02:00",
-      "inclusion_date": "2025-04-26T23:50:23.300338+00:00"
+      "inclusion_date": "2025-04-27T23:28:01.228229+00:00"
     },
-    "id": "de3a7059a380442d0b7f092b122829b00389fc06a253173991892887ff036787"
+    "id": "6486f75ce4b24d0ebb97771d1252274754b4c36ab2b6d7b44542129c31888f1a"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/batteries",
       "branch": "docs",
-      "commit": "a194b7b995c53df12f7773ba4e2b96d76c44493d",
+      "commit": "e08f382e8eef128ea6881d6e81d407665f9b29a1",
       "lean_version": "v4.19.0-rc2"
     },
     "location": {
@@ -8365,20 +8365,20 @@
     },
     "debug_info": {
       "goal": "\u22a2 1 = 1",
-      "url": "https://github.com/leanprover-community/batteries/blob/a194b7b995c53df12f7773ba4e2b96d76c44493d/BatteriesTest/lint_unreachableTactic.lean#L23"
+      "url": "https://github.com/leanprover-community/batteries/blob/e08f382e8eef128ea6881d6e81d407665f9b29a1/BatteriesTest/lint_unreachableTactic.lean#L23"
     },
     "metadata": {
       "blame_email_hash": "45b5ed8e3c8e",
       "blame_date": "2023-08-26T11:27:15+01:00",
-      "inclusion_date": "2025-04-26T23:50:23.300338+00:00"
+      "inclusion_date": "2025-04-27T23:28:01.228229+00:00"
     },
-    "id": "60d4409992b7e82f899eb5db0d63557141e8f1a157e3751bcc9470bf3de75fbe"
+    "id": "7a35e453bf068d0f9b9b361aa0c6423d8b413e4ef1adb3c51d0eff5802d09941"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/batteries",
       "branch": "docs",
-      "commit": "a194b7b995c53df12f7773ba4e2b96d76c44493d",
+      "commit": "e08f382e8eef128ea6881d6e81d407665f9b29a1",
       "lean_version": "v4.19.0-rc2"
     },
     "location": {
@@ -8390,14 +8390,14 @@
     },
     "debug_info": {
       "goal": "aa : Nat\n\u22a2 aa = 0 \u2192 t aa = 0",
-      "url": "https://github.com/leanprover-community/batteries/blob/a194b7b995c53df12f7773ba4e2b96d76c44493d/BatteriesTest/lint_unreachableTactic.lean#L31"
+      "url": "https://github.com/leanprover-community/batteries/blob/e08f382e8eef128ea6881d6e81d407665f9b29a1/BatteriesTest/lint_unreachableTactic.lean#L31"
     },
     "metadata": {
       "blame_email_hash": "45b5ed8e3c8e",
       "blame_date": "2023-08-26T11:27:15+01:00",
-      "inclusion_date": "2025-04-26T23:50:23.300338+00:00"
+      "inclusion_date": "2025-04-27T23:28:01.228229+00:00"
     },
-    "id": "4d14d59c7a4dcd50e21fcc001c9a1d4ac3b20d729ca5e72bd6a86bb20b4b6ed6"
+    "id": "73deb269369c17e277d84611aec91e42ded2c39a6e427aa0e8f17e8fb219826c"
   },
   {
     "repo": {
@@ -23778,26 +23778,26 @@
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
       "branch": "hilbert7",
-      "commit": "e6ee3438876611142fd0c7aa2dc6abce306726d0",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Mathlib/NumberTheory/h7.lean",
-      "start_line": 910,
+      "start_line": 946,
       "start_column": 2,
-      "end_line": 910,
+      "end_line": 946,
       "end_column": 7
     },
     "debug_info": {
       "goal": "case h\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt\u271d\u00b9 : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nk : \u2115\nhR : R \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq t\u271d\u00b9 = 0\nt\u271d : Fin (q * q)\nthis : \u2200 (x : \u2102), iteratedDeriv k (fun x => R \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq t\u271d x) x = 0\nderiv_eq :\n  (iteratedDeriv k fun x => R \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq t\u271d x) = fun x =>\n    \u2211 t, \u03c3 \u2191(\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq t) * cexp (\u03c1 \u03b1 \u03b2 q t * x) * \u03c1 \u03b1 \u03b2 q t ^ k\nderiv_eq_0 : iteratedDeriv k (fun x => R \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq t\u271d x) 0 = 0\nt : Fin (q * q)\nht : t \u2208 Finset.univ\n\u22a2 \u03c1 \u03b1 \u03b2 q t ^ \u2191t\u271d = \u03c1 \u03b1 \u03b2 q t ^ k",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/e6ee3438876611142fd0c7aa2dc6abce306726d0/Mathlib/NumberTheory/h7.lean#L910"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L946"
     },
     "metadata": {
       "blame_email_hash": "427ce08bc78e",
       "blame_date": "2025-04-08T00:24:25+02:00",
-      "inclusion_date": "2025-04-25T12:56:52.386588+00:00"
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
     },
-    "id": "32ef2d5d59ee033ee4ae5e85f2a0c459839adad81128d7bdfb8ce4e90814ed96"
+    "id": "fd79e8138c1ccf7b0cd46ddf2aad4ecad8829f9cfab4082f16664d4becb559b0"
   },
   {
     "repo": {
@@ -24053,7 +24053,7 @@
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
       "branch": "hilbert7",
-      "commit": "c74e6cc3ff7443de2e01b3d5e1e61989b0fed3df",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -24065,20 +24065,20 @@
     },
     "debug_info": {
       "goal": "k : \u2115\nf : \u2102 \u2192 \u2102\nhf : \u2200 (z : \u2102), AnalyticAt \u2102 f z\nhfdev : \u2200 (z : \u2102), AnalyticAt \u2102 (iteratedDeriv k f) z\nz : \u2102\nthis : AnalyticAt \u2102 (deriv^[k] f) z\n\u22a2 \u22ef.order = \u22ef.order - 1",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/c74e6cc3ff7443de2e01b3d5e1e61989b0fed3df/Mathlib/NumberTheory/h7.lean#L121"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L121"
     },
     "metadata": {
       "blame_email_hash": "427ce08bc78e",
       "blame_date": "2025-04-24T01:59:03+02:00",
-      "inclusion_date": "2025-04-26T23:07:27.201509+00:00"
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
     },
-    "id": "47c553b3734de0f9fdfabd8e2ef2099cf8effe71af591e8e45194b63356c02a9"
+    "id": "fe963aa7a7239e3a4f7c9dc2ba383864807a6de67b78c4a3790f8fc2dfd77691"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
       "branch": "hilbert7",
-      "commit": "c74e6cc3ff7443de2e01b3d5e1e61989b0fed3df",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -24090,14 +24090,14 @@
     },
     "debug_info": {
       "goal": "case mp.intro\nk n : \u2115\nf : \u2102 \u2192 \u2102\nz : \u2102\nhf : \u2200 (z : \u2102), AnalyticAt \u2102 f z\nhord : \u22ef.order \u2260 \u22a4\nH1 : \u2200 k < n, iteratedDeriv k f z = 0\nH2 : iteratedDeriv k f z \u2260 0\n\u22a2 \u2203 g, AnalyticAt \u2102 g z \u2227 g z \u2260 0 \u2227 \u2200\u1da0 (z_1 : \u2102) in nhds z, f z_1 = (z_1 - z) ^ n \u2022 g z_1",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/c74e6cc3ff7443de2e01b3d5e1e61989b0fed3df/Mathlib/NumberTheory/h7.lean#L137"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L137"
     },
     "metadata": {
       "blame_email_hash": "427ce08bc78e",
       "blame_date": "2025-04-24T01:59:03+02:00",
-      "inclusion_date": "2025-04-26T23:07:27.201509+00:00"
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
     },
-    "id": "8f480616226fbfed3e689f0700a212a5f7a03d9d2b6eebb71ba638701065af79"
+    "id": "4425cb118900847ed8d098e9b1106a5f368a7748c4d8138e4962557917b50916"
   },
   {
     "repo": {
@@ -24153,26 +24153,26 @@
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
       "branch": "hilbert7",
-      "commit": "e6ee3438876611142fd0c7aa2dc6abce306726d0",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Mathlib/NumberTheory/h7.lean",
-      "start_line": 614,
+      "start_line": 643,
       "start_column": 8,
-      "end_line": 614,
+      "end_line": 643,
       "end_column": 13
     },
     "debug_info": {
       "goal": "case calc_2.h.h\u2081.h\u2081.h\u2082\nK : Type\ninst\u271d\u00b9 : Field K\n\u03b1' \u03b2' \u03b3' : K\ninst\u271d : NumberField K\nq : \u2115\nu\u271d : Fin (m K * n K q)\nt\u271d : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nu : Fin (m K * n K q)\nt : Fin (q * q)\na : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).1 + 1\nb : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).2 + 1\nk : \u2115 := \u2191(finProdFinEquiv.symm.toFun u).2\nl : \u2115 := \u2191(finProdFinEquiv.symm.toFun u).1 + 1\nf : -1 / 2 + \u2191(n K q) * (1 / 2) = (\u2191(n K q) - 1) / 2\n\u22a2 house (\u2191a + \u2191b * \u03b2') ^ k \u2264 \u2191(2 * m K).sqrt * (1 + house \u03b2')",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/e6ee3438876611142fd0c7aa2dc6abce306726d0/Mathlib/NumberTheory/h7.lean#L614"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L643"
     },
     "metadata": {
       "blame_email_hash": "427ce08bc78e",
       "blame_date": "2025-04-10T17:49:33+02:00",
-      "inclusion_date": "2025-04-25T12:56:52.386588+00:00"
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
     },
-    "id": "a704571d9a4643a61cf20052e9618db7ae591e8e82ef48fdb91ee2d07f27607f"
+    "id": "3d823244f7e034e1e18c1434feaee90c5dfa31650d4a04c5308dde6d58241713"
   },
   {
     "repo": {
@@ -24203,26 +24203,26 @@
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
       "branch": "hilbert7",
-      "commit": "e6ee3438876611142fd0c7aa2dc6abce306726d0",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Mathlib/NumberTheory/h7.lean",
-      "start_line": 630,
+      "start_line": 666,
       "start_column": 8,
-      "end_line": 630,
+      "end_line": 666,
       "end_column": 13
     },
     "debug_info": {
       "goal": "case calc_2.h.h\u2082\nK : Type\ninst\u271d\u00b9 : Field K\n\u03b1' \u03b2' \u03b3' : K\ninst\u271d : NumberField K\nq : \u2115\nu\u271d : Fin (m K * n K q)\nt\u271d : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nu : Fin (m K * n K q)\nt : Fin (q * q)\na : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).1 + 1\nb : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).2 + 1\nk : \u2115 := \u2191(finProdFinEquiv.symm.toFun u).2\nl : \u2115 := \u2191(finProdFinEquiv.symm.toFun u).1 + 1\nf : -1 / 2 + \u2191(n K q) * (1 / 2) = (\u2191(n K q) - 1) / 2\n\u22a2 house \u03b3' ^ (b * l) \u2264 house \u03b3' ^ (2 * m K ^ 2)",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/e6ee3438876611142fd0c7aa2dc6abce306726d0/Mathlib/NumberTheory/h7.lean#L630"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L666"
     },
     "metadata": {
       "blame_email_hash": "427ce08bc78e",
       "blame_date": "2025-04-10T17:49:33+02:00",
-      "inclusion_date": "2025-04-25T12:56:52.386588+00:00"
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
     },
-    "id": "db6d2f929f6af4f2b8c50c049ca5f35d54807b4d97720f4d36cc1252f9d1fb13"
+    "id": "3a3dd409c967c7a419e73c529c42ae07166f4ab40e85a02387aa8f6f633dd949"
   },
   {
     "repo": {
@@ -24353,26 +24353,26 @@
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
       "branch": "hilbert7",
-      "commit": "e6ee3438876611142fd0c7aa2dc6abce306726d0",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Mathlib/NumberTheory/h7.lean",
-      "start_line": 1375,
+      "start_line": 1411,
       "start_column": 15,
-      "end_line": 1375,
+      "end_line": 1411,
       "end_column": 20
     },
     "debug_info": {
       "goal": "\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\n\u22a2 let r := r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq;\n  r \u2264 n K q",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/e6ee3438876611142fd0c7aa2dc6abce306726d0/Mathlib/NumberTheory/h7.lean#L1375"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1411"
     },
     "metadata": {
       "blame_email_hash": "427ce08bc78e",
       "blame_date": "2025-04-24T17:54:44+02:00",
-      "inclusion_date": "2025-04-25T12:56:52.386588+00:00"
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
     },
-    "id": "5ae6522d73cb96b6582bd791e3136cf983fb93ff0cacfbeef4e1c9e0d399df17"
+    "id": "4a4aaec7bf9148a6eb2a49a561a5e4ea6bf76f2e2a9a4c16ec54c34f9a4d5e44"
   },
   {
     "repo": {
@@ -24428,26 +24428,26 @@
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
       "branch": "hilbert7",
-      "commit": "e6ee3438876611142fd0c7aa2dc6abce306726d0",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Mathlib/NumberTheory/h7.lean",
-      "start_line": 1421,
+      "start_line": 1492,
       "start_column": 2,
-      "end_line": 1421,
+      "end_line": 1492,
       "end_column": 7
     },
     "debug_info": {
       "goal": "\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nH :\n  \u2211 t,\n      \u2191(\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq t) *\n        sys_coeffs' \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq t u =\n    0\n\u22a2 False",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/e6ee3438876611142fd0c7aa2dc6abce306726d0/Mathlib/NumberTheory/h7.lean#L1421"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1492"
     },
     "metadata": {
       "blame_email_hash": "427ce08bc78e",
       "blame_date": "2025-04-01T02:10:10+02:00",
-      "inclusion_date": "2025-04-25T12:56:52.386588+00:00"
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
     },
-    "id": "de0c0ff69b92477affd5c11adea0937144bc5c25d374cf8fac0dea8d9cd24ed9"
+    "id": "4b399c931f21d0a20523a3dc88c8007ff14c04104c44e37bb68688efc6d02247"
   },
   {
     "repo": {
@@ -24703,76 +24703,76 @@
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
       "branch": "hilbert7",
-      "commit": "e6ee3438876611142fd0c7aa2dc6abce306726d0",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Mathlib/NumberTheory/h7.lean",
-      "start_line": 1698,
+      "start_line": 1946,
       "start_column": 8,
-      "end_line": 1698,
+      "end_line": 1946,
       "end_column": 13
     },
     "debug_info": {
       "goal": "case hb.ha.h.h\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nS : \u2102 \u2192 \u2102 := _root_.S \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nl\u2080 : Fin (m K) := _root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nz : \u2102\nhz : \u2016z\u2016 < \u2191(m K) * (1 + \u2191r / \u2191q) \u2227 \u00acz = \u2191\u2191l\u2080\nx : \u2102\nHX : x = \u2191\u2191(_root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq)\n\u22a2 False",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/e6ee3438876611142fd0c7aa2dc6abce306726d0/Mathlib/NumberTheory/h7.lean#L1698"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1946"
     },
     "metadata": {
       "blame_email_hash": "427ce08bc78e",
       "blame_date": "2025-04-09T15:43:20+02:00",
-      "inclusion_date": "2025-04-25T12:56:52.386588+00:00"
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
     },
-    "id": "ba5c8f27dacfddf8e2bd443096e403d5ebae5099f4eea55b74820d43cd5bdff7"
+    "id": "76cf45a1f6f301a7653eb1a7699b71e597bcb007cd849e00cd4243fab6ec2349"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
       "branch": "hilbert7",
-      "commit": "e6ee3438876611142fd0c7aa2dc6abce306726d0",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Mathlib/NumberTheory/h7.lean",
-      "start_line": 1699,
+      "start_line": 1947,
       "start_column": 6,
-      "end_line": 1699,
+      "end_line": 1947,
       "end_column": 11
     },
     "debug_info": {
       "goal": "case hb.hb\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nS : \u2102 \u2192 \u2102 := _root_.S \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nl\u2080 : Fin (m K) := _root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nz : \u2102\nhz : z \u2208 Metric.ball 0 (\u2191(m K) * (1 + \u2191r / \u2191q)) \\ {\u2191\u2191l\u2080}\n\u22a2 Differentiable \u2102 fun y =>\n    \u220f k \u2208 Finset.range (m K) \\ {\u2191(_root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq)},\n      ((\u2191\u2191(_root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq) - \u2191k) / (y - \u2191k)) ^\n        _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/e6ee3438876611142fd0c7aa2dc6abce306726d0/Mathlib/NumberTheory/h7.lean#L1699"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1947"
     },
     "metadata": {
       "blame_email_hash": "427ce08bc78e",
-      "blame_date": "2025-04-16T17:08:20+02:00",
-      "inclusion_date": "2025-04-25T12:56:52.386588+00:00"
+      "blame_date": "2025-04-26T21:06:47+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
     },
-    "id": "f647b1aadf7484de5a36f1a44c3a086d7580c872445ec89e587d080a66178a05"
+    "id": "65e63b4dbd4c0f6660be999ea636607621d0e84c064da87af1d30fa3a481acbc"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
       "branch": "hilbert7",
-      "commit": "e6ee3438876611142fd0c7aa2dc6abce306726d0",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Mathlib/NumberTheory/h7.lean",
-      "start_line": 1729,
+      "start_line": 1976,
       "start_column": 10,
-      "end_line": 1729,
+      "end_line": 1976,
       "end_column": 15
     },
     "debug_info": {
       "goal": "case hb.ha\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nl\u2080 : Fin (m K) := _root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nS : \u2102 \u2192 \u2102 := _root_.S \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nthis : \u2191\u2191l\u2080 < \u2191(m K)\n\u22a2 0 < \u2191r",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/e6ee3438876611142fd0c7aa2dc6abce306726d0/Mathlib/NumberTheory/h7.lean#L1729"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1976"
     },
     "metadata": {
       "blame_email_hash": "427ce08bc78e",
       "blame_date": "2025-04-14T00:20:02+02:00",
-      "inclusion_date": "2025-04-25T12:56:52.386588+00:00"
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
     },
-    "id": "291be72ce101cb0fbde3200f7a07747f7b3fc27877ef60f47af92cf1c15e5f3c"
+    "id": "c58f60a3ba79a05a3e96e3a6c32577db017cfd49896855b1d0219bd9e2eff35d"
   },
   {
     "repo": {
@@ -24803,26 +24803,26 @@
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
       "branch": "hilbert7",
-      "commit": "e6ee3438876611142fd0c7aa2dc6abce306726d0",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Mathlib/NumberTheory/h7.lean",
-      "start_line": 1756,
+      "start_line": 2004,
       "start_column": 4,
-      "end_line": 1756,
+      "end_line": 2004,
       "end_column": 9
     },
     "debug_info": {
       "goal": "case calc_1\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nl\u2080 : Fin (m K) := _root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nS : \u2102 \u2192 \u2102 := _root_.S \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\n\u22a2 \u03c3 \u03c1 = Complex.log \u03b1 ^ (-\u2191r) * S \u2191\u2191l\u2080",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/e6ee3438876611142fd0c7aa2dc6abce306726d0/Mathlib/NumberTheory/h7.lean#L1756"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L2004"
     },
     "metadata": {
       "blame_email_hash": "427ce08bc78e",
       "blame_date": "2025-04-09T15:43:20+02:00",
-      "inclusion_date": "2025-04-25T12:56:52.386588+00:00"
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
     },
-    "id": "e8eff87a04a9ce1b7e03d91e2a727cbb046ae9a5731df357f16e49a04d5c0899"
+    "id": "85d8f98868ccd7ef65c5b525785f641c229ecaf39cc56c7b42ea628cfd0ab5d8"
   },
   {
     "repo": {
@@ -24853,51 +24853,51 @@
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
       "branch": "hilbert7",
-      "commit": "e6ee3438876611142fd0c7aa2dc6abce306726d0",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Mathlib/NumberTheory/h7.lean",
-      "start_line": 1809,
+      "start_line": 2060,
       "start_column": 8,
-      "end_line": 1809,
+      "end_line": 2060,
       "end_column": 13
     },
     "debug_info": {
       "goal": "case calc_3.h\u2082.h\u2082\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nz : \u2102\nR : \u2102 \u2192 \u2102 := _root_.R \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq t\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nl\u2080 : Fin (m K) := _root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nS : \u2102 \u2192 \u2102 := _root_.S \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\n\u03b7 : Fin (q * q) \u2192 \ud835\udcde K := _root_.\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nc\u2084 : \u211d := _root_.c\u2084 K hd \u03b1' \u03b2' \u03b3' q\n\u22a2 Real.exp ((\u2191q + \u2191q * \u2016\u03b2\u2016) * \u2191(m K) * (1 + \u2191r / \u2191q)) * \u2016\u03b1\u2016 \u2264 c\u2089 ^ (r + q)",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/e6ee3438876611142fd0c7aa2dc6abce306726d0/Mathlib/NumberTheory/h7.lean#L1809"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L2060"
     },
     "metadata": {
       "blame_email_hash": "427ce08bc78e",
       "blame_date": "2025-04-14T17:31:30+02:00",
-      "inclusion_date": "2025-04-25T12:56:52.386588+00:00"
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
     },
-    "id": "e64af2cb7a7c7a13e0ea9af2180b60508586b65bec1cd33781f85658e1209e99"
+    "id": "c1df69e388ced8220b09df3b9c0261bfc73c04a18270e70ec1a236f202fd3c0f"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
       "branch": "hilbert7",
-      "commit": "e6ee3438876611142fd0c7aa2dc6abce306726d0",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Mathlib/NumberTheory/h7.lean",
-      "start_line": 1828,
+      "start_line": 2079,
       "start_column": 16,
-      "end_line": 1828,
+      "end_line": 2079,
       "end_column": 21
     },
     "debug_info": {
       "goal": "\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nz : \u2102\nR : \u2102 \u2192 \u2102 := _root_.R \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq t\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nl\u2080 : Fin (m K) := _root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nS : \u2102 \u2192 \u2102 := _root_.S \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\n\u03b7 : Fin (q * q) \u2192 \ud835\udcde K := _root_.\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nc\u2084 : \u211d := _root_.c\u2084 K hd \u03b1' \u03b2' \u03b3' q\n\u22a2 0 \u2264 \u2191r / \u2191q",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/e6ee3438876611142fd0c7aa2dc6abce306726d0/Mathlib/NumberTheory/h7.lean#L1828"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L2079"
     },
     "metadata": {
       "blame_email_hash": "427ce08bc78e",
       "blame_date": "2025-04-16T17:08:20+02:00",
-      "inclusion_date": "2025-04-25T12:56:52.386588+00:00"
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
     },
-    "id": "3465ac4b4c478f70ad0f87e8475ee0206db6972781f60b1035985bfa80c3e434"
+    "id": "cd071bca61efffbc0bee7430b72fde9978b346cf085b966fa34261cefb99b49b"
   },
   {
     "repo": {
@@ -24928,26 +24928,26 @@
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
       "branch": "hilbert7",
-      "commit": "e6ee3438876611142fd0c7aa2dc6abce306726d0",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Mathlib/NumberTheory/h7.lean",
-      "start_line": 1794,
+      "start_line": 2046,
       "start_column": 63,
-      "end_line": 1794,
+      "end_line": 2046,
       "end_column": 68
     },
     "debug_info": {
       "goal": "\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nz : \u2102\nR : \u2102 \u2192 \u2102 := _root_.R \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq t\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nl\u2080 : Fin (m K) := _root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nS : \u2102 \u2192 \u2102 := _root_.S \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\n\u03b7 : Fin (q * q) \u2192 \ud835\udcde K := _root_.\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nc\u2084 : \u211d := _root_.c\u2084 K hd \u03b1' \u03b2' \u03b3' q\ni : Fin (q * q)\nhi : i \u2208 Finset.univ\n\u22a2 \u2200 (i : Fin (q * q)), \u2016cexp (_root_.\u03c1 \u03b1 \u03b2 q i * z)\u2016 \u2264 Real.exp ((\u2191q + \u2191q * \u2016\u03b2\u2016) * \u2191(m K) * (1 + \u2191r / \u2191q)) * \u2016\u03b1\u2016",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/e6ee3438876611142fd0c7aa2dc6abce306726d0/Mathlib/NumberTheory/h7.lean#L1794"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L2046"
     },
     "metadata": {
       "blame_email_hash": "427ce08bc78e",
       "blame_date": "2025-04-14T16:59:45+02:00",
-      "inclusion_date": "2025-04-25T12:56:52.386588+00:00"
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
     },
-    "id": "2a51d9360783d9c83ab330efefa18ad321397e3dd19e23f593e6ac3d2ac41eff"
+    "id": "d7215766580b4c68359c57835efe455570ccb41ae628bc00d2d61d781233cff0"
   },
   {
     "repo": {
@@ -25003,101 +25003,101 @@
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
       "branch": "hilbert7",
-      "commit": "e6ee3438876611142fd0c7aa2dc6abce306726d0",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Mathlib/NumberTheory/h7.lean",
-      "start_line": 1988,
+      "start_line": 2269,
       "start_column": 52,
-      "end_line": 1988,
+      "end_line": 2269,
       "end_column": 57
     },
     "debug_info": {
       "goal": "\u03b3 \u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nh\u03b1 : IsAlgebraic \u211a \u03b1\nh\u03b2 : IsAlgebraic \u211a \u03b2\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nh\u03b3 : \u03b3 = \u03b1 ^ \u03b2\n\u22a2 let R := R \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq t;\n  let r := r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq;\n  let l\u2080 := l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq;\n  let S := S \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq;\n  let \u03c1 := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq;\n  let \u03b7 := \u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq;\n  \u03c3 \u03c1 = \u2191(2 * Real.pi)\u207b\u00b9 * \u222e (z : \u2102) in C(0, \u2191(m K) * (1 + \u2191r / \u2191q)), (z - \u2191\u2191l\u2080)\u207b\u00b9 * S z",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/e6ee3438876611142fd0c7aa2dc6abce306726d0/Mathlib/NumberTheory/h7.lean#L1988"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L2269"
     },
     "metadata": {
       "blame_email_hash": "427ce08bc78e",
       "blame_date": "2025-04-09T15:43:20+02:00",
-      "inclusion_date": "2025-04-25T12:56:52.386588+00:00"
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
     },
-    "id": "730bab2f7e2072d8cf5a931787957aebf5e59a4d1f5c269e2aa315e847ff61df"
+    "id": "ca0458bd526c49dc52a426f7b039c56b7cbd56617ae2a32444ccc764a7a25128"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
       "branch": "hilbert7",
-      "commit": "e6ee3438876611142fd0c7aa2dc6abce306726d0",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Mathlib/NumberTheory/h7.lean",
-      "start_line": 2015,
+      "start_line": 2296,
       "start_column": 4,
-      "end_line": 2015,
+      "end_line": 2296,
       "end_column": 9
     },
     "debug_info": {
       "goal": "case calc_3\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nR : \u2102 \u2192 \u2102 := _root_.R \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq t\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nl\u2080 : Fin (m K) := _root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nS : \u2102 \u2192 \u2102 := _root_.S \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\n\u03b7 : Fin (q * q) \u2192 \ud835\udcde K := _root_.\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u22a2 \u2016(2 * Real.pi)\u207b\u00b9\u2016 * \u2016\u222e (z : \u2102) in C(0, \u2191(m K) * (1 + \u2191r / \u2191q)), (z - \u2191\u2191l\u2080)\u207b\u00b9 * S z\u2016 \u2264\n    \u2016Complex.log \u03b1\u2016 ^ (-\u2191r) * \u2191(m K) * (1 + \u2191r / \u2191q) * c\u2081\u2082 ^ r * \u2191r ^ (r * (3 - m K) / 2 + 3 / 2) * \u2191q / (\u2191(m K) * \u2191r)",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/e6ee3438876611142fd0c7aa2dc6abce306726d0/Mathlib/NumberTheory/h7.lean#L2015"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L2296"
     },
     "metadata": {
       "blame_email_hash": "427ce08bc78e",
       "blame_date": "2025-04-09T15:43:20+02:00",
-      "inclusion_date": "2025-04-25T12:56:52.386588+00:00"
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
     },
-    "id": "cc8dd2f2d23c2086a26ba074594a050e861dc7a67473d07d92b99f49a7422801"
+    "id": "d18f95b5d9494ebc2619da9c42f4627290f2024e849bf56ea021600989e6e34e"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
       "branch": "hilbert7",
-      "commit": "e6ee3438876611142fd0c7aa2dc6abce306726d0",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Mathlib/NumberTheory/h7.lean",
-      "start_line": 2016,
+      "start_line": 2297,
       "start_column": 4,
-      "end_line": 2016,
+      "end_line": 2297,
       "end_column": 9
     },
     "debug_info": {
       "goal": "case calc_4\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nR : \u2102 \u2192 \u2102 := _root_.R \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq t\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nl\u2080 : Fin (m K) := _root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nS : \u2102 \u2192 \u2102 := _root_.S \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\n\u03b7 : Fin (q * q) \u2192 \ud835\udcde K := _root_.\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u22a2 \u2016Complex.log \u03b1\u2016 ^ (-\u2191r) * \u2191(m K) * (1 + \u2191r / \u2191q) * c\u2081\u2082 ^ r * \u2191r ^ (r * (3 - m K) / 2 + 3 / 2) * \u2191q / (\u2191(m K) * \u2191r) \u2264\n    c\u2081\u2083 ^ r * \u2191r ^ (r * (3 - m K) / 2 + 3 / 2)",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/e6ee3438876611142fd0c7aa2dc6abce306726d0/Mathlib/NumberTheory/h7.lean#L2016"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L2297"
     },
     "metadata": {
       "blame_email_hash": "427ce08bc78e",
       "blame_date": "2025-04-09T15:43:20+02:00",
-      "inclusion_date": "2025-04-25T12:56:52.386588+00:00"
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
     },
-    "id": "fb6642cab17be22cce505e1dace53a366edf4470d3ead1c2658365cced569557"
+    "id": "ba08b77c71fefe1e42064d5ec0cf0e022062fa8e8cb3434b2abcc06fdac58168"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
       "branch": "hilbert7",
-      "commit": "e6ee3438876611142fd0c7aa2dc6abce306726d0",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Mathlib/NumberTheory/h7.lean",
-      "start_line": 2031,
+      "start_line": 2312,
       "start_column": 6,
-      "end_line": 2031,
+      "end_line": 2312,
       "end_column": 11
     },
     "debug_info": {
       "goal": "\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nl\u2080 : Fin (m K) := _root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nS : \u2102 \u2192 \u2102 := _root_.S \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u22a2 (\u2191(h K) - 1) * (\u2191r + 3 / 2) + (3 - \u2191(m K)) * \u2191r * 1 / 2 + 3 / 2 = -\u2191r / 2 + 3 * \u2191(h K) / 2",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/e6ee3438876611142fd0c7aa2dc6abce306726d0/Mathlib/NumberTheory/h7.lean#L2031"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L2312"
     },
     "metadata": {
       "blame_email_hash": "427ce08bc78e",
       "blame_date": "2025-04-14T15:36:55+02:00",
-      "inclusion_date": "2025-04-25T12:56:52.386588+00:00"
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
     },
-    "id": "4d910c397b75931816d460000caa0c9dd60192c5e15695b89dfe9b893dfa843e"
+    "id": "ebb3a9a182c52220c6b1acde44f51fdea6ac39211ad2b4392336873bd1d74397"
   },
   {
     "repo": {
@@ -25578,7 +25578,7 @@
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
       "branch": "hilbert7",
-      "commit": "c74e6cc3ff7443de2e01b3d5e1e61989b0fed3df",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -25590,20 +25590,20 @@
     },
     "debug_info": {
       "goal": "case mpr.left\nk\u271d n : \u2115\nf : \u2102 \u2192 \u2102\nz : \u2102\nhf : \u2200 (z : \u2102), AnalyticAt \u2102 f z\nhord : \u22ef.order \u2260 \u22a4\nH : \u22ef.order = \u2191n\nk : \u2115\nhk : k < n\n\u22a2 iteratedDeriv k f z = 0",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/c74e6cc3ff7443de2e01b3d5e1e61989b0fed3df/Mathlib/NumberTheory/h7.lean#L141"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L141"
     },
     "metadata": {
       "blame_email_hash": "427ce08bc78e",
       "blame_date": "2025-04-26T21:06:47+02:00",
-      "inclusion_date": "2025-04-26T23:07:27.201509+00:00"
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
     },
-    "id": "0285533dd76e119b133eda99a04d223649c61f3a6fb737483ea175c1f2f0cc84"
+    "id": "e45cd28f3bcfedff528ea31218709916462d675d1269b031c9658e10bdedcf7c"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
       "branch": "hilbert7",
-      "commit": "c74e6cc3ff7443de2e01b3d5e1e61989b0fed3df",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -25615,20 +25615,20 @@
     },
     "debug_info": {
       "goal": "case mpr.right\nk n : \u2115\nf : \u2102 \u2192 \u2102\nz : \u2102\nhf : \u2200 (z : \u2102), AnalyticAt \u2102 f z\nhord : \u22ef.order \u2260 \u22a4\nH\u271d : \u22ef.order = \u2191n\nH : iteratedDeriv k f z = 0\n\u22a2 False",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/c74e6cc3ff7443de2e01b3d5e1e61989b0fed3df/Mathlib/NumberTheory/h7.lean#L143"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L143"
     },
     "metadata": {
       "blame_email_hash": "427ce08bc78e",
       "blame_date": "2025-04-26T21:36:24+02:00",
-      "inclusion_date": "2025-04-26T23:07:27.201509+00:00"
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
     },
-    "id": "d169b7fbb7166284ac45892532f811aabc27e3e73f4c4ac9a2c1350d5f34a055"
+    "id": "93cf291f39e46a57599a00ad75c106c27478b8f8a58a33632a9cf6e8ae42a50f"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
       "branch": "hilbert7",
-      "commit": "c74e6cc3ff7443de2e01b3d5e1e61989b0fed3df",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -25640,13 +25640,988 @@
     },
     "debug_info": {
       "goal": "case h.h.right\nn : \u2115\nf : \u2102 \u2192 \u2102\nz : \u2102\nhf : \u2200 (z : \u2102), AnalyticAt \u2102 f z\nho : \u2200 (z : \u2102), \u22ef.order \u2260 \u22a4\nhd : \u2200 k < n, iteratedDeriv k f z = 0\n\u22a2 iteratedDeriv ?m.28578 f z \u2260 0",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/c74e6cc3ff7443de2e01b3d5e1e61989b0fed3df/Mathlib/NumberTheory/h7.lean#L159"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L159"
     },
     "metadata": {
       "blame_email_hash": "427ce08bc78e",
       "blame_date": "2025-04-26T21:36:24+02:00",
-      "inclusion_date": "2025-04-26T23:07:27.201509+00:00"
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
     },
-    "id": "4d241f717775d77ec417f73b0cb9367f449df5bac3c6cc7a457b7aabe58e739a"
+    "id": "965659ffc9e085c9dfc82da0992ca30bb06fe8171d22f266420dbc8da9d25edf"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 631,
+      "start_column": 10,
+      "end_line": 631,
+      "end_column": 15
+    },
+    "debug_info": {
+      "goal": "case calc_2.h.h\u2081.h\u2081.h\u2081.h\u2080.h.h.left\nK : Type\ninst\u271d\u00b9 : Field K\n\u03b1' \u03b2' \u03b3' : K\ninst\u271d : NumberField K\nq : \u2115\nu\u271d : Fin (m K * n K q)\nt\u271d : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nu : Fin (m K * n K q)\nt : Fin (q * q)\na : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).1 + 1\nb : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).2 + 1\nk : \u2115 := \u2191(finProdFinEquiv.symm.toFun u).2\nl : \u2115 := \u2191(finProdFinEquiv.symm.toFun u).1 + 1\nf : -1 / 2 + \u2191(n K q) * (1 / 2) = (\u2191(n K q) - 1) / 2\n\u22a2 1 \u2264 \u2191(c\u2081 K \u03b1' \u03b2' \u03b3')",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L631"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-25T13:29:53+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "d11465fc93f1faaac83ef4b3cf07a45aadb58add8662b2c0d2a8f63b8ca2d83a"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 632,
+      "start_column": 10,
+      "end_line": 632,
+      "end_column": 15
+    },
+    "debug_info": {
+      "goal": "case calc_2.h.h\u2081.h\u2081.h\u2081.h\u2080.h.h.right\nK : Type\ninst\u271d\u00b9 : Field K\n\u03b1' \u03b2' \u03b3' : K\ninst\u271d : NumberField K\nq : \u2115\nu\u271d : Fin (m K * n K q)\nt\u271d : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nu : Fin (m K * n K q)\nt : Fin (q * q)\na : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).1 + 1\nb : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).2 + 1\nk : \u2115 := \u2191(finProdFinEquiv.symm.toFun u).2\nl : \u2115 := \u2191(finProdFinEquiv.symm.toFun u).1 + 1\nf : -1 / 2 + \u2191(n K q) * (1 / 2) = (\u2191(n K q) - 1) / 2\n\u22a2 n K q - 1 + m K * q + m K * q \u2264 1 + 2 * m K * (2 * m K).sqrt",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L632"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-25T13:29:53+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "912241faeb859650cf38e8727de59167f7f9513dc89bd69cd73347e440edd005"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 653,
+      "start_column": 8,
+      "end_line": 653,
+      "end_column": 13
+    },
+    "debug_info": {
+      "goal": "case calc_2.h.h\u2081.h\u2082\nK : Type\ninst\u271d\u00b9 : Field K\n\u03b1' \u03b2' \u03b3' : K\ninst\u271d : NumberField K\nq : \u2115\nu\u271d : Fin (m K * n K q)\nt\u271d : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nu : Fin (m K * n K q)\nt : Fin (q * q)\na : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).1 + 1\nb : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).2 + 1\nk : \u2115 := \u2191(finProdFinEquiv.symm.toFun u).2\nl : \u2115 := \u2191(finProdFinEquiv.symm.toFun u).1 + 1\nf : -1 / 2 + \u2191(n K q) * (1 / 2) = (\u2191(n K q) - 1) / 2\nthis : house \u03b1' ^ (\u2191a * \u2191l) \u2264 house \u03b1' ^ (2 * \u2191(m K) ^ 2) \u2192 house \u03b1' ^ (a * l) \u2264 house \u03b1' ^ (2 * m K ^ 2)\n\u22a2 house \u03b1' ^ (\u2191a * \u2191l) \u2264 house \u03b1' ^ (2 * \u2191(m K) ^ 2)",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L653"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-26T18:53:41+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "1ca0cca5d24a81642d8e73d7082b60b76f4ff8cf3a2c2af1916a4c6f839c3460"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1203,
+      "start_column": 2,
+      "end_line": 1203,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nl : \u2115 := \u2191(finProdFinEquiv.symm.toFun u).1 + 1\nk : \u2115\nhl : k < n K q\nthis\u271d :\n  Complex.log \u03b1 ^ (-\u2191k) *\n        \u2211 t, \u03c3 \u2191(\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq t) * cexp (\u03c1 \u03b1 \u03b2 q t * \u2191l) * \u03c1 \u03b1 \u03b2 q t ^ k =\n      Complex.log \u03b1 ^ (-\u2191k) * 0 \u2194\n    \u2211 t, \u03c3 \u2191(\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq t) * cexp (\u03c1 \u03b1 \u03b2 q t * \u2191l) * \u03c1 \u03b1 \u03b2 q t ^ k = 0\nhMt0\u271d :\n  \u2200 (x : Fin (m K * n K q)),\n    (let i := x;\n      \u2211 i_1,\n        (fun j => (fun i j => \u27e8\u2191(c_coeffs K \u03b1' \u03b2' \u03b3' q) * sys_coeffs K \u03b1' \u03b2' \u03b3' q j i, \u22ef\u27e9) i j) i_1 * \u22ef.choose i_1) =\n      0 x\nhMt0 : \u2211 x, \u27e8\u2191(c_coeffs K \u03b1' \u03b2' \u03b3' q) * sys_coeffs K \u03b1' \u03b2' \u03b3' q x u, \u22ef\u27e9 * \u22ef.choose x = 0\nthis :\n  \u2211 x, \u03c3 (\u2191(\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u x hq0 h2mq x) * sys_coeffs K \u03b1' \u03b2' \u03b3' q x u) = 0 \u2194\n    \u2191(c_coeffs K \u03b1' \u03b2' \u03b3' q) *\n        \u2211 x, \u03c3 (\u2191(\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u x hq0 h2mq x) * sys_coeffs K \u03b1' \u03b2' \u03b3' q x u) =\n      \u2191(c_coeffs K \u03b1' \u03b2' \u03b3' q) * 0\nh0 :\n  \u2211 x, \u27e8\u2191(c_coeffs K \u03b1' \u03b2' \u03b3' q) * sys_coeffs K \u03b1' \u03b2' \u03b3' q x u, \u22ef\u27e9 * \u22ef.choose x = 0 \u2194\n    (algebraMap (\ud835\udcde K) K) (\u2211 x, \u27e8\u2191(c_coeffs K \u03b1' \u03b2' \u03b3' q) * sys_coeffs K \u03b1' \u03b2' \u03b3' q x u, \u22ef\u27e9 * \u22ef.choose x) = 0\nh1 :\n  \u2191(\u2211 x, \u27e8\u2191(c_coeffs K \u03b1' \u03b2' \u03b3' q) * sys_coeffs K \u03b1' \u03b2' \u03b3' q x u, \u22ef\u27e9 * \u22ef.choose x) =\n    \u2211 x, \u2191(c_coeffs K \u03b1' \u03b2' \u03b3' q) * sys_coeffs K \u03b1' \u03b2' \u03b3' q x u * \u2191(\u22ef.choose x)\n\u22a2 \u2211 x,\n      \u03c3 \u2191(\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u x hq0 h2mq x) *\n        (cexp (\u03c1 \u03b1 \u03b2 q x * \u2191l) * \u03c1 \u03b1 \u03b2 q x ^ k * Complex.log \u03b1 ^ (-\u2191k)) =\n    0",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1203"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-24T01:59:03+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "8fd4d83115d3f82e094f59f32efc863b1b5438f80e93207082af0db577011b49"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1186,
+      "start_column": 92,
+      "end_line": 1186,
+      "end_column": 97
+    },
+    "debug_info": {
+      "goal": "\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nl : \u2115 := \u2191(finProdFinEquiv.symm.toFun u).1 + 1\nk : \u2115\nhl : k < n K q\nthis\u271d :\n  Complex.log \u03b1 ^ (-\u2191k) *\n        \u2211 t, \u03c3 \u2191(\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq t) * cexp (\u03c1 \u03b1 \u03b2 q t * \u2191l) * \u03c1 \u03b1 \u03b2 q t ^ k =\n      Complex.log \u03b1 ^ (-\u2191k) * 0 \u2194\n    \u2211 t, \u03c3 \u2191(\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq t) * cexp (\u03c1 \u03b1 \u03b2 q t * \u2191l) * \u03c1 \u03b1 \u03b2 q t ^ k = 0\nhMt0\u271d :\n  \u2200 (x : Fin (m K * n K q)),\n    (let i := x;\n      \u2211 i_1,\n        (fun j => (fun i j => \u27e8\u2191(c_coeffs K \u03b1' \u03b2' \u03b3' q) * sys_coeffs K \u03b1' \u03b2' \u03b3' q j i, \u22ef\u27e9) i j) i_1 * \u22ef.choose i_1) =\n      0 x\nhMt0 : \u2211 x, \u27e8\u2191(c_coeffs K \u03b1' \u03b2' \u03b3' q) * sys_coeffs K \u03b1' \u03b2' \u03b3' q x u, \u22ef\u27e9 * \u22ef.choose x = 0\nthis :\n  \u2211 x, \u03c3 (\u2191(\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u x hq0 h2mq x) * sys_coeffs K \u03b1' \u03b2' \u03b3' q x u) = 0 \u2194\n    \u2191(c_coeffs K \u03b1' \u03b2' \u03b3' q) *\n        \u2211 x, \u03c3 (\u2191(\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u x hq0 h2mq x) * sys_coeffs K \u03b1' \u03b2' \u03b3' q x u) =\n      \u2191(c_coeffs K \u03b1' \u03b2' \u03b3' q) * 0\n\u22a2 \u2211 x, \u27e8\u2191(c_coeffs K \u03b1' \u03b2' \u03b3' q) * sys_coeffs K \u03b1' \u03b2' \u03b3' q x u, \u22ef\u27e9 * \u22ef.choose x = 0 \u2194\n    (algebraMap (\ud835\udcde K) K) (\u2211 x, \u27e8\u2191(c_coeffs K \u03b1' \u03b2' \u03b3' q) * sys_coeffs K \u03b1' \u03b2' \u03b3' q x u, \u22ef\u27e9 * \u22ef.choose x) = 0",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1186"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-24T01:59:03+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "00d6e73dff8efb605ce8f5f3aab517bb0f2b723b784fb235b2b4e7ff2cef8b53"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1367,
+      "start_column": 2,
+      "end_line": 1367,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\n\u22a2 _root_.order \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq \u2260 \u22a4",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1367"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-24T01:59:03+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "5eecba4d3b8f1233416dc355693faa20a05991ef4d1583406f077432070e9390"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1400,
+      "start_column": 4,
+      "end_line": 1400,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "case ho\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nl : \u2115 := \u2191(finProdFinEquiv.symm.toFun u).1 + 1\nk\u271d : \u2115 := \u2191(finProdFinEquiv.symm.toFun u).2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nR : \u2102 \u2192 \u2102 := _root_.R \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq t\norder : \u2200 k < n K q, iteratedDeriv k R \u2191l = 0\nk : \u2115\nz : \u2102\n\u22a2 AnalyticAt.order \u22ef \u2260 \u22a4",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1400"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-27T16:31:01+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "362f6fa6774d6dcc1184b12a3c82ff2f54add915912bf3d039b361ff28ba433a"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1405,
+      "start_column": 4,
+      "end_line": 1405,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "case a\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nl : \u2115 := \u2191(finProdFinEquiv.symm.toFun u).1 + 1\nk\u271d\u00b9 : \u2115 := \u2191(finProdFinEquiv.symm.toFun u).2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nR : \u2102 \u2192 \u2102 := _root_.R \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq t\norder : \u2200 k < n K q, iteratedDeriv k R \u2191l = 0\nk\u271d k : \u2115\nhk : k < n K q\nthis :\n  iteratedDeriv k (_root_.R \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq t)\n      \u2191(\u2191(finProdFinEquiv.symm.toFun u).1 + 1) =\n    0\n\u22a2 iteratedDeriv k (_root_.R \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq t) \u2191\u2191u = 0",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1405"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-26T18:53:41+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "9f0d312513719aeeb31b95c4f2370f9b7a801573b0a1e526a96d5e3b1e012cc8"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1424,
+      "start_column": 4,
+      "end_line": 1424,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "case refine_3\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nR : \u2102 \u2192 \u2102 := _root_.R \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq t\no : \u2115 := (_root_.order \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq).toNat\nl : \u2115 := \u2191(finProdFinEquiv.symm.toFun u).1 + 1\nk : \u2115 := \u2191(finProdFinEquiv.symm.toFun u).2\nthis : (\u2200 k < n K q, iteratedDeriv k R \u2191l = 0) \u2227 iteratedDeriv k R \u2191l \u2260 0 \u2194 AnalyticAt.order \u22ef = \u2191(n K q)\n\u22a2 \u2203 l\u2080, iteratedDeriv r R \u2191\u2191l\u2080 \u2260 0",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1424"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-24T01:59:03+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "af9fffb1c7df94cee0f6fad3631b2e6dda2f46684cff39bf53272cb6c1c417d2"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1426,
+      "start_column": 4,
+      "end_line": 1426,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "case refine_2\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nR : \u2102 \u2192 \u2102 := _root_.R \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq t\no : \u2115 := (_root_.order \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq).toNat\nl : \u2115 := \u2191(finProdFinEquiv.symm.toFun u).1 + 1\nk : \u2115 := \u2191(finProdFinEquiv.symm.toFun u).2\n\u22a2 \u22ef.order \u2260 \u22a4",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1426"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-24T01:59:03+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "f3446567521e77e32d28cd347c2b13536d48fef042f06fb8ad5297f07cc441d8"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1515,
+      "start_column": 4,
+      "end_line": 1515,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "case inl\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nH1 :\n  |c\u2081 K \u03b1' \u03b2' \u03b3' ^ r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq * c\u2081 K \u03b1' \u03b2' \u03b3' ^ (2 * m K * q)| =\n    c\u2081 K \u03b1' \u03b2' \u03b3' ^ r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq * c\u2081 K \u03b1' \u03b2' \u03b3' ^ (2 * m K * q)\n\u22a2 IsIntegral \u2124\n    ((c\u2081 K \u03b1' \u03b2' \u03b3' ^ r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq * c\u2081 K \u03b1' \u03b2' \u03b3' ^ (2 * m K * q)) \u2022\n      \u2211 t,\n        \u2191(\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq t) *\n          let a := \u2191(finProdFinEquiv.symm.toFun t).1 + 1;\n          let b := \u2191(finProdFinEquiv.symm.toFun t).2 + 1;\n          let r := r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq;\n          let l\u2080 := \u2191(finProdFinEquiv.symm.toFun u).1 + 1;\n          (\u2191a + b \u2022 \u03b2') ^ r * \u03b1' ^ (a * l\u2080) * \u03b3' ^ (b * l\u2080))",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1515"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-26T18:53:41+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "387c861b4a323ed5ec4d0f87093c17f1d3ae81325b66eaf041f8376f11c512ad"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1516,
+      "start_column": 4,
+      "end_line": 1516,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "case inr\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nH2 :\n  |c\u2081 K \u03b1' \u03b2' \u03b3' ^ r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq * c\u2081 K \u03b1' \u03b2' \u03b3' ^ (2 * m K * q)| =\n    -(c\u2081 K \u03b1' \u03b2' \u03b3' ^ r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq * c\u2081 K \u03b1' \u03b2' \u03b3' ^ (2 * m K * q))\n\u22a2 IsIntegral \u2124\n    (|c\u2081 K \u03b1' \u03b2' \u03b3' ^ r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq * c\u2081 K \u03b1' \u03b2' \u03b3' ^ (2 * m K * q)| \u2022\n      \u2211 t,\n        \u2191(\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq t) *\n          let a := \u2191(finProdFinEquiv.symm.toFun t).1 + 1;\n          let b := \u2191(finProdFinEquiv.symm.toFun t).2 + 1;\n          let r := r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq;\n          let l\u2080 := \u2191(finProdFinEquiv.symm.toFun u).1 + 1;\n          (\u2191a + b \u2022 \u03b2') ^ r * \u03b1' ^ (a * l\u2080) * \u03b3' ^ (b * l\u2080))",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1516"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-26T18:53:41+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "7c0476b1857231e6180ea3360aa618a2935d60d694fcf7b874bd6b6c89e1229c"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1558,
+      "start_column": 8,
+      "end_line": 1558,
+      "end_column": 13
+    },
+    "debug_info": {
+      "goal": "\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\nc\u2081 : \u2124 := _root_.c\u2081 K \u03b1' \u03b2' \u03b3'\nc1\u03c1 : \ud835\udcde K := _root_.c1\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nc\u03c1 : \u2124 := _root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nthis\u271d :\n  (Algebra.norm \u211a) \u2191(_root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq) =\n    \u2191(_root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq) ^ Module.finrank \u211a K\nthis : \u2016(Algebra.norm \u211a) (rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq)\u2016 \u2260 0\nh0 : 0 < |\u2191(_root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq)|\n\u22a2 1 \u2264 |\u2191(_root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq)|",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1558"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-27T16:31:01+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "f5ca54c086537440cf65a573b3a3e478e9b7731ee3b65543aca39a801daa4de6"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1577,
+      "start_column": 6,
+      "end_line": 1577,
+      "end_column": 11
+    },
+    "debug_info": {
+      "goal": "\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\nc\u2081 : \u2124 := _root_.c\u2081 K \u03b1' \u03b2' \u03b3'\nc1\u03c1 : \ud835\udcde K := _root_.c1\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nc\u03c1 : \u2124 := _root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nthis\u271d :\n  (Algebra.norm \u211a) \u2191(_root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq) =\n    \u2191(_root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq) ^ Module.finrank \u211a K\nthis : \u2016(Algebra.norm \u211a) (rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq)\u2016 \u2260 0\nh0 : 0 < \u2016_root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\u2016\nh1 : 1 \u2264 \u2016_root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\u2016 ^ Module.finrank \u211a K\nh2 : 0 < \u2016(Algebra.norm \u211a) (rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq)\u2016\n\u22a2 1 \u2264 \u2016(Algebra.norm \u211a) (rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq)\u2016",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1577"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-27T16:31:01+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "10c22bf89eec0965e390c9c55cf7db31502d9f7ac35d68be8c4f43798c2ac7b3"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1674,
+      "start_column": 6,
+      "end_line": 1674,
+      "end_column": 11
+    },
+    "debug_info": {
+      "goal": "case calc_2\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\nc\u2081 : \u2124 := _root_.c\u2081 K \u03b1' \u03b2' \u03b3'\nc1\u03c1 : \ud835\udcde K := _root_.c1\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nc\u03c1 : \u2124 := _root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nc\u2085 : \u211d := _root_.c\u2085 K \u03b1' \u03b2' \u03b3' q\nh1 :\n  1 \u2264\n    \u2016_root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq ^ Module.finrank \u211a K\u2016 *\n      \u2016(Algebra.norm \u211a) (rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq)\u2016\nh2 : \u2016_root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq ^ Module.finrank \u211a K\u2016\u207b\u00b9 \u2264 \u2016(Algebra.norm \u211a) \u03c1\u2016\nthis : \u2191(h K) * \u2191r + \u2191(h K) * (2 * \u2191(m K) * \u2191q) = \u2191(h K) * \u2191r + \u2191(h K) * 2 * \u2191(m K) * \u2191q\n\u22a2 \u2191c\u2081 ^ (\u2191(h K) * \u2191r + \u2191(h K) * 2 * \u2191(m K) * \u2191q) < c\u2085 ^ r",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1674"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-09T15:43:20+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "2952e94f5dc08fd178f5a70803856099307c9a353e1f7588794473376e04a3f0"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1683,
+      "start_column": 8,
+      "end_line": 1683,
+      "end_column": 13
+    },
+    "debug_info": {
+      "goal": "case a\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\nc\u2081 : \u2124 := _root_.c\u2081 K \u03b1' \u03b2' \u03b3'\nc1\u03c1 : \ud835\udcde K := _root_.c1\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nc\u03c1 : \u2124 := _root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nc\u2085 : \u211d := _root_.c\u2085 K \u03b1' \u03b2' \u03b3' q\nh1 :\n  1 \u2264\n    \u2016_root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq ^ Module.finrank \u211a K\u2016 *\n      \u2016(Algebra.norm \u211a) (rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq)\u2016\nh2 : \u2016_root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq ^ Module.finrank \u211a K\u2016\u207b\u00b9 \u2264 \u2016(Algebra.norm \u211a) \u03c1\u2016\n\u22a2 r \u2260 0",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1683"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-27T16:31:01+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "f3a45bc050078cb825cc3d86ba665864b907ebe349060489924014d4911659ba"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1688,
+      "start_column": 10,
+      "end_line": 1688,
+      "end_column": 15
+    },
+    "debug_info": {
+      "goal": "case ha\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\nc\u2081 : \u2124 := _root_.c\u2081 K \u03b1' \u03b2' \u03b3'\nc1\u03c1 : \ud835\udcde K := _root_.c1\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nc\u03c1 : \u2124 := _root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nc\u2085 : \u211d := _root_.c\u2085 K \u03b1' \u03b2' \u03b3' q\nh1 :\n  1 \u2264\n    \u2016_root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq ^ Module.finrank \u211a K\u2016 *\n      \u2016(Algebra.norm \u211a) (rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq)\u2016\nh2 : \u2016_root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq ^ Module.finrank \u211a K\u2016\u207b\u00b9 \u2264 \u2016(Algebra.norm \u211a) \u03c1\u2016\n\u22a2 1 < \u2191c\u2081",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1688"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-27T16:31:01+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "5db81fa3df50fd76074c9697bdfb860b321abfbf6b26d3387a4b430e68f9e4e8"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1689,
+      "start_column": 10,
+      "end_line": 1689,
+      "end_column": 15
+    },
+    "debug_info": {
+      "goal": "case a\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\nc\u2081 : \u2124 := _root_.c\u2081 K \u03b1' \u03b2' \u03b3'\nc1\u03c1 : \ud835\udcde K := _root_.c1\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nc\u03c1 : \u2124 := _root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nc\u2085 : \u211d := _root_.c\u2085 K \u03b1' \u03b2' \u03b3' q\nh1 :\n  1 \u2264\n    \u2016_root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq ^ Module.finrank \u211a K\u2016 *\n      \u2016(Algebra.norm \u211a) (rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq)\u2016\nh2 : \u2016_root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq ^ Module.finrank \u211a K\u2016\u207b\u00b9 \u2264 \u2016(Algebra.norm \u211a) \u03c1\u2016\n\u22a2 h K * (r + 2 * m K * q) \u2260 0",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1689"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-27T16:31:01+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "d94763810eb1e27d449a2e82504459cdcdd33c1edfdaf899767a9c62df46ccdc"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1696,
+      "start_column": 4,
+      "end_line": 1696,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "case calc_3\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\nc\u2081 : \u2124 := _root_.c\u2081 K \u03b1' \u03b2' \u03b3'\nc1\u03c1 : \ud835\udcde K := _root_.c1\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nc\u03c1 : \u2124 := _root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nc\u2085 : \u211d := _root_.c\u2085 K \u03b1' \u03b2' \u03b3' q\nh1 :\n  1 \u2264\n    \u2016_root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq ^ Module.finrank \u211a K\u2016 *\n      \u2016(Algebra.norm \u211a) (rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq)\u2016\nh2 : \u2016_root_.c\u03c1 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq ^ Module.finrank \u211a K\u2016\u207b\u00b9 \u2264 \u2016(Algebra.norm \u211a) \u03c1\u2016\n\u22a2 (\u2191c\u2081 ^ (\u2191(h K) * (\u2191r + 2 * \u2191(m K) * \u2191q)))\u207b\u00b9 <\n    (|\u2191(_root_.c\u2081 K \u03b1' \u03b2' \u03b3')| ^\n        ((_root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq + 2 * m K * q) * Module.finrank \u211a K))\u207b\u00b9",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1696"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-13T00:29:22+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "72b79b72f34a2c5a90cde45e737eff333c0b2209907ec414ddf980b1f8cbf0c5"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1798,
+      "start_column": 12,
+      "end_line": 1798,
+      "end_column": 17
+    },
+    "debug_info": {
+      "goal": "\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\nc\u2084 : \u211d := _root_.c\u2084 K hd \u03b1' \u03b2' \u03b3' q\na : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).1 + 1\nb : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).2 + 1\nl\u2080 : \u2115 := \u2191(_root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq)\ni : Fin (q * q)\nhi : i \u2208 Finset.univ\nthis :\n  house (\u2191a + b \u2022 \u03b2') ^ r * (house \u03b1' ^ (a * l\u2080) * house \u03b3' ^ (b * l\u2080)) =\n    house \u03b3' ^ (b * l\u2080) * (house (\u2191a + b \u2022 \u03b2') ^ r * house \u03b1' ^ (a * l\u2080))\n\u22a2 house \u03b3' ^ ((\u2191(finProdFinEquiv.symm.toFun i).2 + 1) * (\u2191(finProdFinEquiv.symm.toFun u).1 + 1)) \u2264 house \u03b3' ^ (b * l\u2080)",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1798"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-26T18:53:41+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "92be71279ce13ef97b7aeeffb346d15bd2b535ac233431e9b5307cb3f75353f0"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1804,
+      "start_column": 16,
+      "end_line": 1804,
+      "end_column": 21
+    },
+    "debug_info": {
+      "goal": "\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\nc\u2084 : \u211d := _root_.c\u2084 K hd \u03b1' \u03b2' \u03b3' q\na : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).1 + 1\nb : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).2 + 1\nl\u2080 : \u2115 := \u2191(_root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq)\ni : Fin (q * q)\nhi : i \u2208 Finset.univ\nthis :\n  house (\u2191a + b \u2022 \u03b2') ^ r * (house \u03b1' ^ (a * l\u2080) * house \u03b3' ^ (b * l\u2080)) =\n    house \u03b3' ^ (b * l\u2080) * (house (\u2191a + b \u2022 \u03b2') ^ r * house \u03b1' ^ (a * l\u2080))\n\u22a2 house (\u2191(\u2191(finProdFinEquiv.symm.toFun i).1 + 1) + (\u2191(finProdFinEquiv.symm.toFun i).2 + 1) \u2022 \u03b2') ^\n      _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u i hq0 h2mq \u2264\n    house (\u2191a + b \u2022 \u03b2') ^ r",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1804"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-26T18:53:41+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "8a9ddf30ff6fb651fc93c854d9ba22c9663755f3c998e8ce3ba894cae8da68a1"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1807,
+      "start_column": 16,
+      "end_line": 1807,
+      "end_column": 21
+    },
+    "debug_info": {
+      "goal": "\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\nc\u2084 : \u211d := _root_.c\u2084 K hd \u03b1' \u03b2' \u03b3' q\na : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).1 + 1\nb : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).2 + 1\nl\u2080 : \u2115 := \u2191(_root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq)\ni : Fin (q * q)\nhi : i \u2208 Finset.univ\nthis :\n  house (\u2191a + b \u2022 \u03b2') ^ r * (house \u03b1' ^ (a * l\u2080) * house \u03b3' ^ (b * l\u2080)) =\n    house \u03b3' ^ (b * l\u2080) * (house (\u2191a + b \u2022 \u03b2') ^ r * house \u03b1' ^ (a * l\u2080))\n\u22a2 house \u03b1' ^ ((\u2191(finProdFinEquiv.symm.toFun i).1 + 1) * (\u2191(finProdFinEquiv.symm.toFun u).1 + 1)) \u2264 house \u03b1' ^ (a * l\u2080)",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1807"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-26T18:53:41+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "653e6768c071883ced4377e03422c59c0fae05de5c06976ab307ed6a522567e4"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1825,
+      "start_column": 8,
+      "end_line": 1825,
+      "end_column": 13
+    },
+    "debug_info": {
+      "goal": "case calc_5.h.h\u2082.h\u2081\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\nc\u2084 : \u211d := _root_.c\u2084 K hd \u03b1' \u03b2' \u03b3' q\na : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).1 + 1\nb : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).2 + 1\nl\u2080 : \u2115 := \u2191(_root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq)\ni : Fin (q * q)\nhi : i \u2208 Finset.univ\n\u22a2 house (\u2191a + \u2191b * \u03b2') ^ r * house \u03b1' ^ (a * l\u2080) \u2264 \u2191(2 * m K).sqrt * (1 + house \u03b2') * house \u03b1' ^ (2 * m K ^ 2)",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1825"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-26T18:53:41+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "bb3b7f41083aa526413ee0247368b2ba4a42802db2c126fe47353fe16913c207"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1826,
+      "start_column": 8,
+      "end_line": 1826,
+      "end_column": 13
+    },
+    "debug_info": {
+      "goal": "case calc_5.h.h\u2082.h\u2082\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\nc\u2084 : \u211d := _root_.c\u2084 K hd \u03b1' \u03b2' \u03b3' q\na : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).1 + 1\nb : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).2 + 1\nl\u2080 : \u2115 := \u2191(_root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq)\ni : Fin (q * q)\nhi : i \u2208 Finset.univ\n\u22a2 house \u03b3' ^ (b * l\u2080) \u2264 house \u03b3' ^ (2 * m K ^ 2)",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1826"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-26T18:53:41+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "d50e73568c4304ac6402ce4fa4b12b61b42cef1ad2d91defddae4d800de2c9e8"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1855,
+      "start_column": 8,
+      "end_line": 1855,
+      "end_column": 13
+    },
+    "debug_info": {
+      "goal": "case calc_6.h\u2082.h\u2081\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\nc\u2084 : \u211d := _root_.c\u2084 K hd \u03b1' \u03b2' \u03b3' q\na : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).1 + 1\nb : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).2 + 1\nl\u2080 : \u2115 := \u2191(_root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq)\n\u22a2 c\u2084 ^ n K q \u2264 c\u2084 ^ n K q * (c\u2086 * \u2191q) ^ r",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1855"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-26T18:53:41+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "36dfb904ff48b5f1a008632257302949bd212b3d85b7797598b31ee715352d68"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1856,
+      "start_column": 8,
+      "end_line": 1856,
+      "end_column": 13
+    },
+    "debug_info": {
+      "goal": "case calc_6.h\u2082.h\u2082\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\nc\u2084 : \u211d := _root_.c\u2084 K hd \u03b1' \u03b2' \u03b3' q\na : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).1 + 1\nb : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).2 + 1\nl\u2080 : \u2115 := \u2191(_root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq)\n\u22a2 \u2191(2 * m K).sqrt * (1 + house \u03b2') * house \u03b1' ^ (2 * m K ^ 2) * house \u03b3' ^ (2 * m K ^ 2) \u2264 c\u2087 ^ q",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1856"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-26T18:53:41+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "8ab44d6f7fdebc0ceedadb0e188a4bd9255dbc13c7de4aab25126da23c9a4f1c"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1874,
+      "start_column": 10,
+      "end_line": 1874,
+      "end_column": 15
+    },
+    "debug_info": {
+      "goal": "case calc_6.h\u2082.b0.hb.ha\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\nc\u2084 : \u211d := _root_.c\u2084 K hd \u03b1' \u03b2' \u03b3' q\na : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).1 + 1\nb : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).2 + 1\nl\u2080 : \u2115 := \u2191(_root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq)\n\u22a2 0 \u2264 c\u2086 * \u2191q",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1874"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-26T18:53:41+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "773be5fbc2eb5ced646182764b23d6d84dde5da855c2991cf8fa1a255cea98fc"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1892,
+      "start_column": 4,
+      "end_line": 1892,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "case calc_7\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\nc\u2084 : \u211d := _root_.c\u2084 K hd \u03b1' \u03b2' \u03b3' q\na : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).1 + 1\nb : \u2115 := \u2191(finProdFinEquiv.symm.toFun t).2 + 1\nl\u2080 : \u2115 := \u2191(_root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq)\n\u22a2 \u2191q * \u2191q * (c\u2084 ^ \u2191(n K q) * \u2191(n K q) ^ (1 / 2 * (n K q + 1)) * (c\u2086 * \u2191q) ^ r * c\u2087 ^ \u2191q) \u2264 c\u2088 ^ r * \u2191r ^ (r + 3 / 2)",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1892"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-24T17:54:44+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "dcd336ae2565f5fadae0c70c96c6dce85072946327c7473eb8be33c5ec145a52"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1912,
+      "start_column": 82,
+      "end_line": 1912,
+      "end_column": 87
+    },
+    "debug_info": {
+      "goal": "\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nl : \u2115\nhl : l \u2208 Finset.range (m K)\n\u22a2 let R := R \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq t;\n  let r := r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq;\n  \u2203 R', (\u2200 (z : \u2102), AnalyticAt \u2102 R' z) \u2227 \u2200 (x : \u2102), R x = (x - \u2191l) ^ r * R' x",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1912"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-27T19:46:37+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "768d8881dfc81fc8e4da414667e578228d3f600701cc618b77ad6b80dcbe3878"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 1987,
+      "start_column": 4,
+      "end_line": 1987,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "case hc.h.a\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nl\u2080 : Fin (m K) := _root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nS : \u2102 \u2192 \u2102 := _root_.S \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nx : \u2102\nhx : \u2016x\u2016 = \u2191(m K) * (1 + \u2191r / \u2191q) \u2228 \u2016x\u2016 < \u2191(m K) * (1 + \u2191r / \u2191q)\n\u22a2 \u2016x\u2016 < \u2191(m K) * (1 + \u2191(_root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq) / \u2191q) \u2227\n    \u00acx = \u2191\u2191(_root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq)",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L1987"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-09T15:43:20+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "c678ab4c8b708f1d8ace827ff2b5ec4a75862b093fb152d3d8972966eb48791d"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 2111,
+      "start_column": 4,
+      "end_line": 2111,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "case calc_4\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nz : \u2102\nR : \u2102 \u2192 \u2102 := _root_.R \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq t\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nl\u2080 : Fin (m K) := _root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nS : \u2102 \u2192 \u2102 := _root_.S \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\n\u03b7 : Fin (q * q) \u2192 \ud835\udcde K := _root_.\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nc\u2084 : \u211d := _root_.c\u2084 K hd \u03b1' \u03b2' \u03b3' q\n\u22a2 \u2191q * \u2191q * (c\u2084 ^ \u2191(n K q) * \u2191(n K q) ^ (1 / 2 * (n K q + 1)) * c\u2089 ^ (r + q)) \u2264 c\u2081\u2080 ^ r * \u2191r ^ (1 / 2 * (r + 3))",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L2111"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-09T15:43:20+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "86c251742e89541f2ed16946dfd31dcc95abdca16016941aa4b2f2af5da52113"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 2042,
+      "start_column": 80,
+      "end_line": 2042,
+      "end_column": 85
+    },
+    "debug_info": {
+      "goal": "\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nz : \u2102\nR : \u2102 \u2192 \u2102 := _root_.R \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq t\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nl\u2080 : Fin (m K) := _root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nS : \u2102 \u2192 \u2102 := _root_.S \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u03c1 : K := rho \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq\n\u03b7 : Fin (q * q) \u2192 \ud835\udcde K := _root_.\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nc\u2084 : \u211d := _root_.c\u2084 K hd \u03b1' \u03b2' \u03b3' q\ni : Fin (q * q)\nhi : i \u2208 Finset.univ\nlemma82 :\n  house ((algebraMap (\ud835\udcde K) K) (_root_.\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq t)) \u2264\n    _root_.c\u2084 K hd \u03b1' \u03b2' \u03b3' q ^ \u2191(n K q) * \u2191(n K q) ^ (1 / 2 * (n K q + 1))\n\u22a2 house ((algebraMap (\ud835\udcde K) K) (_root_.\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq t)) =\n    \u2016\u03c3 \u2191(_root_.\u03b7 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u i hq0 h2mq i)\u2016",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L2042"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-26T21:06:47+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "468554d30e57c541edb1515ff0fc5776972c507c833f84e0d078a8f4e483d06a"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 2226,
+      "start_column": 10,
+      "end_line": 2226,
+      "end_column": 15
+    },
+    "debug_info": {
+      "goal": "case calc_3.h\u2082.h\u2082\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nz : \u2102\nR : \u2102 \u2192 \u2102 := _root_.R \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq t\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nl\u2080 : \u2115 := \u2191(_root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq)\nS : \u2102 \u2192 \u2102 := _root_.S \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u22a2 \u20161 / (z - \u2191l\u2080) ^ r\u2016 * \u2016\u220f k \u2208 Finset.range (m K) \\ {l\u2080}, ((\u2191l\u2080 - \u2191k) / (z - \u2191k)) ^ r\u2016 \u2264 c\u2081\u2081 ^ r * (\u2191q / \u2191r) ^ (m K * r)",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L2226"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-26T21:06:47+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "b079bc6b9d4f2fc3da2889e8eee6afb3091c0ec70936e36e0d5d8c5af4a21ae8"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 2230,
+      "start_column": 10,
+      "end_line": 2230,
+      "end_column": 15
+    },
+    "debug_info": {
+      "goal": "case calc_3.h\u2082.b0\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nz : \u2102\nR : \u2102 \u2192 \u2102 := _root_.R \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq t\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nl\u2080 : \u2115 := \u2191(_root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq)\nS : \u2102 \u2192 \u2102 := _root_.S \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u22a2 0 \u2264 c\u2081\u2080 ^ r * \u2191r ^ (1 / 2 * (r + 3))",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L2230"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-26T21:06:47+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "ea0c60b213be592dcfbaeea62f360c9fd8c7135bf588e5a00dc0a9b40c831725"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 2237,
+      "start_column": 4,
+      "end_line": 2237,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "case calc_4\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nz : \u2102\nR : \u2102 \u2192 \u2102 := _root_.R \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u hq0 h2mq t\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nl\u2080 : \u2115 := \u2191(_root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq)\nS : \u2102 \u2192 \u2102 := _root_.S \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u22a2 \u2191r.factorial * (c\u2081\u2080 ^ r * \u2191r ^ (1 / 2 * (r + 3)) * c\u2081\u2081 ^ r * (\u2191q / \u2191r) ^ (m K * r)) \u2264\n    c\u2081\u2082 ^ r * ((3 - \u2191(m K)) / 2 + 3 / 2)",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L2237"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-14T00:20:02+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "8429cf48b94145888f2ca08bf486ccf0dcb200601d816b7977335251cb4e78d8"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 2317,
+      "start_column": 4,
+      "end_line": 2317,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "case calc_1\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nl\u2080 : Fin (m K) := _root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nS : \u2102 \u2192 \u2102 := _root_.S \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nthis : (\u2191(h K) - 1) * (\u2191r + 3 / 2) + (3 - \u2191(m K)) * \u2191r * 1 / 2 + 3 / 2 = -\u2191r / 2 + 3 * \u2191(h K) / 2\n\u22a2 \u2191((Algebra.norm \u211a) \u03c1) \u2264 c\u2081\u2084 ^ r * \u2191r ^ ((\u2191(h K) - 1) * (\u2191r + 3 / 2) + (3 - \u2191(m K)) * \u2191r * 1 / 2 + 3 / 2)",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L2317"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-09T15:43:20+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "dccc45aa76a70b0852f23eeb6a271f521a3e1b1d9e7c23360226af25ab4f60b6"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 2328,
+      "start_column": 2,
+      "end_line": 2328,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nthis :\n  let r := r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq;\n  r \u2264 n K q\n\u22a2 let r := r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq;\n  \u2191r ^ ((r - 3 * h K) / 2) \u2265 c\u2081\u2085 K \u03b1' \u03b2' \u03b3' q ^ r",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L2328"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-08T02:58:34+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "68757e366f0e63d62f6041bf5f063121483908b561ca92fc4e7741372f9e204a"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 2342,
+      "start_column": 4,
+      "end_line": 2342,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "case calc_1\n\u03b1 \u03b2 : \u2102\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nK : Type\ninst\u271d\u00b9 : Field K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\ninst\u271d : NumberField K\nq : \u2115\nu : Fin (m K * n K q)\nt : Fin (q * q)\nhq0 : 0 < q\nh2mq : 2 * m K \u2223 q ^ 2\nr : \u2115 := _root_.r \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nl\u2080 : Fin (m K) := _root_.l\u2080 \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\nS : \u2102 \u2192 \u2102 := _root_.S \u03b1 \u03b2 hirr htriv K \u03c3 hd \u03b1' \u03b2' \u03b3' habc q u t hq0 h2mq\n\u22a2 \u2191r ^ ((r - 3 * h K) / 2) < c\u2081\u2084 ^ r * c\u2085 K \u03b1' \u03b2' \u03b3' q ^ r",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L2342"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-09T15:43:20+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "7509bd2e5ea7fb732cfbe2d354b72c36fc73fc484677c9c253f7058ab8f8fa7b"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "12ff4a4ba58e36b294e134f248f4567b8e146a71",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7.lean",
+      "start_line": 2365,
+      "start_column": 6,
+      "end_line": 2365,
+      "end_column": 11
+    },
+    "debug_info": {
+      "goal": "case refine_1\n\u03b1 \u03b2 : \u2102\nh\u03b1 : IsAlgebraic \u211a \u03b1\nh\u03b2 : IsAlgebraic \u211a \u03b2\nhtriv : \u03b1 \u2260 0 \u2227 \u03b1 \u2260 1\nhirr : \u2200 (i j : \u2124), \u03b2 \u2260 \u2191i / \u2191j\nh\u03b3 : IsAlgebraic \u211a (\u03b1 ^ \u03b2)\nK : Type\nhK : Field K\nhNK : NumberField K\n\u03c3 : K \u2192+* \u2102\nhd : DecidableEq (K \u2192+* \u2102)\n\u03b1' \u03b2' \u03b3' : K\nhabc : \u03b1 = \u03c3 \u03b1' \u2227 \u03b2 = \u03c3 \u03b2' \u2227 \u03b1 ^ \u03b2 = \u03c3 \u03b3'\nq : \u2115 := 5\nt : Fin (q * q) := sorry\nhq0 : 0 < q\nm : \u2115 := _root_.m K\nu : Fin (m * n K q) := sorry\n\u22a2 2 * m \u2223 q",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/12ff4a4ba58e36b294e134f248f4567b8e146a71/Mathlib/NumberTheory/h7.lean#L2365"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-04-27T19:46:37+02:00",
+      "inclusion_date": "2025-04-27T23:05:27.527049+00:00"
+    },
+    "id": "9c8bdd09ff8f835fdc657dfa353e74bfaf6afebda20bdc0ecd071c890abfbb1e"
   }
 ]
