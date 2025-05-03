@@ -4277,8 +4277,8 @@
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "Kriesel-Putnam",
-      "commit": "490341480f0e44083c37c61c3bcaec14e989e23a",
+      "branch": "master",
+      "commit": "414eabf0973168e9884a975ddc0fcce4e6fd6af1",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4290,20 +4290,20 @@
     },
     "debug_info": {
       "goal": "\u03c6 : NNFormula \u2115\n\u22a2 \u2203 \u03c8, \u03c8.isModalCNF \u2227 Hilbert.K \u22a2! \u03c6.toFormula \u2b64 \u03c8.toFormula",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/490341480f0e44083c37c61c3bcaec14e989e23a/Foundation/Modal/Hilbert/NNFormula.lean#L232"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/414eabf0973168e9884a975ddc0fcce4e6fd6af1/Foundation/Modal/Hilbert/NNFormula.lean#L232"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-02T23:27:09.700517+00:00"
+      "inclusion_date": "2025-05-03T23:21:20.128254+00:00"
     },
-    "id": "9916bfc81cc1ae5f967e8db4316943673aa2225097eee1c09f767098d0333575"
+    "id": "e5e04974324c347cbe05d02c2a2db0b5b858c39caacb7edc7a5789bb6b0ed4b6"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "Kriesel-Putnam",
-      "commit": "490341480f0e44083c37c61c3bcaec14e989e23a",
+      "branch": "master",
+      "commit": "414eabf0973168e9884a975ddc0fcce4e6fd6af1",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4315,20 +4315,20 @@
     },
     "debug_info": {
       "goal": "\u03c6 : NNFormula \u2115\n\u22a2 \u2203 \u03c8, \u03c8.isModalDNF \u2227 Hilbert.K \u22a2! \u03c6.toFormula \u2b64 \u03c8.toFormula",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/490341480f0e44083c37c61c3bcaec14e989e23a/Foundation/Modal/Hilbert/NNFormula.lean#L236"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/414eabf0973168e9884a975ddc0fcce4e6fd6af1/Foundation/Modal/Hilbert/NNFormula.lean#L236"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-02T23:27:09.700517+00:00"
+      "inclusion_date": "2025-05-03T23:21:20.128254+00:00"
     },
-    "id": "17cfc2e7a85f57bfd0075597d2bbc75522c7f5958a0bf4b339b063c93744eca0"
+    "id": "58c983a3324a5c7d35e8acd302a706910b1efe48d3329027dbfb5f26e1ef5b78"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "Kriesel-Putnam",
-      "commit": "490341480f0e44083c37c61c3bcaec14e989e23a",
+      "branch": "master",
+      "commit": "414eabf0973168e9884a975ddc0fcce4e6fd6af1",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4340,20 +4340,20 @@
     },
     "debug_info": {
       "goal": "L : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\n\u22a2 \u03b3 \u2208 L",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/490341480f0e44083c37c61c3bcaec14e989e23a/Foundation/Modal/Maximal/Makinson.lean#L27"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/414eabf0973168e9884a975ddc0fcce4e6fd6af1/Foundation/Modal/Maximal/Makinson.lean#L27"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-02T23:27:09.700517+00:00"
+      "inclusion_date": "2025-05-03T23:21:20.128254+00:00"
     },
-    "id": "c41220088aa8b6df335eb606331139a1ecae5442a8d4678e8f81ba979af66e43"
+    "id": "175ff7c9fd647db99cb08a1d3d9b15eb1b8b8e0d8076be31e5de455a70409501"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "Kriesel-Putnam",
-      "commit": "490341480f0e44083c37c61c3bcaec14e989e23a",
+      "branch": "master",
+      "commit": "414eabf0973168e9884a975ddc0fcce4e6fd6af1",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4365,20 +4365,20 @@
     },
     "debug_info": {
       "goal": "L : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\n\u22a2 \u03b3 \u2209 Logic.Ver",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/490341480f0e44083c37c61c3bcaec14e989e23a/Foundation/Modal/Maximal/Makinson.lean#L28"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/414eabf0973168e9884a975ddc0fcce4e6fd6af1/Foundation/Modal/Maximal/Makinson.lean#L28"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-02T23:27:09.700517+00:00"
+      "inclusion_date": "2025-05-03T23:21:20.128254+00:00"
     },
-    "id": "e2d2d910ecee7169fdabdb65f9c2be827a3baa4208ee6eae86d4f646447d36c1"
+    "id": "fa6e96d3374437bd7b20b33a8836dd820e995b65478582fb78e0a43a80802758"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "Kriesel-Putnam",
-      "commit": "490341480f0e44083c37c61c3bcaec14e989e23a",
+      "branch": "master",
+      "commit": "414eabf0973168e9884a975ddc0fcce4e6fd6af1",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4390,20 +4390,20 @@
     },
     "debug_info": {
       "goal": "L : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\nh\u03b3V : \u03b3 \u2209 Logic.Ver\n\u22a2 \u2203 \u03b4 \u2208 \u0393, (\u2191\u03b4).toFormula \u2208 L \u2227 (\u2191\u03b4).toFormula \u2209 Logic.Ver",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/490341480f0e44083c37c61c3bcaec14e989e23a/Foundation/Modal/Maximal/Makinson.lean#L31"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/414eabf0973168e9884a975ddc0fcce4e6fd6af1/Foundation/Modal/Maximal/Makinson.lean#L31"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-02T23:27:09.700517+00:00"
+      "inclusion_date": "2025-05-03T23:21:20.128254+00:00"
     },
-    "id": "83699ef9cb7d5ba0b2031ddefbffffbec5b12cf3a3edc511cc426be006a7b59f"
+    "id": "b78b444e9128953c5010c4d5a8c9a6cecc860ad80b175d5fcf0dcc136096dfe1"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "Kriesel-Putnam",
-      "commit": "490341480f0e44083c37c61c3bcaec14e989e23a",
+      "branch": "master",
+      "commit": "414eabf0973168e9884a975ddc0fcce4e6fd6af1",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4415,20 +4415,20 @@
     },
     "debug_info": {
       "goal": "case mk.intro\nL : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis\u271d : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\nh\u03b3V : \u03b3 \u2209 Logic.Ver\n\u0394 : List { \u03c8 // \u03c8.isPrebox \u2228 \u03c8.isPredia \u2228 \u03c8.degree = 0 }\nh\u03b4\u0393 : \u27e8\u22c1\u0394.unattach, \u22ef\u27e9 \u2208 \u0393\nh\u03b4L : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2208 L\nh\u03b4V : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2209 Logic.Ver\n\u03be : NNFormula \u2115\nproperty\u271d : (\u25a1\u03be).isPrebox \u2228 (\u25a1\u03be).isPredia \u2228 (\u25a1\u03be).degree = 0\nh\u03c8\u2081 : \u27e8\u25a1\u03be, property\u271d\u27e9 \u2208 \u0394\nh\u03c8\u2082 : (\u2191\u27e8\u25a1\u03be, property\u271d\u27e9).isPrebox\nthis : \u25a1\u03be.toFormula \u2208 Logic.Ver\n\u22a2 False",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/490341480f0e44083c37c61c3bcaec14e989e23a/Foundation/Modal/Maximal/Makinson.lean#L36"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/414eabf0973168e9884a975ddc0fcce4e6fd6af1/Foundation/Modal/Maximal/Makinson.lean#L36"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-02T23:27:09.700517+00:00"
+      "inclusion_date": "2025-05-03T23:21:20.128254+00:00"
     },
-    "id": "f6974c0297c2ff253aef9f10e56bf7d97d9fd801be7c15931e11b8f916f77828"
+    "id": "b441c20b9be3edfb44fb1c6968af315fee5a735b6e62e991d206d76f847ffa63"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "Kriesel-Putnam",
-      "commit": "490341480f0e44083c37c61c3bcaec14e989e23a",
+      "branch": "master",
+      "commit": "414eabf0973168e9884a975ddc0fcce4e6fd6af1",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4440,20 +4440,20 @@
     },
     "debug_info": {
       "goal": "L : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\nh\u03b3V : \u03b3 \u2209 Logic.Ver\n\u0394 : List { \u03c8 // \u03c8.isPrebox \u2228 \u03c8.isPredia \u2228 \u03c8.degree = 0 }\nh\u03b4\u0393 : \u27e8\u22c1\u0394.unattach, \u22ef\u27e9 \u2208 \u0393\nh\u03b4L : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2208 L\nh\u03b4V : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2209 Logic.Ver\nh\u0394\u2081 : \u2200 \u03c8 \u2208 \u0394, \u00ac(\u2191\u03c8).isPrebox\n\u22a2 \u2203 \u0393, \u03c6 \u2b64 \u22c0\u0393 \u2208 L",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/490341480f0e44083c37c61c3bcaec14e989e23a/Foundation/Modal/Maximal/Makinson.lean#L38"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/414eabf0973168e9884a975ddc0fcce4e6fd6af1/Foundation/Modal/Maximal/Makinson.lean#L38"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-02T23:27:09.700517+00:00"
+      "inclusion_date": "2025-05-03T23:21:20.128254+00:00"
     },
-    "id": "f0e01aa81c95de9d8e14a443dea38a896aba6a2f895d3c049109a35651d574ef"
+    "id": "f8739c130e55fde7424616abe0789d4e6e75fbd77a322aa3b47d844d353952f7"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "Kriesel-Putnam",
-      "commit": "490341480f0e44083c37c61c3bcaec14e989e23a",
+      "branch": "master",
+      "commit": "414eabf0973168e9884a975ddc0fcce4e6fd6af1",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4465,20 +4465,20 @@
     },
     "debug_info": {
       "goal": "case intro.intro.intro.intro.mk.intro.intro.intro\nL : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u00acHilbert.Ver \u22a2! \u03c6\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis\u271d : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\nh\u03b3V : \u03b3 \u2209 Logic.Ver\n\u0394 : List { \u03c8 // \u03c8.isPrebox \u2228 \u03c8.isPredia \u2228 \u03c8.degree = 0 }\nh\u03b4\u0393 : \u27e8\u22c1\u0394.unattach, \u22ef\u27e9 \u2208 \u0393\nh\u03b4L : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2208 L\nh\u03b4V : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2209 Logic.Ver\nh\u0394\u2081 : \u2200 \u03c8 \u2208 \u0394, \u00ac(\u2191\u03c8).isPrebox\nthis : \u2203 \u0393, \u03c6 \u2b64 \u22c0\u0393 \u2208 L\n\u22a2 \u2203 \u03c8, \u25c7\u03c8 \u2208 L",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/490341480f0e44083c37c61c3bcaec14e989e23a/Foundation/Modal/Maximal/Makinson.lean#L40"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/414eabf0973168e9884a975ddc0fcce4e6fd6af1/Foundation/Modal/Maximal/Makinson.lean#L40"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-02T23:27:09.700517+00:00"
+      "inclusion_date": "2025-05-03T23:21:20.128254+00:00"
     },
-    "id": "9ec94735ef9bda5a92058bb3dcffb1399419a2a885df3cf93bca873c17872aa7"
+    "id": "b4444b173a2bbf66e3b6ea20044376008ed12423323609d359b74706cda9d0e9"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "Kriesel-Putnam",
-      "commit": "490341480f0e44083c37c61c3bcaec14e989e23a",
+      "branch": "master",
+      "commit": "414eabf0973168e9884a975ddc0fcce4e6fd6af1",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4490,20 +4490,20 @@
     },
     "debug_info": {
       "goal": "\u22a2 \u2200 {\u03c6 : Formula \u2115}, Grz.miniCanonicalFrame Hilbert.GrzPoint3 \u03c6 \u2208 FrameClass.finite_connected_partial_order",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/490341480f0e44083c37c61c3bcaec14e989e23a/Foundation/Modal/Kripke/Hilbert/GrzPoint3.lean#L42"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/414eabf0973168e9884a975ddc0fcce4e6fd6af1/Foundation/Modal/Kripke/Hilbert/GrzPoint3.lean#L42"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-14T14:50:18+09:00",
-      "inclusion_date": "2025-05-02T23:27:09.700517+00:00"
+      "inclusion_date": "2025-05-03T23:21:20.128254+00:00"
     },
-    "id": "ee8e4f1718c6c4963f7748fe0ba54b6551f697ed0cf72db6d140932f2730d380"
+    "id": "d90a6d887413eb3e3029a479d622df7e9dddfbcb84a8428f79d4767e01377992"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "Kriesel-Putnam",
-      "commit": "490341480f0e44083c37c61c3bcaec14e989e23a",
+      "branch": "master",
+      "commit": "414eabf0973168e9884a975ddc0fcce4e6fd6af1",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4515,14 +4515,14 @@
     },
     "debug_info": {
       "goal": "\u22a2 Complete Hilbert.GLPoint3 FrameClass.finite_strict_linear_order",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/490341480f0e44083c37c61c3bcaec14e989e23a/Foundation/Modal/Kripke/Hilbert/GLPoint3.lean#L33"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/414eabf0973168e9884a975ddc0fcce4e6fd6af1/Foundation/Modal/Kripke/Hilbert/GLPoint3.lean#L33"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-17T22:57:50+09:00",
-      "inclusion_date": "2025-05-02T23:27:09.700517+00:00"
+      "inclusion_date": "2025-05-03T23:21:20.128254+00:00"
     },
-    "id": "dcf2decfb15c782309da17ad622e053e899f8fcac7afee92cf268d071bdbba7a"
+    "id": "908d4761f47b2838cb3b39ffcd3183a4c35d9cc63126bf0934ed71f6f237e1d3"
   },
   {
     "repo": {
@@ -10577,8 +10577,8 @@
   {
     "repo": {
       "remote": "https://github.com/lean-ja/lean-by-example",
-      "branch": "auto-update-lean/patch",
-      "commit": "d83d036d9afe6274f9d7d0ad203461fa19328034",
+      "branch": "main",
+      "commit": "b6afdbee9516862a93891034ab6415399391c13b",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -10590,20 +10590,20 @@
     },
     "debug_info": {
       "goal": "a b c d e : Nat\nh1 : a \u2264 b\nh2 : b \u2264 c\nh3 : c \u2264 d\nh4 : d \u2264 e\n\u22a2 a \u2264 e",
-      "url": "https://github.com/lean-ja/lean-by-example/blob/d83d036d9afe6274f9d7d0ad203461fa19328034/LeanByExample/Attribute/Aesop.lean#L107"
+      "url": "https://github.com/lean-ja/lean-by-example/blob/b6afdbee9516862a93891034ab6415399391c13b/LeanByExample/Attribute/Aesop.lean#L107"
     },
     "metadata": {
       "blame_email_hash": "a84937a2d49e",
       "blame_date": "2025-01-08T22:40:33+09:00",
-      "inclusion_date": "2025-05-03T00:25:27.578033+00:00"
+      "inclusion_date": "2025-05-03T23:41:02.950758+00:00"
     },
-    "id": "2b36967da7e451253a940d19ce2c2c3cdc3d188345fe056d9be15f75a6b4993b"
+    "id": "dda60bffce0fed704f9bad819514ab85e5332bbe353ed5ed67b3555cfd311aea"
   },
   {
     "repo": {
       "remote": "https://github.com/lean-ja/lean-by-example",
-      "branch": "auto-update-lean/patch",
-      "commit": "d83d036d9afe6274f9d7d0ad203461fa19328034",
+      "branch": "main",
+      "commit": "b6afdbee9516862a93891034ab6415399391c13b",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -10615,14 +10615,14 @@
     },
     "debug_info": {
       "goal": "n : Nat\n\u22a2 n + 0 = n",
-      "url": "https://github.com/lean-ja/lean-by-example/blob/d83d036d9afe6274f9d7d0ad203461fa19328034/LeanByExample/Declarative/ProofWanted.lean#L16"
+      "url": "https://github.com/lean-ja/lean-by-example/blob/b6afdbee9516862a93891034ab6415399391c13b/LeanByExample/Declarative/ProofWanted.lean#L16"
     },
     "metadata": {
       "blame_email_hash": "a84937a2d49e",
       "blame_date": "2024-06-19T23:24:32+09:00",
-      "inclusion_date": "2025-05-03T00:25:27.578033+00:00"
+      "inclusion_date": "2025-05-03T23:41:02.950758+00:00"
     },
-    "id": "65d90c44825263e3b0664e694a10a509a3e7502fcf151af8b0b5b89cd4e83353"
+    "id": "e5faba745f8d444809ba4a7abadfc00f250efec3a787fcc8953a5f5c7d5515cc"
   },
   {
     "repo": {
@@ -10702,8 +10702,8 @@
   {
     "repo": {
       "remote": "https://github.com/lean-ja/lean-by-example",
-      "branch": "auto-update-lean/patch",
-      "commit": "d83d036d9afe6274f9d7d0ad203461fa19328034",
+      "branch": "main",
+      "commit": "b6afdbee9516862a93891034ab6415399391c13b",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -10715,20 +10715,20 @@
     },
     "debug_info": {
       "goal": "m n : MyNat\n\u22a2 n * (n + m) = n * n + n * m",
-      "url": "https://github.com/lean-ja/lean-by-example/blob/d83d036d9afe6274f9d7d0ad203461fa19328034/LeanByExample/Tactic/Ring.lean#L115"
+      "url": "https://github.com/lean-ja/lean-by-example/blob/b6afdbee9516862a93891034ab6415399391c13b/LeanByExample/Tactic/Ring.lean#L115"
     },
     "metadata": {
       "blame_email_hash": "a84937a2d49e",
       "blame_date": "2025-02-17T22:51:43+09:00",
-      "inclusion_date": "2025-05-03T00:25:27.578033+00:00"
+      "inclusion_date": "2025-05-03T23:41:02.950758+00:00"
     },
-    "id": "9eb4f42018cc7c2cd1b7becaabc91093afb59414c9ee7e2fe890edb7f15a8b9d"
+    "id": "8853ad6a657041f722b29f3afcd35f6e03efb25a729b1fb9baf5c0b9d64332f7"
   },
   {
     "repo": {
       "remote": "https://github.com/lean-ja/lean-by-example",
-      "branch": "auto-update-lean/patch",
-      "commit": "d83d036d9afe6274f9d7d0ad203461fa19328034",
+      "branch": "main",
+      "commit": "b6afdbee9516862a93891034ab6415399391c13b",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -10740,20 +10740,20 @@
     },
     "debug_info": {
       "goal": "case succ\nn m : \u2115\nih : m + n = 0 \u2192 m = 0 \u2227 n = 0\nh : m + 1 + n = 0\n\u22a2 False",
-      "url": "https://github.com/lean-ja/lean-by-example/blob/d83d036d9afe6274f9d7d0ad203461fa19328034/LeanByExample/Tactic/Induction.lean#L73"
+      "url": "https://github.com/lean-ja/lean-by-example/blob/b6afdbee9516862a93891034ab6415399391c13b/LeanByExample/Tactic/Induction.lean#L73"
     },
     "metadata": {
       "blame_email_hash": "a84937a2d49e",
       "blame_date": "2024-11-07T02:25:02+09:00",
-      "inclusion_date": "2025-05-03T00:25:27.578033+00:00"
+      "inclusion_date": "2025-05-03T23:41:02.950758+00:00"
     },
-    "id": "446193a27be1bf898c7e97151bc443b1f5addd77edddd5cd6055b3169a9f58c4"
+    "id": "b0f8d158d891969ca9d25e962c837182c2733d7e8eff00cf0495e4b5039ba37a"
   },
   {
     "repo": {
       "remote": "https://github.com/lean-ja/lean-by-example",
-      "branch": "auto-update-lean/patch",
-      "commit": "d83d036d9afe6274f9d7d0ad203461fa19328034",
+      "branch": "main",
+      "commit": "b6afdbee9516862a93891034ab6415399391c13b",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -10765,14 +10765,14 @@
     },
     "debug_info": {
       "goal": "n\u271d n : \u2115\n\u22a2 sum (n + 1) = \u2191(n + 1) * (\u2191(n + 1) + 1) / 2",
-      "url": "https://github.com/lean-ja/lean-by-example/blob/d83d036d9afe6274f9d7d0ad203461fa19328034/LeanByExample/Tactic/Induction.lean#L133"
+      "url": "https://github.com/lean-ja/lean-by-example/blob/b6afdbee9516862a93891034ab6415399391c13b/LeanByExample/Tactic/Induction.lean#L133"
     },
     "metadata": {
       "blame_email_hash": "a84937a2d49e",
       "blame_date": "2024-04-25T03:36:30+09:00",
-      "inclusion_date": "2025-05-03T00:25:27.578033+00:00"
+      "inclusion_date": "2025-05-03T23:41:02.950758+00:00"
     },
-    "id": "d5f4c1d3092adf1bbcf0437411f10b086fff1c72aac42fc6be9cbd896d3d781e"
+    "id": "c26294888fd43f47b34aacef3aba1b20b7b61407c8c38ad23fc27197e3c09a2a"
   },
   {
     "repo": {
@@ -25252,8 +25252,8 @@
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "Kriesel-Putnam",
-      "commit": "490341480f0e44083c37c61c3bcaec14e989e23a",
+      "branch": "master",
+      "commit": "414eabf0973168e9884a975ddc0fcce4e6fd6af1",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -25265,14 +25265,14 @@
     },
     "debug_info": {
       "goal": "\u03c6 : Formula \u2115\nM : Model\ninst\u271d : IsStrictOrder M.World M.Rel\nx : M.World\nh : \u00acx \u22a7 \u25a1\u03c6\n\u22a2 \u2203 y, x \u227a y \u2227 \u00acy \u22a7 \u03c6 \u2227 y \u22a7 \u25a1\u03c6",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/490341480f0e44083c37c61c3bcaec14e989e23a/Foundation/Modal/Kripke/Balloon.lean#L63"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/414eabf0973168e9884a975ddc0fcce4e6fd6af1/Foundation/Modal/Kripke/Balloon.lean#L63"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-04-26T09:19:50+09:00",
-      "inclusion_date": "2025-05-02T23:27:09.700517+00:00"
+      "inclusion_date": "2025-05-03T23:21:20.128254+00:00"
     },
-    "id": "a3be2b30c6384e544284fbfbe4dce1c626d5e8ae2e18ed1d2c06e8195c5f0912"
+    "id": "a69a88ab6741880a684acb9afc65ad0261ebde7da0a6c7cc3a658b5c6f369958"
   },
   {
     "repo": {
@@ -32852,8 +32852,8 @@
   {
     "repo": {
       "remote": "https://github.com/lean-ja/lean-by-example",
-      "branch": "auto-update-lean/patch",
-      "commit": "d83d036d9afe6274f9d7d0ad203461fa19328034",
+      "branch": "main",
+      "commit": "b6afdbee9516862a93891034ab6415399391c13b",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -32865,20 +32865,20 @@
     },
     "debug_info": {
       "goal": "\u03b1 : Type u\na b : @Set \u03b1\nh : \u2200 (x : \u03b1), x \u2208 a \u2194 x \u2208 b\n\u22a2 a = b",
-      "url": "https://github.com/lean-ja/lean-by-example/blob/d83d036d9afe6274f9d7d0ad203461fa19328034/LeanByExample/Tactic/Ext.lean#L47"
+      "url": "https://github.com/lean-ja/lean-by-example/blob/b6afdbee9516862a93891034ab6415399391c13b/LeanByExample/Tactic/Ext.lean#L47"
     },
     "metadata": {
       "blame_email_hash": "a84937a2d49e",
       "blame_date": "2025-01-08T20:05:37+09:00",
-      "inclusion_date": "2025-05-03T00:25:27.578033+00:00"
+      "inclusion_date": "2025-05-03T23:41:02.950758+00:00"
     },
-    "id": "58a6f70f148d31c08330cafd9482204f0bba467dc4037949b32d8b6c478098bf"
+    "id": "9ce4208411687707e6675450229e36b225a150d2708f7fc9bfb0688f6e948a7e"
   },
   {
     "repo": {
       "remote": "https://github.com/lean-ja/lean-by-example",
-      "branch": "auto-update-lean/patch",
-      "commit": "d83d036d9afe6274f9d7d0ad203461fa19328034",
+      "branch": "main",
+      "commit": "b6afdbee9516862a93891034ab6415399391c13b",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -32890,14 +32890,14 @@
     },
     "debug_info": {
       "goal": "\u03b1 : Type\np q : Foo\nhx : Foo.x p = Foo.x q\nhy : Foo.y p = Foo.y q\n\u22a2 p = q",
-      "url": "https://github.com/lean-ja/lean-by-example/blob/d83d036d9afe6274f9d7d0ad203461fa19328034/LeanByExample/Tactic/Ext.lean#L95"
+      "url": "https://github.com/lean-ja/lean-by-example/blob/b6afdbee9516862a93891034ab6415399391c13b/LeanByExample/Tactic/Ext.lean#L95"
     },
     "metadata": {
       "blame_email_hash": "a84937a2d49e",
       "blame_date": "2025-01-08T20:05:37+09:00",
-      "inclusion_date": "2025-05-03T00:25:27.578033+00:00"
+      "inclusion_date": "2025-05-03T23:41:02.950758+00:00"
     },
-    "id": "9e02827c2b3a0233f15250f120a8ec2c2ac9cc704dfac4904125951c005bd56d"
+    "id": "18ec047e1602cf9c1668a447d4b827b2f619b1b2ecda7ee7272cea0e8ae4f0f2"
   },
   {
     "repo": {
