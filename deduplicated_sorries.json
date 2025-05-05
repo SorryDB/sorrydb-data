@@ -4278,7 +4278,7 @@
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "master",
-      "commit": "414eabf0973168e9884a975ddc0fcce4e6fd6af1",
+      "commit": "128256283ac4ab7a1202fc068a51966182aac91a",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4290,20 +4290,20 @@
     },
     "debug_info": {
       "goal": "\u03c6 : NNFormula \u2115\n\u22a2 \u2203 \u03c8, \u03c8.isModalCNF \u2227 Hilbert.K \u22a2! \u03c6.toFormula \u2b64 \u03c8.toFormula",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/414eabf0973168e9884a975ddc0fcce4e6fd6af1/Foundation/Modal/Hilbert/NNFormula.lean#L232"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/128256283ac4ab7a1202fc068a51966182aac91a/Foundation/Modal/Hilbert/NNFormula.lean#L232"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-03T23:21:20.128254+00:00"
+      "inclusion_date": "2025-05-04T23:12:16.117129+00:00"
     },
-    "id": "e5e04974324c347cbe05d02c2a2db0b5b858c39caacb7edc7a5789bb6b0ed4b6"
+    "id": "f0baefe756d793167f4aed4538e43765c789b00c5b56a534e6fda856c1f30a7e"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "master",
-      "commit": "414eabf0973168e9884a975ddc0fcce4e6fd6af1",
+      "commit": "128256283ac4ab7a1202fc068a51966182aac91a",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4315,20 +4315,20 @@
     },
     "debug_info": {
       "goal": "\u03c6 : NNFormula \u2115\n\u22a2 \u2203 \u03c8, \u03c8.isModalDNF \u2227 Hilbert.K \u22a2! \u03c6.toFormula \u2b64 \u03c8.toFormula",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/414eabf0973168e9884a975ddc0fcce4e6fd6af1/Foundation/Modal/Hilbert/NNFormula.lean#L236"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/128256283ac4ab7a1202fc068a51966182aac91a/Foundation/Modal/Hilbert/NNFormula.lean#L236"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-03T23:21:20.128254+00:00"
+      "inclusion_date": "2025-05-04T23:12:16.117129+00:00"
     },
-    "id": "58c983a3324a5c7d35e8acd302a706910b1efe48d3329027dbfb5f26e1ef5b78"
+    "id": "7b3e9aaa254eaad25a3a2d606f909facf5f701fa4355bda0d9ad1093d54b4b7e"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "master",
-      "commit": "414eabf0973168e9884a975ddc0fcce4e6fd6af1",
+      "commit": "128256283ac4ab7a1202fc068a51966182aac91a",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4340,20 +4340,20 @@
     },
     "debug_info": {
       "goal": "L : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\n\u22a2 \u03b3 \u2208 L",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/414eabf0973168e9884a975ddc0fcce4e6fd6af1/Foundation/Modal/Maximal/Makinson.lean#L27"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/128256283ac4ab7a1202fc068a51966182aac91a/Foundation/Modal/Maximal/Makinson.lean#L27"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-03T23:21:20.128254+00:00"
+      "inclusion_date": "2025-05-04T23:12:16.117129+00:00"
     },
-    "id": "175ff7c9fd647db99cb08a1d3d9b15eb1b8b8e0d8076be31e5de455a70409501"
+    "id": "fd97dd1e7d34bf9309563159113086b03ebbff7deeeeb91c9b9aa2124f8fe9c8"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "master",
-      "commit": "414eabf0973168e9884a975ddc0fcce4e6fd6af1",
+      "commit": "128256283ac4ab7a1202fc068a51966182aac91a",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4365,20 +4365,20 @@
     },
     "debug_info": {
       "goal": "L : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\n\u22a2 \u03b3 \u2209 Logic.Ver",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/414eabf0973168e9884a975ddc0fcce4e6fd6af1/Foundation/Modal/Maximal/Makinson.lean#L28"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/128256283ac4ab7a1202fc068a51966182aac91a/Foundation/Modal/Maximal/Makinson.lean#L28"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-03T23:21:20.128254+00:00"
+      "inclusion_date": "2025-05-04T23:12:16.117129+00:00"
     },
-    "id": "fa6e96d3374437bd7b20b33a8836dd820e995b65478582fb78e0a43a80802758"
+    "id": "556d0bddc4a9d949ffdf66d298859240b5cadb13cfe471d0b53045e983f5df20"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "master",
-      "commit": "414eabf0973168e9884a975ddc0fcce4e6fd6af1",
+      "commit": "128256283ac4ab7a1202fc068a51966182aac91a",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4390,20 +4390,20 @@
     },
     "debug_info": {
       "goal": "L : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\nh\u03b3V : \u03b3 \u2209 Logic.Ver\n\u22a2 \u2203 \u03b4 \u2208 \u0393, (\u2191\u03b4).toFormula \u2208 L \u2227 (\u2191\u03b4).toFormula \u2209 Logic.Ver",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/414eabf0973168e9884a975ddc0fcce4e6fd6af1/Foundation/Modal/Maximal/Makinson.lean#L31"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/128256283ac4ab7a1202fc068a51966182aac91a/Foundation/Modal/Maximal/Makinson.lean#L31"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-03T23:21:20.128254+00:00"
+      "inclusion_date": "2025-05-04T23:12:16.117129+00:00"
     },
-    "id": "b78b444e9128953c5010c4d5a8c9a6cecc860ad80b175d5fcf0dcc136096dfe1"
+    "id": "b661d015eb00267ee4fc6bac5214828c30aa94bedcf58cb701364404d6db314d"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "master",
-      "commit": "414eabf0973168e9884a975ddc0fcce4e6fd6af1",
+      "commit": "128256283ac4ab7a1202fc068a51966182aac91a",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4415,20 +4415,20 @@
     },
     "debug_info": {
       "goal": "case mk.intro\nL : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis\u271d : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\nh\u03b3V : \u03b3 \u2209 Logic.Ver\n\u0394 : List { \u03c8 // \u03c8.isPrebox \u2228 \u03c8.isPredia \u2228 \u03c8.degree = 0 }\nh\u03b4\u0393 : \u27e8\u22c1\u0394.unattach, \u22ef\u27e9 \u2208 \u0393\nh\u03b4L : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2208 L\nh\u03b4V : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2209 Logic.Ver\n\u03be : NNFormula \u2115\nproperty\u271d : (\u25a1\u03be).isPrebox \u2228 (\u25a1\u03be).isPredia \u2228 (\u25a1\u03be).degree = 0\nh\u03c8\u2081 : \u27e8\u25a1\u03be, property\u271d\u27e9 \u2208 \u0394\nh\u03c8\u2082 : (\u2191\u27e8\u25a1\u03be, property\u271d\u27e9).isPrebox\nthis : \u25a1\u03be.toFormula \u2208 Logic.Ver\n\u22a2 False",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/414eabf0973168e9884a975ddc0fcce4e6fd6af1/Foundation/Modal/Maximal/Makinson.lean#L36"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/128256283ac4ab7a1202fc068a51966182aac91a/Foundation/Modal/Maximal/Makinson.lean#L36"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-03T23:21:20.128254+00:00"
+      "inclusion_date": "2025-05-04T23:12:16.117129+00:00"
     },
-    "id": "b441c20b9be3edfb44fb1c6968af315fee5a735b6e62e991d206d76f847ffa63"
+    "id": "b0fc38cbe8f22d8c0bce138335e887cbaab7ead1112ddbd047187013a18d6894"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "master",
-      "commit": "414eabf0973168e9884a975ddc0fcce4e6fd6af1",
+      "commit": "128256283ac4ab7a1202fc068a51966182aac91a",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4440,20 +4440,20 @@
     },
     "debug_info": {
       "goal": "L : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\nh\u03b3V : \u03b3 \u2209 Logic.Ver\n\u0394 : List { \u03c8 // \u03c8.isPrebox \u2228 \u03c8.isPredia \u2228 \u03c8.degree = 0 }\nh\u03b4\u0393 : \u27e8\u22c1\u0394.unattach, \u22ef\u27e9 \u2208 \u0393\nh\u03b4L : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2208 L\nh\u03b4V : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2209 Logic.Ver\nh\u0394\u2081 : \u2200 \u03c8 \u2208 \u0394, \u00ac(\u2191\u03c8).isPrebox\n\u22a2 \u2203 \u0393, \u03c6 \u2b64 \u22c0\u0393 \u2208 L",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/414eabf0973168e9884a975ddc0fcce4e6fd6af1/Foundation/Modal/Maximal/Makinson.lean#L38"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/128256283ac4ab7a1202fc068a51966182aac91a/Foundation/Modal/Maximal/Makinson.lean#L38"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-03T23:21:20.128254+00:00"
+      "inclusion_date": "2025-05-04T23:12:16.117129+00:00"
     },
-    "id": "f8739c130e55fde7424616abe0789d4e6e75fbd77a322aa3b47d844d353952f7"
+    "id": "ab7316574b00a7c5561f82e10567baa4a1f851b2f68bb541626fc573d7e37d73"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "master",
-      "commit": "414eabf0973168e9884a975ddc0fcce4e6fd6af1",
+      "commit": "128256283ac4ab7a1202fc068a51966182aac91a",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4465,20 +4465,20 @@
     },
     "debug_info": {
       "goal": "case intro.intro.intro.intro.mk.intro.intro.intro\nL : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u00acHilbert.Ver \u22a2! \u03c6\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis\u271d : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\nh\u03b3V : \u03b3 \u2209 Logic.Ver\n\u0394 : List { \u03c8 // \u03c8.isPrebox \u2228 \u03c8.isPredia \u2228 \u03c8.degree = 0 }\nh\u03b4\u0393 : \u27e8\u22c1\u0394.unattach, \u22ef\u27e9 \u2208 \u0393\nh\u03b4L : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2208 L\nh\u03b4V : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2209 Logic.Ver\nh\u0394\u2081 : \u2200 \u03c8 \u2208 \u0394, \u00ac(\u2191\u03c8).isPrebox\nthis : \u2203 \u0393, \u03c6 \u2b64 \u22c0\u0393 \u2208 L\n\u22a2 \u2203 \u03c8, \u25c7\u03c8 \u2208 L",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/414eabf0973168e9884a975ddc0fcce4e6fd6af1/Foundation/Modal/Maximal/Makinson.lean#L40"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/128256283ac4ab7a1202fc068a51966182aac91a/Foundation/Modal/Maximal/Makinson.lean#L40"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-03T23:21:20.128254+00:00"
+      "inclusion_date": "2025-05-04T23:12:16.117129+00:00"
     },
-    "id": "b4444b173a2bbf66e3b6ea20044376008ed12423323609d359b74706cda9d0e9"
+    "id": "3a5eeac3ad6dc9987f35ff646382c45dd0cc83b1bb002e89d55d0f2774080afd"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "master",
-      "commit": "414eabf0973168e9884a975ddc0fcce4e6fd6af1",
+      "commit": "128256283ac4ab7a1202fc068a51966182aac91a",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4490,20 +4490,20 @@
     },
     "debug_info": {
       "goal": "\u22a2 \u2200 {\u03c6 : Formula \u2115}, Grz.miniCanonicalFrame Hilbert.GrzPoint3 \u03c6 \u2208 FrameClass.finite_connected_partial_order",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/414eabf0973168e9884a975ddc0fcce4e6fd6af1/Foundation/Modal/Kripke/Hilbert/GrzPoint3.lean#L42"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/128256283ac4ab7a1202fc068a51966182aac91a/Foundation/Modal/Kripke/Hilbert/GrzPoint3.lean#L42"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-14T14:50:18+09:00",
-      "inclusion_date": "2025-05-03T23:21:20.128254+00:00"
+      "inclusion_date": "2025-05-04T23:12:16.117129+00:00"
     },
-    "id": "d90a6d887413eb3e3029a479d622df7e9dddfbcb84a8428f79d4767e01377992"
+    "id": "af48772cbc598a640f50eafa1b5ca7e7ac0213736d080e835f892c90d4783159"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "master",
-      "commit": "414eabf0973168e9884a975ddc0fcce4e6fd6af1",
+      "commit": "128256283ac4ab7a1202fc068a51966182aac91a",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4515,14 +4515,14 @@
     },
     "debug_info": {
       "goal": "\u22a2 Complete Hilbert.GLPoint3 FrameClass.finite_strict_linear_order",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/414eabf0973168e9884a975ddc0fcce4e6fd6af1/Foundation/Modal/Kripke/Hilbert/GLPoint3.lean#L33"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/128256283ac4ab7a1202fc068a51966182aac91a/Foundation/Modal/Kripke/Hilbert/GLPoint3.lean#L33"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-17T22:57:50+09:00",
-      "inclusion_date": "2025-05-03T23:21:20.128254+00:00"
+      "inclusion_date": "2025-05-04T23:12:16.117129+00:00"
     },
-    "id": "908d4761f47b2838cb3b39ffcd3183a4c35d9cc63126bf0934ed71f6f237e1d3"
+    "id": "1161aa44a098ec838c81b0dbc47bde4a6afa13fd5af02b8ad80beb189d7cfe0a"
   },
   {
     "repo": {
@@ -8228,7 +8228,7 @@
     "repo": {
       "remote": "https://github.com/leanprover-community/duper",
       "branch": "dev",
-      "commit": "478925782fcaa383f0bbe18c29108986a6159bb6",
+      "commit": "8c6873cadf17101b26061f2a409fc10474c93f5c",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -8240,20 +8240,20 @@
     },
     "debug_info": {
       "goal": "ax1 : \u2200 (x : Inhab), Peculiar x \u2194 (Sane x \u2194 \u00acDoctor x)\nax2 : \u2200 (x : Inhab), Special x \u2194 \u2200 (y : Inhab), \u00acDoctor y \u2194 (Sane y \u2194 Peculiar x)\nax3 : \u2200 (x y : Inhab), (Sane x \u2194 Special y) \u2192 (Sane (bf x) \u2194 \u00acDoctor y)\nax4 : Sane Tarr \u2194 \u2200 (x : Inhab), Doctor x \u2192 Sane x\nax5 : Sane Fether \u2194 \u2200 (x : Inhab), \u00acDoctor x \u2192 \u00acSane x\nax6 : Sane Fether \u2194 Sane Tarr\n\u22a2 False",
-      "url": "https://github.com/leanprover-community/duper/blob/478925782fcaa383f0bbe18c29108986a6159bb6/Duper/Tests/lastAsylum.lean#L35"
+      "url": "https://github.com/leanprover-community/duper/blob/8c6873cadf17101b26061f2a409fc10474c93f5c/Duper/Tests/lastAsylum.lean#L35"
     },
     "metadata": {
       "blame_email_hash": "d9c480704efb",
       "blame_date": "2022-08-01T22:37:02-04:00",
-      "inclusion_date": "2025-05-03T00:33:58.048568+00:00"
+      "inclusion_date": "2025-05-04T23:48:11.487987+00:00"
     },
-    "id": "97f16b3d278ca2b66b072ed43aed14e0856626136a29c6312de72681988fcdbb"
+    "id": "d5aa7eb34a282ccaa9feea1bd21d01e989eac15ebb2e7c66d569c3a2d704b1e1"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/duper",
       "branch": "dev",
-      "commit": "478925782fcaa383f0bbe18c29108986a6159bb6",
+      "commit": "8c6873cadf17101b26061f2a409fc10474c93f5c",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -8265,20 +8265,20 @@
     },
     "debug_info": {
       "goal": "a : Real\n\u22a2 dist a a = zero",
-      "url": "https://github.com/leanprover-community/duper/blob/478925782fcaa383f0bbe18c29108986a6159bb6/Duper/Tests/test_continuity.lean#L18"
+      "url": "https://github.com/leanprover-community/duper/blob/8c6873cadf17101b26061f2a409fc10474c93f5c/Duper/Tests/test_continuity.lean#L18"
     },
     "metadata": {
       "blame_email_hash": "4ac7eab8a488",
       "blame_date": "2023-06-05T10:39:00+02:00",
-      "inclusion_date": "2025-05-03T00:33:58.048568+00:00"
+      "inclusion_date": "2025-05-04T23:48:11.487987+00:00"
     },
-    "id": "8ca0b4ea09d3ea6c5598aae37c4e4b348dcc4e62a00ce471335fb4ae2ff16272"
+    "id": "ccb37d916d0eee5746a60545b3315614bc2ac6946c554f6346fc23eb39d90044"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/duper",
       "branch": "dev",
-      "commit": "478925782fcaa383f0bbe18c29108986a6159bb6",
+      "commit": "8c6873cadf17101b26061f2a409fc10474c93f5c",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -8290,14 +8290,14 @@
     },
     "debug_info": {
       "goal": "a : Real\n\u22a2 lt zero one",
-      "url": "https://github.com/leanprover-community/duper/blob/478925782fcaa383f0bbe18c29108986a6159bb6/Duper/Tests/test_continuity.lean#L20"
+      "url": "https://github.com/leanprover-community/duper/blob/8c6873cadf17101b26061f2a409fc10474c93f5c/Duper/Tests/test_continuity.lean#L20"
     },
     "metadata": {
       "blame_email_hash": "4ac7eab8a488",
       "blame_date": "2023-06-05T10:39:00+02:00",
-      "inclusion_date": "2025-05-03T00:33:58.048568+00:00"
+      "inclusion_date": "2025-05-04T23:48:11.487987+00:00"
     },
-    "id": "eb70c1e7c416a66462f1dd716c3c74dfa9736b0fc90a55fa48c472ea6fcbd26f"
+    "id": "83ba12b5a2c4ccea7c1bcdb3c58b8d6aa91fe13eed1553e9aa55bbf30c1d5440"
   },
   {
     "repo": {
@@ -25253,7 +25253,7 @@
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "master",
-      "commit": "414eabf0973168e9884a975ddc0fcce4e6fd6af1",
+      "commit": "128256283ac4ab7a1202fc068a51966182aac91a",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -25265,14 +25265,14 @@
     },
     "debug_info": {
       "goal": "\u03c6 : Formula \u2115\nM : Model\ninst\u271d : IsStrictOrder M.World M.Rel\nx : M.World\nh : \u00acx \u22a7 \u25a1\u03c6\n\u22a2 \u2203 y, x \u227a y \u2227 \u00acy \u22a7 \u03c6 \u2227 y \u22a7 \u25a1\u03c6",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/414eabf0973168e9884a975ddc0fcce4e6fd6af1/Foundation/Modal/Kripke/Balloon.lean#L63"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/128256283ac4ab7a1202fc068a51966182aac91a/Foundation/Modal/Kripke/Balloon.lean#L63"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-04-26T09:19:50+09:00",
-      "inclusion_date": "2025-05-03T23:21:20.128254+00:00"
+      "inclusion_date": "2025-05-04T23:12:16.117129+00:00"
     },
-    "id": "a69a88ab6741880a684acb9afc65ad0261ebde7da0a6c7cc3a658b5c6f369958"
+    "id": "822282cef6b5a9a87e68676e178aadb893b72f3ce8589fa54692a6d4f74dec12"
   },
   {
     "repo": {
@@ -35623,5 +35623,430 @@
       "inclusion_date": "2025-05-03T01:06:01.858311+00:00"
     },
     "id": "21d5316672e78c734a2c6441eb233604ee9c4bed7322e55e0172056c4573353a"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/HEPLean/PhysLean",
+      "branch": "jnlindsay/feat/restricted-Lorentz-group-equal-to-identity-component",
+      "commit": "7682e673cea51b17d6e9e759a2a21b2acf3a290a",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "path": "PhysLean/Relativity/Lorentz/Group/Restricted.lean",
+      "start_line": 80,
+      "start_column": 4,
+      "end_line": 80,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "case h.mp.intro\nd : \u2115\nx : \u2191(\ud835\udcdb d)\n\u039b_proper : IsProper x\n\u039b_ortho : IsOrthochronous x\n\u22a2 x \u2208 connectedComponent 1",
+      "url": "https://github.com/HEPLean/PhysLean/blob/7682e673cea51b17d6e9e759a2a21b2acf3a290a/PhysLean/Relativity/Lorentz/Group/Restricted.lean#L80"
+    },
+    "metadata": {
+      "blame_email_hash": "f5ab4f28bed3",
+      "blame_date": "2025-05-04T19:41:34+10:00",
+      "inclusion_date": "2025-05-04T23:30:06.471767+00:00"
+    },
+    "id": "24c4109385c5ed54c959387014aeca592beaae77b81d7a8a239ae47095d0cd66"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ufmg-smite/lean-smt",
+      "branch": "main",
+      "commit": "98b12d984f8c21a99abfb8b69f12fe243beaf7c6",
+      "lean_version": "v4.16.0"
+    },
+    "location": {
+      "path": "Smt/Reconstruct/BitVec/Bitblast.lean",
+      "start_line": 37,
+      "start_column": 2,
+      "end_line": 37,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "w : Nat\nx y : BitVec w\n\u22a2 (x = y) = (x.beq y = true)",
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/98b12d984f8c21a99abfb8b69f12fe243beaf7c6/Smt/Reconstruct/BitVec/Bitblast.lean#L37"
+    },
+    "metadata": {
+      "blame_email_hash": "a29bc6f92c6c",
+      "blame_date": "2024-05-08T17:36:04-07:00",
+      "inclusion_date": "2025-05-05T00:05:16.483689+00:00"
+    },
+    "id": "cfc2f7d302066277789101ac2eb4bc9259ae9d1c8f7c9be7cc6cff8844d0e1fb"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ufmg-smite/lean-smt",
+      "branch": "main",
+      "commit": "98b12d984f8c21a99abfb8b69f12fe243beaf7c6",
+      "lean_version": "v4.16.0"
+    },
+    "location": {
+      "path": "Smt/Reconstruct/Rat/Core.lean",
+      "start_line": 626,
+      "start_column": 2,
+      "end_line": 626,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "a b : Rat\n\u22a2 0 \u2264 a \u2192 0 \u2264 b \u2192 0 \u2264 a * b",
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/98b12d984f8c21a99abfb8b69f12fe243beaf7c6/Smt/Reconstruct/Rat/Core.lean#L626"
+    },
+    "metadata": {
+      "blame_email_hash": "a29bc6f92c6c",
+      "blame_date": "2025-05-03T21:48:26-07:00",
+      "inclusion_date": "2025-05-05T00:05:16.483689+00:00"
+    },
+    "id": "a9b895e369e7d35f6fc14cac0d071cf8fec58988fd8e694faf7ebffe81035ae4"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ufmg-smite/lean-smt",
+      "branch": "main",
+      "commit": "98b12d984f8c21a99abfb8b69f12fe243beaf7c6",
+      "lean_version": "v4.16.0"
+    },
+    "location": {
+      "path": "Smt/Reconstruct/Rat/Core.lean",
+      "start_line": 629,
+      "start_column": 2,
+      "end_line": 629,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "a b : Rat\nhb : 0 \u2264 b\n\u22a2 a.abs = b \u2194 a = b \u2228 a = -b",
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/98b12d984f8c21a99abfb8b69f12fe243beaf7c6/Smt/Reconstruct/Rat/Core.lean#L629"
+    },
+    "metadata": {
+      "blame_email_hash": "a29bc6f92c6c",
+      "blame_date": "2025-05-03T21:48:26-07:00",
+      "inclusion_date": "2025-05-05T00:05:16.483689+00:00"
+    },
+    "id": "53d7e28ad1b040684d8c870889a949396e63ce04cc8bca6fa9340fe20f17e60d"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ufmg-smite/lean-smt",
+      "branch": "main",
+      "commit": "98b12d984f8c21a99abfb8b69f12fe243beaf7c6",
+      "lean_version": "v4.16.0"
+    },
+    "location": {
+      "path": "Smt/Reconstruct/Rat/Core.lean",
+      "start_line": 632,
+      "start_column": 2,
+      "end_line": 632,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "x : Rat\n\u22a2 0 \u2264 x.abs",
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/98b12d984f8c21a99abfb8b69f12fe243beaf7c6/Smt/Reconstruct/Rat/Core.lean#L632"
+    },
+    "metadata": {
+      "blame_email_hash": "a29bc6f92c6c",
+      "blame_date": "2025-05-03T21:48:26-07:00",
+      "inclusion_date": "2025-05-05T00:05:16.483689+00:00"
+    },
+    "id": "b38f5b0dafcde2cac1b1d9d70f0102f7aac726d9b58a4b1855b5051060d9298c"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ufmg-smite/lean-smt",
+      "branch": "main",
+      "commit": "98b12d984f8c21a99abfb8b69f12fe243beaf7c6",
+      "lean_version": "v4.16.0"
+    },
+    "location": {
+      "path": "Smt/Reconstruct/Rat/Core.lean",
+      "start_line": 635,
+      "start_column": 2,
+      "end_line": 635,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "a : Rat\nh : a \u2264 0\n\u22a2 a.abs = -a",
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/98b12d984f8c21a99abfb8b69f12fe243beaf7c6/Smt/Reconstruct/Rat/Core.lean#L635"
+    },
+    "metadata": {
+      "blame_email_hash": "a29bc6f92c6c",
+      "blame_date": "2025-05-03T21:48:26-07:00",
+      "inclusion_date": "2025-05-05T00:05:16.483689+00:00"
+    },
+    "id": "7a709f0c9989019b9a5de1dda3304164c454fa35d3661d334da648f0a996c47e"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ufmg-smite/lean-smt",
+      "branch": "main",
+      "commit": "98b12d984f8c21a99abfb8b69f12fe243beaf7c6",
+      "lean_version": "v4.16.0"
+    },
+    "location": {
+      "path": "Smt/Reconstruct/Rat/Core.lean",
+      "start_line": 638,
+      "start_column": 2,
+      "end_line": 638,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "a : Rat\nh : 0 \u2264 a\n\u22a2 a.abs = a",
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/98b12d984f8c21a99abfb8b69f12fe243beaf7c6/Smt/Reconstruct/Rat/Core.lean#L638"
+    },
+    "metadata": {
+      "blame_email_hash": "a29bc6f92c6c",
+      "blame_date": "2025-05-03T21:48:26-07:00",
+      "inclusion_date": "2025-05-05T00:05:16.483689+00:00"
+    },
+    "id": "91357f31ec4ecdaef28d166db2e123b2398377f8b29fb39f3341ab6f8cb72287"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ufmg-smite/lean-smt",
+      "branch": "main",
+      "commit": "98b12d984f8c21a99abfb8b69f12fe243beaf7c6",
+      "lean_version": "v4.16.0"
+    },
+    "location": {
+      "path": "Test/BitVec/Shift.lean",
+      "start_line": 8,
+      "start_column": 2,
+      "end_line": 8,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "x y : BitVec 2\n\u22a2 x ++ y = zeroExtend 4 x <<< 2#2 ||| zeroExtend 4 y",
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/98b12d984f8c21a99abfb8b69f12fe243beaf7c6/Test/BitVec/Shift.lean#L8"
+    },
+    "metadata": {
+      "blame_email_hash": "2d71a621927f",
+      "blame_date": "2022-08-05T17:11:15+02:00",
+      "inclusion_date": "2025-05-05T00:05:16.483689+00:00"
+    },
+    "id": "1e44a617b6bbeb67e15b2b8dd058ccc7b397fa4ab636de4cd3a5406c0cf07edb"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ufmg-smite/lean-smt",
+      "branch": "main",
+      "commit": "98b12d984f8c21a99abfb8b69f12fe243beaf7c6",
+      "lean_version": "v4.16.0"
+    },
+    "location": {
+      "path": "Test/BitVec/Shift.lean",
+      "start_line": 13,
+      "start_column": 2,
+      "end_line": 13,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "x y : BitVec 3\n\u22a2 x ++ y = zeroExtend 6 x <<< 3#2 ||| zeroExtend 6 y",
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/98b12d984f8c21a99abfb8b69f12fe243beaf7c6/Test/BitVec/Shift.lean#L13"
+    },
+    "metadata": {
+      "blame_email_hash": "2d71a621927f",
+      "blame_date": "2022-08-05T17:11:15+02:00",
+      "inclusion_date": "2025-05-05T00:05:16.483689+00:00"
+    },
+    "id": "d06ec3f084cddf83a6f7b6fb5d22aa3a82829f29a5100ef6aa9baeaaae6610f5"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ufmg-smite/lean-smt",
+      "branch": "main",
+      "commit": "98b12d984f8c21a99abfb8b69f12fe243beaf7c6",
+      "lean_version": "v4.16.0"
+    },
+    "location": {
+      "path": "Test/BitVec/XorComm.lean",
+      "start_line": 5,
+      "start_column": 2,
+      "end_line": 5,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "x y : BitVec 2\n\u22a2 x ^^^ y = y ^^^ x",
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/98b12d984f8c21a99abfb8b69f12fe243beaf7c6/Test/BitVec/XorComm.lean#L5"
+    },
+    "metadata": {
+      "blame_email_hash": "2d71a621927f",
+      "blame_date": "2022-07-14T12:41:05-04:00",
+      "inclusion_date": "2025-05-05T00:05:16.483689+00:00"
+    },
+    "id": "a213950d0c9b55087717bcf68d827abde0386e0bde567c3f8900615d1b3f8d7f"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ufmg-smite/lean-smt",
+      "branch": "main",
+      "commit": "98b12d984f8c21a99abfb8b69f12fe243beaf7c6",
+      "lean_version": "v4.16.0"
+    },
+    "location": {
+      "path": "Test/BitVec/XorComm.lean",
+      "start_line": 9,
+      "start_column": 2,
+      "end_line": 9,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "x y : BitVec (4 + 4)\n\u22a2 x ^^^ y = y ^^^ x",
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/98b12d984f8c21a99abfb8b69f12fe243beaf7c6/Test/BitVec/XorComm.lean#L9"
+    },
+    "metadata": {
+      "blame_email_hash": "2d71a621927f",
+      "blame_date": "2022-07-14T12:41:05-04:00",
+      "inclusion_date": "2025-05-05T00:05:16.483689+00:00"
+    },
+    "id": "2b027d99666f71a1b813ca570458e5c1e693c12b31fd66882c28aba58c883e4c"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ufmg-smite/lean-smt",
+      "branch": "main",
+      "commit": "98b12d984f8c21a99abfb8b69f12fe243beaf7c6",
+      "lean_version": "v4.16.0"
+    },
+    "location": {
+      "path": "Test/String/Contains.lean",
+      "start_line": 5,
+      "start_column": 2,
+      "end_line": 5,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "\u22a2 \"a\".contains 'a' = true",
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/98b12d984f8c21a99abfb8b69f12fe243beaf7c6/Test/String/Contains.lean#L5"
+    },
+    "metadata": {
+      "blame_email_hash": "a29bc6f92c6c",
+      "blame_date": "2022-11-12T16:45:23-08:00",
+      "inclusion_date": "2025-05-05T00:05:16.483689+00:00"
+    },
+    "id": "198ba1e82709eb971f5db535915fc235b390cd16c2d5af2e3f55245d21dfb6cf"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ufmg-smite/lean-smt",
+      "branch": "main",
+      "commit": "98b12d984f8c21a99abfb8b69f12fe243beaf7c6",
+      "lean_version": "v4.16.0"
+    },
+    "location": {
+      "path": "Test/Int/DefineSort.lean",
+      "start_line": 8,
+      "start_column": 2,
+      "end_line": 8,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "a b : MyInt\n\u22a2 a.add b = b.add a",
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/98b12d984f8c21a99abfb8b69f12fe243beaf7c6/Test/Int/DefineSort.lean#L8"
+    },
+    "metadata": {
+      "blame_email_hash": "2d71a621927f",
+      "blame_date": "2022-07-14T12:41:05-04:00",
+      "inclusion_date": "2025-05-05T00:05:16.483689+00:00"
+    },
+    "id": "837172c0dbad240be37a140a62c5eee2ae3add33ee3c1e399925678acec471aa"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ufmg-smite/lean-smt",
+      "branch": "main",
+      "commit": "98b12d984f8c21a99abfb8b69f12fe243beaf7c6",
+      "lean_version": "v4.16.0"
+    },
+    "location": {
+      "path": "Test/Int/Binders.lean",
+      "start_line": 7,
+      "start_column": 2,
+      "end_line": 7,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "a b : Int\n\u22a2 curryAdd a b = curryAdd b a",
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/98b12d984f8c21a99abfb8b69f12fe243beaf7c6/Test/Int/Binders.lean#L7"
+    },
+    "metadata": {
+      "blame_email_hash": "2d71a621927f",
+      "blame_date": "2022-07-14T12:41:05-04:00",
+      "inclusion_date": "2025-05-05T00:05:16.483689+00:00"
+    },
+    "id": "c12e8f59bf70d9f9bae14cf33fcb7c3685fd66abc2f972aa31c0434ffac7fd49"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ufmg-smite/lean-smt",
+      "branch": "main",
+      "commit": "98b12d984f8c21a99abfb8b69f12fe243beaf7c6",
+      "lean_version": "v4.16.0"
+    },
+    "location": {
+      "path": "Test/Int/Binders.lean",
+      "start_line": 13,
+      "start_column": 2,
+      "end_line": 13,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "a b : Int\n\u22a2 partCurryAdd a b = partCurryAdd b a",
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/98b12d984f8c21a99abfb8b69f12fe243beaf7c6/Test/Int/Binders.lean#L13"
+    },
+    "metadata": {
+      "blame_email_hash": "2d71a621927f",
+      "blame_date": "2022-07-14T12:41:05-04:00",
+      "inclusion_date": "2025-05-05T00:05:16.483689+00:00"
+    },
+    "id": "5c9eeee1536354d2d62e17b6d2442299374d049ebb077712ddb273def6ee6151"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ufmg-smite/lean-smt",
+      "branch": "main",
+      "commit": "98b12d984f8c21a99abfb8b69f12fe243beaf7c6",
+      "lean_version": "v4.16.0"
+    },
+    "location": {
+      "path": "Test/Int/Binders.lean",
+      "start_line": 20,
+      "start_column": 2,
+      "end_line": 20,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "a b : Int\npartCurryAdd' : Int \u2192 Int \u2192 Int := fun a => HAdd.hAdd a\n\u22a2 partCurryAdd' a b = partCurryAdd' b a",
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/98b12d984f8c21a99abfb8b69f12fe243beaf7c6/Test/Int/Binders.lean#L20"
+    },
+    "metadata": {
+      "blame_email_hash": "2d71a621927f",
+      "blame_date": "2022-07-14T12:41:05-04:00",
+      "inclusion_date": "2025-05-05T00:05:16.483689+00:00"
+    },
+    "id": "19905fb2c2de73df0f8f48b415311c460704d619ef302f2588e005f38b4a61da"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/ufmg-smite/lean-smt",
+      "branch": "main",
+      "commit": "98b12d984f8c21a99abfb8b69f12fe243beaf7c6",
+      "lean_version": "v4.16.0"
+    },
+    "location": {
+      "path": "Test/Int/Binders.lean",
+      "start_line": 27,
+      "start_column": 2,
+      "end_line": 27,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "a b : Int\n\u22a2 mismatchNamesAdd a b = mismatchNamesAdd b a",
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/98b12d984f8c21a99abfb8b69f12fe243beaf7c6/Test/Int/Binders.lean#L27"
+    },
+    "metadata": {
+      "blame_email_hash": "2d71a621927f",
+      "blame_date": "2022-07-14T12:41:05-04:00",
+      "inclusion_date": "2025-05-05T00:05:16.483689+00:00"
+    },
+    "id": "40a0beea27fecf905a87f84ae4f5555e81d93d78a06d2c1a274ee586ecf9fd5c"
   }
 ]
