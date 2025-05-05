@@ -9778,8 +9778,8 @@
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
       "branch": "main",
-      "commit": "89c431184f7af947a3127c71c18730224e168bda",
-      "lean_version": "v4.18.0"
+      "commit": "426b540a86d5b4a103cec5528e68168ea172da66",
+      "lean_version": "v4.19.0"
     },
     "location": {
       "path": "PrimeNumberTheoremAnd/MediumPNT.lean",
@@ -9790,39 +9790,39 @@
     },
     "debug_info": {
       "goal": "SmoothingF : \u211d \u2192 \u211d\ndiffSmoothingF : ContDiff \u211d 1 SmoothingF\nsuppSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\nX : \u211d\nC : \u211d := sorry\n\u22a2 0 < C",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/89c431184f7af947a3127c71c18730224e168bda/PrimeNumberTheoremAnd/MediumPNT.lean#L319"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/426b540a86d5b4a103cec5528e68168ea172da66/PrimeNumberTheoremAnd/MediumPNT.lean#L319"
     },
     "metadata": {
       "blame_email_hash": "4bcdc021face",
       "blame_date": "2025-02-14T14:09:55-05:00",
-      "inclusion_date": "2025-04-21T23:18:04.027780+00:00"
+      "inclusion_date": "2025-05-05T23:13:10.176761+00:00"
     },
-    "id": "d31421907a8b6b41381cf2b924520747406162ce8610f001d46fc402352275bb"
+    "id": "14fd33fdc080f056e7eed7aa93579499f13ed1df0bcaae4c7b4559fea8019345"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "AK_work",
-      "commit": "bdfdc5bcc975251e09e84be8c8aac7e3fae21234",
-      "lean_version": "v4.18.0"
+      "branch": "main",
+      "commit": "426b540a86d5b4a103cec5528e68168ea172da66",
+      "lean_version": "v4.19.0"
     },
     "location": {
       "path": "PrimeNumberTheoremAnd/MediumPNT.lean",
-      "start_line": 432,
+      "start_line": 365,
       "start_column": 2,
-      "end_line": 432,
+      "end_line": 365,
       "end_column": 7
     },
     "debug_info": {
       "goal": "SmoothingF : \u211d \u2192 \u211d\n\u03b5 : \u211d\n\u03b5_pos : 0 < \u03b5\nX \u03c3\u2080 : \u211d\n\u03c3\u2080_pos : 0 < \u03c3\u2080\nholoOn : HolomorphicOn (SmoothedChebyshevIntegrand SmoothingF \u03b5 X) (Icc \u03c3\u2080 2 \u00d7\u2102 univ \\ {1})\nsuppSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\n\u22a2 Integrable (fun t => SmoothedChebyshevIntegrand SmoothingF \u03b5 X (2 + \u2191t * I)) volume",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/bdfdc5bcc975251e09e84be8c8aac7e3fae21234/PrimeNumberTheoremAnd/MediumPNT.lean#L432"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/426b540a86d5b4a103cec5528e68168ea172da66/PrimeNumberTheoremAnd/MediumPNT.lean#L365"
     },
     "metadata": {
       "blame_email_hash": "4bcdc021face",
       "blame_date": "2025-02-28T10:57:09-05:00",
-      "inclusion_date": "2025-04-30T23:15:27.302039+00:00"
+      "inclusion_date": "2025-05-05T23:13:10.176761+00:00"
     },
-    "id": "3e4d5bfec98be08ad9224fab699f70f6719461e00c7b27c4bc5b33f392be51bc"
+    "id": "0022dadb153328384264e096a766cb9af956f2f9df686bdabaae82880b49e44a"
   },
   {
     "repo": {
@@ -9877,52 +9877,52 @@
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "AK_work",
-      "commit": "bdfdc5bcc975251e09e84be8c8aac7e3fae21234",
-      "lean_version": "v4.18.0"
+      "branch": "main",
+      "commit": "426b540a86d5b4a103cec5528e68168ea172da66",
+      "lean_version": "v4.19.0"
     },
     "location": {
       "path": "PrimeNumberTheoremAnd/MediumPNT.lean",
-      "start_line": 572,
+      "start_line": 501,
       "start_column": 23,
-      "end_line": 572,
+      "end_line": 501,
       "end_column": 28
     },
     "debug_info": {
       "goal": "c : \u211d := sorry\n\u22a2 0 < c",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/bdfdc5bcc975251e09e84be8c8aac7e3fae21234/PrimeNumberTheoremAnd/MediumPNT.lean#L572"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/426b540a86d5b4a103cec5528e68168ea172da66/PrimeNumberTheoremAnd/MediumPNT.lean#L501"
     },
     "metadata": {
       "blame_email_hash": "4bcdc021face",
       "blame_date": "2025-02-14T15:25:09-05:00",
-      "inclusion_date": "2025-04-30T23:15:27.302039+00:00"
+      "inclusion_date": "2025-05-05T23:13:10.176761+00:00"
     },
-    "id": "bc56773fbc7a31c68bdf417eacfe96c9b03498b0fac4d8d1e51a7c286d823c01"
+    "id": "16b6ef91e63f19252af4450c3e33e0f05990bf2f7a30ab9218ff662ce9db5514"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "AK_work",
-      "commit": "bdfdc5bcc975251e09e84be8c8aac7e3fae21234",
-      "lean_version": "v4.18.0"
+      "branch": "main",
+      "commit": "426b540a86d5b4a103cec5528e68168ea172da66",
+      "lean_version": "v4.19.0"
     },
     "location": {
       "path": "PrimeNumberTheoremAnd/Consequences.lean",
-      "start_line": 1843,
+      "start_line": 1844,
       "start_column": 2,
-      "end_line": 1843,
+      "end_line": 1844,
       "end_column": 7
     },
     "debug_info": {
       "goal": "\u22a2 \u2203 c, (c =o[atTop] fun x => 1) \u2227 \u2200 (n : \u2115), \u2191(nth Nat.Prime n) = (1 + c n) * \u2191n * log \u2191n",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/bdfdc5bcc975251e09e84be8c8aac7e3fae21234/PrimeNumberTheoremAnd/Consequences.lean#L1843"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/426b540a86d5b4a103cec5528e68168ea172da66/PrimeNumberTheoremAnd/Consequences.lean#L1844"
     },
     "metadata": {
       "blame_email_hash": "11451cd2f124",
       "blame_date": "2024-02-19T02:44:41-08:00",
-      "inclusion_date": "2025-04-30T23:15:27.302039+00:00"
+      "inclusion_date": "2025-05-05T23:13:10.176761+00:00"
     },
-    "id": "3de16d0be1ba50007e346cdd3d1db8cafa01f140b8bc82457e1267cbca19a60d"
+    "id": "ff0619f148f42d8e6525d7acf9ec2f048294e754232cedc06f6c5c449148e78e"
   },
   {
     "repo": {
@@ -10028,7 +10028,7 @@
     "repo": {
       "remote": "https://github.com/emilyriehl/infinity-cosmos",
       "branch": "main",
-      "commit": "bf1885e46ff0fde2a1cde218001d9b90307f4224",
+      "commit": "8edc65d468b3ed2e4933c7969ec53bd4d904e753",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -10040,20 +10040,20 @@
     },
     "debug_info": {
       "goal": "K : Type u\ninst\u271d\u00b9 : Category.{v, u} K\ninst\u271d : InfinityCosmos K\nX Y X' Y' : K\nf : X \u21a0 Y\ng : X' \u21a0 Y'\n\u22a2 IsIsofibration (prod.map \u2191f \u2191g)",
-      "url": "https://github.com/emilyriehl/infinity-cosmos/blob/bf1885e46ff0fde2a1cde218001d9b90307f4224/InfinityCosmos/ForMathlib/InfinityCosmos/Isofibrations.lean#L70"
+      "url": "https://github.com/emilyriehl/infinity-cosmos/blob/8edc65d468b3ed2e4933c7969ec53bd4d904e753/InfinityCosmos/ForMathlib/InfinityCosmos/Isofibrations.lean#L70"
     },
     "metadata": {
       "blame_email_hash": "eaaeec08515d",
       "blame_date": "2024-12-03T11:33:30-05:00",
-      "inclusion_date": "2025-04-03T01:40:20.137259+00:00"
+      "inclusion_date": "2025-05-05T23:23:15.244940+00:00"
     },
-    "id": "76c8504fdd8e486111651526b1cea668d0f1e6f547032ca4ea7086750d71f6f2"
+    "id": "7bfe8732d5962bbb479ac52b80759d74498dd77834421eb0c4574c2a5891bfc6"
   },
   {
     "repo": {
       "remote": "https://github.com/emilyriehl/infinity-cosmos",
       "branch": "main",
-      "commit": "bf1885e46ff0fde2a1cde218001d9b90307f4224",
+      "commit": "8edc65d468b3ed2e4933c7969ec53bd4d904e753",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -10065,20 +10065,20 @@
     },
     "debug_info": {
       "goal": "A : SSet\nf\u271d g\u271d f g h : A _\u298b1\u298c\nH\u2081 : HomotopyL f g\nH\u2082 : HomotopyL f h\n\u03c3 : Subpresheaf.toPresheaf \u039b[3, 1] \u27f6 A := sorry\n\u03c4 : A _\u298b3\u298c := sorry\n\u22a2 SimplicialObject.\u03b4 A 0 \u03c4 = (SimplicialObject.\u03b4 A 0 \u226b SimplicialObject.\u03c3 A 0 \u226b SimplicialObject.\u03c3 A 0) g",
-      "url": "https://github.com/emilyriehl/infinity-cosmos/blob/bf1885e46ff0fde2a1cde218001d9b90307f4224/InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean#L133"
+      "url": "https://github.com/emilyriehl/infinity-cosmos/blob/8edc65d468b3ed2e4933c7969ec53bd4d904e753/InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean#L133"
     },
     "metadata": {
       "blame_email_hash": "f0d6831918ab",
       "blame_date": "2024-12-17T23:14:43+01:00",
-      "inclusion_date": "2025-04-03T01:40:20.137259+00:00"
+      "inclusion_date": "2025-05-05T23:23:15.244940+00:00"
     },
-    "id": "cfd3dc29049763dfb7ec03d093b090ff50e67fd456005bc3a48eb351e6a948c3"
+    "id": "e145769b3210c6f1a055e23e8bf0b1fc4ea2ace94285c386366305707117b87a"
   },
   {
     "repo": {
       "remote": "https://github.com/emilyriehl/infinity-cosmos",
       "branch": "main",
-      "commit": "bf1885e46ff0fde2a1cde218001d9b90307f4224",
+      "commit": "8edc65d468b3ed2e4933c7969ec53bd4d904e753",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -10090,20 +10090,20 @@
     },
     "debug_info": {
       "goal": "A : SSet\nf\u271d g\u271d f g h : A _\u298b1\u298c\nH\u2081 : HomotopyL f g\nH\u2082 : HomotopyL f h\n\u03c3 : Subpresheaf.toPresheaf \u039b[3, 1] \u27f6 A := sorry\n\u03c4 : A _\u298b3\u298c := sorry\n\u03c4\u2080 : SimplicialObject.\u03b4 A 0 \u03c4 = (SimplicialObject.\u03b4 A 0 \u226b SimplicialObject.\u03c3 A 0 \u226b SimplicialObject.\u03c3 A 0) g\n\u22a2 SimplicialObject.\u03b4 A 2 \u03c4 = H\u2082.simplex",
-      "url": "https://github.com/emilyriehl/infinity-cosmos/blob/bf1885e46ff0fde2a1cde218001d9b90307f4224/InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean#L134"
+      "url": "https://github.com/emilyriehl/infinity-cosmos/blob/8edc65d468b3ed2e4933c7969ec53bd4d904e753/InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean#L134"
     },
     "metadata": {
       "blame_email_hash": "f0d6831918ab",
       "blame_date": "2024-12-17T23:14:43+01:00",
-      "inclusion_date": "2025-04-03T01:40:20.137259+00:00"
+      "inclusion_date": "2025-05-05T23:23:15.244940+00:00"
     },
-    "id": "c99a8d113bee64a70cf1bcbe629fa772aa7fbb91c729b58868bedda1057ee67d"
+    "id": "4f7d5896175e711b887c3aec607b8fcba17340ee713df4bf19a92ed8e3eb5680"
   },
   {
     "repo": {
       "remote": "https://github.com/emilyriehl/infinity-cosmos",
       "branch": "main",
-      "commit": "bf1885e46ff0fde2a1cde218001d9b90307f4224",
+      "commit": "8edc65d468b3ed2e4933c7969ec53bd4d904e753",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -10115,20 +10115,20 @@
     },
     "debug_info": {
       "goal": "A : SSet\nf\u271d g\u271d f g h : A _\u298b1\u298c\nH\u2081 : HomotopyL f g\nH\u2082 : HomotopyL f h\n\u03c3 : Subpresheaf.toPresheaf \u039b[3, 1] \u27f6 A := sorry\n\u03c4 : A _\u298b3\u298c := sorry\n\u03c4\u2080 : SimplicialObject.\u03b4 A 0 \u03c4 = (SimplicialObject.\u03b4 A 0 \u226b SimplicialObject.\u03c3 A 0 \u226b SimplicialObject.\u03c3 A 0) g\n\u03c4\u2082 : SimplicialObject.\u03b4 A 2 \u03c4 = H\u2082.simplex\n\u22a2 SimplicialObject.\u03b4 A 3 \u03c4 = H\u2081.simplex",
-      "url": "https://github.com/emilyriehl/infinity-cosmos/blob/bf1885e46ff0fde2a1cde218001d9b90307f4224/InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean#L135"
+      "url": "https://github.com/emilyriehl/infinity-cosmos/blob/8edc65d468b3ed2e4933c7969ec53bd4d904e753/InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean#L135"
     },
     "metadata": {
       "blame_email_hash": "f0d6831918ab",
       "blame_date": "2024-12-17T23:14:43+01:00",
-      "inclusion_date": "2025-04-03T01:40:20.137259+00:00"
+      "inclusion_date": "2025-05-05T23:23:15.244940+00:00"
     },
-    "id": "1528c409e6d9f4b249cb94a57aa78f1be7ddfed06270f1e227b9d44a90aa57c2"
+    "id": "74b2f697370a4a9bddd820434ad83e677b9b29e13abf89b3e889097d2c59a6cc"
   },
   {
     "repo": {
       "remote": "https://github.com/emilyriehl/infinity-cosmos",
       "branch": "main",
-      "commit": "bf1885e46ff0fde2a1cde218001d9b90307f4224",
+      "commit": "8edc65d468b3ed2e4933c7969ec53bd4d904e753",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -10140,14 +10140,14 @@
     },
     "debug_info": {
       "goal": "A : SSet\nf g : A _\u298b1\u298c\ninst\u271d : A.Quasicategory\n\u22a2 HomotopicL f g \u2194 HomotopicR f g",
-      "url": "https://github.com/emilyriehl/infinity-cosmos/blob/bf1885e46ff0fde2a1cde218001d9b90307f4224/InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean#L159"
+      "url": "https://github.com/emilyriehl/infinity-cosmos/blob/8edc65d468b3ed2e4933c7969ec53bd4d904e753/InfinityCosmos/ForMathlib/AlgebraicTopology/SimplicialSet/Homotopy.lean#L159"
     },
     "metadata": {
       "blame_email_hash": "f0d6831918ab",
       "blame_date": "2024-12-05T19:17:58+01:00",
-      "inclusion_date": "2025-04-03T01:40:20.137259+00:00"
+      "inclusion_date": "2025-05-05T23:23:15.244940+00:00"
     },
-    "id": "e249ec833ea90c2ddfe12e1930391d2504dbfc2f252d7d4181076bbdae672197"
+    "id": "39507d56dd2a9b4e7d6eecf744a216cd44fcf0dfaf6843976224448860244af0"
   },
   {
     "repo": {
@@ -26628,26 +26628,26 @@
     "repo": {
       "remote": "https://github.com/HEPLean/PhysLean",
       "branch": "jnlindsay/feat/restricted-Lorentz-group-equal-to-identity-component",
-      "commit": "211376af9076abb3e2ecfcefb348dbbff07b8e7b",
+      "commit": "2dbc9fa07763e1cc9ab295138ccd44accf9836df",
       "lean_version": "v4.18.0"
     },
     "location": {
       "path": "PhysLean/Relativity/Lorentz/Group/Restricted.lean",
-      "start_line": 77,
+      "start_line": 104,
       "start_column": 2,
-      "end_line": 77,
+      "end_line": 104,
       "end_column": 7
     },
     "debug_info": {
       "goal": "d : \u2115\n\u22a2 \u2191(restricted d) = connectedComponent 1",
-      "url": "https://github.com/HEPLean/PhysLean/blob/211376af9076abb3e2ecfcefb348dbbff07b8e7b/PhysLean/Relativity/Lorentz/Group/Restricted.lean#L77"
+      "url": "https://github.com/HEPLean/PhysLean/blob/2dbc9fa07763e1cc9ab295138ccd44accf9836df/PhysLean/Relativity/Lorentz/Group/Restricted.lean#L104"
     },
     "metadata": {
       "blame_email_hash": "f5ab4f28bed3",
-      "blame_date": "2025-04-29T20:38:41+10:00",
-      "inclusion_date": "2025-04-29T23:27:51.372280+00:00"
+      "blame_date": "2025-05-05T23:32:38+10:00",
+      "inclusion_date": "2025-05-05T23:34:56.673364+00:00"
     },
-    "id": "a00c255fdbd81a6d752a9b6c9a49bfbe512f40d8effbed1d1efce0b17495afa4"
+    "id": "d423a3a69947e84ef4b30c8cce205a385382b038d2985eddc62508a96c43620b"
   },
   {
     "repo": {
@@ -36048,5 +36048,430 @@
       "inclusion_date": "2025-05-05T00:05:16.483689+00:00"
     },
     "id": "40a0beea27fecf905a87f84ae4f5555e81d93d78a06d2c1a274ee586ecf9fd5c"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "main",
+      "commit": "426b540a86d5b4a103cec5528e68168ea172da66",
+      "lean_version": "v4.19.0"
+    },
+    "location": {
+      "path": "PrimeNumberTheoremAnd/Wiener.lean",
+      "start_line": 2281,
+      "start_column": 61,
+      "end_line": 2281,
+      "end_column": 66
+    },
+    "debug_info": {
+      "goal": "A x : \u211d\nG : \u2102 \u2192 \u2102\nf : \u2115 \u2192 \u211d\nhpos : 0 \u2264 f\nhG : ContinuousOn G {s | 1 \u2264 s.re}\nhG' : EqOn G (fun s => LSeries (fun n => \u2191(f n)) s - \u2191A / (s - 1)) {s | 1 < s.re}\nhf : \u2200 (\u03c3' : \u211d), 1 < \u03c3' \u2192 Summable (nterm (fun n => \u2191(f n)) \u03c3')\n\u03c8 : CS 2 \u2102\nh\u03c8pos : \u2200 (y : \u211d), 0 \u2264 (fourierIntegral \u03c8.toFun y).re \u2227 (fourierIntegral \u03c8.toFun y).im = 0\nhx : 1 \u2264 x\n\u22a2 \u2211' (n : \u2115), \u2191(f n) / \u2191n * fourierIntegral \u03c8.toFun (1 / (2 * Real.pi) * Real.log (\u2191n / x)) -\n      \u2191A * \u222b (u : \u211d) in Ici (-Real.log x), fourierIntegral \u03c8.toFun (u / (2 * Real.pi)) =\n    \u222b (t : \u211d), G (1 + \u2191t * I) * \u03c8.toFun t * \u2191x ^ (\u2191t * I)",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/426b540a86d5b4a103cec5528e68168ea172da66/PrimeNumberTheoremAnd/Wiener.lean#L2281"
+    },
+    "metadata": {
+      "blame_email_hash": "d7f0e4a42bbb",
+      "blame_date": "2024-04-04T12:17:01-07:00",
+      "inclusion_date": "2025-05-05T23:13:10.176761+00:00"
+    },
+    "id": "a7999f10c8089fd896f645831925f8b6c18c95f6f4cd8b2dc24dcc568908033b"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "main",
+      "commit": "426b540a86d5b4a103cec5528e68168ea172da66",
+      "lean_version": "v4.19.0"
+    },
+    "location": {
+      "path": "PrimeNumberTheoremAnd/Wiener.lean",
+      "start_line": 2303,
+      "start_column": 90,
+      "end_line": 2303,
+      "end_column": 95
+    },
+    "debug_info": {
+      "goal": "A : \u211d\nG : \u2102 \u2192 \u2102\nf : \u2115 \u2192 \u211d\nhpos : 0 \u2264 f\nhG : ContinuousOn G {s | 1 \u2264 s.re}\nhG' : EqOn G (fun s => LSeries (fun n => \u2191(f n)) s - \u2191A / (s - 1)) {s | 1 < s.re}\nhf : \u2200 (\u03c3' : \u211d), 1 < \u03c3' \u2192 Summable (nterm (fun n => \u2191(f n)) \u03c3')\n\u03c8 : CS 2 \u2102\nh\u03c8pos : \u2200 (y : \u211d), 0 \u2264 (fourierIntegral \u03c8.toFun y).re \u2227 (fourierIntegral \u03c8.toFun y).im = 0\n\u22a2 \u2203 B,\n    \u2200 (x : \u211d), 0 < x \u2192 \u2016\u2211' (n : \u2115), \u2191(f n) / \u2191n * fourierIntegral \u03c8.toFun (1 / (2 * Real.pi) * Real.log (\u2191n / x))\u2016 \u2264 B",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/426b540a86d5b4a103cec5528e68168ea172da66/PrimeNumberTheoremAnd/Wiener.lean#L2303"
+    },
+    "metadata": {
+      "blame_email_hash": "4d01d7c10d46",
+      "blame_date": "2024-04-16T02:15:35+02:00",
+      "inclusion_date": "2025-05-05T23:13:10.176761+00:00"
+    },
+    "id": "725d4d5e769203d0e841b2ef79d6b2c893fd9a0d8b27af54fc7cdd2349debd20"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "main",
+      "commit": "426b540a86d5b4a103cec5528e68168ea172da66",
+      "lean_version": "v4.19.0"
+    },
+    "location": {
+      "path": "PrimeNumberTheoremAnd/MediumPNT.lean",
+      "start_line": 328,
+      "start_column": 2,
+      "end_line": 328,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "SmoothingF : \u211d \u2192 \u211d\ndiffSmoothingF : ContDiff \u211d 1 SmoothingF\nsuppSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\nX\u271d : \u211d\nC : \u211d := sorry\nCpos : 0 < C\nX : \u211d\nX_ge_C : C < X\n\u03b5 : \u211d\n\u03b5pos : 0 < \u03b5\n\u03b5_lt_one : \u03b5 < 1\n\u22a2 \u2016\u2191(\u2211' (n : \u2115), ArithmeticFunction.vonMangoldt n * Smooth1 SmoothingF \u03b5 (\u2191n / X)) -\n        \u2191((Finset.range \u230aX\u230b\u208a).sum \u21d1ArithmeticFunction.vonMangoldt)\u2016 \u2264\n    C * \u03b5 * X * Real.log X",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/426b540a86d5b4a103cec5528e68168ea172da66/PrimeNumberTheoremAnd/MediumPNT.lean#L328"
+    },
+    "metadata": {
+      "blame_email_hash": "4bcdc021face",
+      "blame_date": "2024-03-11T23:23:22-04:00",
+      "inclusion_date": "2025-05-05T23:13:10.176761+00:00"
+    },
+    "id": "547cb82f89dc9254fd2b1a7d6f0897441e7a47917bd52aa4a2089f406b8210d5"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "main",
+      "commit": "426b540a86d5b4a103cec5528e68168ea172da66",
+      "lean_version": "v4.19.0"
+    },
+    "location": {
+      "path": "PrimeNumberTheoremAnd/MediumPNT.lean",
+      "start_line": 399,
+      "start_column": 2,
+      "end_line": 399,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "SmoothingF : \u211d \u2192 \u211d\n\u03b5 : \u211d\n\u03b5_pos : 0 < \u03b5\nX T : \u211d\nT_pos : 0 < T\n\u03c3\u2080 : \u211d\n\u03c3\u2080_pos : 0 < \u03c3\u2080\nholoOn : HolomorphicOn (SmoothedChebyshevIntegrand SmoothingF \u03b5 X) (Icc \u03c3\u2080 2 \u00d7\u2102 univ \\ {1})\nsuppSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\n\u22a2 (1 / (2 * \u2191Real.pi * I)) \u2022\n      ((I \u2022 \u222b (t : \u211d) in Iic (-T), SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u21912 + \u2191t * I)) +\n          VIntegral (SmoothedChebyshevIntegrand SmoothingF \u03b5 X) 2 (-T) T +\n        I \u2022 \u222b (t : \u211d) in Ici T, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u21912 + \u2191t * I)) =\n    MellinTransform (fun x => \u2191(Smooth1 SmoothingF \u03b5 x)) 1 * \u2191X +\n      1 / (2 * \u2191Real.pi * I) *\n        (((((I * \u222b (t : \u211d) in Iic (-T), SmoothedChebyshevIntegrand SmoothingF \u03b5 X (2 + \u2191t * I)) -\n                \u222b (s : \u211d) in Icc \u03c3\u2080 2, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u2191s - \u2191T * I)) +\n              I * \u222b (t : \u211d) in Icc (-T) T, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u2191\u03c3\u2080 + \u2191t * I)) +\n            \u222b (s : \u211d) in Icc \u03c3\u2080 2, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u2191s + \u2191T * I)) +\n          I * \u222b (t : \u211d) in Ici T, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (2 + \u2191t * I))",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/426b540a86d5b4a103cec5528e68168ea172da66/PrimeNumberTheoremAnd/MediumPNT.lean#L399"
+    },
+    "metadata": {
+      "blame_email_hash": "4bcdc021face",
+      "blame_date": "2025-02-10T12:59:29-05:00",
+      "inclusion_date": "2025-05-05T23:13:10.176761+00:00"
+    },
+    "id": "2bcc3e23d1c11b18982ebf327c089aecd404207bd9d06e89303db303882ff3d1"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "main",
+      "commit": "426b540a86d5b4a103cec5528e68168ea172da66",
+      "lean_version": "v4.19.0"
+    },
+    "location": {
+      "path": "PrimeNumberTheoremAnd/MediumPNT.lean",
+      "start_line": 511,
+      "start_column": 2,
+      "end_line": 511,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "c : \u211d := sorry\ncpos : 0 < c\nC : \u211d := sorry\nX\u2080 : \u211d := sorry\nX : \u211d\nX_ge_X\u2080 : X \u2265 X\u2080\n\u22a2 \u2016(ChebyshevPsi - id) X\u2016 \u2264 C * \u2016X * Real.exp (-c * Real.log X ^ (1 / 10))\u2016",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/426b540a86d5b4a103cec5528e68168ea172da66/PrimeNumberTheoremAnd/MediumPNT.lean#L511"
+    },
+    "metadata": {
+      "blame_email_hash": "4bcdc021face",
+      "blame_date": "2024-03-11T23:23:22-04:00",
+      "inclusion_date": "2025-05-05T23:13:10.176761+00:00"
+    },
+    "id": "f2cc650eec8ce53a9ea0b36667f870aea44aca959e259fb22b02a144a0a5fbd3"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "main",
+      "commit": "426b540a86d5b4a103cec5528e68168ea172da66",
+      "lean_version": "v4.19.0"
+    },
+    "location": {
+      "path": "PrimeNumberTheoremAnd/Consequences.lean",
+      "start_line": 2575,
+      "start_column": 81,
+      "end_line": 2575,
+      "end_column": 86
+    },
+    "debug_info": {
+      "goal": "\u22a2 (fun x => \u2211 n \u2208 range \u230ax\u230b\u208a, moebius n) =o[atTop] fun x => x",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/426b540a86d5b4a103cec5528e68168ea172da66/PrimeNumberTheoremAnd/Consequences.lean#L2575"
+    },
+    "metadata": {
+      "blame_email_hash": "5ecb8fcfe98c",
+      "blame_date": "2025-02-06T17:41:08+01:00",
+      "inclusion_date": "2025-05-05T23:13:10.176761+00:00"
+    },
+    "id": "45e9ce0d5bccac4a9071249c8adf5fab28d117d79d8ec518d06a5ac5a4f66ad2"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "main",
+      "commit": "426b540a86d5b4a103cec5528e68168ea172da66",
+      "lean_version": "v4.19.0"
+    },
+    "location": {
+      "path": "PrimeNumberTheoremAnd/Consequences.lean",
+      "start_line": 2611,
+      "start_column": 2,
+      "end_line": 2611,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "\u22a2 (fun x => \u2211 n \u2208 range \u230ax\u230b\u208a, (-1) ^ cardFactors n) =o[atTop] fun x => x",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/426b540a86d5b4a103cec5528e68168ea172da66/PrimeNumberTheoremAnd/Consequences.lean#L2611"
+    },
+    "metadata": {
+      "blame_email_hash": "11451cd2f124",
+      "blame_date": "2024-02-19T02:44:41-08:00",
+      "inclusion_date": "2025-05-05T23:13:10.176761+00:00"
+    },
+    "id": "2c29a056b0c216ab9e96d99f8be6e5e3177411d4aa273c4819d0801f4039bbcd"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "main",
+      "commit": "426b540a86d5b4a103cec5528e68168ea172da66",
+      "lean_version": "v4.19.0"
+    },
+    "location": {
+      "path": "PrimeNumberTheoremAnd/Consequences.lean",
+      "start_line": 2635,
+      "start_column": 98,
+      "end_line": 2635,
+      "end_column": 103
+    },
+    "debug_info": {
+      "goal": "\u22a2 (fun x => \u2211 n \u2208 range \u230ax\u230b\u208a, \u2191(moebius n) / \u2191n) =o[atTop] fun x => 1",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/426b540a86d5b4a103cec5528e68168ea172da66/PrimeNumberTheoremAnd/Consequences.lean#L2635"
+    },
+    "metadata": {
+      "blame_email_hash": "5ecb8fcfe98c",
+      "blame_date": "2025-02-06T17:41:08+01:00",
+      "inclusion_date": "2025-05-05T23:13:10.176761+00:00"
+    },
+    "id": "10245a44c54162c5874ef5165830b3c20a1bba529068597f2194029942cf3f27"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/HEPLean/PhysLean",
+      "branch": "jnlindsay/feat/restricted-Lorentz-group-equal-to-identity-component",
+      "commit": "2dbc9fa07763e1cc9ab295138ccd44accf9836df",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "path": "PhysLean/Relativity/Lorentz/Group/Restricted.lean",
+      "start_line": 80,
+      "start_column": 17,
+      "end_line": 80,
+      "end_column": 22
+    },
+    "debug_info": {
+      "goal": "d : \u2115\n\u22a2 (fun \u039b => (detRep \u039b, orthchroRep \u039b)) 1 = 1",
+      "url": "https://github.com/HEPLean/PhysLean/blob/2dbc9fa07763e1cc9ab295138ccd44accf9836df/PhysLean/Relativity/Lorentz/Group/Restricted.lean#L80"
+    },
+    "metadata": {
+      "blame_email_hash": "f5ab4f28bed3",
+      "blame_date": "2025-05-05T23:32:38+10:00",
+      "inclusion_date": "2025-05-05T23:34:56.673364+00:00"
+    },
+    "id": "622a35bbe28efe1b1d55716683c88c412ca916937c42cab76e8bc8594c9ee095"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/HEPLean/PhysLean",
+      "branch": "jnlindsay/feat/restricted-Lorentz-group-equal-to-identity-component",
+      "commit": "2dbc9fa07763e1cc9ab295138ccd44accf9836df",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "path": "PhysLean/Relativity/Lorentz/Group/Restricted.lean",
+      "start_line": 81,
+      "start_column": 17,
+      "end_line": 81,
+      "end_column": 22
+    },
+    "debug_info": {
+      "goal": "d : \u2115\n\u22a2 \u2200 (x y : \u2191(\ud835\udcdb d)),\n    { toFun := fun \u039b => (detRep \u039b, orthchroRep \u039b), map_one' := \u22ef }.toFun (x * y) =\n      { toFun := fun \u039b => (detRep \u039b, orthchroRep \u039b), map_one' := \u22ef }.toFun x *\n        { toFun := fun \u039b => (detRep \u039b, orthchroRep \u039b), map_one' := \u22ef }.toFun y",
+      "url": "https://github.com/HEPLean/PhysLean/blob/2dbc9fa07763e1cc9ab295138ccd44accf9836df/PhysLean/Relativity/Lorentz/Group/Restricted.lean#L81"
+    },
+    "metadata": {
+      "blame_email_hash": "f5ab4f28bed3",
+      "blame_date": "2025-05-05T23:32:38+10:00",
+      "inclusion_date": "2025-05-05T23:34:56.673364+00:00"
+    },
+    "id": "01dfa20a44983e446e567b552c5902bde0f41ceed73ee2977ac8e90152906386"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/HEPLean/PhysLean",
+      "branch": "jnlindsay/feat/restricted-Lorentz-group-equal-to-identity-component",
+      "commit": "2dbc9fa07763e1cc9ab295138ccd44accf9836df",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "path": "PhysLean/Relativity/Lorentz/Group/Restricted.lean",
+      "start_line": 82,
+      "start_column": 25,
+      "end_line": 82,
+      "end_column": 30
+    },
+    "debug_info": {
+      "goal": "d : \u2115\n\u22a2 Continuous (\u2191{ toFun := fun \u039b => (detRep \u039b, orthchroRep \u039b), map_one' := \u22ef, map_mul' := \u22ef }).toFun",
+      "url": "https://github.com/HEPLean/PhysLean/blob/2dbc9fa07763e1cc9ab295138ccd44accf9836df/PhysLean/Relativity/Lorentz/Group/Restricted.lean#L82"
+    },
+    "metadata": {
+      "blame_email_hash": "f5ab4f28bed3",
+      "blame_date": "2025-05-05T23:32:38+10:00",
+      "inclusion_date": "2025-05-05T23:34:56.673364+00:00"
+    },
+    "id": "dd29bc5275e1c239585e009a1c89c197e7fc1eb552e1b9fa7ed4dafa4e6784ad"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/HEPLean/PhysLean",
+      "branch": "jnlindsay/feat/restricted-Lorentz-group-equal-to-identity-component",
+      "commit": "2dbc9fa07763e1cc9ab295138ccd44accf9836df",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "path": "PhysLean/Relativity/Lorentz/Group/Restricted.lean",
+      "start_line": 84,
+      "start_column": 71,
+      "end_line": 84,
+      "end_column": 76
+    },
+    "debug_info": {
+      "goal": "d : \u2115\n\u22a2 Continuous \u21d1lorentzMap",
+      "url": "https://github.com/HEPLean/PhysLean/blob/2dbc9fa07763e1cc9ab295138ccd44accf9836df/PhysLean/Relativity/Lorentz/Group/Restricted.lean#L84"
+    },
+    "metadata": {
+      "blame_email_hash": "f5ab4f28bed3",
+      "blame_date": "2025-05-05T23:32:38+10:00",
+      "inclusion_date": "2025-05-05T23:34:56.673364+00:00"
+    },
+    "id": "7bac48ad0cc60d5a3626c6ded637e57b5306bff0da2c9e15393a23c0a5cdec2a"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/HEPLean/PhysLean",
+      "branch": "jnlindsay/feat/restricted-Lorentz-group-equal-to-identity-component",
+      "commit": "2dbc9fa07763e1cc9ab295138ccd44accf9836df",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "path": "PhysLean/Relativity/Lorentz/Group/Restricted.lean",
+      "start_line": 85,
+      "start_column": 66,
+      "end_line": 85,
+      "end_column": 71
+    },
+    "debug_info": {
+      "goal": "d : \u2115\n\u22a2 IsOpenMap \u21d1lorentzMap",
+      "url": "https://github.com/HEPLean/PhysLean/blob/2dbc9fa07763e1cc9ab295138ccd44accf9836df/PhysLean/Relativity/Lorentz/Group/Restricted.lean#L85"
+    },
+    "metadata": {
+      "blame_email_hash": "f5ab4f28bed3",
+      "blame_date": "2025-05-05T23:32:38+10:00",
+      "inclusion_date": "2025-05-05T23:34:56.673364+00:00"
+    },
+    "id": "edc10793c2824136194cca0c601895c52bbb37612be3bf32f55d6ac2bec3cd96"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/HEPLean/PhysLean",
+      "branch": "jnlindsay/feat/restricted-Lorentz-group-equal-to-identity-component",
+      "commit": "2dbc9fa07763e1cc9ab295138ccd44accf9836df",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "path": "PhysLean/Relativity/Lorentz/Group/Restricted.lean",
+      "start_line": 86,
+      "start_column": 80,
+      "end_line": 86,
+      "end_column": 85
+    },
+    "debug_info": {
+      "goal": "d : \u2115\n\u22a2 Function.Injective \u21d1lorentzMap",
+      "url": "https://github.com/HEPLean/PhysLean/blob/2dbc9fa07763e1cc9ab295138ccd44accf9836df/PhysLean/Relativity/Lorentz/Group/Restricted.lean#L86"
+    },
+    "metadata": {
+      "blame_email_hash": "f5ab4f28bed3",
+      "blame_date": "2025-05-05T23:32:38+10:00",
+      "inclusion_date": "2025-05-05T23:34:56.673364+00:00"
+    },
+    "id": "1147c370e3a3edb2018f73da5ba3ee26636136cffeec6f3895ee3daf8d02264f"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/HEPLean/PhysLean",
+      "branch": "jnlindsay/feat/restricted-Lorentz-group-equal-to-identity-component",
+      "commit": "2dbc9fa07763e1cc9ab295138ccd44accf9836df",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "path": "PhysLean/Relativity/Lorentz/Group/Restricted.lean",
+      "start_line": 87,
+      "start_column": 75,
+      "end_line": 87,
+      "end_column": 80
+    },
+    "debug_info": {
+      "goal": "d : \u2115\n\u22a2 lorentzMap.ker = restricted d",
+      "url": "https://github.com/HEPLean/PhysLean/blob/2dbc9fa07763e1cc9ab295138ccd44accf9836df/PhysLean/Relativity/Lorentz/Group/Restricted.lean#L87"
+    },
+    "metadata": {
+      "blame_email_hash": "f5ab4f28bed3",
+      "blame_date": "2025-05-05T23:32:38+10:00",
+      "inclusion_date": "2025-05-05T23:34:56.673364+00:00"
+    },
+    "id": "c2aca9d30a697135005fb1d319cb5dfb73196522bcd178d5af0bb40d5cfd7dab"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/HEPLean/PhysLean",
+      "branch": "jnlindsay/feat/restricted-Lorentz-group-equal-to-identity-component",
+      "commit": "2dbc9fa07763e1cc9ab295138ccd44accf9836df",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "path": "PhysLean/Relativity/Lorentz/Group/Restricted.lean",
+      "start_line": 88,
+      "start_column": 91,
+      "end_line": 88,
+      "end_column": 96
+    },
+    "debug_info": {
+      "goal": "d : \u2115\n\u22a2 IsConnected {(1, 1)}",
+      "url": "https://github.com/HEPLean/PhysLean/blob/2dbc9fa07763e1cc9ab295138ccd44accf9836df/PhysLean/Relativity/Lorentz/Group/Restricted.lean#L88"
+    },
+    "metadata": {
+      "blame_email_hash": "f5ab4f28bed3",
+      "blame_date": "2025-05-05T23:32:38+10:00",
+      "inclusion_date": "2025-05-05T23:34:56.673364+00:00"
+    },
+    "id": "793de9dfe6f4764bed7f577302f7185d6004716a8dcbb05ff3c55486bb65d470"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/HEPLean/PhysLean",
+      "branch": "jnlindsay/feat/restricted-Lorentz-group-equal-to-identity-component",
+      "commit": "2dbc9fa07763e1cc9ab295138ccd44accf9836df",
+      "lean_version": "v4.18.0"
+    },
+    "location": {
+      "path": "PhysLean/Relativity/Lorentz/Group/Restricted.lean",
+      "start_line": 89,
+      "start_column": 95,
+      "end_line": 89,
+      "end_column": 100
+    },
+    "debug_info": {
+      "goal": "d : \u2115\n\u22a2 {(1, 1)} \u2286 Set.range \u21d1lorentzMap",
+      "url": "https://github.com/HEPLean/PhysLean/blob/2dbc9fa07763e1cc9ab295138ccd44accf9836df/PhysLean/Relativity/Lorentz/Group/Restricted.lean#L89"
+    },
+    "metadata": {
+      "blame_email_hash": "f5ab4f28bed3",
+      "blame_date": "2025-05-05T23:32:38+10:00",
+      "inclusion_date": "2025-05-05T23:34:56.673364+00:00"
+    },
+    "id": "6d24278805338dc10f06d9d8311808f5298db3d960c94abda7bbcd4743bd3d7d"
   }
 ]
