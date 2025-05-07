@@ -7,7 +7,7 @@ This repository hosts the main dataset of the
 
 This repository contains various `json` files indeding sorries in public Lean 4
 repositories. They are generated using the crawler developed in the
-[SorryDB](https://github.com/SorryDB/docs/CRAWLER.md) project. See the
+[SorryDB project](https://github.com/SorryDB/SorryDB/). See the
 [DATABASE.md](https://github.com/SorryDB/SorryDB/blob/master/doc/DATABASE.md)
 file for information on the format of these files.
 
@@ -27,11 +27,6 @@ We intend to also provide some static lists of sorries that can be used for
 development, testing, and benchmarking. For now this includes:
 
 - `static_100_varied_recent_deduplicated_sorries.json`: a static list of 100 varied and recent deduplicated sorries for development and testing purposes.
-
-These are updated using the crawler developed in the
-[SorryDB](https://github.com/SorryDB/docs/CRAWLER.md) project. See the
-[DATABASE.md](https://github.com/SorryDB/SorryDB/blob/master/doc/DATABASE.md)
-file for information on the format of these files.
 
 ### Repositories
 
