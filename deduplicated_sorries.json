@@ -4278,7 +4278,7 @@
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "bounded-depth",
-      "commit": "ac2e14a982a125f06c7905a55dabf360bf7691ee",
+      "commit": "2efcba7c9d835e9969977f8470ca9640e1f7cbd7",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4290,20 +4290,20 @@
     },
     "debug_info": {
       "goal": "\u03c6 : NNFormula \u2115\n\u22a2 \u2203 \u03c8, \u03c8.isModalCNF \u2227 Hilbert.K \u22a2! \u03c6.toFormula \u2b64 \u03c8.toFormula",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/ac2e14a982a125f06c7905a55dabf360bf7691ee/Foundation/Modal/Hilbert/NNFormula.lean#L232"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2efcba7c9d835e9969977f8470ca9640e1f7cbd7/Foundation/Modal/Hilbert/NNFormula.lean#L232"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-06T23:18:05.763718+00:00"
+      "inclusion_date": "2025-05-08T23:32:25.978477+00:00"
     },
-    "id": "48f77ece84d238c488ef4fd7dfdf08e38a4b0fefc3ec3304ea8f3dc17944a932"
+    "id": "67a7f2fe3f55fcd64846353c4ac9e33ed0a3a8eca473045a3571d06e997623eb"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "bounded-depth",
-      "commit": "ac2e14a982a125f06c7905a55dabf360bf7691ee",
+      "commit": "2efcba7c9d835e9969977f8470ca9640e1f7cbd7",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4315,20 +4315,20 @@
     },
     "debug_info": {
       "goal": "\u03c6 : NNFormula \u2115\n\u22a2 \u2203 \u03c8, \u03c8.isModalDNF \u2227 Hilbert.K \u22a2! \u03c6.toFormula \u2b64 \u03c8.toFormula",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/ac2e14a982a125f06c7905a55dabf360bf7691ee/Foundation/Modal/Hilbert/NNFormula.lean#L236"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2efcba7c9d835e9969977f8470ca9640e1f7cbd7/Foundation/Modal/Hilbert/NNFormula.lean#L236"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-06T23:18:05.763718+00:00"
+      "inclusion_date": "2025-05-08T23:32:25.978477+00:00"
     },
-    "id": "45ff345009a7480dc83386400f1c99b177d0bc04c8aa8aaeb0fe96523ad900e9"
+    "id": "f22ba68cbb9903f30c1ddfc8b48befcf902a6a791c46867c96ef11e0d70fd2bb"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "bounded-depth",
-      "commit": "ac2e14a982a125f06c7905a55dabf360bf7691ee",
+      "commit": "2efcba7c9d835e9969977f8470ca9640e1f7cbd7",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4340,20 +4340,20 @@
     },
     "debug_info": {
       "goal": "L : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\n\u22a2 \u03b3 \u2208 L",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/ac2e14a982a125f06c7905a55dabf360bf7691ee/Foundation/Modal/Maximal/Makinson.lean#L27"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2efcba7c9d835e9969977f8470ca9640e1f7cbd7/Foundation/Modal/Maximal/Makinson.lean#L27"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-06T23:18:05.763718+00:00"
+      "inclusion_date": "2025-05-08T23:32:25.978477+00:00"
     },
-    "id": "02469990ac4fc31b3cff92d49270f96258676d46808fea905496009e076b406f"
+    "id": "5c4596bc03115962be4c5c35c465882660a4ceb10565255f5bfd13ece66794e9"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "bounded-depth",
-      "commit": "ac2e14a982a125f06c7905a55dabf360bf7691ee",
+      "commit": "2efcba7c9d835e9969977f8470ca9640e1f7cbd7",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4365,20 +4365,20 @@
     },
     "debug_info": {
       "goal": "L : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\n\u22a2 \u03b3 \u2209 Logic.Ver",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/ac2e14a982a125f06c7905a55dabf360bf7691ee/Foundation/Modal/Maximal/Makinson.lean#L28"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2efcba7c9d835e9969977f8470ca9640e1f7cbd7/Foundation/Modal/Maximal/Makinson.lean#L28"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-06T23:18:05.763718+00:00"
+      "inclusion_date": "2025-05-08T23:32:25.978477+00:00"
     },
-    "id": "34fd078a7ff7c6571ec423492518e8b39eb944694298cb2b59d7789735a38a86"
+    "id": "ab4e23aa7217d306bc39103f8ac76379522ab75f89128f03bd0ba55f7a76f9d0"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "bounded-depth",
-      "commit": "ac2e14a982a125f06c7905a55dabf360bf7691ee",
+      "commit": "2efcba7c9d835e9969977f8470ca9640e1f7cbd7",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4390,20 +4390,20 @@
     },
     "debug_info": {
       "goal": "L : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\nh\u03b3V : \u03b3 \u2209 Logic.Ver\n\u22a2 \u2203 \u03b4 \u2208 \u0393, (\u2191\u03b4).toFormula \u2208 L \u2227 (\u2191\u03b4).toFormula \u2209 Logic.Ver",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/ac2e14a982a125f06c7905a55dabf360bf7691ee/Foundation/Modal/Maximal/Makinson.lean#L31"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2efcba7c9d835e9969977f8470ca9640e1f7cbd7/Foundation/Modal/Maximal/Makinson.lean#L31"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-06T23:18:05.763718+00:00"
+      "inclusion_date": "2025-05-08T23:32:25.978477+00:00"
     },
-    "id": "dc5a06e29bea74a0d8ac318bcc00f003fca21ebf2094e5c646474f36a5745754"
+    "id": "53f07004264be12838f776a2bf42c24e30bf2cf5f7757f554c743b17774b6abe"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "bounded-depth",
-      "commit": "ac2e14a982a125f06c7905a55dabf360bf7691ee",
+      "commit": "2efcba7c9d835e9969977f8470ca9640e1f7cbd7",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4415,20 +4415,20 @@
     },
     "debug_info": {
       "goal": "case mk.intro\nL : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis\u271d : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\nh\u03b3V : \u03b3 \u2209 Logic.Ver\n\u0394 : List { \u03c8 // \u03c8.isPrebox \u2228 \u03c8.isPredia \u2228 \u03c8.degree = 0 }\nh\u03b4\u0393 : \u27e8\u22c1\u0394.unattach, \u22ef\u27e9 \u2208 \u0393\nh\u03b4L : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2208 L\nh\u03b4V : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2209 Logic.Ver\n\u03be : NNFormula \u2115\nproperty\u271d : (\u25a1\u03be).isPrebox \u2228 (\u25a1\u03be).isPredia \u2228 (\u25a1\u03be).degree = 0\nh\u03c8\u2081 : \u27e8\u25a1\u03be, property\u271d\u27e9 \u2208 \u0394\nh\u03c8\u2082 : (\u2191\u27e8\u25a1\u03be, property\u271d\u27e9).isPrebox\nthis : \u25a1\u03be.toFormula \u2208 Logic.Ver\n\u22a2 False",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/ac2e14a982a125f06c7905a55dabf360bf7691ee/Foundation/Modal/Maximal/Makinson.lean#L36"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2efcba7c9d835e9969977f8470ca9640e1f7cbd7/Foundation/Modal/Maximal/Makinson.lean#L36"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-06T23:18:05.763718+00:00"
+      "inclusion_date": "2025-05-08T23:32:25.978477+00:00"
     },
-    "id": "52c836a6313ceec58211f676116550c1974a7be97216be319452c0c6e3f3b938"
+    "id": "edab8622b508b54b28918ea8287a3e959f3738f5c4d727af59dabafc6bc55e98"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "bounded-depth",
-      "commit": "ac2e14a982a125f06c7905a55dabf360bf7691ee",
+      "commit": "2efcba7c9d835e9969977f8470ca9640e1f7cbd7",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4440,20 +4440,20 @@
     },
     "debug_info": {
       "goal": "L : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\nh\u03b3V : \u03b3 \u2209 Logic.Ver\n\u0394 : List { \u03c8 // \u03c8.isPrebox \u2228 \u03c8.isPredia \u2228 \u03c8.degree = 0 }\nh\u03b4\u0393 : \u27e8\u22c1\u0394.unattach, \u22ef\u27e9 \u2208 \u0393\nh\u03b4L : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2208 L\nh\u03b4V : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2209 Logic.Ver\nh\u0394\u2081 : \u2200 \u03c8 \u2208 \u0394, \u00ac(\u2191\u03c8).isPrebox\n\u22a2 \u2203 \u0393, \u03c6 \u2b64 \u22c0\u0393 \u2208 L",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/ac2e14a982a125f06c7905a55dabf360bf7691ee/Foundation/Modal/Maximal/Makinson.lean#L38"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2efcba7c9d835e9969977f8470ca9640e1f7cbd7/Foundation/Modal/Maximal/Makinson.lean#L38"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-06T23:18:05.763718+00:00"
+      "inclusion_date": "2025-05-08T23:32:25.978477+00:00"
     },
-    "id": "ec3f7e7394094f8d5f75d029193a142912d90032198db79f9cccf12c0048bb00"
+    "id": "f7a67da9c8aa13533774cbbf0ad3384f99ff85f246139b1a85a41de85f5e7580"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "bounded-depth",
-      "commit": "ac2e14a982a125f06c7905a55dabf360bf7691ee",
+      "commit": "2efcba7c9d835e9969977f8470ca9640e1f7cbd7",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4465,20 +4465,20 @@
     },
     "debug_info": {
       "goal": "case intro.intro.intro.intro.mk.intro.intro.intro\nL : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u00acHilbert.Ver \u22a2! \u03c6\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis\u271d : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\nh\u03b3V : \u03b3 \u2209 Logic.Ver\n\u0394 : List { \u03c8 // \u03c8.isPrebox \u2228 \u03c8.isPredia \u2228 \u03c8.degree = 0 }\nh\u03b4\u0393 : \u27e8\u22c1\u0394.unattach, \u22ef\u27e9 \u2208 \u0393\nh\u03b4L : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2208 L\nh\u03b4V : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2209 Logic.Ver\nh\u0394\u2081 : \u2200 \u03c8 \u2208 \u0394, \u00ac(\u2191\u03c8).isPrebox\nthis : \u2203 \u0393, \u03c6 \u2b64 \u22c0\u0393 \u2208 L\n\u22a2 \u2203 \u03c8, \u25c7\u03c8 \u2208 L",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/ac2e14a982a125f06c7905a55dabf360bf7691ee/Foundation/Modal/Maximal/Makinson.lean#L40"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2efcba7c9d835e9969977f8470ca9640e1f7cbd7/Foundation/Modal/Maximal/Makinson.lean#L40"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-06T23:18:05.763718+00:00"
+      "inclusion_date": "2025-05-08T23:32:25.978477+00:00"
     },
-    "id": "edbccf91dce45ecab61e790a58eb5422964f5627a7e818ad050e9cda555b3f20"
+    "id": "8c0eb83bac2f8f5b624131d728ec69a345cf5a54538a8c35bdbd061400141b55"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "bounded-depth",
-      "commit": "ac2e14a982a125f06c7905a55dabf360bf7691ee",
+      "commit": "2efcba7c9d835e9969977f8470ca9640e1f7cbd7",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4490,20 +4490,20 @@
     },
     "debug_info": {
       "goal": "\u22a2 \u2200 {\u03c6 : Formula \u2115}, Grz.miniCanonicalFrame Hilbert.GrzPoint3 \u03c6 \u2208 FrameClass.finite_connected_partial_order",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/ac2e14a982a125f06c7905a55dabf360bf7691ee/Foundation/Modal/Kripke/Hilbert/GrzPoint3.lean#L42"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2efcba7c9d835e9969977f8470ca9640e1f7cbd7/Foundation/Modal/Kripke/Hilbert/GrzPoint3.lean#L42"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-14T14:50:18+09:00",
-      "inclusion_date": "2025-05-06T23:18:05.763718+00:00"
+      "inclusion_date": "2025-05-08T23:32:25.978477+00:00"
     },
-    "id": "17803090aefd8eb943fad815f1ea6ab68ee18052eb200e442bf7d8f57a948cea"
+    "id": "f5f9bd7be9b38bf0308d8ac2187b7ab8556fffe5277fb91e4cc0e872d5513b1a"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "bounded-depth",
-      "commit": "ac2e14a982a125f06c7905a55dabf360bf7691ee",
+      "commit": "2efcba7c9d835e9969977f8470ca9640e1f7cbd7",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4515,14 +4515,14 @@
     },
     "debug_info": {
       "goal": "\u22a2 Complete Hilbert.GLPoint3 FrameClass.finite_strict_linear_order",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/ac2e14a982a125f06c7905a55dabf360bf7691ee/Foundation/Modal/Kripke/Hilbert/GLPoint3.lean#L33"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2efcba7c9d835e9969977f8470ca9640e1f7cbd7/Foundation/Modal/Kripke/Hilbert/GLPoint3.lean#L33"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-17T22:57:50+09:00",
-      "inclusion_date": "2025-05-06T23:18:05.763718+00:00"
+      "inclusion_date": "2025-05-08T23:32:25.978477+00:00"
     },
-    "id": "7e00d5eb82ea1538e71278dad11de22158fbf2c004abbf9e85962d6e5458b4f0"
+    "id": "2cea6fbb1e3e67a45c76e1d2c1cd69d2c6c02a8e7b319c548ec7f8a85ed77d08"
   },
   {
     "repo": {
@@ -8228,7 +8228,7 @@
     "repo": {
       "remote": "https://github.com/leanprover-community/duper",
       "branch": "dev",
-      "commit": "8c6873cadf17101b26061f2a409fc10474c93f5c",
+      "commit": "43be1bece7ff58a0168022c39aa223b8e730eca5",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -8240,20 +8240,20 @@
     },
     "debug_info": {
       "goal": "ax1 : \u2200 (x : Inhab), Peculiar x \u2194 (Sane x \u2194 \u00acDoctor x)\nax2 : \u2200 (x : Inhab), Special x \u2194 \u2200 (y : Inhab), \u00acDoctor y \u2194 (Sane y \u2194 Peculiar x)\nax3 : \u2200 (x y : Inhab), (Sane x \u2194 Special y) \u2192 (Sane (bf x) \u2194 \u00acDoctor y)\nax4 : Sane Tarr \u2194 \u2200 (x : Inhab), Doctor x \u2192 Sane x\nax5 : Sane Fether \u2194 \u2200 (x : Inhab), \u00acDoctor x \u2192 \u00acSane x\nax6 : Sane Fether \u2194 Sane Tarr\n\u22a2 False",
-      "url": "https://github.com/leanprover-community/duper/blob/8c6873cadf17101b26061f2a409fc10474c93f5c/Duper/Tests/lastAsylum.lean#L35"
+      "url": "https://github.com/leanprover-community/duper/blob/43be1bece7ff58a0168022c39aa223b8e730eca5/Duper/Tests/lastAsylum.lean#L35"
     },
     "metadata": {
       "blame_email_hash": "d9c480704efb",
       "blame_date": "2022-08-01T22:37:02-04:00",
-      "inclusion_date": "2025-05-04T23:48:11.487987+00:00"
+      "inclusion_date": "2025-05-08T23:57:49.858741+00:00"
     },
-    "id": "d5aa7eb34a282ccaa9feea1bd21d01e989eac15ebb2e7c66d569c3a2d704b1e1"
+    "id": "1a84b4382e896315779fe88e608c4ab68099e1c382302ed640d38e38c297f72c"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/duper",
       "branch": "dev",
-      "commit": "8c6873cadf17101b26061f2a409fc10474c93f5c",
+      "commit": "43be1bece7ff58a0168022c39aa223b8e730eca5",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -8265,20 +8265,20 @@
     },
     "debug_info": {
       "goal": "a : Real\n\u22a2 dist a a = zero",
-      "url": "https://github.com/leanprover-community/duper/blob/8c6873cadf17101b26061f2a409fc10474c93f5c/Duper/Tests/test_continuity.lean#L18"
+      "url": "https://github.com/leanprover-community/duper/blob/43be1bece7ff58a0168022c39aa223b8e730eca5/Duper/Tests/test_continuity.lean#L18"
     },
     "metadata": {
       "blame_email_hash": "4ac7eab8a488",
       "blame_date": "2023-06-05T10:39:00+02:00",
-      "inclusion_date": "2025-05-04T23:48:11.487987+00:00"
+      "inclusion_date": "2025-05-08T23:57:49.858741+00:00"
     },
-    "id": "ccb37d916d0eee5746a60545b3315614bc2ac6946c554f6346fc23eb39d90044"
+    "id": "e5d886da4eacc5891b5c6356c6a7668a76c2aa93fc19728f928c33ab5a162fb1"
   },
   {
     "repo": {
       "remote": "https://github.com/leanprover-community/duper",
       "branch": "dev",
-      "commit": "8c6873cadf17101b26061f2a409fc10474c93f5c",
+      "commit": "43be1bece7ff58a0168022c39aa223b8e730eca5",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -8290,14 +8290,14 @@
     },
     "debug_info": {
       "goal": "a : Real\n\u22a2 lt zero one",
-      "url": "https://github.com/leanprover-community/duper/blob/8c6873cadf17101b26061f2a409fc10474c93f5c/Duper/Tests/test_continuity.lean#L20"
+      "url": "https://github.com/leanprover-community/duper/blob/43be1bece7ff58a0168022c39aa223b8e730eca5/Duper/Tests/test_continuity.lean#L20"
     },
     "metadata": {
       "blame_email_hash": "4ac7eab8a488",
       "blame_date": "2023-06-05T10:39:00+02:00",
-      "inclusion_date": "2025-05-04T23:48:11.487987+00:00"
+      "inclusion_date": "2025-05-08T23:57:49.858741+00:00"
     },
-    "id": "83ba12b5a2c4ccea7c1bcdb3c58b8d6aa91fe13eed1553e9aa55bbf30c1d5440"
+    "id": "8c1874bf12cff9affa2b3b733c13b2c8770b167d348c91f3c51a3dce6cf572bc"
   },
   {
     "repo": {
@@ -9802,27 +9802,27 @@
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "main",
-      "commit": "426b540a86d5b4a103cec5528e68168ea172da66",
+      "branch": "AK_work",
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
       "lean_version": "v4.19.0"
     },
     "location": {
       "path": "PrimeNumberTheoremAnd/MediumPNT.lean",
-      "start_line": 365,
+      "start_line": 471,
       "start_column": 2,
-      "end_line": 365,
+      "end_line": 471,
       "end_column": 7
     },
     "debug_info": {
       "goal": "SmoothingF : \u211d \u2192 \u211d\n\u03b5 : \u211d\n\u03b5_pos : 0 < \u03b5\nX \u03c3\u2080 : \u211d\n\u03c3\u2080_pos : 0 < \u03c3\u2080\nholoOn : HolomorphicOn (SmoothedChebyshevIntegrand SmoothingF \u03b5 X) (Icc \u03c3\u2080 2 \u00d7\u2102 univ \\ {1})\nsuppSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\n\u22a2 Integrable (fun t => SmoothedChebyshevIntegrand SmoothingF \u03b5 X (2 + \u2191t * I)) volume",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/426b540a86d5b4a103cec5528e68168ea172da66/PrimeNumberTheoremAnd/MediumPNT.lean#L365"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/MediumPNT.lean#L471"
     },
     "metadata": {
       "blame_email_hash": "4bcdc021face",
       "blame_date": "2025-02-28T10:57:09-05:00",
-      "inclusion_date": "2025-05-05T23:13:10.176761+00:00"
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
     },
-    "id": "0022dadb153328384264e096a766cb9af956f2f9df686bdabaae82880b49e44a"
+    "id": "1cdc4ad58398e84977c109594d3659c6cb132d91b5e37519b6eb7b4e27d57238"
   },
   {
     "repo": {
@@ -9877,33 +9877,33 @@
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "main",
-      "commit": "426b540a86d5b4a103cec5528e68168ea172da66",
+      "branch": "AK_work",
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
       "lean_version": "v4.19.0"
     },
     "location": {
       "path": "PrimeNumberTheoremAnd/MediumPNT.lean",
-      "start_line": 501,
+      "start_line": 611,
       "start_column": 23,
-      "end_line": 501,
+      "end_line": 611,
       "end_column": 28
     },
     "debug_info": {
       "goal": "c : \u211d := sorry\n\u22a2 0 < c",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/426b540a86d5b4a103cec5528e68168ea172da66/PrimeNumberTheoremAnd/MediumPNT.lean#L501"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/MediumPNT.lean#L611"
     },
     "metadata": {
       "blame_email_hash": "4bcdc021face",
       "blame_date": "2025-02-14T15:25:09-05:00",
-      "inclusion_date": "2025-05-05T23:13:10.176761+00:00"
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
     },
-    "id": "16b6ef91e63f19252af4450c3e33e0f05990bf2f7a30ab9218ff662ce9db5514"
+    "id": "bc8d18791b905306a204e1c84923b6fa53c5c7f090a8cc829e75c6bae9ff855c"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "main",
-      "commit": "426b540a86d5b4a103cec5528e68168ea172da66",
+      "branch": "AK_work",
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -9915,14 +9915,14 @@
     },
     "debug_info": {
       "goal": "\u22a2 \u2203 c, (c =o[atTop] fun x => 1) \u2227 \u2200 (n : \u2115), \u2191(nth Nat.Prime n) = (1 + c n) * \u2191n * log \u2191n",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/426b540a86d5b4a103cec5528e68168ea172da66/PrimeNumberTheoremAnd/Consequences.lean#L1844"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/Consequences.lean#L1844"
     },
     "metadata": {
       "blame_email_hash": "11451cd2f124",
       "blame_date": "2024-02-19T02:44:41-08:00",
-      "inclusion_date": "2025-05-05T23:13:10.176761+00:00"
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
     },
-    "id": "ff0619f148f42d8e6525d7acf9ec2f048294e754232cedc06f6c5c449148e78e"
+    "id": "71c4463665769131180da3f0606aa9e709884a4bbff975580fe1f607f7288729"
   },
   {
     "repo": {
@@ -10953,26 +10953,26 @@
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
       "branch": "AK_work",
-      "commit": "bdfdc5bcc975251e09e84be8c8aac7e3fae21234",
-      "lean_version": "v4.18.0"
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
+      "lean_version": "v4.19.0"
     },
     "location": {
       "path": "PrimeNumberTheoremAnd/MediumPNT.lean",
-      "start_line": 464,
+      "start_line": 503,
       "start_column": 2,
-      "end_line": 464,
+      "end_line": 503,
       "end_column": 7
     },
     "debug_info": {
       "goal": "SmoothingF : \u211d \u2192 \u211d\n\u03b5 : \u211d\n\u03b5_pos : 0 < \u03b5\nX T : \u211d\nT_pos : 0 < T\n\u03c3\u2080 : \u211d\n\u03c3\u2080_pos : 0 < \u03c3\u2080\nholoOn : HolomorphicOn (SmoothedChebyshevIntegrand SmoothingF \u03b5 X) (Icc \u03c3\u2080 2 \u00d7\u2102 univ \\ {1})\nsuppSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\n\u22a2 Integrable (fun t => SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u2191(1 + (Real.log X)\u207b\u00b9) + \u2191t * I)) volume",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/bdfdc5bcc975251e09e84be8c8aac7e3fae21234/PrimeNumberTheoremAnd/MediumPNT.lean#L464"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/MediumPNT.lean#L503"
     },
     "metadata": {
       "blame_email_hash": "4bcdc021face",
       "blame_date": "2025-03-07T17:04:05-05:00",
-      "inclusion_date": "2025-04-30T23:15:27.302039+00:00"
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
     },
-    "id": "459690685073fc04822c91f069ce6a09ca5a3b15fe6b2ead96fe9bc49d03b3a5"
+    "id": "8d3d214d0191783fe36b5bebccb11f7aa7b4478536389e0f49b23b4aefb1e3ef"
   },
   {
     "repo": {
@@ -25253,7 +25253,7 @@
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "bounded-depth",
-      "commit": "ac2e14a982a125f06c7905a55dabf360bf7691ee",
+      "commit": "2efcba7c9d835e9969977f8470ca9640e1f7cbd7",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -25265,14 +25265,14 @@
     },
     "debug_info": {
       "goal": "\u03c6 : Formula \u2115\nM : Model\ninst\u271d : IsStrictOrder M.World M.Rel\nx : M.World\nh : \u00acx \u22a7 \u25a1\u03c6\n\u22a2 \u2203 y, x \u227a y \u2227 \u00acy \u22a7 \u03c6 \u2227 y \u22a7 \u25a1\u03c6",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/ac2e14a982a125f06c7905a55dabf360bf7691ee/Foundation/Modal/Kripke/Balloon.lean#L63"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2efcba7c9d835e9969977f8470ca9640e1f7cbd7/Foundation/Modal/Kripke/Balloon.lean#L63"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-04-26T09:19:50+09:00",
-      "inclusion_date": "2025-05-06T23:18:05.763718+00:00"
+      "inclusion_date": "2025-05-08T23:32:25.978477+00:00"
     },
-    "id": "37fd579c21c90eaaad064790d8832c9ceb17fd55c433d0d83954b3342fcbfac3"
+    "id": "bda58534c642dbc2851f7a0a53f825102759361e336661570e2602ac919405d9"
   },
   {
     "repo": {
@@ -26678,8 +26678,8 @@
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
       "branch": "AK_work",
-      "commit": "bdfdc5bcc975251e09e84be8c8aac7e3fae21234",
-      "lean_version": "v4.18.0"
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
+      "lean_version": "v4.19.0"
     },
     "location": {
       "path": "PrimeNumberTheoremAnd/AlphaProofTest.lean",
@@ -26690,21 +26690,21 @@
     },
     "debug_info": {
       "goal": "SmoothingF : \u211d \u2192 \u211d\nc\u2081 : \u211d\nc\u2081_pos : 0 < c\u2081\nhc\u2081 : \u2200 (\u03b5 x : \u211d), 0 < \u03b5 \u2192 0 < x \u2192 x \u2264 1 - c\u2081 * \u03b5 \u2192 Smooth1 SmoothingF \u03b5 x = 1\nc\u2082 : \u211d\nc\u2082_pos : 0 < c\u2082\nhc\u2082 : \u2200 (\u03b5 x : \u211d), \u03b5 \u2208 Ioo 0 1 \u2192 1 + c\u2082 * \u03b5 \u2264 x \u2192 Smooth1 SmoothingF \u03b5 x = 0\nC : \u211d := c\u2081 + c\u2082 + 3\nC_gt : 3 < C\nX : \u211d\nX_ge_C : C < X\n\u03b5 : \u211d\n\u03b5pos : 0 < \u03b5\n\u03b5_lt_one : \u03b5 < 1\nn : \u2115\n\u22a2 ArithmeticFunction.vonMangoldt n \u2264 Real.log \u2191n",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/bdfdc5bcc975251e09e84be8c8aac7e3fae21234/PrimeNumberTheoremAnd/AlphaProofTest.lean#L33"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/AlphaProofTest.lean#L33"
     },
     "metadata": {
       "blame_email_hash": "4bcdc021face",
       "blame_date": "2025-04-30T17:09:22-04:00",
-      "inclusion_date": "2025-04-30T23:15:27.302039+00:00"
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
     },
-    "id": "7da343b445893602116f449dd1d1af77d133c81a1e4cf12b9b8b74b89d1109fc"
+    "id": "e353b058e15a3ca5f7a374258cfc0e6c683efbea6bcf4c2fe79af2554841cda5"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
       "branch": "AK_work",
-      "commit": "bdfdc5bcc975251e09e84be8c8aac7e3fae21234",
-      "lean_version": "v4.18.0"
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
+      "lean_version": "v4.19.0"
     },
     "location": {
       "path": "PrimeNumberTheoremAnd/AlphaProofTest.lean",
@@ -26715,21 +26715,21 @@
     },
     "debug_info": {
       "goal": "SmoothingF : \u211d \u2192 \u211d\nc\u2081 : \u211d\nc\u2081_pos : 0 < c\u2081\nhc\u2081 : \u2200 (\u03b5 x : \u211d), 0 < \u03b5 \u2192 0 < x \u2192 x \u2264 1 - c\u2081 * \u03b5 \u2192 Smooth1 SmoothingF \u03b5 x = 1\nc\u2082 : \u211d\nc\u2082_pos : 0 < c\u2082\nhc\u2082 : \u2200 (\u03b5 x : \u211d), \u03b5 \u2208 Ioo 0 1 \u2192 1 + c\u2082 * \u03b5 \u2264 x \u2192 Smooth1 SmoothingF \u03b5 x = 0\nC : \u211d := c\u2081 + c\u2082 + 3\nC_gt : 3 < C\nX : \u211d\nX_ge_C : C < X\n\u03b5 : \u211d\n\u03b5pos : 0 < \u03b5\n\u03b5_lt_one : \u03b5 < 1\nvonManBnd : \u2200 (n : \u2115), ArithmeticFunction.vonMangoldt n \u2264 Real.log \u2191n\nn : \u2115\n\u22a2 Smooth1 SmoothingF \u03b5 (\u2191n / X) \u2264 1",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/bdfdc5bcc975251e09e84be8c8aac7e3fae21234/PrimeNumberTheoremAnd/AlphaProofTest.lean#L35"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/AlphaProofTest.lean#L35"
     },
     "metadata": {
       "blame_email_hash": "4bcdc021face",
       "blame_date": "2025-04-30T17:09:22-04:00",
-      "inclusion_date": "2025-04-30T23:15:27.302039+00:00"
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
     },
-    "id": "ce8605e3cb983a7f69a9b55d6723560a27d5b860e3b5833f2e992c34e9a0ae1a"
+    "id": "928ca306a54da4b92a4f780bddf7d270cf5a90335baa8e859cca30ea9ce91b95"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
       "branch": "AK_work",
-      "commit": "bdfdc5bcc975251e09e84be8c8aac7e3fae21234",
-      "lean_version": "v4.18.0"
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
+      "lean_version": "v4.19.0"
     },
     "location": {
       "path": "PrimeNumberTheoremAnd/AlphaProofTest.lean",
@@ -26740,21 +26740,21 @@
     },
     "debug_info": {
       "goal": "SmoothingF : \u211d \u2192 \u211d\nc\u2081 : \u211d\nc\u2081_pos : 0 < c\u2081\nhc\u2081 : \u2200 (\u03b5 x : \u211d), 0 < \u03b5 \u2192 0 < x \u2192 x \u2264 1 - c\u2081 * \u03b5 \u2192 Smooth1 SmoothingF \u03b5 x = 1\nc\u2082 : \u211d\nc\u2082_pos : 0 < c\u2082\nhc\u2082 : \u2200 (\u03b5 x : \u211d), \u03b5 \u2208 Ioo 0 1 \u2192 1 + c\u2082 * \u03b5 \u2264 x \u2192 Smooth1 SmoothingF \u03b5 x = 0\nC : \u211d := c\u2081 + c\u2082 + 3\nC_gt : 3 < C\nX : \u211d\nX_ge_C : C < X\n\u03b5 : \u211d\n\u03b5pos : 0 < \u03b5\n\u03b5_lt_one : \u03b5 < 1\nvonManBnd : \u2200 (n : \u2115), ArithmeticFunction.vonMangoldt n \u2264 Real.log \u2191n\nsmooth1BddAbove : \u2200 (n : \u2115), Smooth1 SmoothingF \u03b5 (\u2191n / X) \u2264 1\nn : \u2115\n\u22a2 Smooth1 SmoothingF \u03b5 (\u2191n / X) \u2265 0",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/bdfdc5bcc975251e09e84be8c8aac7e3fae21234/PrimeNumberTheoremAnd/AlphaProofTest.lean#L37"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/AlphaProofTest.lean#L37"
     },
     "metadata": {
       "blame_email_hash": "4bcdc021face",
       "blame_date": "2025-04-30T17:09:22-04:00",
-      "inclusion_date": "2025-04-30T23:15:27.302039+00:00"
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
     },
-    "id": "0e63b9ab803add7e7d4b53400e9d2450a816d83a111ba47daa1142381a18d921"
+    "id": "33dd20ab097481609308277e6b24cd357f24b3705769d6d70c90dbcf8da92aa6"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
       "branch": "AK_work",
-      "commit": "bdfdc5bcc975251e09e84be8c8aac7e3fae21234",
-      "lean_version": "v4.18.0"
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
+      "lean_version": "v4.19.0"
     },
     "location": {
       "path": "PrimeNumberTheoremAnd/AlphaProofTest.lean",
@@ -26765,21 +26765,21 @@
     },
     "debug_info": {
       "goal": "case intro.intro.intro.intro\nSmoothingF : \u211d \u2192 \u211d\nc\u2081 : \u211d\nc\u2081_pos : 0 < c\u2081\nhc\u2081 : \u2200 (\u03b5 x : \u211d), 0 < \u03b5 \u2192 0 < x \u2192 x \u2264 1 - c\u2081 * \u03b5 \u2192 Smooth1 SmoothingF \u03b5 x = 1\nc\u2082 : \u211d\nc\u2082_pos : 0 < c\u2082\nhc\u2082 : \u2200 (\u03b5 x : \u211d), \u03b5 \u2208 Ioo 0 1 \u2192 1 + c\u2082 * \u03b5 \u2264 x \u2192 Smooth1 SmoothingF \u03b5 x = 0\nC : \u211d := c\u2081 + c\u2082 + 3\nC_gt : 3 < C\nX : \u211d\nX_ge_C : C < X\n\u03b5 : \u211d\n\u03b5pos : 0 < \u03b5\n\u03b5_lt_one : \u03b5 < 1\nvonManBnd : \u2200 (n : \u2115), ArithmeticFunction.vonMangoldt n \u2264 Real.log \u2191n\nsmooth1BddAbove : \u2200 (n : \u2115), Smooth1 SmoothingF \u03b5 (\u2191n / X) \u2264 1\nsmooth1BddBelow : \u2200 (n : \u2115), Smooth1 SmoothingF \u03b5 (\u2191n / X) \u2265 0\nsmoothIs1 : \u2200 (n : \u2115), \u2191n \u2264 X * (1 - c\u2081 * \u03b5) \u2192 Smooth1 SmoothingF \u03b5 (\u2191n / X) = 1\nsmoothIs0 : \u2200 (n : \u2115), X * (1 + c\u2082 * \u03b5) \u2264 \u2191n \u2192 1 + c\u2082 * \u03b5 \u2264 \u2191n / X \u2192 Smooth1 SmoothingF \u03b5 (\u2191n / X) = 0\n\u22a2 \u2016\u2211' (n : \u2115), ArithmeticFunction.vonMangoldt n * Smooth1 SmoothingF \u03b5 (\u2191n / X) -\n        (Finset.range \u230aX\u230b\u208a).sum \u21d1ArithmeticFunction.vonMangoldt\u2016 \u2264\n    C * \u03b5 * X * Real.log X",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/bdfdc5bcc975251e09e84be8c8aac7e3fae21234/PrimeNumberTheoremAnd/AlphaProofTest.lean#L44"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/AlphaProofTest.lean#L44"
     },
     "metadata": {
       "blame_email_hash": "4bcdc021face",
       "blame_date": "2025-04-30T17:09:22-04:00",
-      "inclusion_date": "2025-04-30T23:15:27.302039+00:00"
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
     },
-    "id": "b1daebe8b1954227504e642e5b783e31b8ac0d4c7f15af8b0bf5f4cdbd813fba"
+    "id": "47a1a012f7080017060e10adb2f8681b74ca68e90757b0215e1675ff173d1a10"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
       "branch": "AK_work",
-      "commit": "bdfdc5bcc975251e09e84be8c8aac7e3fae21234",
-      "lean_version": "v4.18.0"
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
+      "lean_version": "v4.19.0"
     },
     "location": {
       "path": "PrimeNumberTheoremAnd/AlphaProofTest.lean",
@@ -26790,21 +26790,21 @@
     },
     "debug_info": {
       "goal": "SmoothingF : \u211d \u2192 \u211d\n\u22a2 \u2203 c, 0 < c \u2227 \u2200 (\u03b5 x : \u211d), 0 < \u03b5 \u2192 0 < x \u2192 x \u2264 1 - c * \u03b5 \u2192 Smooth1 SmoothingF \u03b5 x = 1",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/bdfdc5bcc975251e09e84be8c8aac7e3fae21234/PrimeNumberTheoremAnd/AlphaProofTest.lean#L19"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/AlphaProofTest.lean#L19"
     },
     "metadata": {
       "blame_email_hash": "4bcdc021face",
       "blame_date": "2025-04-30T17:09:22-04:00",
-      "inclusion_date": "2025-04-30T23:15:27.302039+00:00"
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
     },
-    "id": "317c691ee911bd2cb36cfafc661d7d5b88c3b6c297f1eb33d49965bf28b13e24"
+    "id": "a596e084b7a6091d5d5103d916f37be80bc373a76a671f612560fe19ceecaa96"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
       "branch": "AK_work",
-      "commit": "bdfdc5bcc975251e09e84be8c8aac7e3fae21234",
-      "lean_version": "v4.18.0"
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
+      "lean_version": "v4.19.0"
     },
     "location": {
       "path": "PrimeNumberTheoremAnd/AlphaProofTest.lean",
@@ -26815,21 +26815,21 @@
     },
     "debug_info": {
       "goal": "SmoothingF : \u211d \u2192 \u211d\nc\u2081 : \u211d\nc\u2081_pos : 0 < c\u2081\nhc\u2081 : \u2200 (\u03b5 x : \u211d), 0 < \u03b5 \u2192 0 < x \u2192 x \u2264 1 - c\u2081 * \u03b5 \u2192 Smooth1 SmoothingF \u03b5 x = 1\n\u22a2 \u2203 c, 0 < c \u2227 \u2200 (\u03b5 x : \u211d), \u03b5 \u2208 Ioo 0 1 \u2192 1 + c * \u03b5 \u2264 x \u2192 Smooth1 SmoothingF \u03b5 x = 0",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/bdfdc5bcc975251e09e84be8c8aac7e3fae21234/PrimeNumberTheoremAnd/AlphaProofTest.lean#L23"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/AlphaProofTest.lean#L23"
     },
     "metadata": {
       "blame_email_hash": "4bcdc021face",
       "blame_date": "2025-04-30T17:09:22-04:00",
-      "inclusion_date": "2025-04-30T23:15:27.302039+00:00"
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
     },
-    "id": "32aa01f6b3082216062f7845fff057c7bdfe869879bcc5bef771e6b41d3d2d2c"
+    "id": "b54ab9625d0242142eba98d1fadee2952e59041a2626369b05ef06ea93678e69"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
       "branch": "AK_work",
-      "commit": "bdfdc5bcc975251e09e84be8c8aac7e3fae21234",
-      "lean_version": "v4.18.0"
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
+      "lean_version": "v4.19.0"
     },
     "location": {
       "path": "PrimeNumberTheoremAnd/AlphaProofTest.lean",
@@ -26840,21 +26840,21 @@
     },
     "debug_info": {
       "goal": "SmoothingF : \u211d \u2192 \u211d\nc\u2081 : \u211d\nc\u2081_pos : 0 < c\u2081\nhc\u2081 : \u2200 (\u03b5 x : \u211d), 0 < \u03b5 \u2192 0 < x \u2192 x \u2264 1 - c\u2081 * \u03b5 \u2192 Smooth1 SmoothingF \u03b5 x = 1\nc\u2082 : \u211d\nc\u2082_pos : 0 < c\u2082\nhc\u2082 : \u2200 (\u03b5 x : \u211d), \u03b5 \u2208 Ioo 0 1 \u2192 1 + c\u2082 * \u03b5 \u2264 x \u2192 Smooth1 SmoothingF \u03b5 x = 0\nC : \u211d := c\u2081 + c\u2082 + 3\n\u22a2 3 < C",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/bdfdc5bcc975251e09e84be8c8aac7e3fae21234/PrimeNumberTheoremAnd/AlphaProofTest.lean#L27"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/AlphaProofTest.lean#L27"
     },
     "metadata": {
       "blame_email_hash": "4bcdc021face",
       "blame_date": "2025-04-30T17:09:22-04:00",
-      "inclusion_date": "2025-04-30T23:15:27.302039+00:00"
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
     },
-    "id": "d6aadcf2215fb0f8555ec7fddee139b93c7a480aec6092fbfeec20789230c704"
+    "id": "b7cdc0a980ebdd837a20ae9446b2a5db2572871587a89e17d42e967dc1bae3a7"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
       "branch": "AK_work",
-      "commit": "bdfdc5bcc975251e09e84be8c8aac7e3fae21234",
-      "lean_version": "v4.18.0"
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
+      "lean_version": "v4.19.0"
     },
     "location": {
       "path": "PrimeNumberTheoremAnd/AlphaProofTest.lean",
@@ -26865,14 +26865,14 @@
     },
     "debug_info": {
       "goal": "SmoothingF : \u211d \u2192 \u211d\nc\u2081 : \u211d\nc\u2081_pos : 0 < c\u2081\nhc\u2081 : \u2200 (\u03b5 x : \u211d), 0 < \u03b5 \u2192 0 < x \u2192 x \u2264 1 - c\u2081 * \u03b5 \u2192 Smooth1 SmoothingF \u03b5 x = 1\nc\u2082 : \u211d\nc\u2082_pos : 0 < c\u2082\nhc\u2082 : \u2200 (\u03b5 x : \u211d), \u03b5 \u2208 Ioo 0 1 \u2192 1 + c\u2082 * \u03b5 \u2264 x \u2192 Smooth1 SmoothingF \u03b5 x = 0\nC : \u211d := c\u2081 + c\u2082 + 3\nC_gt : 3 < C\nX : \u211d\nX_ge_C : C < X\n\u03b5 : \u211d\n\u03b5pos : 0 < \u03b5\n\u03b5_lt_one : \u03b5 < 1\nvonManBnd : \u2200 (n : \u2115), ArithmeticFunction.vonMangoldt n \u2264 Real.log \u2191n\nsmooth1BddAbove : \u2200 (n : \u2115), Smooth1 SmoothingF \u03b5 (\u2191n / X) \u2264 1\nsmooth1BddBelow : \u2200 (n : \u2115), Smooth1 SmoothingF \u03b5 (\u2191n / X) \u2265 0\nn : \u2115\nn_le : \u2191n \u2264 X * (1 - c\u2081 * \u03b5)\n\u22a2 Smooth1 SmoothingF \u03b5 (\u2191n / X) = 1",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/bdfdc5bcc975251e09e84be8c8aac7e3fae21234/PrimeNumberTheoremAnd/AlphaProofTest.lean#L39"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/AlphaProofTest.lean#L39"
     },
     "metadata": {
       "blame_email_hash": "4bcdc021face",
       "blame_date": "2025-04-30T17:09:22-04:00",
-      "inclusion_date": "2025-04-30T23:15:27.302039+00:00"
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
     },
-    "id": "a9a8ca489aae85cadd564fd53292b75af188db7b06ea7d097597e922b353eaa2"
+    "id": "3b6fa205f8cf84d2c28624b9ab9c21451fe7980b62a98ade58629e2a1b530773"
   },
   {
     "repo": {
@@ -35653,7 +35653,7 @@
     "repo": {
       "remote": "https://github.com/ufmg-smite/lean-smt",
       "branch": "main",
-      "commit": "e066f718837e6f2cd3f5b3c5e6d00f789b526ae6",
+      "commit": "8ee68ab71cc4f728e88e9cc9c1d1045ef66e8d8c",
       "lean_version": "v4.16.0"
     },
     "location": {
@@ -35665,14 +35665,14 @@
     },
     "debug_info": {
       "goal": "w : Nat\nx y : BitVec w\n\u22a2 (x = y) = (x.beq y = true)",
-      "url": "https://github.com/ufmg-smite/lean-smt/blob/e066f718837e6f2cd3f5b3c5e6d00f789b526ae6/Smt/Reconstruct/BitVec/Bitblast.lean#L37"
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/8ee68ab71cc4f728e88e9cc9c1d1045ef66e8d8c/Smt/Reconstruct/BitVec/Bitblast.lean#L37"
     },
     "metadata": {
       "blame_email_hash": "a29bc6f92c6c",
       "blame_date": "2024-05-08T17:36:04-07:00",
-      "inclusion_date": "2025-05-07T23:46:23.766024+00:00"
+      "inclusion_date": "2025-05-09T00:13:25.133264+00:00"
     },
-    "id": "e1c8b99e63e5c1bb7d885dab38c7623815e0dc6fc0ec1ac41adf7d26256de2a7"
+    "id": "396164b40f66d786644621ef427850030dabfaa98e40d38d0de4c99af51fbf59"
   },
   {
     "repo": {
@@ -35803,7 +35803,7 @@
     "repo": {
       "remote": "https://github.com/ufmg-smite/lean-smt",
       "branch": "main",
-      "commit": "e066f718837e6f2cd3f5b3c5e6d00f789b526ae6",
+      "commit": "8ee68ab71cc4f728e88e9cc9c1d1045ef66e8d8c",
       "lean_version": "v4.16.0"
     },
     "location": {
@@ -35815,20 +35815,20 @@
     },
     "debug_info": {
       "goal": "x y : BitVec 2\n\u22a2 x ++ y = zeroExtend 4 x <<< 2#2 ||| zeroExtend 4 y",
-      "url": "https://github.com/ufmg-smite/lean-smt/blob/e066f718837e6f2cd3f5b3c5e6d00f789b526ae6/Test/BitVec/Shift.lean#L8"
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/8ee68ab71cc4f728e88e9cc9c1d1045ef66e8d8c/Test/BitVec/Shift.lean#L8"
     },
     "metadata": {
       "blame_email_hash": "2d71a621927f",
       "blame_date": "2022-08-05T17:11:15+02:00",
-      "inclusion_date": "2025-05-07T23:46:23.766024+00:00"
+      "inclusion_date": "2025-05-09T00:13:25.133264+00:00"
     },
-    "id": "3963c240c4f6962156e620486f317c4c6c6967fffd73d23c79a85c926a9956c9"
+    "id": "dc819bfb0d8e020f39ab35873f2ac70a5b62d681457138966322a39a15a7d13e"
   },
   {
     "repo": {
       "remote": "https://github.com/ufmg-smite/lean-smt",
       "branch": "main",
-      "commit": "e066f718837e6f2cd3f5b3c5e6d00f789b526ae6",
+      "commit": "8ee68ab71cc4f728e88e9cc9c1d1045ef66e8d8c",
       "lean_version": "v4.16.0"
     },
     "location": {
@@ -35840,20 +35840,20 @@
     },
     "debug_info": {
       "goal": "x y : BitVec 3\n\u22a2 x ++ y = zeroExtend 6 x <<< 3#2 ||| zeroExtend 6 y",
-      "url": "https://github.com/ufmg-smite/lean-smt/blob/e066f718837e6f2cd3f5b3c5e6d00f789b526ae6/Test/BitVec/Shift.lean#L13"
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/8ee68ab71cc4f728e88e9cc9c1d1045ef66e8d8c/Test/BitVec/Shift.lean#L13"
     },
     "metadata": {
       "blame_email_hash": "2d71a621927f",
       "blame_date": "2022-08-05T17:11:15+02:00",
-      "inclusion_date": "2025-05-07T23:46:23.766024+00:00"
+      "inclusion_date": "2025-05-09T00:13:25.133264+00:00"
     },
-    "id": "6644f4ba81c08ead5a366ea710ce557fb01a2b1283dd9d86bba08bc650bb5fe8"
+    "id": "a6cd7ba8df6aa5683e00dc116d7d48f25d1422d20b3e0fe1400c696e077c679b"
   },
   {
     "repo": {
       "remote": "https://github.com/ufmg-smite/lean-smt",
       "branch": "main",
-      "commit": "e066f718837e6f2cd3f5b3c5e6d00f789b526ae6",
+      "commit": "8ee68ab71cc4f728e88e9cc9c1d1045ef66e8d8c",
       "lean_version": "v4.16.0"
     },
     "location": {
@@ -35865,20 +35865,20 @@
     },
     "debug_info": {
       "goal": "x y : BitVec 2\n\u22a2 x ^^^ y = y ^^^ x",
-      "url": "https://github.com/ufmg-smite/lean-smt/blob/e066f718837e6f2cd3f5b3c5e6d00f789b526ae6/Test/BitVec/XorComm.lean#L5"
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/8ee68ab71cc4f728e88e9cc9c1d1045ef66e8d8c/Test/BitVec/XorComm.lean#L5"
     },
     "metadata": {
       "blame_email_hash": "2d71a621927f",
       "blame_date": "2022-07-14T12:41:05-04:00",
-      "inclusion_date": "2025-05-07T23:46:23.766024+00:00"
+      "inclusion_date": "2025-05-09T00:13:25.133264+00:00"
     },
-    "id": "4b7ccb2168b606dbd2e25b135d296a52e84beeb08ee8882876e94182989d3294"
+    "id": "52f83f3afbd75f6beb9939aefe37dbb2440456a113df7cfddac97d69a077af7b"
   },
   {
     "repo": {
       "remote": "https://github.com/ufmg-smite/lean-smt",
       "branch": "main",
-      "commit": "e066f718837e6f2cd3f5b3c5e6d00f789b526ae6",
+      "commit": "8ee68ab71cc4f728e88e9cc9c1d1045ef66e8d8c",
       "lean_version": "v4.16.0"
     },
     "location": {
@@ -35890,20 +35890,20 @@
     },
     "debug_info": {
       "goal": "x y : BitVec (4 + 4)\n\u22a2 x ^^^ y = y ^^^ x",
-      "url": "https://github.com/ufmg-smite/lean-smt/blob/e066f718837e6f2cd3f5b3c5e6d00f789b526ae6/Test/BitVec/XorComm.lean#L9"
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/8ee68ab71cc4f728e88e9cc9c1d1045ef66e8d8c/Test/BitVec/XorComm.lean#L9"
     },
     "metadata": {
       "blame_email_hash": "2d71a621927f",
       "blame_date": "2022-07-14T12:41:05-04:00",
-      "inclusion_date": "2025-05-07T23:46:23.766024+00:00"
+      "inclusion_date": "2025-05-09T00:13:25.133264+00:00"
     },
-    "id": "46a1a176e8e75ff78fa28650d8645126174ac17373079a4bbf6e592cb29af2ef"
+    "id": "db832cc3000987f8fbb315d277a38dc3f85fb0440dea6cb006d7a4747b82a37f"
   },
   {
     "repo": {
       "remote": "https://github.com/ufmg-smite/lean-smt",
       "branch": "main",
-      "commit": "e066f718837e6f2cd3f5b3c5e6d00f789b526ae6",
+      "commit": "8ee68ab71cc4f728e88e9cc9c1d1045ef66e8d8c",
       "lean_version": "v4.16.0"
     },
     "location": {
@@ -35915,20 +35915,20 @@
     },
     "debug_info": {
       "goal": "\u22a2 \"a\".contains 'a' = true",
-      "url": "https://github.com/ufmg-smite/lean-smt/blob/e066f718837e6f2cd3f5b3c5e6d00f789b526ae6/Test/String/Contains.lean#L5"
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/8ee68ab71cc4f728e88e9cc9c1d1045ef66e8d8c/Test/String/Contains.lean#L5"
     },
     "metadata": {
       "blame_email_hash": "a29bc6f92c6c",
       "blame_date": "2022-11-12T16:45:23-08:00",
-      "inclusion_date": "2025-05-07T23:46:23.766024+00:00"
+      "inclusion_date": "2025-05-09T00:13:25.133264+00:00"
     },
-    "id": "6aa6c465e01c879bed593ffe39e8ad44100941e6c1d71a2336403a6438b93543"
+    "id": "66aa0feb2751bd5b4e961a02809b58cc1d73c50caf514f9db901efc4f3b450bf"
   },
   {
     "repo": {
       "remote": "https://github.com/ufmg-smite/lean-smt",
       "branch": "main",
-      "commit": "e066f718837e6f2cd3f5b3c5e6d00f789b526ae6",
+      "commit": "8ee68ab71cc4f728e88e9cc9c1d1045ef66e8d8c",
       "lean_version": "v4.16.0"
     },
     "location": {
@@ -35940,20 +35940,20 @@
     },
     "debug_info": {
       "goal": "a b : MyInt\n\u22a2 a.add b = b.add a",
-      "url": "https://github.com/ufmg-smite/lean-smt/blob/e066f718837e6f2cd3f5b3c5e6d00f789b526ae6/Test/Int/DefineSort.lean#L8"
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/8ee68ab71cc4f728e88e9cc9c1d1045ef66e8d8c/Test/Int/DefineSort.lean#L8"
     },
     "metadata": {
       "blame_email_hash": "2d71a621927f",
       "blame_date": "2022-07-14T12:41:05-04:00",
-      "inclusion_date": "2025-05-07T23:46:23.766024+00:00"
+      "inclusion_date": "2025-05-09T00:13:25.133264+00:00"
     },
-    "id": "837e81ae8ed027e310c903c0fa82ee6459a1842dcbd1cfc4c9a4f50e175da420"
+    "id": "a49663fcdda238fe53afa0f2717136d10c2525d7d037214de078b518d4a954cb"
   },
   {
     "repo": {
       "remote": "https://github.com/ufmg-smite/lean-smt",
       "branch": "main",
-      "commit": "e066f718837e6f2cd3f5b3c5e6d00f789b526ae6",
+      "commit": "8ee68ab71cc4f728e88e9cc9c1d1045ef66e8d8c",
       "lean_version": "v4.16.0"
     },
     "location": {
@@ -35965,20 +35965,20 @@
     },
     "debug_info": {
       "goal": "a b : Int\n\u22a2 curryAdd a b = curryAdd b a",
-      "url": "https://github.com/ufmg-smite/lean-smt/blob/e066f718837e6f2cd3f5b3c5e6d00f789b526ae6/Test/Int/Binders.lean#L7"
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/8ee68ab71cc4f728e88e9cc9c1d1045ef66e8d8c/Test/Int/Binders.lean#L7"
     },
     "metadata": {
       "blame_email_hash": "2d71a621927f",
       "blame_date": "2022-07-14T12:41:05-04:00",
-      "inclusion_date": "2025-05-07T23:46:23.766024+00:00"
+      "inclusion_date": "2025-05-09T00:13:25.133264+00:00"
     },
-    "id": "1d29f942da44f85b0af99d9ba61cae277cf80fa78b3ee273320ce52a1f356953"
+    "id": "c27de236f03be946348f08fb1603ad75e850ace62f44669ec1885c8910becfa4"
   },
   {
     "repo": {
       "remote": "https://github.com/ufmg-smite/lean-smt",
       "branch": "main",
-      "commit": "e066f718837e6f2cd3f5b3c5e6d00f789b526ae6",
+      "commit": "8ee68ab71cc4f728e88e9cc9c1d1045ef66e8d8c",
       "lean_version": "v4.16.0"
     },
     "location": {
@@ -35990,20 +35990,20 @@
     },
     "debug_info": {
       "goal": "a b : Int\n\u22a2 partCurryAdd a b = partCurryAdd b a",
-      "url": "https://github.com/ufmg-smite/lean-smt/blob/e066f718837e6f2cd3f5b3c5e6d00f789b526ae6/Test/Int/Binders.lean#L13"
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/8ee68ab71cc4f728e88e9cc9c1d1045ef66e8d8c/Test/Int/Binders.lean#L13"
     },
     "metadata": {
       "blame_email_hash": "2d71a621927f",
       "blame_date": "2022-07-14T12:41:05-04:00",
-      "inclusion_date": "2025-05-07T23:46:23.766024+00:00"
+      "inclusion_date": "2025-05-09T00:13:25.133264+00:00"
     },
-    "id": "0c2a59cff863a966dcc794ce319a922488c9ddba5112d542bac3b1c55bd06a4c"
+    "id": "555a0865659714d59fa266e2c8c7bc14d0763473e07fa922a82103ec7e4f17f8"
   },
   {
     "repo": {
       "remote": "https://github.com/ufmg-smite/lean-smt",
       "branch": "main",
-      "commit": "e066f718837e6f2cd3f5b3c5e6d00f789b526ae6",
+      "commit": "8ee68ab71cc4f728e88e9cc9c1d1045ef66e8d8c",
       "lean_version": "v4.16.0"
     },
     "location": {
@@ -36015,20 +36015,20 @@
     },
     "debug_info": {
       "goal": "a b : Int\npartCurryAdd' : Int \u2192 Int \u2192 Int := fun a => HAdd.hAdd a\n\u22a2 partCurryAdd' a b = partCurryAdd' b a",
-      "url": "https://github.com/ufmg-smite/lean-smt/blob/e066f718837e6f2cd3f5b3c5e6d00f789b526ae6/Test/Int/Binders.lean#L20"
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/8ee68ab71cc4f728e88e9cc9c1d1045ef66e8d8c/Test/Int/Binders.lean#L20"
     },
     "metadata": {
       "blame_email_hash": "2d71a621927f",
       "blame_date": "2022-07-14T12:41:05-04:00",
-      "inclusion_date": "2025-05-07T23:46:23.766024+00:00"
+      "inclusion_date": "2025-05-09T00:13:25.133264+00:00"
     },
-    "id": "ab516286731a59cdde29175cdef25441c2438570cd4a358dcd67c5a0030d5a19"
+    "id": "b58a138fca7c214660494ccb8697634b54e60f1726d8ba203608138a9aca4b96"
   },
   {
     "repo": {
       "remote": "https://github.com/ufmg-smite/lean-smt",
       "branch": "main",
-      "commit": "e066f718837e6f2cd3f5b3c5e6d00f789b526ae6",
+      "commit": "8ee68ab71cc4f728e88e9cc9c1d1045ef66e8d8c",
       "lean_version": "v4.16.0"
     },
     "location": {
@@ -36040,20 +36040,20 @@
     },
     "debug_info": {
       "goal": "a b : Int\n\u22a2 mismatchNamesAdd a b = mismatchNamesAdd b a",
-      "url": "https://github.com/ufmg-smite/lean-smt/blob/e066f718837e6f2cd3f5b3c5e6d00f789b526ae6/Test/Int/Binders.lean#L27"
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/8ee68ab71cc4f728e88e9cc9c1d1045ef66e8d8c/Test/Int/Binders.lean#L27"
     },
     "metadata": {
       "blame_email_hash": "2d71a621927f",
       "blame_date": "2022-07-14T12:41:05-04:00",
-      "inclusion_date": "2025-05-07T23:46:23.766024+00:00"
+      "inclusion_date": "2025-05-09T00:13:25.133264+00:00"
     },
-    "id": "1638806b821ade247a1bcb8da419471a02bf892340aa917a28ec27ae2165ed49"
+    "id": "557aacaa0e4ba0079209b33fa14051bff9562ab8da969d78e0b0e88dfdd4b3da"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "main",
-      "commit": "426b540a86d5b4a103cec5528e68168ea172da66",
+      "branch": "AK_work",
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -36065,20 +36065,20 @@
     },
     "debug_info": {
       "goal": "A x : \u211d\nG : \u2102 \u2192 \u2102\nf : \u2115 \u2192 \u211d\nhpos : 0 \u2264 f\nhG : ContinuousOn G {s | 1 \u2264 s.re}\nhG' : EqOn G (fun s => LSeries (fun n => \u2191(f n)) s - \u2191A / (s - 1)) {s | 1 < s.re}\nhf : \u2200 (\u03c3' : \u211d), 1 < \u03c3' \u2192 Summable (nterm (fun n => \u2191(f n)) \u03c3')\n\u03c8 : CS 2 \u2102\nh\u03c8pos : \u2200 (y : \u211d), 0 \u2264 (fourierIntegral \u03c8.toFun y).re \u2227 (fourierIntegral \u03c8.toFun y).im = 0\nhx : 1 \u2264 x\n\u22a2 \u2211' (n : \u2115), \u2191(f n) / \u2191n * fourierIntegral \u03c8.toFun (1 / (2 * Real.pi) * Real.log (\u2191n / x)) -\n      \u2191A * \u222b (u : \u211d) in Ici (-Real.log x), fourierIntegral \u03c8.toFun (u / (2 * Real.pi)) =\n    \u222b (t : \u211d), G (1 + \u2191t * I) * \u03c8.toFun t * \u2191x ^ (\u2191t * I)",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/426b540a86d5b4a103cec5528e68168ea172da66/PrimeNumberTheoremAnd/Wiener.lean#L2281"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/Wiener.lean#L2281"
     },
     "metadata": {
       "blame_email_hash": "d7f0e4a42bbb",
       "blame_date": "2024-04-04T12:17:01-07:00",
-      "inclusion_date": "2025-05-05T23:13:10.176761+00:00"
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
     },
-    "id": "a7999f10c8089fd896f645831925f8b6c18c95f6f4cd8b2dc24dcc568908033b"
+    "id": "a7e59f876e4047282de1572d7ab318f1ef5b8d1f30f38164a2336e1423442729"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "main",
-      "commit": "426b540a86d5b4a103cec5528e68168ea172da66",
+      "branch": "AK_work",
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -36090,14 +36090,14 @@
     },
     "debug_info": {
       "goal": "A : \u211d\nG : \u2102 \u2192 \u2102\nf : \u2115 \u2192 \u211d\nhpos : 0 \u2264 f\nhG : ContinuousOn G {s | 1 \u2264 s.re}\nhG' : EqOn G (fun s => LSeries (fun n => \u2191(f n)) s - \u2191A / (s - 1)) {s | 1 < s.re}\nhf : \u2200 (\u03c3' : \u211d), 1 < \u03c3' \u2192 Summable (nterm (fun n => \u2191(f n)) \u03c3')\n\u03c8 : CS 2 \u2102\nh\u03c8pos : \u2200 (y : \u211d), 0 \u2264 (fourierIntegral \u03c8.toFun y).re \u2227 (fourierIntegral \u03c8.toFun y).im = 0\n\u22a2 \u2203 B,\n    \u2200 (x : \u211d), 0 < x \u2192 \u2016\u2211' (n : \u2115), \u2191(f n) / \u2191n * fourierIntegral \u03c8.toFun (1 / (2 * Real.pi) * Real.log (\u2191n / x))\u2016 \u2264 B",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/426b540a86d5b4a103cec5528e68168ea172da66/PrimeNumberTheoremAnd/Wiener.lean#L2303"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/Wiener.lean#L2303"
     },
     "metadata": {
       "blame_email_hash": "4d01d7c10d46",
       "blame_date": "2024-04-16T02:15:35+02:00",
-      "inclusion_date": "2025-05-05T23:13:10.176761+00:00"
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
     },
-    "id": "725d4d5e769203d0e841b2ef79d6b2c893fd9a0d8b27af54fc7cdd2349debd20"
+    "id": "518709196e1ffabe7edcc79d37fbde7ff10e27f6261dd35a19b297abd2f15591"
   },
   {
     "repo": {
@@ -36152,33 +36152,33 @@
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "main",
-      "commit": "426b540a86d5b4a103cec5528e68168ea172da66",
+      "branch": "AK_work",
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
       "lean_version": "v4.19.0"
     },
     "location": {
       "path": "PrimeNumberTheoremAnd/MediumPNT.lean",
-      "start_line": 511,
+      "start_line": 621,
       "start_column": 2,
-      "end_line": 511,
+      "end_line": 621,
       "end_column": 7
     },
     "debug_info": {
       "goal": "c : \u211d := sorry\ncpos : 0 < c\nC : \u211d := sorry\nX\u2080 : \u211d := sorry\nX : \u211d\nX_ge_X\u2080 : X \u2265 X\u2080\n\u22a2 \u2016(ChebyshevPsi - id) X\u2016 \u2264 C * \u2016X * Real.exp (-c * Real.log X ^ (1 / 10))\u2016",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/426b540a86d5b4a103cec5528e68168ea172da66/PrimeNumberTheoremAnd/MediumPNT.lean#L511"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/MediumPNT.lean#L621"
     },
     "metadata": {
       "blame_email_hash": "4bcdc021face",
       "blame_date": "2024-03-11T23:23:22-04:00",
-      "inclusion_date": "2025-05-05T23:13:10.176761+00:00"
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
     },
-    "id": "f2cc650eec8ce53a9ea0b36667f870aea44aca959e259fb22b02a144a0a5fbd3"
+    "id": "16dd0c9176868634b6cc2f717d2dac2581785914dd4accf490115f8111b40105"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "main",
-      "commit": "426b540a86d5b4a103cec5528e68168ea172da66",
+      "branch": "AK_work",
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -36190,20 +36190,20 @@
     },
     "debug_info": {
       "goal": "\u22a2 (fun x => \u2211 n \u2208 range \u230ax\u230b\u208a, moebius n) =o[atTop] fun x => x",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/426b540a86d5b4a103cec5528e68168ea172da66/PrimeNumberTheoremAnd/Consequences.lean#L2575"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/Consequences.lean#L2575"
     },
     "metadata": {
       "blame_email_hash": "5ecb8fcfe98c",
       "blame_date": "2025-02-06T17:41:08+01:00",
-      "inclusion_date": "2025-05-05T23:13:10.176761+00:00"
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
     },
-    "id": "45e9ce0d5bccac4a9071249c8adf5fab28d117d79d8ec518d06a5ac5a4f66ad2"
+    "id": "51f9b092e3aa1e480b3d409b532bfbe365ca86f082b296cf69c38e8a3f968f8f"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "main",
-      "commit": "426b540a86d5b4a103cec5528e68168ea172da66",
+      "branch": "AK_work",
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -36215,20 +36215,20 @@
     },
     "debug_info": {
       "goal": "\u22a2 (fun x => \u2211 n \u2208 range \u230ax\u230b\u208a, (-1) ^ cardFactors n) =o[atTop] fun x => x",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/426b540a86d5b4a103cec5528e68168ea172da66/PrimeNumberTheoremAnd/Consequences.lean#L2611"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/Consequences.lean#L2611"
     },
     "metadata": {
       "blame_email_hash": "11451cd2f124",
       "blame_date": "2024-02-19T02:44:41-08:00",
-      "inclusion_date": "2025-05-05T23:13:10.176761+00:00"
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
     },
-    "id": "2c29a056b0c216ab9e96d99f8be6e5e3177411d4aa273c4819d0801f4039bbcd"
+    "id": "80bde93f33ff755d749c531886b4231530b7e192388f788be83070e04e5a897c"
   },
   {
     "repo": {
       "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
-      "branch": "main",
-      "commit": "426b540a86d5b4a103cec5528e68168ea172da66",
+      "branch": "AK_work",
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -36240,14 +36240,14 @@
     },
     "debug_info": {
       "goal": "\u22a2 (fun x => \u2211 n \u2208 range \u230ax\u230b\u208a, \u2191(moebius n) / \u2191n) =o[atTop] fun x => 1",
-      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/426b540a86d5b4a103cec5528e68168ea172da66/PrimeNumberTheoremAnd/Consequences.lean#L2635"
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/Consequences.lean#L2635"
     },
     "metadata": {
       "blame_email_hash": "5ecb8fcfe98c",
       "blame_date": "2025-02-06T17:41:08+01:00",
-      "inclusion_date": "2025-05-05T23:13:10.176761+00:00"
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
     },
-    "id": "10245a44c54162c5874ef5165830b3c20a1bba529068597f2194029942cf3f27"
+    "id": "4b1867f2fe05f27eb953ad767e44928bf41093e93eba51fe1bd37f2d8884fce7"
   },
   {
     "repo": {
@@ -36628,76 +36628,76 @@
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "bounded-depth",
-      "commit": "ac2e14a982a125f06c7905a55dabf360bf7691ee",
+      "commit": "2efcba7c9d835e9969977f8470ca9640e1f7cbd7",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Foundation/Propositional/Kripke/AxiomBoundDepth.lean",
-      "start_line": 146,
+      "start_line": 239,
       "start_column": 6,
-      "end_line": 146,
+      "end_line": 239,
       "end_column": 11
     },
     "debug_info": {
       "goal": "case h.right\nS : Type u_1\ninst\u271d\u00b2 : Entailment (Formula \u2115) S\n\ud835\udce2 : S\ninst\u271d\u00b9 : Consistent \ud835\udce2\ninst\u271d : Entailment.Int \ud835\udce2\nl : List (canonicalFrame \ud835\udce2).World\nhl\u2082 : l.head? = some (canonicalFrame \ud835\udce2).default\nhl\u2083 : List.Chain' (fun x1 x2 => x1 \u227a x2) l\nh : \ud835\udce2 \u22a2! Axioms.BoundDepth' 0\nhl\u2081 : l.length = 2\ni\u2080 : Fin l.length := \u27e80, \u22ef\u27e9\ni\u2081 : Fin l.length := \u27e81, \u22ef\u27e9\nx\u2080 x\u2081 : (canonicalFrame \ud835\udce2).World\n\u22a2 x\u2080 = x\u2081",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/ac2e14a982a125f06c7905a55dabf360bf7691ee/Foundation/Propositional/Kripke/AxiomBoundDepth.lean#L146"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2efcba7c9d835e9969977f8470ca9640e1f7cbd7/Foundation/Propositional/Kripke/AxiomBoundDepth.lean#L239"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-05-06T11:02:54+09:00",
-      "inclusion_date": "2025-05-06T23:18:05.763718+00:00"
+      "inclusion_date": "2025-05-08T23:32:25.978477+00:00"
     },
-    "id": "505bbb1c0c1bb509d3bb2602ce500da4424d3b178c46a738417fec1725a23270"
+    "id": "d6679858d78e498f6fd0c05f190da089763d996859a3368f1e6ebfb1a952cbe3"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "bounded-depth",
-      "commit": "ac2e14a982a125f06c7905a55dabf360bf7691ee",
+      "commit": "2efcba7c9d835e9969977f8470ca9640e1f7cbd7",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Foundation/Propositional/Kripke/AxiomBoundDepth.lean",
-      "start_line": 161,
+      "start_line": 254,
       "start_column": 4,
-      "end_line": 161,
+      "end_line": 254,
       "end_column": 9
     },
     "debug_info": {
       "goal": "case intro.intro.succ\nS : Type u_1\ninst\u271d\u00b2 : Entailment (Formula \u2115) S\n\ud835\udce2 : S\ninst\u271d\u00b9 : Consistent \ud835\udce2\ninst\u271d : Entailment.Int \ud835\udce2\nl : List (canonicalFrame \ud835\udce2).World\nhl\u2082 : l.head? = some (canonicalFrame \ud835\udce2).default\nhl\u2083 : List.Chain' (fun x1 x2 => x1 \u227a x2) l\nn : \u2115\nih : \ud835\udce2 \u22a2! Axioms.BoundDepth' n \u2192 l.length = n + 2 \u2192 \u2203 i j, i \u2260 j \u2227 l.get i = l.get j\nh : \ud835\udce2 \u22a2! Axioms.BoundDepth' (n + 1)\nhl\u2081 : l.length = n + 1 + 2\n\u22a2 \u2203 i j, i \u2260 j \u2227 l.get i = l.get j",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/ac2e14a982a125f06c7905a55dabf360bf7691ee/Foundation/Propositional/Kripke/AxiomBoundDepth.lean#L161"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2efcba7c9d835e9969977f8470ca9640e1f7cbd7/Foundation/Propositional/Kripke/AxiomBoundDepth.lean#L254"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-05-06T11:02:54+09:00",
-      "inclusion_date": "2025-05-06T23:18:05.763718+00:00"
+      "inclusion_date": "2025-05-08T23:32:25.978477+00:00"
     },
-    "id": "a468d025c283cc67c1bef183fb4ff318479ac725714de2c33a94d3dc387b7bb2"
+    "id": "78b4eb6f22e818cbed8cc07f70961934dbb6ea9405cac71e812c798ab70f80dd"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
       "branch": "bounded-depth",
-      "commit": "ac2e14a982a125f06c7905a55dabf360bf7691ee",
+      "commit": "2efcba7c9d835e9969977f8470ca9640e1f7cbd7",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Foundation/Propositional/Kripke/Hilbert/BD.lean",
-      "start_line": 39,
+      "start_line": 41,
       "start_column": 2,
-      "end_line": 39,
+      "end_line": 41,
       "end_column": 7
     },
     "debug_info": {
       "goal": "n : \u2115+\n\u22a2 (canonicalFrame (Hilbert.BD n)).IsDepthLt \u2191n",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/ac2e14a982a125f06c7905a55dabf360bf7691ee/Foundation/Propositional/Kripke/Hilbert/BD.lean#L39"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2efcba7c9d835e9969977f8470ca9640e1f7cbd7/Foundation/Propositional/Kripke/Hilbert/BD.lean#L41"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-05-06T09:26:16+09:00",
-      "inclusion_date": "2025-05-06T23:18:05.763718+00:00"
+      "inclusion_date": "2025-05-08T23:32:25.978477+00:00"
     },
-    "id": "4a9152865107a45b2eddddac0c70752e63c1ffdaf720e7fa5a162e3eea762455"
+    "id": "11c995f3cfb059b8e234f4a2414cb0ae450f65b8aa4f1b1f6d4c986c8b155454"
   },
   {
     "repo": {
@@ -47873,5 +47873,355 @@
       "inclusion_date": "2025-05-07T23:58:38.279627+00:00"
     },
     "id": "3238fa23191118bc08d92fe009ede4e73de791e65d59dce55056c9fee0678c5c"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "gphomles3",
+      "commit": "cfbd99be354a1a0bff822e089a6d883abe9ddfcc",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/RepresentationTheory/Homological/GroupHomology/LongExactSequence.lean",
+      "start_line": 316,
+      "start_column": 4,
+      "end_line": 316,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "k G : Type u\ninst\u271d\u00b2 : CommRing k\ninst\u271d\u00b9 : Group G\ninst\u271d : DecidableEq G\nX : ShortComplex (Rep k G)\nhX : X.ShortExact\nz : \u21a5(oneCycles X.X\u2083)\ny : G \u2192\u2080 \u2191X.X\u2082.V\nhy : (mapRange.linearMap (ModuleCat.Hom.hom X.g.hom)) y = \u2191z\nx : \u2191X.X\u2081.V\nhx : (ConcreteCategory.hom X.f.hom) x = (dZero X.X\u2082) y\n\u22a2 (ConcreteCategory.hom (snakeInput\u2080 hX).L\u2081.g)\n      ((ConcreteCategory.hom (shortComplexH1 X.X\u2082).moduleCatRightHomologyData.p) y) =\n    (ConcreteCategory.hom (snakeInput\u2080 hX).v\u2080\u2081.\u03c4\u2083) ((ConcreteCategory.hom (H1\u03c0 X.X\u2083)) z)",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/cfbd99be354a1a0bff822e089a6d883abe9ddfcc/Mathlib/RepresentationTheory/Homological/GroupHomology/LongExactSequence.lean#L316"
+    },
+    "metadata": {
+      "blame_email_hash": "14e6523700b1",
+      "blame_date": "2025-05-08T13:19:02+01:00",
+      "inclusion_date": "2025-05-08T23:09:52.249304+00:00"
+    },
+    "id": "719996828d3b4e0705106ccd933f958951745256f86ff44333ac097dfffab0a8"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "gphomles3",
+      "commit": "cfbd99be354a1a0bff822e089a6d883abe9ddfcc",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/RepresentationTheory/Homological/GroupHomology/LongExactSequence.lean",
+      "start_line": 379,
+      "start_column": 4,
+      "end_line": 379,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "k G : Type u\ninst\u271d\u00b2 : CommRing k\ninst\u271d\u00b9 : Group G\ninst\u271d : DecidableEq G\nX : ShortComplex (Rep k G)\nhX : X.ShortExact\nz : \u21a5(twoCycles X.X\u2083)\ny : G \u00d7 G \u2192\u2080 \u2191X.X\u2082.V\nhy : (mapRange.linearMap (ModuleCat.Hom.hom X.g.hom)) y = \u2191z\nx : G \u2192\u2080 \u2191X.X\u2081.V\nhx : (mapRange.linearMap (ModuleCat.Hom.hom X.f.hom)) x = (dOne X.X\u2082) y\n\u22a2 (ConcreteCategory.hom (snakeInput\u2081 hX).L\u2081.g)\n      ((ConcreteCategory.hom (shortComplexH2 X.X\u2082).moduleCatRightHomologyData.p) y) =\n    (ConcreteCategory.hom (snakeInput\u2081 hX).v\u2080\u2081.\u03c4\u2083) ((ConcreteCategory.hom (H2\u03c0 X.X\u2083)) z)",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/cfbd99be354a1a0bff822e089a6d883abe9ddfcc/Mathlib/RepresentationTheory/Homological/GroupHomology/LongExactSequence.lean#L379"
+    },
+    "metadata": {
+      "blame_email_hash": "14e6523700b1",
+      "blame_date": "2025-05-08T13:19:02+01:00",
+      "inclusion_date": "2025-05-08T23:09:52.249304+00:00"
+    },
+    "id": "3d479ce0df52c417e042fc95380cf77f4a407d2cb521ff16da9a6f2a26c0855b"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "gphomles3",
+      "commit": "cfbd99be354a1a0bff822e089a6d883abe9ddfcc",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/RepresentationTheory/Homological/GroupHomology/LongExactSequence.lean",
+      "start_line": 380,
+      "start_column": 4,
+      "end_line": 380,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "k G : Type u\ninst\u271d\u00b2 : CommRing k\ninst\u271d\u00b9 : Group G\ninst\u271d : DecidableEq G\nX : ShortComplex (Rep k G)\nhX : X.ShortExact\nz : \u21a5(twoCycles X.X\u2083)\ny : G \u00d7 G \u2192\u2080 \u2191X.X\u2082.V\nhy : (mapRange.linearMap (ModuleCat.Hom.hom X.g.hom)) y = \u2191z\nx : G \u2192\u2080 \u2191X.X\u2081.V\nhx : (mapRange.linearMap (ModuleCat.Hom.hom X.f.hom)) x = (dOne X.X\u2082) y\n\u22a2 (ConcreteCategory.hom (snakeInput\u2081 hX).L\u2082.f) \u27e8x, \u22ef\u27e9 =\n    (ConcreteCategory.hom (snakeInput\u2081 hX).v\u2081\u2082.\u03c4\u2082)\n      ((ConcreteCategory.hom (shortComplexH2 X.X\u2082).moduleCatRightHomologyData.p) y)",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/cfbd99be354a1a0bff822e089a6d883abe9ddfcc/Mathlib/RepresentationTheory/Homological/GroupHomology/LongExactSequence.lean#L380"
+    },
+    "metadata": {
+      "blame_email_hash": "14e6523700b1",
+      "blame_date": "2025-05-08T13:19:02+01:00",
+      "inclusion_date": "2025-05-08T23:09:52.249304+00:00"
+    },
+    "id": "50eba66c326e6b6d23fedca894c063fbe34066258e47c84efe6e1e84b02babdf"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "AK_work",
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
+      "lean_version": "v4.19.0"
+    },
+    "location": {
+      "path": "PrimeNumberTheoremAnd/AlphaProofTest2.lean",
+      "start_line": 16,
+      "start_column": 2,
+      "end_line": 16,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "n : \u2115\n\u22a2 ArithmeticFunction.vonMangoldt n \u2264 Real.log \u2191n",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/AlphaProofTest2.lean#L16"
+    },
+    "metadata": {
+      "blame_email_hash": "4bcdc021face",
+      "blame_date": "2025-05-02T11:17:08-04:00",
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
+    },
+    "id": "b3d9d77cf48cd7414caf837e8ba9c09ac5302c349b6fd46d5c0ca807ac4dc397"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "AK_work",
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
+      "lean_version": "v4.19.0"
+    },
+    "location": {
+      "path": "PrimeNumberTheoremAnd/AlphaProofTest2.lean",
+      "start_line": 42,
+      "start_column": 4,
+      "end_line": 42,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "F : \u211d \u2192 \u211d\nc\u2081 c\u2082 : \u211d\nc\u2081pos : 0 < c\u2081\nc\u2082pos : 0 < c\u2082\nc\u2082_lt_one : c\u2082 < 1\nFbddAbove : \u2200 (x : \u211d), F x \u2264 1\nFnonneg : \u2200 (x : \u211d), F x \u2265 0\nFzeroAfter : \u2200 X > 1, \u2200 (n : \u2115), \u2191n \u2265 (1 + c\u2081) * X \u2192 F (\u2191n / X) = 0\nFone : \u2200 X > 1, \u2200 (n : \u2115), 0 < n \u2192 \u2191n \u2264 (1 - c\u2082) * X \u2192 F (\u2191n / X) = 1\nX Y : \u211d\n\u22a2 \u2211' (n : \u2115), ArithmeticFunction.vonMangoldt n * F (\u2191n / X) =\n    \u2211 n \u2208 (Icc 0 \u230aY\u230b\u208a).toFinset, ArithmeticFunction.vonMangoldt n * F (\u2191n / X) +\n      \u2211' (n : \u2115),\n        let n' := n + \u230aY\u230b\u208a + 1;\n        ArithmeticFunction.vonMangoldt n' * F (\u2191n' / X)",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/AlphaProofTest2.lean#L42"
+    },
+    "metadata": {
+      "blame_email_hash": "4bcdc021face",
+      "blame_date": "2025-05-02T11:17:08-04:00",
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
+    },
+    "id": "5d5b1f09ced4647c7b303eec352d8f26dae818f63c27796bcf5fd1a0fed7f58f"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "AK_work",
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
+      "lean_version": "v4.19.0"
+    },
+    "location": {
+      "path": "PrimeNumberTheoremAnd/AlphaProofTest2.lean",
+      "start_line": 44,
+      "start_column": 2,
+      "end_line": 44,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "F : \u211d \u2192 \u211d\nc\u2081 c\u2082 : \u211d\nc\u2081pos : 0 < c\u2081\nc\u2082pos : 0 < c\u2082\nc\u2082_lt_one : c\u2082 < 1\nFbddAbove : \u2200 (x : \u211d), F x \u2264 1\nFnonneg : \u2200 (x : \u211d), F x \u2265 0\nFzeroAfter : \u2200 X > 1, \u2200 (n : \u2115), \u2191n \u2265 (1 + c\u2081) * X \u2192 F (\u2191n / X) = 0\nFone : \u2200 X > 1, \u2200 (n : \u2115), 0 < n \u2192 \u2191n \u2264 (1 - c\u2082) * X \u2192 F (\u2191n / X) = 1\nthis :\n  \u2200 (X Y : \u211d),\n    \u2211' (n : \u2115), ArithmeticFunction.vonMangoldt n * F (\u2191n / X) =\n      \u2211 n \u2208 (Icc 0 \u230aY\u230b\u208a).toFinset, ArithmeticFunction.vonMangoldt n * F (\u2191n / X) +\n        \u2211' (n : \u2115),\n          let n' := n + \u230aY\u230b\u208a + 1;\n          ArithmeticFunction.vonMangoldt n' * F (\u2191n' / X)\n\u22a2 \u2200\u1da0 (X : \u211d) in Filter.atTop,\n    \u2016\u2211' (n : \u2115), ArithmeticFunction.vonMangoldt n * F (\u2191n / X) -\n          (Finset.Icc 0 \u230aX\u230b\u208a).sum \u21d1ArithmeticFunction.vonMangoldt\u2016 \u2264\n      (c\u2081 + c\u2082) * X * Real.log ((1 + c\u2082) * X)",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/AlphaProofTest2.lean#L44"
+    },
+    "metadata": {
+      "blame_email_hash": "4bcdc021face",
+      "blame_date": "2025-05-02T11:17:08-04:00",
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
+    },
+    "id": "babe57b51df1df369d475243e8499065b2be75fe6e690500200312f388d1599c"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "AK_work",
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
+      "lean_version": "v4.19.0"
+    },
+    "location": {
+      "path": "PrimeNumberTheoremAnd/AlphaProofTest3.lean",
+      "start_line": 158,
+      "start_column": 4,
+      "end_line": 158,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "Smooth1 : (\u211d \u2192 \u211d) \u2192 \u211d \u2192 \u211d \u2192 \u211d\nSmoothingF : \u211d \u2192 \u211d\nc\u2081 : \u211d\nc\u2081_pos : 0 < c\u2081\nc\u2081_lt : c\u2081 < 1\nhc\u2081 : \u2200 (\u03b5 x : \u211d), 0 < \u03b5 \u2192 0 < x \u2192 x \u2264 1 - c\u2081 * \u03b5 \u2192 Smooth1 SmoothingF \u03b5 x = 1\nc\u2082 : \u211d\nc\u2082_pos : 0 < c\u2082\nc\u2082_lt : c\u2082 < 1\nhc\u2082 : \u2200 (\u03b5 x : \u211d), \u03b5 \u2208 Ioo 0 1 \u2192 1 + c\u2082 * \u03b5 \u2264 x \u2192 Smooth1 SmoothingF \u03b5 x = 0\nC_gt' : 3 < c\u2081 + c\u2082 + 3\nC : \u211d\nC_eq : C = 2 * (c\u2081 + c\u2082 + 3)\nC_gt : 3 < C\nX : \u211d\nX_ge_C : C < X\n\u03b5 : \u211d\n\u03b5pos : 0 < \u03b5\n\u03b5_lt_one : \u03b5 < 1\nthis_1 : 0 < X\nX_ne_zero : X \u2260 0\nn_on_X_pos : \u2200 {n : \u2115}, 0 < n \u2192 0 < \u2191n / X\nsmooth1BddAbove : \u2200 (n : \u2115), 0 < n \u2192 Smooth1 SmoothingF \u03b5 (\u2191n / X) \u2264 1\nsmooth1BddBelow : \u2200 (n : \u2115), 0 < n \u2192 Smooth1 SmoothingF \u03b5 (\u2191n / X) \u2265 0\nsmoothIs1 : \u2200 (n : \u2115), 0 < n \u2192 \u2191n \u2264 X * (1 - c\u2081 * \u03b5) \u2192 Smooth1 SmoothingF \u03b5 (\u2191n / X) = 1\nsmoothIs0 : \u2200 (n : \u2115), 1 + c\u2082 * \u03b5 \u2264 \u2191n / X \u2192 Smooth1 SmoothingF \u03b5 (\u2191n / X) = 0\nF : \u211d \u2192 \u211d := Smooth1 SmoothingF \u03b5\nn\u2080 : \u2115 := \u230aX * (1 - c\u2081 * \u03b5)\u230b\u208a\nn\u2080_le : \u2191n\u2080 \u2264 X * (1 - c\u2081 * \u03b5)\nn\u2080_gt : X * (1 - c\u2081 * \u03b5) - 1 \u2264 \u2191n\u2080\nsum\u039b : Summable fun n => vonMangoldt n * F (\u2191n / X)\nsum\u039bn\u2080 : \u2200 (n\u2080 : \u2115), Summable fun n => vonMangoldt (n + n\u2080) * F ((\u2191n + \u2191n\u2080) / X)\nn\u2081 : \u2115 := \u2308X * (1 + c\u2082 * \u03b5)\u2309\u208a\nn\u2081_ge : X * (1 + c\u2082 * \u03b5) \u2264 \u2191n\u2081\nn\u2081_le : \u2191n\u2081 < X * (1 + c\u2082 * \u03b5) + 1\nn\u2081_ge_n\u2080 : n\u2080 \u2264 n\u2081\nn\u2081_sub_n\u2080 : \u2191n\u2081 - \u2191n\u2080 < X * \u03b5 * (c\u2082 + c\u2081) + 2\n\u22a2 \u2200 n \u2208 Finset.range (n\u2081 - n\u2080), \u2016vonMangoldt (n + n\u2080)\u2016 \u2264 Real.log (X * (1 + c\u2082 * \u03b5))",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/AlphaProofTest3.lean#L158"
+    },
+    "metadata": {
+      "blame_email_hash": "4bcdc021face",
+      "blame_date": "2025-05-07T10:17:07-04:00",
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
+    },
+    "id": "79beff6ca323c55af02315580be293ddd9a239fd684a33edb8752c19ccfec730"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "AK_work",
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
+      "lean_version": "v4.19.0"
+    },
+    "location": {
+      "path": "PrimeNumberTheoremAnd/AlphaProofTest3.lean",
+      "start_line": 164,
+      "start_column": 4,
+      "end_line": 164,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "Smooth1 : (\u211d \u2192 \u211d) \u2192 \u211d \u2192 \u211d \u2192 \u211d\nSmoothingF : \u211d \u2192 \u211d\nc\u2081 : \u211d\nc\u2081_pos : 0 < c\u2081\nc\u2081_lt : c\u2081 < 1\nhc\u2081 : \u2200 (\u03b5 x : \u211d), 0 < \u03b5 \u2192 0 < x \u2192 x \u2264 1 - c\u2081 * \u03b5 \u2192 Smooth1 SmoothingF \u03b5 x = 1\nc\u2082 : \u211d\nc\u2082_pos : 0 < c\u2082\nc\u2082_lt : c\u2082 < 1\nhc\u2082 : \u2200 (\u03b5 x : \u211d), \u03b5 \u2208 Ioo 0 1 \u2192 1 + c\u2082 * \u03b5 \u2264 x \u2192 Smooth1 SmoothingF \u03b5 x = 0\nC_gt' : 3 < c\u2081 + c\u2082 + 3\nC : \u211d\nC_eq : C = 2 * (c\u2081 + c\u2082 + 3)\nC_gt : 3 < C\nX : \u211d\nX_ge_C : C < X\n\u03b5 : \u211d\n\u03b5pos : 0 < \u03b5\n\u03b5_lt_one : \u03b5 < 1\nthis_1 : 0 < X\nX_ne_zero : X \u2260 0\nn_on_X_pos : \u2200 {n : \u2115}, 0 < n \u2192 0 < \u2191n / X\nsmooth1BddAbove : \u2200 (n : \u2115), 0 < n \u2192 Smooth1 SmoothingF \u03b5 (\u2191n / X) \u2264 1\nsmooth1BddBelow : \u2200 (n : \u2115), 0 < n \u2192 Smooth1 SmoothingF \u03b5 (\u2191n / X) \u2265 0\nsmoothIs1 : \u2200 (n : \u2115), 0 < n \u2192 \u2191n \u2264 X * (1 - c\u2081 * \u03b5) \u2192 Smooth1 SmoothingF \u03b5 (\u2191n / X) = 1\nsmoothIs0 : \u2200 (n : \u2115), 1 + c\u2082 * \u03b5 \u2264 \u2191n / X \u2192 Smooth1 SmoothingF \u03b5 (\u2191n / X) = 0\nF : \u211d \u2192 \u211d := Smooth1 SmoothingF \u03b5\nn\u2080 : \u2115 := \u230aX * (1 - c\u2081 * \u03b5)\u230b\u208a\nn\u2080_le : \u2191n\u2080 \u2264 X * (1 - c\u2081 * \u03b5)\nn\u2080_gt : X * (1 - c\u2081 * \u03b5) - 1 \u2264 \u2191n\u2080\nsum\u039b : Summable fun n => vonMangoldt n * F (\u2191n / X)\nsum\u039bn\u2080 : \u2200 (n\u2080 : \u2115), Summable fun n => vonMangoldt (n + n\u2080) * F ((\u2191n + \u2191n\u2080) / X)\nn\u2081 : \u2115 := \u2308X * (1 + c\u2082 * \u03b5)\u2309\u208a\nn\u2081_ge : X * (1 + c\u2082 * \u03b5) \u2264 \u2191n\u2081\nn\u2081_le : \u2191n\u2081 < X * (1 + c\u2082 * \u03b5) + 1\nn\u2081_ge_n\u2080 : n\u2080 \u2264 n\u2081\nn\u2081_sub_n\u2080 : \u2191n\u2081 - \u2191n\u2080 < X * \u03b5 * (c\u2082 + c\u2081) + 2\nvonBnd1 : \u2200 n \u2208 Finset.range (n\u2081 - n\u2080), \u2016vonMangoldt (n + n\u2080)\u2016 \u2264 Real.log (X * (1 + c\u2082 * \u03b5))\n\u22a2 \u2211 n \u2208 Finset.range (n\u2081 - n\u2080), \u2016vonMangoldt (n + n\u2080)\u2016 * \u2016F ((\u2191n + \u2191n\u2080) / X)\u2016 \u2264\n    (\u2191n\u2081 - \u2191n\u2080) * Real.log (X * (1 + c\u2082 * \u03b5))",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/AlphaProofTest3.lean#L164"
+    },
+    "metadata": {
+      "blame_email_hash": "4bcdc021face",
+      "blame_date": "2025-05-02T22:39:39-04:00",
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
+    },
+    "id": "0e1f6324cbac0273266aea15fa6121540113a8251acf13501a64e9ce60dbece0"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "AK_work",
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
+      "lean_version": "v4.19.0"
+    },
+    "location": {
+      "path": "PrimeNumberTheoremAnd/AlphaProofTest3.lean",
+      "start_line": 170,
+      "start_column": 4,
+      "end_line": 170,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "Smooth1 : (\u211d \u2192 \u211d) \u2192 \u211d \u2192 \u211d \u2192 \u211d\nSmoothingF : \u211d \u2192 \u211d\nc\u2081 : \u211d\nc\u2081_pos : 0 < c\u2081\nc\u2081_lt : c\u2081 < 1\nhc\u2081 : \u2200 (\u03b5 x : \u211d), 0 < \u03b5 \u2192 0 < x \u2192 x \u2264 1 - c\u2081 * \u03b5 \u2192 Smooth1 SmoothingF \u03b5 x = 1\nc\u2082 : \u211d\nc\u2082_pos : 0 < c\u2082\nc\u2082_lt : c\u2082 < 1\nhc\u2082 : \u2200 (\u03b5 x : \u211d), \u03b5 \u2208 Ioo 0 1 \u2192 1 + c\u2082 * \u03b5 \u2264 x \u2192 Smooth1 SmoothingF \u03b5 x = 0\nC_gt' : 3 < c\u2081 + c\u2082 + 3\nC : \u211d\nC_eq : C = 2 * (c\u2081 + c\u2082 + 3)\nC_gt : 3 < C\nX : \u211d\nX_ge_C : C < X\n\u03b5 : \u211d\n\u03b5pos : 0 < \u03b5\n\u03b5_lt_one : \u03b5 < 1\nthis_1 : 0 < X\nX_ne_zero : X \u2260 0\nn_on_X_pos : \u2200 {n : \u2115}, 0 < n \u2192 0 < \u2191n / X\nsmooth1BddAbove : \u2200 (n : \u2115), 0 < n \u2192 Smooth1 SmoothingF \u03b5 (\u2191n / X) \u2264 1\nsmooth1BddBelow : \u2200 (n : \u2115), 0 < n \u2192 Smooth1 SmoothingF \u03b5 (\u2191n / X) \u2265 0\nsmoothIs1 : \u2200 (n : \u2115), 0 < n \u2192 \u2191n \u2264 X * (1 - c\u2081 * \u03b5) \u2192 Smooth1 SmoothingF \u03b5 (\u2191n / X) = 1\nsmoothIs0 : \u2200 (n : \u2115), 1 + c\u2082 * \u03b5 \u2264 \u2191n / X \u2192 Smooth1 SmoothingF \u03b5 (\u2191n / X) = 0\nF : \u211d \u2192 \u211d := Smooth1 SmoothingF \u03b5\nn\u2080 : \u2115 := \u230aX * (1 - c\u2081 * \u03b5)\u230b\u208a\nn\u2080_le : \u2191n\u2080 \u2264 X * (1 - c\u2081 * \u03b5)\nn\u2080_gt : X * (1 - c\u2081 * \u03b5) - 1 \u2264 \u2191n\u2080\nsum\u039b : Summable fun n => vonMangoldt n * F (\u2191n / X)\nsum\u039bn\u2080 : \u2200 (n\u2080 : \u2115), Summable fun n => vonMangoldt (n + n\u2080) * F ((\u2191n + \u2191n\u2080) / X)\nn\u2081 : \u2115 := \u2308X * (1 + c\u2082 * \u03b5)\u2309\u208a\nn\u2081_ge : X * (1 + c\u2082 * \u03b5) \u2264 \u2191n\u2081\nn\u2081_le : \u2191n\u2081 < X * (1 + c\u2082 * \u03b5) + 1\nn\u2081_ge_n\u2080 : n\u2080 \u2264 n\u2081\nn\u2081_sub_n\u2080 : \u2191n\u2081 - \u2191n\u2080 < X * \u03b5 * (c\u2082 + c\u2081) + 2\nvonBnd1 : \u2200 n \u2208 Finset.range (n\u2081 - n\u2080), \u2016vonMangoldt (n + n\u2080)\u2016 \u2264 Real.log (X * (1 + c\u2082 * \u03b5))\nbnd1 :\n  \u2211 n \u2208 Finset.range (n\u2081 - n\u2080), \u2016vonMangoldt (n + n\u2080)\u2016 * \u2016F ((\u2191n + \u2191n\u2080) / X)\u2016 \u2264\n    (\u2191n\u2081 - \u2191n\u2080) * Real.log (X * (1 + c\u2082 * \u03b5))\n\u22a2 \u2211 x \u2208 Finset.range (\u230aX + 1\u230b\u208a - n\u2080), \u2016vonMangoldt (x + n\u2080)\u2016 \u2264 (\u2191\u230aX + 1\u230b\u208a - \u2191n\u2080) * Real.log (X + 1)",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/AlphaProofTest3.lean#L170"
+    },
+    "metadata": {
+      "blame_email_hash": "4bcdc021face",
+      "blame_date": "2025-05-02T22:39:39-04:00",
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
+    },
+    "id": "40af1cd9ca12f8987b6781e32377ec9633602eb8a1b0ecca2d4925c453e7324f"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "AK_work",
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
+      "lean_version": "v4.19.0"
+    },
+    "location": {
+      "path": "PrimeNumberTheoremAnd/AlphaProofTest3.lean",
+      "start_line": 180,
+      "start_column": 2,
+      "end_line": 180,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "Smooth1 : (\u211d \u2192 \u211d) \u2192 \u211d \u2192 \u211d \u2192 \u211d\nSmoothingF : \u211d \u2192 \u211d\nc\u2081 : \u211d\nc\u2081_pos : 0 < c\u2081\nc\u2081_lt : c\u2081 < 1\nhc\u2081 : \u2200 (\u03b5 x : \u211d), 0 < \u03b5 \u2192 0 < x \u2192 x \u2264 1 - c\u2081 * \u03b5 \u2192 Smooth1 SmoothingF \u03b5 x = 1\nc\u2082 : \u211d\nc\u2082_pos : 0 < c\u2082\nc\u2082_lt : c\u2082 < 1\nhc\u2082 : \u2200 (\u03b5 x : \u211d), \u03b5 \u2208 Ioo 0 1 \u2192 1 + c\u2082 * \u03b5 \u2264 x \u2192 Smooth1 SmoothingF \u03b5 x = 0\nC_gt' : 3 < c\u2081 + c\u2082 + 3\nC : \u211d\nC_eq : C = 2 * (c\u2081 + c\u2082 + 3)\nC_gt : 3 < C\nX : \u211d\nX_ge_C : C < X\n\u03b5 : \u211d\n\u03b5pos : 0 < \u03b5\n\u03b5_lt_one : \u03b5 < 1\nthis_1 : 0 < X\nX_ne_zero : X \u2260 0\nn_on_X_pos : \u2200 {n : \u2115}, 0 < n \u2192 0 < \u2191n / X\nsmooth1BddAbove : \u2200 (n : \u2115), 0 < n \u2192 Smooth1 SmoothingF \u03b5 (\u2191n / X) \u2264 1\nsmooth1BddBelow : \u2200 (n : \u2115), 0 < n \u2192 Smooth1 SmoothingF \u03b5 (\u2191n / X) \u2265 0\nsmoothIs1 : \u2200 (n : \u2115), 0 < n \u2192 \u2191n \u2264 X * (1 - c\u2081 * \u03b5) \u2192 Smooth1 SmoothingF \u03b5 (\u2191n / X) = 1\nsmoothIs0 : \u2200 (n : \u2115), 1 + c\u2082 * \u03b5 \u2264 \u2191n / X \u2192 Smooth1 SmoothingF \u03b5 (\u2191n / X) = 0\nF : \u211d \u2192 \u211d := Smooth1 SmoothingF \u03b5\nn\u2080 : \u2115 := \u230aX * (1 - c\u2081 * \u03b5)\u230b\u208a\nn\u2080_le : \u2191n\u2080 \u2264 X * (1 - c\u2081 * \u03b5)\nn\u2080_gt : X * (1 - c\u2081 * \u03b5) - 1 \u2264 \u2191n\u2080\nsum\u039b : Summable fun n => vonMangoldt n * F (\u2191n / X)\nsum\u039bn\u2080 : \u2200 (n\u2080 : \u2115), Summable fun n => vonMangoldt (n + n\u2080) * F ((\u2191n + \u2191n\u2080) / X)\nn\u2081 : \u2115 := \u2308X * (1 + c\u2082 * \u03b5)\u2309\u208a\nn\u2081_ge : X * (1 + c\u2082 * \u03b5) \u2264 \u2191n\u2081\nn\u2081_le : \u2191n\u2081 < X * (1 + c\u2082 * \u03b5) + 1\nn\u2081_ge_n\u2080 : n\u2080 \u2264 n\u2081\nn\u2081_sub_n\u2080 : \u2191n\u2081 - \u2191n\u2080 < X * \u03b5 * (c\u2082 + c\u2081) + 2\nvonBnd1 : \u2200 n \u2208 Finset.range (n\u2081 - n\u2080), \u2016vonMangoldt (n + n\u2080)\u2016 \u2264 Real.log (X * (1 + c\u2082 * \u03b5))\n\u22a2 (\u2191n\u2081 - \u2191n\u2080) * Real.log (X * (1 + c\u2082 * \u03b5)) + (\u2191\u230aX + 1\u230b\u208a - \u2191n\u2080) * Real.log (X + 1) \u2264 C * \u03b5 * X * Real.log X",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/AlphaProofTest3.lean#L180"
+    },
+    "metadata": {
+      "blame_email_hash": "4bcdc021face",
+      "blame_date": "2025-05-02T22:39:39-04:00",
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
+    },
+    "id": "0452abb0132ca8f62d6504afcea9e0e6788306fb6ec374b52398fcff3d0888f1"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "AK_work",
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
+      "lean_version": "v4.19.0"
+    },
+    "location": {
+      "path": "PrimeNumberTheoremAnd/ZetaBounds.lean",
+      "start_line": 2604,
+      "start_column": 2,
+      "end_line": 2604,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "case h\nA : \u211d\nhA : A \u2208 Ioc 0 (1 / 2)\nh\u271d :\n  \u2203 C,\n    \u2203 (_ : 0 < C),\n      \u2200 (\u03c3 t : \u211d),\n        3 < |t| \u2192\n          \u03c3 \u2208 Ico (1 - A / Real.log |t| ^ 9) 1 \u2192\n            \u2016deriv riemannZeta (\u2191\u03c3 + \u2191t * I) / riemannZeta (\u2191\u03c3 + \u2191t * I)\u2016 \u2264 C * Real.log |t| ^ 9\nT : \u211d\nT_gt : 3 < T\n\u22a2 HolomorphicOn (fun s => deriv riemannZeta s / riemannZeta s) (Ioc (1 - A / Real.log T ^ 9) 2 \u00d7\u2102 Icc (-T) T \\ {1})",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/ZetaBounds.lean#L2604"
+    },
+    "metadata": {
+      "blame_email_hash": "4bcdc021face",
+      "blame_date": "2025-03-07T16:45:37-05:00",
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
+    },
+    "id": "9fade66b83d538b9c830e61380551c87c49b0caaa2d33ac158e0333d9556d27a"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "AK_work",
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
+      "lean_version": "v4.19.0"
+    },
+    "location": {
+      "path": "PrimeNumberTheoremAnd/MediumPNT.lean",
+      "start_line": 369,
+      "start_column": 2,
+      "end_line": 369,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "Smooth1 : (\u211d \u2192 \u211d) \u2192 \u211d \u2192 \u211d \u2192 \u211d\nSmoothingF : \u211d \u2192 \u211d\nc\u2081 : \u211d\nc\u2081_pos : 0 < c\u2081\nhc\u2081 : \u2200 (\u03b5 x : \u211d), 0 < \u03b5 \u2192 0 < x \u2192 x \u2264 1 - c\u2081 * \u03b5 \u2192 Smooth1 SmoothingF \u03b5 x = 1\nc\u2082 : \u211d\nc\u2082_pos : 0 < c\u2082\nhc\u2082 : \u2200 (\u03b5 x : \u211d), \u03b5 \u2208 Ioo 0 1 \u2192 1 + c\u2082 * \u03b5 \u2264 x \u2192 Smooth1 SmoothingF \u03b5 x = 0\nC_gt' : 3 < c\u2081 + c\u2082 + 3\nC : \u211d\nC_eq : C = c\u2081 + c\u2082 + 3\nC_gt : 3 < C\nX : \u211d\nX_ge_C : C < X\n\u03b5 : \u211d\n\u03b5pos : 0 < \u03b5\n\u03b5_lt_one : \u03b5 < 1\nthis_1 : 0 < X\nthis : X \u2260 0\nn_on_X_pos : \u2200 {n : \u2115}, 0 < n \u2192 0 < \u2191n / X\nsmooth1BddAbove : \u2200 (n : \u2115), 0 < n \u2192 Smooth1 SmoothingF \u03b5 (\u2191n / X) \u2264 1\nsmooth1BddBelow : \u2200 (n : \u2115), 0 < n \u2192 Smooth1 SmoothingF \u03b5 (\u2191n / X) \u2265 0\nsmoothIs1 : \u2200 (n : \u2115), 0 < n \u2192 \u2191n \u2264 X * (1 - c\u2081 * \u03b5) \u2192 Smooth1 SmoothingF \u03b5 (\u2191n / X) = 1\nsmoothIs0 : \u2200 (n : \u2115), 1 + c\u2082 * \u03b5 \u2264 \u2191n / X \u2192 Smooth1 SmoothingF \u03b5 (\u2191n / X) = 0\n\u22a2 \u2016\u2191(\u2211' (n : \u2115), ArithmeticFunction.vonMangoldt n * Smooth1 SmoothingF \u03b5 (\u2191n / X)) -\n        \u2191((Finset.range \u230aX + 1\u230b\u208a).sum \u21d1ArithmeticFunction.vonMangoldt)\u2016 \u2264\n    C * \u03b5 * X * Real.log X",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/MediumPNT.lean#L369"
+    },
+    "metadata": {
+      "blame_email_hash": "4bcdc021face",
+      "blame_date": "2025-05-02T22:39:39-04:00",
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
+    },
+    "id": "34440fa4e95a1aeeeab945b37b5f6e04e6e75986f0878b68b0677030c2fa397f"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+      "branch": "AK_work",
+      "commit": "8459826e4ee699348c61f23a45aa0b0ecd8829af",
+      "lean_version": "v4.19.0"
+    },
+    "location": {
+      "path": "PrimeNumberTheoremAnd/MediumPNT.lean",
+      "start_line": 509,
+      "start_column": 2,
+      "end_line": 509,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "SmoothingF : \u211d \u2192 \u211d\n\u03b5 : \u211d\n\u03b5_pos : 0 < \u03b5\nX T : \u211d\nT_pos : 0 < T\n\u03c3\u2080 : \u211d\n\u03c3\u2080_pos : 0 < \u03c3\u2080\nholoOn : HolomorphicOn (SmoothedChebyshevIntegrand SmoothingF \u03b5 X) (Icc \u03c3\u2080 2 \u00d7\u2102 univ \\ {1})\nsuppSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\n\u22a2 (1 / (2 * \u2191Real.pi * I)) \u2022\n      ((I \u2022 \u222b (t : \u211d) in Iic (-T), SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u2191(1 + (Real.log X)\u207b\u00b9) + \u2191t * I)) +\n          VIntegral (SmoothedChebyshevIntegrand SmoothingF \u03b5 X) (1 + (Real.log X)\u207b\u00b9) (-T) T +\n        I \u2022 \u222b (t : \u211d) in Ici T, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u2191(1 + (Real.log X)\u207b\u00b9) + \u2191t * I)) =\n    1 / (2 * \u2191Real.pi * I) *\n        (((((I * \u222b (t : \u211d) in Iic (-T), SmoothedChebyshevIntegrand SmoothingF \u03b5 X (1 + \u2191(Real.log X)\u207b\u00b9 + \u2191t * I)) -\n                \u222b (s : \u211d) in Icc \u03c3\u2080 (1 + (Real.log X)\u207b\u00b9), SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u2191s - \u2191T * I)) +\n              I * \u222b (t : \u211d) in Icc (-T) T, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u2191\u03c3\u2080 + \u2191t * I)) +\n            \u222b (s : \u211d) in Icc \u03c3\u2080 (1 + (Real.log X)\u207b\u00b9), SmoothedChebyshevIntegrand SmoothingF \u03b5 X (\u2191s + \u2191T * I)) +\n          I * \u222b (t : \u211d) in Ici T, SmoothedChebyshevIntegrand SmoothingF \u03b5 X (1 + \u2191(Real.log X)\u207b\u00b9 + \u2191t * I)) +\n      MellinTransform (fun x => \u2191(Smooth1 SmoothingF \u03b5 x)) 1 * \u2191X",
+      "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/8459826e4ee699348c61f23a45aa0b0ecd8829af/PrimeNumberTheoremAnd/MediumPNT.lean#L509"
+    },
+    "metadata": {
+      "blame_email_hash": "4bcdc021face",
+      "blame_date": "2025-02-10T12:59:29-05:00",
+      "inclusion_date": "2025-05-08T23:17:34.203708+00:00"
+    },
+    "id": "62fa038f8a1937f8a05b50e469a353b7fc617abee2d8f42c7f619b76b695a4d5"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/FormalizedFormalLogic/Foundation",
+      "branch": "bounded-depth",
+      "commit": "2efcba7c9d835e9969977f8470ca9640e1f7cbd7",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Foundation/Propositional/Kripke/AxiomBoundDepth.lean",
+      "start_line": 186,
+      "start_column": 6,
+      "end_line": 186,
+      "end_column": 11
+    },
+    "debug_info": {
+      "goal": "case succ.inr\nF : Frame\nn : \u2115\nih :\n  \u2200 {l : List F.World} (hl\u2081 : l.length = n + 2),\n    List.Chain' (fun x1 x2 => x1 \u227a x2) l \u2192\n      Satisfies { toFrame := F, Val := cascadeVal l (n + 1) \u22ef } (l.head \u22ef) (Axioms.BoundDepth' n) \u2192 \u00acl.Nodup\nl : List F.World\nhl\u2081 : l.length = n + 1 + 2\nhl\u2082 : List.Chain' (fun x1 x2 => x1 \u227a x2) l\nh : l.head \u22ef \u22a7 atom (n + 1) \u279d Axioms.BoundDepth' n\n\u22a2 \u00acl.tail.Nodup",
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2efcba7c9d835e9969977f8470ca9640e1f7cbd7/Foundation/Propositional/Kripke/AxiomBoundDepth.lean#L186"
+    },
+    "metadata": {
+      "blame_email_hash": "165d0178d95d",
+      "blame_date": "2025-05-08T18:22:14+09:00",
+      "inclusion_date": "2025-05-08T23:32:25.978477+00:00"
+    },
+    "id": "93ee070cc7ad655cf36227ba769be9d6f633c6786af00b0c283357f921d35a7f"
   }
 ]
