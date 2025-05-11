@@ -4277,9 +4277,9 @@
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "update-v4.19.0-todo",
-      "commit": "18f052e7e0c36d237929ba35c9f4309f5f26709a",
-      "lean_version": "v4.19.0"
+      "branch": "reduce-lint-warning-modal",
+      "commit": "7aa8790ce4061f6a9c1a98ec02096456f7fd3c24",
+      "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Foundation/Modal/Hilbert/NNFormula.lean",
@@ -4290,21 +4290,21 @@
     },
     "debug_info": {
       "goal": "\u03c6 : NNFormula \u2115\n\u22a2 \u2203 \u03c8, \u03c8.isModalCNF \u2227 Hilbert.K \u22a2! \u03c6.toFormula \u2b64 \u03c8.toFormula",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/18f052e7e0c36d237929ba35c9f4309f5f26709a/Foundation/Modal/Hilbert/NNFormula.lean#L232"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/7aa8790ce4061f6a9c1a98ec02096456f7fd3c24/Foundation/Modal/Hilbert/NNFormula.lean#L232"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-09T23:36:15.688372+00:00"
+      "inclusion_date": "2025-05-10T23:51:33.747540+00:00"
     },
-    "id": "c0d44c47c9ca8cbad9beb0d12f1c14760eeb0ece8a07aba89359b4c611836016"
+    "id": "7e23ddc197a26ff5879403e1ce0e788c4b40e632af66fc11c0e8d91116495b63"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "update-v4.19.0-todo",
-      "commit": "18f052e7e0c36d237929ba35c9f4309f5f26709a",
-      "lean_version": "v4.19.0"
+      "branch": "reduce-lint-warning-modal",
+      "commit": "7aa8790ce4061f6a9c1a98ec02096456f7fd3c24",
+      "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Foundation/Modal/Hilbert/NNFormula.lean",
@@ -4315,21 +4315,21 @@
     },
     "debug_info": {
       "goal": "\u03c6 : NNFormula \u2115\n\u22a2 \u2203 \u03c8, \u03c8.isModalDNF \u2227 Hilbert.K \u22a2! \u03c6.toFormula \u2b64 \u03c8.toFormula",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/18f052e7e0c36d237929ba35c9f4309f5f26709a/Foundation/Modal/Hilbert/NNFormula.lean#L236"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/7aa8790ce4061f6a9c1a98ec02096456f7fd3c24/Foundation/Modal/Hilbert/NNFormula.lean#L236"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-09T23:36:15.688372+00:00"
+      "inclusion_date": "2025-05-10T23:51:33.747540+00:00"
     },
-    "id": "a4a69748307099211e377f238bc2d9ed4cc860c513bf8c90301b99308acc9479"
+    "id": "9899a7b3a8d6fb6a38ed81284bcc87e16f5ed836903f28e32e2564c41f5818f5"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "update-v4.19.0-todo",
-      "commit": "18f052e7e0c36d237929ba35c9f4309f5f26709a",
-      "lean_version": "v4.19.0"
+      "branch": "reduce-lint-warning-modal",
+      "commit": "7aa8790ce4061f6a9c1a98ec02096456f7fd3c24",
+      "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Foundation/Modal/Maximal/Makinson.lean",
@@ -4340,21 +4340,21 @@
     },
     "debug_info": {
       "goal": "L : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\n\u22a2 \u03b3 \u2208 L",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/18f052e7e0c36d237929ba35c9f4309f5f26709a/Foundation/Modal/Maximal/Makinson.lean#L27"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/7aa8790ce4061f6a9c1a98ec02096456f7fd3c24/Foundation/Modal/Maximal/Makinson.lean#L27"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-09T23:36:15.688372+00:00"
+      "inclusion_date": "2025-05-10T23:51:33.747540+00:00"
     },
-    "id": "6ce03e97ee11ffe4835cd5f921f46646fa98eace641e44b66140527ce7d10af3"
+    "id": "ac29e3847c057292fa768e30f5cb6be8c9a457a03ec1711272d4e21cbeaa7cd9"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "update-v4.19.0-todo",
-      "commit": "18f052e7e0c36d237929ba35c9f4309f5f26709a",
-      "lean_version": "v4.19.0"
+      "branch": "reduce-lint-warning-modal",
+      "commit": "7aa8790ce4061f6a9c1a98ec02096456f7fd3c24",
+      "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Foundation/Modal/Maximal/Makinson.lean",
@@ -4365,21 +4365,21 @@
     },
     "debug_info": {
       "goal": "L : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\n\u22a2 \u03b3 \u2209 Logic.Ver",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/18f052e7e0c36d237929ba35c9f4309f5f26709a/Foundation/Modal/Maximal/Makinson.lean#L28"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/7aa8790ce4061f6a9c1a98ec02096456f7fd3c24/Foundation/Modal/Maximal/Makinson.lean#L28"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-09T23:36:15.688372+00:00"
+      "inclusion_date": "2025-05-10T23:51:33.747540+00:00"
     },
-    "id": "fd1494fa60b0d55e5d19456b7fa095e17ae0f5d13f18031a31d242e9cbc62276"
+    "id": "13ac7a1f39b87695afb548a27391bafd71332f5cac686ca1d1b8fb63d697c90b"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "update-v4.19.0-todo",
-      "commit": "18f052e7e0c36d237929ba35c9f4309f5f26709a",
-      "lean_version": "v4.19.0"
+      "branch": "reduce-lint-warning-modal",
+      "commit": "7aa8790ce4061f6a9c1a98ec02096456f7fd3c24",
+      "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Foundation/Modal/Maximal/Makinson.lean",
@@ -4390,21 +4390,21 @@
     },
     "debug_info": {
       "goal": "L : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\nh\u03b3V : \u03b3 \u2209 Logic.Ver\n\u22a2 \u2203 \u03b4 \u2208 \u0393, (\u2191\u03b4).toFormula \u2208 L \u2227 (\u2191\u03b4).toFormula \u2209 Logic.Ver",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/18f052e7e0c36d237929ba35c9f4309f5f26709a/Foundation/Modal/Maximal/Makinson.lean#L31"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/7aa8790ce4061f6a9c1a98ec02096456f7fd3c24/Foundation/Modal/Maximal/Makinson.lean#L31"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-09T23:36:15.688372+00:00"
+      "inclusion_date": "2025-05-10T23:51:33.747540+00:00"
     },
-    "id": "6619d80ba8da848e77f618dd726f5e0180a0be932fbaa9d6e88fa1617174952d"
+    "id": "6199d867738bd4188114a035c322e28ab6360184a82a9c02659527ec51ebbd7b"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "update-v4.19.0-todo",
-      "commit": "18f052e7e0c36d237929ba35c9f4309f5f26709a",
-      "lean_version": "v4.19.0"
+      "branch": "reduce-lint-warning-modal",
+      "commit": "7aa8790ce4061f6a9c1a98ec02096456f7fd3c24",
+      "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Foundation/Modal/Maximal/Makinson.lean",
@@ -4415,21 +4415,21 @@
     },
     "debug_info": {
       "goal": "case mk.intro\nL : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis\u271d : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\nh\u03b3V : \u03b3 \u2209 Logic.Ver\n\u0394 : List { \u03c8 // \u03c8.isPrebox \u2228 \u03c8.isPredia \u2228 \u03c8.degree = 0 }\nh\u03b4\u0393 : \u27e8\u22c1\u0394.unattach, \u22ef\u27e9 \u2208 \u0393\nh\u03b4L : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2208 L\nh\u03b4V : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2209 Logic.Ver\n\u03be : NNFormula \u2115\nproperty\u271d : (\u25a1\u03be).isPrebox \u2228 (\u25a1\u03be).isPredia \u2228 (\u25a1\u03be).degree = 0\nh\u03c8\u2081 : \u27e8\u25a1\u03be, property\u271d\u27e9 \u2208 \u0394\nh\u03c8\u2082 : (\u2191\u27e8\u25a1\u03be, property\u271d\u27e9).isPrebox\nthis : \u25a1\u03be.toFormula \u2208 Logic.Ver\n\u22a2 False",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/18f052e7e0c36d237929ba35c9f4309f5f26709a/Foundation/Modal/Maximal/Makinson.lean#L36"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/7aa8790ce4061f6a9c1a98ec02096456f7fd3c24/Foundation/Modal/Maximal/Makinson.lean#L36"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-09T23:36:15.688372+00:00"
+      "inclusion_date": "2025-05-10T23:51:33.747540+00:00"
     },
-    "id": "875114dada039033047faaf3c7b7fa4d8317279adc4780518ba0717eb96f8b1f"
+    "id": "eedc52eb04706f3981e7fad1e7a6baaba16979c250214f76df2198bef80d7835"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "update-v4.19.0-todo",
-      "commit": "18f052e7e0c36d237929ba35c9f4309f5f26709a",
-      "lean_version": "v4.19.0"
+      "branch": "reduce-lint-warning-modal",
+      "commit": "7aa8790ce4061f6a9c1a98ec02096456f7fd3c24",
+      "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Foundation/Modal/Maximal/Makinson.lean",
@@ -4440,21 +4440,21 @@
     },
     "debug_info": {
       "goal": "L : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\nh\u03b3V : \u03b3 \u2209 Logic.Ver\n\u0394 : List { \u03c8 // \u03c8.isPrebox \u2228 \u03c8.isPredia \u2228 \u03c8.degree = 0 }\nh\u03b4\u0393 : \u27e8\u22c1\u0394.unattach, \u22ef\u27e9 \u2208 \u0393\nh\u03b4L : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2208 L\nh\u03b4V : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2209 Logic.Ver\nh\u0394\u2081 : \u2200 \u03c8 \u2208 \u0394, \u00ac(\u2191\u03c8).isPrebox\n\u22a2 \u2203 \u0393, \u03c6 \u2b64 \u22c0\u0393 \u2208 L",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/18f052e7e0c36d237929ba35c9f4309f5f26709a/Foundation/Modal/Maximal/Makinson.lean#L38"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/7aa8790ce4061f6a9c1a98ec02096456f7fd3c24/Foundation/Modal/Maximal/Makinson.lean#L38"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-09T23:36:15.688372+00:00"
+      "inclusion_date": "2025-05-10T23:51:33.747540+00:00"
     },
-    "id": "eac933457aa71b263ca6f953a787ff7ce0f8336f4f09a85bcaacbda60c2cae59"
+    "id": "ea36cb262295b178269ffc7ca6b5089afa55af1525ec44fe5f65b570dcbb610b"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "update-v4.19.0-todo",
-      "commit": "18f052e7e0c36d237929ba35c9f4309f5f26709a",
-      "lean_version": "v4.19.0"
+      "branch": "reduce-lint-warning-modal",
+      "commit": "7aa8790ce4061f6a9c1a98ec02096456f7fd3c24",
+      "lean_version": "v4.18.0-rc1"
     },
     "location": {
       "path": "Foundation/Modal/Maximal/Makinson.lean",
@@ -4465,20 +4465,20 @@
     },
     "debug_info": {
       "goal": "case intro.intro.intro.intro.mk.intro.intro.intro\nL : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u00acHilbert.Ver \u22a2! \u03c6\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis\u271d : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\nh\u03b3V : \u03b3 \u2209 Logic.Ver\n\u0394 : List { \u03c8 // \u03c8.isPrebox \u2228 \u03c8.isPredia \u2228 \u03c8.degree = 0 }\nh\u03b4\u0393 : \u27e8\u22c1\u0394.unattach, \u22ef\u27e9 \u2208 \u0393\nh\u03b4L : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2208 L\nh\u03b4V : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2209 Logic.Ver\nh\u0394\u2081 : \u2200 \u03c8 \u2208 \u0394, \u00ac(\u2191\u03c8).isPrebox\nthis : \u2203 \u0393, \u03c6 \u2b64 \u22c0\u0393 \u2208 L\n\u22a2 \u2203 \u03c8, \u25c7\u03c8 \u2208 L",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/18f052e7e0c36d237929ba35c9f4309f5f26709a/Foundation/Modal/Maximal/Makinson.lean#L40"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/7aa8790ce4061f6a9c1a98ec02096456f7fd3c24/Foundation/Modal/Maximal/Makinson.lean#L40"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-09T23:36:15.688372+00:00"
+      "inclusion_date": "2025-05-10T23:51:33.747540+00:00"
     },
-    "id": "5af12cb10edaf88ff4851c13424850c173785b36e382f8c66201f21b9eea9eb3"
+    "id": "734e74a4569d34fc85e949148a724fb76db3f90629b33511adffc839396403a7"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "master",
-      "commit": "2899894d3c97f7e38ca689abf1b32c42e24845a9",
+      "branch": "reduce-lint-warning-modal",
+      "commit": "7aa8790ce4061f6a9c1a98ec02096456f7fd3c24",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4490,20 +4490,20 @@
     },
     "debug_info": {
       "goal": "\u22a2 \u2200 {\u03c6 : Formula \u2115}, Grz.miniCanonicalFrame Hilbert.GrzPoint3 \u03c6 \u2208 FrameClass.finite_connected_partial_order",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2899894d3c97f7e38ca689abf1b32c42e24845a9/Foundation/Modal/Kripke/Hilbert/GrzPoint3.lean#L42"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/7aa8790ce4061f6a9c1a98ec02096456f7fd3c24/Foundation/Modal/Kripke/Hilbert/GrzPoint3.lean#L42"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-14T14:50:18+09:00",
-      "inclusion_date": "2025-05-09T23:15:27.339821+00:00"
+      "inclusion_date": "2025-05-10T23:51:33.747540+00:00"
     },
-    "id": "c3ff5ac84bc004b45328d4b1ffe0d20e5c486eacd9803231638caa1e199dbd04"
+    "id": "2af40eabb7c6123abcc19e2501f6591707de79690418d73de25f93931f5cf9da"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "master",
-      "commit": "2899894d3c97f7e38ca689abf1b32c42e24845a9",
+      "branch": "reduce-lint-warning-modal",
+      "commit": "7aa8790ce4061f6a9c1a98ec02096456f7fd3c24",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4515,14 +4515,14 @@
     },
     "debug_info": {
       "goal": "\u22a2 Complete Hilbert.GLPoint3 FrameClass.finite_strict_linear_order",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2899894d3c97f7e38ca689abf1b32c42e24845a9/Foundation/Modal/Kripke/Hilbert/GLPoint3.lean#L33"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/7aa8790ce4061f6a9c1a98ec02096456f7fd3c24/Foundation/Modal/Kripke/Hilbert/GLPoint3.lean#L33"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-17T22:57:50+09:00",
-      "inclusion_date": "2025-05-09T23:15:27.339821+00:00"
+      "inclusion_date": "2025-05-10T23:51:33.747540+00:00"
     },
-    "id": "b1d955eda9bd9672e4aa709a3c1258b3fb78fc36b50506591cd9d41690658a85"
+    "id": "38021ffe9d1b0d1ef5d00afdd7f38f1c1a2c29dcbda6e45929ece288bcbfb87d"
   },
   {
     "repo": {
@@ -7053,7 +7053,7 @@
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -7065,14 +7065,14 @@
     },
     "debug_info": {
       "goal": "p : \u2115\ninst\u271d : Fact (Nat.Prime p)\ns : Set \u2124_[p]\n\u22a2 volume (Subtype.val '' s) = volume s",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/HaarMeasure/MeasurableSpacePadics.lean#L67"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/HaarMeasure/MeasurableSpacePadics.lean#L67"
     },
     "metadata": {
       "blame_email_hash": "97e8591fe714",
       "blame_date": "2024-12-11T00:03:10+00:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "032f963765bb95dc3c9c0ac59557f2832ec1229acfb5656e75c1b82bc1678bac"
+    "id": "8e7176e3b2bd3fe5f390b4c0eb957dccec22cbcc78e5113b6c32aa9017fb7251"
   },
   {
     "repo": {
@@ -7203,7 +7203,7 @@
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -7215,20 +7215,20 @@
     },
     "debug_info": {
       "goal": "d : \u2115\nA : Type u_1\ninst\u271d : AddCommGroup A\nn : \u2115\nhn : 0 < n\nr : \u2115\nh : \u2200 (d : \u2115), d \u2223 n \u2192 Nat.card \u21a5(Submodule.torsionBy \u2124 A \u2191d) = d ^ r\n\u22a2 \u2203 \u03c6, True",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/EllipticCurve/Torsion.lean#L49"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/EllipticCurve/Torsion.lean#L49"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2024-05-01T22:28:50+01:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "47bc1bc7f4c50a83c480e57ce6b6157a47e475a6ef050ac8b127de03eb941075"
+    "id": "fc84404d8ac53b374e636567807369df063116ea8f7364dac69279c694199a8e"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -7240,14 +7240,14 @@
     },
     "debug_info": {
       "goal": "k : Type u\ninst\u271d\u00b2 : Field k\nE : WeierstrassCurve k\ninst\u271d\u00b9 : E.IsElliptic\ninst\u271d : IsSepClosed k\nn : \u2115\nhn : \u2191n \u2260 0\n\u22a2 \u2203 \u03c6, True",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/EllipticCurve/Torsion.lean#L55"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/EllipticCurve/Torsion.lean#L55"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2024-03-23T18:21:01+00:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "e787be854daa4978c6f5379c93a070761a3029151b8d3475c8b8fa891c4de061"
+    "id": "d5a15ad4b30a56a23177ba8368bac8db055e192fc91e03d8c794437c3d8b96a4"
   },
   {
     "repo": {
@@ -7978,7 +7978,7 @@
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -7990,20 +7990,20 @@
     },
     "debug_info": {
       "goal": "G : Type u_1\n\u03b1 : Type u_2\ninst\u271d\u00b3 : Group G\ninst\u271d\u00b2 : MeasurableSpace G\ninst\u271d\u00b9 : MeasurableSpace \u03b1\nH K : Subgroup G\ninst\u271d : MeasurableInv G\n\u22a2 Measurable Inv.inv",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/Mathlib/MeasureTheory/Group/Action.lean#L24"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/Mathlib/MeasureTheory/Group/Action.lean#L24"
     },
     "metadata": {
       "blame_email_hash": "97e8591fe714",
       "blame_date": "2024-12-11T00:03:10+00:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "f65638846e3cde9c9821620a270c0ea6b0fd137fab214024975158600815ac7d"
+    "id": "83047907ca49b7b4991aec510e7340244730031829fcc92332b7c4a7243a0012"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -8015,20 +8015,20 @@
     },
     "debug_info": {
       "goal": "G : Type u_1\n\u03b1 : Type u_2\ninst\u271d\u00b3 : Group G\ninst\u271d\u00b2 : MeasurableSpace G\ninst\u271d\u00b9 : MeasurableSpace \u03b1\nH K : Subgroup G\ninst\u271d : MeasurableMul G\nc : \u21a5H\n\u22a2 Measurable fun x => c * x",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/Mathlib/MeasureTheory/Group/Action.lean#L31"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/Mathlib/MeasureTheory/Group/Action.lean#L31"
     },
     "metadata": {
       "blame_email_hash": "97e8591fe714",
       "blame_date": "2024-12-11T00:03:10+00:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "67bea1a707206ff6945b614422c2d89b45da5e4308f6ebcf10e4eeb0f9dd3492"
+    "id": "ab879df590dd62e1a2fa9f16a019fbfe2779a9793adf314af349c223fb527ce4"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -8040,20 +8040,20 @@
     },
     "debug_info": {
       "goal": "G : Type u_1\n\u03b1 : Type u_2\ninst\u271d\u2074 : Group G\ninst\u271d\u00b3 : MeasurableSpace G\ninst\u271d\u00b2 : MeasurableSpace \u03b1\nH K : Subgroup G\ninst\u271d\u00b9 : MeasurableMul G\n\u03bc : Measure G\ninst\u271d : \u03bc.IsMulLeftInvariant\ng : \u21a5H\n\u22a2 Measure.map (fun x => g * x) (Measure.comap Subtype.val \u03bc) = Measure.comap Subtype.val \u03bc",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/Mathlib/MeasureTheory/Group/Action.lean#L36"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/Mathlib/MeasureTheory/Group/Action.lean#L36"
     },
     "metadata": {
       "blame_email_hash": "97e8591fe714",
       "blame_date": "2024-12-11T00:03:10+00:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "5522943e03a74ee6320ced4fbae1e5c09d883b38688ea5996eb6683a1191f9eb"
+    "id": "eb8708cfe6c6cb7cfe02c2643cbd79a5cb47695ae19bc5687cb236cc14f2914d"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -8065,20 +8065,20 @@
     },
     "debug_info": {
       "goal": "G : Type u_1\n\u03b1 : Type u_2\ninst\u271d\u2074 : Group G\ninst\u271d\u00b3 : MeasurableSpace G\ninst\u271d\u00b2 : MeasurableSpace \u03b1\nH K : Subgroup G\ninst\u271d\u00b9 : MeasurableMul G\n\u03bc : Measure G\ninst\u271d : \u03bc.IsMulRightInvariant\ng : \u21a5H\n\u22a2 Measure.map (fun x => x * g) (Measure.comap Subtype.val \u03bc) = Measure.comap Subtype.val \u03bc",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/Mathlib/MeasureTheory/Group/Action.lean#L41"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/Mathlib/MeasureTheory/Group/Action.lean#L41"
     },
     "metadata": {
       "blame_email_hash": "97e8591fe714",
       "blame_date": "2024-12-11T00:03:10+00:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "d7fb0497f11cecf2efe8e4fb5b139d6b4668226c3d503bffeb308fe9be83b649"
+    "id": "e34ce1a5905207b17e62c4efd7c688f748862445718a7cea404179829c3a2fc0"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -8090,14 +8090,14 @@
     },
     "debug_info": {
       "goal": "R : Type u_1\nS : Type u_2\nM : Type u_3\ninst\u271d\u00b9\u00b2 : CommRing R\ninst\u271d\u00b9\u00b9 : TopologicalSpace R\ninst\u271d\u00b9\u2070 : IsTopologicalRing R\ninst\u271d\u2079 : CommRing S\ninst\u271d\u2078 : TopologicalSpace S\ninst\u271d\u2077 : IsTopologicalRing S\ninst\u271d\u2076 : Algebra R S\ninst\u271d\u2075 : Module.Finite R S\ninst\u271d\u2074 : IsModuleTopology R S\ninst\u271d\u00b3 : AddCommGroup M\ninst\u271d\u00b2 : Module R M\ninst\u271d\u00b9 : Module S M\ninst\u271d : IsScalarTower R S M\n\u22a2 moduleTopology R M = moduleTopology S M",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/Mathlib/Topology/Algebra/Module/ModuleTopology.lean#L176"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/Mathlib/Topology/Algebra/Module/ModuleTopology.lean#L176"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2025-01-30T11:02:34+00:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "2b193c04e8b54a7fbb6f323cc5b001c65838cf0603a1f7067a17ef4a255f0f1a"
+    "id": "d037f61d940dc056b025393d8460720484b80811c3e1173bc6b78d8f318f6dd9"
   },
   {
     "repo": {
@@ -25252,8 +25252,8 @@
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "master",
-      "commit": "2899894d3c97f7e38ca689abf1b32c42e24845a9",
+      "branch": "reduce-lint-warning-modal",
+      "commit": "7aa8790ce4061f6a9c1a98ec02096456f7fd3c24",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -25265,14 +25265,14 @@
     },
     "debug_info": {
       "goal": "\u03c6 : Formula \u2115\nM : Model\ninst\u271d : IsStrictOrder M.World M.Rel\nx : M.World\nh : \u00acx \u22a7 \u25a1\u03c6\n\u22a2 \u2203 y, x \u227a y \u2227 \u00acy \u22a7 \u03c6 \u2227 y \u22a7 \u25a1\u03c6",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/2899894d3c97f7e38ca689abf1b32c42e24845a9/Foundation/Modal/Kripke/Balloon.lean#L63"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/7aa8790ce4061f6a9c1a98ec02096456f7fd3c24/Foundation/Modal/Kripke/Balloon.lean#L63"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-04-26T09:19:50+09:00",
-      "inclusion_date": "2025-05-09T23:15:27.339821+00:00"
+      "inclusion_date": "2025-05-10T23:51:33.747540+00:00"
     },
-    "id": "b40c5c89bb43d2a827bdac51478d7b83eed4a176461866218e778337ad48aa5d"
+    "id": "f57278f2e3bc1b65a4b9d576dbc732f389eb33f41c0214e6978ec212bb77c723"
   },
   {
     "repo": {
@@ -48328,7 +48328,7 @@
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48340,20 +48340,20 @@
     },
     "debug_info": {
       "goal": "\u03c1 : Weight 0\nc : \u2102\nx : GL (Fin 0) (IsDedekindDomain.FiniteAdeleRing \u2124 \u211a)\n\u22a2 \u22a4.FG",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/GlobalLanglandsConjectures/GLzero.lean#L74"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/GlobalLanglandsConjectures/GLzero.lean#L74"
     },
     "metadata": {
       "blame_email_hash": "5ecb8fcfe98c",
       "blame_date": "2025-01-18T16:24:18+01:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "9656b32399bc857a7f3a752388bda741cf9bc84e8c1576abbbe6b22d75ceb343"
+    "id": "ec2423ff79919d4f0db4edeefe03d4232b3206cfec947db1ec6de35c24780e0a"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48365,20 +48365,20 @@
     },
     "debug_info": {
       "goal": "z : \u2102\nn : \u2115\n\u03c1 : Weight n\nh\u03c1 : AutomorphicForm.GLn.Weight.IsTrivial n \u03c1\n\u22a2 IsSmooth fun x => z",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/GlobalLanglandsConjectures/GLzero.lean#L118"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/GlobalLanglandsConjectures/GLzero.lean#L118"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2024-06-12T14:33:04+02:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "90a7ac61a173c516f6a9ed6d68d4f579dfe070670f562f779a4ad0db3fb1b5bd"
+    "id": "c6a88e788c04d8dff64f85c30ce9361e56e16c6ae06440166eefc22c3adcd4f9"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48390,20 +48390,20 @@
     },
     "debug_info": {
       "goal": "z : \u2102\nn : \u2115\n\u03c1 : Weight n\nh\u03c1 : AutomorphicForm.GLn.Weight.IsTrivial n \u03c1\n\u22a2 GL (Fin n) \u211a \u2192 GL (Fin n) (IsDedekindDomain.FiniteAdeleRing \u2124 \u211a) \u2192 GL (Fin n) \u211d \u2192 z = z",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/GlobalLanglandsConjectures/GLzero.lean#L119"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/GlobalLanglandsConjectures/GLzero.lean#L119"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2024-06-12T14:33:04+02:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "ef9ffa7fc1096a4b315b4f00ec7149d7f93eedbdca45292477aaf316cfe17f1f"
+    "id": "ef21dc993703e4eca8c42077afaba661f3dfdc6c97ebc02986cb8d6f18ab0fad"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48415,20 +48415,20 @@
     },
     "debug_info": {
       "goal": "z : \u2102\nn : \u2115\n\u03c1 : Weight n\nh\u03c1 : AutomorphicForm.GLn.Weight.IsTrivial n \u03c1\n\u22a2 GL (Fin n) (IsDedekindDomain.FiniteAdeleRing \u2124 \u211a) \u2192 IsSlowlyIncreasing fun y => z",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/GlobalLanglandsConjectures/GLzero.lean#L120"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/GlobalLanglandsConjectures/GLzero.lean#L120"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2024-06-12T14:33:04+02:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "8eea7dd1111139f431866c0de7b54b520353a053ac633e1b6dd10096c9a61f96"
+    "id": "bbf79d370bc6cdf866905fefbd7a39c9c03eed5226eafda72ca5f6613df3d386"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48440,20 +48440,20 @@
     },
     "debug_info": {
       "goal": "z : \u2102\nn : \u2115\n\u03c1 : Weight n\nh\u03c1 : AutomorphicForm.GLn.Weight.IsTrivial n \u03c1\n\u22a2 \u2203 U, IsConstantOn U fun x => z",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/GlobalLanglandsConjectures/GLzero.lean#L122"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/GlobalLanglandsConjectures/GLzero.lean#L122"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2024-06-12T23:32:34+02:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "744e1e49a004b22724ae4e644035f37dc9e900aeaab9eb407f61802118f860f5"
+    "id": "cffb1abdcd7f857e667dd6af8306f849d0cd7ff51ab07de80fd0277e77304ced"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48465,20 +48465,20 @@
     },
     "debug_info": {
       "goal": "z : \u2102\nn : \u2115\n\u03c1 : Weight n\nh\u03c1 : AutomorphicForm.GLn.Weight.IsTrivial n \u03c1\n\u22a2 \u2200 (x : GL (Fin n) (IsDedekindDomain.FiniteAdeleRing \u2124 \u211a)),\n    FiniteDimensional \u2102\n      (\u21a5(Z (GL (Fin n) \u211d) (Matrix (Fin n) (Fin n) \u211d)) \u29f8\n        Submodule.comap (actionTensorCAlg'3 (GL (Fin n) \u211d) (Matrix (Fin n) (Fin n) \u211d)).toLinearMap\n          (annihilator \u27e8fun y => z, \u22ef\u27e9))",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/GlobalLanglandsConjectures/GLzero.lean#L121"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/GlobalLanglandsConjectures/GLzero.lean#L121"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2024-06-12T23:29:04+02:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "2d3626cbf45644c41ee66f340eb4a665f4a7e35bddeccbfb240e6cadfab363d2"
+    "id": "73ae2ad914e0c1a45fd6a5d55cc71eec1483a05f41665cc7c6c69819204b0b94"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48490,20 +48490,20 @@
     },
     "debug_info": {
       "goal": "\u03c1 : Weight 0\n\u22a2 Function.LeftInverse (fun z => AutomorphicForm.GLn.ofComplex z 0 \u03c1 sorry) fun f => f.toFun 1",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/GlobalLanglandsConjectures/GLzero.lean#L128"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/GlobalLanglandsConjectures/GLzero.lean#L128"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2024-06-12T14:33:04+02:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "84c4c3a1e1a24d42d8a0827e035e7cb691f2aefe7a91e239a7da7569e1403340"
+    "id": "d35c9d689ac8768c79a263e7246d9b3945d32e70f5c79772aba97a48f40ff93b"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48515,20 +48515,20 @@
     },
     "debug_info": {
       "goal": "\u03c1 : Weight 0\n\u22a2 Function.RightInverse (fun z => AutomorphicForm.GLn.ofComplex z 0 \u03c1 sorry) fun f => f.toFun 1",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/GlobalLanglandsConjectures/GLzero.lean#L129"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/GlobalLanglandsConjectures/GLzero.lean#L129"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2024-06-12T14:33:04+02:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "2214176743b3cac9b5933d4d570d4c703d41006a350e376eae9542c974462f8c"
+    "id": "9df4c85ba5ed73a1c98461e8d6774f7fac62ca0570f8d4e464cee19326794d44"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48540,20 +48540,20 @@
     },
     "debug_info": {
       "goal": "P : FLT.FreyPackage\n\u22a2 IsSimpleModule (ZMod (FLT.FreyPackage.p P))\n    (torsionGaloisRepresentation (FLT.FreyPackage.FreyCurve P) (FLT.FreyPackage.p P) FLT.Qbar).asModule",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/Basic/Reductions.lean#L325"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/Basic/Reductions.lean#L325"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2024-04-30T10:03:06+01:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "0efa83dda53d6d0f3ffdc7effbf4ec00686a5ad203a819cad9102f6342d53e67"
+    "id": "4d1bdbeea6a57b74ed92a796c5f2f9962320794a86fb26747e5f65c4c135617c"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48565,20 +48565,20 @@
     },
     "debug_info": {
       "goal": "P : FLT.FreyPackage\n\u22a2 \u00acIsSimpleModule (ZMod (FLT.FreyPackage.p P))\n      (torsionGaloisRepresentation (FLT.FreyPackage.FreyCurve P) (FLT.FreyPackage.p P) FLT.Qbar).asModule",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/Basic/Reductions.lean#L335"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/Basic/Reductions.lean#L335"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2024-04-30T10:03:06+01:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "07c38c700ead616725b907de929e76948f27ea951882d5fa459aede51e196736"
+    "id": "68e8923b006d28acbd59b9bd1292a82667b58143afce41659ee61e5d5f651589"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48590,20 +48590,20 @@
     },
     "debug_info": {
       "goal": "k : Type u\ninst\u271d\u00b9 : Field k\nE : WeierstrassCurve k\ninst\u271d : E.IsElliptic\nn : \u2115\nhn : 0 < n\n\u22a2 Finite (@WeierstrassCurve.n_torsion k inst\u271d\u00b9 E n)",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/EllipticCurve/Torsion.lean#L39"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/EllipticCurve/Torsion.lean#L39"
     },
     "metadata": {
       "blame_email_hash": "5ecb8fcfe98c",
       "blame_date": "2024-11-30T14:53:27+01:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "0765c93060d9eadd10577df8499e8a5eeb83f6cfe33477b2025b82886edce211"
+    "id": "732b98742f5766e4894a29b76573d175fe48a0a9311af55e418f1a0f18da760e"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48615,20 +48615,20 @@
     },
     "debug_info": {
       "goal": "k : Type u\ninst\u271d\u00b2 : Field k\nE : WeierstrassCurve k\ninst\u271d\u00b9 : E.IsElliptic\ninst\u271d : IsSepClosed k\nn : \u2115\nhn : \u2191n \u2260 0\n\u22a2 Nat.card (@WeierstrassCurve.n_torsion k inst\u271d\u00b2 E n) = n ^ 2",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/EllipticCurve/Torsion.lean#L44"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/EllipticCurve/Torsion.lean#L44"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2024-03-23T17:52:39+00:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "a6ff9493ad1750770cbbf08ea462024c71f2009a4d8d841beb5e7b9188d28e0b"
+    "id": "e01bc58ef179a4d6aa726e074809182bcbddde1beb88c4dfd22afec032ac05f0"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48640,20 +48640,20 @@
     },
     "debug_info": {
       "goal": "k : Type u\ninst\u271d\u00b3 : Field k\nE : WeierstrassCurve k\ninst\u271d\u00b2 : E.IsElliptic\nK : Type u\ninst\u271d\u00b9 : Field K\ninst\u271d : Algebra k K\n\u22a2 @WeierstrassCurve.Points.map k inst\u271d\u00b3 E K K inst\u271d\u00b9 inst\u271d\u00b9 inst\u271d inst\u271d (AlgHom.id k K) =\n    AddMonoidHom.id (Point (E.baseChange K))",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/EllipticCurve/Torsion.lean#L64"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/EllipticCurve/Torsion.lean#L64"
     },
     "metadata": {
       "blame_email_hash": "5ecb8fcfe98c",
       "blame_date": "2024-11-30T14:53:27+01:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "8f996a6ae5f1798976a44d865658fd01aa4c288630c314d4af8958de3f36fafb"
+    "id": "c1939885c93e22f6db8ba7cb9eb4c2f4dd70cc7170a5214ec5d364fc3562c0c8"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48665,20 +48665,20 @@
     },
     "debug_info": {
       "goal": "k : Type u\ninst\u271d\u2077 : Field k\nE : WeierstrassCurve k\ninst\u271d\u2076 : E.IsElliptic\nK L M : Type u\ninst\u271d\u2075 : Field K\ninst\u271d\u2074 : Field L\ninst\u271d\u00b3 : Field M\ninst\u271d\u00b2 : Algebra k K\ninst\u271d\u00b9 : Algebra k L\ninst\u271d : Algebra k M\nf : K \u2192\u2090[k] L\ng : L \u2192\u2090[k] M\n\u22a2 AddMonoidHom.comp (@WeierstrassCurve.Points.map k inst\u271d\u2077 E L M inst\u271d\u2074 inst\u271d\u00b3 inst\u271d\u00b9 inst\u271d g)\n      (@WeierstrassCurve.Points.map k inst\u271d\u2077 E K L inst\u271d\u2075 inst\u271d\u2074 inst\u271d\u00b2 inst\u271d\u00b9 f) =\n    @WeierstrassCurve.Points.map k inst\u271d\u2077 E K M inst\u271d\u2075 inst\u271d\u00b3 inst\u271d\u00b2 inst\u271d (g.comp f)",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/EllipticCurve/Torsion.lean#L69"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/EllipticCurve/Torsion.lean#L69"
     },
     "metadata": {
       "blame_email_hash": "5ecb8fcfe98c",
       "blame_date": "2024-11-30T14:53:27+01:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "d2a4235d9688523ee8a0289578b65ff3a3fb5c981c7043c00310ace3e3e244e5"
+    "id": "2385bf7ce636bd33bd1aa722677665874c31d9ccd4e337a7c662a103c26ee7cb"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48690,20 +48690,20 @@
     },
     "debug_info": {
       "goal": "x : QHat\n\u22a2 failed to pretty print expression (use 'set_option pp.rawOnError true' for raw representation)",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/AutomorphicRepresentation/Example.lean#L307"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/AutomorphicRepresentation/Example.lean#L307"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2024-05-06T01:01:13+01:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "ed72901f5d9c830cd516567c75734f2d824c15328cc827871eba25c28ff93e97"
+    "id": "88d596a90a43d2f1facd6ab4d0f08ae0cb53e0c93a34fdf4b311d738744ed931"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48715,20 +48715,20 @@
     },
     "debug_info": {
       "goal": "\u22a2 QHat.unitsratsub \u2294 QHat.unitszHatsub = \u22a4",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/AutomorphicRepresentation/Example.lean#L476"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/AutomorphicRepresentation/Example.lean#L476"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2024-05-06T01:54:08+01:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "dd7fdfaead515c803643d6afe6bb78866f6050afe5a6603e8d9a0c0f76801afb"
+    "id": "18266b5a17d78fafc4d64650b93e6a1a102c798e3e54f0538a1b7852e55f24f9"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48740,20 +48740,20 @@
     },
     "debug_info": {
       "goal": "\u22a2 Function.Injective \u21d1Hurwitz.j\u2081",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/AutomorphicRepresentation/Example.lean#L1065"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/AutomorphicRepresentation/Example.lean#L1065"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2024-05-10T01:13:22+01:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "37a1810e6cbfa8680f2c896e3c97462b4d8b82b4a8a2635bdbdb95b9da9403d1"
+    "id": "90cac48fe3266df93c2dd3de60157c608a7a7819521fcd8c91815f38b00970f0"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48765,20 +48765,20 @@
     },
     "debug_info": {
       "goal": "\u22a2 Function.Injective \u21d1Hurwitz.j\u2082",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/AutomorphicRepresentation/Example.lean#L1072"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/AutomorphicRepresentation/Example.lean#L1072"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2024-05-10T01:13:22+01:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "1365895270596e53d1fbb799fe1cd4435de129c6aa925e0d13934a9683d67ca9"
+    "id": "31d603067753d622fc62201119de2265c084497e940c47d7fc0e444c8e0e9fde"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48790,20 +48790,20 @@
     },
     "debug_info": {
       "goal": "z : Hurwitz.HurwitzRatHat\n\u22a2 failed to pretty print expression (use 'set_option pp.rawOnError true' for raw representation)",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/AutomorphicRepresentation/Example.lean#L1076"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/AutomorphicRepresentation/Example.lean#L1076"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2024-05-10T01:13:22+01:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "d30ae69ec0db9eaac204e176edc352046eb9626a5b83475557ef703ab88f9040"
+    "id": "a1eb02fd277ce9d0ef4f099c2edc63725c77c8436787fcf0e26726f3bdf43fc5"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48815,20 +48815,20 @@
     },
     "debug_info": {
       "goal": "z : Hurwitz.HurwitzRatHat\u02e3\n\u22a2 \u2203 u v, \u2191z = Hurwitz.j\u2081 \u2191u * Hurwitz.j\u2082 \u2191v",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/AutomorphicRepresentation/Example.lean#L1078"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/AutomorphicRepresentation/Example.lean#L1078"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2024-05-10T01:13:22+01:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "7fee6d4ebbd53c9b64021414859bc750be70918e75e4c19552bc15ba42e340ef"
+    "id": "3a09482ebaf1b3fe9ad44bbc0955f130d459fb8e182d84fce6e7b04124da8f59"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48840,20 +48840,20 @@
     },
     "debug_info": {
       "goal": "A : Type u_1\nK : Type u_2\ninst\u271d\u2074 : CommRing A\ninst\u271d\u00b3 : Field K\ninst\u271d\u00b2 : Algebra A K\ninst\u271d\u00b9 : IsFractionRing A K\ninst\u271d : IsDedekindDomain A\nv : HeightOneSpectrum A\n\u22a2 Function.Bijective\n    \u21d1(@IsDedekindDomain.HeightOneSpectrum.ResidueFieldToCompletionResidueField A K inst\u271d\u2074 inst\u271d\u00b3 inst\u271d\u00b2 inst\u271d\u00b9 inst\u271d v)",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/DedekindDomain/AdicValuation.lean#L244"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/DedekindDomain/AdicValuation.lean#L244"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2025-04-30T00:07:20+01:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "c8c1d40c5c16935d7f033b79fd0fa4d971bbe269dffd531750a2d0a8497ce307"
+    "id": "5ca752cc08985574974142d9bcf9b808c42c31b3f457137d5944fdac7724b7d9"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48865,20 +48865,20 @@
     },
     "debug_info": {
       "goal": "K : Type u_1\ninst\u271d\u00b9 : Field K\ninst\u271d : NumberField K\n\u22a2 LocallyCompactSpace (AdeleRing (RingOfIntegers K) K)",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/NumberField/AdeleRing.lean#L25"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/NumberField/AdeleRing.lean#L25"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2024-12-02T00:05:18+00:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "b97e0887d5d891bc8581fc7cf135f33f4c9da0876c36c67878cf8db608a6f2a0"
+    "id": "4fd973f17235de8a0d50d70f634cac48e35cbb77ab02eefe085bb1caa3dcd6ca"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48890,20 +48890,20 @@
     },
     "debug_info": {
       "goal": "\u22a2 CompactSpace (AdeleRing (RingOfIntegers \u211a) \u211a \u29f8 AdeleRing.principalSubgroup (RingOfIntegers \u211a) \u211a)",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/NumberField/AdeleRing.lean#L276"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/NumberField/AdeleRing.lean#L276"
     },
     "metadata": {
       "blame_email_hash": "82b95686a14c",
       "blame_date": "2025-02-08T15:57:20+00:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "2aa15ced79387065ea0c7bbc493c2ad3a3ed36b8dd0dae21e4555c0af72342dd"
+    "id": "b6b6def9db090898a78e4098795bb95e00b3967b59921438aaaedd99a6bf93f2"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48915,20 +48915,20 @@
     },
     "debug_info": {
       "goal": "K : Type u_1\nL : Type u_2\ninst\u271d\u00b3 : Field K\ninst\u271d\u00b2 : Field L\ninst\u271d\u00b9 : Algebra K L\nv : InfinitePlace K\ninst\u271d : NumberField L\n\u22a2 Module.finrank v.Completion ((w : ExtensionPlace L v) \u2192 (\u2191w).Completion) =\n    Module.finrank v.Completion (TensorProduct K L v.Completion)",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/NumberField/Completion/Infinite.lean#L91"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/NumberField/Completion/Infinite.lean#L91"
     },
     "metadata": {
       "blame_email_hash": "82b95686a14c",
       "blame_date": "2025-03-27T09:14:59+00:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "9e2f6b626cec4e5f18595af3a1aae397399c2b4b9ca689ba6311dafda19ab11f"
+    "id": "ab722696fb74a6c8f3cf260776e3782c69ff0758edc1f13ff3d3ef006e0f6c22"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48940,20 +48940,20 @@
     },
     "debug_info": {
       "goal": "R : Type u_1\ninst\u271d\u2075 : Ring R\ninst\u271d\u2074 : MeasurableSpace R\ninst\u271d\u00b3 : TopologicalSpace R\ninst\u271d\u00b2 : BorelSpace R\ninst\u271d\u00b9 : IsTopologicalAddGroup R\ninst\u271d : LocallyCompactSpace R\n\u22a2 MeasurableSMul R\u02e3 R",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/HaarMeasure/DistribHaarChar/Basic.lean#L99"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/HaarMeasure/DistribHaarChar/Basic.lean#L99"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2025-05-09T09:50:50+01:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "abd373ee89c43e796c3b41aece66c8da1d6007648d141f0b8313c0a68de52a66"
+    "id": "5136807eaed058f763e1f864014ddfa5629bf68e0ff33e1524219a244bce8287"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48965,20 +48965,20 @@
     },
     "debug_info": {
       "goal": "R : Type u_1\ninst\u271d\u2075 : Ring R\ninst\u271d\u2074 : MeasurableSpace R\ninst\u271d\u00b3 : TopologicalSpace R\ninst\u271d\u00b2 : BorelSpace R\ninst\u271d\u00b9 : IsTopologicalAddGroup R\ninst\u271d : LocallyCompactSpace R\n\u22a2 ContinuousConstSMul R\u02e3 R",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/HaarMeasure/DistribHaarChar/Basic.lean#L101"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/HaarMeasure/DistribHaarChar/Basic.lean#L101"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2025-05-09T09:50:50+01:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "62ccff707e8d0ead33d9898d1af25aed2a227655ba7ff7b463b0c1056e3a6b1a"
+    "id": "3f3275cb9c5d073471e708aa62774bfc84cdc26804aea25c046850b059a3a8ba"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -48990,20 +48990,20 @@
     },
     "debug_info": {
       "goal": "K : Type u_1\ninst\u271d\u2074 : Field K\ninst\u271d\u00b3 : NumberField K\nB : Type u_2\ninst\u271d\u00b2 : Ring B\ninst\u271d\u00b9 : Algebra K B\ninst\u271d : FiniteDimensional K B\n\u22a2 Module.Finite (AdeleRing (RingOfIntegers K) K) (TensorProduct K B (AdeleRing (RingOfIntegers K) K))",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/HaarMeasure/DistribHaarChar/AdeleRing.lean#L20"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/HaarMeasure/DistribHaarChar/AdeleRing.lean#L20"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2025-05-09T09:50:50+01:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "e827e5428d31a9df212aab05c167535b32222b2f711bf1a3fa6ee183e74627a8"
+    "id": "a3e669cd696d41870b9ad40103e0bc97bb9956da566a667df248fd4f7de65630"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -49015,20 +49015,20 @@
     },
     "debug_info": {
       "goal": "K : Type u_1\ninst\u271d\u2074 : Field K\ninst\u271d\u00b3 : NumberField K\nB : Type u_2\ninst\u271d\u00b2 : Ring B\ninst\u271d\u00b9 : Algebra K B\ninst\u271d : FiniteDimensional K B\n\u22a2 LocallyCompactSpace (TensorProduct K B (AdeleRing (RingOfIntegers K) K))",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/HaarMeasure/DistribHaarChar/AdeleRing.lean#L26"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/HaarMeasure/DistribHaarChar/AdeleRing.lean#L26"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2025-05-09T09:50:50+01:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "59707e5c7810d23760ef7aa6f31c944f01e508c9f5eb8055d7d9ba2f837f17c8"
+    "id": "b9258e2ce2db6cdd15e029f12cd35485f3495930df2f55433872d9eef55ebb77"
   },
   {
     "repo": {
       "remote": "https://github.com/ImperialCollegeLondon/FLT",
       "branch": "main",
-      "commit": "1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7",
+      "commit": "9418f5ccb76578088e22d99adf770da7ea8f7454",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -49040,13 +49040,13 @@
     },
     "debug_info": {
       "goal": "K : Type u_1\ninst\u271d\u2076 : Field K\ninst\u271d\u2075 : NumberField K\nB : Type u_2\ninst\u271d\u2074 : Ring B\ninst\u271d\u00b3 : Algebra K B\ninst\u271d\u00b2 : FiniteDimensional K B\ninst\u271d\u00b9 : MeasurableSpace (TensorProduct K B (AdeleRing (RingOfIntegers K) K))\ninst\u271d : BorelSpace (TensorProduct K B (AdeleRing (RingOfIntegers K) K))\nb : B\u02e3\n\u22a2 (Units.map \u2191Algebra.TensorProduct.includeLeftRingHom) b \u2208\n    distribHaarChar.ker (TensorProduct K B (AdeleRing (RingOfIntegers K) K))",
-      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/1a5a3b47616a4f4b6d7f080a3aa30590859cd1f7/FLT/HaarMeasure/DistribHaarChar/AdeleRing.lean#L37"
+      "url": "https://github.com/ImperialCollegeLondon/FLT/blob/9418f5ccb76578088e22d99adf770da7ea8f7454/FLT/HaarMeasure/DistribHaarChar/AdeleRing.lean#L37"
     },
     "metadata": {
       "blame_email_hash": "c7989443bd81",
       "blame_date": "2025-05-09T09:50:50+01:00",
-      "inclusion_date": "2025-05-09T23:54:44.246825+00:00"
+      "inclusion_date": "2025-05-11T00:09:05.986255+00:00"
     },
-    "id": "62623a64b8638c8e5de840973a66f4bdac3633d09123a086c6a605c1befa0668"
+    "id": "365775a447f66c1770d226798b5f150a050c72d39abecf968904ea39f7e537b9"
   }
 ]
