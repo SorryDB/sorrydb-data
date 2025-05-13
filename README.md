@@ -5,7 +5,7 @@ This repository hosts the main dataset of the
 
 ## Contents
 
-This repository contains various `json` files indeding sorries in public Lean 4
+This repository contains various `json` files indexing sorries in public Lean 4
 repositories. They are generated using the crawler developed in the
 [SorryDB project](https://github.com/SorryDB/SorryDB/). See the
 [DATABASE.md](https://github.com/SorryDB/SorryDB/blob/master/doc/DATABASE.md)
