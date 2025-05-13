@@ -4277,8 +4277,8 @@
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "reduce-lint-warning-modal",
-      "commit": "7aa8790ce4061f6a9c1a98ec02096456f7fd3c24",
+      "branch": "master",
+      "commit": "14e440084440c995745fbffc241f27b10f64f731",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4290,20 +4290,20 @@
     },
     "debug_info": {
       "goal": "\u03c6 : NNFormula \u2115\n\u22a2 \u2203 \u03c8, \u03c8.isModalCNF \u2227 Hilbert.K \u22a2! \u03c6.toFormula \u2b64 \u03c8.toFormula",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/7aa8790ce4061f6a9c1a98ec02096456f7fd3c24/Foundation/Modal/Hilbert/NNFormula.lean#L232"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/14e440084440c995745fbffc241f27b10f64f731/Foundation/Modal/Hilbert/NNFormula.lean#L232"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-10T23:51:33.747540+00:00"
+      "inclusion_date": "2025-05-12T23:17:52.779115+00:00"
     },
-    "id": "7e23ddc197a26ff5879403e1ce0e788c4b40e632af66fc11c0e8d91116495b63"
+    "id": "ff8493ccec0cf95605d94faa2958c196a64ffbade1d2c735c10b70649bb646a2"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "reduce-lint-warning-modal",
-      "commit": "7aa8790ce4061f6a9c1a98ec02096456f7fd3c24",
+      "branch": "master",
+      "commit": "14e440084440c995745fbffc241f27b10f64f731",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4315,20 +4315,20 @@
     },
     "debug_info": {
       "goal": "\u03c6 : NNFormula \u2115\n\u22a2 \u2203 \u03c8, \u03c8.isModalDNF \u2227 Hilbert.K \u22a2! \u03c6.toFormula \u2b64 \u03c8.toFormula",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/7aa8790ce4061f6a9c1a98ec02096456f7fd3c24/Foundation/Modal/Hilbert/NNFormula.lean#L236"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/14e440084440c995745fbffc241f27b10f64f731/Foundation/Modal/Hilbert/NNFormula.lean#L236"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-10T23:51:33.747540+00:00"
+      "inclusion_date": "2025-05-12T23:17:52.779115+00:00"
     },
-    "id": "9899a7b3a8d6fb6a38ed81284bcc87e16f5ed836903f28e32e2564c41f5818f5"
+    "id": "47fd6200675e134fd8c90f0764f7fb6ce897a4dc5260cb6eb333584392552a0a"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "reduce-lint-warning-modal",
-      "commit": "7aa8790ce4061f6a9c1a98ec02096456f7fd3c24",
+      "branch": "master",
+      "commit": "14e440084440c995745fbffc241f27b10f64f731",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4340,20 +4340,20 @@
     },
     "debug_info": {
       "goal": "L : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\n\u22a2 \u03b3 \u2208 L",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/7aa8790ce4061f6a9c1a98ec02096456f7fd3c24/Foundation/Modal/Maximal/Makinson.lean#L27"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/14e440084440c995745fbffc241f27b10f64f731/Foundation/Modal/Maximal/Makinson.lean#L27"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-10T23:51:33.747540+00:00"
+      "inclusion_date": "2025-05-12T23:17:52.779115+00:00"
     },
-    "id": "ac29e3847c057292fa768e30f5cb6be8c9a457a03ec1711272d4e21cbeaa7cd9"
+    "id": "0a6816d72e7b1d580ccd6177692038fffa5fd97773e08107b3bf04ae9cbfb98f"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "reduce-lint-warning-modal",
-      "commit": "7aa8790ce4061f6a9c1a98ec02096456f7fd3c24",
+      "branch": "master",
+      "commit": "14e440084440c995745fbffc241f27b10f64f731",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4365,20 +4365,20 @@
     },
     "debug_info": {
       "goal": "L : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\n\u22a2 \u03b3 \u2209 Logic.Ver",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/7aa8790ce4061f6a9c1a98ec02096456f7fd3c24/Foundation/Modal/Maximal/Makinson.lean#L28"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/14e440084440c995745fbffc241f27b10f64f731/Foundation/Modal/Maximal/Makinson.lean#L28"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-10T23:51:33.747540+00:00"
+      "inclusion_date": "2025-05-12T23:17:52.779115+00:00"
     },
-    "id": "13ac7a1f39b87695afb548a27391bafd71332f5cac686ca1d1b8fb63d697c90b"
+    "id": "edbb2c86f7084bd511d49ac17a21d50d60da519f5905ab72813dbd40654ad7f2"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "reduce-lint-warning-modal",
-      "commit": "7aa8790ce4061f6a9c1a98ec02096456f7fd3c24",
+      "branch": "master",
+      "commit": "14e440084440c995745fbffc241f27b10f64f731",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4390,20 +4390,20 @@
     },
     "debug_info": {
       "goal": "L : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\nh\u03b3V : \u03b3 \u2209 Logic.Ver\n\u22a2 \u2203 \u03b4 \u2208 \u0393, (\u2191\u03b4).toFormula \u2208 L \u2227 (\u2191\u03b4).toFormula \u2209 Logic.Ver",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/7aa8790ce4061f6a9c1a98ec02096456f7fd3c24/Foundation/Modal/Maximal/Makinson.lean#L31"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/14e440084440c995745fbffc241f27b10f64f731/Foundation/Modal/Maximal/Makinson.lean#L31"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-10T23:51:33.747540+00:00"
+      "inclusion_date": "2025-05-12T23:17:52.779115+00:00"
     },
-    "id": "6199d867738bd4188114a035c322e28ab6360184a82a9c02659527ec51ebbd7b"
+    "id": "93d9bb288758e8e9989ed8f32cc1b4cb60a693921ade5be33689213c435c26b2"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "reduce-lint-warning-modal",
-      "commit": "7aa8790ce4061f6a9c1a98ec02096456f7fd3c24",
+      "branch": "master",
+      "commit": "14e440084440c995745fbffc241f27b10f64f731",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4415,20 +4415,20 @@
     },
     "debug_info": {
       "goal": "case mk.intro\nL : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis\u271d : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\nh\u03b3V : \u03b3 \u2209 Logic.Ver\n\u0394 : List { \u03c8 // \u03c8.isPrebox \u2228 \u03c8.isPredia \u2228 \u03c8.degree = 0 }\nh\u03b4\u0393 : \u27e8\u22c1\u0394.unattach, \u22ef\u27e9 \u2208 \u0393\nh\u03b4L : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2208 L\nh\u03b4V : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2209 Logic.Ver\n\u03be : NNFormula \u2115\nproperty\u271d : (\u25a1\u03be).isPrebox \u2228 (\u25a1\u03be).isPredia \u2228 (\u25a1\u03be).degree = 0\nh\u03c8\u2081 : \u27e8\u25a1\u03be, property\u271d\u27e9 \u2208 \u0394\nh\u03c8\u2082 : (\u2191\u27e8\u25a1\u03be, property\u271d\u27e9).isPrebox\nthis : \u25a1\u03be.toFormula \u2208 Logic.Ver\n\u22a2 False",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/7aa8790ce4061f6a9c1a98ec02096456f7fd3c24/Foundation/Modal/Maximal/Makinson.lean#L36"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/14e440084440c995745fbffc241f27b10f64f731/Foundation/Modal/Maximal/Makinson.lean#L36"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-10T23:51:33.747540+00:00"
+      "inclusion_date": "2025-05-12T23:17:52.779115+00:00"
     },
-    "id": "eedc52eb04706f3981e7fad1e7a6baaba16979c250214f76df2198bef80d7835"
+    "id": "90bb44074268ebbafaedefe81b96d1245e1feada429f1276f307c6c6f2166550"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "reduce-lint-warning-modal",
-      "commit": "7aa8790ce4061f6a9c1a98ec02096456f7fd3c24",
+      "branch": "master",
+      "commit": "14e440084440c995745fbffc241f27b10f64f731",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4440,20 +4440,20 @@
     },
     "debug_info": {
       "goal": "L : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u03c6 \u2209 Logic.Ver\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\nh\u03b3V : \u03b3 \u2209 Logic.Ver\n\u0394 : List { \u03c8 // \u03c8.isPrebox \u2228 \u03c8.isPredia \u2228 \u03c8.degree = 0 }\nh\u03b4\u0393 : \u27e8\u22c1\u0394.unattach, \u22ef\u27e9 \u2208 \u0393\nh\u03b4L : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2208 L\nh\u03b4V : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2209 Logic.Ver\nh\u0394\u2081 : \u2200 \u03c8 \u2208 \u0394, \u00ac(\u2191\u03c8).isPrebox\n\u22a2 \u2203 \u0393, \u03c6 \u2b64 \u22c0\u0393 \u2208 L",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/7aa8790ce4061f6a9c1a98ec02096456f7fd3c24/Foundation/Modal/Maximal/Makinson.lean#L38"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/14e440084440c995745fbffc241f27b10f64f731/Foundation/Modal/Maximal/Makinson.lean#L38"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-10T23:51:33.747540+00:00"
+      "inclusion_date": "2025-05-12T23:17:52.779115+00:00"
     },
-    "id": "ea36cb262295b178269ffc7ca6b5089afa55af1525ec44fe5f65b570dcbb610b"
+    "id": "bb8bf2f7b78910e2f258e5053cf9c4ab23b6d751faa7d4384bedf9039d80fca8"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "reduce-lint-warning-modal",
-      "commit": "7aa8790ce4061f6a9c1a98ec02096456f7fd3c24",
+      "branch": "master",
+      "commit": "14e440084440c995745fbffc241f27b10f64f731",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4465,20 +4465,20 @@
     },
     "debug_info": {
       "goal": "case intro.intro.intro.intro.mk.intro.intro.intro\nL : Logic\ninst\u271d\u00b9 : L.Normal\ninst\u271d : L.Consistent\n\u03c6 : Formula \u2115\nhL : \u03c6 \u2208 L\nhV : \u00acHilbert.Ver \u22a2! \u03c6\n\u0393 : List { \u03c8 // \u03c8.isModalCNFPart }\n\u03b3 : Formula \u2115\ne\u03b3 : (\u22c0\u0393.unattach).toFormula = \u03b3\nh : Hilbert.K \u22a2! \u03c6.toNNFormula.toFormula \u2b64 \u03b3\nthis\u271d : \u03c6.toNNFormula.toFormula \u2b64 \u03b3 \u2208 L\nh\u03b3L : \u03b3 \u2208 L\nh\u03b3V : \u03b3 \u2209 Logic.Ver\n\u0394 : List { \u03c8 // \u03c8.isPrebox \u2228 \u03c8.isPredia \u2228 \u03c8.degree = 0 }\nh\u03b4\u0393 : \u27e8\u22c1\u0394.unattach, \u22ef\u27e9 \u2208 \u0393\nh\u03b4L : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2208 L\nh\u03b4V : (\u2191\u27e8\u22c1\u0394.unattach, \u22ef\u27e9).toFormula \u2209 Logic.Ver\nh\u0394\u2081 : \u2200 \u03c8 \u2208 \u0394, \u00ac(\u2191\u03c8).isPrebox\nthis : \u2203 \u0393, \u03c6 \u2b64 \u22c0\u0393 \u2208 L\n\u22a2 \u2203 \u03c8, \u25c7\u03c8 \u2208 L",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/7aa8790ce4061f6a9c1a98ec02096456f7fd3c24/Foundation/Modal/Maximal/Makinson.lean#L40"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/14e440084440c995745fbffc241f27b10f64f731/Foundation/Modal/Maximal/Makinson.lean#L40"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-10T09:06:15+09:00",
-      "inclusion_date": "2025-05-10T23:51:33.747540+00:00"
+      "inclusion_date": "2025-05-12T23:17:52.779115+00:00"
     },
-    "id": "734e74a4569d34fc85e949148a724fb76db3f90629b33511adffc839396403a7"
+    "id": "5cdd1365ca48a94e52f5a536b88a601e03bc4d57083398626dacfa8cc4ad3660"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "reduce-lint-warning-modal",
-      "commit": "7aa8790ce4061f6a9c1a98ec02096456f7fd3c24",
+      "branch": "master",
+      "commit": "14e440084440c995745fbffc241f27b10f64f731",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4490,20 +4490,20 @@
     },
     "debug_info": {
       "goal": "\u22a2 \u2200 {\u03c6 : Formula \u2115}, Grz.miniCanonicalFrame Hilbert.GrzPoint3 \u03c6 \u2208 FrameClass.finite_connected_partial_order",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/7aa8790ce4061f6a9c1a98ec02096456f7fd3c24/Foundation/Modal/Kripke/Hilbert/GrzPoint3.lean#L42"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/14e440084440c995745fbffc241f27b10f64f731/Foundation/Modal/Kripke/Hilbert/GrzPoint3.lean#L42"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-14T14:50:18+09:00",
-      "inclusion_date": "2025-05-10T23:51:33.747540+00:00"
+      "inclusion_date": "2025-05-12T23:17:52.779115+00:00"
     },
-    "id": "2af40eabb7c6123abcc19e2501f6591707de79690418d73de25f93931f5cf9da"
+    "id": "573ee9adfac1c5bb18affc242305cd16ab7aca4afe61f60245e6d7eae80ee0f8"
   },
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "reduce-lint-warning-modal",
-      "commit": "7aa8790ce4061f6a9c1a98ec02096456f7fd3c24",
+      "branch": "master",
+      "commit": "14e440084440c995745fbffc241f27b10f64f731",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -4515,14 +4515,14 @@
     },
     "debug_info": {
       "goal": "\u22a2 Complete Hilbert.GLPoint3 FrameClass.finite_strict_linear_order",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/7aa8790ce4061f6a9c1a98ec02096456f7fd3c24/Foundation/Modal/Kripke/Hilbert/GLPoint3.lean#L33"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/14e440084440c995745fbffc241f27b10f64f731/Foundation/Modal/Kripke/Hilbert/GLPoint3.lean#L33"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-03-17T22:57:50+09:00",
-      "inclusion_date": "2025-05-10T23:51:33.747540+00:00"
+      "inclusion_date": "2025-05-12T23:17:52.779115+00:00"
     },
-    "id": "38021ffe9d1b0d1ef5d00afdd7f38f1c1a2c29dcbda6e45929ece288bcbfb87d"
+    "id": "66f1ccf53fcf769d8668e027ded3630640243743cec408528bf17c25ccd70e88"
   },
   {
     "repo": {
@@ -25252,8 +25252,8 @@
   {
     "repo": {
       "remote": "https://github.com/FormalizedFormalLogic/Foundation",
-      "branch": "reduce-lint-warning-modal",
-      "commit": "7aa8790ce4061f6a9c1a98ec02096456f7fd3c24",
+      "branch": "master",
+      "commit": "14e440084440c995745fbffc241f27b10f64f731",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -25265,14 +25265,14 @@
     },
     "debug_info": {
       "goal": "\u03c6 : Formula \u2115\nM : Model\ninst\u271d : IsStrictOrder M.World M.Rel\nx : M.World\nh : \u00acx \u22a7 \u25a1\u03c6\n\u22a2 \u2203 y, x \u227a y \u2227 \u00acy \u22a7 \u03c6 \u2227 y \u22a7 \u25a1\u03c6",
-      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/7aa8790ce4061f6a9c1a98ec02096456f7fd3c24/Foundation/Modal/Kripke/Balloon.lean#L63"
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/14e440084440c995745fbffc241f27b10f64f731/Foundation/Modal/Kripke/Balloon.lean#L63"
     },
     "metadata": {
       "blame_email_hash": "165d0178d95d",
       "blame_date": "2025-04-26T09:19:50+09:00",
-      "inclusion_date": "2025-05-10T23:51:33.747540+00:00"
+      "inclusion_date": "2025-05-12T23:17:52.779115+00:00"
     },
-    "id": "f57278f2e3bc1b65a4b9d576dbc732f389eb33f41c0214e6978ec212bb77c723"
+    "id": "d5a63e717f6209eb6b5ce01b626d579c90ced0c6357714fa024f01dca887f63b"
   },
   {
     "repo": {
@@ -49148,5 +49148,55 @@
       "inclusion_date": "2025-05-12T00:38:16.660582+00:00"
     },
     "id": "76e4c6f42a5da555847dc94d3950f8a0ba6d321586c508d93d111a326cdf76ee"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/FormalizedFormalLogic/Foundation",
+      "branch": "master",
+      "commit": "14e440084440c995745fbffc241f27b10f64f731",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Foundation/Modal/MaximalConsistentSet.lean",
+      "start_line": 191,
+      "start_column": 4,
+      "end_line": 191,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "case inl\n\u03b1 : Type u_1\nS : Type u_2\ninst\u271d\u00b3 : Entailment (Formula \u03b1) S\n\ud835\udce2 : S\ninst\u271d\u00b2 : DecidableEq \u03b1\nT : FormulaSet \u03b1\ninst\u271d\u00b9 : Entailment.Cl \ud835\udce2\n\u03c6 : Formula \u03b1\ninst\u271d : Necessitation \ud835\udce2\nT_consis : Consistent \ud835\udce2 T\nh : \u223c\u25a1\u03c6 \u2208 T\nh\u0393 : \u2191\u2205 \u2286 {\u223c\u03c6}\n\u22a2 \u2191\u2205 *\u22ac[\ud835\udce2] \u22a5",
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/14e440084440c995745fbffc241f27b10f64f731/Foundation/Modal/MaximalConsistentSet.lean#L191"
+    },
+    "metadata": {
+      "blame_email_hash": "165d0178d95d",
+      "blame_date": "2025-05-12T12:29:45+09:00",
+      "inclusion_date": "2025-05-12T23:17:52.779115+00:00"
+    },
+    "id": "7fcd8b389b3e552160fb3918c78ba42b34e8409b4d609e1aefd184a691bc80ee"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/FormalizedFormalLogic/Foundation",
+      "branch": "master",
+      "commit": "14e440084440c995745fbffc241f27b10f64f731",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Foundation/Modal/MaximalConsistentSet.lean",
+      "start_line": 194,
+      "start_column": 4,
+      "end_line": 194,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "case inr\n\u03b1 : Type u_1\nS : Type u_2\ninst\u271d\u00b3 : Entailment (Formula \u03b1) S\n\ud835\udce2 : S\ninst\u271d\u00b2 : DecidableEq \u03b1\nT : FormulaSet \u03b1\ninst\u271d\u00b9 : Entailment.Cl \ud835\udce2\n\u03c6 : Formula \u03b1\ninst\u271d : Necessitation \ud835\udce2\nT_consis : Consistent \ud835\udce2 T\nh : \u223c\u25a1\u03c6 \u2208 T\nh\u0393 : \u2191{\u223c\u03c6} \u2286 {\u223c\u03c6}\n\u22a2 \u2191{\u223c\u03c6} *\u22ac[\ud835\udce2] \u22a5",
+      "url": "https://github.com/FormalizedFormalLogic/Foundation/blob/14e440084440c995745fbffc241f27b10f64f731/Foundation/Modal/MaximalConsistentSet.lean#L194"
+    },
+    "metadata": {
+      "blame_email_hash": "165d0178d95d",
+      "blame_date": "2025-05-12T12:29:45+09:00",
+      "inclusion_date": "2025-05-12T23:17:52.779115+00:00"
+    },
+    "id": "9bddb51c45523c4058051c48d08756ae69b879beacd4e1253483b8489334f8e7"
   }
 ]
