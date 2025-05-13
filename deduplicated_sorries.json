@@ -21053,7 +21053,7 @@
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21065,20 +21065,20 @@
     },
     "debug_info": {
       "goal": "\u22a2 (do\n      let _ \u2190 liftM (query 0 ())\n      (fun a => (0, \u2191a)) <$> liftM (query 1 ())) =\n    do\n    let y \u2190 liftM (query 1 ())\n    (fun a => (0, \u2191y)) <$> liftM (query 0 ())",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Equiv.lean#L66"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Equiv.lean#L66"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-02-06T20:31:31-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "a801541edd9649eded53b9e21c81a8ab18e0c3fadf7e7ac1164d4604928b1a17"
+    "id": "385707a9b5a1b4c879255519cb98af23b868bdfd66a13a63b74b26039de81034"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21090,20 +21090,20 @@
     },
     "debug_info": {
       "goal": "case h.h.none\n\u22a2 (evalDist (OptionT.bind (liftM (query 1 ())) (OptionT.pure \u2218 fun a => (0, \u2191a)))) none =\n    \u2211' (a : Fin 2), 2\u207b\u00b9 * (evalDist (OptionT.bind (liftM (query 0 ())) (OptionT.pure \u2218 fun a_1 => (0, \u2191a)))) none",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Equiv.lean#L80"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Equiv.lean#L80"
     },
     "metadata": {
       "blame_email_hash": "d0850777cf0b",
       "blame_date": "2025-04-16T18:04:04-04:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "163759581883366a3b861c26036cc2bb20386f87b718a75b3737eb10ab0d9ecc"
+    "id": "b92017847a0a19596996833d09aaab730e01d51fa3e7a6420058070a72e05ec5"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21115,20 +21115,20 @@
     },
     "debug_info": {
       "goal": "case h.h.some.mk\nx y : \u2115\n\u22a2 (Option.elimM ((PMF.uniformOfFintype (Fin 1)).bind fun a => PMF.pure (some a)) (PMF.pure none)\n        (OptionT.run \u2218 evalDist \u2218 fun x => OptionT.bind (liftM (query 1 ())) (OptionT.pure \u2218 fun a => (0, \u2191a))))\n      (some (x, y)) =\n    (Option.elimM ((PMF.uniformOfFintype (Fin 2)).bind fun a => PMF.pure (some a)) (PMF.pure none)\n        (OptionT.run \u2218 evalDist \u2218 fun y => OptionT.bind (liftM (query 0 ())) (OptionT.pure \u2218 fun a => (0, \u2191y))))\n      (some (x, y))",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Equiv.lean#L85"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Equiv.lean#L85"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-02-06T20:31:31-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "1272bd9626485416fefe3564c745e0ef9ac5ce4d737aa1d1cefc0846d3b4a087"
+    "id": "f194fc129803a2bd52cd0caee751b2ee539cffe707cc3c0a85a124839e1245ed"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21140,20 +21140,20 @@
     },
     "debug_info": {
       "goal": "f : (i : \u2115) \u2192 unifSpec.domain i \u2192 Fin (i + 1)\n\u22a2 (some (f 0 ()) >>=\n      simulateQ\n          {\n            impl := fun {\u03b1} x =>\n              match \u03b1, x with\n              | .(unifSpec.range i), query i t => some (f i t) } \u2218\n        fun x => (fun a => (0, \u2191a)) <$> lift (query 1 ())) =\n    some (f 1 ()) >>=\n      simulateQ\n          {\n            impl := fun {\u03b1} x =>\n              match \u03b1, x with\n              | .(unifSpec.range i), query i t => some (f i t) } \u2218\n        fun y => (fun a => (0, \u2191y)) <$> lift (query 0 ())",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Equiv.lean#L102"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Equiv.lean#L102"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-02-06T20:31:31-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "cff4eadbfafd73ee70c4d279cf91962f1d73d24b7586b936cf61cf41cc78ef7e"
+    "id": "c4c23c0d97b5c2eb1cab8b3170c5b8f80b5897750ddd816727a7c3f5d2ba2a69"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21165,20 +21165,20 @@
     },
     "debug_info": {
       "goal": "R : Type\ninst\u271d\u2075 : CommRing R\nd : \u2115\ninst\u271d\u2074 : Fintype R\ninst\u271d\u00b3 : DecidableEq R\ninst\u271d\u00b2 : IsDomain R\n\u03c3 : Type\ninst\u271d\u00b9 : Fintype \u03c3\ninst\u271d : DecidableEq \u03c3\na : R[X \u03c3]\nha : \u2200 (s : \u03c3 \u2192\u2080 \u2115), \u00acMvPolynomial.coeff s a = 0 \u2192 \u2200 (i : \u03c3), s i \u2264 d\nb : R[X \u03c3]\nhb : \u2200 (s : \u03c3 \u2192\u2080 \u2115), \u00acMvPolynomial.coeff s b = 0 \u2192 \u2200 (i : \u03c3), s i \u2264 d\nhNe : \u00aca = b\n\u22a2 {q | (MvPolynomial.eval q) a = (MvPolynomial.eval q) b}.card \u2264 Fintype.card \u03c3 * d",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/OracleInterface.lean#L312"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/OracleInterface.lean#L312"
     },
     "metadata": {
       "blame_email_hash": "0c5d39c5ece3",
       "blame_date": "2025-03-09T23:22:53-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "8a0f9a20e209bc1f54df314b9e466df2a1cb4ee94bd4bf629c25973f02c12aec"
+    "id": "77bfdae5dfd1e09bd9ecfb6464beaadc95a633b3aab75bbfd91919923a72ba77"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21190,20 +21190,20 @@
     },
     "debug_info": {
       "goal": "\u03b9 : Type\nspec : OracleSpec \u03b9\nR : Type\ninst\u271d : CommSemiring R\nm : \u2115\nD : Fin m \u21aa R\np : R[X]\n\u22a2 \u2203 x,\n    ((OptionT.run (mapM (fun i => liftM (query (Sum.inr ()) (D i))) (List.finRange m))).mapM fun {\u03b1} =>\n          (statelessOracle spec [fun x => R[X]]\u2092 fun i q => oracle p q).impl) =\n        pure x \u2227\n      x.getM = pure (List.map (fun i => eval (D i) p) (List.finRange m))",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/OracleInterface.lean#L351"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/OracleInterface.lean#L351"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-02-06T20:02:30-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "abd1f27b98245cf28c4ad7ad682fa9946269c739f00d2b879811dfa2e8684ad2"
+    "id": "5200207ea58f04e38129aac7ebb6422f7136d0b4a89d0abc54fb892ab9f47a72"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21215,20 +21215,20 @@
     },
     "debug_info": {
       "goal": "R : Type\ninst\u271d\u00b9 : CommRing R\ninst\u271d : Sampleable R\np : R[X]\n\u22a2 (splitEvenOdd p).1.natDegree \u2264 p.natDegree / 2",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/CommitmentScheme/Fold.lean#L100"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/CommitmentScheme/Fold.lean#L100"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-11-26T16:07:07-07:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "df1e450701edce151303821867201a9b09f22bf70c524df00cbe70df49c8f939"
+    "id": "a04e1af54fa7776b07dfcefbbcae19e4e3e3e45ced10dde730d1b94a4eb62ae6"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21240,20 +21240,20 @@
     },
     "debug_info": {
       "goal": "R : Type\ninst\u271d\u00b9 : CommRing R\ninst\u271d : Sampleable R\np : R[X]\n\u22a2 (splitEvenOdd p).2.natDegree \u2264 p.natDegree / 2",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/CommitmentScheme/Fold.lean#L104"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/CommitmentScheme/Fold.lean#L104"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-11-26T16:07:07-07:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "fd8a2f4871c4e425f591c915a2fcbb71c1b880d47dcbc82b263c198a5c8661b0"
+    "id": "83d7b5106eb9a469c4d3dbcc920f41c508639f755707c7657ed8f12bde4bf8b9"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21265,20 +21265,20 @@
     },
     "debug_info": {
       "goal": "R : Type\ninst\u271d\u00b9 : CommRing R\ninst\u271d : Sampleable R\nn deg : \u2115\n\u03b6 : R\u02e3\nhPrim : IsPrimitiveRoot \u03b6 (2 ^ n)\np : \u21a5R\u2983< 2 * n\u2984[X]\npEven pOdd : R[X]\n\u22a2 pEven \u2208 R\u2983< n\u2984[X]",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/CommitmentScheme/Fold.lean#L116"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/CommitmentScheme/Fold.lean#L116"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-11-26T16:07:07-07:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "e445142bcbdd3817d73d5f21beafc0037169fc90cbd2e497efb336cb0048523e"
+    "id": "72c38c7c778adb969c1177dbce2072fb09f02c64f24d88e32d1ba6e2ed300cc1"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21290,14 +21290,14 @@
     },
     "debug_info": {
       "goal": "R : Type\ninst\u271d\u00b9 : CommRing R\ninst\u271d : Sampleable R\nn deg : \u2115\n\u03b6 : R\u02e3\nhPrim : IsPrimitiveRoot \u03b6 (2 ^ n)\np : \u21a5R\u2983< 2 * n\u2984[X]\npEven pOdd : R[X]\n\u22a2 pOdd \u2208 R\u2983< n\u2984[X]",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/CommitmentScheme/Fold.lean#L116"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/CommitmentScheme/Fold.lean#L116"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-11-26T16:07:07-07:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "7364216b86f535f05e1bf9f6b605da349733256019d436c3e92b5aa5fb1e875e"
+    "id": "308c011a315cefc3e73d235f867d6c7dc470f95432287ea92fd7821aa7e0a07f"
   },
   {
     "repo": {
@@ -21328,7 +21328,7 @@
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21340,20 +21340,20 @@
     },
     "debug_info": {
       "goal": "n : Type u_1\ninst\u271d\u00b2 : Fintype n\nR : Type u_2\ninst\u271d\u00b9 : DecidableEq R\nC : Set (n \u2192 R)\ninst\u271d : Fintype \u2191C\nh : \u00acSubsingleton \u2191C\n\u22a2 \u2016C\u2016\u2080' \u2260 \u22a4",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/CodingTheory/Basic.lean#L186"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/CodingTheory/Basic.lean#L186"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-10-13T15:41:38-06:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "a587cdc447a96adc7d8724d41bf07521fc8cefdf1220afc696122e5a76b3bdb8"
+    "id": "cf783a520f0506889f487116d9fff6f29744d362dff376c534d7ea162108bf27"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21365,20 +21365,20 @@
     },
     "debug_info": {
       "goal": "case neg\nn : Type u_1\ninst\u271d\u00b2 : Fintype n\nR : Type u_2\ninst\u271d\u00b9 : DecidableEq R\nC : Set (n \u2192 R)\ninst\u271d : Fintype \u2191C\nh : \u00acSubsingleton \u2191C\nthis : \u2016C\u2016\u2080' \u2260 \u22a4\n\u22a2 ENat.toNat (Finset.image (fun x => \u0394\u2080(\u2191x.1, \u2191x.2)) {p | \u00acp.1 = p.2}).min =\n    sInf {d | \u2203 u \u2208 C, \u2203 v \u2208 C, \u00acu = v \u2227 \u0394\u2080(u, v) \u2264 d}",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/CodingTheory/Basic.lean#L187"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/CodingTheory/Basic.lean#L187"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-10-13T15:41:38-06:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "447dabcdabd1fc92bdcd8d6b3ab0a106c586ce07be661f0625871e218596b793"
+    "id": "22e2de5c10e5bd92faa27fab9cd5d89000d5492a4596c077257b5680e6150a6f"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21390,20 +21390,20 @@
     },
     "debug_info": {
       "goal": "case e_a.h.h\u2081.intro.intro.intro.intro.intro\nn : Type u_1\ninst\u271d\u00b2 : Fintype n\nR : Type u_2\ninst\u271d\u00b9 : DecidableEq R\ninst\u271d : CommSemiring R\nC : Submodule R (n \u2192 R)\nd : \u2115\nu : n \u2192 R\nhu : u \u2208 C\nv : n \u2192 R\nhv : v \u2208 C\nhuv : \u00acu = v\nhDist : \u0394\u2080(u, v) \u2264 d\n\u22a2 \u2203 u \u2208 C, \u00acu = 0 \u2227 \u2016u\u2016\u2080 \u2264 d",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/CodingTheory/Basic.lean#L231"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/CodingTheory/Basic.lean#L231"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-10-13T15:41:38-06:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "b54217c0b8e01c9daed46d847c3eee40278bfa0ee0d576ce343941105f7193b5"
+    "id": "0136e865b42cdd8a152f671d40500cbe174000c1a112743a2ce525cc797a9378"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21415,20 +21415,20 @@
     },
     "debug_info": {
       "goal": "case e_a.h.h\u2082.intro.intro.intro\nn : Type u_1\ninst\u271d\u00b2 : Fintype n\nR : Type u_2\ninst\u271d\u00b9 : DecidableEq R\ninst\u271d : CommSemiring R\nC : Submodule R (n \u2192 R)\nd : \u2115\nu : n \u2192 R\nhu : u \u2208 C\nhNorm : \u00acu = 0\nhDist : \u2016u\u2016\u2080 \u2264 d\n\u22a2 \u2203 u \u2208 C, \u2203 v \u2208 C, \u00acu = v \u2227 \u0394\u2080(u, v) \u2264 d",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/CodingTheory/Basic.lean#L234"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/CodingTheory/Basic.lean#L234"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-10-13T15:41:38-06:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "a4fa0605d05978a24db8b10373fea337265948c819878f4d1015c4840adb1ff0"
+    "id": "5eec9d65b1c5edb761a90e0d67b31f06f9e8e32f88c1f1997a6beaa94a3faf91"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21440,20 +21440,20 @@
     },
     "debug_info": {
       "goal": "n : Type u_1\ninst\u271d\u00b2 : Fintype n\nR : Type u_2\ninst\u271d\u00b9 : DecidableEq R\ninst\u271d : Finite R\nC : Set (n \u2192 R)\n\u22a2 card \u2191C \u2264 card R ^ (card n - \u2016C\u2016\u2080 + 1)",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/CodingTheory/Basic.lean#L269"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/CodingTheory/Basic.lean#L269"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-10-26T22:44:38-04:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "e1a86c9efa89e255e1ce4337e7d4c002a90caff06d630b9b7b5d77a33cb574f7"
+    "id": "af371b5e5907f189659ea1ef6f1803fcdf4b3fb24d4b8da8eb8ce1bd7ff85542"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21465,20 +21465,20 @@
     },
     "debug_info": {
       "goal": "n : Type u_1\ninst\u271d\u00b3 : Fintype n\nR : Type u_2\ninst\u271d\u00b2 : DecidableEq R\ninst\u271d\u00b9 : Finite R\ninst\u271d : DivisionRing R\nC : Submodule R (n \u2192 R)\n\u22a2 Module.finrank R \u21a5C \u2264 card n - \u2016C.carrier\u2016\u2080 + 1",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/CodingTheory/Basic.lean#L275"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/CodingTheory/Basic.lean#L275"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-10-26T22:44:38-04:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "8a946c6a6a73d2ef9f29f83ed58c312a96c8c0a509ee7c896be2aa05ddd24670"
+    "id": "56ac21692ef3f9886bc6e2cb0ad6dd215fce3522ce2be0ddf7f34c947af916cf"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21490,20 +21490,20 @@
     },
     "debug_info": {
       "goal": "R : Type u_1\ninst\u271d : CommSemiring R\nn : \u2115\n\u22a2 Function.LeftInverse ofSpec toSpec",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/MlPoly/Equiv.lean#L34"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/MlPoly/Equiv.lean#L34"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-01-28T11:45:54-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "80c08ac9cf30ccdc1c5c9a586f247664bf5c24b9650343dc90ad778d88b8deaf"
+    "id": "1d49ba8969c77c0b3ea6d779b6b92f93a29ecdcb256614b80619bcc59653c39e"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21515,20 +21515,20 @@
     },
     "debug_info": {
       "goal": "R : Type u_1\ninst\u271d : CommSemiring R\nn : \u2115\n\u22a2 Function.RightInverse ofSpec toSpec",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/MlPoly/Equiv.lean#L35"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/MlPoly/Equiv.lean#L35"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-01-28T11:45:54-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "9babfd9d5672072aa475144a3f0bd71736c69f961c083d4e08ba9766745ff41f"
+    "id": "aaba4dc6bd90f9af2aadc22b8803e5a4ffd865cea5d8c0b1b96f47426616d0fb"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21540,20 +21540,20 @@
     },
     "debug_info": {
       "goal": "R : Type u_1\ninst\u271d : CommSemiring R\nn : \u2115\np q : MlPoly R n\n\u22a2 (p + q).toSpec = p.toSpec + q.toSpec",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/MlPoly/Equiv.lean#L43"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/MlPoly/Equiv.lean#L43"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-01-28T11:45:54-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "8a89df5dc969459291de31720a3808f5960e7162266b3de1ba2ddcd315a6ae14"
+    "id": "0b2bf8a622c30070ad60e74be76a5305c25ebd4ef58908040d5c22f052aa4223"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21565,20 +21565,20 @@
     },
     "debug_info": {
       "goal": "R : Type u_1\ninst\u271d\u00b9 : CommSemiring R\nn : \u2115\nS : Type u_2\ninst\u271d : CommSemiring S\nf : R \u2192+* S\np : MlPoly R n\nx : Vector S n\n\u22a2 p.eval\u2082 f x = MvPolynomial.eval\u2082 f x.get \u2191p.toSpec",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/MlPoly/Equiv.lean#L47"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/MlPoly/Equiv.lean#L47"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-01-28T11:45:54-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "150a228c15878fafeb2cae824c8a28cec4302ec2a9f770e10b57c1ef44e6eb4c"
+    "id": "4bc8db816555a96e007e00e582487f0dc2dafc0430df6f843c5ea06d2cfc4558"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21590,20 +21590,20 @@
     },
     "debug_info": {
       "goal": "R : Type u_1\ninst\u271d\u00b9 : Mul R\ninst\u271d : AddCommMonoid R\nn : \u2115\na : R\nb : Vector R n\nc : R\nd : Vector R n\n\u22a2 List.foldl (fun x1 x2 => x1 + x2) (a * c) (List.zipWith (fun x1 x2 => x1 * x2) b.toList d.toList) =\n    a * c + Array.foldl (fun x1 x2 => x1 + x2) 0 (Array.zipWith (fun x1 x2 => x1 * x2) b.toArray d.toArray) 0 n",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/MlPoly/Basic.lean#L77"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/MlPoly/Basic.lean#L77"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-02-14T11:09:39-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "a404031ba767e85ab6385d2213984568412556d61a6f4dea40aa9e046b244f2b"
+    "id": "b640e09d54f471d55f03e51da091ba0acd0cd6571f6c2634fb36114e74be806d"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21615,20 +21615,20 @@
     },
     "debug_info": {
       "goal": "R : Type u_1\ninst\u271d\u00b9 : Mul R\ninst\u271d : AddCommMonoid R\nn : \u2115\na : R\nb : Vector R n\nc : R\nd : Vector R n\n\u22a2 (cons a b).get \u2b1d\u1d65 (cons c d).get = a * c + b.get \u2b1d\u1d65 d.get",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/MlPoly/Basic.lean#L81"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/MlPoly/Basic.lean#L81"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-02-14T11:09:39-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "a3e5de2bec44c4c67c810911cc7eabae59867cb80e82aa2c5af1031bcb44de74"
+    "id": "32d4349d1b6f3f3e04c1329fe1cff609833f7fa3bfff9e529895286478e876a2"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21640,20 +21640,20 @@
     },
     "debug_info": {
       "goal": "R : Type u_1\nn : \u2115\ninst\u271d : AddCommMonoid R\n\u22a2 \u2200 (a b c : MlPoly R n), a + b + c = a + (b + c)",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/MlPoly/Basic.lean#L138"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/MlPoly/Basic.lean#L138"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-01-28T11:45:54-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "c18c95bbc2fe814882ef18cc63fa1b811e40d03598ccb19b76966af4542a0ede"
+    "id": "5649c34f428f0e08a39f8b315e8b87751c5fd3f3067095bc009828b087fd11f8"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21665,20 +21665,20 @@
     },
     "debug_info": {
       "goal": "R : Type u_1\nn : \u2115\ninst\u271d : AddCommMonoid R\n\u22a2 \u2200 (a : MlPoly R n), 0 + a = a",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/MlPoly/Basic.lean#L141"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/MlPoly/Basic.lean#L141"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-01-28T11:45:54-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "c015c815cb690a6d7f4b92089d8f9632acbbc1e37111f786ed4f6933dcd88ea8"
+    "id": "d10d74d1f3699790e61891177856a8e21fa3c0963af99f49a2c14acc0e8900ea"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21690,20 +21690,20 @@
     },
     "debug_info": {
       "goal": "R : Type u_1\nn : \u2115\ninst\u271d : AddCommMonoid R\n\u22a2 \u2200 (a : MlPoly R n), a + 0 = a",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/MlPoly/Basic.lean#L142"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/MlPoly/Basic.lean#L142"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-01-28T11:45:54-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "784e453f88a312437317f797ab1142aeae7b4c5f8a70a2f321453d5a50543625"
+    "id": "35441596be1699802eab6a0465358451864ffa85d77153f49d95c3da760ce99a"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21715,20 +21715,20 @@
     },
     "debug_info": {
       "goal": "R : Type u_1\nn : \u2115\ninst\u271d : AddCommMonoid R\n\u22a2 \u2200 (x : MlPoly R n), nsmul 0 x = 0",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/MlPoly/Basic.lean#L144"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/MlPoly/Basic.lean#L144"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-01-28T11:45:54-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "2fb0f28f6090f2e90a920c67a911c3dc711da58226748deb6bae9d81404da05f"
+    "id": "b7e89b305c3a2db4827b50fb99b0824c9557ee8b29864a7543abcf76a7bb86ca"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21740,20 +21740,20 @@
     },
     "debug_info": {
       "goal": "R : Type u_1\nn : \u2115\ninst\u271d : AddCommMonoid R\n\u22a2 \u2200 (n_1 : \u2115) (x : MlPoly R n), nsmul (n_1 + 1) x = nsmul n_1 x + x",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/MlPoly/Basic.lean#L145"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/MlPoly/Basic.lean#L145"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-01-28T11:45:54-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "fb885d5773e4500f887577b7ce06f89ccd22eb3453290f8ea5e07fdbd6c6c9d3"
+    "id": "82d4489e4a816140fac5e2c01b858f80e3ce29a9826376c32bb55f43ecfb7235"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21765,20 +21765,20 @@
     },
     "debug_info": {
       "goal": "R : Type u_1\nn : \u2115\ninst\u271d : AddCommMonoid R\n\u22a2 \u2200 (a b : MlPoly R n), a + b = b + a",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/MlPoly/Basic.lean#L139"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/MlPoly/Basic.lean#L139"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-01-28T11:45:54-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "ab7ebc2e5f27f5710a56ba17edea8001e3116cdc6aa5e6a497becbee07e96281"
+    "id": "a8e9e472041a10df5e30b08323c2467e34d03a1551de7d91a31afe5750d35082"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21790,20 +21790,20 @@
     },
     "debug_info": {
       "goal": "R : Type u_1\nn : \u2115\ninst\u271d : Semiring R\n\u22a2 \u2200 (b : MlPoly R n), 1 \u2022 b = b",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/MlPoly/Basic.lean#L151"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/MlPoly/Basic.lean#L151"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-01-28T11:45:54-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "53893e2609c9d56aaf8c739779a78764debbe76057e20dbe47f20cc694b3552d"
+    "id": "a6af2b837b67cb9787beb57b055d87cdfd4dbd5dff5d8d14dabe256c2daa283e"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21815,20 +21815,20 @@
     },
     "debug_info": {
       "goal": "R : Type u_1\nn : \u2115\ninst\u271d : Semiring R\n\u22a2 \u2200 (x : MlPoly R n), 0 \u2022 x = 0",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/MlPoly/Basic.lean#L156"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/MlPoly/Basic.lean#L156"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-01-28T11:45:54-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "8aa633a429ff718420d5eeca5603a70a1c5a7d930b0674640ec5952b2f9218a0"
+    "id": "677ea3dde0cc4918b84b989c16046af1827285a929117f9793249548ff54612d"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21840,20 +21840,20 @@
     },
     "debug_info": {
       "goal": "n : \u2115\n\u03b1 : Fin n \u2192 Sort u\nl : List \u2115\nn' : \u2115\nl' : List \u2115\nmotive : Fin (n' :: l').sum \u2192 Sort u_1\ncases : (n : \u2115) \u2192 (h : n \u2208 n' :: l') \u2192 (i : Fin n) \u2192 motive (castSum (n' :: l') h i)\ni : Fin (n' + l'.sum)\nhi : \u00ac\u2191i < n'\n\u22a2 \u2191i - n' < l'.sum",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/Math/Fin.lean#L374"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/Math/Fin.lean#L374"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-11-07T14:25:30-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "cff7fee3ea1f37ffad5f1db966cfc74ab9faf013b514e2cc5e8e491e6af87186"
+    "id": "be09573e0c6c349a0f309df1380f2b4987849c9493a39b964bb9fedc81826bf0"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21865,20 +21865,20 @@
     },
     "debug_info": {
       "goal": "case ind\nn\u271d n : \u2115\nIH : \u2200 m < n, \u2200 {a : Fin m \u2192 \u2115}, (List.ofFn fun i => List.ofFn (ranges a i)) = (List.ofFn a).ranges\na : Fin n \u2192 \u2115\n\u22a2 (List.ofFn fun i => List.ofFn (ranges a i)) = (List.ofFn a).ranges",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/Math/Fin.lean#L402"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/Math/Fin.lean#L402"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-11-11T17:39:02-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "15770b80b5e422cb09985af259d2ca3cda9cb9dd2192c8b1da47843f344a344b"
+    "id": "8779c3defe1b521da171e31173d3c8afa487cd6bbc2c79f4b81a1aa7a1d3c758"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21890,20 +21890,20 @@
     },
     "debug_info": {
       "goal": "\u22a2 True",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/Math/Fin.lean#L497"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/Math/Fin.lean#L497"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-11-11T17:39:02-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "f24e6412a1ac863e6c7c02a4ecf365f9a8c56d616cc883755e5b156558b74ad2"
+    "id": "c9ac30c4edeb9a18ff3985771fc9e130c4c8c93ce1f1b1095edeec5311b830bc"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21915,20 +21915,20 @@
     },
     "debug_info": {
       "goal": "l : List \u2115\nj a : \u2115\nl' : List \u2115\nh : j < a + l'.sum\n\u22a2 \u2203 n, (a :: l').findSum j = some n",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/Math/Fin.lean#L557"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/Math/Fin.lean#L557"
     },
     "metadata": {
       "blame_email_hash": "d0850777cf0b",
       "blame_date": "2025-03-14T00:01:07-04:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "80c2a106bbe1b6f619037d9efcbe51d5b03ebd56036c705230679f6a6426a5be"
+    "id": "ee6f44e72051943c4d7eee240535cafdbfe0735ecffac4634960347da8e15c42"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21940,20 +21940,20 @@
     },
     "debug_info": {
       "goal": "\u03b1 : Type u_1\ninst\u271d\u00b2 : AddMonoid \u03b1\ninst\u271d\u00b9 : Preorder \u03b1\ninst\u271d : DecidableRel fun x1 x2 => x1 < x2\nl : List \u2115\nj : Fin l.sum\n\u22a2 l.findSumIdx \u2191j < l.length",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/Math/Fin.lean#L569"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/Math/Fin.lean#L569"
     },
     "metadata": {
       "blame_email_hash": "d0850777cf0b",
       "blame_date": "2025-03-14T00:01:07-04:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "5a56db78aa2f9d8cfdc38372470ed1a70eba1d5751aaa3dbc041bafb705924c2"
+    "id": "e648f1947ac1d9d4ce4e2e05455722f54cf5aee065b1545478757ad13b1e0608"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21965,20 +21965,20 @@
     },
     "debug_info": {
       "goal": "\u03b1 : Type u_1\nunit : \u03b1\nl l' : List \u03b1\nm n n' : \u2115\nh : n \u2264 m\nh' : n' \u2264 m\nhEq : rightpad n unit l = rightpad n' unit l'\nhLen : n \u2294 l.length = n' \u2294 l'.length\n\u22a2 l ++ replicate (n - l.length + (m - n' \u2294 l'.length)) unit =\n    l' ++ replicate (n' - l'.length + (m - n' \u2294 l'.length)) unit",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/Math/Operations.lean#L155"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/Math/Operations.lean#L155"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-10-13T15:41:38-06:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "10837cb74e24daa553eaf71a420b86e072d6ab9c4e928f60cf59b052d6db65ba"
+    "id": "3d7b557b16d8245fb84bd12a57d0ca83fd5620fcc4f6eb41af555cade0bbe965"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -21990,20 +21990,20 @@
     },
     "debug_info": {
       "goal": "\u03b1 : Type u_1\nl\u2081 l\u2082 : List \u03b1\nunit : \u03b1\n\u22a2 (fun x =>\n        match x with\n        | (x, y) => x = y)\n      (l\u2081.matchSize l\u2082 unit) \u2194\n    \u2200 (i : \u2115), l\u2081.getD i unit = l\u2082.getD i unit",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/Math/Operations.lean#L209"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/Math/Operations.lean#L209"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-10-14T17:35:17-06:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "eedd4fb227e4fb577a2abb91bb3399d9a39a8a6139ffb2d7b0e96cdc41eb7361"
+    "id": "32556bf039527b058f217f3780e099e436d9fbc44c366e36b247a4e6fcc4e8ac"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -22015,20 +22015,20 @@
     },
     "debug_info": {
       "goal": "\u03b1 : Type u_1\na : Array \u03b1\nn : \u2115\nunit : \u03b1\ni : \u2115\nh\u271d : i < (rightpad n unit a).size\nh : i < { toList := List.rightpad n unit a.toList }.size\n\u22a2 { toList := List.rightpad n unit a.toList }[i] = a.getD i unit",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/Math/Operations.lean#L257"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/Math/Operations.lean#L257"
     },
     "metadata": {
       "blame_email_hash": "0c5d39c5ece3",
       "blame_date": "2025-03-09T23:22:53-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "d3588d44a063f6cbd6789e17af6d83dd75e47ce51613c1c410b61e51f8e88b5d"
+    "id": "d945008a024e2ffe451c5b85458ae77fa9a31850c094777996e1fcc352f9c5e6"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -22040,20 +22040,20 @@
     },
     "debug_info": {
       "goal": "\u03b1 : Type u_1\np : \u03b1 \u2192 Bool\nas : Array \u03b1\nh : (popWhile p as).size > 0\n\u22a2 \u00acp ((popWhile p as).getLast h) = true",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/Math/Operations.lean#L391"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/Math/Operations.lean#L391"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-10-14T17:35:17-06:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "9e7bd9cd611c48f9010a8124e6517944a01ae4130394e64d29ddd3f6081b3730"
+    "id": "6069cfb46d6f324f53e1bb11f7fca312b115c8621920955be3e78fb5033fa857"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -22065,20 +22065,20 @@
     },
     "debug_info": {
       "goal": "R : Type u_1\ninst\u271d : CommSemiring R\n\u03c3 : Type u_3\n\u03c3\u2081 : Type u_4\n\u03c3\u2082 : Type u_5\nx : \u03c3\u2081 \u2192 R\nf : \u03c3 \u2192 \u03c3\u2081 \u2295 \u03c3\u2082\np : R[X \u03c3]\nb : \u03c3\u2081 \u2192\u2080 \u2115\nh : \u00accoeff b ((sumToIter R \u03c3\u2081 \u03c3\u2082) ((rename f) p)) = 0\n\u22a2 (coeff b ((sumToIter R \u03c3\u2081 \u03c3\u2082) ((rename f) p))).degrees \u2264 Multiset.filterMap Sum.getRight? (Multiset.map f p.degrees)",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/MvPolynomial/Sumcheck.lean#L75"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/MvPolynomial/Sumcheck.lean#L75"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-10-16T12:52:41-06:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "dfe4dee8acd2dd9e45d5628c5b84e5b0e71658f0b3c863cfec5bcf5386e9385a"
+    "id": "cd937d8045795f453b69afeb5fec57b089b56602f55831dbb5b60e9d24ef5243"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -22090,20 +22090,20 @@
     },
     "debug_info": {
       "goal": "R : Type u_1\ninst\u271d : CommSemiring R\nn : \u2115\nh : n > 0\nD : Fin (n - 1) \u2192 Finset R\np : R[X Fin n]\n\u22a2 ((sumExceptFirst' n h D) p).degree \u2264 \u2191(degreeOf \u27e80, h\u27e9 p)",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/MvPolynomial/Sumcheck.lean#L112"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/MvPolynomial/Sumcheck.lean#L112"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-09-13T15:50:48-04:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "ebea3bc22169cd4e95e10a074cd20ea12949bd3cecc39c10ecc1a2f945912dda"
+    "id": "3103d0ae22803b574ea7c9055b647cc1b1fbaf9ec95c6e66563ffd3c7627619b"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -22115,20 +22115,20 @@
     },
     "debug_info": {
       "goal": "\u03c3 : Type u_1\ninst\u271d\u2074 : DecidableEq \u03c3\ninst\u271d\u00b3 : Fintype \u03c3\nR : Type u_2\ninst\u271d\u00b2 : CommRing R\ninst\u271d\u00b9 : IsDomain R\ninst\u271d : DecidableEq R\np : R[X \u03c3]\nhp : p \u2260 0\nS : \u03c3 \u2192 Finset R\n\u22a2 \u2191(#({x \u2208 p.vars.pi S | (eval (extendDomain x)) p = 0})) / \u220f i \u2208 p.vars, \u2191(#(S i)) \u2264\n    \u2211 i \u2208 p.vars, \u2191(degreeOf i p) / \u2191(#(S i))",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/MvPolynomial/Interpolation.lean#L69"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/MvPolynomial/Interpolation.lean#L69"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-10-30T15:40:43-04:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "3a42108eeed9f7073a21c1b2a37954db32497dac239970f00e91d588c82e317e"
+    "id": "70d3a6a8d3d04ee97ebbaef1c6728e8727be8f703b75971a0efe2c7c49aed3aa"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -22140,14 +22140,14 @@
     },
     "debug_info": {
       "goal": "\u03c3 : Type u_1\ninst\u271d\u00b3 : DecidableEq \u03c3\ninst\u271d\u00b2 : Fintype \u03c3\nR : Type u_2\ninst\u271d\u00b9 : CommRing R\ninst\u271d : IsDomain R\np q : R[X \u03c3]\nS : \u03c3 \u2192 Finset R\nhDegree : \u2200 (i : \u03c3), degreeOf i p < #(S i)\nhEval : \u2200 x \u2208 piFinset fun i => S i, (eval x) p = (eval x) q\n\u22a2 p = q",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/MvPolynomial/Interpolation.lean#L171"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/MvPolynomial/Interpolation.lean#L171"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-10-30T15:40:43-04:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "85858bcbd12140050efea0985c151027b0dc4a9200e63afc24f535b0ea6afd57"
+    "id": "48fcee153751f08c6e97aef1710419ab9ce60b59f2a3fdae0d91fee47c42eccf"
   },
   {
     "repo": {
@@ -22303,7 +22303,7 @@
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -22315,20 +22315,20 @@
     },
     "debug_info": {
       "goal": "Q : Type u_2\ninst\u271d : Ring Q\np q : UniPoly Q\ni : \u2115\nhi : i < Array.size (p.add_raw q)\n\u22a2 (p ++ mkArray (Array.size q - Array.size p) 0)[i] + (q ++ mkArray (Array.size p - Array.size q) 0)[i] =\n    p[i]?.getD 0 + q[i]?.getD 0",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/UniPoly/Basic.lean#L571"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/UniPoly/Basic.lean#L571"
     },
     "metadata": {
       "blame_email_hash": "0c5d39c5ece3",
       "blame_date": "2025-03-09T23:22:53-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "1f800e67738339f0caa4aab6c583de31d51150f5ffba44c35aa2dd3afdf0321e"
+    "id": "50c99598f1d6f27a6ec9f73ef2a04d87c29a57f5a8f588ceb4f3dd9a3fcac943"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -22340,20 +22340,20 @@
     },
     "debug_info": {
       "goal": "Q : Type u_2\ninst\u271d : Ring Q\np q r : UniPoly Q\nhpq : p ++ mkArray (Array.size q - Array.size p) 0 = q ++ mkArray (Array.size p - Array.size q) 0\nhqr : q ++ mkArray (Array.size r - Array.size q) 0 = r ++ mkArray (Array.size q - Array.size r) 0\n\u22a2 p ++ mkArray (Array.size r - Array.size p) 0 = r ++ mkArray (Array.size p - Array.size r) 0",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/UniPoly/Basic.lean#L899"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/UniPoly/Basic.lean#L899"
     },
     "metadata": {
       "blame_email_hash": "0c5d39c5ece3",
       "blame_date": "2025-03-09T23:22:53-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "052506347174c76040597d271f284d4880ab800889f07205143196dfe2542e77"
+    "id": "c4c488e7c12b672866fb96311d6394f3b848d83c9ed8049a103fb5a408cfc6aa"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -22365,20 +22365,20 @@
     },
     "debug_info": {
       "goal": "R : Type\ninst\u271d\u00b9 : Ring R\ninst\u271d : BEq R\np : UniPoly R\n\u22a2 (p.toPoly, Tropical.trop (OrderDual.toDual p.degreeBound)) \u2208 TropicallyBoundPoly R",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/UniPoly/Basic.lean#L975"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/UniPoly/Basic.lean#L975"
     },
     "metadata": {
       "blame_email_hash": "ab200eba5736",
       "blame_date": "2025-03-12T19:59:09-07:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "122fca6382ba512620332e67b5f1fc7a88c296d5732e74b8f0965760940e68a8"
+    "id": "b1bb8b43d190cad0ae8662a722da194c9514546acfdddb34a40ce04de33c299d"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -22390,20 +22390,20 @@
     },
     "debug_info": {
       "goal": "R : Type\ninst\u271d\u00b9 : BEq R\ninst\u271d : Ring R\n\u22a2 Function.RightInverse TropicallyBoundPolynomial.toUniPoly UniPoly.toTropicallyBoundPolynomial",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/UniPoly/Basic.lean#L1005"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/UniPoly/Basic.lean#L1005"
     },
     "metadata": {
       "blame_email_hash": "94b4cc0e139f",
       "blame_date": "2024-05-31T16:31:08-04:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "6bcbeb117745517717e795f2bc31fa924872363d00b70f92a4c005b5a252db75"
+    "id": "d80fed6a0dd5fb09ff59340280bc493d2c5d97536eb98d4b85fc1b99675e8fed"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -22415,20 +22415,20 @@
     },
     "debug_info": {
       "goal": "R : Type\ninst\u271d\u00b9 : BEq R\ninst\u271d : Ring R\n\u22a2 \u2200 (x y : UniPoly R),\n    { toFun := UniPoly.toTropicallyBoundPolynomial, invFun := TropicallyBoundPolynomial.toUniPoly, left_inv := \u22ef,\n            right_inv := \u22ef }.toFun\n        (x * y) =\n      { toFun := UniPoly.toTropicallyBoundPolynomial, invFun := TropicallyBoundPolynomial.toUniPoly, left_inv := \u22ef,\n              right_inv := \u22ef }.toFun\n          x *\n        { toFun := UniPoly.toTropicallyBoundPolynomial, invFun := TropicallyBoundPolynomial.toUniPoly, left_inv := \u22ef,\n              right_inv := \u22ef }.toFun\n          y",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/UniPoly/Basic.lean#L1006"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/UniPoly/Basic.lean#L1006"
     },
     "metadata": {
       "blame_email_hash": "94b4cc0e139f",
       "blame_date": "2024-05-31T16:31:08-04:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "76fd922cd429b7517e0cc49c0212c62c4b4309ac54c3df50bb9270208b3e0be4"
+    "id": "d93152020de69636ee61b53a9382e4ccdee0b82bb4ba52017a28852a15107756"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -22440,20 +22440,20 @@
     },
     "debug_info": {
       "goal": "R : Type\ninst\u271d\u00b9 : BEq R\ninst\u271d : Ring R\n\u22a2 \u2200 (x y : UniPoly R),\n    { toFun := UniPoly.toTropicallyBoundPolynomial, invFun := TropicallyBoundPolynomial.toUniPoly, left_inv := \u22ef,\n            right_inv := \u22ef }.toFun\n        (x + y) =\n      { toFun := UniPoly.toTropicallyBoundPolynomial, invFun := TropicallyBoundPolynomial.toUniPoly, left_inv := \u22ef,\n              right_inv := \u22ef }.toFun\n          x +\n        { toFun := UniPoly.toTropicallyBoundPolynomial, invFun := TropicallyBoundPolynomial.toUniPoly, left_inv := \u22ef,\n              right_inv := \u22ef }.toFun\n          y",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/UniPoly/Basic.lean#L1007"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/UniPoly/Basic.lean#L1007"
     },
     "metadata": {
       "blame_email_hash": "94b4cc0e139f",
       "blame_date": "2024-05-31T16:31:08-04:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "003aa22d2c12e23f453c89c6b70106693a267d2a56f847693225c8aca4915776"
+    "id": "6dd2fb4bea58ce68b27b033b5e539c099b5c7c9bb3113f509b98a484043babf8"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -22465,20 +22465,20 @@
     },
     "debug_info": {
       "goal": "case h\nm n : \u2115\npSpec\u2081 : ProtocolSpec m\npSpec\u2082 : ProtocolSpec n\nT : pSpec\u2081.FullTranscript\nT' : pSpec\u2082.FullTranscript\ni : Fin m\n\u22a2 _root_.cast \u22ef (T i) = (\u22ef \u25b8 T) i",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Composition/Sequential.lean#L254"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Composition/Sequential.lean#L254"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-11-07T12:49:22-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "54e7a6a2f5e8b2b073dc258c7c460b06a65e320a135a6168aec11eb17ca59112"
+    "id": "b4cf6ab8308056e13a712819cf3b9b3f86d7ec3766f2776d0160d5e18f593e58"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -22490,20 +22490,20 @@
     },
     "debug_info": {
       "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u22a2 (compose 0 (fun x => n) fun x => pSpec) = pSpec",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Composition/Sequential.lean#L559"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Composition/Sequential.lean#L559"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-01-18T18:57:31+07:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "59fc213c7a70cec230cb05791f3128e73733ee1af0ade5e639b4710856e8aa5e"
+    "id": "7184a04a9dcc70a7b65c84ce9ff50f9b9b5d4b1c5ab2f33ae200d0f08f522f36"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -22515,14 +22515,14 @@
     },
     "debug_info": {
       "goal": "m : \u2115\nn : Fin (m + 1) \u2192 \u2115\npSpec : (i : Fin (m + 1)) \u2192 ProtocolSpec (n i)\ni : Fin m\n\u22a2 compose (\u2191i + 1) (Fin.take (\u2191i + 2) \u22ef n) (Fin.take (\u2191i + 2) \u22ef pSpec) =\n    cast \u22ef (compose (\u2191i) (Fin.take (\u2191i + 1) \u22ef n) (Fin.take (\u2191i + 1) \u22ef pSpec) ++\u209a pSpec i.succ)",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Composition/Sequential.lean#L575"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Composition/Sequential.lean#L575"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-12-06T19:22:58-03:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "20205b23ea43649d03a6ba71556e3f698a0a23f64bfd86bb01e8e52a0cd9a6ae"
+    "id": "5f9ebc7dfc86facf702165963fe73cb0e4bbe8ae6b325aece2a8ddc18d725e2a"
   },
   {
     "repo": {
@@ -22728,7 +22728,7 @@
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -22740,14 +22740,14 @@
     },
     "debug_info": {
       "goal": "x\u271d\u00b3 : StmtIn\nx\u271d\u00b2 : Unit\nx\u271d\u00b9 : StmtOut'\nx\u271d : Unit\np q : \u2124[X]\nt : \u2124\nf : \u2124[X]\nt' r : \u2124\nhRelOut' : eval r f = t'\nhRelIn : eval 0 p * eval 0 q + eval 1 p * eval 1 q = t\n\u22a2 eval r p * eval r q = t'",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Composition/Virtual.lean#L278"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Composition/Virtual.lean#L278"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-02-06T20:31:31-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "6d7160e56b59d10c07fa6a7409c3c244556e3ad193bb9899fcc6b32a5a66f34a"
+    "id": "f450a60b5bf8d39d999a099c6dda7f59cc6666a3e917bef339066e7ed820f8b6"
   },
   {
     "repo": {
@@ -22978,7 +22978,7 @@
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -22990,20 +22990,20 @@
     },
     "debug_info": {
       "goal": "R\u271d : Type\ninst\u271d\u2075 : CommSemiring R\u271d\nn\u271d deg\u271d m\u271d : \u2115\nD\u271d : Fin m\u271d \u21aa R\u271d\n\u03b9\u271d : Type\noSpec\u271d : OracleSpec \u03b9\u271d\ninst\u271d\u2074 : VCVCompatible R\u271d\nR : Type\ninst\u271d\u00b3 : CommSemiring R\ninst\u271d\u00b2 : VCVCompatible R\nn deg m : \u2115\nD : Fin m \u21aa R\n\u03b9 : Type\noSpec : OracleSpec \u03b9\ni\u271d : Fin (n + 1)\ninst\u271d\u00b9 : DecidableEq \u03b9\ninst\u271d : oSpec.FiniteRange\ni : Fin (n + 1)\nstmt : Statement R n i.castSucc \u00d7 ((i : Fin 1) \u2192 OracleStatement R n deg i)\ntr : Transcript (Fin.last 2) (pSpec R deg)\nhFalse :\n  \u00acrelation R n deg D i.succ ({ target := stmt.1.target, challenges := Fin.snoc stmt.1.challenges (tr 1) }, stmt.2) ()\n\u22a2 \u2200 (a : Statement R n i.succ) (b : (i : Fin 1) \u2192 OracleStatement R n deg i),\n    (a, b) \u2208 (Verifier.run stmt tr (verifier R n deg D oSpec i)).support \u2192\n      \u2200 (x : Unit), \u00acrelation R n deg D i.succ (a, b) x",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/ProofSystem/Sumcheck/Basic.lean#L571"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/ProofSystem/Sumcheck/Basic.lean#L571"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-02-06T20:02:30-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "f64a1f15f4b16b6ce4bed38c0ec5c6349c8b1858ddd661d75eeab71581a67273"
+    "id": "972278824d0ac6f5cf311ee0b21fa5c2ae972d9f530ebe9b763986f5f5070b5d"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -23015,14 +23015,14 @@
     },
     "debug_info": {
       "goal": "R : Type\ninst\u271d\u00b9 : CommSemiring R\nn deg m : \u2115\nD : Fin m \u21aa R\ninst\u271d : VCVCompatible R\n\u22a2 OracleReduction.perfectCompleteness (relIn R n deg D) (relOut R n deg) (reduction R n deg)",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/ProofSystem/Sumcheck/Basic.lean#L646"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/ProofSystem/Sumcheck/Basic.lean#L646"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-02-24T11:52:07-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "14ea87784fd3f92a4bdfc67a404ca33f09765db81cb22ed4dd02783545d696c1"
+    "id": "d4a9f1c84717b74f0c3a246277ce9dc840d5203b71c17fdb2a7b89d1009a6efa"
   },
   {
     "repo": {
@@ -23153,7 +23153,7 @@
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -23165,20 +23165,20 @@
     },
     "debug_info": {
       "goal": "\u03b9 : Type\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut : Type\npSpec : ProtocolSpec 1\ninst\u271d : pSpec.ProverOnly\nstmt : StmtIn\nwit : WitIn\nreduction : Reduction pSpec oSpec StmtIn WitIn StmtOut WitOut\n\u22a2 (do\n      let __discr \u2190\n        (fun a =>\n              ((reduction.prover.toProverOut.1 a.2).1, (reduction.prover.toProverOut.1 a.2).2, fun i =>\n                match i with\n                | \u27e80, isLt\u27e9 => a.1)) <$>\n            (reduction.prover.sendMessage \u27e80, \u22ef\u27e9 (reduction.prover.input stmt wit)).liftComp\n              (oSpec ++\u2092 [pSpec.Challenge]\u2092)\n      ((fun a => ((__discr.1, __discr.2.1), a, __discr.2.2)) <$> reduction.verifier.verify stmt __discr.2.2).liftComp\n          (oSpec ++\u2092 [pSpec.Challenge]\u2092)) =\n    do\n    let __discr \u2190\n      (reduction.prover.sendMessage \u27e80, \u22ef\u27e9 (reduction.prover.input stmt wit)).liftComp (oSpec ++\u2092 [pSpec.Challenge]\u2092)\n    ((fun a =>\n              (reduction.prover.toProverOut.1 __discr.2, a, fun i =>\n                match i with\n                | \u27e80, isLt\u27e9 => __discr.1)) <$>\n            reduction.verifier.verify stmt fun i =>\n              match i with\n              | \u27e80, isLt\u27e9 => __discr.1).liftComp\n        (oSpec ++\u2092 [pSpec.Challenge]\u2092)",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Execution.lean#L278"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Execution.lean#L278"
     },
     "metadata": {
       "blame_email_hash": "0c5d39c5ece3",
       "blame_date": "2025-03-09T23:22:53-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "3c400f4a30165069ee5a3e7a5fb141c14c0bfe7309f3446df67d54ab40062c85"
+    "id": "09b28f441fccfe97242d7e858b48cfefff93a962ff1e6b18692d69d27f6c0af4"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -23190,14 +23190,14 @@
     },
     "debug_info": {
       "goal": "case succ\n\u03b1 : Type\ninst\u271d\u00b2 : DecidableEq \u03b1\ninst\u271d\u00b9 : Inhabited \u03b1\ninst\u271d : Fintype \u03b1\nhash : \u03b1 \u00d7 \u03b1 \u2192 \u03b1\nn : \u2115\nih :\n  \u2200 (leaves : List.Vector \u03b1 (2 ^ n)) (i : Fin (2 ^ n)),\n    (simulateQ (implement_with_function \u03b1 hash)\n        (do\n          let cache \u2190 buildMerkleTree \u03b1 n leaves\n          let proof : List.Vector \u03b1 n := generateProof \u03b1 i cache\n          verifyProof \u03b1 i leaves[i] (getRoot \u03b1 cache) proof\n          pure PUnit.unit)\n        ()).neverFails\nleaves : List.Vector \u03b1 (2 ^ (n + 1))\ni : Fin (2 ^ (n + 1))\n\u22a2 ((((Option.elimM (OptionT.run (buildMerkleTree \u03b1 (n + 1) leaves)) (FreeMonad.pure none)\n              (OptionT.run \u2218 fun cache =>\n                verifyProof \u03b1 i (leaves.get i) (getRoot \u03b1 cache) (generateProof \u03b1 i cache))).mapM\n          fun {\u03b1_1} q =>\n          match \u03b1_1, q with\n          | .((spec \u03b1).range i), query i (left, right) => pure (hash (left, right))) >>=\n        fun __do_lift => __do_lift.getM)\n      ()).neverFails",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/CommitmentScheme/MerkleTree.lean#L219"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/CommitmentScheme/MerkleTree.lean#L219"
     },
     "metadata": {
       "blame_email_hash": "ab200eba5736",
       "blame_date": "2025-04-16T13:24:09-07:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "eaa215403f3c4f58f8591897d592c6543a7ce6e5282df62ae2a671dd7bc284c4"
+    "id": "787c7fd5cf6dc5b7ce252da53374d0a2d2c8329b95f78a1a0f7454e1bdf91b66"
   },
   {
     "repo": {
@@ -23353,7 +23353,7 @@
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -23365,20 +23365,20 @@
     },
     "debug_info": {
       "goal": "case left\nR : Type\ninst\u271d\u00b3 : CommSemiring R\ninst\u271d\u00b2 : VCVCompatible R\nn deg m : \u2115\nD : Fin m \u21aa R\n\u03b9 : Type\noSpec : OracleSpec \u03b9\ni : Fin (n + 1)\ninst\u271d\u00b9 : DecidableEq \u03b9\ninst\u271d : oSpec.FiniteRange\ntarget : R\nchallenge : Fin \u2191i.castSucc \u2192 R\noStmt : (i : Fin 1) \u2192 OracleStatement R n deg i\nwitIn\u271d : Unit\nhValid :\n  \u2211 x \u2208 Fintype.piFinset fun i => Finset.map D univ,\n      (MvPolynomial.eval (Fin.append challenge x \u2218 Fin.cast \u22ef)) \u2191(oStmt 0) =\n    target\n\u22a2 (do\n      let x \u2190\n        ({ prover := prover R n deg D oSpec i,\n                        verifier := oracleVerifier R n deg D oSpec i }.toReduction.prover.sendMessage\n                \u27e80, \u22ef\u27e9\n                ({ prover := prover R n deg D oSpec i,\n                          verifier := oracleVerifier R n deg D oSpec i }.toReduction.prover.input\n                  ({ target := target, challenges := challenge }, oStmt) witIn\u271d)).liftComp\n            (oSpec ++\u2092 [(pSpec R deg).Challenge]\u2092)\n      let a \u2190 liftM (query (Sum.inr \u27e81, \u22ef\u27e9) ())\n      (fun a_1 =>\n            ({ prover := prover R n deg D oSpec i,\n                          verifier := oracleVerifier R n deg D oSpec i }.toReduction.prover.toProverOut.1\n                ({ prover := prover R n deg D oSpec i,\n                          verifier := oracleVerifier R n deg D oSpec i }.toReduction.prover.receiveChallenge\n                  \u27e81, \u22ef\u27e9 x.2 a),\n              a_1, Transcript.snoc a (Transcript.snoc x.1 default))) <$>\n          (Verifier.run ({ target := target, challenges := challenge }, oStmt)\n                (Transcript.snoc a (Transcript.snoc x.1 default))\n                { prover := prover R n deg D oSpec i,\n                      verifier := oracleVerifier R n deg D oSpec i }.toReduction.verifier).liftComp\n            (oSpec ++\u2092 [(pSpec R deg).Challenge]\u2092)).neverFails",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/ProofSystem/Sumcheck/Basic.lean#L513"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/ProofSystem/Sumcheck/Basic.lean#L513"
     },
     "metadata": {
       "blame_email_hash": "0c5d39c5ece3",
       "blame_date": "2025-03-09T23:22:53-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "6ce1c56395a4b5951d2edecc60c61f78bc332cfbc0c080e8399c1ec58d4a679a"
+    "id": "3c215078ff51babcaa5e2dcae9fb16a36e7246ff4683aca656e6a86f371d0561"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -23390,14 +23390,14 @@
     },
     "debug_info": {
       "goal": "case right\nR : Type\ninst\u271d\u00b3 : CommSemiring R\ninst\u271d\u00b2 : VCVCompatible R\nn deg m : \u2115\nD : Fin m \u21aa R\n\u03b9 : Type\noSpec : OracleSpec \u03b9\ni : Fin (n + 1)\ninst\u271d\u00b9 : DecidableEq \u03b9\ninst\u271d : oSpec.FiniteRange\ntarget : R\nchallenge : Fin \u2191i.castSucc \u2192 R\noStmt : (i : Fin 1) \u2192 OracleStatement R n deg i\nwitIn\u271d : Unit\nhValid :\n  \u2211 x \u2208 Fintype.piFinset fun i => Finset.map D univ,\n      (MvPolynomial.eval (Fin.append challenge x \u2218 Fin.cast \u22ef)) \u2191(oStmt 0) =\n    target\n\u22a2 \u2200 (a : Statement R n i.succ) (b : (i : Fin 1) \u2192 OracleStatement R n deg i) (b_1 : Unit) (a_1 : Statement R n i.succ)\n    (b_2 : (i : Fin 1) \u2192 OracleStatement R n deg i) (b_3 : (pSpec R deg).FullTranscript),\n    (((a, b), b_1), (a_1, b_2), b_3) \u2208\n        (run ({ target := target, challenges := challenge }, oStmt) witIn\u271d\n            { prover := prover R n deg D oSpec i, verifier := oracleVerifier R n deg D oSpec i }.toReduction).support \u2192\n      (match (a_1, b_2) with\n        | ({ target := target, challenges := challenges }, oStmt) =>\n          match oStmt 0 with\n          | \u27e8poly, property\u27e9 =>\n            \u2211 x \u2208 Fintype.piFinset fun i => Finset.map D univ,\n                (MvPolynomial.eval (Fin.append challenges x \u2218 Fin.cast \u22ef)) poly =\n              target) \u2227\n        (a, b) = (a_1, b_2)",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/ProofSystem/Sumcheck/Basic.lean#L522"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/ProofSystem/Sumcheck/Basic.lean#L522"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-01-18T19:07:20+07:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "8460f8bec6acc7f568141d284d3721e8b4807a7e90841144c0c9b3351d5ca232"
+    "id": "b718e33e2e072d3dc5e6ef9efda8456feca1795bcb6a01d4580af88b7c5e503c"
   },
   {
     "repo": {
@@ -47278,7 +47278,7 @@
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47290,20 +47290,20 @@
     },
     "debug_info": {
       "goal": "\u03b9 : Type\noSpec : OracleSpec \u03b9\nStatement Witness \u03b9\u209b\u1d62 : Type\nOStatement : \u03b9\u209b\u1d62 \u2192 Type\ninst\u271d\u00b9 : (i : \u03b9\u209b\u1d62) \u2192 OracleInterface (OStatement i)\nWitEquiv : Type\ninst\u271d : OracleInterface WitEquiv\nequiv : Witness \u2243 WitEquiv\n\u22a2 \u2200 (i : \u03b9\u209b\u1d62 \u2295 Unit),\n    (OStatement \u2295\u1d65 fun x => WitEquiv) i =\n      match (\u22ef.mpr sorry) i with\n      | Sum.inl j => OStatement j\n      | Sum.inr j => (pSpec WitEquiv).Message j",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/ProofSystem/Components.lean#L62"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/ProofSystem/Components.lean#L62"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-02-24T11:52:07-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "334e1c64fa08a3952cc670c368b2112b170f6d9b7f8c0586a6af98c4761363c9"
+    "id": "472b72063798b1e718c34c74ccf30900dbd7fe3a5b7e3c6f8252506534d57a74"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47315,20 +47315,20 @@
     },
     "debug_info": {
       "goal": "\u03b9 : Type\noSpec : OracleSpec \u03b9\nStatement Witness \u03b9\u209b\u1d62 : Type\nOStatement : \u03b9\u209b\u1d62 \u2192 Type\ninst\u271d\u00b2 : (i : \u03b9\u209b\u1d62) \u2192 OracleInterface (OStatement i)\nWitEquiv : Type\ninst\u271d\u00b9 : OracleInterface WitEquiv\nequiv : Witness \u2243 WitEquiv\nrelIn : Statement \u00d7 ((i : \u03b9\u209b\u1d62) \u2192 OStatement i) \u2192 Witness \u2192 Prop\ninst\u271d : oSpec.FiniteRange\n\u22a2 OracleReduction.perfectCompleteness relIn (toRelOut Statement Witness OStatement WitEquiv equiv relIn)\n    (oracleReduction oSpec Statement Witness OStatement WitEquiv equiv)",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/ProofSystem/Components.lean#L80"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/ProofSystem/Components.lean#L80"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-02-24T11:52:07-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "b4fc421dd20cc6b21245e1a364db8dfea26d0259a8223bbc6529fde31042e5c3"
+    "id": "5852199af5febf0c3dedaf9367e2c27b4c70b00536b2255efcca56f524330ef2"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47340,20 +47340,20 @@
     },
     "debug_info": {
       "goal": "\u03b9 : Type\noSpec : OracleSpec \u03b9\nStatement \u03b9\u209b\u1d62 : Type\ninst\u271d : Unique \u03b9\u209b\u1d62\nOStatement : \u03b9\u209b\u1d62 \u2192 Type\ninst : (i : \u03b9\u209b\u1d62) \u2192 OracleInterface (OStatement i)\nrel : Statement \u00d7 ((i : \u03b9\u209b\u1d62) \u2192 OStatement i) \u2192 Prop\nrelComp : Statement \u2192 OracleComp [OStatement]\u2092 Unit\n\u22a2 \u2200 (i : \u03b9\u209b\u1d62 \u2295 \u03b9\u209b\u1d62),\n    (OStatement \u2295\u1d65 OStatement) i =\n      match sorry i with\n      | Sum.inl j => OStatement j\n      | Sum.inr j => (pSpec OStatement).Message j",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/ProofSystem/Components.lean#L141"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/ProofSystem/Components.lean#L141"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-02-24T11:52:07-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "54112c6dbd5edb29a9942126b4a143778e9cc6632566d94ee3b92239f7619c34"
+    "id": "3006ab34e1b4376f8024560eec434e629056b03a0bcd45e1a6c922c7cb04bdac"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47365,20 +47365,20 @@
     },
     "debug_info": {
       "goal": "\u03b9 : Type\noSpec : OracleSpec \u03b9\nStatement \u03b9\u209b\u1d62 : Type\ninst\u271d\u00b9 : Unique \u03b9\u209b\u1d62\nOStatement : \u03b9\u209b\u1d62 \u2192 Type\ninst : (i : \u03b9\u209b\u1d62) \u2192 OracleInterface (OStatement i)\nrel : Statement \u00d7 ((i : \u03b9\u209b\u1d62) \u2192 OStatement i) \u2192 Prop\nrelComp : Statement \u2192 OracleComp [OStatement]\u2092 Unit\ninst\u271d : oSpec.FiniteRange\n\u22a2 OracleReduction.perfectCompleteness (fun x x_1 => rel x) (relOut OStatement)\n    (oracleReduction oSpec Statement OStatement relComp)",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/ProofSystem/Components.lean#L167"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/ProofSystem/Components.lean#L167"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-02-24T11:52:07-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "350b39b52f2e4530893c05b1e3efaa331f0436f4081b9056138fea51739e0906"
+    "id": "bfae598ed623c9d6dee60f2dcad11cb025e62ccb829e4658612f84a33ed2c20c"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47390,20 +47390,20 @@
     },
     "debug_info": {
       "goal": "\u03b9 : Type\noSpec : OracleSpec \u03b9\nOStatement : Type\ninst\u271d\u00b9 : OracleInterface OStatement\ninst : VCVCompatible (Query OStatement)\ninst\u271d : oSpec.FiniteRange\n\u22a2 OracleReduction.perfectCompleteness (relIn OStatement) (relOut OStatement) (oracleReduction oSpec OStatement)",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/ProofSystem/Components.lean#L259"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/ProofSystem/Components.lean#L259"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-02-24T11:52:07-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "f2b7aeef7addd30f34a6d966d169d33bacb62980f097610417cb24593c6ca8c1"
+    "id": "bf5d03fcb0c18ad74f5f8455b7a9050759ae5e6d7ab9000e90eb83ad74b30d70"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47415,20 +47415,20 @@
     },
     "debug_info": {
       "goal": "n : \u2115\n\u03b9 : Type\npSpec : ProtocolSpec n\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut : Type\ninst\u271d : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\nstmt : StmtIn\nwit : WitIn\nreduction : Reduction pSpec oSpec StmtIn WitIn StmtOut WitOut\n\u22a2 (do\n      let a \u2190 (simulateQ loggingOracle (Prover.runToRound (Fin.last n) stmt wit reduction.prover)).run\n      (fun a_1 => (reduction.prover.toProverOut.1 a.1.2, a_1.1, a.1.1)) <$>\n          (simulateQ loggingOracle (reduction.verifier.verify stmt a.1.1)).run.liftComp\n            (oSpec ++\u2092 [pSpec.Challenge]\u2092)) =\n    do\n    let __discr \u2190 Prover.run stmt wit reduction.prover\n    (fun a => ((__discr.1, __discr.2.1), a, __discr.2.2)) <$>\n        (reduction.verifier.verify stmt __discr.2.2).liftComp (oSpec ++\u2092 [pSpec.Challenge]\u2092)",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Execution.lean#L185"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Execution.lean#L185"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-02-06T20:02:30-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "e6db2736c4d5efc9e09e27c9b99a858e3e11ce50a1440870c25934cb738aef94"
+    "id": "b99f04f31d85811623fb1f710339a7c41971e75d88e113970bdfa9233f23bfde"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47440,20 +47440,20 @@
     },
     "debug_info": {
       "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut : Type\ninst\u271d\u2074 : VCVCompatible StmtIn\ninst\u271d\u00b3 : (i : Fin n) \u2192 VCVCompatible (pSpec i).2\ninst\u271d\u00b2 : DecidableEq \u03b9\ninst\u271d\u00b9 : oSpec.FiniteRange\ninst\u271d : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\nrelIn : StmtIn \u2192 WitIn \u2192 Prop\nrelOut : StmtOut \u2192 WitOut \u2192 Prop\ncompletenessError : \u211d\u22650\nR : Reduction pSpec oSpec StmtIn WitIn StmtOut WitOut\n\u22a2 Reduction.completeness relIn relOut R completenessError \u2192\n    Reduction.completeness relIn relOut R.fiatShamir completenessError",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Transform/FiatShamir.lean#L130"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Transform/FiatShamir.lean#L130"
     },
     "metadata": {
       "blame_email_hash": "d0850777cf0b",
       "blame_date": "2025-05-06T23:33:56-04:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "bc30d5a0ca04240f0ffd88edfc4c43aa1a467967eac62d0bea6f9aefae4b125c"
+    "id": "cc32c332eb19bc8e556c0b52e12a90eb9ed7278a81ddf947e188a014734b9eb1"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47465,20 +47465,20 @@
     },
     "debug_info": {
       "goal": "p : \u2115\ninst\u271d\u00b2 : Fact (Nat.Prime p)\nG\u2081 : Type u_2\ninst\u271d\u00b9 : CommGroup G\u2081\ninst\u271d : IsPrimeOrderWith G\u2081 p\nn : \u2115\ng : G\u2081\na : ZMod p\npoly : \u21a5(degreeLT (ZMod p) (n + 1))\n\u22a2 g ^ \u2211 i, a.val ^ \u2191i * ((degreeLTEquiv (ZMod p) (n + 1)) poly i).val =\n    g ^ (\u2211 x, (degreeLTEquiv (ZMod p) (n + 1)) poly x * a ^ \u2191x).val",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/AGM/Basic.lean#L160"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/AGM/Basic.lean#L160"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-01-15T12:13:54+05:30",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "0f5942dfa021e299967c2b5886fced79b3385e4da66c351c4118f17c80ac5ab5"
+    "id": "c899c63402d6ea794df77623c317f7c282131b7596b804a84b91fe1b2f4f86bb"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47490,20 +47490,20 @@
     },
     "debug_info": {
       "goal": "G : Type u_1\ninst\u271d\u2078 : CommGroup G\np : \u2115\ninst\u271d\u2077 : Fact (Nat.Prime p)\nh : Nat.card G = p\ng : G\nG\u2081 : Type u_2\ninst\u271d\u2076 : CommGroup G\u2081\ninst\u271d\u2075 : IsPrimeOrderWith G\u2081 p\ng\u2081 : G\u2081\nG\u2082 : Type u_3\ninst\u271d\u2074 : CommGroup G\u2082\ninst\u271d\u00b3 : IsPrimeOrderWith G\u2082 p\ng\u2082 : G\u2082\nG\u209c : Type u_4\ninst\u271d\u00b2 : CommGroup G\u209c\ninst\u271d\u00b9 : IsPrimeOrderWith G\u209c p\npairing : Additive G\u2081 \u2192\u2097[\u2124] Additive G\u2082 \u2192\u2097[\u2124] Additive G\u209c\nn : \u2115\ninst\u271d : Fact (Nat.Prime p)\nsrs : Vector G\u2081 (n + 1)\ncoeffs : Fin (n + 1) \u2192 ZMod p\nz : ZMod p\npoly : \u21a5(degreeLT (ZMod p) (n + 1)) := (degreeLTEquiv (ZMod p) (n + 1)).invFun coeffs\nthis : Field (ZMod p)\n\u22a2 ((\u2191poly - C (eval z \u2191poly)) / (X - C z)).degree < \u2191(n + 1)",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/AGM/Basic.lean#L171"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/AGM/Basic.lean#L171"
     },
     "metadata": {
       "blame_email_hash": "d0850777cf0b",
       "blame_date": "2025-03-15T21:13:06-06:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "d1f2583e2dd0ab45a8b07e2302d1c14353368ec9587be648907763a14bb3c48d"
+    "id": "388ae1fa2474679fccce6dc5f26228777c72851394eb4a3e82a332aa0c42522d"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47515,20 +47515,20 @@
     },
     "debug_info": {
       "goal": "F : Type\ninst\u271d\u00b9 : Nonempty F\ninst\u271d : Fintype F\n\u22a2 \u2191(do\n          let x \u2190 $\u1d56 F\n          let y \u2190 $\u1d56 F\n          let z \u2190 $\u1d56 (F \u00d7 F)\n          Pure.pure (z = (x, y)))\n      True =\n    1 / \u2191(Fintype.card (F \u00d7 F))",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/Data/Probability/Notation.lean#L70"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/Data/Probability/Notation.lean#L70"
     },
     "metadata": {
       "blame_email_hash": "d0850777cf0b",
       "blame_date": "2025-05-06T23:33:56-04:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "b45c3e950279024a7118ecb34d26bd61bbc9cfffad828f851e34bda20bd1e7f3"
+    "id": "5905254e77793066d816b0857f6a0605f6410d2fe911de49833be32885770097"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47540,20 +47540,20 @@
     },
     "debug_info": {
       "goal": "m n : \u2115\npSpec\u2081 : ProtocolSpec m\npSpec\u2082 : ProtocolSpec n\n\u03b9 : Type\ninst\u271d\u00b3 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\nStmt\u2081 Wit\u2081 Stmt\u2082 Wit\u2082 Stmt\u2083 Wit\u2083 : Type\nO\u2098\u2081 : (i : pSpec\u2081.MessageIdx) \u2192 OracleInterface (pSpec\u2081.Message i)\nO\u2098\u2082 : (i : pSpec\u2082.MessageIdx) \u2192 OracleInterface (pSpec\u2082.Message i)\ninst\u271d\u00b2 : (i : pSpec\u2081.ChallengeIdx) \u2192 Sampleable (pSpec\u2081.Challenge i)\ninst\u271d\u00b9 : (i : pSpec\u2082.ChallengeIdx) \u2192 Sampleable (pSpec\u2082.Challenge i)\ninst\u271d : oSpec.DecidableEq\nP\u2081 : Prover pSpec\u2081 oSpec Stmt\u2081 Wit\u2081 Stmt\u2082 Wit\u2082\nP\u2082 : Prover pSpec\u2082 oSpec Stmt\u2082 Wit\u2082 Stmt\u2083 Wit\u2083\nstmt : Stmt\u2081\nwit : Wit\u2081\n\u22a2 run stmt wit (P\u2081.append P\u2082) = do\n    let __discr \u2190 liftM (run stmt wit P\u2081)\n    match __discr with\n      | (stmt\u2082, wit\u2082, transcript\u2081) => do\n        let __discr \u2190 liftM (run stmt\u2082 wit\u2082 P\u2082)\n        match __discr with\n          | (stmt\u2083, wit\u2083, transcript\u2082) => pure (stmt\u2083, wit\u2083, transcript\u2081 ++\u209c transcript\u2082)",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Composition/Sequential.lean#L702"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Composition/Sequential.lean#L702"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-12-28T16:03:02+07:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "cdabda4641051db5aed5161937157ce537f20493b76152164b564ab1d7b6b15c"
+    "id": "c86f57b1015dd68b2ee9a669a6efd83724fe3678ec7c063ce1791ce714dc0097"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47565,20 +47565,20 @@
     },
     "debug_info": {
       "goal": "m n : \u2115\n\u03b9 : Type\ninst\u271d\u2074 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\npSpec\u2081 : ProtocolSpec m\npSpec\u2082 : ProtocolSpec n\ninst\u271d\u00b3 : (i : pSpec\u2081.ChallengeIdx) \u2192 Sampleable (pSpec\u2081.Challenge i)\ninst\u271d\u00b2 : (i : pSpec\u2082.ChallengeIdx) \u2192 Sampleable (pSpec\u2082.Challenge i)\nStmt\u2081 Wit\u2081 Stmt\u2082 Wit\u2082 Stmt\u2083 Wit\u2083 : Type\nrel\u2081 : Stmt\u2081 \u2192 Wit\u2081 \u2192 Prop\nrel\u2082 : Stmt\u2082 \u2192 Wit\u2082 \u2192 Prop\nrel\u2083 : Stmt\u2083 \u2192 Wit\u2083 \u2192 Prop\ninst\u271d\u00b9 : oSpec.DecidableEq\ninst\u271d : oSpec.FiniteRange\nR\u2081 : Reduction pSpec\u2081 oSpec Stmt\u2081 Wit\u2081 Stmt\u2082 Wit\u2082\nR\u2082 : Reduction pSpec\u2082 oSpec Stmt\u2082 Wit\u2082 Stmt\u2083 Wit\u2083\ncompletenessError\u2081 completenessError\u2082 : \u211d\u22650\nh\u2081 : completeness rel\u2081 rel\u2082 R\u2081 completenessError\u2081\nh\u2082 : completeness rel\u2082 rel\u2083 R\u2082 completenessError\u2082\n\u22a2 completeness rel\u2081 rel\u2083 (R\u2081.append R\u2082) (completenessError\u2081 + completenessError\u2082)",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Composition/Sequential.lean#L728"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Composition/Sequential.lean#L728"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-12-01T17:09:18-07:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "c54eb794d5b409302d3165645ad2e4be4a89fbd77a011fe4a7315d95ea14fe7b"
+    "id": "e04b5e32e73324de04ebe96c8e5caff23f0265736f0324fc24a79c21eb210dd7"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47590,20 +47590,20 @@
     },
     "debug_info": {
       "goal": "\u03b9 : Type\ninst\u271d\u00b3 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\nm : \u2115\nn : Fin (m + 1) \u2192 \u2115\npSpec : (i : Fin (m + 1)) \u2192 ProtocolSpec (n i)\ninst\u271d\u00b2 : (i : Fin (m + 1)) \u2192 (j : (pSpec i).ChallengeIdx) \u2192 Sampleable ((pSpec i).Challenge j)\nStmt Wit : Fin (m + 2) \u2192 Type\nrel : (i : Fin (m + 2)) \u2192 Stmt i \u2192 Wit i \u2192 Prop\ninst\u271d\u00b9 : oSpec.DecidableEq\ninst\u271d : oSpec.FiniteRange\nR : (i : Fin (m + 1)) \u2192 Reduction (pSpec i) oSpec (Stmt i.castSucc) (Wit i.castSucc) (Stmt i.succ) (Wit i.succ)\ncompletenessError : Fin (m + 1) \u2192 \u211d\u22650\nh : \u2200 (i : Fin (m + 1)), completeness (rel i.castSucc) (rel i.succ) (R i) (completenessError i)\n\u22a2 completeness (rel 0) (rel (Fin.last (m + 1))) (compose m n pSpec Stmt Wit R) (\u2211 i, completenessError i)",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Composition/Sequential.lean#L755"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Composition/Sequential.lean#L755"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-12-06T19:22:58-03:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "75b43849e7d057e34b57e5670d0f930b527b093699e1fedf4d853aab30230a06"
+    "id": "4ccfa85e6e3a6a57275680344e4082e4349f429ec07a698497ad16f577d7c9b6"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47615,20 +47615,20 @@
     },
     "debug_info": {
       "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\ninst\u271d\u00b2 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' : Type\ninst\u271d\u00b9 : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\ninst\u271d : oSpec.FiniteRange\ndata : TransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\nstmtIn : StmtIn\nwitIn : WitIn\nP : Prover pSpec oSpec StmtIn' WitIn' StmtOut' WitOut'\n\u22a2 (fun a =>\n        (data.fStmtOut (a.2.2.1, (P.toProverOut.1 a.2.1).1), data.fWitOut (a.2.2.2, (P.toProverOut.1 a.2.1).2),\n          a.1)) <$>\n      Fin.induction (pure (default, P.input (data.fStmtIn stmtIn) (data.fWitIn witIn), stmtIn, witIn))\n        (fun j ih => do\n          let __discr \u2190 ih\n          match hDir : (pSpec j).1 with\n            | Direction.V_to_P =>\n              (fun a => (Transcript.snoc a __discr.1, P.receiveChallenge \u27e8j, hDir\u27e9 __discr.2.1 a, __discr.2.2)) <$>\n                liftM (query (Sum.inr \u27e8j, hDir\u27e9) ())\n            | Direction.P_to_V =>\n              (fun a => (Transcript.snoc a.1 __discr.1, a.2, __discr.2.2)) <$>\n                (P.sendMessage \u27e8j, hDir\u27e9 __discr.2.1).liftComp (oSpec ++\u2092 [pSpec.Challenge]\u2092))\n        (Fin.last n) =\n    (fun a => (data.fStmtOut (stmtIn, (P.toProverOut.1 a.2).1), data.fWitOut (witIn, (P.toProverOut.1 a.2).2), a.1)) <$>\n      Fin.induction (pure (default, P.input (data.fStmtIn stmtIn) (data.fWitIn witIn)))\n        (fun j ih => do\n          let __discr \u2190 ih\n          match hDir : (pSpec j).1 with\n            | Direction.V_to_P =>\n              (fun a => (Transcript.snoc a __discr.1, P.receiveChallenge \u27e8j, hDir\u27e9 __discr.2 a)) <$>\n                liftM (query (Sum.inr \u27e8j, hDir\u27e9) ())\n            | Direction.P_to_V =>\n              (fun a => (Transcript.snoc a.1 __discr.1, a.2)) <$>\n                (P.sendMessage \u27e8j, hDir\u27e9 __discr.2).liftComp (oSpec ++\u2092 [pSpec.Challenge]\u2092))\n        (Fin.last n)",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Composition/Virtual.lean#L151"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Composition/Virtual.lean#L151"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-02-06T20:02:30-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "2fc023f2c7584c34c95d4939154adf4fdf8f670865aff3ae14e9d573d4d5834b"
+    "id": "dd5e1596d73994edc58fb1a2ee3f167553afb0160465350b3ebe82e130dd937e"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47640,20 +47640,20 @@
     },
     "debug_info": {
       "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\ninst\u271d\u00b2 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' : Type\ninst\u271d\u00b9 : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\ninst\u271d : oSpec.FiniteRange\ndata : TransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\nstmtIn : StmtIn\nwitIn : WitIn\nR : Reduction pSpec oSpec StmtIn' WitIn' StmtOut' WitOut'\n\u22a2 (do\n      let a \u2190 Prover.run (data.fStmtIn stmtIn) (data.fWitIn witIn) R.prover\n      (fun a_1 => ((data.fStmtOut (stmtIn, a.1), data.fWitOut (witIn, a.2.1)), a_1, a.2.2)) <$>\n          (Verifier.run stmtIn a.2.2\n                {\n                  verify := fun stmtIn transcript =>\n                    (fun a => data.fStmtOut (stmtIn, a)) <$>\n                      R.verifier.verify (data.fStmtIn stmtIn) transcript }).liftComp\n            (oSpec ++\u2092 [pSpec.Challenge]\u2092)) =\n    do\n    let a \u2190 Prover.run (data.fStmtIn stmtIn) (data.fWitIn witIn) R.prover\n    (fun a_1 => ((data.fStmtOut (stmtIn, a.1), data.fWitOut (witIn, a.2.1)), data.fStmtOut (stmtIn, a_1), a.2.2)) <$>\n        (Verifier.run (data.fStmtIn stmtIn) a.2.2 R.verifier).liftComp (oSpec ++\u2092 [pSpec.Challenge]\u2092)",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Composition/Virtual.lean#L164"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Composition/Virtual.lean#L164"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-02-06T20:02:30-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "376e8453d3849067b4d80cb711cc18cd75fcc8514612136a7c8f05183d78a47f"
+    "id": "d6d6a4fa3b526ceef0b8eef7d69538237750127f6d35f92c7c2d49a4a640ec7a"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47665,20 +47665,20 @@
     },
     "debug_info": {
       "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\ninst\u271d\u00b2 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' : Type\ninst\u271d\u00b9 : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\ninst\u271d : oSpec.FiniteRange\ndata : TransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\nstmtIn : StmtIn\nwitIn : WitIn\nR : Reduction pSpec oSpec StmtIn' WitIn' StmtOut' WitOut'\n\u22a2 (do\n      let __discr \u2190 Prover.runWithLog stmtIn witIn (Prover.transport data R.prover)\n      (fun a => ((__discr.1, __discr.2.1), a.1, __discr.2.2.1, __discr.2.2.2, a.2)) <$>\n          (simulateQ loggingOracle\n                  (Verifier.run stmtIn __discr.2.2.1\n                    {\n                      verify := fun stmtIn transcript =>\n                        (fun a => data.fStmtOut (stmtIn, a)) <$>\n                          R.verifier.verify (data.fStmtIn stmtIn) transcript })).run.liftComp\n            (oSpec ++\u2092 [pSpec.Challenge]\u2092)) =\n    do\n    let a \u2190 Prover.runWithLog (data.fStmtIn stmtIn) (data.fWitIn witIn) R.prover\n    (fun a_1 =>\n          ((data.fStmtOut (stmtIn, a.1), data.fWitOut (witIn, a.2.1)), data.fStmtOut (stmtIn, a_1.1), a.2.2.1, a.2.2.2,\n            a_1.2)) <$>\n        (simulateQ loggingOracle (Verifier.run (data.fStmtIn stmtIn) a.2.2.1 R.verifier)).run.liftComp\n          (oSpec ++\u2092 [pSpec.Challenge]\u2092)",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Composition/Virtual.lean#L177"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Composition/Virtual.lean#L177"
     },
     "metadata": {
       "blame_email_hash": "0c5d39c5ece3",
       "blame_date": "2025-03-09T23:22:53-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "a2a141f5cdf1bcb1e68519a1a7bc160eafe44f76c63b088089da2afeaff41383"
+    "id": "e2c7ad0b3d8520dbed8638fe2fa9d1ef6abd541f2223f854988109ff194e933d"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47690,20 +47690,20 @@
     },
     "debug_info": {
       "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\ninst\u271d\u00b2 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' : Type\ninst\u271d\u00b9 : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\ninst\u271d : oSpec.FiniteRange\nrelIn : StmtIn \u2192 WitIn \u2192 Prop\nrelOut : StmtOut \u2192 WitOut \u2192 Prop\nrelIn' : StmtIn' \u2192 WitIn' \u2192 Prop\nrelOut' : StmtOut' \u2192 WitOut' \u2192 Prop\ncompletenessError : \u211d\u22650\ndata : TransportDataComplete StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' relIn relIn' relOut relOut'\nR : Reduction pSpec oSpec StmtIn' WitIn' StmtOut' WitOut'\nh :\n  \u2200 (stmtIn : StmtIn') (witIn : WitIn'),\n    relIn' stmtIn witIn \u2192\n      [fun x =>\n          match x with\n          | ((prvStmtOut, witOut), stmtOut, snd) => relOut' stmtOut witOut \u2227 prvStmtOut = stmtOut|run stmtIn witIn R] \u2265\n        1 - \u2191completenessError\nstmtIn : StmtIn\nwitIn : WitIn\nhRelIn : relIn stmtIn witIn\nhR :\n  [fun x =>\n      match x with\n      | ((prvStmtOut, witOut), stmtOut, snd) =>\n        relOut' stmtOut witOut \u2227 prvStmtOut = stmtOut|run (data.fStmtIn stmtIn) (data.fWitIn witIn) R] \u2265\n    1 - \u2191completenessError\nx\u271d : (StmtOut' \u00d7 WitOut') \u00d7 StmtOut' \u00d7 pSpec.FullTranscript\na\u271d : x\u271d \u2208 (run (data.fStmtIn stmtIn) (data.fWitIn witIn) R).support\nhRelOut' : relOut' x\u271d.2.1 x\u271d.1.2 \u2227 x\u271d.1.1 = x\u271d.2.1\n\u22a2 ((fun x => relOut x.2.1 x.1.2 \u2227 x.1.1 = x.2.1) \u2218 fun a =>\n      ((data.fStmtOut (stmtIn, a.1.1), data.fWitOut (witIn, a.1.2)), data.fStmtOut (stmtIn, a.2.1), a.2.2))\n    x\u271d",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Composition/Virtual.lean#L201"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Composition/Virtual.lean#L201"
     },
     "metadata": {
       "blame_email_hash": "d0850777cf0b",
       "blame_date": "2025-04-22T09:32:10-04:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "21cbaf17d9a3d46541211d661f3e24e4ac78fc50ff5c6434184c108563763d42"
+    "id": "92092e6b4c6961651739b55eea1a39f0c644f34f4b74f24e814d6dab3ed7f139"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47715,20 +47715,20 @@
     },
     "debug_info": {
       "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\ninst\u271d\u00b2 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\nStmtIn StmtOut StmtIn' StmtOut' : Type\ninst\u271d\u00b9 : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\ninst\u271d : oSpec.FiniteRange\nlangIn : Set StmtIn\nlangOut : Set StmtOut\nlangIn' : Set StmtIn'\nlangOut' : Set StmtOut'\nsoundnessError : \u211d\u22650\ndata : TransportDataSound StmtIn StmtOut StmtIn' StmtOut' langIn langOut langIn' langOut'\nV : Verifier pSpec oSpec StmtIn' StmtOut'\nh :\n  \u2200 (WitIn WitOut : Type) (witIn : WitIn) (prover : Prover pSpec oSpec StmtIn' WitIn StmtOut' WitOut),\n    \u2200 stmtIn \u2209 langIn',\n      [fun x =>\n          match x with\n          | (fst, stmtOut, snd) => stmtOut \u2209 langOut'|run stmtIn witIn { prover := prover, verifier := V }] \u2264\n        \u2191soundnessError\nstmtIn hStmtIn : Type\nWitIn : stmtIn\nWitOut : Prover pSpec oSpec StmtIn stmtIn StmtOut hStmtIn\nwitIn : StmtIn\nprover : witIn \u2209 langIn\n\u22a2 [fun x =>\n      match x with\n      | (fst, stmtOut, snd) =>\n        stmtOut \u2209\n          langOut|run witIn WitIn { prover := WitOut, verifier := Verifier.transport data.toTransportStatement V }] \u2264\n    \u2191soundnessError",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Composition/Virtual.lean#L215"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Composition/Virtual.lean#L215"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-02-06T20:02:30-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "67dc85b23bc1f44758f330bffe2b7c9539522233d1bdf3780f300f260a225adc"
+    "id": "51efe11c7e6666ca5cfe9d2cc126dc55a88f5d90e8b0c0938e34e865262f8b60"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47740,20 +47740,20 @@
     },
     "debug_info": {
       "goal": "case intro\nn : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\ninst\u271d\u00b2 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' : Type\ninst\u271d\u00b9 : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\ninst\u271d : oSpec.FiniteRange\nrelIn : StmtIn \u2192 WitIn \u2192 Prop\nrelOut : StmtOut \u2192 WitOut \u2192 Prop\nrelIn' : StmtIn' \u2192 WitIn' \u2192 Prop\nrelOut' : StmtOut' \u2192 WitOut' \u2192 Prop\nsoundnessError : \u211d\u22650\ndata :\n  TransportDataKnowledgeSound StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' relIn relIn' relOut relOut'\nV : Verifier pSpec oSpec StmtIn' StmtOut'\nE : StraightlineExtractor\nh' :\n  \u2200 (stmtIn : StmtIn') (witIn : WitIn') (prover : Prover pSpec oSpec StmtIn' WitIn' StmtOut' WitOut'),\n    [fun x =>\n        match x with\n        | ((fst, witOut), stmtOut, transcript, proveQueryLog, snd) =>\n          \u00acrelIn' stmtIn (E stmtIn stmtOut witOut transcript proveQueryLog) \u2227\n            relOut' stmtOut witOut|runWithLog stmtIn witIn { prover := prover, verifier := V }] \u2264\n      \u2191soundnessError\n\u22a2 \u2203 extractor,\n    \u2200 (stmtIn : StmtIn) (witIn : WitIn) (prover : Prover pSpec oSpec StmtIn WitIn StmtOut WitOut),\n      [fun x =>\n          match x with\n          | ((fst, witOut), stmtOut, transcript, proveQueryLog, snd) =>\n            \u00acrelIn stmtIn (extractor stmtIn stmtOut witOut transcript proveQueryLog) \u2227\n              relOut stmtOut\n                witOut|runWithLog stmtIn witIn\n            { prover := prover, verifier := Verifier.transport data.toTransportStatement V }] \u2264\n        \u2191soundnessError",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Composition/Virtual.lean#L229"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Composition/Virtual.lean#L229"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-02-06T20:02:30-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "49e3ff5a368ffc81225867fa4f7e01b4f723cfc1937d093889b8698b0b0f8def"
+    "id": "b9f6f4ab7a51355e9785e8e97b3943332bab82001240d9c8c8515fcc9cee657d"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47765,20 +47765,20 @@
     },
     "debug_info": {
       "goal": "n : \u2115\n\u03b9 : Type\npSpec : ProtocolSpec n\noSpec : OracleSpec \u03b9\ninst\u271d\u00b9 : oSpec.FiniteRange\ninst\u271d : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\nStmtIn WitIn StmtOut WitOut : Type\nrelIn : StmtIn \u2192 WitIn \u2192 Prop\nrelOut : StmtOut \u2192 WitOut \u2192 Prop\nverifier : Verifier pSpec oSpec StmtIn StmtOut\nknowledgeError : \u211d\u22650\nhLt : knowledgeError < 1\nextractor : StraightlineExtractor\nhKS :\n  \u2200 (stmtIn : StmtIn) (witIn : WitIn) (prover : Prover pSpec oSpec StmtIn WitIn StmtOut WitOut),\n    [fun x =>\n        \u00acrelIn stmtIn (extractor stmtIn x.2.1 x.1.2 x.2.2.1 x.2.2.2.1) \u2227\n          relOut x.2.1 x.1.2|runWithLog stmtIn witIn { prover := prover, verifier := verifier }] \u2264\n      \u2191knowledgeError\nWitIn' WitOut' : Type\nwitIn' : WitIn'\nprover : Prover pSpec oSpec StmtIn WitIn' StmtOut WitOut'\nstmtIn : StmtIn\nhStmtIn : \u2200 (x : WitIn), \u00acrelIn stmtIn x\n\u22a2 [fun x => \u2200 (x_1 : WitOut), \u00acrelOut x.2.1 x_1|run stmtIn witIn' { prover := prover, verifier := verifier }] \u2264\n    \u2191knowledgeError",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Security/Basic.lean#L389"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Security/Basic.lean#L389"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-02-06T20:02:30-05:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "5a5a6b1c049354bb3a27961992027f8a0475f657e4241361e036e475e1bc3c4d"
+    "id": "6a65d7fdce9bd35d82178272165f3b53c2a76a738289aa07077e6d03218ed3af"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47790,20 +47790,20 @@
     },
     "debug_info": {
       "goal": "n : \u2115\n\u03b9 : Type\npSpec : ProtocolSpec n\noSpec : OracleSpec \u03b9\ninst\u271d\u00b9 : oSpec.FiniteRange\ninst\u271d : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\nStmtIn StmtOut : Type\nlangIn : Set StmtIn\nlangOut : Set StmtOut\nverifier : Verifier pSpec oSpec StmtIn StmtOut\nrbrSoundnessError : pSpec.ChallengeIdx \u2192 \u211d\u22650\n\u22a2 rbrSoundness langIn langOut verifier rbrSoundnessError \u2192 soundness langIn langOut verifier (\u2211 i, rbrSoundnessError i)",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Security/Basic.lean#L409"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Security/Basic.lean#L409"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-11-28T13:43:25-07:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "6a93fd2ca3dd36b9648677b855881bbbb2a86f69e195d1e9b1bae792fe3b429a"
+    "id": "814ba909af0db7c55dcf2038309bccf9f72d8565d703ec472dc92278c27915b6"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47815,20 +47815,20 @@
     },
     "debug_info": {
       "goal": "n : \u2115\n\u03b9 : Type\npSpec : ProtocolSpec n\noSpec : OracleSpec \u03b9\ninst\u271d\u00b9 : oSpec.FiniteRange\ninst\u271d : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\nStmtIn WitIn StmtOut WitOut : Type\nrelIn : StmtIn \u2192 WitIn \u2192 Prop\nrelOut : StmtOut \u2192 WitOut \u2192 Prop\nverifier : Verifier pSpec oSpec StmtIn StmtOut\nrbrKnowledgeError : pSpec.ChallengeIdx \u2192 \u211d\u22650\n\u22a2 rbrKnowledgeSoundness relIn relOut verifier rbrKnowledgeError \u2192\n    rbrSoundness (Function.language relIn) (Function.language relOut) verifier rbrKnowledgeError",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Security/Basic.lean#L419"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Security/Basic.lean#L419"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-11-28T13:43:25-07:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "df9f24381074446c4ea1dbcde55b060a38205281b8124444e2e4ecf5182db2e0"
+    "id": "184a37ea0391be9239c4e5c47fc8ea1b0a793f373f48ba6680a4fa9e72f5d510"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47840,20 +47840,20 @@
     },
     "debug_info": {
       "goal": "n : \u2115\n\u03b9 : Type\npSpec : ProtocolSpec n\noSpec : OracleSpec \u03b9\ninst\u271d\u00b9 : oSpec.FiniteRange\ninst\u271d : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\nStmtIn WitIn StmtOut WitOut : Type\nrelIn : StmtIn \u2192 WitIn \u2192 Prop\nrelOut : StmtOut \u2192 WitOut \u2192 Prop\nverifier : Verifier pSpec oSpec StmtIn StmtOut\nrbrKnowledgeError : pSpec.ChallengeIdx \u2192 \u211d\u22650\n\u22a2 rbrKnowledgeSoundness relIn relOut verifier rbrKnowledgeError \u2192\n    knowledgeSoundness relIn relOut verifier (\u2211 i, rbrKnowledgeError i)",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/OracleReduction/Security/Basic.lean#L428"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/OracleReduction/Security/Basic.lean#L428"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2024-11-28T13:43:25-07:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "5c8da1e71ef7dcd3c659da6c47c3e2a6622d7cc6707702e34c08dfde6fa091a1"
+    "id": "a8aaeecc9be98e17260130940e25d063f180b5c702cb8ddb454f07c442e5c9dc"
   },
   {
     "repo": {
       "remote": "https://github.com/Verified-zkEVM/ZKLib",
       "branch": "main",
-      "commit": "443c9b26eb63e4248023bd2ba1c70eb1dde19dbf",
+      "commit": "9fa15e88afe6d16e929a5941637ab9d05a376b20",
       "lean_version": "v4.18.0"
     },
     "location": {
@@ -47865,14 +47865,14 @@
     },
     "debug_info": {
       "goal": "R : Type\ninst\u271d\u00b9 : CommSemiring R\ninst\u271d : VCVCompatible R\nn deg m : \u2115\nD : Fin m \u21aa R\n\u03b9 : Type\noSpec : OracleSpec \u03b9\ni : Fin (n + 1)\nstmt : Statement R n i.castSucc \u00d7 ((i : Fin 1) \u2192 OracleStatement R n deg i)\ntranscript : FullTranscript ![(Direction.P_to_V, \u21a5R\u2983\u2264 \u2191deg\u2984[X]), (Direction.V_to_P, R)]\nx : (pSpec R deg).getType 0\nhp_i : \u2191(transcript 0) \u2208 R\u2983\u2264 \u2191deg\u2984[X]\nhEq : transcript 0 = \u27e8\u2191(transcript 0), hp_i\u27e9\n\u22a2 (do\n      let a \u2190\n        ((OptionT.run (mapM (fun i => liftM (query (Sum.inr (Sum.inr \u27e80, \u22ef\u27e9)) (D i))) (List.finRange m))).bind\n                fun __do_lift =>\n                __do_lift.elim (FreeMonad.pure none)\n                  (OptionT.run \u2218 fun evals => do\n                    if evals.sum = stmt.1.target then pure () else failure\n                    (fun a => { target := a, challenges := Fin.snoc stmt.1.challenges (transcript 1) }) <$>\n                        liftM (query (Sum.inr (Sum.inr \u27e80, \u22ef\u27e9)) (transcript 1)))).mapM\n            fun {\u03b1} => (OracleInterface.simOracle2 oSpec stmt.2 transcript.messages).impl\n      (fun a => (a, fun i_1 => stmt.2 i_1)) <$> a.getM) =\n    (fun a =>\n        ({ target := Polynomial.eval (transcript 1) \u2191(transcript 0),\n            challenges := Fin.snoc stmt.1.challenges (transcript 1) },\n          stmt.2)) <$>\n      if \u2211 x, Polynomial.eval (D x) \u2191(transcript 0) = stmt.1.target then pure () else failure",
-      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/443c9b26eb63e4248023bd2ba1c70eb1dde19dbf/ArkLib/ProofSystem/Sumcheck/Basic.lean#L495"
+      "url": "https://github.com/Verified-zkEVM/ZKLib/blob/9fa15e88afe6d16e929a5941637ab9d05a376b20/ArkLib/ProofSystem/Sumcheck/Basic.lean#L495"
     },
     "metadata": {
       "blame_email_hash": "f335a4ba1b88",
       "blame_date": "2025-01-18T19:07:20+07:00",
-      "inclusion_date": "2025-05-10T00:15:01.321090+00:00"
+      "inclusion_date": "2025-05-13T23:38:29.874608+00:00"
     },
-    "id": "7e7f13f1f45dcc533a3f94f7f0900830f6d9e618c70924a31dd04e05079761a6"
+    "id": "ef09cb7d839cdf351f2ad86ad96a8190f01de318f9f8dbdd36b41139aac09de0"
   },
   {
     "repo": {
@@ -49198,5 +49198,105 @@
       "inclusion_date": "2025-05-12T23:17:52.779115+00:00"
     },
     "id": "9bddb51c45523c4058051c48d08756ae69b879beacd4e1253483b8489334f8e7"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/HEPLean/PhysLean",
+      "branch": "jnlindsay/feat/restricted-Lorentz-group-equal-to-identity-component",
+      "commit": "b4a420deef68762a68898a4245f54fb1992b6f4c",
+      "lean_version": "v4.19.0"
+    },
+    "location": {
+      "path": "PhysLean/Relativity/Lorentz/Group/Restricted.lean",
+      "start_line": 75,
+      "start_column": 17,
+      "end_line": 75,
+      "end_column": 22
+    },
+    "debug_info": {
+      "goal": "d : \u2115\n\u22a2 (detRep 1, orthchroRep 1) = 1",
+      "url": "https://github.com/HEPLean/PhysLean/blob/b4a420deef68762a68898a4245f54fb1992b6f4c/PhysLean/Relativity/Lorentz/Group/Restricted.lean#L75"
+    },
+    "metadata": {
+      "blame_email_hash": "f5ab4f28bed3",
+      "blame_date": "2025-05-05T23:32:38+10:00",
+      "inclusion_date": "2025-05-13T23:18:43.440253+00:00"
+    },
+    "id": "650ac535039891699611762b1607ed5e85a37f70539ce611cc534d7ae0dc8af2"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/HEPLean/PhysLean",
+      "branch": "jnlindsay/feat/restricted-Lorentz-group-equal-to-identity-component",
+      "commit": "b4a420deef68762a68898a4245f54fb1992b6f4c",
+      "lean_version": "v4.19.0"
+    },
+    "location": {
+      "path": "PhysLean/Relativity/Lorentz/Group/Restricted.lean",
+      "start_line": 76,
+      "start_column": 17,
+      "end_line": 76,
+      "end_column": 22
+    },
+    "debug_info": {
+      "goal": "d : \u2115\n\u22a2 \u2200 (x y : \u2191(LorentzGroup d)),\n    (detRep (x * y), orthchroRep (x * y)) = (detRep x, orthchroRep x) * (detRep y, orthchroRep y)",
+      "url": "https://github.com/HEPLean/PhysLean/blob/b4a420deef68762a68898a4245f54fb1992b6f4c/PhysLean/Relativity/Lorentz/Group/Restricted.lean#L76"
+    },
+    "metadata": {
+      "blame_email_hash": "f5ab4f28bed3",
+      "blame_date": "2025-05-05T23:32:38+10:00",
+      "inclusion_date": "2025-05-13T23:18:43.440253+00:00"
+    },
+    "id": "022053c370c0e74a030bf4a71f656252c855fee8d8d97949bb939c36be855ca5"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/HEPLean/PhysLean",
+      "branch": "jnlindsay/feat/restricted-Lorentz-group-equal-to-identity-component",
+      "commit": "b4a420deef68762a68898a4245f54fb1992b6f4c",
+      "lean_version": "v4.19.0"
+    },
+    "location": {
+      "path": "PhysLean/Relativity/Lorentz/Group/Restricted.lean",
+      "start_line": 77,
+      "start_column": 25,
+      "end_line": 77,
+      "end_column": 30
+    },
+    "debug_info": {
+      "goal": "d : \u2115\n\u22a2 Continuous fun \u039b => (detRep \u039b, orthchroRep \u039b)",
+      "url": "https://github.com/HEPLean/PhysLean/blob/b4a420deef68762a68898a4245f54fb1992b6f4c/PhysLean/Relativity/Lorentz/Group/Restricted.lean#L77"
+    },
+    "metadata": {
+      "blame_email_hash": "f5ab4f28bed3",
+      "blame_date": "2025-05-05T23:32:38+10:00",
+      "inclusion_date": "2025-05-13T23:18:43.440253+00:00"
+    },
+    "id": "69f4ede4c712f7bd8247e7278dc2e2e3b63522028b4a9ef070ef8fb870983b6c"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/HEPLean/PhysLean",
+      "branch": "jnlindsay/feat/restricted-Lorentz-group-equal-to-identity-component",
+      "commit": "b4a420deef68762a68898a4245f54fb1992b6f4c",
+      "lean_version": "v4.19.0"
+    },
+    "location": {
+      "path": "PhysLean/Relativity/Lorentz/Group/Restricted.lean",
+      "start_line": 86,
+      "start_column": 2,
+      "end_line": 86,
+      "end_column": 7
+    },
+    "debug_info": {
+      "goal": "d : \u2115\n\u22a2 _root_.IsConnected \u2191(LorentzGroup.restricted d)",
+      "url": "https://github.com/HEPLean/PhysLean/blob/b4a420deef68762a68898a4245f54fb1992b6f4c/PhysLean/Relativity/Lorentz/Group/Restricted.lean#L86"
+    },
+    "metadata": {
+      "blame_email_hash": "f5ab4f28bed3",
+      "blame_date": "2025-05-13T20:30:02+10:00",
+      "inclusion_date": "2025-05-13T23:18:43.440253+00:00"
+    },
+    "id": "56d416332db27680a625dc9e3fcef645b48675ece9e1ee3f47398a3dcf1da58f"
   }
 ]
