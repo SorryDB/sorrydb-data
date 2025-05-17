@@ -35803,7 +35803,7 @@
     "repo": {
       "remote": "https://github.com/ufmg-smite/lean-smt",
       "branch": "main",
-      "commit": "797ea277db2d91032a5bf997953917cc2e141f19",
+      "commit": "e994ff05c81214b3397f8b59aaeca4c302bd41dc",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -35815,20 +35815,20 @@
     },
     "debug_info": {
       "goal": "x y : BitVec 2\n\u22a2 x ++ y = zeroExtend 4 x <<< 2#2 ||| zeroExtend 4 y",
-      "url": "https://github.com/ufmg-smite/lean-smt/blob/797ea277db2d91032a5bf997953917cc2e141f19/Test/BitVec/Shift.lean#L8"
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/e994ff05c81214b3397f8b59aaeca4c302bd41dc/Test/BitVec/Shift.lean#L8"
     },
     "metadata": {
       "blame_email_hash": "2d71a621927f",
       "blame_date": "2022-08-05T17:11:15+02:00",
-      "inclusion_date": "2025-05-14T23:38:06.952095+00:00"
+      "inclusion_date": "2025-05-17T23:11:31.262140+00:00"
     },
-    "id": "29c6e0bda4fe6f45a23ab4b8878475ca6b68f3a17fc0b46e0bbbeaa7b95ab3a6"
+    "id": "10966eb3e5e3ab574d4d8098887b6d4905ac78eac95d16e1bd2d3e94afbafbfb"
   },
   {
     "repo": {
       "remote": "https://github.com/ufmg-smite/lean-smt",
       "branch": "main",
-      "commit": "797ea277db2d91032a5bf997953917cc2e141f19",
+      "commit": "e994ff05c81214b3397f8b59aaeca4c302bd41dc",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -35840,20 +35840,20 @@
     },
     "debug_info": {
       "goal": "x y : BitVec 3\n\u22a2 x ++ y = zeroExtend 6 x <<< 3#2 ||| zeroExtend 6 y",
-      "url": "https://github.com/ufmg-smite/lean-smt/blob/797ea277db2d91032a5bf997953917cc2e141f19/Test/BitVec/Shift.lean#L13"
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/e994ff05c81214b3397f8b59aaeca4c302bd41dc/Test/BitVec/Shift.lean#L13"
     },
     "metadata": {
       "blame_email_hash": "2d71a621927f",
       "blame_date": "2022-08-05T17:11:15+02:00",
-      "inclusion_date": "2025-05-14T23:38:06.952095+00:00"
+      "inclusion_date": "2025-05-17T23:11:31.262140+00:00"
     },
-    "id": "676342e6ee3b45abcc8ec25ae2c3328d623fab371ba0ac7578196d0d49cd509f"
+    "id": "af1c238a9c4a4867f4aac73b8df81f7800516e0e37fcb9d0d31c93d503972fff"
   },
   {
     "repo": {
       "remote": "https://github.com/ufmg-smite/lean-smt",
       "branch": "main",
-      "commit": "797ea277db2d91032a5bf997953917cc2e141f19",
+      "commit": "e994ff05c81214b3397f8b59aaeca4c302bd41dc",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -35865,20 +35865,20 @@
     },
     "debug_info": {
       "goal": "x y : BitVec 2\n\u22a2 x ^^^ y = y ^^^ x",
-      "url": "https://github.com/ufmg-smite/lean-smt/blob/797ea277db2d91032a5bf997953917cc2e141f19/Test/BitVec/XorComm.lean#L5"
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/e994ff05c81214b3397f8b59aaeca4c302bd41dc/Test/BitVec/XorComm.lean#L5"
     },
     "metadata": {
       "blame_email_hash": "2d71a621927f",
       "blame_date": "2022-07-14T12:41:05-04:00",
-      "inclusion_date": "2025-05-14T23:38:06.952095+00:00"
+      "inclusion_date": "2025-05-17T23:11:31.262140+00:00"
     },
-    "id": "e6a0cb16b1435155d5830438e75cb2b5ba9b4a7c18f35d229fd58fd4810f8dc3"
+    "id": "0fdae338de0f47f0a2a025dfc4c918ea4db52c7681734343316e257737edebc0"
   },
   {
     "repo": {
       "remote": "https://github.com/ufmg-smite/lean-smt",
       "branch": "main",
-      "commit": "797ea277db2d91032a5bf997953917cc2e141f19",
+      "commit": "e994ff05c81214b3397f8b59aaeca4c302bd41dc",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -35890,14 +35890,14 @@
     },
     "debug_info": {
       "goal": "x y : BitVec (4 + 4)\n\u22a2 x ^^^ y = y ^^^ x",
-      "url": "https://github.com/ufmg-smite/lean-smt/blob/797ea277db2d91032a5bf997953917cc2e141f19/Test/BitVec/XorComm.lean#L9"
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/e994ff05c81214b3397f8b59aaeca4c302bd41dc/Test/BitVec/XorComm.lean#L9"
     },
     "metadata": {
       "blame_email_hash": "2d71a621927f",
       "blame_date": "2022-07-14T12:41:05-04:00",
-      "inclusion_date": "2025-05-14T23:38:06.952095+00:00"
+      "inclusion_date": "2025-05-17T23:11:31.262140+00:00"
     },
-    "id": "57a530eb27c0fbf83fc4ffb226d41612d824508363cbc6d251f95063ac02a546"
+    "id": "d3457d2e5b75a9849b2e40aa258c7a298792a74d0797661c455499ab22a2885a"
   },
   {
     "repo": {
@@ -35953,7 +35953,7 @@
     "repo": {
       "remote": "https://github.com/ufmg-smite/lean-smt",
       "branch": "main",
-      "commit": "797ea277db2d91032a5bf997953917cc2e141f19",
+      "commit": "e994ff05c81214b3397f8b59aaeca4c302bd41dc",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -35965,20 +35965,20 @@
     },
     "debug_info": {
       "goal": "a b : Int\n\u22a2 curryAdd a b = curryAdd b a",
-      "url": "https://github.com/ufmg-smite/lean-smt/blob/797ea277db2d91032a5bf997953917cc2e141f19/Test/Int/Binders.lean#L7"
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/e994ff05c81214b3397f8b59aaeca4c302bd41dc/Test/Int/Binders.lean#L7"
     },
     "metadata": {
       "blame_email_hash": "2d71a621927f",
       "blame_date": "2022-07-14T12:41:05-04:00",
-      "inclusion_date": "2025-05-14T23:38:06.952095+00:00"
+      "inclusion_date": "2025-05-17T23:11:31.262140+00:00"
     },
-    "id": "aaf4c7ca18291124a5bbf73f2ce70b06896c42a578d925ac77abb00938ae6164"
+    "id": "c3816f311a06b056280607cf44d7e694128a49d46908a9142cf27a506696e93b"
   },
   {
     "repo": {
       "remote": "https://github.com/ufmg-smite/lean-smt",
       "branch": "main",
-      "commit": "797ea277db2d91032a5bf997953917cc2e141f19",
+      "commit": "e994ff05c81214b3397f8b59aaeca4c302bd41dc",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -35990,20 +35990,20 @@
     },
     "debug_info": {
       "goal": "a b : Int\n\u22a2 partCurryAdd a b = partCurryAdd b a",
-      "url": "https://github.com/ufmg-smite/lean-smt/blob/797ea277db2d91032a5bf997953917cc2e141f19/Test/Int/Binders.lean#L13"
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/e994ff05c81214b3397f8b59aaeca4c302bd41dc/Test/Int/Binders.lean#L13"
     },
     "metadata": {
       "blame_email_hash": "2d71a621927f",
       "blame_date": "2022-07-14T12:41:05-04:00",
-      "inclusion_date": "2025-05-14T23:38:06.952095+00:00"
+      "inclusion_date": "2025-05-17T23:11:31.262140+00:00"
     },
-    "id": "d49fff70e5997985d2253af11259720c6022e8d7d5f044b1deb9c62aebe8e558"
+    "id": "428f82440944a46de6f9d4428e03dc90a566488748b2621d6c9b9c1b4eb67a6f"
   },
   {
     "repo": {
       "remote": "https://github.com/ufmg-smite/lean-smt",
       "branch": "main",
-      "commit": "797ea277db2d91032a5bf997953917cc2e141f19",
+      "commit": "e994ff05c81214b3397f8b59aaeca4c302bd41dc",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -36015,20 +36015,20 @@
     },
     "debug_info": {
       "goal": "a b : Int\npartCurryAdd' : Int \u2192 Int \u2192 Int := fun a => HAdd.hAdd a\n\u22a2 partCurryAdd' a b = partCurryAdd' b a",
-      "url": "https://github.com/ufmg-smite/lean-smt/blob/797ea277db2d91032a5bf997953917cc2e141f19/Test/Int/Binders.lean#L20"
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/e994ff05c81214b3397f8b59aaeca4c302bd41dc/Test/Int/Binders.lean#L20"
     },
     "metadata": {
       "blame_email_hash": "2d71a621927f",
       "blame_date": "2022-07-14T12:41:05-04:00",
-      "inclusion_date": "2025-05-14T23:38:06.952095+00:00"
+      "inclusion_date": "2025-05-17T23:11:31.262140+00:00"
     },
-    "id": "ae8f35cef66801019c3979d1ec1acf481ff49b1a211261941596fa50f0319ad8"
+    "id": "2f0e20ce24530f5768780759413afb347c84455200e92d0223d6b03297b7ad0a"
   },
   {
     "repo": {
       "remote": "https://github.com/ufmg-smite/lean-smt",
       "branch": "main",
-      "commit": "797ea277db2d91032a5bf997953917cc2e141f19",
+      "commit": "e994ff05c81214b3397f8b59aaeca4c302bd41dc",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -36040,14 +36040,14 @@
     },
     "debug_info": {
       "goal": "a b : Int\n\u22a2 mismatchNamesAdd a b = mismatchNamesAdd b a",
-      "url": "https://github.com/ufmg-smite/lean-smt/blob/797ea277db2d91032a5bf997953917cc2e141f19/Test/Int/Binders.lean#L27"
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/e994ff05c81214b3397f8b59aaeca4c302bd41dc/Test/Int/Binders.lean#L27"
     },
     "metadata": {
       "blame_email_hash": "2d71a621927f",
       "blame_date": "2022-07-14T12:41:05-04:00",
-      "inclusion_date": "2025-05-14T23:38:06.952095+00:00"
+      "inclusion_date": "2025-05-17T23:11:31.262140+00:00"
     },
-    "id": "fc2bded0cf3a055561cc9e8070b1fdd842329ec8e717b971c91d48e6e15a924c"
+    "id": "ac9133a1fe234f6c3ac92487eb1756784d8c4fc5bb11aa42e4000d948e148a4c"
   },
   {
     "repo": {
@@ -49103,7 +49103,7 @@
     "repo": {
       "remote": "https://github.com/ufmg-smite/lean-smt",
       "branch": "main",
-      "commit": "797ea277db2d91032a5bf997953917cc2e141f19",
+      "commit": "e994ff05c81214b3397f8b59aaeca4c302bd41dc",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -49115,20 +49115,20 @@
     },
     "debug_info": {
       "goal": "w : Nat\nx y : BitVec w\n\u22a2 (x = y) = (BitVec.beq w x y = true)",
-      "url": "https://github.com/ufmg-smite/lean-smt/blob/797ea277db2d91032a5bf997953917cc2e141f19/Smt/Reconstruct/BitVec/Bitblast.lean#L37"
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/e994ff05c81214b3397f8b59aaeca4c302bd41dc/Smt/Reconstruct/BitVec/Bitblast.lean#L37"
     },
     "metadata": {
       "blame_email_hash": "a29bc6f92c6c",
       "blame_date": "2024-05-08T17:36:04-07:00",
-      "inclusion_date": "2025-05-14T23:38:06.952095+00:00"
+      "inclusion_date": "2025-05-17T23:11:31.262140+00:00"
     },
-    "id": "fa2b4490630bb7ad0aa4e817e6173da4983ec3f85884208d3fb8697c1f422026"
+    "id": "06903fb617edab65a9480d78f688920ee401e63324fbd0215080108f9415717e"
   },
   {
     "repo": {
       "remote": "https://github.com/ufmg-smite/lean-smt",
       "branch": "main",
-      "commit": "797ea277db2d91032a5bf997953917cc2e141f19",
+      "commit": "e994ff05c81214b3397f8b59aaeca4c302bd41dc",
       "lean_version": "v4.19.0"
     },
     "location": {
@@ -49140,14 +49140,14 @@
     },
     "debug_info": {
       "goal": "a b : MyInt\n\u22a2 MyInt.add a b = MyInt.add b a",
-      "url": "https://github.com/ufmg-smite/lean-smt/blob/797ea277db2d91032a5bf997953917cc2e141f19/Test/Int/DefineSort.lean#L8"
+      "url": "https://github.com/ufmg-smite/lean-smt/blob/e994ff05c81214b3397f8b59aaeca4c302bd41dc/Test/Int/DefineSort.lean#L8"
     },
     "metadata": {
       "blame_email_hash": "2d71a621927f",
       "blame_date": "2022-07-14T12:41:05-04:00",
-      "inclusion_date": "2025-05-14T23:38:06.952095+00:00"
+      "inclusion_date": "2025-05-17T23:11:31.262140+00:00"
     },
-    "id": "3ade67b4563ea52ca2d45165d8fcc34563da3d06b8573faeaf85cd9139e00f18"
+    "id": "0d9944a0ca335cee494beb1bb7ce91fc4fcb01f4e5ba50725acc2abcbec6f495"
   },
   {
     "repo": {
