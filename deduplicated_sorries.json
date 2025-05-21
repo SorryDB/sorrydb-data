@@ -49303,7 +49303,7 @@
     "repo": {
       "remote": "https://github.com/leanprover-community/mathlib4",
       "branch": "hilbert7",
-      "commit": "f6e31f7f5d5931abc9523a1f52cda482f7354b60",
+      "commit": "50d1283ac830e0464671949a4ee23f70eda09242",
       "lean_version": "v4.18.0-rc1"
     },
     "location": {
@@ -49315,14 +49315,14 @@
     },
     "debug_info": {
       "goal": "z\u2080 : \u2102\nf : \u2102 \u2192 \u2102\nhf : AnalyticAt \u2102 f z\u2080\nhfdev : AnalyticAt \u2102 (deriv f) z\u2080\nn : \u2115\nhn : n > 0\ng : \u2102 \u2192 \u2102\nhg : AnalyticAt \u2102 g z\u2080\nhgneq0 : g z\u2080 \u2260 0\nhexp : \u2200\u1da0 (z : \u2102) in nhds z\u2080, f z = (z - z\u2080) ^ n \u2022 g z\n\u22a2 \u2200\u1da0 (z : \u2102) in nhds z\u2080, deriv f z = (z - z\u2080) ^ (n - 1) \u2022 (n \u2022 g z + (z - z\u2080) \u2022 deriv g z)",
-      "url": "https://github.com/leanprover-community/mathlib4/blob/f6e31f7f5d5931abc9523a1f52cda482f7354b60/Mathlib/NumberTheory/h71.lean#L9"
+      "url": "https://github.com/leanprover-community/mathlib4/blob/50d1283ac830e0464671949a4ee23f70eda09242/Mathlib/NumberTheory/h71.lean#L9"
     },
     "metadata": {
       "blame_email_hash": "427ce08bc78e",
       "blame_date": "2025-05-14T23:45:44+02:00",
-      "inclusion_date": "2025-05-20T03:02:23.995399+00:00"
+      "inclusion_date": "2025-05-21T03:02:42.449798+00:00"
     },
-    "id": "bbeb246f97e82fc32592a12ba6bf7fdf71ce6f0045626b543b3d565b1d66d065"
+    "id": "3ba7a51931b63fc6a95ecc528e4245e674f4b92f5fd301f6f8d94322ad429060"
   },
   {
     "repo": {
@@ -49598,5 +49598,205 @@
       "inclusion_date": "2025-05-20T03:02:23.995399+00:00"
     },
     "id": "214a3e0157a1f176e55e024c5941399f959efbd4a3d88ce0883a0ca75e2ccc62"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "50d1283ac830e0464671949a4ee23f70eda09242",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7order.lean",
+      "start_line": 226,
+      "start_column": 6,
+      "end_line": 226,
+      "end_column": 11
+    },
+    "debug_info": {
+      "goal": "z\u2080 : \u2102\nf : \u2102 \u2192 \u2102\nhf\u271d : AnalyticAt \u2102 f z\u2080\nhzero : f z\u2080 = 0\nr : \u211d\nhB : 0 < r \u2227 AnalyticOnNhd \u2102 f (Metric.ball z\u2080 r)\n\u03b5 : \u211d\nh\u03b5 : \u03b5 > 0\nhball : \u2200 y \u2208 Metric.ball z\u2080 \u03b5, deriv f y = 0\nhf : DifferentiableOn \u2102 f (Metric.ball z\u2080 r)\nhg : DifferentiableOn \u2102 (fun x => 0) (Metric.ball z\u2080 r)\nx : \u2102\nthis : dist x z\u2080 < \u03b5 \u2192 deriv f x = 0\n\u22a2 dist x z\u2080 < r \u2192 deriv f x = 0",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/50d1283ac830e0464671949a4ee23f70eda09242/Mathlib/NumberTheory/h7order.lean#L226"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-05-20T18:06:07+02:00",
+      "inclusion_date": "2025-05-21T03:02:42.449798+00:00"
+    },
+    "id": "d44e30639fc612ebb0a96ca1bceb7c6574aa34ed58820e8783c1d1c543442b00"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "50d1283ac830e0464671949a4ee23f70eda09242",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7order.lean",
+      "start_line": 233,
+      "start_column": 6,
+      "end_line": 233,
+      "end_column": 11
+    },
+    "debug_info": {
+      "goal": "case mp.intro.intro.intro.refine_3\nz\u2080 : \u2102\nf : \u2102 \u2192 \u2102\nhf\u271d : AnalyticAt \u2102 f z\u2080\nhzero : f z\u2080 = 0\nr : \u211d\nhB : 0 < r \u2227 AnalyticOnNhd \u2102 f (Metric.ball z\u2080 r)\n\u03b5 : \u211d\nh\u03b5 : \u03b5 > 0\nhball : \u2200 y \u2208 Metric.ball z\u2080 \u03b5, deriv f y = 0\nhf : DifferentiableOn \u2102 f (Metric.ball z\u2080 r)\nhg : DifferentiableOn \u2102 (fun x => 0) (Metric.ball z\u2080 r)\nhf' : EqOn (deriv f) (deriv fun x => 0) (Metric.ball z\u2080 r)\nhx : z\u2080 \u2208 Metric.ball z\u2080 r\nthis : f z\u2080 = 0 \u2192 EqOn f (fun x => 0) (Metric.ball z\u2080 r)\n\u22a2 \u2203 \u03b5 > 0, \u2200 y \u2208 Metric.ball z\u2080 \u03b5, f y = 0",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/50d1283ac830e0464671949a4ee23f70eda09242/Mathlib/NumberTheory/h7order.lean#L233"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-05-20T18:06:07+02:00",
+      "inclusion_date": "2025-05-21T03:02:42.449798+00:00"
+    },
+    "id": "22e7e7a93cacc2a6f40aeb1b9a55bcb05d2780ba0308e643c1d8b8dbf6a19c16"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "50d1283ac830e0464671949a4ee23f70eda09242",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7order.lean",
+      "start_line": 234,
+      "start_column": 6,
+      "end_line": 234,
+      "end_column": 11
+    },
+    "debug_info": {
+      "goal": "case mp.intro.intro.intro.refine_1\nz\u2080 : \u2102\nf : \u2102 \u2192 \u2102\nhf\u271d : AnalyticAt \u2102 f z\u2080\nhzero : f z\u2080 = 0\nr : \u211d\nhB : 0 < r \u2227 AnalyticOnNhd \u2102 f (Metric.ball z\u2080 r)\n\u03b5 : \u211d\nh\u03b5 : \u03b5 > 0\nhball : \u2200 y \u2208 Metric.ball z\u2080 \u03b5, deriv f y = 0\nhf : DifferentiableOn \u2102 f (Metric.ball z\u2080 r)\nhg : DifferentiableOn \u2102 (fun x => 0) (Metric.ball z\u2080 r)\nhf' : EqOn (deriv f) (deriv fun x => 0) (Metric.ball z\u2080 r)\nhx : z\u2080 \u2208 Metric.ball z\u2080 r\n\u22a2 IsOpen (Metric.ball z\u2080 r)",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/50d1283ac830e0464671949a4ee23f70eda09242/Mathlib/NumberTheory/h7order.lean#L234"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-05-20T18:06:07+02:00",
+      "inclusion_date": "2025-05-21T03:02:42.449798+00:00"
+    },
+    "id": "7dc460684b56e3f64f3236cd04a4c00c681f9e0f9bbf0463b3b8202970d54faa"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "50d1283ac830e0464671949a4ee23f70eda09242",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7order.lean",
+      "start_line": 235,
+      "start_column": 6,
+      "end_line": 235,
+      "end_column": 11
+    },
+    "debug_info": {
+      "goal": "case mp.intro.intro.intro.refine_2\nz\u2080 : \u2102\nf : \u2102 \u2192 \u2102\nhf\u271d : AnalyticAt \u2102 f z\u2080\nhzero : f z\u2080 = 0\nr : \u211d\nhB : 0 < r \u2227 AnalyticOnNhd \u2102 f (Metric.ball z\u2080 r)\n\u03b5 : \u211d\nh\u03b5 : \u03b5 > 0\nhball : \u2200 y \u2208 Metric.ball z\u2080 \u03b5, deriv f y = 0\nhf : DifferentiableOn \u2102 f (Metric.ball z\u2080 r)\nhg : DifferentiableOn \u2102 (fun x => 0) (Metric.ball z\u2080 r)\nhf' : EqOn (deriv f) (deriv fun x => 0) (Metric.ball z\u2080 r)\nhx : z\u2080 \u2208 Metric.ball z\u2080 r\n\u22a2 IsPreconnected (Metric.ball z\u2080 r)",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/50d1283ac830e0464671949a4ee23f70eda09242/Mathlib/NumberTheory/h7order.lean#L235"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-05-20T18:06:07+02:00",
+      "inclusion_date": "2025-05-21T03:02:42.449798+00:00"
+    },
+    "id": "561f451859ae2f5dd44f32e75a7e6f02a2d47bc1ff7dd3ea487ceeec01b5584a"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "50d1283ac830e0464671949a4ee23f70eda09242",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7order.lean",
+      "start_line": 236,
+      "start_column": 4,
+      "end_line": 236,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "case mpr\nz\u2080 : \u2102\nf : \u2102 \u2192 \u2102\nhf : AnalyticAt \u2102 f z\u2080\nhzero : f z\u2080 = 0\n\u22a2 (\u2203 \u03b5 > 0, \u2200 y \u2208 Metric.ball z\u2080 \u03b5, f y = 0) \u2192 \u2203 \u03b5 > 0, \u2200 y \u2208 Metric.ball z\u2080 \u03b5, deriv f y = 0",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/50d1283ac830e0464671949a4ee23f70eda09242/Mathlib/NumberTheory/h7order.lean#L236"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-05-20T17:20:40+02:00",
+      "inclusion_date": "2025-05-21T03:02:42.449798+00:00"
+    },
+    "id": "4c95688dd08ac4cd35cc42c46e1e128d3ff524e2bf5136639605e8d36547dd26"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "50d1283ac830e0464671949a4ee23f70eda09242",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7order.lean",
+      "start_line": 255,
+      "start_column": 6,
+      "end_line": 255,
+      "end_column": 11
+    },
+    "debug_info": {
+      "goal": "case succ.mp.intro\nz\u2080 : \u2102\nn : \u2115\nIH :\n  \u2200 (f : \u2102 \u2192 \u2102) (hf : AnalyticAt \u2102 f z\u2080), hf.order \u2260 \u22a4 \u2192 ((\u2200 k < n, \u22ef.order = 0) \u2227 deriv^[n] f z\u2080 \u2260 0 \u2194 hf.order = \u2191n)\nf : \u2102 \u2192 \u2102\nhf : AnalyticAt \u2102 f z\u2080\nhfin : hf.order \u2260 \u22a4\nhz : \u2200 k < n + 1, \u22ef.order = 0\nhnz : deriv^[n + 1] f z\u2080 \u2260 0\nIH' : \u22ef.order \u2260 \u22a4 \u2192 ((\u2200 k < n, \u22ef.order = 0) \u2227 deriv^[n] (deriv f) z\u2080 \u2260 0 \u2194 \u22ef.order = \u2191n)\n\u22a2 hf.order = \u2191(n + 1)",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/50d1283ac830e0464671949a4ee23f70eda09242/Mathlib/NumberTheory/h7order.lean#L255"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-05-13T17:58:44+02:00",
+      "inclusion_date": "2025-05-21T03:02:42.449798+00:00"
+    },
+    "id": "ee454089aba8bc813b5bf9ddd1f983f331c50c33a13aec500f0d2f10d0ce0bb8"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "50d1283ac830e0464671949a4ee23f70eda09242",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7order.lean",
+      "start_line": 256,
+      "start_column": 4,
+      "end_line": 256,
+      "end_column": 9
+    },
+    "debug_info": {
+      "goal": "case succ.mpr\nz\u2080 : \u2102\nn : \u2115\nIH :\n  \u2200 (f : \u2102 \u2192 \u2102) (hf : AnalyticAt \u2102 f z\u2080), hf.order \u2260 \u22a4 \u2192 ((\u2200 k < n, \u22ef.order = 0) \u2227 deriv^[n] f z\u2080 \u2260 0 \u2194 hf.order = \u2191n)\nf : \u2102 \u2192 \u2102\nhf : AnalyticAt \u2102 f z\u2080\nhfin : hf.order \u2260 \u22a4\n\u22a2 hf.order = \u2191(n + 1) \u2192 (\u2200 k < n + 1, \u22ef.order = 0) \u2227 deriv^[n + 1] f z\u2080 \u2260 0",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/50d1283ac830e0464671949a4ee23f70eda09242/Mathlib/NumberTheory/h7order.lean#L256"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-05-20T17:20:40+02:00",
+      "inclusion_date": "2025-05-21T03:02:42.449798+00:00"
+    },
+    "id": "f8a06dd3ac6c4ea2426700113405d68f1d172eaddae2e7ee2e77ef3f8015a4b0"
+  },
+  {
+    "repo": {
+      "remote": "https://github.com/leanprover-community/mathlib4",
+      "branch": "hilbert7",
+      "commit": "50d1283ac830e0464671949a4ee23f70eda09242",
+      "lean_version": "v4.18.0-rc1"
+    },
+    "location": {
+      "path": "Mathlib/NumberTheory/h7order.lean",
+      "start_line": 261,
+      "start_column": 74,
+      "end_line": 261,
+      "end_column": 79
+    },
+    "debug_info": {
+      "goal": "n : \u2115\n\u22a2 \u2200 (f : \u2102 \u2192 \u2102) (z\u2080 : \u2102) (hf : \u2200 (z : \u2102), AnalyticAt \u2102 f z),\n    (\u2200 (z : \u2102), \u22ef.order \u2260 \u22a4) \u2192 (\u2200 k < n, iteratedDeriv k f z\u2080 = 0) \u2192 \u2191n \u2264 \u22ef.order",
+      "url": "https://github.com/leanprover-community/mathlib4/blob/50d1283ac830e0464671949a4ee23f70eda09242/Mathlib/NumberTheory/h7order.lean#L261"
+    },
+    "metadata": {
+      "blame_email_hash": "427ce08bc78e",
+      "blame_date": "2025-05-20T17:20:40+02:00",
+      "inclusion_date": "2025-05-21T03:02:42.449798+00:00"
+    },
+    "id": "985ae959594b91e38c764b90b9ffcf3b197a9b82ebd775bf6f2b19479c5fa99d"
   }
 ]
