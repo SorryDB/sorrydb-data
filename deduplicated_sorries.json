@@ -11980,7 +11980,7 @@
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "50207839e14910becf24aa4ef12b8b72223d0043",
+        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -11992,20 +11992,20 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\ninst\u271d\u00b9 : MeasureableFinGroup G\n\u03a9 : Type u_2\ninst\u271d : MeasureSpace \u03a9\nT\u2081 T\u2082 T\u2083 : \u03a9 \u2192 G\nhsum : T\u2081 + T\u2082 + T\u2083 = 0\nn : \u2115\n\u03a9' : Fin n \u2192 Type u_3\nh\u03a9' : (i : Fin n) \u2192 MeasureSpace (\u03a9' i)\nY : (i : Fin n) \u2192 \u03a9' i \u2192 G\n\u03b1 : \u211d\nh\u03b1 : \u03b1 > 0\n\u22a2 \u2203 \u03a9'' h\u03a9'' U,\n    d[U # U] + \u03b1 * \u2211 i, d[Y i # U] \u2264 (2 + \u03b1 * \u2191n / 2) * (I[T\u2081 : T\u2082] + I[T\u2081 : T\u2083] + I[T\u2082 : T\u2083]) + \u03b1 * \u2211 i, d[Y i # T\u2082]",
-        "url": "https://github.com/teorth/pfr/blob/50207839e14910becf24aa4ef12b8b72223d0043/PFR/TorsionEndgame.lean#L79"
+        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/TorsionEndgame.lean#L79"
       },
       "metadata": {
         "blame_email_hash": "97e8591fe714",
         "blame_date": "2025-04-17T21:11:56+01:00",
-        "inclusion_date": "2025-05-25T23:12:46.682441+00:00"
+        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
       },
-      "id": "180ec060bc027502a5d403aca7bd992729c7a856ee7329f013f8ba402e868738"
+      "id": "0a857243434021cd48df862eb5ff0882fe031ec6cb9bf430733e748aa22e9a81"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "50207839e14910becf24aa4ef12b8b72223d0043",
+        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -12017,14 +12017,14 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b9 : MeasureableFinGroup G\ninst\u271d : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u22a2 multiTau p \u03a9 h\u03a9 X = 0",
-        "url": "https://github.com/teorth/pfr/blob/50207839e14910becf24aa4ef12b8b72223d0043/PFR/TorsionEndgame.lean#L82"
+        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/TorsionEndgame.lean#L82"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-28T21:28:18-07:00",
-        "inclusion_date": "2025-05-25T23:12:46.682441+00:00"
+        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
       },
-      "id": "b73c8d561fcb058c38f0670ef5a1452e9fe7bd3bbe0bd04c5f6f9402275b4e99"
+      "id": "cd581b6e5c258ffe362e7407b5ac801f121ec366b80b0e625fa2258385d12ada"
     },
     {
       "repo": {
@@ -12055,7 +12055,7 @@
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "50207839e14910becf24aa4ef12b8b72223d0043",
+        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -12067,14 +12067,14 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : Fintype G\nm : \u2115\nhm : m \u2265 2\nhtorsion : \u2200 (x : G), m \u2022 x = 0\nA : Set G\ninst\u271d : Finite \u2191A\nK : \u211d\nh\u2080A : A.Nonempty\nhA : \u2191(Nat.card \u2191(A + A)) \u2264 K * \u2191(Nat.card \u2191A)\n\u22a2 \u2203 H c,\n    \u2191(Nat.card \u2191c) \u2264 K ^ (64 * \u2191m ^ 3 + 2) * \u2191(Nat.card \u2191A) ^ (1 / 2) * \u2191(Nat.card \u21a5H) ^ (-1 / 2) \u2227\n      \u2191(Nat.card \u21a5H) \u2264 K ^ (64 * \u2191m ^ 3) * \u2191(Nat.card \u2191A) \u2227\n        \u2191(Nat.card \u2191A) \u2264 K ^ (64 * \u2191m ^ 3) * \u2191(Nat.card \u21a5H) \u2227 A \u2286 c + \u2191H",
-        "url": "https://github.com/teorth/pfr/blob/50207839e14910becf24aa4ef12b8b72223d0043/PFR/TorsionEndgame.lean#L102"
+        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/TorsionEndgame.lean#L102"
       },
       "metadata": {
         "blame_email_hash": "7d87c0724495",
         "blame_date": "2024-08-18T18:37:52+02:00",
-        "inclusion_date": "2025-05-25T23:12:46.682441+00:00"
+        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
       },
-      "id": "4ca23b8966d0e05f36b4ce20dd68c62881f23a91410e7a21d634fa82420f8a35"
+      "id": "7d8d424d60c4e13cd624e4e657397ed08e66874dd79279c3c318d45e1eaf4920"
     },
     {
       "repo": {
@@ -12105,7 +12105,7 @@
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "50207839e14910becf24aa4ef12b8b72223d0043",
+        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -12117,14 +12117,14 @@
       },
       "debug_info": {
         "goal": "\u03a9 : Type u_1\nG : Type u_5\nm\u03a9 : MeasurableSpace \u03a9\n\u03bc : Measure \u03a9\nhG : MeasurableSpace G\ninst\u271d\u00b3 : MeasurableSingletonClass G\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : Countable G\ninst\u271d : IsProbabilityMeasure \u03bc\nI : Type u_8\ns t : Finset I\nhdisj : Disjoint s t\nhs : s.Nonempty\nht : t.Nonempty\nX : I \u2192 \u03a9 \u2192 G\nhX : \u2200 (i : I), Measurable (X i)\nhX' : \u2200 (i : I), FiniteRange (X i)\nh_indep : iIndepFun X \u03bc\nf : I \u2192 I\nhf : Finset.image f t \u2286 s\n\u22a2 H[\u2211 i \u2208 t, X i ; \u03bc] \u2264 H[\u2211 i \u2208 s, X i ; \u03bc] + \u2211 i \u2208 t, (H[X i - X (f i) ; \u03bc] - H[X (f i) ; \u03bc])",
-        "url": "https://github.com/teorth/pfr/blob/50207839e14910becf24aa4ef12b8b72223d0043/PFR/MoreRuzsaDist.lean#L527"
+        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/MoreRuzsaDist.lean#L527"
       },
       "metadata": {
         "blame_email_hash": "6e8091041644",
         "blame_date": "2024-05-31T19:35:50+01:00",
-        "inclusion_date": "2025-05-25T23:12:46.682441+00:00"
+        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
       },
-      "id": "ba49b89c6706353f0e712bd4c294f826f5145fa88b3a89b85774039f06a56c33"
+      "id": "7f5763e8e8ee04ef08964b4479b65d982633d7d60ce273c8d64606d8c87b913c"
     },
     {
       "repo": {
@@ -21054,8 +21054,8 @@
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -21067,20 +21067,20 @@
       },
       "debug_info": {
         "goal": "\u22a2 (do\n      let _ \u2190 liftM (query 0 ())\n      (fun a => (0, \u2191a)) <$> liftM (query 1 ())) =\n    do\n    let y \u2190 liftM (query 1 ())\n    (fun a => (0, \u2191y)) <$> liftM (query 0 ())",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/OracleReduction/Equiv.lean#L66"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/OracleReduction/Equiv.lean#L66"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-06T20:31:31-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "1eeeee7ba9cbb5c101d7d71fe0042764ee90e3fa64eece82da1eda39beb7d1c0"
+      "id": "b5cb11921a0c2e2f69432d81ccda6b693ac433f393b259c869ac43d31756d596"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -21092,20 +21092,20 @@
       },
       "debug_info": {
         "goal": "case h.h.none\n\u22a2 (evalDist (OptionT.bind (liftM (query 1 ())) (OptionT.pure \u2218 fun a => (0, \u2191a)))) none =\n    \u2211' (a : Fin 2), 2\u207b\u00b9 * (evalDist (OptionT.bind (liftM (query 0 ())) (OptionT.pure \u2218 fun a_1 => (0, \u2191a)))) none",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/OracleReduction/Equiv.lean#L80"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/OracleReduction/Equiv.lean#L80"
       },
       "metadata": {
         "blame_email_hash": "d0850777cf0b",
         "blame_date": "2025-04-16T18:04:04-04:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "8b47ede3a2c8a33a1031902fe95868b073d27769782b0dbbd5f3cbe6738cdc93"
+      "id": "c46fc68d429fee0b69bda6486b0f5ff641eb752286e0443a7b2c98fc135adbc2"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -21117,20 +21117,20 @@
       },
       "debug_info": {
         "goal": "case h.h.some.mk\nx y : \u2115\n\u22a2 (Option.elimM ((PMF.uniformOfFintype (Fin 1)).bind fun a => PMF.pure (some a)) (PMF.pure none)\n        (OptionT.run \u2218 evalDist \u2218 fun x => OptionT.bind (liftM (query 1 ())) (OptionT.pure \u2218 fun a => (0, \u2191a))))\n      (some (x, y)) =\n    (Option.elimM ((PMF.uniformOfFintype (Fin 2)).bind fun a => PMF.pure (some a)) (PMF.pure none)\n        (OptionT.run \u2218 evalDist \u2218 fun y => OptionT.bind (liftM (query 0 ())) (OptionT.pure \u2218 fun a => (0, \u2191y))))\n      (some (x, y))",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/OracleReduction/Equiv.lean#L85"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/OracleReduction/Equiv.lean#L85"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-06T20:31:31-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "6d8602e6e27be28f782998e9771da3d729749ab9aafc1c198800a480ef098ee9"
+      "id": "60cec0d0d2b24739b203178eebb49e7627d726780564a9302e268682c2711957"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -21142,14 +21142,14 @@
       },
       "debug_info": {
         "goal": "f : (i : \u2115) \u2192 unifSpec.domain i \u2192 Fin (i + 1)\n\u22a2 (some (f 0 ()) >>=\n      simulateQ\n          {\n            impl := fun {\u03b1} x =>\n              match \u03b1, x with\n              | .(unifSpec.range i), query i t => some (f i t) } \u2218\n        fun x => (fun a => (0, \u2191a)) <$> lift (query 1 ())) =\n    some (f 1 ()) >>=\n      simulateQ\n          {\n            impl := fun {\u03b1} x =>\n              match \u03b1, x with\n              | .(unifSpec.range i), query i t => some (f i t) } \u2218\n        fun y => (fun a => (0, \u2191y)) <$> lift (query 0 ())",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/OracleReduction/Equiv.lean#L102"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/OracleReduction/Equiv.lean#L102"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-06T20:31:31-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "eb7a575fd124c7630877bc2dbddd6541d597cf6d35e3ecf8512ecb72fd75b636"
+      "id": "633dd834f15a3a455580ef19aa3ee6edea7c3e9e0e1a772830be4c74a1d94b37"
     },
     {
       "repo": {
@@ -21579,8 +21579,8 @@
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -21592,14 +21592,14 @@
       },
       "debug_info": {
         "goal": "R : Type u_1\ninst\u271d\u00b9 : Mul R\ninst\u271d : AddCommMonoid R\nn : \u2115\na : R\nb : Vector R n\nc : R\nd : Vector R n\n\u22a2 List.foldl (fun x1 x2 => x1 + x2) (a * c) (List.zipWith (fun x1 x2 => x1 * x2) b.toList d.toList) =\n    a * c + Array.foldl (fun x1 x2 => x1 + x2) 0 (Array.zipWith (fun x1 x2 => x1 * x2) b.toArray d.toArray) 0 n",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/MlPoly/Basic.lean#L45"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/MlPoly/Basic.lean#L45"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-14T11:09:39-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "14ba03e89612b5ccdaf4f8b9aeba070928ea297898802681028ba278dfa8306f"
+      "id": "fae2ca817ee9f2009f6f9b1dbac3be199480f1dadf42d927d85b2ad403c66042"
     },
     {
       "repo": {
@@ -22004,8 +22004,8 @@
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -22017,14 +22017,14 @@
       },
       "debug_info": {
         "goal": "\u03b1 : Type u_1\na : Array \u03b1\nn : \u2115\nunit : \u03b1\ni : \u2115\nh\u271d : i < (rightpad n unit a).size\nh : i < { toList := List.rightpad n unit a.toList }.size\n\u22a2 { toList := List.rightpad n unit a.toList }[i] = a.getD i unit",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/Math/Basic.lean#L248"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/Math/Basic.lean#L248"
       },
       "metadata": {
         "blame_email_hash": "0c5d39c5ece3",
         "blame_date": "2025-03-09T23:22:53-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "f11b000becaedbb227a1777e8c82e111f9d616e2b8862ee844314db7945234fb"
+      "id": "d03b75936d165861d4f05670c5182889c5d1d4642915f6b71a1986b94cdfc14b"
     },
     {
       "repo": {
@@ -34205,7 +34205,7 @@
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "50207839e14910becf24aa4ef12b8b72223d0043",
+        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34217,20 +34217,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u03a9' : Type u\nY : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh\u03a9' : MeasureSpace \u03a9'\ninst\u271d : IsFiniteMeasure volume\n\u22a2 I[\u2211 i, \u2211 j, \u2191\u2191i \u2022 Y (i, j) : \u2211 i, \u2211 j, \u2191\u2191j \u2022 Y (i, j)|\u2211 i, \u2211 j, Y (i, j)] \u2264 4 * \u2191p.m ^ 2 * p.\u03b7 * multiTau p \u03a9 h\u03a9 X",
-        "url": "https://github.com/teorth/pfr/blob/50207839e14910becf24aa4ef12b8b72223d0043/PFR/TorsionEndgame.lean#L50"
+        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/TorsionEndgame.lean#L50"
       },
       "metadata": {
         "blame_email_hash": "97e8591fe714",
         "blame_date": "2024-09-30T22:19:50+00:00",
-        "inclusion_date": "2025-05-25T23:12:46.682441+00:00"
+        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
       },
-      "id": "543c9af62a509f498874eefde109bee57cf81943208685843626f022943843d0"
+      "id": "77dab37aef11a40fae8f02a4952553af1802960470ee1885a576212188168cf7"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "50207839e14910becf24aa4ef12b8b72223d0043",
+        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34242,20 +34242,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u03a9' : Type u\nY : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh\u03a9' : MeasureSpace \u03a9'\ninst\u271d : IsFiniteMeasure volume\n\u22a2 I[\u2211 i, \u2211 j, \u2191\u2191i \u2022 Y (i, j) : \u2211 i, \u2211 j, (-\u2191\u2191i - \u2191\u2191j) \u2022 Y (i, j)|\u2211 i, \u2211 j, Y (i, j)] \u2264\n    4 * \u2191p.m ^ 2 * p.\u03b7 * multiTau p \u03a9 h\u03a9 X",
-        "url": "https://github.com/teorth/pfr/blob/50207839e14910becf24aa4ef12b8b72223d0043/PFR/TorsionEndgame.lean#L52"
+        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/TorsionEndgame.lean#L52"
       },
       "metadata": {
         "blame_email_hash": "97e8591fe714",
         "blame_date": "2024-09-30T22:19:50+00:00",
-        "inclusion_date": "2025-05-25T23:12:46.682441+00:00"
+        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
       },
-      "id": "3d3877eb54384b24050ac77da3487fe8f2109bbebd342e0e7344922088b31308"
+      "id": "a95321358b17f3e63ffe073566efa64e20d0c2340b1e99584647140a8b10ac9b"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "50207839e14910becf24aa4ef12b8b72223d0043",
+        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34267,20 +34267,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u03a9' : Type u\nY : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh\u03a9' : MeasureSpace \u03a9'\ninst\u271d : IsFiniteMeasure volume\n\u22a2 I[\u2211 i, \u2211 j, \u2191\u2191j \u2022 Y (i, j) : \u2211 i, \u2211 j, (-\u2191\u2191i - \u2191\u2191j) \u2022 Y (i, j)|\u2211 i, \u2211 j, Y (i, j)] \u2264\n    4 * \u2191p.m ^ 2 * p.\u03b7 * multiTau p \u03a9 h\u03a9 X",
-        "url": "https://github.com/teorth/pfr/blob/50207839e14910becf24aa4ef12b8b72223d0043/PFR/TorsionEndgame.lean#L54"
+        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/TorsionEndgame.lean#L54"
       },
       "metadata": {
         "blame_email_hash": "97e8591fe714",
         "blame_date": "2024-09-30T22:19:50+00:00",
-        "inclusion_date": "2025-05-25T23:12:46.682441+00:00"
+        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
       },
-      "id": "18353d2f63b0302d9382c24d6a5381fb2f92b9f8cc1c1b1eac8dd1e16321019d"
+      "id": "3eeb1e3fb15fe83848f6c0909db560fb4539694d925c7fe7ac4f509e12c9ac0c"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "50207839e14910becf24aa4ef12b8b72223d0043",
+        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34292,20 +34292,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u03a9' : Type u\nY : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh\u03a9' : MeasureSpace \u03a9'\ninst\u271d : IsFiniteMeasure volume\nm : \u211d\n\u22a2 H[\u2211 i, \u2211 j, Y (i, j)] \u2264 (2 * \u2191p.m - 1) * multiTau p \u03a9 h\u03a9 X + m\u207b\u00b9 * \u2211 i, H[X i]",
-        "url": "https://github.com/teorth/pfr/blob/50207839e14910becf24aa4ef12b8b72223d0043/PFR/TorsionEndgame.lean#L58"
+        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/TorsionEndgame.lean#L58"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-29T08:58:11-07:00",
-        "inclusion_date": "2025-05-25T23:12:46.682441+00:00"
+        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
       },
-      "id": "269830287ea1b4b8709ed0b9479fcd0314218f592ecac42c8914780745872d9e"
+      "id": "6f9d1cff7071fba20e2c147495e4342b450a3e7e910d095b88f78668ce4d0e1e"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "50207839e14910becf24aa4ef12b8b72223d0043",
+        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34317,20 +34317,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u03a9' : Type u\nY : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh\u03a9' : MeasureSpace \u03a9'\ninst\u271d : IsFiniteMeasure volume\nm : \u211d\n\u22a2 H[\u2211 i, \u2211 j, \u2191\u2191j \u2022 Y (i, j)] \u2264 (8 * \u2191p.m ^ 2 - 16 * \u2191p.m + 1) * multiTau p \u03a9 h\u03a9 X + m\u207b\u00b9 * \u2211 i, H[X i]",
-        "url": "https://github.com/teorth/pfr/blob/50207839e14910becf24aa4ef12b8b72223d0043/PFR/TorsionEndgame.lean#L61"
+        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/TorsionEndgame.lean#L61"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-29T08:58:11-07:00",
-        "inclusion_date": "2025-05-25T23:12:46.682441+00:00"
+        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
       },
-      "id": "d696f1a1119fefb7f8be9f48be7ad911e6194282ebd37033445507c003161e44"
+      "id": "6546159b02c85004eaae6b8ac0333a8dc6cee9fa1b42bbdb451df92bef6c7229"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "50207839e14910becf24aa4ef12b8b72223d0043",
+        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34342,20 +34342,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u03a9' : Type u\nY : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh\u03a9' : MeasureSpace \u03a9'\ninst\u271d : IsFiniteMeasure volume\n\u22a2 I[\u2211 i, \u2211 j, Y (i, j) : \u2211 i, \u2211 j, \u2191\u2191j \u2022 Y (i, j)] \u2264 2 * (\u2191p.m - 1) * multiTau p \u03a9 h\u03a9 X",
-        "url": "https://github.com/teorth/pfr/blob/50207839e14910becf24aa4ef12b8b72223d0043/PFR/TorsionEndgame.lean#L64"
+        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/TorsionEndgame.lean#L64"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-29T08:58:11-07:00",
-        "inclusion_date": "2025-05-25T23:12:46.682441+00:00"
+        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
       },
-      "id": "49c6d083eabc72eed9aa38883aa6538035a4e170d4d6a9f87ec7151598a99fdb"
+      "id": "e09f2b4427a803438fd2e59170aebba317c644ea1515806b518df6556f74d6c1"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "50207839e14910becf24aa4ef12b8b72223d0043",
+        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34367,20 +34367,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u03a9' : Type u\nY : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh\u03a9' : MeasureSpace \u03a9'\ninst\u271d : IsFiniteMeasure volume\n\u22a2 \u2211 i, d[X i # \u2211 i, \u2211 j, \u2191\u2191j \u2022 Y (i, j) | \u2211 i, \u2211 j, Y (i, j)] \u2264 8 * (\u2191p.m ^ 3 - \u2191p.m ^ 2) * multiTau p \u03a9 h\u03a9 X",
-        "url": "https://github.com/teorth/pfr/blob/50207839e14910becf24aa4ef12b8b72223d0043/PFR/TorsionEndgame.lean#L67"
+        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/TorsionEndgame.lean#L67"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-29T08:58:11-07:00",
-        "inclusion_date": "2025-05-25T23:12:46.682441+00:00"
+        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
       },
-      "id": "c38aa3fae0fad25df2c1af619b1ea77a8e6a0cfa4c2780270329c42f14dba437"
+      "id": "cc2250902aef6dbe4b45daee71efdf4d4e6f215643c1d4c6be579a72ee832a02"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "50207839e14910becf24aa4ef12b8b72223d0043",
+        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34392,20 +34392,20 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\ninst\u271d\u2074 : AddCommGroup G\ninst\u271d\u00b3 : Fintype G\ninst\u271d\u00b2 : MeasurableSpace G\ninst\u271d\u00b9 : MeasurableSingletonClass G\nm : \u2115\nhm : m \u2265 2\nhtorsion : \u2200 (x : G), m \u2022 x = 0\n\u03a9 : Type u_2\ninst\u271d : MeasureSpace \u03a9\nX : \u03a9 \u2192 G\n\u22a2 \u2203 H \u03a9' m\u03a9 U, IsUniform (\u2191H) U volume \u2227 d[X # U] \u2264 64 * \u2191m ^ 3 * d[X # X]",
-        "url": "https://github.com/teorth/pfr/blob/50207839e14910becf24aa4ef12b8b72223d0043/PFR/TorsionEndgame.lean#L89"
+        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/TorsionEndgame.lean#L89"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-28T21:28:18-07:00",
-        "inclusion_date": "2025-05-25T23:12:46.682441+00:00"
+        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
       },
-      "id": "491d62315a538f123e584f1ff6f84665275e5f8008aef17e509587ab671709b6"
+      "id": "ef254642b63dfe4712a97600e0eca4d868e45a480d7c052b6658d25dba37b17e"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "50207839e14910becf24aa4ef12b8b72223d0043",
+        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34417,20 +34417,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Type u\nh\u03a9 : MeasureSpace \u03a9\nX : Fin p.m \u2192 \u03a9 \u2192 G\nh_indep : iIndepFun X volume\nh_min : multiTauMinimizes p (fun x => \u03a9) (fun x => h\u03a9) X\n\u03a9' : Type u_1\ninst\u271d : MeasureSpace \u03a9'\nX' : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh_indep' : iIndepFun X' volume\nhperm : \u2200 (j : Fin p.m), \u2203 e, IdentDistrib (fun \u03c9 i => X' (i, j) \u03c9) (fun \u03c9 i => X (e i) \u03c9) volume volume\n\u22a2 I[fun \u03c9 j => \u2211 i, X' (i, j) \u03c9 : fun \u03c9 i => \u2211 j, X' (i, j) \u03c9|fun \u03c9 => \u2211 i, \u2211 j, X' (i, j) \u03c9] \u2264\n    4 * \u2191p.m ^ 2 * p.\u03b7 * D[X ; fun x => h\u03a9]",
-        "url": "https://github.com/teorth/pfr/blob/50207839e14910becf24aa4ef12b8b72223d0043/PFR/BoundingMutual.lean#L36"
+        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/BoundingMutual.lean#L36"
       },
       "metadata": {
         "blame_email_hash": "7d87c0724495",
         "blame_date": "2025-03-07T08:53:46+01:00",
-        "inclusion_date": "2025-05-25T23:12:46.682441+00:00"
+        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
       },
-      "id": "d00abcfde0581b38bf43aa10f1c3432edc5bfa5fb196d376af8973c61b7e3068"
+      "id": "cde56d8dffa6597d35d010b09f3eb259662a0003e4b57876af2b16a6de668c76"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "50207839e14910becf24aa4ef12b8b72223d0043",
+        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34442,20 +34442,20 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : Fintype G\ninst\u271d : Module (ZMod 2) G\n\u22a2 Nat.card (G \u2192+ ZMod 2) = Nat.card G",
-        "url": "https://github.com/teorth/pfr/blob/50207839e14910becf24aa4ef12b8b72223d0043/PFR/ApproxHomPFR.lean#L181"
+        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/ApproxHomPFR.lean#L181"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2025-05-01T23:21:54-07:00",
-        "inclusion_date": "2025-05-25T23:12:46.682441+00:00"
+        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
       },
-      "id": "0e4d0dbc5e7ad32254084d6a9927d2911f5a04ef31a6c764be4e7429bcab14c5"
+      "id": "129f8b11c0edfe7897c5832b14a8059bdd351bf0d70457234b54e2e51b8a1de4"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "50207839e14910becf24aa4ef12b8b72223d0043",
+        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34467,20 +34467,20 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : Fintype G\ninst\u271d : Module (ZMod 2) G\nx : G\nhx : x \u2260 0\n\u22a2 Nat.card \u2191{\u03c6 | \u03c6 x = 1} = Nat.card G / 2",
-        "url": "https://github.com/teorth/pfr/blob/50207839e14910becf24aa4ef12b8b72223d0043/PFR/ApproxHomPFR.lean#L183"
+        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/ApproxHomPFR.lean#L183"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2025-05-01T23:21:54-07:00",
-        "inclusion_date": "2025-05-25T23:12:46.682441+00:00"
+        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
       },
-      "id": "d820eea394cad146d5e98890289692fe8a83b860ef008e6be16532b37116bc12"
+      "id": "46325ee4a052efe733e9b10d8110162547625f18d3a31c09b335ea8320bb91df"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "50207839e14910becf24aa4ef12b8b72223d0043",
+        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34492,20 +34492,20 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : Fintype G\ninst\u271d : Module (ZMod 2) G\nA : Set G\n\u22a2 \u2203 \u03c6, Nat.card \u2191{x | x \u2208 A \u2227 \u03c6 x = 1} \u2265 (Nat.card \u2191A - 1) / 2",
-        "url": "https://github.com/teorth/pfr/blob/50207839e14910becf24aa4ef12b8b72223d0043/PFR/ApproxHomPFR.lean#L185"
+        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/ApproxHomPFR.lean#L185"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2025-05-01T23:21:54-07:00",
-        "inclusion_date": "2025-05-25T23:12:46.682441+00:00"
+        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
       },
-      "id": "1e03c8aeeb70a0bb79030c738d292c7c3b08386d0796cc091546907f43b762a3"
+      "id": "10172d48b59bc063db014c764091ec056e6ec7b69f67d33148b43b656bd1fa59"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "50207839e14910becf24aa4ef12b8b72223d0043",
+        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34517,20 +34517,20 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\nG' : Type u_2\ninst\u271d\u2075 : AddCommGroup G\ninst\u271d\u2074 : Fintype G\ninst\u271d\u00b3 : AddCommGroup G'\ninst\u271d\u00b2 : Fintype G'\ninst\u271d\u00b9 : Module (ZMod 2) G\ninst\u271d : Module (ZMod 2) G'\nf : G \u2192 G'\nK : \u211d\nhK : K > 0\nhf : \u2191(Nat.card G) ^ 2 / K \u2264 \u2191(Nat.card \u2191{x | f (x.1 + x.2) = f x.1 + f x.2})\n\u22a2 \u2203 \u03c6'', \u2191(Nat.card \u2191{x | f x = \u03c6'' x}) \u2265 (\u2191(Nat.card G) / (2 ^ 144 * K ^ 122) - 1) / 2",
-        "url": "https://github.com/teorth/pfr/blob/50207839e14910becf24aa4ef12b8b72223d0043/PFR/ApproxHomPFR.lean#L189"
+        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/ApproxHomPFR.lean#L189"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2025-05-01T23:21:54-07:00",
-        "inclusion_date": "2025-05-25T23:12:46.682441+00:00"
+        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
       },
-      "id": "dbf50bb00a1633eaab8dae740e0097f4cf463ae23aa47ddf0a577b9c4846e6a7"
+      "id": "2761f378d0140c545ddbc3b1bc84e827ed381d5df8e97fbaca9a886baee2efd7"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "50207839e14910becf24aa4ef12b8b72223d0043",
+        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34542,14 +34542,14 @@
       },
       "debug_info": {
         "goal": "G : Type u_8\nhG : MeasurableSpace G\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : MeasurableSingletonClass G\ninst\u271d : Countable G\nm : \u2115\n\u03a9 : Type u_9\nh\u03a9 : MeasureSpace \u03a9\nX : Fin m \u2192 \u03a9 \u2192 G\nh_indep : iIndepFun X volume\n\u22a2 @multiDist G hG inst\u271d\u00b2 m (fun x => \u03a9) (fun x => h\u03a9) X = H[\u2211 i, X i] - (\u2211 i, H[X i]) / \u2191m",
-        "url": "https://github.com/teorth/pfr/blob/50207839e14910becf24aa4ef12b8b72223d0043/PFR/MoreRuzsaDist.lean#L760"
+        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/MoreRuzsaDist.lean#L760"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-22T09:31:46-07:00",
-        "inclusion_date": "2025-05-25T23:12:46.682441+00:00"
+        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
       },
-      "id": "5ee2b07ab44819c7ad75bd9a2f1114da00761d6744920939040fff675808d1d6"
+      "id": "0bf288c55a785b25b326e53a7bbc7b0e44f38bcccf65641ca8d8d93785f2f61e"
     },
     {
       "repo": {
@@ -34630,57 +34630,57 @@
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "50207839e14910becf24aa4ef12b8b72223d0043",
+        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
         "lean_version": "v4.19.0"
       },
       "location": {
         "path": "PFR/MoreRuzsaDist.lean",
-        "start_line": 1052,
+        "start_line": 1165,
         "start_column": 82,
-        "end_line": 1052,
+        "end_line": 1165,
         "end_column": 87
       },
       "debug_info": {
         "goal": "G : Type u_8\nhG : MeasurableSpace G\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : MeasurableSingletonClass G\ninst\u271d : Countable G\nm : \u2115\nhm : m \u2265 2\n\u03a9 : Type u_9\nh\u03a9 : MeasureSpace \u03a9\nX : Fin m \u2192 \u03a9 \u2192 G\nh_indep : iIndepFun X volume\n\u22a2 d[\u2211 i, X i # \u2211 i, X i] \u2264 2 * @multiDist G hG inst\u271d\u00b2 m (fun x => \u03a9) (fun x => h\u03a9) X",
-        "url": "https://github.com/teorth/pfr/blob/50207839e14910becf24aa4ef12b8b72223d0043/PFR/MoreRuzsaDist.lean#L1052"
+        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/MoreRuzsaDist.lean#L1165"
       },
       "metadata": {
         "blame_email_hash": "7d87c0724495",
         "blame_date": "2025-03-07T08:53:46+01:00",
-        "inclusion_date": "2025-05-25T23:12:46.682441+00:00"
+        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
       },
-      "id": "92abef9d4aa6dfab3fef2bf9042e96c6a3f5ec20a23be8a0f711fda520871fdf"
+      "id": "b1d15c92fcf249647ae1963a74809dd64695bde853bfdc48ac27a037a74f2fac"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "50207839e14910becf24aa4ef12b8b72223d0043",
+        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
         "lean_version": "v4.19.0"
       },
       "location": {
         "path": "PFR/MoreRuzsaDist.lean",
-        "start_line": 1719,
+        "start_line": 1832,
         "start_column": 54,
-        "end_line": 1719,
+        "end_line": 1832,
         "end_column": 59
       },
       "debug_info": {
         "goal": "G : Type u_5\nhG : MeasurableSpace G\ninst\u271d\u00b3 : MeasurableSingletonClass G\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : Countable G\ninst\u271d : Fintype G\nm : \u2115\nhm : m \u2265 1\n\u03a9 : Type u_8\nh\u03a9 : MeasureSpace \u03a9\nX : Fin (m + 1) \u00d7 Fin (m + 1) \u2192 \u03a9 \u2192 G\nh_indep : iIndepFun X volume\n\u22a2 I[fun \u03c9 j => \u2211 i, X (i, j) \u03c9 : fun \u03c9 i => \u2211 j, X (i, j) \u03c9|\u2211 p, X p] \u2264\n    (\u2211 j,\n          ((@multiDist G hG inst\u271d\u00b2 (m + 1) (fun x => \u03a9) (fun x => h\u03a9) fun i => X (i, j)) -\n            @condMultiDist G hG inst\u271d\u00b2 (m + 1) (fun x => \u03a9) (fun x => h\u03a9) G inst\u271d (fun i => X (i, j)) fun i =>\n              \u2211 k \u2208 Finset.Ici j, X (i, k)) +\n        @multiDist G hG inst\u271d\u00b2 (m + 1) (fun x => \u03a9) (fun x => h\u03a9) fun i => X (i, \u2191m)) -\n      @multiDist G hG inst\u271d\u00b2 (m + 1) (fun x => \u03a9) (fun x => h\u03a9) fun i => \u2211 j, X (i, j)",
-        "url": "https://github.com/teorth/pfr/blob/50207839e14910becf24aa4ef12b8b72223d0043/PFR/MoreRuzsaDist.lean#L1719"
+        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/MoreRuzsaDist.lean#L1832"
       },
       "metadata": {
         "blame_email_hash": "97e8591fe714",
         "blame_date": "2024-10-17T18:26:36+00:00",
-        "inclusion_date": "2025-05-25T23:12:46.682441+00:00"
+        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
       },
-      "id": "c696aa23cb650944346154a68890ddd6bf69d5cd250466334d7afaab2ec6b9bf"
+      "id": "5887154feabfc4508d2f25fd64dae1f24161bd19687e3903f60578c3d7ae5397"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "50207839e14910becf24aa4ef12b8b72223d0043",
+        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34692,20 +34692,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2080 : Type u\ninst\u271d\u2074 : @MeasureableFinGroup G\ninst\u271d\u00b3 : TopologicalSpace G\ninst\u271d\u00b2 : DiscreteTopology G\ninst\u271d\u00b9 : BorelSpace G\ninst\u271d : MeasureSpace \u03a9\u2080\np : @multiRefPackage G \u03a9\u2080 inst\u271d\u2074 inst\u271d\n\u22a2 Continuous fun \u03bc =>\n    @multiTau G \u03a9\u2080 inst\u271d\u2074 inst\u271d p (fun x => G)\n      (fun i =>\n        { toMeasurableSpace := @MeasureableFinGroup.toMeasurableSpace ((fun x => G) i) inst\u271d\u2074, volume := \u2191(\u03bc i) })\n      fun x => id",
-        "url": "https://github.com/teorth/pfr/blob/50207839e14910becf24aa4ef12b8b72223d0043/PFR/MultiTauFunctional.lean#L54"
+        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/MultiTauFunctional.lean#L54"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-29T09:57:28-07:00",
-        "inclusion_date": "2025-05-25T23:12:46.682441+00:00"
+        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
       },
-      "id": "842775c79177425457b2b32ea2a7e2f4f8a57d736c671609bddf51d0fd8da163"
+      "id": "e07d9cc9138d788c46f9ff9b272b3a7063e00f97af05eb893e1608a54d8317c2"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "50207839e14910becf24aa4ef12b8b72223d0043",
+        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34717,14 +34717,14 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2080 : Type u\ninst\u271d\u00b9 : @MeasureableFinGroup G\ninst\u271d : MeasureSpace \u03a9\u2080\np : @multiRefPackage G \u03a9\u2080 inst\u271d\u00b9 inst\u271d\n\u22a2 \u2203 \u03a9 h\u03a9 X, @multiTauMinimizes G \u03a9\u2080 inst\u271d\u00b9 inst\u271d p \u03a9 h\u03a9 X",
-        "url": "https://github.com/teorth/pfr/blob/50207839e14910becf24aa4ef12b8b72223d0043/PFR/MultiTauFunctional.lean#L57"
+        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/MultiTauFunctional.lean#L57"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-08-18T19:14:43-07:00",
-        "inclusion_date": "2025-05-25T23:12:46.682441+00:00"
+        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
       },
-      "id": "9c2d260868f5b9a91fa42f71afa50dc5c86d0db40e529df6ed0df16828ad3a93"
+      "id": "097f2d22a590102b359a304c0facd148f874e6a1d6cc3eeeb1bfa9ca3af18da1"
     },
     {
       "repo": {
@@ -49804,8 +49804,8 @@
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -49817,20 +49817,20 @@
       },
       "debug_info": {
         "goal": "\u03b9 : Type\noSpec : OracleSpec \u03b9\nStatement Witness \u03b9\u209b\u1d62 : Type\nOStatement : \u03b9\u209b\u1d62 \u2192 Type\ninst\u271d\u00b9 : (i : \u03b9\u209b\u1d62) \u2192 OracleInterface (OStatement i)\nWitEquiv : Type\ninst\u271d : OracleInterface WitEquiv\nequiv : Witness \u2243 WitEquiv\n\u22a2 \u2200 (i : \u03b9\u209b\u1d62 \u2295 Unit),\n    (OStatement \u2295\u1d65 fun x => WitEquiv) i =\n      match (\u22ef.mpr sorry) i with\n      | Sum.inl j => OStatement j\n      | Sum.inr j => ProtocolSpec.Message (SendWitness.pSpec WitEquiv) j",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/ProofSystem/Components.lean#L62"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/ProofSystem/Components.lean#L62"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-24T11:52:07-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "be42d8d7116ba6e3b001dc10caa42629ae8ba4b8f27e41da51b1c73fb6750dd1"
+      "id": "8ac1b586cbb43d61d446f3102d00849ca61b8a0c134735a36bd83ba0ef3b846e"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -49842,20 +49842,20 @@
       },
       "debug_info": {
         "goal": "\u03b9 : Type\noSpec : OracleSpec \u03b9\nStatement Witness \u03b9\u209b\u1d62 : Type\nOStatement : \u03b9\u209b\u1d62 \u2192 Type\ninst\u271d\u00b2 : (i : \u03b9\u209b\u1d62) \u2192 OracleInterface (OStatement i)\nWitEquiv : Type\ninst\u271d\u00b9 : OracleInterface WitEquiv\nequiv : Witness \u2243 WitEquiv\nrelIn : Statement \u00d7 ((i : \u03b9\u209b\u1d62) \u2192 OStatement i) \u2192 Witness \u2192 Prop\ninst\u271d : oSpec.FiniteRange\n\u22a2 OracleReduction.perfectCompleteness relIn (SendWitness.toRelOut Statement Witness \u03b9\u209b\u1d62 OStatement WitEquiv equiv relIn)\n    (SendWitness.oracleReduction \u03b9 oSpec Statement Witness \u03b9\u209b\u1d62 OStatement inst\u271d\u00b2 WitEquiv inst\u271d\u00b9 equiv)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/ProofSystem/Components.lean#L80"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/ProofSystem/Components.lean#L80"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-24T11:52:07-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "251e3c7ec123138b473f35430f5d576b09cb596c24a673c8264df8d0cb1c0865"
+      "id": "3920f10b1ede22b31070fbf73a98aecfb33c0b72709cf71aee4f7629eb3eba63"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -49867,20 +49867,20 @@
       },
       "debug_info": {
         "goal": "\u03b9 : Type\noSpec : OracleSpec \u03b9\nStatement \u03b9\u209b\u1d62 : Type\ninst\u271d : Unique \u03b9\u209b\u1d62\nOStatement : \u03b9\u209b\u1d62 \u2192 Type\ninst : (i : \u03b9\u209b\u1d62) \u2192 OracleInterface (OStatement i)\nrel : Statement \u00d7 ((i : \u03b9\u209b\u1d62) \u2192 OStatement i) \u2192 Prop\nrelComp : Statement \u2192 OracleComp [OStatement]\u2092 Unit\n\u22a2 \u2200 (i : \u03b9\u209b\u1d62 \u2295 \u03b9\u209b\u1d62),\n    (OStatement \u2295\u1d65 OStatement) i =\n      match sorry i with\n      | Sum.inl j => OStatement j\n      | Sum.inr j => ProtocolSpec.Message (SameOracle.pSpec \u03b9\u209b\u1d62 inst\u271d OStatement) j",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/ProofSystem/Components.lean#L141"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/ProofSystem/Components.lean#L141"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-24T11:52:07-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "40cca73363c14387eaa8876e798e10f56bc6edb77a2172f5bf030590150695fd"
+      "id": "beb24889b0c80d5d14a881b329d5e965a42e3cfbec69c3065a4994c4e1d5432a"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -49892,20 +49892,20 @@
       },
       "debug_info": {
         "goal": "\u03b9 : Type\noSpec : OracleSpec \u03b9\nStatement \u03b9\u209b\u1d62 : Type\ninst\u271d\u00b9 : Unique \u03b9\u209b\u1d62\nOStatement : \u03b9\u209b\u1d62 \u2192 Type\ninst : (i : \u03b9\u209b\u1d62) \u2192 OracleInterface (OStatement i)\nrel : Statement \u00d7 ((i : \u03b9\u209b\u1d62) \u2192 OStatement i) \u2192 Prop\nrelComp : Statement \u2192 OracleComp [OStatement]\u2092 Unit\ninst\u271d : oSpec.FiniteRange\n\u22a2 OracleReduction.perfectCompleteness (fun x x_1 => rel x) (SameOracle.relOut \u03b9\u209b\u1d62 inst\u271d\u00b9 OStatement)\n    (SameOracle.oracleReduction \u03b9 oSpec Statement \u03b9\u209b\u1d62 inst\u271d\u00b9 OStatement inst relComp)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/ProofSystem/Components.lean#L167"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/ProofSystem/Components.lean#L167"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-24T11:52:07-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "6fd2994e11386ffe64d2ad4f8ca68405f58c9be14e32f3e915778882d3f64224"
+      "id": "d226dbe18199d42d78d1b9e76e0099ec6c5ffb4e53eaa9aba302776591d4ed6b"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -49917,20 +49917,20 @@
       },
       "debug_info": {
         "goal": "\u03b9 : Type\noSpec : OracleSpec \u03b9\nOStatement : Type\ninst\u271d\u00b9 : OracleInterface OStatement\ninst : VCVCompatible (Query OStatement)\ninst\u271d : oSpec.FiniteRange\n\u22a2 OracleReduction.perfectCompleteness (RandomQuery.relIn OStatement) (RandomQuery.relOut OStatement inst\u271d\u00b9)\n    (RandomQuery.oracleReduction \u03b9 oSpec OStatement inst\u271d\u00b9)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/ProofSystem/Components.lean#L259"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/ProofSystem/Components.lean#L259"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-24T11:52:07-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "1609bd1e4f086e727f55a4dd8ae44cd519512914856c658dd39775a8e83f8897"
+      "id": "622749319aaefbc55e9e96394a48e22e24ff0796c0714983a37ccda2c04a689c"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -49942,20 +49942,20 @@
       },
       "debug_info": {
         "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut : Type\ninst\u271d : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\nstmt : StmtIn\nwit : WitIn\nreduction : Reduction pSpec oSpec StmtIn WitIn StmtOut WitOut\n\u22a2 (do\n      let a \u2190\n        (simulateQ loggingOracle\n              (Prover.runToRound n pSpec \u03b9 oSpec StmtIn WitIn StmtOut WitOut inst\u271d (Fin.last n) stmt wit\n                reduction.prover)).run\n      (fun a_1 => (reduction.prover.toProverOut.1 a.1.2, a_1.1, a.1.1)) <$>\n          (simulateQ loggingOracle (reduction.verifier.verify stmt a.1.1)).run.liftComp\n            (oSpec ++\u2092 [pSpec.Challenge]\u2092)) =\n    do\n    let __discr \u2190 Prover.run n pSpec \u03b9 oSpec StmtIn WitIn StmtOut WitOut inst\u271d stmt wit reduction.prover\n    (fun a => ((__discr.1, __discr.2.1), a, __discr.2.2)) <$>\n        (reduction.verifier.verify stmt __discr.2.2).liftComp (oSpec ++\u2092 [pSpec.Challenge]\u2092)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/OracleReduction/Execution.lean#L185"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/OracleReduction/Execution.lean#L185"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-06T20:02:30-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "1f2433b9076273f0eae6c25bed09cfec8fe8d28155d3a41de488a6541ed27f28"
+      "id": "c0422961c771b042a279cc4ceab3c1ecc2cfe13c6089875679dc04c60b9126b8"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -49967,20 +49967,20 @@
       },
       "debug_info": {
         "goal": "\u03b9 : Type\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut : Type\npSpec : ProtocolSpec 1\ninst\u271d : pSpec.ProverOnly\nstmt : StmtIn\nwit : WitIn\nreduction : Reduction pSpec oSpec StmtIn WitIn StmtOut WitOut\n\u22a2 (do\n      let __discr \u2190\n        (fun a =>\n              ((reduction.prover.toProverOut.1 a.2).1, (reduction.prover.toProverOut.1 a.2).2, fun i =>\n                @Prover.run_of_prover_first.match_1 (fun i => (pSpec i).2) i fun isLt => a.1)) <$>\n            (reduction.prover.sendMessage \u27e80, \u22ef\u27e9 (reduction.prover.input stmt wit)).liftComp\n              (oSpec ++\u2092 [pSpec.Challenge]\u2092)\n      ((fun a => ((__discr.1, __discr.2.1), a, __discr.2.2)) <$> reduction.verifier.verify stmt __discr.2.2).liftComp\n          (oSpec ++\u2092 [pSpec.Challenge]\u2092)) =\n    do\n    let __discr \u2190\n      (reduction.prover.sendMessage \u27e80, \u22ef\u27e9 (reduction.prover.input stmt wit)).liftComp (oSpec ++\u2092 [pSpec.Challenge]\u2092)\n    ((fun a =>\n              (reduction.prover.toProverOut.1 __discr.2, a, fun i =>\n                @Prover.run_of_prover_first.match_1 (fun i => (pSpec i).2) i fun isLt => __discr.1)) <$>\n            reduction.verifier.verify stmt fun i =>\n              @Prover.run_of_prover_first.match_1 (fun i => (pSpec i).2) i fun isLt => __discr.1).liftComp\n        (oSpec ++\u2092 [pSpec.Challenge]\u2092)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/OracleReduction/Execution.lean#L278"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/OracleReduction/Execution.lean#L278"
       },
       "metadata": {
         "blame_email_hash": "0c5d39c5ece3",
         "blame_date": "2025-03-09T23:22:53-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "2d337e25aa52e4b4d8a7f305a6dcf4cd1090867c570a0e61cc55eb72f646b628"
+      "id": "dcc32bb6d8b2eb693283eaf328ba75c7b57c5201633ed59a0e6a21fd72bd8034"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -49992,20 +49992,20 @@
       },
       "debug_info": {
         "goal": "R : Type\ninst\u271d\u2075 : CommRing R\nd : \u2115\ninst\u271d\u2074 : Fintype R\ninst\u271d\u00b3 : DecidableEq R\ninst\u271d\u00b2 : IsDomain R\n\u03c3 : Type\ninst\u271d\u00b9 : Fintype \u03c3\ninst\u271d : DecidableEq \u03c3\na : MvPolynomial \u03c3 R\nha : \u2200 (s : \u03c3 \u2192\u2080 \u2115), \u00acMvPolynomial.coeff s a = 0 \u2192 \u2200 (i : \u03c3), s i \u2264 d\nb : MvPolynomial \u03c3 R\nhb : \u2200 (s : \u03c3 \u2192\u2080 \u2115), \u00acMvPolynomial.coeff s b = 0 \u2192 \u2200 (i : \u03c3), s i \u2264 d\nhNe : \u00aca = b\n\u22a2 {q | (MvPolynomial.eval q) a = (MvPolynomial.eval q) b}.card \u2264 Fintype.card \u03c3 * d",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/OracleReduction/OracleInterface.lean#L312"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/OracleReduction/OracleInterface.lean#L312"
       },
       "metadata": {
         "blame_email_hash": "0c5d39c5ece3",
         "blame_date": "2025-03-09T23:22:53-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "9a3ecee442d6dc07e8a16da3b0c81c97f32864d51acac6e4e2083cde8a2e1de9"
+      "id": "b1f518888b42c7c79e9fd9d5defa47591d610921260017c9d260b06abe467b69"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50017,20 +50017,20 @@
       },
       "debug_info": {
         "goal": "\u03b9 : Type\nspec : OracleSpec \u03b9\nR : Type\ninst\u271d : CommSemiring R\nm : \u2115\nD : Fin m \u21aa R\np : Polynomial R\n\u22a2 \u2203 x,\n    ((OptionT.run (List.mapM (fun i => liftM (query (Sum.inr ()) (D i))) (List.finRange m))).mapM fun {\u03b1} =>\n          QueryImpl.impl\n            (@SimOracle.statelessOracle Unit \u03b9 spec\n              (OracleInterface.toOracleSpec Unit (fun x => Polynomial R) fun i => instOracleInterfacePolynomial R inst\u271d)\n              fun i q => OracleInterface.oracle (Polynomial R) (instOracleInterfacePolynomial R inst\u271d) p q)) =\n        pure x \u2227\n      x.getM = pure (List.map (fun i => eval (D i) p) (List.finRange m))",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/OracleReduction/OracleInterface.lean#L351"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/OracleReduction/OracleInterface.lean#L351"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-06T20:02:30-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "05ee5e992c011ffa064ac3cb862a2f164f69717c2d18ad99736f2fe0fb3182ca"
+      "id": "f4446ac6beeefdd25a353b9fd915982967eb347888463dbee29e51642288b434"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50042,20 +50042,20 @@
       },
       "debug_info": {
         "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut : Type\ninst\u271d\u2074 : VCVCompatible StmtIn\ninst\u271d\u00b3 : (i : Fin n) \u2192 VCVCompatible (pSpec i).2\ninst\u271d\u00b2 : DecidableEq \u03b9\ninst\u271d\u00b9 : oSpec.FiniteRange\ninst\u271d : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\nrelIn : StmtIn \u2192 WitIn \u2192 Prop\nrelOut : StmtOut \u2192 WitOut \u2192 Prop\ncompletenessError : NNReal\nR : Reduction pSpec oSpec StmtIn WitIn StmtOut WitOut\n\u22a2 Reduction.completeness relIn relOut R completenessError \u2192\n    Reduction.completeness relIn relOut (Reduction.fiatShamir n pSpec \u03b9 oSpec StmtIn WitIn StmtOut WitOut R)\n      completenessError",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Transform/FiatShamir.lean#L130"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Transform/FiatShamir.lean#L130"
       },
       "metadata": {
         "blame_email_hash": "d0850777cf0b",
         "blame_date": "2025-05-06T23:33:56-04:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "e2f18bc278ec5764528c00aa819b7c4dfe75e5911157c81aaccfeb55e9c05117"
+      "id": "5ab50b11e30d3e7301283bd3b57d56f514438ffedbf7044542493a7a6118e1ca"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50067,20 +50067,20 @@
       },
       "debug_info": {
         "goal": "R : Type\ninst\u271d\u00b9 : CommRing R\ninst\u271d : Sampleable R\np : Polynomial R\n\u22a2 (FRI.splitEvenOdd R inst\u271d\u00b9 p).1.natDegree \u2264 p.natDegree / 2",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/CommitmentScheme/Fold.lean#L103"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/CommitmentScheme/Fold.lean#L103"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-11-26T16:07:07-07:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "dc6319a8cff46c76daaa018731790e7eeadd0b07f216402c333fd41b4b290d19"
+      "id": "08639546aaab76e3caa44178f5353c0c3d20464397f7ebf14df6055f101379ec"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50092,20 +50092,20 @@
       },
       "debug_info": {
         "goal": "R : Type\ninst\u271d\u00b9 : CommRing R\ninst\u271d : Sampleable R\np : Polynomial R\n\u22a2 (FRI.splitEvenOdd R inst\u271d\u00b9 p).2.natDegree \u2264 p.natDegree / 2",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/CommitmentScheme/Fold.lean#L107"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/CommitmentScheme/Fold.lean#L107"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-11-26T16:07:07-07:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "d3d54d3c7347f66c825203b433fc3bdd7249160168c6e852d2e05e820807334f"
+      "id": "617e137dd017a0ee4ad7e888e47caec2c80ee8d9546bf3ee8de5715930a47673"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50117,20 +50117,20 @@
       },
       "debug_info": {
         "goal": "R : Type\ninst\u271d\u00b9 : CommRing R\ninst\u271d : Sampleable R\nn deg : \u2115\n\u03b6 : R\u02e3\nhPrim : IsPrimitiveRoot \u03b6 (2 ^ n)\np : \u21a5(Polynomial.degreeLT R (2 * n))\npEven pOdd : Polynomial R\n\u22a2 pEven \u2208 Polynomial.degreeLT R n",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/CommitmentScheme/Fold.lean#L119"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/CommitmentScheme/Fold.lean#L119"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-11-26T16:07:07-07:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "7d8a834be4ae521361ce8aa1470bcb7c47e9edecda0e7948314846c1e250c352"
+      "id": "5df06c8977c0bcb930cfc164e8045952697560cd9521ae0612cb6be7dac5c87a"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50142,20 +50142,20 @@
       },
       "debug_info": {
         "goal": "R : Type\ninst\u271d\u00b9 : CommRing R\ninst\u271d : Sampleable R\nn deg : \u2115\n\u03b6 : R\u02e3\nhPrim : IsPrimitiveRoot \u03b6 (2 ^ n)\np : \u21a5(Polynomial.degreeLT R (2 * n))\npEven pOdd : Polynomial R\n\u22a2 pOdd \u2208 Polynomial.degreeLT R n",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/CommitmentScheme/Fold.lean#L119"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/CommitmentScheme/Fold.lean#L119"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-11-26T16:07:07-07:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "b8b8852ac4086ed6cad0a464bc8faa2a99d4a9fbb184a75bbf588220a918cf2f"
+      "id": "82ba73866717f305af1cf84e2c62630db4a224433a20d9ea43d58ee442d4290a"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/InductiveMerkleTree",
+        "commit": "b515038ace925bb59eee770120808863430623f1",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50167,20 +50167,20 @@
       },
       "debug_info": {
         "goal": "case succ\n\u03b1 : Type\ninst\u271d\u00b2 : DecidableEq \u03b1\ninst\u271d\u00b9 : Inhabited \u03b1\ninst\u271d : Fintype \u03b1\nhash : \u03b1 \u00d7 \u03b1 \u2192 \u03b1\nn : \u2115\nih :\n  \u2200 (leaves : List.Vector \u03b1 (2 ^ n)) (i : Fin (2 ^ n)),\n    (simulateQ (@MerkleTree.implement_with_function \u03b1 hash)\n        (do\n          let cache \u2190 MerkleTree.buildMerkleTree \u03b1 n leaves\n          let proof : List.Vector \u03b1 n := MerkleTree.generateProof \u03b1 n i cache\n          MerkleTree.verifyProof \u03b1 inst\u271d\u00b2 n i leaves[i] (MerkleTree.getRoot \u03b1 n cache) proof\n          pure PUnit.unit)\n        ()).neverFails\nleaves : List.Vector \u03b1 (2 ^ (n + 1))\ni : Fin (2 ^ (n + 1))\n\u22a2 ((((Option.elimM (OptionT.run (MerkleTree.buildMerkleTree \u03b1 (n + 1) leaves)) (FreeMonad.pure none)\n              (@Function.comp (MerkleTree.Cache \u03b1 (n + 1))\n                (OptionT (FreeMonad (OracleQuery (MerkleTree.spec \u03b1))) PUnit.{1})\n                (FreeMonad (OracleQuery (MerkleTree.spec \u03b1)) (Option PUnit.{1})) OptionT.run fun cache =>\n                MerkleTree.verifyProof \u03b1 inst\u271d\u00b2 (n + 1) i (leaves.get i) (MerkleTree.getRoot \u03b1 (n + 1) cache)\n                  (MerkleTree.generateProof \u03b1 (n + 1) i cache))).mapM\n          fun {\u03b1_1} q =>\n          @MerkleTree.implement_with_function.match_1 \u03b1 (fun \u03b1_2 q => StateT Unit (OracleComp []\u2092) \u03b1_2) \u03b1_1 q\n            fun i left right => pure (hash (left, right))) >>=\n        fun __do_lift => __do_lift.getM)\n      ()).neverFails",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/CommitmentScheme/MerkleTree.lean#L219"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b515038ace925bb59eee770120808863430623f1/ArkLib/CommitmentScheme/MerkleTree.lean#L219"
       },
       "metadata": {
         "blame_email_hash": "ab200eba5736",
         "blame_date": "2025-04-16T13:24:09-07:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:13:28.034269+00:00"
       },
-      "id": "f3235aacd051f886130d181408607299675741155a62b38c4f597cc9cf980e1a"
+      "id": "4c0731b139b44f19c3f726c89395596b0cf40dca526c9a09d9de2329cfabe0d9"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50192,20 +50192,20 @@
       },
       "debug_info": {
         "goal": "p : \u2115\ninst\u271d\u00b2 : Fact (Nat.Prime p)\nG\u2081 : Type u_2\ninst\u271d\u00b9 : CommGroup G\u2081\ninst\u271d : @IsPrimeOrderWith G\u2081 CommGroup.toGroup p inst\u271d\u00b2\nn : \u2115\ng : G\u2081\na : ZMod p\npoly : \u21a5(degreeLT (ZMod p) (n + 1))\n\u22a2 g ^ \u2211 i, a.val ^ \u2191i * ((degreeLTEquiv (ZMod p) (n + 1)) poly i).val =\n    g ^ (\u2211 x, (degreeLTEquiv (ZMod p) (n + 1)) poly x * a ^ \u2191x).val",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/AGM/Basic.lean#L160"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/AGM/Basic.lean#L160"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-01-15T12:13:54+05:30",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "4950a69ad49ea1434404d774f64f132d01997dbc73e6167ca822c0aac5d396cf"
+      "id": "3dd62fa57af2aa9ea4c2bbc6ec8a31ff08d940ff9a9d054a228afc0304d4e203"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50217,20 +50217,20 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\ninst\u271d\u2078 : CommGroup G\np : \u2115\ninst\u271d\u2077 : Fact (Nat.Prime p)\nh : Nat.card G = p\ng : G\nG\u2081 : Type u_2\ninst\u271d\u2076 : CommGroup G\u2081\ninst\u271d\u2075 : @IsPrimeOrderWith G\u2081 CommGroup.toGroup p inst\u271d\u2077\ng\u2081 : G\u2081\nG\u2082 : Type u_3\ninst\u271d\u2074 : CommGroup G\u2082\ninst\u271d\u00b3 : @IsPrimeOrderWith G\u2082 CommGroup.toGroup p inst\u271d\u2077\ng\u2082 : G\u2082\nG\u209c : Type u_4\ninst\u271d\u00b2 : CommGroup G\u209c\ninst\u271d\u00b9 : @IsPrimeOrderWith G\u209c CommGroup.toGroup p inst\u271d\u2077\npairing : Additive G\u2081 \u2192\u2097[\u2124] Additive G\u2082 \u2192\u2097[\u2124] Additive G\u209c\nn : \u2115\ninst\u271d : Fact (Nat.Prime p)\nsrs : Vector G\u2081 (n + 1)\ncoeffs : Fin (n + 1) \u2192 ZMod p\nz : ZMod p\npoly : \u21a5(degreeLT (ZMod p) (n + 1)) := (degreeLTEquiv (ZMod p) (n + 1)).invFun coeffs\nthis : Field (ZMod p)\n\u22a2 ((\u2191poly - C (eval z \u2191poly)) / (X - C z)).degree < \u2191(n + 1)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/AGM/Basic.lean#L171"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/AGM/Basic.lean#L171"
       },
       "metadata": {
         "blame_email_hash": "d0850777cf0b",
         "blame_date": "2025-03-15T21:13:06-06:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "d35b77dd30428ac7ddbf69f3a4656837724631a1ddd22360407fd74474b3b560"
+      "id": "11565a4b742fb6003d5795fa5c40ecd2a678edbd01d04d59fd3a37bec5739052"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50242,20 +50242,20 @@
       },
       "debug_info": {
         "goal": "n : Type u_1\ninst\u271d\u00b2 : Fintype n\nR : Type u_2\ninst\u271d\u00b9 : DecidableEq R\nC : Set (n \u2192 R)\ninst\u271d : Fintype \u2191C\nh : \u00acSubsingleton \u2191C\n\u22a2 @codeDist' n inst\u271d\u00b2 R inst\u271d\u00b9 C inst\u271d \u2260 \u22a4",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/CodingTheory/Basic.lean#L186"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/CodingTheory/Basic.lean#L186"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-10-13T15:41:38-06:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "507d5bbfbbf3fdb6fa523f120ed4fa67e5977693c4699da686f110f5ffa97585"
+      "id": "692ab1d680517abc3574dfaf83860a4c7b65f695402ce68e50f66d6742196803"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50267,20 +50267,20 @@
       },
       "debug_info": {
         "goal": "case neg\nn : Type u_1\ninst\u271d\u00b2 : Fintype n\nR : Type u_2\ninst\u271d\u00b9 : DecidableEq R\nC : Set (n \u2192 R)\ninst\u271d : Fintype \u2191C\nh : \u00acSubsingleton \u2191C\nthis : @codeDist' n inst\u271d\u00b2 R inst\u271d\u00b9 C inst\u271d \u2260 \u22a4\n\u22a2 ENat.toNat (Finset.image (fun x => hammingDist \u2191x.1 \u2191x.2) {p | \u00acp.1 = p.2}).min =\n    sInf {d | \u2203 u \u2208 C, \u2203 v \u2208 C, \u00acu = v \u2227 hammingDist u v \u2264 d}",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/CodingTheory/Basic.lean#L187"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/CodingTheory/Basic.lean#L187"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-10-13T15:41:38-06:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "42435048fd64965459b96a24e06f9326848b1d87982a966452bc9a10eb2b0196"
+      "id": "694e3fe3c021e761d6287df1bb84f3858e6a34faff9084fdf43d04dfd5b49fdb"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50292,20 +50292,20 @@
       },
       "debug_info": {
         "goal": "case e_a.h.h\u2081.intro.intro.intro.intro.intro\nn : Type u_1\ninst\u271d\u00b2 : Fintype n\nR : Type u_2\ninst\u271d\u00b9 : DecidableEq R\ninst\u271d : CommSemiring R\nC : Submodule R (n \u2192 R)\nd : \u2115\nu : n \u2192 R\nhu : u \u2208 C\nv : n \u2192 R\nhv : v \u2208 C\nhuv : \u00acu = v\nhDist : hammingDist u v \u2264 d\n\u22a2 \u2203 u \u2208 C, \u00acu = 0 \u2227 hammingNorm u \u2264 d",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/CodingTheory/Basic.lean#L231"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/CodingTheory/Basic.lean#L231"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-10-13T15:41:38-06:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "2fe6bea5465ce7f5369ace0cd5b8d37e426705ced18df229ce1ac890c07a6e4a"
+      "id": "b26f1356aaba84bf9bdf76d6c86aa3fb95ed27b033c6fc505ab62d74979874bf"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50317,20 +50317,20 @@
       },
       "debug_info": {
         "goal": "case e_a.h.h\u2082.intro.intro.intro\nn : Type u_1\ninst\u271d\u00b2 : Fintype n\nR : Type u_2\ninst\u271d\u00b9 : DecidableEq R\ninst\u271d : CommSemiring R\nC : Submodule R (n \u2192 R)\nd : \u2115\nu : n \u2192 R\nhu : u \u2208 C\nhNorm : \u00acu = 0\nhDist : hammingNorm u \u2264 d\n\u22a2 \u2203 u \u2208 C, \u2203 v \u2208 C, \u00acu = v \u2227 hammingDist u v \u2264 d",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/CodingTheory/Basic.lean#L234"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/CodingTheory/Basic.lean#L234"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-10-13T15:41:38-06:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "2b9915bee3bc81fbc855e06dd96dc92f39841b5329cf403774bccda3930bc23c"
+      "id": "473f18fcdcdb3924b18eb39a1a24a9beb8058dce6a050c5091f7f3f52e4e834e"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50342,20 +50342,20 @@
       },
       "debug_info": {
         "goal": "n : Type u_1\ninst\u271d\u00b3 : Fintype n\nR : Type u_2\ninst\u271d\u00b2 : DecidableEq R\ninst\u271d\u00b9 : Finite R\ninst\u271d : DivisionRing R\nC : Submodule R (n \u2192 R)\n\u22a2 Module.finrank R \u21a5C \u2264 card n - @codeDist n inst\u271d\u00b3 R inst\u271d\u00b2 C.carrier + 1",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/CodingTheory/Basic.lean#L395"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/CodingTheory/Basic.lean#L395"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-10-26T22:44:38-04:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "beda2677a61da2facf5c2e741e52d5f9a7f448db86ca8cd46599ec6cda5fb47f"
+      "id": "2febf5f1420ce1cf9cf933f3e45d55c1d379e27ef9fd96b6b835f658ce452cc8"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50367,20 +50367,20 @@
       },
       "debug_info": {
         "goal": "R : Type u_1\ninst\u271d : CommSemiring R\nn : \u2115\n\u22a2 Function.LeftInverse (@MlPoly.ofSpec R inst\u271d n) (@MlPoly.toSpec R inst\u271d n)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/MlPoly/Equiv.lean#L34"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/MlPoly/Equiv.lean#L34"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-01-28T11:45:54-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "d41990c7e90ea58c7aca88ad9aba89061dc2c589fa8640bbfd098cb12fb5d415"
+      "id": "ef51dd6c039ba99ece66c3958a8f0e351f994a6c032cd24d65107abe31436e77"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50392,20 +50392,20 @@
       },
       "debug_info": {
         "goal": "R : Type u_1\ninst\u271d : CommSemiring R\nn : \u2115\n\u22a2 Function.RightInverse (@MlPoly.ofSpec R inst\u271d n) (@MlPoly.toSpec R inst\u271d n)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/MlPoly/Equiv.lean#L35"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/MlPoly/Equiv.lean#L35"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-01-28T11:45:54-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "a46ab8f5916234a96950282ab0f958a0295b3fe9608499e34a615f22dff14ec8"
+      "id": "0c2bf1a4aaea367c8fe0477fbf92dd2489b7efa3aac15a7f8805a757d825fa28"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50417,20 +50417,20 @@
       },
       "debug_info": {
         "goal": "R : Type u_1\ninst\u271d : CommSemiring R\nn : \u2115\np q : MlPoly R n\n\u22a2 @MlPoly.toSpec R inst\u271d n (p + q) = @MlPoly.toSpec R inst\u271d n p + @MlPoly.toSpec R inst\u271d n q",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/MlPoly/Equiv.lean#L43"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/MlPoly/Equiv.lean#L43"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-01-28T11:45:54-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "4417e3ec6bcfb5b3e220ee0412855d3b6b4919fb63a45e8b81b64126562e3088"
+      "id": "f808d2c5e31d9c57a31db674c1fc2e3e748111d6f3bc94228ddf914ae62bdd91"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50442,20 +50442,20 @@
       },
       "debug_info": {
         "goal": "R : Type u_1\ninst\u271d\u00b9 : CommSemiring R\nn : \u2115\nS : Type u_2\ninst\u271d : CommSemiring S\nf : R \u2192+* S\np : MlPoly R n\nx : Vector S n\n\u22a2 p.eval\u2082 f x = MvPolynomial.eval\u2082 f x.get \u2191(@MlPoly.toSpec R inst\u271d\u00b9 n p)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/MlPoly/Equiv.lean#L47"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/MlPoly/Equiv.lean#L47"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-01-28T11:45:54-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "9f9815a20782823c73e1c6e9eae1d2e25589044021ed75aff5d11a6a8b0a4c41"
+      "id": "af8ad910a7a052af071226099af68b5eae42bb76a019e038e26502ab0d68ed3b"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50467,20 +50467,20 @@
       },
       "debug_info": {
         "goal": "R : Type u_1\ninst\u271d\u00b9 : Mul R\ninst\u271d : AddCommMonoid R\nn : \u2115\na : R\nb : Vector R n\nc : R\nd : Vector R n\n\u22a2 get (@Vector.cons R n a b) \u2b1d\u1d65 get (@Vector.cons R n c d) = a * c + b.get \u2b1d\u1d65 d.get",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/MlPoly/Basic.lean#L49"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/MlPoly/Basic.lean#L49"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-14T11:09:39-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "249b7c69e8b2cc71cfe4eb6db8de1727d76da4e0baec6695cafe1598ce7abf60"
+      "id": "61935aeb8aa47fc805f1339b812f229a57828a5c98f68068e9a00b2e96269526"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50492,20 +50492,20 @@
       },
       "debug_info": {
         "goal": "R : Type u_1\nn : \u2115\ninst\u271d : Semiring R\n\u22a2 \u2200 (a : R), @HSMul.hSMul R (@MlPoly R n) (@MlPoly R n) instHSMul a 0 = 0",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/MlPoly/Basic.lean#L121"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/MlPoly/Basic.lean#L121"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-01-28T11:45:54-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "ef6710281394b0bcd5984cce42dbb9101bca4c04957dea45ec67948c83640001"
+      "id": "d4d8e07df9e3cc26bfd743ccf6d901d393c47b030cf2a0763a5219e0b2208252"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50517,20 +50517,20 @@
       },
       "debug_info": {
         "goal": "\u03b1 : Type u_1\nunit : \u03b1\nl l' : List \u03b1\nm n n' : \u2115\nh : n \u2264 m\nh' : n' \u2264 m\nhEq : rightpad n unit l = rightpad n' unit l'\nhLen : max n l.length = max n' l'.length\n\u22a2 l ++ replicate (n - l.length + (m - max n' l'.length)) unit =\n    l' ++ replicate (n' - l'.length + (m - max n' l'.length)) unit",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/Math/Basic.lean#L149"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/Math/Basic.lean#L149"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-10-13T15:41:38-06:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "a5d3564b308483a6bcb6370fcce50c5f355d158f92c897ce9c2e25ac1e24fac0"
+      "id": "4450c692947866d42d31d97c1b790837e2f0570f8f4553c362a5c97d914872eb"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50542,20 +50542,20 @@
       },
       "debug_info": {
         "goal": "\u03b1 : Type u_1\nl\u2081 l\u2082 : List \u03b1\nunit : \u03b1\n\u22a2 (@fun x => @List.matchSize_eq_iff_forall_eq.match_1 \u03b1 (fun x => Prop) x fun x y => x = y)\n      (@List.matchSize \u03b1 l\u2081 l\u2082 unit) \u2194\n    \u2200 (i : \u2115), l\u2081.getD i unit = l\u2082.getD i unit",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/Math/Basic.lean#L203"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/Math/Basic.lean#L203"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-10-14T17:35:17-06:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "4f4fa5ffa6081d46dc8e88a30c071f9fba3f26f74ad55dfd41f0b9dfc8190561"
+      "id": "87bfe4ab6455e9b5fc67d6d0c76dc3973ce8f4827199cdff8597e535349a048b"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50567,20 +50567,20 @@
       },
       "debug_info": {
         "goal": "\u03b1 : Type u_1\np : \u03b1 \u2192 Bool\nas : Array \u03b1\nh : (popWhile p as).size > 0\n\u22a2 \u00acp (@Array.getLast \u03b1 (popWhile p as) h) = true",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/Math/Basic.lean#L382"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/Math/Basic.lean#L382"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-10-14T17:35:17-06:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "6ed70b0c10a0e627b1c74bfb35c3a965202da3dfb286fa2287a4dd7a1df3cf6e"
+      "id": "f1562e46ccaf85f1d8294c3cb06088a31aec66d7624bd47a707bba171c366ecf"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50592,20 +50592,20 @@
       },
       "debug_info": {
         "goal": "l : List \u2115\nj a : \u2115\nl' : List \u2115\nh : j < a + l'.sum\n\u22a2 \u2203 n, @List.findSum \u2115 Nat.instAddMonoid Nat.instPreorder Nat.decLt (a :: l') j = some n",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/Math/Basic.lean#L460"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/Math/Basic.lean#L460"
       },
       "metadata": {
         "blame_email_hash": "d0850777cf0b",
         "blame_date": "2025-05-23T10:22:30+07:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "de42fbbf06ee3d8e6a3f979a64c01990802530a450081c68ee69daa1269e17e3"
+      "id": "19c5d60c7443dbf866a2728a86110f649a18e5d00078f9abf36bcacd735ac6fa"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50617,20 +50617,20 @@
       },
       "debug_info": {
         "goal": "\u03b1 : Type u_1\ninst\u271d\u00b2 : AddMonoid \u03b1\ninst\u271d\u00b9 : Preorder \u03b1\ninst\u271d : DecidableRel fun x1 x2 => x1 < x2\nl : List \u2115\nj : Fin l.sum\n\u22a2 @List.findSumIdx \u2115 Nat.instAddMonoid Nat.instPreorder Nat.decLt l \u2191j < l.length",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/Math/Basic.lean#L472"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/Math/Basic.lean#L472"
       },
       "metadata": {
         "blame_email_hash": "d0850777cf0b",
         "blame_date": "2025-05-23T10:22:30+07:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "2077532661bd45ed4c48d9fdae8716784af2d61c8e6b9faceb568610252b449f"
+      "id": "f96e4e5a2f472c889630e1843619de34a48fc7747a82f903bef5410829017592"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50642,20 +50642,20 @@
       },
       "debug_info": {
         "goal": "R : Type u_1\ninst\u271d : CommSemiring R\n\u03c3 : Type u_3\n\u03c3\u2081 : Type u_4\n\u03c3\u2082 : Type u_5\nx : \u03c3\u2081 \u2192 R\nf : \u03c3 \u2192 \u03c3\u2081 \u2295 \u03c3\u2082\np : MvPolynomial \u03c3 R\nb : \u03c3\u2081 \u2192\u2080 \u2115\nh : \u00accoeff b ((sumToIter R \u03c3\u2081 \u03c3\u2082) ((rename f) p)) = 0\n\u22a2 (coeff b ((sumToIter R \u03c3\u2081 \u03c3\u2082) ((rename f) p))).degrees \u2264 Multiset.filterMap Sum.getRight? (Multiset.map f p.degrees)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/MvPolynomial/Sumcheck.lean#L75"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/MvPolynomial/Sumcheck.lean#L75"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-10-16T12:52:41-06:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "2319fc87c01d09398fa3a25dec6cffd6e0a223216fbb8f742c2c8ce6a96017fa"
+      "id": "bec22f4482456013fcb8502459269e35b89f0c5a2488dcd4212c2110032f837b"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50667,20 +50667,20 @@
       },
       "debug_info": {
         "goal": "R : Type u_1\ninst\u271d : CommSemiring R\nn : \u2115\nh : n > 0\nD : Fin (n - 1) \u2192 Finset R\np : MvPolynomial (Fin n) R\n\u22a2 ((@MvPolynomial.sumExceptFirst' R inst\u271d n h D) p).degree \u2264 \u2191(degreeOf \u27e80, h\u27e9 p)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/MvPolynomial/Sumcheck.lean#L112"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/MvPolynomial/Sumcheck.lean#L112"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-09-13T15:50:48-04:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "ccb7482f396a047399f5cebfaea894c7b7323e339f35128642e7382b7aef6657"
+      "id": "0835515551ec4069f52f47ecfbfa5cd0958731f6f1aa77210fe9b57c127a14af"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50692,20 +50692,20 @@
       },
       "debug_info": {
         "goal": "\u03c3 : Type u_1\ninst\u271d\u2074 : DecidableEq \u03c3\ninst\u271d\u00b3 : Fintype \u03c3\nR : Type u_2\ninst\u271d\u00b2 : CommRing R\ninst\u271d\u00b9 : IsDomain R\ninst\u271d : DecidableEq R\np : MvPolynomial \u03c3 R\nhp : p \u2260 0\nS : \u03c3 \u2192 Finset R\n\u22a2 \u2191{x \u2208 p.vars.pi S | (eval (@MvPolynomial.Function.extendDomain \u03c3 R inst\u271d\u2074 MulZeroClass.toZero p.vars x)) p = 0}.card /\n      \u220f i \u2208 p.vars, \u2191(S i).card \u2264\n    \u2211 i \u2208 p.vars, \u2191(degreeOf i p) / \u2191(S i).card",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/MvPolynomial/Interpolation.lean#L69"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/MvPolynomial/Interpolation.lean#L69"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-10-30T15:40:43-04:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "9d45462618eee0afe775a7851f8938646b01876a69e2a3a69c98773d8b6159fc"
+      "id": "9ccd4710dae61ddf082000f6dfa2422f0f422bbfb0351f2bea0936d4aee2bc64"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50717,20 +50717,20 @@
       },
       "debug_info": {
         "goal": "\u03c3 : Type u_1\ninst\u271d\u00b3 : DecidableEq \u03c3\ninst\u271d\u00b2 : Fintype \u03c3\nR : Type u_2\ninst\u271d\u00b9 : CommRing R\ninst\u271d : IsDomain R\np q : MvPolynomial \u03c3 R\nS : \u03c3 \u2192 Finset R\nhDegree : \u2200 (i : \u03c3), degreeOf i p < (S i).card\nhEval : \u2200 x \u2208 piFinset fun i => S i, (eval x) p = (eval x) q\n\u22a2 p = q",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/MvPolynomial/Interpolation.lean#L171"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/MvPolynomial/Interpolation.lean#L171"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-10-30T15:40:43-04:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "7366e2a070c5cddbf47a546a97788ecc2a2b1b32bd8bd33e808ffb58193e887b"
+      "id": "69af6269dfdab7bde50b6a30575ba977423c7a79cbb3cfb166b640233792c429"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50742,20 +50742,20 @@
       },
       "debug_info": {
         "goal": "Q : Type u_2\ninst\u271d : Ring Q\np q : @UniPoly Q\ni : \u2115\nhi : i < Array.size (@UniPoly.add_raw Q inst\u271d p q)\n\u22a2 (p ++ Array.replicate (Array.size q - Array.size p) 0)[i] +\n      (q ++ Array.replicate (Array.size p - Array.size q) 0)[i] =\n    p[i]?.getD 0 + q[i]?.getD 0",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/UniPoly/Basic.lean#L571"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/UniPoly/Basic.lean#L571"
       },
       "metadata": {
         "blame_email_hash": "0c5d39c5ece3",
         "blame_date": "2025-03-09T23:22:53-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "15e3d0ffc14964a3c51ac45e14f1288c8684515aff043be044b230b724d5e6f5"
+      "id": "8bd7bb97b2d9520a9c34367934077aef5fa032fa17f9ce56ea0c9fcda1eb495c"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50767,20 +50767,20 @@
       },
       "debug_info": {
         "goal": "Q : Type u_2\ninst\u271d : Ring Q\np q r : @UniPoly Q\nhpq : p ++ Array.replicate (Array.size q - Array.size p) 0 = q ++ Array.replicate (Array.size p - Array.size q) 0\nhqr : q ++ Array.replicate (Array.size r - Array.size q) 0 = r ++ Array.replicate (Array.size q - Array.size r) 0\n\u22a2 p ++ Array.replicate (Array.size r - Array.size p) 0 = r ++ Array.replicate (Array.size p - Array.size r) 0",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/Data/UniPoly/Basic.lean#L899"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/Data/UniPoly/Basic.lean#L899"
       },
       "metadata": {
         "blame_email_hash": "0c5d39c5ece3",
         "blame_date": "2025-03-09T23:22:53-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "3eef8c734cb23d606437d633e44b7ae520614bca584f094de561b8e370442592"
+      "id": "9a039a2484293be12edfbc623412ab55f972fca7affac56c844e758caebcae74"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50792,20 +50792,20 @@
       },
       "debug_info": {
         "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\ninst\u271d\u00b2 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' : Type\ninst\u271d\u00b9 : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\ninst\u271d : oSpec.FiniteRange\ndata : TransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\nstmtIn : StmtIn\nwitIn : WitIn\nP : Prover pSpec oSpec StmtIn' WitIn' StmtOut' WitOut'\n\u22a2 (fun a =>\n        (TransportStatement.fStmtOut StmtIn StmtOut StmtIn' StmtOut'\n            (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n            (a.2.2.1, (P.toProverOut.1 a.2.1).1),\n          TransportWitness.fWitOut WitIn WitOut WitIn' WitOut'\n            (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n            (a.2.2.2, (P.toProverOut.1 a.2.1).2),\n          a.1)) <$>\n      Fin.induction\n        (pure\n          (default,\n            P.input\n              (TransportStatement.fStmtIn StmtIn StmtOut StmtIn' StmtOut'\n                (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n                stmtIn)\n              (TransportWitness.fWitIn WitIn WitOut WitIn' WitOut'\n                (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n                witIn),\n            stmtIn, witIn))\n        (fun j ih => do\n          let __discr \u2190 ih\n          match hDir : (pSpec j).1 with\n            | Direction.V_to_P =>\n              (fun a => (Transcript.snoc a __discr.1, P.receiveChallenge \u27e8j, hDir\u27e9 __discr.2.1 a, __discr.2.2)) <$>\n                liftM (query (Sum.inr \u27e8j, hDir\u27e9) ())\n            | Direction.P_to_V =>\n              (fun a => (Transcript.snoc a.1 __discr.1, a.2, __discr.2.2)) <$>\n                (P.sendMessage \u27e8j, hDir\u27e9 __discr.2.1).liftComp (oSpec ++\u2092 [pSpec.Challenge]\u2092))\n        (Fin.last n) =\n    (fun a =>\n        (TransportStatement.fStmtOut StmtIn StmtOut StmtIn' StmtOut'\n            (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n            (stmtIn, (P.toProverOut.1 a.2).1),\n          TransportWitness.fWitOut WitIn WitOut WitIn' WitOut'\n            (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n            (witIn, (P.toProverOut.1 a.2).2),\n          a.1)) <$>\n      Fin.induction\n        (pure\n          (default,\n            P.input\n              (TransportStatement.fStmtIn StmtIn StmtOut StmtIn' StmtOut'\n                (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n                stmtIn)\n              (TransportWitness.fWitIn WitIn WitOut WitIn' WitOut'\n                (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n                witIn)))\n        (fun j ih => do\n          let __discr \u2190 ih\n          match hDir : (pSpec j).1 with\n            | Direction.V_to_P =>\n              (fun a => (Transcript.snoc a __discr.1, P.receiveChallenge \u27e8j, hDir\u27e9 __discr.2 a)) <$>\n                liftM (query (Sum.inr \u27e8j, hDir\u27e9) ())\n            | Direction.P_to_V =>\n              (fun a => (Transcript.snoc a.1 __discr.1, a.2)) <$>\n                (P.sendMessage \u27e8j, hDir\u27e9 __discr.2).liftComp (oSpec ++\u2092 [pSpec.Challenge]\u2092))\n        (Fin.last n)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/OracleReduction/Composition/Virtual.lean#L151"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/OracleReduction/Composition/Virtual.lean#L151"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-06T20:02:30-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "bfa5852d3241da036d55d6f40824c9282fef3c8fb74b787113ababf136e00bb6"
+      "id": "b5773f24bfc86c4e3ebd1aeaed7d77989b1e5c80b1f2580166fc91dde752ebf0"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50817,20 +50817,20 @@
       },
       "debug_info": {
         "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\ninst\u271d\u00b2 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' : Type\ninst\u271d\u00b9 : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\ninst\u271d : oSpec.FiniteRange\ndata : TransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\nstmtIn : StmtIn\nwitIn : WitIn\nR : Reduction pSpec oSpec StmtIn' WitIn' StmtOut' WitOut'\n\u22a2 (do\n      let a \u2190\n        Prover.run\n            (TransportStatement.fStmtIn StmtIn StmtOut StmtIn' StmtOut'\n              (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n              stmtIn)\n            (TransportWitness.fWitIn WitIn WitOut WitIn' WitOut'\n              (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data) witIn)\n            R.prover\n      (fun a_1 =>\n            ((TransportStatement.fStmtOut StmtIn StmtOut StmtIn' StmtOut'\n                  (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n                  (stmtIn, a.1),\n                TransportWitness.fWitOut WitIn WitOut WitIn' WitOut'\n                  (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n                  (witIn, a.2.1)),\n              a_1, a.2.2)) <$>\n          (Verifier.run stmtIn a.2.2\n                {\n                  verify := fun stmtIn transcript =>\n                    (fun a =>\n                        TransportStatement.fStmtOut StmtIn StmtOut StmtIn' StmtOut'\n                          (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut'\n                            WitOut' data)\n                          (stmtIn, a)) <$>\n                      R.verifier.verify\n                        (TransportStatement.fStmtIn StmtIn StmtOut StmtIn' StmtOut'\n                          (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut'\n                            WitOut' data)\n                          stmtIn)\n                        transcript }).liftComp\n            (oSpec ++\u2092 [pSpec.Challenge]\u2092)) =\n    do\n    let a \u2190\n      Prover.run\n          (TransportStatement.fStmtIn StmtIn StmtOut StmtIn' StmtOut'\n            (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n            stmtIn)\n          (TransportWitness.fWitIn WitIn WitOut WitIn' WitOut'\n            (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data) witIn)\n          R.prover\n    (fun a_1 =>\n          ((TransportStatement.fStmtOut StmtIn StmtOut StmtIn' StmtOut'\n                (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n                (stmtIn, a.1),\n              TransportWitness.fWitOut WitIn WitOut WitIn' WitOut'\n                (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n                (witIn, a.2.1)),\n            TransportStatement.fStmtOut StmtIn StmtOut StmtIn' StmtOut'\n              (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n              (stmtIn, a_1),\n            a.2.2)) <$>\n        (Verifier.run\n              (TransportStatement.fStmtIn StmtIn StmtOut StmtIn' StmtOut'\n                (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n                stmtIn)\n              a.2.2 R.verifier).liftComp\n          (oSpec ++\u2092 [pSpec.Challenge]\u2092)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/OracleReduction/Composition/Virtual.lean#L164"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/OracleReduction/Composition/Virtual.lean#L164"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-06T20:02:30-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "623a1bdbc93c2bc45fe0d3cfc093eb254f706d1fd48da7ffbe2b8730eab29fd0"
+      "id": "8378e364c7d8d5930086e5bdd2d06d32797f67a5d6d4d7fd44d71a8f24c05d6a"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50842,20 +50842,20 @@
       },
       "debug_info": {
         "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\ninst\u271d\u00b2 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' : Type\ninst\u271d\u00b9 : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\ninst\u271d : oSpec.FiniteRange\ndata : TransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\nstmtIn : StmtIn\nwitIn : WitIn\nR : Reduction pSpec oSpec StmtIn' WitIn' StmtOut' WitOut'\n\u22a2 (do\n      let __discr \u2190\n        Prover.runWithLog stmtIn witIn\n            (Prover.transport n pSpec \u03b9 oSpec StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data R.prover)\n      (fun a => ((__discr.1, __discr.2.1), a.1, __discr.2.2.1, __discr.2.2.2, a.2)) <$>\n          (simulateQ loggingOracle\n                  (Verifier.run stmtIn __discr.2.2.1\n                    {\n                      verify := fun stmtIn transcript =>\n                        (fun a =>\n                            TransportStatement.fStmtOut StmtIn StmtOut StmtIn' StmtOut'\n                              (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut'\n                                WitOut' data)\n                              (stmtIn, a)) <$>\n                          R.verifier.verify\n                            (TransportStatement.fStmtIn StmtIn StmtOut StmtIn' StmtOut'\n                              (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut'\n                                WitOut' data)\n                              stmtIn)\n                            transcript })).run.liftComp\n            (oSpec ++\u2092 [pSpec.Challenge]\u2092)) =\n    do\n    let a \u2190\n      Prover.runWithLog\n          (TransportStatement.fStmtIn StmtIn StmtOut StmtIn' StmtOut'\n            (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n            stmtIn)\n          (TransportWitness.fWitIn WitIn WitOut WitIn' WitOut'\n            (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data) witIn)\n          R.prover\n    (fun a_1 =>\n          ((TransportStatement.fStmtOut StmtIn StmtOut StmtIn' StmtOut'\n                (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n                (stmtIn, a.1),\n              TransportWitness.fWitOut WitIn WitOut WitIn' WitOut'\n                (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n                (witIn, a.2.1)),\n            TransportStatement.fStmtOut StmtIn StmtOut StmtIn' StmtOut'\n              (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n              (stmtIn, a_1.1),\n            a.2.2.1, a.2.2.2, a_1.2)) <$>\n        (simulateQ loggingOracle\n                (Verifier.run\n                  (TransportStatement.fStmtIn StmtIn StmtOut StmtIn' StmtOut'\n                    (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\n                      data)\n                    stmtIn)\n                  a.2.2.1 R.verifier)).run.liftComp\n          (oSpec ++\u2092 [pSpec.Challenge]\u2092)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/OracleReduction/Composition/Virtual.lean#L177"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/OracleReduction/Composition/Virtual.lean#L177"
       },
       "metadata": {
         "blame_email_hash": "0c5d39c5ece3",
         "blame_date": "2025-03-09T23:22:53-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "034a3387812f0a701eaf1cd1337025862422be8c2af681bd65c96d16c3b1b478"
+      "id": "bc37b7fdb88b86134feccf2e2fb594463274bf129ad35b8b7e29a373d565435b"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50867,20 +50867,20 @@
       },
       "debug_info": {
         "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\ninst\u271d\u00b2 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' : Type\ninst\u271d\u00b9 : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\ninst\u271d : oSpec.FiniteRange\nrelIn : StmtIn \u2192 WitIn \u2192 Prop\nrelOut : StmtOut \u2192 WitOut \u2192 Prop\nrelIn' : StmtIn' \u2192 WitIn' \u2192 Prop\nrelOut' : StmtOut' \u2192 WitOut' \u2192 Prop\ncompletenessError : NNReal\ndata : TransportDataComplete StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' relIn relIn' relOut relOut'\nR : Reduction pSpec oSpec StmtIn' WitIn' StmtOut' WitOut'\nh :\n  \u2200 (stmtIn : StmtIn') (witIn : WitIn'),\n    relIn' stmtIn witIn \u2192\n      [fun x =>\n          match x with\n          | ((prvStmtOut, witOut), stmtOut, snd) => relOut' stmtOut witOut \u2227 prvStmtOut = stmtOut|run stmtIn witIn R] \u2265\n        1 - \u2191completenessError\nstmtIn : StmtIn\nwitIn : WitIn\nhRelIn : relIn stmtIn witIn\nhR :\n  [fun x =>\n      match x with\n      | ((prvStmtOut, witOut), stmtOut, snd) =>\n        relOut' stmtOut witOut \u2227\n          prvStmtOut =\n            stmtOut|run\n        (TransportStatement.fStmtIn StmtIn StmtOut StmtIn' StmtOut'\n          (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\n            (TransportDataComplete.toTransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' relIn\n              relIn' relOut relOut' data))\n          stmtIn)\n        (TransportWitness.fWitIn WitIn WitOut WitIn' WitOut'\n          (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\n            (TransportDataComplete.toTransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' relIn\n              relIn' relOut relOut' data))\n          witIn)\n        R] \u2265\n    1 - \u2191completenessError\nx\u271d : (StmtOut' \u00d7 WitOut') \u00d7 StmtOut' \u00d7 pSpec.FullTranscript\na\u271d :\n  x\u271d \u2208\n    (run\n        (TransportStatement.fStmtIn StmtIn StmtOut StmtIn' StmtOut'\n          (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\n            (TransportDataComplete.toTransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' relIn\n              relIn' relOut relOut' data))\n          stmtIn)\n        (TransportWitness.fWitIn WitIn WitOut WitIn' WitOut'\n          (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\n            (TransportDataComplete.toTransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' relIn\n              relIn' relOut relOut' data))\n          witIn)\n        R).support\nhRelOut' : relOut' x\u271d.2.1 x\u271d.1.2 \u2227 x\u271d.1.1 = x\u271d.2.1\n\u22a2 ((fun x => relOut x.2.1 x.1.2 \u2227 x.1.1 = x.2.1) \u2218 fun a =>\n      ((TransportStatement.fStmtOut StmtIn StmtOut StmtIn' StmtOut'\n            (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\n              (TransportDataComplete.toTransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' relIn\n                relIn' relOut relOut' data))\n            (stmtIn, a.1.1),\n          TransportWitness.fWitOut WitIn WitOut WitIn' WitOut'\n            (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\n              (TransportDataComplete.toTransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' relIn\n                relIn' relOut relOut' data))\n            (witIn, a.1.2)),\n        TransportStatement.fStmtOut StmtIn StmtOut StmtIn' StmtOut'\n          (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\n            (TransportDataComplete.toTransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' relIn\n              relIn' relOut relOut' data))\n          (stmtIn, a.2.1),\n        a.2.2))\n    x\u271d",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/OracleReduction/Composition/Virtual.lean#L201"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/OracleReduction/Composition/Virtual.lean#L201"
       },
       "metadata": {
         "blame_email_hash": "d0850777cf0b",
         "blame_date": "2025-04-22T09:32:10-04:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "d409743cef1be0b522928d003605e1b6107669815666f03167dfa4d18098429e"
+      "id": "06248df0de429fb18d97475d491b9ea95f79a40d2d4e9dc33a27ed1a1ba17cfd"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50892,20 +50892,20 @@
       },
       "debug_info": {
         "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\ninst\u271d\u00b2 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\nStmtIn StmtOut StmtIn' StmtOut' : Type\ninst\u271d\u00b9 : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\ninst\u271d : oSpec.FiniteRange\nlangIn : Set StmtIn\nlangOut : Set StmtOut\nlangIn' : Set StmtIn'\nlangOut' : Set StmtOut'\nsoundnessError : NNReal\ndata : TransportDataSound StmtIn StmtOut StmtIn' StmtOut' langIn langOut langIn' langOut'\nV : Verifier pSpec oSpec StmtIn' StmtOut'\nh :\n  \u2200 (WitIn WitOut : Type) (witIn : WitIn) (prover : Prover pSpec oSpec StmtIn' WitIn StmtOut' WitOut),\n    \u2200 stmtIn \u2209 langIn',\n      [fun x =>\n          match x with\n          | (fst, stmtOut, snd) => stmtOut \u2209 langOut'|run stmtIn witIn { prover := prover, verifier := V }] \u2264\n        \u2191soundnessError\nstmtIn hStmtIn : Type\nWitIn : stmtIn\nWitOut : Prover pSpec oSpec StmtIn stmtIn StmtOut hStmtIn\nwitIn : StmtIn\nprover : witIn \u2209 langIn\n\u22a2 [fun x =>\n      match x with\n      | (fst, stmtOut, snd) =>\n        stmtOut \u2209\n          langOut|run witIn WitIn\n        { prover := WitOut,\n          verifier :=\n            Verifier.transport n pSpec \u03b9 oSpec StmtIn StmtOut StmtIn' StmtOut'\n              (TransportDataSound.toTransportStatement StmtIn StmtOut StmtIn' StmtOut' langIn langOut langIn' langOut'\n                data)\n              V }] \u2264\n    \u2191soundnessError",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/OracleReduction/Composition/Virtual.lean#L215"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/OracleReduction/Composition/Virtual.lean#L215"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-06T20:02:30-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "abb7bedcc6e562a050b3d53297ce11a3c37e43e1cc5f0e48e11747ae885d5b3d"
+      "id": "9cfa5f7876fab07eb43e542549c45412040f84cc5ae241c5dd7ef9e6fbdabc0a"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50917,20 +50917,20 @@
       },
       "debug_info": {
         "goal": "case intro\nn : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\ninst\u271d\u00b2 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' : Type\ninst\u271d\u00b9 : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\ninst\u271d : oSpec.FiniteRange\nrelIn : StmtIn \u2192 WitIn \u2192 Prop\nrelOut : StmtOut \u2192 WitOut \u2192 Prop\nrelIn' : StmtIn' \u2192 WitIn' \u2192 Prop\nrelOut' : StmtOut' \u2192 WitOut' \u2192 Prop\nsoundnessError : NNReal\ndata :\n  TransportDataKnowledgeSound StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' relIn relIn' relOut relOut'\nV : Verifier pSpec oSpec StmtIn' StmtOut'\nE : StraightlineExtractor\nh' :\n  \u2200 (stmtIn : StmtIn') (witIn : WitIn') (prover : Prover pSpec oSpec StmtIn' WitIn' StmtOut' WitOut'),\n    [fun x =>\n        match x with\n        | ((fst, witOut), stmtOut, transcript, proveQueryLog, snd) =>\n          \u00acrelIn' stmtIn (E stmtIn stmtOut witOut transcript proveQueryLog) \u2227\n            relOut' stmtOut witOut|runWithLog stmtIn witIn { prover := prover, verifier := V }] \u2264\n      \u2191soundnessError\n\u22a2 \u2203 extractor,\n    \u2200 (stmtIn : StmtIn) (witIn : WitIn) (prover : Prover pSpec oSpec StmtIn WitIn StmtOut WitOut),\n      [fun x =>\n          match x with\n          | ((fst, witOut), stmtOut, transcript, proveQueryLog, snd) =>\n            \u00acrelIn stmtIn (extractor stmtIn stmtOut witOut transcript proveQueryLog) \u2227\n              relOut stmtOut\n                witOut|runWithLog stmtIn witIn\n            { prover := prover,\n              verifier :=\n                Verifier.transport n pSpec \u03b9 oSpec StmtIn StmtOut StmtIn' StmtOut'\n                  (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\n                    (TransportDataKnowledgeSound.toTransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut'\n                      WitOut' relIn relIn' relOut relOut' data))\n                  V }] \u2264\n        \u2191soundnessError",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/OracleReduction/Composition/Virtual.lean#L229"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/OracleReduction/Composition/Virtual.lean#L229"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-06T20:02:30-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "4592194618d6503732ce61f45b4140b48046d8d5f97a286a050fbecbaf9186a9"
+      "id": "92ee720857643e68ea9d3749357d4ad03d381ceb487546c67d2d83226e77a265"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50942,20 +50942,20 @@
       },
       "debug_info": {
         "goal": "x\u271d\u00b3 : StmtIn\nx\u271d\u00b2 : Unit\nx\u271d\u00b9 : StmtOut'\nx\u271d : Unit\np q : Polynomial \u2124\nt : \u2124\nf : Polynomial \u2124\nt' r : \u2124\nhRelOut' : eval r f = t'\nhRelIn : eval 0 p * eval 0 q + eval 1 p * eval 1 q = t\n\u22a2 eval r p * eval r q = t'",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/OracleReduction/Composition/Virtual.lean#L278"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/OracleReduction/Composition/Virtual.lean#L278"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-06T20:31:31-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "3dcbc9599b17649b1f854a6517955704ecba551936e35bd4dc56344fb2607d8d"
+      "id": "cee664b1c4b8dd13592057a329f71e26ca7303f55f02d41fb60a1be52c9f0ca2"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50967,20 +50967,20 @@
       },
       "debug_info": {
         "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\noSpec : OracleSpec \u03b9\ninst\u271d\u00b9 : oSpec.FiniteRange\ninst\u271d : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\nStmtIn WitIn StmtOut WitOut : Type\nrelIn : StmtIn \u2192 WitIn \u2192 Prop\nrelOut : StmtOut \u2192 WitOut \u2192 Prop\nverifier : Verifier pSpec oSpec StmtIn StmtOut\nknowledgeError : NNReal\nhLt : knowledgeError < 1\nextractor :\n  @Reduction.StraightlineExtractor n pSpec (\u03b9 \u2295 { i // (pSpec i).1 = Direction.V_to_P }) (oSpec ++\u2092 [pSpec.Challenge]\u2092)\n    StmtIn WitIn StmtOut WitOut\nhKS :\n  \u2200 (stmtIn : StmtIn) (witIn : WitIn) (prover : Prover pSpec oSpec StmtIn WitIn StmtOut WitOut),\n    [fun x =>\n        \u00acrelIn stmtIn (@extractor stmtIn x.2.1 x.1.2 x.2.2.1 x.2.2.2.1) \u2227\n          relOut x.2.1 x.1.2|runWithLog stmtIn witIn { prover := prover, verifier := verifier }] \u2264\n      \u2191knowledgeError\nWitIn' WitOut' : Type\nwitIn' : WitIn'\nprover : Prover pSpec oSpec StmtIn WitIn' StmtOut WitOut'\nstmtIn : StmtIn\nhStmtIn : \u2200 (x : WitIn), \u00acrelIn stmtIn x\n\u22a2 [fun x => \u2200 (x_1 : WitOut), \u00acrelOut x.2.1 x_1|run stmtIn witIn' { prover := prover, verifier := verifier }] \u2264\n    \u2191knowledgeError",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/OracleReduction/Security/Basic.lean#L390"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/OracleReduction/Security/Basic.lean#L390"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-06T20:02:30-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "db1d27ecc117ca7928306c4c7dff6c255e2438d8904fe072a5c5e05d83bed1d2"
+      "id": "ff87729c6a4af800c75d05a85887b6a9e7b6e040f8354e64bc46bf8357e0c9e9"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50992,20 +50992,20 @@
       },
       "debug_info": {
         "goal": "m n : \u2115\npSpec\u2081 : ProtocolSpec m\npSpec\u2082 : ProtocolSpec n\n\u03b9 : Type\ninst\u271d\u00b3 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\nStmt\u2081 Wit\u2081 Stmt\u2082 Wit\u2082 Stmt\u2083 Wit\u2083 : Type\nO\u2098\u2081 : (i : pSpec\u2081.MessageIdx) \u2192 OracleInterface (pSpec\u2081.Message i)\nO\u2098\u2082 : (i : pSpec\u2082.MessageIdx) \u2192 OracleInterface (pSpec\u2082.Message i)\ninst\u271d\u00b2 : (i : pSpec\u2081.ChallengeIdx) \u2192 Sampleable (pSpec\u2081.Challenge i)\ninst\u271d\u00b9 : (i : pSpec\u2082.ChallengeIdx) \u2192 Sampleable (pSpec\u2082.Challenge i)\ninst\u271d : oSpec.DecidableEq\nP\u2081 : Prover pSpec\u2081 oSpec Stmt\u2081 Wit\u2081 Stmt\u2082 Wit\u2082\nP\u2082 : Prover pSpec\u2082 oSpec Stmt\u2082 Wit\u2082 Stmt\u2083 Wit\u2083\nstmt : Stmt\u2081\nwit : Wit\u2081\n\u22a2 run stmt wit (Prover.append m n pSpec\u2081 pSpec\u2082 \u03b9 oSpec Stmt\u2081 Wit\u2081 Stmt\u2082 Wit\u2082 Stmt\u2083 Wit\u2083 P\u2081 P\u2082) = do\n    let __discr \u2190 liftM (run stmt wit P\u2081)\n    @Prover.append_run.match_1 m pSpec\u2081 Stmt\u2082 Wit\u2082\n        (fun __discr =>\n          OracleComp (oSpec ++\u2092 [(pSpec\u2081 ++\u209a pSpec\u2082).Challenge]\u2092) (Stmt\u2083 \u00d7 Wit\u2083 \u00d7 (pSpec\u2081 ++\u209a pSpec\u2082).FullTranscript))\n        __discr fun stmt\u2082 wit\u2082 transcript\u2081 => do\n        let __discr \u2190 liftM (run stmt\u2082 wit\u2082 P\u2082)\n        @Prover.append_run.match_1 n pSpec\u2082 Stmt\u2083 Wit\u2083\n            (fun __discr =>\n              OracleComp (oSpec ++\u2092 [(pSpec\u2081 ++\u209a pSpec\u2082).Challenge]\u2092)\n                (Stmt\u2083 \u00d7 Wit\u2083 \u00d7 (pSpec\u2081 ++\u209a pSpec\u2082).FullTranscript))\n            __discr fun stmt\u2083 wit\u2083 transcript\u2082 => pure (stmt\u2083, wit\u2083, transcript\u2081 ++\u209c transcript\u2082)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/OracleReduction/Composition/Sequential/Basic.lean#L404"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/OracleReduction/Composition/Sequential/Basic.lean#L404"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-12-28T16:03:02+07:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "85abe5b6884f44210f84a386783e5de071e98c22efe22c935dd85385acebb674"
+      "id": "c9e57490677fa0c582b7371c9b9a20d84c244ae65bd9d70850f38ff4c1796a42"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -51017,20 +51017,20 @@
       },
       "debug_info": {
         "goal": "m n : \u2115\n\u03b9 : Type\ninst\u271d\u2074 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\npSpec\u2081 : ProtocolSpec m\npSpec\u2082 : ProtocolSpec n\ninst\u271d\u00b3 : (i : pSpec\u2081.ChallengeIdx) \u2192 Sampleable (pSpec\u2081.Challenge i)\ninst\u271d\u00b2 : (i : pSpec\u2082.ChallengeIdx) \u2192 Sampleable (pSpec\u2082.Challenge i)\nStmt\u2081 Wit\u2081 Stmt\u2082 Wit\u2082 Stmt\u2083 Wit\u2083 : Type\nrel\u2081 : Stmt\u2081 \u2192 Wit\u2081 \u2192 Prop\nrel\u2082 : Stmt\u2082 \u2192 Wit\u2082 \u2192 Prop\nrel\u2083 : Stmt\u2083 \u2192 Wit\u2083 \u2192 Prop\ninst\u271d\u00b9 : oSpec.DecidableEq\ninst\u271d : oSpec.FiniteRange\nR\u2081 : Reduction pSpec\u2081 oSpec Stmt\u2081 Wit\u2081 Stmt\u2082 Wit\u2082\nR\u2082 : Reduction pSpec\u2082 oSpec Stmt\u2082 Wit\u2082 Stmt\u2083 Wit\u2083\ncompletenessError\u2081 completenessError\u2082 : NNReal\nh\u2081 : completeness rel\u2081 rel\u2082 R\u2081 completenessError\u2081\nh\u2082 : completeness rel\u2082 rel\u2083 R\u2082 completenessError\u2082\n\u22a2 completeness rel\u2081 rel\u2083 (Reduction.append m n pSpec\u2081 pSpec\u2082 \u03b9 oSpec Stmt\u2081 Wit\u2081 Stmt\u2082 Wit\u2082 Stmt\u2083 Wit\u2083 R\u2081 R\u2082)\n    (completenessError\u2081 + completenessError\u2082)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/OracleReduction/Composition/Sequential/Basic.lean#L434"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/OracleReduction/Composition/Sequential/Basic.lean#L434"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-12-01T17:09:18-07:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "75ab0f0e627019e0592199df895954cc3a236299cf43ccd92732ed4680bd31a8"
+      "id": "45fa8683a456a7d5951151cfeaba220b7dec7c1f3a397a7ac6dee98a1bb0ca22"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -51042,20 +51042,20 @@
       },
       "debug_info": {
         "goal": "case h.e'_6.h.h.h.h.e'_2.h.h.e\n\u03b9 : Type\ninst\u271d\u00b3 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\ninst\u271d\u00b2 : oSpec.DecidableEq\ninst\u271d\u00b9 : oSpec.FiniteRange\nn : Fin (0 + 1) \u2192 \u2115\npSpec : (i : Fin (0 + 1)) \u2192 ProtocolSpec (n i)\ninst\u271d : (i : Fin (0 + 1)) \u2192 (j : (pSpec i).ChallengeIdx) \u2192 Sampleable ((pSpec i).Challenge j)\nStmt Wit : Fin (0 + 2) \u2192 Type\nrel : (i : Fin (0 + 2)) \u2192 Stmt i \u2192 Wit i \u2192 Prop\nR : (i : Fin (0 + 1)) \u2192 Reduction (pSpec i) oSpec (Stmt i.castSucc) (Wit i.castSucc) (Stmt i.succ) (Wit i.succ)\ncompletenessError : Fin (0 + 1) \u2192 NNReal\nh : \u2200 (i : Fin 1), completeness (rel i.castSucc) (rel i.succ) (R i) (completenessError i)\ne_1\u271d\u00b9 : \u2211 i, n i = n 0\nhe\u271d : compose 0 n pSpec = pSpec 0\nx\u271d : { i // (compose 0 n pSpec i).1 = Direction.V_to_P }\ne_1\u271d : (compose 0 n pSpec \u2191x\u271d).2 = (pSpec 0 \u2191x\u271d).2\n\u22a2 instSampleableChallengeCompose 0 n pSpec inst\u271d = inst\u271d 0",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/OracleReduction/Composition/Sequential/Basic.lean#L464"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/OracleReduction/Composition/Sequential/Basic.lean#L464"
       },
       "metadata": {
         "blame_email_hash": "d0850777cf0b",
         "blame_date": "2025-05-23T10:22:30+07:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "d3c2becd2f6f2d1c68e324255b6800b3da2e35b0beb0607a615271bbe68984b2"
+      "id": "beb9e0eac67778517b2e37c2cc1c8ded74e309d43ae8a17fd0af75f95540588c"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -51067,20 +51067,20 @@
       },
       "debug_info": {
         "goal": "case succ\n\u03b9 : Type\ninst\u271d\u00b3 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\ninst\u271d\u00b2 : oSpec.DecidableEq\ninst\u271d\u00b9 : oSpec.FiniteRange\nm : \u2115\nih :\n  \u2200 {n : Fin (m + 1) \u2192 \u2115} {pSpec : (i : Fin (m + 1)) \u2192 ProtocolSpec (n i)}\n    [inst : (i : Fin (m + 1)) \u2192 (j : (pSpec i).ChallengeIdx) \u2192 Sampleable ((pSpec i).Challenge j)]\n    {Stmt Wit : Fin (m + 2) \u2192 Type} {rel : (i : Fin (m + 2)) \u2192 Stmt i \u2192 Wit i \u2192 Prop}\n    (R : (i : Fin (m + 1)) \u2192 Reduction (pSpec i) oSpec (Stmt i.castSucc) (Wit i.castSucc) (Stmt i.succ) (Wit i.succ))\n    (completenessError : Fin (m + 1) \u2192 NNReal),\n    (\u2200 (i : Fin (m + 1)), completeness (rel i.castSucc) (rel i.succ) (R i) (completenessError i)) \u2192\n      completeness (rel 0) (rel (Fin.last (m + 1))) (Reduction.compose \u03b9 oSpec m n pSpec Stmt Wit R)\n        (\u2211 i, completenessError i)\nn : Fin (m + 1 + 1) \u2192 \u2115\npSpec : (i : Fin (m + 1 + 1)) \u2192 ProtocolSpec (n i)\ninst\u271d : (i : Fin (m + 1 + 1)) \u2192 (j : (pSpec i).ChallengeIdx) \u2192 Sampleable ((pSpec i).Challenge j)\nStmt Wit : Fin (m + 1 + 2) \u2192 Type\nrel : (i : Fin (m + 1 + 2)) \u2192 Stmt i \u2192 Wit i \u2192 Prop\nR : (i : Fin (m + 1 + 1)) \u2192 Reduction (pSpec i) oSpec (Stmt i.castSucc) (Wit i.castSucc) (Stmt i.succ) (Wit i.succ)\ncompletenessError : Fin (m + 1 + 1) \u2192 NNReal\nh : \u2200 (i : Fin (m + 1 + 1)), completeness (rel i.castSucc) (rel i.succ) (R i) (completenessError i)\n\u22a2 completeness (rel 0) (rel (Fin.last (m + 1 + 1))) (Reduction.compose \u03b9 oSpec (m + 1) n pSpec Stmt Wit R)\n    (\u2211 i, completenessError i)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/OracleReduction/Composition/Sequential/Basic.lean#L466"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/OracleReduction/Composition/Sequential/Basic.lean#L466"
       },
       "metadata": {
         "blame_email_hash": "d0850777cf0b",
         "blame_date": "2025-05-23T10:22:30+07:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "6baca9477d3cd07ca2df8ee861e32e6778af704879ccf16479f420173dcefbf5"
+      "id": "31ee15d13b779e72d66dcaa8149f07f869f50c5f3991f29c85f656cf8de6bf3d"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -51092,20 +51092,20 @@
       },
       "debug_info": {
         "goal": "m : \u2115\nn : Fin (m + 1) \u2192 \u2115\npSpec : (i : Fin (m + 1)) \u2192 ProtocolSpec (n i)\nT : (i : Fin (m + 1)) \u2192 (pSpec i).FullTranscript\ni : Fin m\n\u22a2 @Fin.dfoldl (\u2191i + 1)\n      (fun i_1 =>\n        FullTranscript\n          (ProtocolSpec.compose (\u2191i_1)\n            (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_38 (\u2191i + 1) i_1)\n              (Fin.take (\u2191i + 1 + 1) \u22ef n))\n            (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_38 (\u2191i + 1) i_1)\n              (Fin.take (\u2191i + 1 + 1) \u22ef pSpec))))\n      (fun i_1 acc =>\n        @dcast\u2082 \u2115 ProtocolSpec (@FullTranscript) ProtocolSpec.instDepCast ProtocolSpec.FullTranscript.instDepCast\u2082\n          (\u2211 i_2, n (Fin.castLE \u22ef (Fin.castLE (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i + 1) i_1) i_2)) +\n            n (Fin.castLE \u22ef i_1.succ))\n          (\u2211 i_2, n (Fin.castLE \u22ef (Fin.castLE (ProtocolSpec.FullTranscript.compose._proof_40 (\u2191i + 1) i_1) i_2)))\n          (ProtocolSpec.append\n            (\u2211 i_2, n (Fin.castLE \u22ef (Fin.castLE (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i + 1) i_1) i_2)))\n            (n (Fin.castLE \u22ef i_1.succ))\n            (ProtocolSpec.compose (\u2191i_1)\n              (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i + 1) i_1)\n                (Fin.take (\u2191i + 1 + 1) \u22ef n))\n              (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i + 1) i_1)\n                (Fin.take (\u2191i + 1 + 1) \u22ef pSpec)))\n            (pSpec (Fin.castLE \u22ef i_1.succ)))\n          (ProtocolSpec.compose (\u2191i_1 + 1)\n            (Fin.take (\u2191i_1 + 1 + 1) (ProtocolSpec.FullTranscript.compose._proof_40 (\u2191i + 1) i_1)\n              (Fin.take (\u2191i + 1 + 1) \u22ef n))\n            (Fin.take (\u2191i_1 + 1 + 1) (ProtocolSpec.FullTranscript.compose._proof_40 (\u2191i + 1) i_1)\n              (Fin.take (\u2191i + 1 + 1) \u22ef pSpec)))\n          (ProtocolSpec.FullTranscript.compose._proof_41 (\u2191i + 1) (Fin.take (\u2191i + 1 + 1) \u22ef n) i_1)\n          (ProtocolSpec.FullTranscript.compose._proof_44 (\u2191i + 1) (Fin.take (\u2191i + 1 + 1) \u22ef n)\n            (Fin.take (\u2191i + 1 + 1) \u22ef pSpec) i_1)\n          (ProtocolSpec.FullTranscript.append\n            (\u2211 i_2, n (Fin.castLE \u22ef (Fin.castLE (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i + 1) i_1) i_2)))\n            (n (Fin.castLE \u22ef i_1.succ))\n            (ProtocolSpec.compose (\u2191i_1)\n              (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i + 1) i_1)\n                (Fin.take (\u2191i + 1 + 1) \u22ef n))\n              (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i + 1) i_1)\n                (Fin.take (\u2191i + 1 + 1) \u22ef pSpec)))\n            (pSpec (Fin.castLE \u22ef i_1.succ)) acc (T (Fin.castLE \u22ef i_1.succ))))\n      (T (Fin.castLE \u22ef 0)) =\n    @dcast\u2082 \u2115 ProtocolSpec (@FullTranscript) ProtocolSpec.instDepCast ProtocolSpec.FullTranscript.instDepCast\u2082\n      (\u2211 i_1, n (Fin.castLE \u22ef i_1) + n i.succ) (\u2211 i_1, n (Fin.castLE \u22ef i_1))\n      (ProtocolSpec.append (\u2211 i_1, n (Fin.castLE \u22ef i_1)) (n i.succ)\n        (ProtocolSpec.compose (\u2191i) (Fin.take (\u2191i + 1) \u22ef n) (Fin.take (\u2191i + 1) \u22ef pSpec)) (pSpec i.succ))\n      (ProtocolSpec.compose (\u2191i + 1) (Fin.take (\u2191i + 1 + 1) \u22ef n) (Fin.take (\u2191i + 1 + 1) \u22ef pSpec)) \u22ef \u22ef\n      (ProtocolSpec.FullTranscript.append (\u2211 i_1, n (Fin.castLE \u22ef i_1)) (n i.succ)\n        (ProtocolSpec.compose (\u2191i) (Fin.take (\u2191i + 1) \u22ef n) (Fin.take (\u2191i + 1) \u22ef pSpec)) (pSpec i.succ)\n        (@Fin.dfoldl (\u2191i)\n          (fun i_1 =>\n            FullTranscript\n              (ProtocolSpec.compose (\u2191i_1)\n                (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_38 (\u2191i) i_1) (Fin.take (\u2191i + 1) \u22ef n))\n                (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_38 (\u2191i) i_1)\n                  (Fin.take (\u2191i + 1) \u22ef pSpec))))\n          (fun i_1 acc =>\n            @dcast\u2082 \u2115 ProtocolSpec (@FullTranscript) ProtocolSpec.instDepCast ProtocolSpec.FullTranscript.instDepCast\u2082\n              (\u2211 i_2, n (Fin.castLE \u22ef (Fin.castLE (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i) i_1) i_2)) +\n                n (Fin.castLE \u22ef i_1.succ))\n              (\u2211 i_2, n (Fin.castLE \u22ef (Fin.castLE (ProtocolSpec.FullTranscript.compose._proof_40 (\u2191i) i_1) i_2)))\n              (ProtocolSpec.append\n                (\u2211 i_2, n (Fin.castLE \u22ef (Fin.castLE (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i) i_1) i_2)))\n                (n (Fin.castLE \u22ef i_1.succ))\n                (ProtocolSpec.compose (\u2191i_1)\n                  (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i) i_1) (Fin.take (\u2191i + 1) \u22ef n))\n                  (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i) i_1)\n                    (Fin.take (\u2191i + 1) \u22ef pSpec)))\n                (pSpec (Fin.castLE \u22ef i_1.succ)))\n              (ProtocolSpec.compose (\u2191i_1 + 1)\n                (Fin.take (\u2191i_1 + 1 + 1) (ProtocolSpec.FullTranscript.compose._proof_40 (\u2191i) i_1)\n                  (Fin.take (\u2191i + 1) \u22ef n))\n                (Fin.take (\u2191i_1 + 1 + 1) (ProtocolSpec.FullTranscript.compose._proof_40 (\u2191i) i_1)\n                  (Fin.take (\u2191i + 1) \u22ef pSpec)))\n              (ProtocolSpec.FullTranscript.compose._proof_41 (\u2191i) (Fin.take (\u2191i + 1) \u22ef n) i_1)\n              (ProtocolSpec.FullTranscript.compose._proof_44 (\u2191i) (Fin.take (\u2191i + 1) \u22ef n) (Fin.take (\u2191i + 1) \u22ef pSpec)\n                i_1)\n              (ProtocolSpec.FullTranscript.append\n                (\u2211 i_2, n (Fin.castLE \u22ef (Fin.castLE (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i) i_1) i_2)))\n                (n (Fin.castLE \u22ef i_1.succ))\n                (ProtocolSpec.compose (\u2191i_1)\n                  (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i) i_1) (Fin.take (\u2191i + 1) \u22ef n))\n                  (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i) i_1)\n                    (Fin.take (\u2191i + 1) \u22ef pSpec)))\n                (pSpec (Fin.castLE \u22ef i_1.succ)) acc (T (Fin.castLE \u22ef i_1.succ))))\n          (T (Fin.castLE \u22ef 0)))\n        (T i.succ))",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/OracleReduction/Composition/Sequential/ProtocolSpec.lean#L354"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/OracleReduction/Composition/Sequential/ProtocolSpec.lean#L354"
       },
       "metadata": {
         "blame_email_hash": "d0850777cf0b",
         "blame_date": "2025-05-25T11:02:32+07:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "f193fa861db7f46852d2b7cc11a716512f608cd79fc21ba7320c2394a3f2e50c"
+      "id": "a0131f23227ffc104691fbeb6d7152cd1544ac2df7a295079909e649483ac892"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -51117,20 +51117,20 @@
       },
       "debug_info": {
         "goal": "R : Type\ninst\u271d\u00b9 : CommSemiring R\ninst\u271d : VCVCompatible R\nn deg m : \u2115\nD : Fin m \u21aa R\n\u03b9 : Type\noSpec : OracleSpec \u03b9\ni : Fin (n + 1)\nstmt : Sumcheck.Spec.Statement R n i.castSucc \u00d7 ((i : Fin 1) \u2192 Sumcheck.Spec.OracleStatement R inst\u271d\u00b9 n deg i)\ntranscript : FullTranscript ![(Direction.P_to_V, \u21a5(degreeLE R \u2191deg)), (Direction.V_to_P, R)]\nx : getType (Sumcheck.Spec.pSpec R inst\u271d\u00b9 deg) 0\nhp_i : \u2191(transcript 0) \u2208 degreeLE R \u2191deg\nhEq : transcript 0 = \u27e8\u2191(transcript 0), hp_i\u27e9\n\u22a2 (do\n      let a \u2190\n        ((OptionT.run (List.mapM (fun i => liftM (query (Sum.inr (Sum.inr \u27e80, \u22ef\u27e9)) (D i))) (List.finRange m))).bind\n                fun __do_lift =>\n                __do_lift.elim (FreeMonad.pure none)\n                  (OptionT.run \u2218 fun evals => do\n                    if evals.sum = Sumcheck.Spec.Statement.target R n i.castSucc stmt.1 then pure () else failure\n                    (fun a =>\n                          Sumcheck.Spec.Statement.mk R n i.succ a\n                            (Fin.snoc (Sumcheck.Spec.Statement.challenges R n i.castSucc stmt.1) (transcript 1))) <$>\n                        liftM (query (Sum.inr (Sum.inr \u27e80, \u22ef\u27e9)) (transcript 1)))).mapM\n            fun {\u03b1} => (OracleInterface.simOracle2 oSpec stmt.2 transcript.messages).impl\n      (fun a =>\n            (a, fun i_1 =>\n              @Prod.snd (Sumcheck.Spec.Statement R n i.castSucc)\n                ((i : Fin 1) \u2192 Sumcheck.Spec.OracleStatement R inst\u271d\u00b9 n deg i) stmt i_1)) <$>\n          a.getM) =\n    (fun a =>\n        (Sumcheck.Spec.Statement.mk R n i.succ (Polynomial.eval (transcript 1) \u2191(transcript 0))\n            (Fin.snoc (Sumcheck.Spec.Statement.challenges R n i.castSucc stmt.1) (transcript 1)),\n          stmt.2)) <$>\n      if \u2211 x, Polynomial.eval (D x) \u2191(transcript 0) = Sumcheck.Spec.Statement.target R n i.castSucc stmt.1 then pure ()\n      else failure",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/ProofSystem/Sumcheck/Basic.lean#L492"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/ProofSystem/Sumcheck/Basic.lean#L492"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-01-18T19:07:20+07:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "33941aec778f0a99983c1b10001d6d46c924d1b05f0f9ce67f91d3f878d70930"
+      "id": "678e6da7ce041379c7ee1c205555c776e2f328b12baa47e600528b5fcce18a10"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -51142,20 +51142,20 @@
       },
       "debug_info": {
         "goal": "case left\nR : Type\ninst\u271d\u00b3 : CommSemiring R\ninst\u271d\u00b2 : VCVCompatible R\nn deg m : \u2115\nD : Fin m \u21aa R\n\u03b9 : Type\noSpec : OracleSpec \u03b9\ni : Fin (n + 1)\ninst\u271d\u00b9 : DecidableEq \u03b9\ninst\u271d : oSpec.FiniteRange\ntarget : R\nchallenge : Fin \u2191i.castSucc \u2192 R\noStmt : (i : Fin 1) \u2192 Sumcheck.Spec.OracleStatement R inst\u271d\u00b3 n deg i\nwitIn\u271d : Unit\nhValid :\n  \u2211 x \u2208 Fintype.piFinset fun i => Finset.map D univ,\n      (MvPolynomial.eval (Fin.append challenge x \u2218 Fin.cast (Sumcheck.Spec.relation._proof_12 n i.castSucc)))\n        \u2191(@oStmt 0) =\n    target\n\u22a2 ({ prover := Sumcheck.Spec.prover R inst\u271d\u00b3 n deg m D \u03b9 oSpec i,\n                verifier :=\n                  Sumcheck.Spec.oracleVerifier R inst\u271d\u00b3 n deg m D \u03b9 oSpec inst\u271d\u00b2 i }.toReduction.prover.sendMessage\n        \u27e80, \u22ef\u27e9\n        ({ prover := Sumcheck.Spec.prover R inst\u271d\u00b3 n deg m D \u03b9 oSpec i,\n                    verifier :=\n                      Sumcheck.Spec.oracleVerifier R inst\u271d\u00b3 n deg m D \u03b9 oSpec inst\u271d\u00b2\n                        i }.toReduction.prover.toProverIn.input\n          (Sumcheck.Spec.Statement R n i.castSucc \u00d7 ((i : Fin 1) \u2192 Sumcheck.Spec.OracleStatement R inst\u271d\u00b3 n deg i)) Unit\n          ({ prover := Sumcheck.Spec.prover R inst\u271d\u00b3 n deg m D \u03b9 oSpec i,\n                    verifier :=\n                      Sumcheck.Spec.oracleVerifier R inst\u271d\u00b3 n deg m D \u03b9 oSpec inst\u271d\u00b2 i }.toReduction.prover.PrvState\n            0)\n          (Sumcheck.Spec.Statement.mk R n i.castSucc target challenge, oStmt) witIn\u271d)).neverFails \u2227\n    \u2200 (a : Polynomial R) (b : a \u2208 degreeLE R \u2191deg)\n      (b_1 :\n        { prover := Sumcheck.Spec.prover R inst\u271d\u00b3 n deg m D \u03b9 oSpec i,\n                  verifier :=\n                    Sumcheck.Spec.oracleVerifier R inst\u271d\u00b3 n deg m D \u03b9 oSpec inst\u271d\u00b2 i }.toReduction.prover.PrvState\n          1),\n      (\u27e8a, b\u27e9, b_1) \u2208\n          ({ prover := Sumcheck.Spec.prover R inst\u271d\u00b3 n deg m D \u03b9 oSpec i,\n                      verifier :=\n                        Sumcheck.Spec.oracleVerifier R inst\u271d\u00b3 n deg m D \u03b9 oSpec inst\u271d\u00b2\n                          i }.toReduction.prover.sendMessage\n              \u27e80, \u22ef\u27e9\n              ({ prover := Sumcheck.Spec.prover R inst\u271d\u00b3 n deg m D \u03b9 oSpec i,\n                          verifier :=\n                            Sumcheck.Spec.oracleVerifier R inst\u271d\u00b3 n deg m D \u03b9 oSpec inst\u271d\u00b2\n                              i }.toReduction.prover.toProverIn.input\n                (Sumcheck.Spec.Statement R n i.castSucc \u00d7\n                  ((i : Fin 1) \u2192 Sumcheck.Spec.OracleStatement R inst\u271d\u00b3 n deg i))\n                Unit\n                ({ prover := Sumcheck.Spec.prover R inst\u271d\u00b3 n deg m D \u03b9 oSpec i,\n                          verifier :=\n                            Sumcheck.Spec.oracleVerifier R inst\u271d\u00b3 n deg m D \u03b9 oSpec inst\u271d\u00b2\n                              i }.toReduction.prover.PrvState\n                  0)\n                (Sumcheck.Spec.Statement.mk R n i.castSucc target challenge, oStmt) witIn\u271d)).support \u2192\n        \u2200 (x : R),\n          (Verifier.run (Sumcheck.Spec.Statement.mk R n i.castSucc target challenge, oStmt)\n              (Transcript.snoc 2 (Sumcheck.Spec.pSpec R inst\u271d\u00b3 deg) 1 x\n                (Transcript.snoc 2 (Sumcheck.Spec.pSpec R inst\u271d\u00b3 deg) 0 \u27e8a, b\u27e9\n                  (@default (Transcript 0 (Sumcheck.Spec.pSpec R inst\u271d\u00b3 deg)) Unique.instInhabited)))\n              { prover := Sumcheck.Spec.prover R inst\u271d\u00b3 n deg m D \u03b9 oSpec i,\n                    verifier :=\n                      Sumcheck.Spec.oracleVerifier R inst\u271d\u00b3 n deg m D \u03b9 oSpec inst\u271d\u00b2\n                        i }.toReduction.verifier).neverFails",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/ProofSystem/Sumcheck/Basic.lean#L510"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/ProofSystem/Sumcheck/Basic.lean#L510"
       },
       "metadata": {
         "blame_email_hash": "0c5d39c5ece3",
         "blame_date": "2025-03-09T23:22:53-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "237f8b9892f6d29fa473a2549fced6c19d3f941e6a48b1998215c2a7d32dda60"
+      "id": "ac6b821181e63caf4087ac5abc143b3e34189df47a4cdcdedb47615bb7535a0c"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "main",
-        "commit": "fea727e5e53481e05fb04eeb7f1a2e4e1238802f",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -51167,14 +51167,64 @@
       },
       "debug_info": {
         "goal": "R : Type\ninst\u271d\u00b9 : CommSemiring R\nn deg m : \u2115\nD : Fin m \u21aa R\ninst\u271d : VCVCompatible R\n\u22a2 OracleReduction.perfectCompleteness (Sumcheck.Spec.Combined.relIn R inst\u271d\u00b9 n deg m D)\n    (Sumcheck.Spec.Combined.relOut R inst\u271d\u00b9 n deg) (Sumcheck.Spec.Combined.reduction R inst\u271d\u00b9 n deg)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/fea727e5e53481e05fb04eeb7f1a2e4e1238802f/ArkLib/ProofSystem/Sumcheck/Basic.lean#L643"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/ProofSystem/Sumcheck/Basic.lean#L643"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-24T11:52:07-05:00",
-        "inclusion_date": "2025-05-25T23:30:53.315825+00:00"
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
-      "id": "ba3bb9a1c9a0cc886324fcdd576a3490fb74be7f7133be026ebf36edd66a590a"
+      "id": "26186838a447ed68d3a65ae5af7a3206e07790a33d8eb357a968fee2980c1b94"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/Verified-zkEVM/ZKLib",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
+        "lean_version": "v4.19.0"
+      },
+      "location": {
+        "path": "ArkLib/CommitmentScheme/MerkleTree.lean",
+        "start_line": 193,
+        "start_column": 2,
+        "end_line": 193,
+        "end_column": 7
+      },
+      "debug_info": {
+        "goal": "\u03b1 : Type\ninst : DecidableEq \u03b1\ninst_1 : SelectableType \u03b1\npreexisting_cache : QueryCache (MerkleTree.spec \u03b1)\nn : \u2115\nleaves : List.Vector \u03b1 (2 ^ (n + 1))\n\u22a2 ((simulateQ randomOracle\n          (Vector.mmap (fun x => liftM (query () x))\n            (List.Vector.ofFn fun i =>\n              (leaves.get \u27e82 * \u2191i, MerkleTree.buildLayer._proof_4 n i\u27e9,\n                leaves.get \u27e82 * \u2191i + 1, MerkleTree.buildLayer._proof_5 n i\u27e9)))).run\n      preexisting_cache).neverFails",
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/CommitmentScheme/MerkleTree.lean#L193"
+      },
+      "metadata": {
+        "blame_email_hash": "ab200eba5736",
+        "blame_date": "2025-05-26T13:38:13-04:00",
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
+      },
+      "id": "48aacf24629868e0294015262725670c14610e0d8bd449c56ff720020403d04e"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/Verified-zkEVM/ZKLib",
+        "branch": "BoltonBailey/merkletree-neverfails",
+        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
+        "lean_version": "v4.19.0"
+      },
+      "location": {
+        "path": "ArkLib/CommitmentScheme/MerkleTree.lean",
+        "start_line": 238,
+        "start_column": 4,
+        "end_line": 238,
+        "end_column": 9
+      },
+      "debug_info": {
+        "goal": "case right\n\u03b1 : Type\ninst\u271d\u00b3 : DecidableEq \u03b1\ninst\u271d\u00b2 : Inhabited \u03b1\ninst\u271d\u00b9 : Fintype \u03b1\ninst\u271d : SelectableType \u03b1\nn : \u2115\nleaves : List.Vector \u03b1 (2 ^ n)\ni : Fin (2 ^ n)\nhash : \u03b1 \u00d7 \u03b1 \u2192 \u03b1\npreexisting_cache : QueryCache (MerkleTree.spec \u03b1)\nmerkle_tree_cache : MerkleTree.Cache \u03b1 n\nquery_cache : QueryCache (MerkleTree.spec \u03b1)\nh_mem_support :\n  (merkle_tree_cache, query_cache) \u2208\n    ((simulateQ randomOracle (MerkleTree.buildMerkleTree \u03b1 n leaves)).run preexisting_cache).support\n\u22a2 ((simulateQ randomOracle\n          (MerkleTree.verifyProof \u03b1 inst\u271d\u00b3 n i (leaves.get i) (MerkleTree.getRoot \u03b1 n merkle_tree_cache)\n            (MerkleTree.generateProof \u03b1 n i merkle_tree_cache))).run\n      query_cache).neverFails",
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/CommitmentScheme/MerkleTree.lean#L238"
+      },
+      "metadata": {
+        "blame_email_hash": "ab200eba5736",
+        "blame_date": "2025-05-26T13:38:13-04:00",
+        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
+      },
+      "id": "040ab3f49292950df804530ccea9d7e0c3261c7823cb0ea2bd9cf38eb5477716"
     }
   ]
 }
