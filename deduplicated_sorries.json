@@ -11980,7 +11980,7 @@
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
+        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -11992,20 +11992,20 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\ninst\u271d\u00b9 : MeasureableFinGroup G\n\u03a9 : Type u_2\ninst\u271d : MeasureSpace \u03a9\nT\u2081 T\u2082 T\u2083 : \u03a9 \u2192 G\nhsum : T\u2081 + T\u2082 + T\u2083 = 0\nn : \u2115\n\u03a9' : Fin n \u2192 Type u_3\nh\u03a9' : (i : Fin n) \u2192 MeasureSpace (\u03a9' i)\nY : (i : Fin n) \u2192 \u03a9' i \u2192 G\n\u03b1 : \u211d\nh\u03b1 : \u03b1 > 0\n\u22a2 \u2203 \u03a9'' h\u03a9'' U,\n    d[U # U] + \u03b1 * \u2211 i, d[Y i # U] \u2264 (2 + \u03b1 * \u2191n / 2) * (I[T\u2081 : T\u2082] + I[T\u2081 : T\u2083] + I[T\u2082 : T\u2083]) + \u03b1 * \u2211 i, d[Y i # T\u2082]",
-        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/TorsionEndgame.lean#L79"
+        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/TorsionEndgame.lean#L79"
       },
       "metadata": {
         "blame_email_hash": "97e8591fe714",
         "blame_date": "2025-04-17T21:11:56+01:00",
-        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
+        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
       },
-      "id": "0a857243434021cd48df862eb5ff0882fe031ec6cb9bf430733e748aa22e9a81"
+      "id": "9ba52357bc7c4cea2d946b5080619d670c0b814ab856aed521449e6448dc2ad0"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
+        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -12017,14 +12017,14 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b9 : MeasureableFinGroup G\ninst\u271d : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u22a2 multiTau p \u03a9 h\u03a9 X = 0",
-        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/TorsionEndgame.lean#L82"
+        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/TorsionEndgame.lean#L82"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-28T21:28:18-07:00",
-        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
+        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
       },
-      "id": "cd581b6e5c258ffe362e7407b5ac801f121ec366b80b0e625fa2258385d12ada"
+      "id": "414bb2b0fa894e2c3dde0f82930a4f67400eb02fa24d7028abef298ad314c0a3"
     },
     {
       "repo": {
@@ -12055,7 +12055,7 @@
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
+        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -12067,14 +12067,14 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : Fintype G\nm : \u2115\nhm : m \u2265 2\nhtorsion : \u2200 (x : G), m \u2022 x = 0\nA : Set G\ninst\u271d : Finite \u2191A\nK : \u211d\nh\u2080A : A.Nonempty\nhA : \u2191(Nat.card \u2191(A + A)) \u2264 K * \u2191(Nat.card \u2191A)\n\u22a2 \u2203 H c,\n    \u2191(Nat.card \u2191c) \u2264 K ^ (64 * \u2191m ^ 3 + 2) * \u2191(Nat.card \u2191A) ^ (1 / 2) * \u2191(Nat.card \u21a5H) ^ (-1 / 2) \u2227\n      \u2191(Nat.card \u21a5H) \u2264 K ^ (64 * \u2191m ^ 3) * \u2191(Nat.card \u2191A) \u2227\n        \u2191(Nat.card \u2191A) \u2264 K ^ (64 * \u2191m ^ 3) * \u2191(Nat.card \u21a5H) \u2227 A \u2286 c + \u2191H",
-        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/TorsionEndgame.lean#L102"
+        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/TorsionEndgame.lean#L102"
       },
       "metadata": {
         "blame_email_hash": "7d87c0724495",
         "blame_date": "2024-08-18T18:37:52+02:00",
-        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
+        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
       },
-      "id": "7d8d424d60c4e13cd624e4e657397ed08e66874dd79279c3c318d45e1eaf4920"
+      "id": "5647f928a11892349b183b51484417a244b7b2dfda1807f5609d84f352a0884a"
     },
     {
       "repo": {
@@ -12105,7 +12105,7 @@
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
+        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -12117,14 +12117,14 @@
       },
       "debug_info": {
         "goal": "\u03a9 : Type u_1\nG : Type u_5\nm\u03a9 : MeasurableSpace \u03a9\n\u03bc : Measure \u03a9\nhG : MeasurableSpace G\ninst\u271d\u00b3 : MeasurableSingletonClass G\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : Countable G\ninst\u271d : IsProbabilityMeasure \u03bc\nI : Type u_8\ns t : Finset I\nhdisj : Disjoint s t\nhs : s.Nonempty\nht : t.Nonempty\nX : I \u2192 \u03a9 \u2192 G\nhX : \u2200 (i : I), Measurable (X i)\nhX' : \u2200 (i : I), FiniteRange (X i)\nh_indep : iIndepFun X \u03bc\nf : I \u2192 I\nhf : Finset.image f t \u2286 s\n\u22a2 H[\u2211 i \u2208 t, X i ; \u03bc] \u2264 H[\u2211 i \u2208 s, X i ; \u03bc] + \u2211 i \u2208 t, (H[X i - X (f i) ; \u03bc] - H[X (f i) ; \u03bc])",
-        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/MoreRuzsaDist.lean#L527"
+        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/MoreRuzsaDist.lean#L527"
       },
       "metadata": {
         "blame_email_hash": "6e8091041644",
         "blame_date": "2024-05-31T19:35:50+01:00",
-        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
+        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
       },
-      "id": "7f5763e8e8ee04ef08964b4479b65d982633d7d60ce273c8d64606d8c87b913c"
+      "id": "a8d0995203fd353b7408d89399a3b42b648011db67b373d4badef838ea4bc1d3"
     },
     {
       "repo": {
@@ -34205,7 +34205,7 @@
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
+        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34217,20 +34217,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u03a9' : Type u\nY : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh\u03a9' : MeasureSpace \u03a9'\ninst\u271d : IsFiniteMeasure volume\n\u22a2 I[\u2211 i, \u2211 j, \u2191\u2191i \u2022 Y (i, j) : \u2211 i, \u2211 j, \u2191\u2191j \u2022 Y (i, j)|\u2211 i, \u2211 j, Y (i, j)] \u2264 4 * \u2191p.m ^ 2 * p.\u03b7 * multiTau p \u03a9 h\u03a9 X",
-        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/TorsionEndgame.lean#L50"
+        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/TorsionEndgame.lean#L50"
       },
       "metadata": {
         "blame_email_hash": "97e8591fe714",
         "blame_date": "2024-09-30T22:19:50+00:00",
-        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
+        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
       },
-      "id": "77dab37aef11a40fae8f02a4952553af1802960470ee1885a576212188168cf7"
+      "id": "1c4ecb0803952a4abf36fd7fd96c1200d1b0cbd8ca8e5c846de701c5cbe7678a"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
+        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34242,20 +34242,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u03a9' : Type u\nY : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh\u03a9' : MeasureSpace \u03a9'\ninst\u271d : IsFiniteMeasure volume\n\u22a2 I[\u2211 i, \u2211 j, \u2191\u2191i \u2022 Y (i, j) : \u2211 i, \u2211 j, (-\u2191\u2191i - \u2191\u2191j) \u2022 Y (i, j)|\u2211 i, \u2211 j, Y (i, j)] \u2264\n    4 * \u2191p.m ^ 2 * p.\u03b7 * multiTau p \u03a9 h\u03a9 X",
-        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/TorsionEndgame.lean#L52"
+        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/TorsionEndgame.lean#L52"
       },
       "metadata": {
         "blame_email_hash": "97e8591fe714",
         "blame_date": "2024-09-30T22:19:50+00:00",
-        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
+        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
       },
-      "id": "a95321358b17f3e63ffe073566efa64e20d0c2340b1e99584647140a8b10ac9b"
+      "id": "9f83153b7111511b5f594cc083c33f3faba31cdb6d567940dcccfa8fdca98aa9"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
+        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34267,20 +34267,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u03a9' : Type u\nY : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh\u03a9' : MeasureSpace \u03a9'\ninst\u271d : IsFiniteMeasure volume\n\u22a2 I[\u2211 i, \u2211 j, \u2191\u2191j \u2022 Y (i, j) : \u2211 i, \u2211 j, (-\u2191\u2191i - \u2191\u2191j) \u2022 Y (i, j)|\u2211 i, \u2211 j, Y (i, j)] \u2264\n    4 * \u2191p.m ^ 2 * p.\u03b7 * multiTau p \u03a9 h\u03a9 X",
-        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/TorsionEndgame.lean#L54"
+        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/TorsionEndgame.lean#L54"
       },
       "metadata": {
         "blame_email_hash": "97e8591fe714",
         "blame_date": "2024-09-30T22:19:50+00:00",
-        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
+        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
       },
-      "id": "3eeb1e3fb15fe83848f6c0909db560fb4539694d925c7fe7ac4f509e12c9ac0c"
+      "id": "77b1deaff5205dba3633804a2b24651858fbfdab667ed709b0f892163a650139"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
+        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34292,20 +34292,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u03a9' : Type u\nY : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh\u03a9' : MeasureSpace \u03a9'\ninst\u271d : IsFiniteMeasure volume\nm : \u211d\n\u22a2 H[\u2211 i, \u2211 j, Y (i, j)] \u2264 (2 * \u2191p.m - 1) * multiTau p \u03a9 h\u03a9 X + m\u207b\u00b9 * \u2211 i, H[X i]",
-        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/TorsionEndgame.lean#L58"
+        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/TorsionEndgame.lean#L58"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-29T08:58:11-07:00",
-        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
+        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
       },
-      "id": "6f9d1cff7071fba20e2c147495e4342b450a3e7e910d095b88f78668ce4d0e1e"
+      "id": "65f845cdb0e5f27203c4a7267a70e4ac96bdd036bc6aedae51534ba361c8e5cb"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
+        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34317,20 +34317,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u03a9' : Type u\nY : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh\u03a9' : MeasureSpace \u03a9'\ninst\u271d : IsFiniteMeasure volume\nm : \u211d\n\u22a2 H[\u2211 i, \u2211 j, \u2191\u2191j \u2022 Y (i, j)] \u2264 (8 * \u2191p.m ^ 2 - 16 * \u2191p.m + 1) * multiTau p \u03a9 h\u03a9 X + m\u207b\u00b9 * \u2211 i, H[X i]",
-        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/TorsionEndgame.lean#L61"
+        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/TorsionEndgame.lean#L61"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-29T08:58:11-07:00",
-        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
+        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
       },
-      "id": "6546159b02c85004eaae6b8ac0333a8dc6cee9fa1b42bbdb451df92bef6c7229"
+      "id": "a017fbaf631e3377060f38a70dd74e83221740f47c318d11f4b3024902c30089"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
+        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34342,20 +34342,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u03a9' : Type u\nY : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh\u03a9' : MeasureSpace \u03a9'\ninst\u271d : IsFiniteMeasure volume\n\u22a2 I[\u2211 i, \u2211 j, Y (i, j) : \u2211 i, \u2211 j, \u2191\u2191j \u2022 Y (i, j)] \u2264 2 * (\u2191p.m - 1) * multiTau p \u03a9 h\u03a9 X",
-        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/TorsionEndgame.lean#L64"
+        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/TorsionEndgame.lean#L64"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-29T08:58:11-07:00",
-        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
+        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
       },
-      "id": "e09f2b4427a803438fd2e59170aebba317c644ea1515806b518df6556f74d6c1"
+      "id": "fc3e23d630f878c2903801a5f094cdd2e0e04cf20ee0c837a24c921d2e28de65"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
+        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34367,20 +34367,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u03a9' : Type u\nY : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh\u03a9' : MeasureSpace \u03a9'\ninst\u271d : IsFiniteMeasure volume\n\u22a2 \u2211 i, d[X i # \u2211 i, \u2211 j, \u2191\u2191j \u2022 Y (i, j) | \u2211 i, \u2211 j, Y (i, j)] \u2264 8 * (\u2191p.m ^ 3 - \u2191p.m ^ 2) * multiTau p \u03a9 h\u03a9 X",
-        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/TorsionEndgame.lean#L67"
+        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/TorsionEndgame.lean#L67"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-29T08:58:11-07:00",
-        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
+        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
       },
-      "id": "cc2250902aef6dbe4b45daee71efdf4d4e6f215643c1d4c6be579a72ee832a02"
+      "id": "e7de6df23233b2cba0c3fccd5fc8ca9677808b76caff05bad4116b046d08acac"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
+        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34392,20 +34392,20 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\ninst\u271d\u2074 : AddCommGroup G\ninst\u271d\u00b3 : Fintype G\ninst\u271d\u00b2 : MeasurableSpace G\ninst\u271d\u00b9 : MeasurableSingletonClass G\nm : \u2115\nhm : m \u2265 2\nhtorsion : \u2200 (x : G), m \u2022 x = 0\n\u03a9 : Type u_2\ninst\u271d : MeasureSpace \u03a9\nX : \u03a9 \u2192 G\n\u22a2 \u2203 H \u03a9' m\u03a9 U, IsUniform (\u2191H) U volume \u2227 d[X # U] \u2264 64 * \u2191m ^ 3 * d[X # X]",
-        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/TorsionEndgame.lean#L89"
+        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/TorsionEndgame.lean#L89"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-28T21:28:18-07:00",
-        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
+        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
       },
-      "id": "ef254642b63dfe4712a97600e0eca4d868e45a480d7c052b6658d25dba37b17e"
+      "id": "9777eefba224c257a5a78477d5404aa209afcc53e871e9ccc84e1cb812e4b9fc"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
+        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34417,20 +34417,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Type u\nh\u03a9 : MeasureSpace \u03a9\nX : Fin p.m \u2192 \u03a9 \u2192 G\nh_indep : iIndepFun X volume\nh_min : multiTauMinimizes p (fun x => \u03a9) (fun x => h\u03a9) X\n\u03a9' : Type u_1\ninst\u271d : MeasureSpace \u03a9'\nX' : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh_indep' : iIndepFun X' volume\nhperm : \u2200 (j : Fin p.m), \u2203 e, IdentDistrib (fun \u03c9 i => X' (i, j) \u03c9) (fun \u03c9 i => X (e i) \u03c9) volume volume\n\u22a2 I[fun \u03c9 j => \u2211 i, X' (i, j) \u03c9 : fun \u03c9 i => \u2211 j, X' (i, j) \u03c9|fun \u03c9 => \u2211 i, \u2211 j, X' (i, j) \u03c9] \u2264\n    4 * \u2191p.m ^ 2 * p.\u03b7 * D[X ; fun x => h\u03a9]",
-        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/BoundingMutual.lean#L36"
+        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/BoundingMutual.lean#L36"
       },
       "metadata": {
         "blame_email_hash": "7d87c0724495",
         "blame_date": "2025-03-07T08:53:46+01:00",
-        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
+        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
       },
-      "id": "cde56d8dffa6597d35d010b09f3eb259662a0003e4b57876af2b16a6de668c76"
+      "id": "fb8f9b58da1e38476f53aed60e935ebb5e8ef6754d7604028ff14980c19432a7"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
+        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34442,20 +34442,20 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : Fintype G\ninst\u271d : Module (ZMod 2) G\n\u22a2 Nat.card (G \u2192+ ZMod 2) = Nat.card G",
-        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/ApproxHomPFR.lean#L181"
+        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/ApproxHomPFR.lean#L181"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2025-05-01T23:21:54-07:00",
-        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
+        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
       },
-      "id": "129f8b11c0edfe7897c5832b14a8059bdd351bf0d70457234b54e2e51b8a1de4"
+      "id": "6d92889d82e70bd00cde336c7f26b9535bda77a8b123bf3ba65cded072b2e01e"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
+        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34467,20 +34467,20 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : Fintype G\ninst\u271d : Module (ZMod 2) G\nx : G\nhx : x \u2260 0\n\u22a2 Nat.card \u2191{\u03c6 | \u03c6 x = 1} = Nat.card G / 2",
-        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/ApproxHomPFR.lean#L183"
+        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/ApproxHomPFR.lean#L183"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2025-05-01T23:21:54-07:00",
-        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
+        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
       },
-      "id": "46325ee4a052efe733e9b10d8110162547625f18d3a31c09b335ea8320bb91df"
+      "id": "96904bda247719de5adc8d3666f3118073b47a388cea267d59e8241c9649f26f"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
+        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34492,20 +34492,20 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : Fintype G\ninst\u271d : Module (ZMod 2) G\nA : Set G\n\u22a2 \u2203 \u03c6, Nat.card \u2191{x | x \u2208 A \u2227 \u03c6 x = 1} \u2265 (Nat.card \u2191A - 1) / 2",
-        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/ApproxHomPFR.lean#L185"
+        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/ApproxHomPFR.lean#L185"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2025-05-01T23:21:54-07:00",
-        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
+        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
       },
-      "id": "10172d48b59bc063db014c764091ec056e6ec7b69f67d33148b43b656bd1fa59"
+      "id": "d2d5ce16fb205bbd08ba72eca6fc3d6519e236878b223d085403e57f1b1343b3"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
+        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34517,20 +34517,20 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\nG' : Type u_2\ninst\u271d\u2075 : AddCommGroup G\ninst\u271d\u2074 : Fintype G\ninst\u271d\u00b3 : AddCommGroup G'\ninst\u271d\u00b2 : Fintype G'\ninst\u271d\u00b9 : Module (ZMod 2) G\ninst\u271d : Module (ZMod 2) G'\nf : G \u2192 G'\nK : \u211d\nhK : K > 0\nhf : \u2191(Nat.card G) ^ 2 / K \u2264 \u2191(Nat.card \u2191{x | f (x.1 + x.2) = f x.1 + f x.2})\n\u22a2 \u2203 \u03c6'', \u2191(Nat.card \u2191{x | f x = \u03c6'' x}) \u2265 (\u2191(Nat.card G) / (2 ^ 144 * K ^ 122) - 1) / 2",
-        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/ApproxHomPFR.lean#L189"
+        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/ApproxHomPFR.lean#L189"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2025-05-01T23:21:54-07:00",
-        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
+        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
       },
-      "id": "2761f378d0140c545ddbc3b1bc84e827ed381d5df8e97fbaca9a886baee2efd7"
+      "id": "00472b8f9b9d856f24f83c6aad601cc6bf6f5274b4875740befe6eb17e33c7d0"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
+        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34542,14 +34542,14 @@
       },
       "debug_info": {
         "goal": "G : Type u_8\nhG : MeasurableSpace G\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : MeasurableSingletonClass G\ninst\u271d : Countable G\nm : \u2115\n\u03a9 : Type u_9\nh\u03a9 : MeasureSpace \u03a9\nX : Fin m \u2192 \u03a9 \u2192 G\nh_indep : iIndepFun X volume\n\u22a2 @multiDist G hG inst\u271d\u00b2 m (fun x => \u03a9) (fun x => h\u03a9) X = H[\u2211 i, X i] - (\u2211 i, H[X i]) / \u2191m",
-        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/MoreRuzsaDist.lean#L760"
+        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/MoreRuzsaDist.lean#L760"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-22T09:31:46-07:00",
-        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
+        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
       },
-      "id": "0bf288c55a785b25b326e53a7bbc7b0e44f38bcccf65641ca8d8d93785f2f61e"
+      "id": "75b78076d30a6ec2513e7c2b2c42502b7d32a9f71263ce8b8bbdc2a2f119cac7"
     },
     {
       "repo": {
@@ -34655,32 +34655,32 @@
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
+        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
         "lean_version": "v4.19.0"
       },
       "location": {
         "path": "PFR/MoreRuzsaDist.lean",
-        "start_line": 1832,
+        "start_line": 2070,
         "start_column": 54,
-        "end_line": 1832,
+        "end_line": 2070,
         "end_column": 59
       },
       "debug_info": {
         "goal": "G : Type u_5\nhG : MeasurableSpace G\ninst\u271d\u00b3 : MeasurableSingletonClass G\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : Countable G\ninst\u271d : Fintype G\nm : \u2115\nhm : m \u2265 1\n\u03a9 : Type u_8\nh\u03a9 : MeasureSpace \u03a9\nX : Fin (m + 1) \u00d7 Fin (m + 1) \u2192 \u03a9 \u2192 G\nh_indep : iIndepFun X volume\n\u22a2 I[fun \u03c9 j => \u2211 i, X (i, j) \u03c9 : fun \u03c9 i => \u2211 j, X (i, j) \u03c9|\u2211 p, X p] \u2264\n    (\u2211 j,\n          ((@multiDist G hG inst\u271d\u00b2 (m + 1) (fun x => \u03a9) (fun x => h\u03a9) fun i => X (i, j)) -\n            @condMultiDist G hG inst\u271d\u00b2 (m + 1) (fun x => \u03a9) (fun x => h\u03a9) G inst\u271d (fun i => X (i, j)) fun i =>\n              \u2211 k \u2208 Finset.Ici j, X (i, k)) +\n        @multiDist G hG inst\u271d\u00b2 (m + 1) (fun x => \u03a9) (fun x => h\u03a9) fun i => X (i, \u2191m)) -\n      @multiDist G hG inst\u271d\u00b2 (m + 1) (fun x => \u03a9) (fun x => h\u03a9) fun i => \u2211 j, X (i, j)",
-        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/MoreRuzsaDist.lean#L1832"
+        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/MoreRuzsaDist.lean#L2070"
       },
       "metadata": {
         "blame_email_hash": "97e8591fe714",
         "blame_date": "2024-10-17T18:26:36+00:00",
-        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
+        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
       },
-      "id": "5887154feabfc4508d2f25fd64dae1f24161bd19687e3903f60578c3d7ae5397"
+      "id": "8051869cf09a7c8719bb5bc7d924a557111ab098831451883feba67b30437f11"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
+        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34692,20 +34692,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2080 : Type u\ninst\u271d\u2074 : @MeasureableFinGroup G\ninst\u271d\u00b3 : TopologicalSpace G\ninst\u271d\u00b2 : DiscreteTopology G\ninst\u271d\u00b9 : BorelSpace G\ninst\u271d : MeasureSpace \u03a9\u2080\np : @multiRefPackage G \u03a9\u2080 inst\u271d\u2074 inst\u271d\n\u22a2 Continuous fun \u03bc =>\n    @multiTau G \u03a9\u2080 inst\u271d\u2074 inst\u271d p (fun x => G)\n      (fun i =>\n        { toMeasurableSpace := @MeasureableFinGroup.toMeasurableSpace ((fun x => G) i) inst\u271d\u2074, volume := \u2191(\u03bc i) })\n      fun x => id",
-        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/MultiTauFunctional.lean#L54"
+        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/MultiTauFunctional.lean#L54"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-29T09:57:28-07:00",
-        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
+        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
       },
-      "id": "e07d9cc9138d788c46f9ff9b272b3a7063e00f97af05eb893e1608a54d8317c2"
+      "id": "23fa339cbb8cb837b1bc01537af61a54667eba2338035c2c1392ae0156a4a7c4"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "018c619cf93d489a688e485cafd43f5545ddd99e",
+        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34717,14 +34717,14 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2080 : Type u\ninst\u271d\u00b9 : @MeasureableFinGroup G\ninst\u271d : MeasureSpace \u03a9\u2080\np : @multiRefPackage G \u03a9\u2080 inst\u271d\u00b9 inst\u271d\n\u22a2 \u2203 \u03a9 h\u03a9 X, @multiTauMinimizes G \u03a9\u2080 inst\u271d\u00b9 inst\u271d p \u03a9 h\u03a9 X",
-        "url": "https://github.com/teorth/pfr/blob/018c619cf93d489a688e485cafd43f5545ddd99e/PFR/MultiTauFunctional.lean#L57"
+        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/MultiTauFunctional.lean#L57"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-08-18T19:14:43-07:00",
-        "inclusion_date": "2025-05-26T23:04:41.163198+00:00"
+        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
       },
-      "id": "097f2d22a590102b359a304c0facd148f874e6a1d6cc3eeeb1bfa9ca3af18da1"
+      "id": "ed37a34384b8761ee634e86987d7a117075aade18fb4c7526f31922d77402bb1"
     },
     {
       "repo": {
