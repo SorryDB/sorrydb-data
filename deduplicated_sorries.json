@@ -51225,6 +51225,231 @@
         "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
       },
       "id": "040ab3f49292950df804530ccea9d7e0c3261c7823cb0ea2bd9cf38eb5477716"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/lecopivo/SciLean",
+        "branch": "bump-v4.19.0-rc2",
+        "commit": "612daaaa9f63016cd8d06df8e634e4d858d26d8e",
+        "lean_version": "v4.19.0-rc2"
+      },
+      "location": {
+        "path": "Test/realToFloat.lean",
+        "start_line": 23,
+        "start_column": 2,
+        "end_line": 23,
+        "end_column": 7
+      },
+      "debug_info": {
+        "goal": "\u22a2 (fun x => x.1.exp + isomorph `RealToFloat (fun x => x.2 0) x) = fun p => p.1.exp + p.2 0",
+        "url": "https://github.com/lecopivo/SciLean/blob/612daaaa9f63016cd8d06df8e634e4d858d26d8e/Test/realToFloat.lean#L23"
+      },
+      "metadata": {
+        "blame_email_hash": "c7c59fe619b9",
+        "blame_date": "2024-11-19T16:57:30-05:00",
+        "inclusion_date": "2025-05-29T03:10:06.182872+00:00"
+      },
+      "id": "c0d54bfa60547c746dc115d30556d3fd78b550ff3be63d063386c3bbc6a7e3a3"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/lecopivo/SciLean",
+        "branch": "bump-v4.19.0-rc2",
+        "commit": "612daaaa9f63016cd8d06df8e634e4d858d26d8e",
+        "lean_version": "v4.19.0-rc2"
+      },
+      "location": {
+        "path": "Test/realToFloat.lean",
+        "start_line": 34,
+        "start_column": 2,
+        "end_line": 34,
+        "end_column": 7
+      },
+      "debug_info": {
+        "goal": "\u22a2 (fun x =>\n      x.1.exp + isomorph `RealToFloat (fun x => x.2 0) x \u2264 0 \u2227 x.1.exp + isomorph `RealToFloat (fun x => x.2 1) x \u2264 0) =\n    fun p => p.1.exp + p.2 0 \u2264 0 \u2227 p.1.exp + p.2 1 \u2264 0",
+        "url": "https://github.com/lecopivo/SciLean/blob/612daaaa9f63016cd8d06df8e634e4d858d26d8e/Test/realToFloat.lean#L34"
+      },
+      "metadata": {
+        "blame_email_hash": "c7c59fe619b9",
+        "blame_date": "2024-11-19T16:57:30-05:00",
+        "inclusion_date": "2025-05-29T03:10:06.182872+00:00"
+      },
+      "id": "7b123661af1232e4b825d524f4b14b91d10feeed79958b038212934ea4eff3f4"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/lecopivo/SciLean",
+        "branch": "bump-v4.19.0-rc2",
+        "commit": "612daaaa9f63016cd8d06df8e634e4d858d26d8e",
+        "lean_version": "v4.19.0-rc2"
+      },
+      "location": {
+        "path": "examples/FloatTest.lean",
+        "start_line": 13,
+        "start_column": 82,
+        "end_line": 13,
+        "end_column": 87
+      },
+      "debug_info": {
+        "goal": "x\u271d\u00b3 x\u271d\u00b2 x\u271d\u00b9 x\u271d : PUnit.{1}\n\u22a2 { data := #[1.0, 2.0, 3.0, 4.0, 3.0] }.toByteArray.size % 8 = 0",
+        "url": "https://github.com/lecopivo/SciLean/blob/612daaaa9f63016cd8d06df8e634e4d858d26d8e/examples/FloatTest.lean#L13"
+      },
+      "metadata": {
+        "blame_email_hash": "c7c59fe619b9",
+        "blame_date": "2025-01-07T15:43:19-05:00",
+        "inclusion_date": "2025-05-29T03:10:06.182872+00:00"
+      },
+      "id": "e93dd22e7de6d89815d8ae7f4892b134cc27172d51d5b4fb7baa4430a35c18f3"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/lecopivo/SciLean",
+        "branch": "bump-v4.19.0-rc2",
+        "commit": "612daaaa9f63016cd8d06df8e634e4d858d26d8e",
+        "lean_version": "v4.19.0-rc2"
+      },
+      "location": {
+        "path": "SciLean/Util/Alternatives.lean",
+        "start_line": 95,
+        "start_column": 7,
+        "end_line": 95,
+        "end_column": 12
+      },
+      "debug_info": {
+        "goal": "a b : Nat\nh : a = b\n\u22a2 (fun x =>\n      let y := x + x + x + x;\n      y + y) =\n    fun x =>\n    let y := x + x + x + x;\n    let y := x + x + x + x;\n    x + x + x + x",
+        "url": "https://github.com/lecopivo/SciLean/blob/612daaaa9f63016cd8d06df8e634e4d858d26d8e/SciLean/Util/Alternatives.lean#L95"
+      },
+      "metadata": {
+        "blame_email_hash": "c7c59fe619b9",
+        "blame_date": "2023-04-26T17:56:32-04:00",
+        "inclusion_date": "2025-05-29T03:10:06.182872+00:00"
+      },
+      "id": "e3f23306dea9b48d572c6813e4bfa042f392a9c8a9c508c705e40a9a6faed581"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/lecopivo/SciLean",
+        "branch": "bump-v4.19.0-rc2",
+        "commit": "612daaaa9f63016cd8d06df8e634e4d858d26d8e",
+        "lean_version": "v4.19.0-rc2"
+      },
+      "location": {
+        "path": "SciLean/Modules/Prob/Erased.lean",
+        "start_line": 18,
+        "start_column": 63,
+        "end_line": 18,
+        "end_column": 68
+      },
+      "debug_info": {
+        "goal": "\u03b1 : Type\nx y : Erased \u03b1\n\u22a2 \u2191x = \u2191y \u2192 x = y",
+        "url": "https://github.com/lecopivo/SciLean/blob/612daaaa9f63016cd8d06df8e634e4d858d26d8e/SciLean/Modules/Prob/Erased.lean#L18"
+      },
+      "metadata": {
+        "blame_email_hash": "c7c59fe619b9",
+        "blame_date": "2024-02-08T10:58:37-05:00",
+        "inclusion_date": "2025-05-29T03:10:06.182872+00:00"
+      },
+      "id": "d95d2b28923d5acab74c10e0cd02c67d503d88c285e1d739c64a6d33a604fe2a"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/lecopivo/SciLean",
+        "branch": "bump-v4.19.0-rc2",
+        "commit": "612daaaa9f63016cd8d06df8e634e4d858d26d8e",
+        "lean_version": "v4.19.0-rc2"
+      },
+      "location": {
+        "path": "SciLean/Modules/Prob/Erased.lean",
+        "start_line": 25,
+        "start_column": 56,
+        "end_line": 25,
+        "end_column": 61
+      },
+      "debug_info": {
+        "goal": "\u03b1 : Type\nx : \u03b1\n\u22a2 \u2191(erase x) = x",
+        "url": "https://github.com/lecopivo/SciLean/blob/612daaaa9f63016cd8d06df8e634e4d858d26d8e/SciLean/Modules/Prob/Erased.lean#L25"
+      },
+      "metadata": {
+        "blame_email_hash": "c7c59fe619b9",
+        "blame_date": "2024-02-08T10:58:37-05:00",
+        "inclusion_date": "2025-05-29T03:10:06.182872+00:00"
+      },
+      "id": "d0806764df9631774d819e99b02e32abcceb28e50f1c5195ed7c7ed9ceb9ae42"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/lecopivo/SciLean",
+        "branch": "bump-v4.19.0-rc2",
+        "commit": "612daaaa9f63016cd8d06df8e634e4d858d26d8e",
+        "lean_version": "v4.19.0-rc2"
+      },
+      "location": {
+        "path": "SciLean/Modules/Prob/TestFunctionExtension.lean",
+        "start_line": 23,
+        "start_column": 15,
+        "end_line": 23,
+        "end_column": 20
+      },
+      "debug_info": {
+        "goal": "X : Sort u_1\nY : Type u_2\ninst\u271d\u00b9 : NormedAddCommGroup Y\ninst\u271d : NormedSpace \u211d Y\nF : (X \u2192 \u211d) \u2192 \u211d\n\u03c6 : X \u2192 \u211d\ny : Y\n\u22a2 (testFunctionExtension F fun x => \u03c6 x \u2022 y) = F \u03c6 \u2022 y",
+        "url": "https://github.com/lecopivo/SciLean/blob/612daaaa9f63016cd8d06df8e634e4d858d26d8e/SciLean/Modules/Prob/TestFunctionExtension.lean#L23"
+      },
+      "metadata": {
+        "blame_email_hash": "c7c59fe619b9",
+        "blame_date": "2024-02-08T10:58:37-05:00",
+        "inclusion_date": "2025-05-29T03:10:06.182872+00:00"
+      },
+      "id": "9976edfd75788d3dc0c71c4c4a46b38ea4a270f563b97cb44d917f295408e866"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/lecopivo/SciLean",
+        "branch": "bump-v4.19.0-rc2",
+        "commit": "612daaaa9f63016cd8d06df8e634e4d858d26d8e",
+        "lean_version": "v4.19.0-rc2"
+      },
+      "location": {
+        "path": "SciLean/Modules/Prob/TestFunctionExtension.lean",
+        "start_line": 36,
+        "start_column": 11,
+        "end_line": 36,
+        "end_column": 16
+      },
+      "debug_info": {
+        "goal": "X : Sort u_1\nY : Type u_2\ninst\u271d\u00b9 : NormedAddCommGroup Y\ninst\u271d : NormedSpace \u211d Y\nF : (X \u2192 \u211d) \u2192 \u211d\nG : (X \u2192 Y) \u2192 Y\nf : X \u2192 Y\nh : \u2200 (\u03c6 : X \u2192 \u211d) (y : Y), F \u03c6 \u2022 y = G fun x => \u03c6 x \u2022 y\n\u22a2 testFunctionExtension F f = G f",
+        "url": "https://github.com/lecopivo/SciLean/blob/612daaaa9f63016cd8d06df8e634e4d858d26d8e/SciLean/Modules/Prob/TestFunctionExtension.lean#L36"
+      },
+      "metadata": {
+        "blame_email_hash": "c7c59fe619b9",
+        "blame_date": "2024-02-08T10:58:37-05:00",
+        "inclusion_date": "2025-05-29T03:10:06.182872+00:00"
+      },
+      "id": "29518c5d6253911c7eb3fa92f134ea72db67c78dfd03bdcb61589c8a8ed8868f"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/lecopivo/SciLean",
+        "branch": "bump-v4.19.0-rc2",
+        "commit": "612daaaa9f63016cd8d06df8e634e4d858d26d8e",
+        "lean_version": "v4.19.0-rc2"
+      },
+      "location": {
+        "path": "SciLean/Modules/Prob/DerivUnderIntegralSign.lean",
+        "start_line": 32,
+        "start_column": 41,
+        "end_line": 32,
+        "end_column": 46
+      },
+      "debug_info": {
+        "goal": "X : Type u_2\ninst\u271d\u00b3 : NormedAddCommGroup X\ninst\u271d\u00b2 : NormedSpace \u211d X\nY : Type u_1\nx\u271d : MeasurableSpace Y\nZ : Type u_3\ninst\u271d\u00b9 : NormedAddCommGroup Z\ninst\u271d : NormedSpace \u211d Z\n\u03bc : X \u2192 Measure Y\nf : X \u2192 Y \u2192 Z\nx dx : X\nh : DifferentiableUnderIntegralAt f \u03bc x\n\u22a2 (fderiv \u211d (fun x => \u222b (y : Y), f x y \u2202\u03bc x) x) dx =\n    (fderiv \u211d (fun x' => \u222b (y : Y), f x y \u2202\u03bc x') x) dx + \u222b (y : Y), (fderiv \u211d (fun x => f x y) x) dx \u2202\u03bc x",
+        "url": "https://github.com/lecopivo/SciLean/blob/612daaaa9f63016cd8d06df8e634e4d858d26d8e/SciLean/Modules/Prob/DerivUnderIntegralSign.lean#L32"
+      },
+      "metadata": {
+        "blame_email_hash": "c7c59fe619b9",
+        "blame_date": "2024-02-12T01:13:42+01:00",
+        "inclusion_date": "2025-05-29T03:10:06.182872+00:00"
+      },
+      "id": "e66469233f8695318fb5a7795a86667299fdda620175d88571bb47deba716703"
     }
   ]
 }
