@@ -11980,7 +11980,7 @@
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
+        "commit": "49109e15a296831048024601c14d33399c526b38",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -11992,20 +11992,20 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\ninst\u271d\u00b9 : MeasureableFinGroup G\n\u03a9 : Type u_2\ninst\u271d : MeasureSpace \u03a9\nT\u2081 T\u2082 T\u2083 : \u03a9 \u2192 G\nhsum : T\u2081 + T\u2082 + T\u2083 = 0\nn : \u2115\n\u03a9' : Fin n \u2192 Type u_3\nh\u03a9' : (i : Fin n) \u2192 MeasureSpace (\u03a9' i)\nY : (i : Fin n) \u2192 \u03a9' i \u2192 G\n\u03b1 : \u211d\nh\u03b1 : \u03b1 > 0\n\u22a2 \u2203 \u03a9'' h\u03a9'' U,\n    d[U # U] + \u03b1 * \u2211 i, d[Y i # U] \u2264 (2 + \u03b1 * \u2191n / 2) * (I[T\u2081 : T\u2082] + I[T\u2081 : T\u2083] + I[T\u2082 : T\u2083]) + \u03b1 * \u2211 i, d[Y i # T\u2082]",
-        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/TorsionEndgame.lean#L79"
+        "url": "https://github.com/teorth/pfr/blob/49109e15a296831048024601c14d33399c526b38/PFR/TorsionEndgame.lean#L79"
       },
       "metadata": {
         "blame_email_hash": "97e8591fe714",
         "blame_date": "2025-04-17T21:11:56+01:00",
-        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
+        "inclusion_date": "2025-06-01T03:03:10.481677+00:00"
       },
-      "id": "9ba52357bc7c4cea2d946b5080619d670c0b814ab856aed521449e6448dc2ad0"
+      "id": "9349131d79bf0075e62ede60861e7a6797f02f6e391798d2a1d86e672a5a6ab0"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
+        "commit": "49109e15a296831048024601c14d33399c526b38",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -12017,14 +12017,14 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b9 : MeasureableFinGroup G\ninst\u271d : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u22a2 multiTau p \u03a9 h\u03a9 X = 0",
-        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/TorsionEndgame.lean#L82"
+        "url": "https://github.com/teorth/pfr/blob/49109e15a296831048024601c14d33399c526b38/PFR/TorsionEndgame.lean#L82"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-28T21:28:18-07:00",
-        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
+        "inclusion_date": "2025-06-01T03:03:10.481677+00:00"
       },
-      "id": "414bb2b0fa894e2c3dde0f82930a4f67400eb02fa24d7028abef298ad314c0a3"
+      "id": "1bad888fb80b90a1896023ba386a9e79f0c0c8eb79c066659f07333d5c3e6d63"
     },
     {
       "repo": {
@@ -12055,7 +12055,7 @@
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
+        "commit": "49109e15a296831048024601c14d33399c526b38",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -12067,14 +12067,14 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : Fintype G\nm : \u2115\nhm : m \u2265 2\nhtorsion : \u2200 (x : G), m \u2022 x = 0\nA : Set G\ninst\u271d : Finite \u2191A\nK : \u211d\nh\u2080A : A.Nonempty\nhA : \u2191(Nat.card \u2191(A + A)) \u2264 K * \u2191(Nat.card \u2191A)\n\u22a2 \u2203 H c,\n    \u2191(Nat.card \u2191c) \u2264 K ^ (64 * \u2191m ^ 3 + 2) * \u2191(Nat.card \u2191A) ^ (1 / 2) * \u2191(Nat.card \u21a5H) ^ (-1 / 2) \u2227\n      \u2191(Nat.card \u21a5H) \u2264 K ^ (64 * \u2191m ^ 3) * \u2191(Nat.card \u2191A) \u2227\n        \u2191(Nat.card \u2191A) \u2264 K ^ (64 * \u2191m ^ 3) * \u2191(Nat.card \u21a5H) \u2227 A \u2286 c + \u2191H",
-        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/TorsionEndgame.lean#L102"
+        "url": "https://github.com/teorth/pfr/blob/49109e15a296831048024601c14d33399c526b38/PFR/TorsionEndgame.lean#L102"
       },
       "metadata": {
         "blame_email_hash": "7d87c0724495",
         "blame_date": "2024-08-18T18:37:52+02:00",
-        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
+        "inclusion_date": "2025-06-01T03:03:10.481677+00:00"
       },
-      "id": "5647f928a11892349b183b51484417a244b7b2dfda1807f5609d84f352a0884a"
+      "id": "a3a816a6ca42314d65ca929e6927930ec1151d28c491c3b9b16ad93e9cad997b"
     },
     {
       "repo": {
@@ -12105,7 +12105,7 @@
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
+        "commit": "49109e15a296831048024601c14d33399c526b38",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -12117,14 +12117,14 @@
       },
       "debug_info": {
         "goal": "\u03a9 : Type u_1\nG : Type u_5\nm\u03a9 : MeasurableSpace \u03a9\n\u03bc : Measure \u03a9\nhG : MeasurableSpace G\ninst\u271d\u00b3 : MeasurableSingletonClass G\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : Countable G\ninst\u271d : IsProbabilityMeasure \u03bc\nI : Type u_8\ns t : Finset I\nhdisj : Disjoint s t\nhs : s.Nonempty\nht : t.Nonempty\nX : I \u2192 \u03a9 \u2192 G\nhX : \u2200 (i : I), Measurable (X i)\nhX' : \u2200 (i : I), FiniteRange (X i)\nh_indep : iIndepFun X \u03bc\nf : I \u2192 I\nhf : Finset.image f t \u2286 s\n\u22a2 H[\u2211 i \u2208 t, X i ; \u03bc] \u2264 H[\u2211 i \u2208 s, X i ; \u03bc] + \u2211 i \u2208 t, (H[X i - X (f i) ; \u03bc] - H[X (f i) ; \u03bc])",
-        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/MoreRuzsaDist.lean#L527"
+        "url": "https://github.com/teorth/pfr/blob/49109e15a296831048024601c14d33399c526b38/PFR/MoreRuzsaDist.lean#L527"
       },
       "metadata": {
         "blame_email_hash": "6e8091041644",
         "blame_date": "2024-05-31T19:35:50+01:00",
-        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
+        "inclusion_date": "2025-06-01T03:03:10.481677+00:00"
       },
-      "id": "a8d0995203fd353b7408d89399a3b42b648011db67b373d4badef838ea4bc1d3"
+      "id": "0096fe7dfae77c016ed8c38588a02549b90f6ada960a95cd2c357ace26e8437d"
     },
     {
       "repo": {
@@ -21054,8 +21054,8 @@
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -21067,20 +21067,20 @@
       },
       "debug_info": {
         "goal": "\u22a2 (do\n      let _ \u2190 liftM (query 0 ())\n      (fun a => (0, \u2191a)) <$> liftM (query 1 ())) =\n    do\n    let y \u2190 liftM (query 1 ())\n    (fun a => (0, \u2191y)) <$> liftM (query 0 ())",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/OracleReduction/Equiv.lean#L66"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/OracleReduction/Equiv.lean#L66"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-06T20:31:31-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "bad6ebf2924e37fab7180e70a2a6baafa01c721db78bb0a39955bf8a9b7f7ead"
+      "id": "a6dc5f3f3b4a49e70e651b1b4ee9326d763bf280a4f3f6f1f6871ff9678f63e4"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -21092,20 +21092,20 @@
       },
       "debug_info": {
         "goal": "case h.h.none\n\u22a2 (evalDist (OptionT.bind (liftM (query 1 ())) (OptionT.pure \u2218 fun a => (0, \u2191a)))) none =\n    \u2211' (a : Fin 2), 2\u207b\u00b9 * (evalDist (OptionT.bind (liftM (query 0 ())) (OptionT.pure \u2218 fun a_1 => (0, \u2191a)))) none",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/OracleReduction/Equiv.lean#L80"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/OracleReduction/Equiv.lean#L80"
       },
       "metadata": {
         "blame_email_hash": "d0850777cf0b",
         "blame_date": "2025-04-16T18:04:04-04:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "063f54070367a1a553140615e2bb52788dac7219c46b15d93c4fe3624cb30d87"
+      "id": "6f987fa7f4f86fc3e1e9bb535f420034c3a1e43b65cebb33266b38c9cc19e026"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -21117,20 +21117,20 @@
       },
       "debug_info": {
         "goal": "case h.h.some.mk\nx y : \u2115\n\u22a2 (Option.elimM ((PMF.uniformOfFintype (Fin 1)).bind fun a => PMF.pure (some a)) (PMF.pure none)\n        (OptionT.run \u2218 evalDist \u2218 fun x => OptionT.bind (liftM (query 1 ())) (OptionT.pure \u2218 fun a => (0, \u2191a))))\n      (some (x, y)) =\n    (Option.elimM ((PMF.uniformOfFintype (Fin 2)).bind fun a => PMF.pure (some a)) (PMF.pure none)\n        (OptionT.run \u2218 evalDist \u2218 fun y => OptionT.bind (liftM (query 0 ())) (OptionT.pure \u2218 fun a => (0, \u2191y))))\n      (some (x, y))",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/OracleReduction/Equiv.lean#L85"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/OracleReduction/Equiv.lean#L85"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-06T20:31:31-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "8aeb3e2d5cf2fd2654034476b033009ef99c95356c230adc25d14156f19e4d96"
+      "id": "d0627a67378eda844ad568d3278f534801b240430b41ad3bc7a7b3bfb7915e46"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -21142,14 +21142,14 @@
       },
       "debug_info": {
         "goal": "f : (i : \u2115) \u2192 unifSpec.domain i \u2192 Fin (i + 1)\n\u22a2 (some (f 0 ()) >>=\n      simulateQ\n          {\n            impl := fun {\u03b1} x =>\n              match \u03b1, x with\n              | .(unifSpec.range i), query i t => some (f i t) } \u2218\n        fun x => (fun a => (0, \u2191a)) <$> lift (query 1 ())) =\n    some (f 1 ()) >>=\n      simulateQ\n          {\n            impl := fun {\u03b1} x =>\n              match \u03b1, x with\n              | .(unifSpec.range i), query i t => some (f i t) } \u2218\n        fun y => (fun a => (0, \u2191y)) <$> lift (query 0 ())",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/OracleReduction/Equiv.lean#L102"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/OracleReduction/Equiv.lean#L102"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-06T20:31:31-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "ac700b4bb3ca85974c74306fdeb0104bcdb1bb70042fb98640bb364a713ce39e"
+      "id": "70b4e4d30e990cfbab5e881e311b292233089a960ee916ee8efbedde42aaa89a"
     },
     {
       "repo": {
@@ -21579,8 +21579,8 @@
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -21592,14 +21592,14 @@
       },
       "debug_info": {
         "goal": "R : Type u_1\ninst\u271d\u00b9 : Mul R\ninst\u271d : AddCommMonoid R\nn : \u2115\na : R\nb : Vector R n\nc : R\nd : Vector R n\n\u22a2 List.foldl (fun x1 x2 => x1 + x2) (a * c) (List.zipWith (fun x1 x2 => x1 * x2) b.toList d.toList) =\n    a * c + Array.foldl (fun x1 x2 => x1 + x2) 0 (Array.zipWith (fun x1 x2 => x1 * x2) b.toArray d.toArray) 0 n",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/MlPoly/Basic.lean#L45"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/MlPoly/Basic.lean#L45"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-14T11:09:39-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "44822f723bdc8d388978a3aa352589571d340817df786c4d91fa3434c34c7633"
+      "id": "62bf24ca5b22a5a0ad485446b44d0548167a3ab7b5e9d2157fe4d06b528c8eaf"
     },
     {
       "repo": {
@@ -22004,8 +22004,8 @@
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -22017,14 +22017,14 @@
       },
       "debug_info": {
         "goal": "\u03b1 : Type u_1\na : Array \u03b1\nn : \u2115\nunit : \u03b1\ni : \u2115\nh\u271d : i < (rightpad n unit a).size\nh : i < { toList := List.rightpad n unit a.toList }.size\n\u22a2 { toList := List.rightpad n unit a.toList }[i] = a.getD i unit",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/Math/Basic.lean#L248"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/Math/Basic.lean#L248"
       },
       "metadata": {
         "blame_email_hash": "0c5d39c5ece3",
         "blame_date": "2025-03-09T23:22:53-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "7d6e1d28551cca246fd03a5238197387ccee85f00ea4b58dcc98880c890f19e1"
+      "id": "97e26819566803912dc51f3ae2dd5ef43e4b1f7366be50071ae339612c8c454f"
     },
     {
       "repo": {
@@ -34205,7 +34205,7 @@
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
+        "commit": "49109e15a296831048024601c14d33399c526b38",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34217,20 +34217,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u03a9' : Type u\nY : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh\u03a9' : MeasureSpace \u03a9'\ninst\u271d : IsFiniteMeasure volume\n\u22a2 I[\u2211 i, \u2211 j, \u2191\u2191i \u2022 Y (i, j) : \u2211 i, \u2211 j, \u2191\u2191j \u2022 Y (i, j)|\u2211 i, \u2211 j, Y (i, j)] \u2264 4 * \u2191p.m ^ 2 * p.\u03b7 * multiTau p \u03a9 h\u03a9 X",
-        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/TorsionEndgame.lean#L50"
+        "url": "https://github.com/teorth/pfr/blob/49109e15a296831048024601c14d33399c526b38/PFR/TorsionEndgame.lean#L50"
       },
       "metadata": {
         "blame_email_hash": "97e8591fe714",
         "blame_date": "2024-09-30T22:19:50+00:00",
-        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
+        "inclusion_date": "2025-06-01T03:03:10.481677+00:00"
       },
-      "id": "1c4ecb0803952a4abf36fd7fd96c1200d1b0cbd8ca8e5c846de701c5cbe7678a"
+      "id": "29778f1152b52f56e471415ff435d1178960d2b494e0bf5056a34dbea0e71309"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
+        "commit": "49109e15a296831048024601c14d33399c526b38",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34242,20 +34242,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u03a9' : Type u\nY : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh\u03a9' : MeasureSpace \u03a9'\ninst\u271d : IsFiniteMeasure volume\n\u22a2 I[\u2211 i, \u2211 j, \u2191\u2191i \u2022 Y (i, j) : \u2211 i, \u2211 j, (-\u2191\u2191i - \u2191\u2191j) \u2022 Y (i, j)|\u2211 i, \u2211 j, Y (i, j)] \u2264\n    4 * \u2191p.m ^ 2 * p.\u03b7 * multiTau p \u03a9 h\u03a9 X",
-        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/TorsionEndgame.lean#L52"
+        "url": "https://github.com/teorth/pfr/blob/49109e15a296831048024601c14d33399c526b38/PFR/TorsionEndgame.lean#L52"
       },
       "metadata": {
         "blame_email_hash": "97e8591fe714",
         "blame_date": "2024-09-30T22:19:50+00:00",
-        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
+        "inclusion_date": "2025-06-01T03:03:10.481677+00:00"
       },
-      "id": "9f83153b7111511b5f594cc083c33f3faba31cdb6d567940dcccfa8fdca98aa9"
+      "id": "4353ed325cd0df36555a1d92cf39ee1f05f229f1bfeb095cd1e7f893188bf0f6"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
+        "commit": "49109e15a296831048024601c14d33399c526b38",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34267,20 +34267,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u03a9' : Type u\nY : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh\u03a9' : MeasureSpace \u03a9'\ninst\u271d : IsFiniteMeasure volume\n\u22a2 I[\u2211 i, \u2211 j, \u2191\u2191j \u2022 Y (i, j) : \u2211 i, \u2211 j, (-\u2191\u2191i - \u2191\u2191j) \u2022 Y (i, j)|\u2211 i, \u2211 j, Y (i, j)] \u2264\n    4 * \u2191p.m ^ 2 * p.\u03b7 * multiTau p \u03a9 h\u03a9 X",
-        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/TorsionEndgame.lean#L54"
+        "url": "https://github.com/teorth/pfr/blob/49109e15a296831048024601c14d33399c526b38/PFR/TorsionEndgame.lean#L54"
       },
       "metadata": {
         "blame_email_hash": "97e8591fe714",
         "blame_date": "2024-09-30T22:19:50+00:00",
-        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
+        "inclusion_date": "2025-06-01T03:03:10.481677+00:00"
       },
-      "id": "77b1deaff5205dba3633804a2b24651858fbfdab667ed709b0f892163a650139"
+      "id": "861ef26a6b180dd0b4b9f8b5b1c5d8854478cb6dbf9bc9f02bfebb75167de635"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
+        "commit": "49109e15a296831048024601c14d33399c526b38",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34292,20 +34292,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u03a9' : Type u\nY : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh\u03a9' : MeasureSpace \u03a9'\ninst\u271d : IsFiniteMeasure volume\nm : \u211d\n\u22a2 H[\u2211 i, \u2211 j, Y (i, j)] \u2264 (2 * \u2191p.m - 1) * multiTau p \u03a9 h\u03a9 X + m\u207b\u00b9 * \u2211 i, H[X i]",
-        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/TorsionEndgame.lean#L58"
+        "url": "https://github.com/teorth/pfr/blob/49109e15a296831048024601c14d33399c526b38/PFR/TorsionEndgame.lean#L58"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-29T08:58:11-07:00",
-        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
+        "inclusion_date": "2025-06-01T03:03:10.481677+00:00"
       },
-      "id": "65f845cdb0e5f27203c4a7267a70e4ac96bdd036bc6aedae51534ba361c8e5cb"
+      "id": "6f463354723a3967221a993ee20ea4665655cd9d78414eebf560f95abe779f2e"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
+        "commit": "49109e15a296831048024601c14d33399c526b38",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34317,20 +34317,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u03a9' : Type u\nY : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh\u03a9' : MeasureSpace \u03a9'\ninst\u271d : IsFiniteMeasure volume\nm : \u211d\n\u22a2 H[\u2211 i, \u2211 j, \u2191\u2191j \u2022 Y (i, j)] \u2264 (8 * \u2191p.m ^ 2 - 16 * \u2191p.m + 1) * multiTau p \u03a9 h\u03a9 X + m\u207b\u00b9 * \u2211 i, H[X i]",
-        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/TorsionEndgame.lean#L61"
+        "url": "https://github.com/teorth/pfr/blob/49109e15a296831048024601c14d33399c526b38/PFR/TorsionEndgame.lean#L61"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-29T08:58:11-07:00",
-        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
+        "inclusion_date": "2025-06-01T03:03:10.481677+00:00"
       },
-      "id": "a017fbaf631e3377060f38a70dd74e83221740f47c318d11f4b3024902c30089"
+      "id": "7c3aed8cd9f21af426a0736f8e83b96ac5b62959ecf090c1e817aaa56108a19a"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
+        "commit": "49109e15a296831048024601c14d33399c526b38",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34342,20 +34342,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u03a9' : Type u\nY : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh\u03a9' : MeasureSpace \u03a9'\ninst\u271d : IsFiniteMeasure volume\n\u22a2 I[\u2211 i, \u2211 j, Y (i, j) : \u2211 i, \u2211 j, \u2191\u2191j \u2022 Y (i, j)] \u2264 2 * (\u2191p.m - 1) * multiTau p \u03a9 h\u03a9 X",
-        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/TorsionEndgame.lean#L64"
+        "url": "https://github.com/teorth/pfr/blob/49109e15a296831048024601c14d33399c526b38/PFR/TorsionEndgame.lean#L64"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-29T08:58:11-07:00",
-        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
+        "inclusion_date": "2025-06-01T03:03:10.481677+00:00"
       },
-      "id": "fc3e23d630f878c2903801a5f094cdd2e0e04cf20ee0c837a24c921d2e28de65"
+      "id": "9a1404b34047e0b9ec6a3b821d265bb88ed85de064e916d5f4491245acc7039e"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
+        "commit": "49109e15a296831048024601c14d33399c526b38",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34367,20 +34367,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Fin p.m \u2192 Type u\nh\u03a9 : (i : Fin p.m) \u2192 MeasureSpace (\u03a9 i)\nX : (i : Fin p.m) \u2192 \u03a9 i \u2192 G\n\u03a9' : Type u\nY : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh\u03a9' : MeasureSpace \u03a9'\ninst\u271d : IsFiniteMeasure volume\n\u22a2 \u2211 i, d[X i # \u2211 i, \u2211 j, \u2191\u2191j \u2022 Y (i, j) | \u2211 i, \u2211 j, Y (i, j)] \u2264 8 * (\u2191p.m ^ 3 - \u2191p.m ^ 2) * multiTau p \u03a9 h\u03a9 X",
-        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/TorsionEndgame.lean#L67"
+        "url": "https://github.com/teorth/pfr/blob/49109e15a296831048024601c14d33399c526b38/PFR/TorsionEndgame.lean#L67"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-29T08:58:11-07:00",
-        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
+        "inclusion_date": "2025-06-01T03:03:10.481677+00:00"
       },
-      "id": "e7de6df23233b2cba0c3fccd5fc8ca9677808b76caff05bad4116b046d08acac"
+      "id": "3b64a719e1e86892effa18eeda8b3877db4e52f6ef4fc22e290a8abb403731f6"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
+        "commit": "49109e15a296831048024601c14d33399c526b38",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34392,20 +34392,20 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\ninst\u271d\u2074 : AddCommGroup G\ninst\u271d\u00b3 : Fintype G\ninst\u271d\u00b2 : MeasurableSpace G\ninst\u271d\u00b9 : MeasurableSingletonClass G\nm : \u2115\nhm : m \u2265 2\nhtorsion : \u2200 (x : G), m \u2022 x = 0\n\u03a9 : Type u_2\ninst\u271d : MeasureSpace \u03a9\nX : \u03a9 \u2192 G\n\u22a2 \u2203 H \u03a9' m\u03a9 U, IsUniform (\u2191H) U volume \u2227 d[X # U] \u2264 64 * \u2191m ^ 3 * d[X # X]",
-        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/TorsionEndgame.lean#L89"
+        "url": "https://github.com/teorth/pfr/blob/49109e15a296831048024601c14d33399c526b38/PFR/TorsionEndgame.lean#L89"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-28T21:28:18-07:00",
-        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
+        "inclusion_date": "2025-06-01T03:03:10.481677+00:00"
       },
-      "id": "9777eefba224c257a5a78477d5404aa209afcc53e871e9ccc84e1cb812e4b9fc"
+      "id": "df6a04c325e2991b626b1aad360148be2b60cc867ac78ea434655d13412adadd"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
+        "commit": "49109e15a296831048024601c14d33399c526b38",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34417,20 +34417,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2092 : Type u\ninst\u271d\u00b2 : MeasureableFinGroup G\ninst\u271d\u00b9 : MeasureSpace \u03a9\u2092\np : multiRefPackage G \u03a9\u2092\n\u03a9 : Type u\nh\u03a9 : MeasureSpace \u03a9\nX : Fin p.m \u2192 \u03a9 \u2192 G\nh_indep : iIndepFun X volume\nh_min : multiTauMinimizes p (fun x => \u03a9) (fun x => h\u03a9) X\n\u03a9' : Type u_1\ninst\u271d : MeasureSpace \u03a9'\nX' : Fin p.m \u00d7 Fin p.m \u2192 \u03a9' \u2192 G\nh_indep' : iIndepFun X' volume\nhperm : \u2200 (j : Fin p.m), \u2203 e, IdentDistrib (fun \u03c9 i => X' (i, j) \u03c9) (fun \u03c9 i => X (e i) \u03c9) volume volume\n\u22a2 I[fun \u03c9 j => \u2211 i, X' (i, j) \u03c9 : fun \u03c9 i => \u2211 j, X' (i, j) \u03c9|fun \u03c9 => \u2211 i, \u2211 j, X' (i, j) \u03c9] \u2264\n    4 * \u2191p.m ^ 2 * p.\u03b7 * D[X ; fun x => h\u03a9]",
-        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/BoundingMutual.lean#L36"
+        "url": "https://github.com/teorth/pfr/blob/49109e15a296831048024601c14d33399c526b38/PFR/BoundingMutual.lean#L36"
       },
       "metadata": {
         "blame_email_hash": "7d87c0724495",
         "blame_date": "2025-03-07T08:53:46+01:00",
-        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
+        "inclusion_date": "2025-06-01T03:03:10.481677+00:00"
       },
-      "id": "fb8f9b58da1e38476f53aed60e935ebb5e8ef6754d7604028ff14980c19432a7"
+      "id": "760c97c8db36acdc50f51b10867203a8a1409cd24c60a939e37c5186ba4967ef"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
+        "commit": "49109e15a296831048024601c14d33399c526b38",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34442,20 +34442,20 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : Fintype G\ninst\u271d : Module (ZMod 2) G\n\u22a2 Nat.card (G \u2192+ ZMod 2) = Nat.card G",
-        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/ApproxHomPFR.lean#L181"
+        "url": "https://github.com/teorth/pfr/blob/49109e15a296831048024601c14d33399c526b38/PFR/ApproxHomPFR.lean#L181"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2025-05-01T23:21:54-07:00",
-        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
+        "inclusion_date": "2025-06-01T03:03:10.481677+00:00"
       },
-      "id": "6d92889d82e70bd00cde336c7f26b9535bda77a8b123bf3ba65cded072b2e01e"
+      "id": "0b0a333097173f6020e721a4295e35b9b92d2dec9e21abe2d182fd2bd4db8136"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
+        "commit": "49109e15a296831048024601c14d33399c526b38",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34467,20 +34467,20 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : Fintype G\ninst\u271d : Module (ZMod 2) G\nx : G\nhx : x \u2260 0\n\u22a2 Nat.card \u2191{\u03c6 | \u03c6 x = 1} = Nat.card G / 2",
-        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/ApproxHomPFR.lean#L183"
+        "url": "https://github.com/teorth/pfr/blob/49109e15a296831048024601c14d33399c526b38/PFR/ApproxHomPFR.lean#L183"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2025-05-01T23:21:54-07:00",
-        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
+        "inclusion_date": "2025-06-01T03:03:10.481677+00:00"
       },
-      "id": "96904bda247719de5adc8d3666f3118073b47a388cea267d59e8241c9649f26f"
+      "id": "6ae7f947eec4b094d53ce34549c2a563d41d7fbd8a79fae4df113fdc5cce1795"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
+        "commit": "49109e15a296831048024601c14d33399c526b38",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34492,20 +34492,20 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : Fintype G\ninst\u271d : Module (ZMod 2) G\nA : Set G\n\u22a2 \u2203 \u03c6, Nat.card \u2191{x | x \u2208 A \u2227 \u03c6 x = 1} \u2265 (Nat.card \u2191A - 1) / 2",
-        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/ApproxHomPFR.lean#L185"
+        "url": "https://github.com/teorth/pfr/blob/49109e15a296831048024601c14d33399c526b38/PFR/ApproxHomPFR.lean#L185"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2025-05-01T23:21:54-07:00",
-        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
+        "inclusion_date": "2025-06-01T03:03:10.481677+00:00"
       },
-      "id": "d2d5ce16fb205bbd08ba72eca6fc3d6519e236878b223d085403e57f1b1343b3"
+      "id": "92edd06e600f29493199f46c43a85e8ecd63e24d686770fb100b4846983f3094"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
+        "commit": "49109e15a296831048024601c14d33399c526b38",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34517,20 +34517,20 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\nG' : Type u_2\ninst\u271d\u2075 : AddCommGroup G\ninst\u271d\u2074 : Fintype G\ninst\u271d\u00b3 : AddCommGroup G'\ninst\u271d\u00b2 : Fintype G'\ninst\u271d\u00b9 : Module (ZMod 2) G\ninst\u271d : Module (ZMod 2) G'\nf : G \u2192 G'\nK : \u211d\nhK : K > 0\nhf : \u2191(Nat.card G) ^ 2 / K \u2264 \u2191(Nat.card \u2191{x | f (x.1 + x.2) = f x.1 + f x.2})\n\u22a2 \u2203 \u03c6'', \u2191(Nat.card \u2191{x | f x = \u03c6'' x}) \u2265 (\u2191(Nat.card G) / (2 ^ 144 * K ^ 122) - 1) / 2",
-        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/ApproxHomPFR.lean#L189"
+        "url": "https://github.com/teorth/pfr/blob/49109e15a296831048024601c14d33399c526b38/PFR/ApproxHomPFR.lean#L189"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2025-05-01T23:21:54-07:00",
-        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
+        "inclusion_date": "2025-06-01T03:03:10.481677+00:00"
       },
-      "id": "00472b8f9b9d856f24f83c6aad601cc6bf6f5274b4875740befe6eb17e33c7d0"
+      "id": "9de863cf20878ce35c49c24c84ebaa31d77e094ad8451d897059fe9415571343"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
+        "commit": "49109e15a296831048024601c14d33399c526b38",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34542,14 +34542,14 @@
       },
       "debug_info": {
         "goal": "G : Type u_8\nhG : MeasurableSpace G\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : MeasurableSingletonClass G\ninst\u271d : Countable G\nm : \u2115\n\u03a9 : Type u_9\nh\u03a9 : MeasureSpace \u03a9\nX : Fin m \u2192 \u03a9 \u2192 G\nh_indep : iIndepFun X volume\n\u22a2 @multiDist G hG inst\u271d\u00b2 m (fun x => \u03a9) (fun x => h\u03a9) X = H[\u2211 i, X i] - (\u2211 i, H[X i]) / \u2191m",
-        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/MoreRuzsaDist.lean#L760"
+        "url": "https://github.com/teorth/pfr/blob/49109e15a296831048024601c14d33399c526b38/PFR/MoreRuzsaDist.lean#L760"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-22T09:31:46-07:00",
-        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
+        "inclusion_date": "2025-06-01T03:03:10.481677+00:00"
       },
-      "id": "75b78076d30a6ec2513e7c2b2c42502b7d32a9f71263ce8b8bbdc2a2f119cac7"
+      "id": "85f23dba03df424ce1af5162c60259cae9aa3eec53d348b0590552a3f8665f87"
     },
     {
       "repo": {
@@ -34655,7 +34655,7 @@
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
+        "commit": "49109e15a296831048024601c14d33399c526b38",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34667,20 +34667,20 @@
       },
       "debug_info": {
         "goal": "G : Type u_5\nhG : MeasurableSpace G\ninst\u271d\u00b3 : MeasurableSingletonClass G\ninst\u271d\u00b2 : AddCommGroup G\ninst\u271d\u00b9 : Countable G\ninst\u271d : Fintype G\nm : \u2115\nhm : m \u2265 1\n\u03a9 : Type u_8\nh\u03a9 : MeasureSpace \u03a9\nX : Fin (m + 1) \u00d7 Fin (m + 1) \u2192 \u03a9 \u2192 G\nh_indep : iIndepFun X volume\n\u22a2 I[fun \u03c9 j => \u2211 i, X (i, j) \u03c9 : fun \u03c9 i => \u2211 j, X (i, j) \u03c9|\u2211 p, X p] \u2264\n    (\u2211 j,\n          ((@multiDist G hG inst\u271d\u00b2 (m + 1) (fun x => \u03a9) (fun x => h\u03a9) fun i => X (i, j)) -\n            @condMultiDist G hG inst\u271d\u00b2 (m + 1) (fun x => \u03a9) (fun x => h\u03a9) G inst\u271d (fun i => X (i, j)) fun i =>\n              \u2211 k \u2208 Finset.Ici j, X (i, k)) +\n        @multiDist G hG inst\u271d\u00b2 (m + 1) (fun x => \u03a9) (fun x => h\u03a9) fun i => X (i, \u2191m)) -\n      @multiDist G hG inst\u271d\u00b2 (m + 1) (fun x => \u03a9) (fun x => h\u03a9) fun i => \u2211 j, X (i, j)",
-        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/MoreRuzsaDist.lean#L2070"
+        "url": "https://github.com/teorth/pfr/blob/49109e15a296831048024601c14d33399c526b38/PFR/MoreRuzsaDist.lean#L2070"
       },
       "metadata": {
         "blame_email_hash": "97e8591fe714",
         "blame_date": "2024-10-17T18:26:36+00:00",
-        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
+        "inclusion_date": "2025-06-01T03:03:10.481677+00:00"
       },
-      "id": "8051869cf09a7c8719bb5bc7d924a557111ab098831451883feba67b30437f11"
+      "id": "1b142d902a81e04c62336cb7e4aa8b888fd1f6c73d3c44ccc48c28f49d023db0"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
+        "commit": "49109e15a296831048024601c14d33399c526b38",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34692,20 +34692,20 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2080 : Type u\ninst\u271d\u2074 : @MeasureableFinGroup G\ninst\u271d\u00b3 : TopologicalSpace G\ninst\u271d\u00b2 : DiscreteTopology G\ninst\u271d\u00b9 : BorelSpace G\ninst\u271d : MeasureSpace \u03a9\u2080\np : @multiRefPackage G \u03a9\u2080 inst\u271d\u2074 inst\u271d\n\u22a2 Continuous fun \u03bc =>\n    @multiTau G \u03a9\u2080 inst\u271d\u2074 inst\u271d p (fun x => G)\n      (fun i =>\n        { toMeasurableSpace := @MeasureableFinGroup.toMeasurableSpace ((fun x => G) i) inst\u271d\u2074, volume := \u2191(\u03bc i) })\n      fun x => id",
-        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/MultiTauFunctional.lean#L54"
+        "url": "https://github.com/teorth/pfr/blob/49109e15a296831048024601c14d33399c526b38/PFR/MultiTauFunctional.lean#L54"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-06-29T09:57:28-07:00",
-        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
+        "inclusion_date": "2025-06-01T03:03:10.481677+00:00"
       },
-      "id": "23fa339cbb8cb837b1bc01537af61a54667eba2338035c2c1392ae0156a4a7c4"
+      "id": "ae632f5cfb1c738e56ffe7ec61dc56af7d7ed60409e2d817bc0c52075bc50c1f"
     },
     {
       "repo": {
         "remote": "https://github.com/teorth/pfr",
         "branch": "master",
-        "commit": "0d9c5da9388d34d3b4c591f28f4e206e678817b3",
+        "commit": "49109e15a296831048024601c14d33399c526b38",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -34717,14 +34717,14 @@
       },
       "debug_info": {
         "goal": "G \u03a9\u2080 : Type u\ninst\u271d\u00b9 : @MeasureableFinGroup G\ninst\u271d : MeasureSpace \u03a9\u2080\np : @multiRefPackage G \u03a9\u2080 inst\u271d\u00b9 inst\u271d\n\u22a2 \u2203 \u03a9 h\u03a9 X, @multiTauMinimizes G \u03a9\u2080 inst\u271d\u00b9 inst\u271d p \u03a9 h\u03a9 X",
-        "url": "https://github.com/teorth/pfr/blob/0d9c5da9388d34d3b4c591f28f4e206e678817b3/PFR/MultiTauFunctional.lean#L57"
+        "url": "https://github.com/teorth/pfr/blob/49109e15a296831048024601c14d33399c526b38/PFR/MultiTauFunctional.lean#L57"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-08-18T19:14:43-07:00",
-        "inclusion_date": "2025-05-27T23:04:13.609136+00:00"
+        "inclusion_date": "2025-06-01T03:03:10.481677+00:00"
       },
-      "id": "ed37a34384b8761ee634e86987d7a117075aade18fb4c7526f31922d77402bb1"
+      "id": "fecf7ffa2e403ebfd3a9e6fd155fa2576c144c6d152c674e23d4c38bac773bb0"
     },
     {
       "repo": {
@@ -49804,8 +49804,8 @@
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -49817,20 +49817,20 @@
       },
       "debug_info": {
         "goal": "\u03b9 : Type\noSpec : OracleSpec \u03b9\nStatement Witness \u03b9\u209b\u1d62 : Type\nOStatement : \u03b9\u209b\u1d62 \u2192 Type\ninst\u271d\u00b9 : (i : \u03b9\u209b\u1d62) \u2192 OracleInterface (OStatement i)\nWitEquiv : Type\ninst\u271d : OracleInterface WitEquiv\nequiv : Witness \u2243 WitEquiv\n\u22a2 \u2200 (i : \u03b9\u209b\u1d62 \u2295 Unit),\n    (OStatement \u2295\u1d65 fun x => WitEquiv) i =\n      match (\u22ef.mpr sorry) i with\n      | Sum.inl j => OStatement j\n      | Sum.inr j => ProtocolSpec.Message (SendWitness.pSpec WitEquiv) j",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/ProofSystem/Components.lean#L62"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/ProofSystem/Components.lean#L62"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-24T11:52:07-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "9cbc270e7da4bd63e0d4816f3f78d3cc42119fba028832521c8562b9b42a0292"
+      "id": "1bb19e57697eb846ba41f198dcb14205f9554cf358321353965ca53ccd5ec425"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -49842,20 +49842,20 @@
       },
       "debug_info": {
         "goal": "\u03b9 : Type\noSpec : OracleSpec \u03b9\nStatement Witness \u03b9\u209b\u1d62 : Type\nOStatement : \u03b9\u209b\u1d62 \u2192 Type\ninst\u271d\u00b2 : (i : \u03b9\u209b\u1d62) \u2192 OracleInterface (OStatement i)\nWitEquiv : Type\ninst\u271d\u00b9 : OracleInterface WitEquiv\nequiv : Witness \u2243 WitEquiv\nrelIn : Statement \u00d7 ((i : \u03b9\u209b\u1d62) \u2192 OStatement i) \u2192 Witness \u2192 Prop\ninst\u271d : oSpec.FiniteRange\n\u22a2 OracleReduction.perfectCompleteness relIn (SendWitness.toRelOut Statement Witness \u03b9\u209b\u1d62 OStatement WitEquiv equiv relIn)\n    (SendWitness.oracleReduction \u03b9 oSpec Statement Witness \u03b9\u209b\u1d62 OStatement inst\u271d\u00b2 WitEquiv inst\u271d\u00b9 equiv)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/ProofSystem/Components.lean#L80"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/ProofSystem/Components.lean#L80"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-24T11:52:07-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "c82b5f92a67e8ac2b47fda596fd192384645d9a6daeacc89fd276d04e91c7619"
+      "id": "0c75acd64277ba8634324839a50532a7e7ea2b9280d6888e178d89eae5f2e7d5"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -49867,20 +49867,20 @@
       },
       "debug_info": {
         "goal": "\u03b9 : Type\noSpec : OracleSpec \u03b9\nStatement \u03b9\u209b\u1d62 : Type\ninst\u271d : Unique \u03b9\u209b\u1d62\nOStatement : \u03b9\u209b\u1d62 \u2192 Type\ninst : (i : \u03b9\u209b\u1d62) \u2192 OracleInterface (OStatement i)\nrel : Statement \u00d7 ((i : \u03b9\u209b\u1d62) \u2192 OStatement i) \u2192 Prop\nrelComp : Statement \u2192 OracleComp [OStatement]\u2092 Unit\n\u22a2 \u2200 (i : \u03b9\u209b\u1d62 \u2295 \u03b9\u209b\u1d62),\n    (OStatement \u2295\u1d65 OStatement) i =\n      match sorry i with\n      | Sum.inl j => OStatement j\n      | Sum.inr j => ProtocolSpec.Message (SameOracle.pSpec \u03b9\u209b\u1d62 inst\u271d OStatement) j",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/ProofSystem/Components.lean#L141"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/ProofSystem/Components.lean#L141"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-24T11:52:07-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "9cf83c9e8f82d0ca963964ee4003e88bdc988dc31c5bb57711e367369e1c56b4"
+      "id": "042d09f459bda001d4f113c0c0fe60d7359f17a30d53b493e79dbe24fe08c597"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -49892,20 +49892,20 @@
       },
       "debug_info": {
         "goal": "\u03b9 : Type\noSpec : OracleSpec \u03b9\nStatement \u03b9\u209b\u1d62 : Type\ninst\u271d\u00b9 : Unique \u03b9\u209b\u1d62\nOStatement : \u03b9\u209b\u1d62 \u2192 Type\ninst : (i : \u03b9\u209b\u1d62) \u2192 OracleInterface (OStatement i)\nrel : Statement \u00d7 ((i : \u03b9\u209b\u1d62) \u2192 OStatement i) \u2192 Prop\nrelComp : Statement \u2192 OracleComp [OStatement]\u2092 Unit\ninst\u271d : oSpec.FiniteRange\n\u22a2 OracleReduction.perfectCompleteness (fun x x_1 => rel x) (SameOracle.relOut \u03b9\u209b\u1d62 inst\u271d\u00b9 OStatement)\n    (SameOracle.oracleReduction \u03b9 oSpec Statement \u03b9\u209b\u1d62 inst\u271d\u00b9 OStatement inst relComp)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/ProofSystem/Components.lean#L167"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/ProofSystem/Components.lean#L167"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-24T11:52:07-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "d7e5f1a34e9fa6e502997c08b82d8ca84fc2ba06df75c912d68fb62f627fcb39"
+      "id": "afa4c25d2a4ef023bbcf7511ba2fa7f8b4b49cccc55602168adc3ce896424a71"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -49917,20 +49917,20 @@
       },
       "debug_info": {
         "goal": "\u03b9 : Type\noSpec : OracleSpec \u03b9\nOStatement : Type\ninst\u271d\u00b9 : OracleInterface OStatement\ninst : VCVCompatible (Query OStatement)\ninst\u271d : oSpec.FiniteRange\n\u22a2 OracleReduction.perfectCompleteness (RandomQuery.relIn OStatement) (RandomQuery.relOut OStatement inst\u271d\u00b9)\n    (RandomQuery.oracleReduction \u03b9 oSpec OStatement inst\u271d\u00b9)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/ProofSystem/Components.lean#L259"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/ProofSystem/Components.lean#L259"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-24T11:52:07-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "6330375a154bc477f101b9249d5f3587bad403619e391ba98c95635bbed35f35"
+      "id": "90943cca243a8910b9267632b30a34f4455f2fc0b162add635fa5713cdafb29d"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -49942,20 +49942,20 @@
       },
       "debug_info": {
         "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut : Type\ninst\u271d : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\nstmt : StmtIn\nwit : WitIn\nreduction : Reduction pSpec oSpec StmtIn WitIn StmtOut WitOut\n\u22a2 (do\n      let a \u2190\n        (simulateQ loggingOracle\n              (Prover.runToRound n pSpec \u03b9 oSpec StmtIn WitIn StmtOut WitOut inst\u271d (Fin.last n) stmt wit\n                reduction.prover)).run\n      (fun a_1 => (reduction.prover.toProverOut.1 a.1.2, a_1.1, a.1.1)) <$>\n          (simulateQ loggingOracle (reduction.verifier.verify stmt a.1.1)).run.liftComp\n            (oSpec ++\u2092 [pSpec.Challenge]\u2092)) =\n    do\n    let __discr \u2190 Prover.run n pSpec \u03b9 oSpec StmtIn WitIn StmtOut WitOut inst\u271d stmt wit reduction.prover\n    (fun a => ((__discr.1, __discr.2.1), a, __discr.2.2)) <$>\n        (reduction.verifier.verify stmt __discr.2.2).liftComp (oSpec ++\u2092 [pSpec.Challenge]\u2092)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/OracleReduction/Execution.lean#L185"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/OracleReduction/Execution.lean#L185"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-06T20:02:30-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "402890c7b7b30c121abb2e159dfb4c8a78acec0078983efe7841d09d453ecf8b"
+      "id": "8f4e9928b8f3f9c18ce861e6934abf3b733ecdea20c95f54be0165c287dae5d8"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -49967,20 +49967,20 @@
       },
       "debug_info": {
         "goal": "\u03b9 : Type\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut : Type\npSpec : ProtocolSpec 1\ninst\u271d : pSpec.ProverOnly\nstmt : StmtIn\nwit : WitIn\nreduction : Reduction pSpec oSpec StmtIn WitIn StmtOut WitOut\n\u22a2 (do\n      let __discr \u2190\n        (fun a =>\n              ((reduction.prover.toProverOut.1 a.2).1, (reduction.prover.toProverOut.1 a.2).2, fun i =>\n                @Prover.run_of_prover_first.match_1 (fun i => (pSpec i).2) i fun isLt => a.1)) <$>\n            (reduction.prover.sendMessage \u27e80, \u22ef\u27e9 (reduction.prover.input stmt wit)).liftComp\n              (oSpec ++\u2092 [pSpec.Challenge]\u2092)\n      ((fun a => ((__discr.1, __discr.2.1), a, __discr.2.2)) <$> reduction.verifier.verify stmt __discr.2.2).liftComp\n          (oSpec ++\u2092 [pSpec.Challenge]\u2092)) =\n    do\n    let __discr \u2190\n      (reduction.prover.sendMessage \u27e80, \u22ef\u27e9 (reduction.prover.input stmt wit)).liftComp (oSpec ++\u2092 [pSpec.Challenge]\u2092)\n    ((fun a =>\n              (reduction.prover.toProverOut.1 __discr.2, a, fun i =>\n                @Prover.run_of_prover_first.match_1 (fun i => (pSpec i).2) i fun isLt => __discr.1)) <$>\n            reduction.verifier.verify stmt fun i =>\n              @Prover.run_of_prover_first.match_1 (fun i => (pSpec i).2) i fun isLt => __discr.1).liftComp\n        (oSpec ++\u2092 [pSpec.Challenge]\u2092)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/OracleReduction/Execution.lean#L278"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/OracleReduction/Execution.lean#L278"
       },
       "metadata": {
         "blame_email_hash": "0c5d39c5ece3",
         "blame_date": "2025-03-09T23:22:53-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "2d04b3a2e6529fab29a545e79bf5f2be44d62fd6c8039b9d8b43c6c8f409daa6"
+      "id": "cca9716ea2ebab44abdac8ae77e1b54b448a0d56ba1f240725df56e77514c8ea"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -49992,20 +49992,20 @@
       },
       "debug_info": {
         "goal": "R : Type\ninst\u271d\u2075 : CommRing R\nd : \u2115\ninst\u271d\u2074 : Fintype R\ninst\u271d\u00b3 : DecidableEq R\ninst\u271d\u00b2 : IsDomain R\n\u03c3 : Type\ninst\u271d\u00b9 : Fintype \u03c3\ninst\u271d : DecidableEq \u03c3\na : MvPolynomial \u03c3 R\nha : \u2200 (s : \u03c3 \u2192\u2080 \u2115), \u00acMvPolynomial.coeff s a = 0 \u2192 \u2200 (i : \u03c3), s i \u2264 d\nb : MvPolynomial \u03c3 R\nhb : \u2200 (s : \u03c3 \u2192\u2080 \u2115), \u00acMvPolynomial.coeff s b = 0 \u2192 \u2200 (i : \u03c3), s i \u2264 d\nhNe : \u00aca = b\n\u22a2 {q | (MvPolynomial.eval q) a = (MvPolynomial.eval q) b}.card \u2264 Fintype.card \u03c3 * d",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/OracleReduction/OracleInterface.lean#L312"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/OracleReduction/OracleInterface.lean#L312"
       },
       "metadata": {
         "blame_email_hash": "0c5d39c5ece3",
         "blame_date": "2025-03-09T23:22:53-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "33e7a36f131771351f6ba10f4d3160e342a88e0587ef104fd1ff5dd783f3e550"
+      "id": "95cdbff9c08139129340378fc54ca9d486c41e871700b49a9bed0f95f4c3260c"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50017,20 +50017,20 @@
       },
       "debug_info": {
         "goal": "\u03b9 : Type\nspec : OracleSpec \u03b9\nR : Type\ninst\u271d : CommSemiring R\nm : \u2115\nD : Fin m \u21aa R\np : Polynomial R\n\u22a2 \u2203 x,\n    ((OptionT.run (List.mapM (fun i => liftM (query (Sum.inr ()) (D i))) (List.finRange m))).mapM fun {\u03b1} =>\n          QueryImpl.impl\n            (@SimOracle.statelessOracle Unit \u03b9 spec\n              (OracleInterface.toOracleSpec Unit (fun x => Polynomial R) fun i => instOracleInterfacePolynomial R inst\u271d)\n              fun i q => OracleInterface.oracle (Polynomial R) (instOracleInterfacePolynomial R inst\u271d) p q)) =\n        pure x \u2227\n      x.getM = pure (List.map (fun i => eval (D i) p) (List.finRange m))",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/OracleReduction/OracleInterface.lean#L351"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/OracleReduction/OracleInterface.lean#L351"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-06T20:02:30-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "b38663d411b587de2a6c6ea4e3a5523dc1a6df0bfedecfdd61d702fad9436751"
+      "id": "071bbd6b58b98772adc8135ff79b391f8b02cba1e152ed4137a532613afe64e1"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50042,20 +50042,20 @@
       },
       "debug_info": {
         "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut : Type\ninst\u271d\u2074 : VCVCompatible StmtIn\ninst\u271d\u00b3 : (i : Fin n) \u2192 VCVCompatible (pSpec i).2\ninst\u271d\u00b2 : DecidableEq \u03b9\ninst\u271d\u00b9 : oSpec.FiniteRange\ninst\u271d : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\nrelIn : StmtIn \u2192 WitIn \u2192 Prop\nrelOut : StmtOut \u2192 WitOut \u2192 Prop\ncompletenessError : NNReal\nR : Reduction pSpec oSpec StmtIn WitIn StmtOut WitOut\n\u22a2 Reduction.completeness relIn relOut R completenessError \u2192\n    Reduction.completeness relIn relOut (Reduction.fiatShamir n pSpec \u03b9 oSpec StmtIn WitIn StmtOut WitOut R)\n      completenessError",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Transform/FiatShamir.lean#L130"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Transform/FiatShamir.lean#L130"
       },
       "metadata": {
         "blame_email_hash": "d0850777cf0b",
         "blame_date": "2025-05-06T23:33:56-04:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "b155c6ef45af8bd2fc25e9506d6caf62a64cf4bbfe8101276dad6612d53d13c8"
+      "id": "b7ccc6e31282c057a3c3c3339ac4fcc66dfbf2a983dec996ec1d8d30bd0da208"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50067,20 +50067,20 @@
       },
       "debug_info": {
         "goal": "R : Type\ninst\u271d\u00b9 : CommRing R\ninst\u271d : Sampleable R\np : Polynomial R\n\u22a2 (FRI.splitEvenOdd R inst\u271d\u00b9 p).1.natDegree \u2264 p.natDegree / 2",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/CommitmentScheme/Fold.lean#L103"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/CommitmentScheme/Fold.lean#L103"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-11-26T16:07:07-07:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "711b335006b04258307ca51bbee586c3fd27cdce6b9d0b1baca0d537ca3743aa"
+      "id": "aa1207090d610d29b0073ca794f03bce46be0e0acf7022c82790f5c82c8c8013"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50092,20 +50092,20 @@
       },
       "debug_info": {
         "goal": "R : Type\ninst\u271d\u00b9 : CommRing R\ninst\u271d : Sampleable R\np : Polynomial R\n\u22a2 (FRI.splitEvenOdd R inst\u271d\u00b9 p).2.natDegree \u2264 p.natDegree / 2",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/CommitmentScheme/Fold.lean#L107"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/CommitmentScheme/Fold.lean#L107"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-11-26T16:07:07-07:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "0928c94bd07d89f20d9f1d3f7f401f9f56ccf9db6ba10748ffe5d4811f01a740"
+      "id": "4c6c581d5af69536a5454e821d2fdf2ecb05a4704f399b665bc09360c96daf19"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50117,20 +50117,20 @@
       },
       "debug_info": {
         "goal": "R : Type\ninst\u271d\u00b9 : CommRing R\ninst\u271d : Sampleable R\nn deg : \u2115\n\u03b6 : R\u02e3\nhPrim : IsPrimitiveRoot \u03b6 (2 ^ n)\np : \u21a5(Polynomial.degreeLT R (2 * n))\npEven pOdd : Polynomial R\n\u22a2 pEven \u2208 Polynomial.degreeLT R n",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/CommitmentScheme/Fold.lean#L119"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/CommitmentScheme/Fold.lean#L119"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-11-26T16:07:07-07:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "83353a377ad1abd129f3a9ac8db767febc5636ab23df4c360211686ce7f57d6d"
+      "id": "169583bb10af803baf4ee7554d94b228b692416d81ad4592856249d611242628"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50142,14 +50142,14 @@
       },
       "debug_info": {
         "goal": "R : Type\ninst\u271d\u00b9 : CommRing R\ninst\u271d : Sampleable R\nn deg : \u2115\n\u03b6 : R\u02e3\nhPrim : IsPrimitiveRoot \u03b6 (2 ^ n)\np : \u21a5(Polynomial.degreeLT R (2 * n))\npEven pOdd : Polynomial R\n\u22a2 pOdd \u2208 Polynomial.degreeLT R n",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/CommitmentScheme/Fold.lean#L119"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/CommitmentScheme/Fold.lean#L119"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-11-26T16:07:07-07:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "2044ae015da46d57d4fde0dc8a7642c13aac14d1400ac1232ce3d8a3e69569c2"
+      "id": "c5a8c8f5830694874eea4e2402bfe52b09f26ee1a8be7429163f6592a6a744c9"
     },
     {
       "repo": {
@@ -50179,8 +50179,8 @@
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50192,20 +50192,20 @@
       },
       "debug_info": {
         "goal": "p : \u2115\ninst\u271d\u00b2 : Fact (Nat.Prime p)\nG\u2081 : Type u_2\ninst\u271d\u00b9 : CommGroup G\u2081\ninst\u271d : @IsPrimeOrderWith G\u2081 CommGroup.toGroup p inst\u271d\u00b2\nn : \u2115\ng : G\u2081\na : ZMod p\npoly : \u21a5(degreeLT (ZMod p) (n + 1))\n\u22a2 g ^ \u2211 i, a.val ^ \u2191i * ((degreeLTEquiv (ZMod p) (n + 1)) poly i).val =\n    g ^ (\u2211 x, (degreeLTEquiv (ZMod p) (n + 1)) poly x * a ^ \u2191x).val",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/AGM/Basic.lean#L160"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/AGM/Basic.lean#L160"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-01-15T12:13:54+05:30",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "233236805ea056d3e3115ff7e6237e4cac3d3df4ed00040a5d35ea4f34569825"
+      "id": "7ad35bfbbec7f366ce84f7847fb01995d5351f4c43144be9c3c8b1e89edd91b5"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50217,20 +50217,20 @@
       },
       "debug_info": {
         "goal": "G : Type u_1\ninst\u271d\u2078 : CommGroup G\np : \u2115\ninst\u271d\u2077 : Fact (Nat.Prime p)\nh : Nat.card G = p\ng : G\nG\u2081 : Type u_2\ninst\u271d\u2076 : CommGroup G\u2081\ninst\u271d\u2075 : @IsPrimeOrderWith G\u2081 CommGroup.toGroup p inst\u271d\u2077\ng\u2081 : G\u2081\nG\u2082 : Type u_3\ninst\u271d\u2074 : CommGroup G\u2082\ninst\u271d\u00b3 : @IsPrimeOrderWith G\u2082 CommGroup.toGroup p inst\u271d\u2077\ng\u2082 : G\u2082\nG\u209c : Type u_4\ninst\u271d\u00b2 : CommGroup G\u209c\ninst\u271d\u00b9 : @IsPrimeOrderWith G\u209c CommGroup.toGroup p inst\u271d\u2077\npairing : Additive G\u2081 \u2192\u2097[\u2124] Additive G\u2082 \u2192\u2097[\u2124] Additive G\u209c\nn : \u2115\ninst\u271d : Fact (Nat.Prime p)\nsrs : Vector G\u2081 (n + 1)\ncoeffs : Fin (n + 1) \u2192 ZMod p\nz : ZMod p\npoly : \u21a5(degreeLT (ZMod p) (n + 1)) := (degreeLTEquiv (ZMod p) (n + 1)).invFun coeffs\nthis : Field (ZMod p)\n\u22a2 ((\u2191poly - C (eval z \u2191poly)) / (X - C z)).degree < \u2191(n + 1)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/AGM/Basic.lean#L171"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/AGM/Basic.lean#L171"
       },
       "metadata": {
         "blame_email_hash": "d0850777cf0b",
         "blame_date": "2025-03-15T21:13:06-06:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "9022c72c829d9dc64937352b568c672c483872a25f0e52a89379a870ef227118"
+      "id": "84920a594152536e70c36e30c74d0c82b48865960217f12ac38279b724d08e7f"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50242,20 +50242,20 @@
       },
       "debug_info": {
         "goal": "n : Type u_1\ninst\u271d\u00b2 : Fintype n\nR : Type u_2\ninst\u271d\u00b9 : DecidableEq R\nC : Set (n \u2192 R)\ninst\u271d : Fintype \u2191C\nh : \u00acSubsingleton \u2191C\n\u22a2 @codeDist' n inst\u271d\u00b2 R inst\u271d\u00b9 C inst\u271d \u2260 \u22a4",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/CodingTheory/Basic.lean#L186"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/CodingTheory/Basic.lean#L186"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-10-13T15:41:38-06:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "ec1f354444112fced47ebea5193e2a19b3348dba25331653c4ef59b6c22a63f5"
+      "id": "9d3db71c7b7621cbb7639e5006d73c1d787ede0dc932ef34b5f50b4338ac51ee"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50267,20 +50267,20 @@
       },
       "debug_info": {
         "goal": "case neg\nn : Type u_1\ninst\u271d\u00b2 : Fintype n\nR : Type u_2\ninst\u271d\u00b9 : DecidableEq R\nC : Set (n \u2192 R)\ninst\u271d : Fintype \u2191C\nh : \u00acSubsingleton \u2191C\nthis : @codeDist' n inst\u271d\u00b2 R inst\u271d\u00b9 C inst\u271d \u2260 \u22a4\n\u22a2 ENat.toNat (Finset.image (fun x => hammingDist \u2191x.1 \u2191x.2) {p | \u00acp.1 = p.2}).min =\n    sInf {d | \u2203 u \u2208 C, \u2203 v \u2208 C, \u00acu = v \u2227 hammingDist u v \u2264 d}",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/CodingTheory/Basic.lean#L187"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/CodingTheory/Basic.lean#L187"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-10-13T15:41:38-06:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "a071554f2bee75fd9984bd03fbdc51710bce4660c2c5cf3f244bc42398cac234"
+      "id": "0a690096992b34d63e2a2112948484d665d239b96801e2d2d399ab9a84571b99"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50292,20 +50292,20 @@
       },
       "debug_info": {
         "goal": "case e_a.h.h\u2081.intro.intro.intro.intro.intro\nn : Type u_1\ninst\u271d\u00b2 : Fintype n\nR : Type u_2\ninst\u271d\u00b9 : DecidableEq R\ninst\u271d : CommSemiring R\nC : Submodule R (n \u2192 R)\nd : \u2115\nu : n \u2192 R\nhu : u \u2208 C\nv : n \u2192 R\nhv : v \u2208 C\nhuv : \u00acu = v\nhDist : hammingDist u v \u2264 d\n\u22a2 \u2203 u \u2208 C, \u00acu = 0 \u2227 hammingNorm u \u2264 d",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/CodingTheory/Basic.lean#L231"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/CodingTheory/Basic.lean#L231"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-10-13T15:41:38-06:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "457601f912cff85522624ca3d6cdefba6bf7fd67acb5454913f63b43708cd7bb"
+      "id": "861e8fc15e052b058e4c20da0a0e78d8fe6d837ee2da3b10dbd9d37b8751e393"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50317,20 +50317,20 @@
       },
       "debug_info": {
         "goal": "case e_a.h.h\u2082.intro.intro.intro\nn : Type u_1\ninst\u271d\u00b2 : Fintype n\nR : Type u_2\ninst\u271d\u00b9 : DecidableEq R\ninst\u271d : CommSemiring R\nC : Submodule R (n \u2192 R)\nd : \u2115\nu : n \u2192 R\nhu : u \u2208 C\nhNorm : \u00acu = 0\nhDist : hammingNorm u \u2264 d\n\u22a2 \u2203 u \u2208 C, \u2203 v \u2208 C, \u00acu = v \u2227 hammingDist u v \u2264 d",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/CodingTheory/Basic.lean#L234"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/CodingTheory/Basic.lean#L234"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-10-13T15:41:38-06:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "a9e84ddaf0c79f385bf0453874a858bc613bf14d1a9a1fa66fd4299f60480ad3"
+      "id": "392906abaa1d354087e1230546f5f0f585e5114161ff3b4e57b0a89b06b6532f"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50342,20 +50342,20 @@
       },
       "debug_info": {
         "goal": "n : Type u_1\ninst\u271d\u00b3 : Fintype n\nR : Type u_2\ninst\u271d\u00b2 : DecidableEq R\ninst\u271d\u00b9 : Finite R\ninst\u271d : DivisionRing R\nC : Submodule R (n \u2192 R)\n\u22a2 Module.finrank R \u21a5C \u2264 card n - @codeDist n inst\u271d\u00b3 R inst\u271d\u00b2 C.carrier + 1",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/CodingTheory/Basic.lean#L395"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/CodingTheory/Basic.lean#L395"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-10-26T22:44:38-04:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "806a25a02eb4a16531c034ad173c61232bf30ae1571b315733783e265d45bf20"
+      "id": "657187ed4b92bfd940321f788c52a5ae8e6fb3c749d2b56818c7714ad3622b59"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50367,20 +50367,20 @@
       },
       "debug_info": {
         "goal": "R : Type u_1\ninst\u271d : CommSemiring R\nn : \u2115\n\u22a2 Function.LeftInverse (@MlPoly.ofSpec R inst\u271d n) (@MlPoly.toSpec R inst\u271d n)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/MlPoly/Equiv.lean#L34"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/MlPoly/Equiv.lean#L34"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-01-28T11:45:54-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "537ad083fcb09df2cc59351f9a97825305a7c8b741dc07f2114e489de2d9ece1"
+      "id": "44965d6bc546bcf0806a51a2e12917bb34a5da45b5ed3503b284eb74da9b6722"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50392,20 +50392,20 @@
       },
       "debug_info": {
         "goal": "R : Type u_1\ninst\u271d : CommSemiring R\nn : \u2115\n\u22a2 Function.RightInverse (@MlPoly.ofSpec R inst\u271d n) (@MlPoly.toSpec R inst\u271d n)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/MlPoly/Equiv.lean#L35"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/MlPoly/Equiv.lean#L35"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-01-28T11:45:54-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "77cb7c021a93899ed9d2b5615aaf95297e5ffe74d39fce2b70364f2447b9fe3e"
+      "id": "40ad881641702560432808e0e2d0bed830498ee181148a03395c07f0020c123b"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50417,20 +50417,20 @@
       },
       "debug_info": {
         "goal": "R : Type u_1\ninst\u271d : CommSemiring R\nn : \u2115\np q : MlPoly R n\n\u22a2 @MlPoly.toSpec R inst\u271d n (p + q) = @MlPoly.toSpec R inst\u271d n p + @MlPoly.toSpec R inst\u271d n q",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/MlPoly/Equiv.lean#L43"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/MlPoly/Equiv.lean#L43"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-01-28T11:45:54-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "7608628e5b45fe6c370e4ded8bf9025d30e12b8ce18fce290f5ac98743fbfda2"
+      "id": "9bccaa0bb207468894da17a166c4a799e3b7b79bc6a31c71d148c6618393e996"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50442,20 +50442,20 @@
       },
       "debug_info": {
         "goal": "R : Type u_1\ninst\u271d\u00b9 : CommSemiring R\nn : \u2115\nS : Type u_2\ninst\u271d : CommSemiring S\nf : R \u2192+* S\np : MlPoly R n\nx : Vector S n\n\u22a2 p.eval\u2082 f x = MvPolynomial.eval\u2082 f x.get \u2191(@MlPoly.toSpec R inst\u271d\u00b9 n p)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/MlPoly/Equiv.lean#L47"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/MlPoly/Equiv.lean#L47"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-01-28T11:45:54-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "16b0fe395eeb1a5c11788bab8e988a1da5412a3652c08d0136c6247fcf9c7666"
+      "id": "3e87c909326c85ed44359ade5022ce45b33fa5e7102abed24670959b00a6ccb1"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50467,20 +50467,20 @@
       },
       "debug_info": {
         "goal": "R : Type u_1\ninst\u271d\u00b9 : Mul R\ninst\u271d : AddCommMonoid R\nn : \u2115\na : R\nb : Vector R n\nc : R\nd : Vector R n\n\u22a2 get (@Vector.cons R n a b) \u2b1d\u1d65 get (@Vector.cons R n c d) = a * c + b.get \u2b1d\u1d65 d.get",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/MlPoly/Basic.lean#L49"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/MlPoly/Basic.lean#L49"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-14T11:09:39-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "f14833ce44ea16bab6fb7601629f53b77c5fb239613a6f96e4bc666cfb7879bf"
+      "id": "6a8e84446814c6582ed188ef9e068c964146c826fca2bca13c944a9ee708fe83"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50492,20 +50492,20 @@
       },
       "debug_info": {
         "goal": "R : Type u_1\nn : \u2115\ninst\u271d : Semiring R\n\u22a2 \u2200 (a : R), @HSMul.hSMul R (@MlPoly R n) (@MlPoly R n) instHSMul a 0 = 0",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/MlPoly/Basic.lean#L121"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/MlPoly/Basic.lean#L121"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-01-28T11:45:54-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "7c4f4d4320f84b3143eba408d70b0ef6d76ca230dc33b88e8e9d319ddf08dd1c"
+      "id": "0417ce2afdf604498faadb09dc3b90ba409fd0a1684f65921ec02e8ae99f6e31"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50517,20 +50517,20 @@
       },
       "debug_info": {
         "goal": "\u03b1 : Type u_1\nunit : \u03b1\nl l' : List \u03b1\nm n n' : \u2115\nh : n \u2264 m\nh' : n' \u2264 m\nhEq : rightpad n unit l = rightpad n' unit l'\nhLen : max n l.length = max n' l'.length\n\u22a2 l ++ replicate (n - l.length + (m - max n' l'.length)) unit =\n    l' ++ replicate (n' - l'.length + (m - max n' l'.length)) unit",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/Math/Basic.lean#L149"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/Math/Basic.lean#L149"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-10-13T15:41:38-06:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "0ba10088c1c7010ceeb9a1dc012e1454b641bef14904c0cef286396f10f3c677"
+      "id": "8cb92160a38af8e024a501f0dd582f3158364905c6e46c3bcf96fded3201e8c7"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50542,20 +50542,20 @@
       },
       "debug_info": {
         "goal": "\u03b1 : Type u_1\nl\u2081 l\u2082 : List \u03b1\nunit : \u03b1\n\u22a2 (@fun x => @List.matchSize_eq_iff_forall_eq.match_1 \u03b1 (fun x => Prop) x fun x y => x = y)\n      (@List.matchSize \u03b1 l\u2081 l\u2082 unit) \u2194\n    \u2200 (i : \u2115), l\u2081.getD i unit = l\u2082.getD i unit",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/Math/Basic.lean#L203"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/Math/Basic.lean#L203"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-10-14T17:35:17-06:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "cce14b466fb8a64f45b4e46e8576275df6cd6fbc1c346cf5e266d21ef571753a"
+      "id": "8ea2c2d8404688477c6fd7f0b69e537f44525fbeb39995ae9aa4acbd99e9c08f"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50567,20 +50567,20 @@
       },
       "debug_info": {
         "goal": "\u03b1 : Type u_1\np : \u03b1 \u2192 Bool\nas : Array \u03b1\nh : (popWhile p as).size > 0\n\u22a2 \u00acp (@Array.getLast \u03b1 (popWhile p as) h) = true",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/Math/Basic.lean#L382"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/Math/Basic.lean#L382"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-10-14T17:35:17-06:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "1f55516a4b9db592e20d98598d2cb514c9290525e2129f5cc288a6efc731fee1"
+      "id": "d83e165c2620dc333292e94baf1e7baaf1bd125d3805c727aa26326c4bc58cdc"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50592,20 +50592,20 @@
       },
       "debug_info": {
         "goal": "l : List \u2115\nj a : \u2115\nl' : List \u2115\nh : j < a + l'.sum\n\u22a2 \u2203 n, @List.findSum \u2115 Nat.instAddMonoid Nat.instPreorder Nat.decLt (a :: l') j = some n",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/Math/Basic.lean#L460"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/Math/Basic.lean#L460"
       },
       "metadata": {
         "blame_email_hash": "d0850777cf0b",
         "blame_date": "2025-05-23T10:22:30+07:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "0f39289853981e1f9ad344a6bfdf33573c02fbedd662da83debf0ba686a5611a"
+      "id": "a6b356e54e17f2c52cf8749e5316f4098dd57296afc3888941bc852643e5822c"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50617,20 +50617,20 @@
       },
       "debug_info": {
         "goal": "\u03b1 : Type u_1\ninst\u271d\u00b2 : AddMonoid \u03b1\ninst\u271d\u00b9 : Preorder \u03b1\ninst\u271d : DecidableRel fun x1 x2 => x1 < x2\nl : List \u2115\nj : Fin l.sum\n\u22a2 @List.findSumIdx \u2115 Nat.instAddMonoid Nat.instPreorder Nat.decLt l \u2191j < l.length",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/Math/Basic.lean#L472"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/Math/Basic.lean#L472"
       },
       "metadata": {
         "blame_email_hash": "d0850777cf0b",
         "blame_date": "2025-05-23T10:22:30+07:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "e0342743bf0fde11ca1076fa9423a1251dc0ab760a00986b815a5b961da78525"
+      "id": "c360a3cc2653005c52c9d9b860948ff805fcf088065e58b7395cf738d153b212"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50642,20 +50642,20 @@
       },
       "debug_info": {
         "goal": "R : Type u_1\ninst\u271d : CommSemiring R\n\u03c3 : Type u_3\n\u03c3\u2081 : Type u_4\n\u03c3\u2082 : Type u_5\nx : \u03c3\u2081 \u2192 R\nf : \u03c3 \u2192 \u03c3\u2081 \u2295 \u03c3\u2082\np : MvPolynomial \u03c3 R\nb : \u03c3\u2081 \u2192\u2080 \u2115\nh : \u00accoeff b ((sumToIter R \u03c3\u2081 \u03c3\u2082) ((rename f) p)) = 0\n\u22a2 (coeff b ((sumToIter R \u03c3\u2081 \u03c3\u2082) ((rename f) p))).degrees \u2264 Multiset.filterMap Sum.getRight? (Multiset.map f p.degrees)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/MvPolynomial/Sumcheck.lean#L75"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/MvPolynomial/Sumcheck.lean#L75"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-10-16T12:52:41-06:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "4557b3b9c2899346adb540154b7f377a8cdd77aeb864d6d8d30cbdfeb3a8a89e"
+      "id": "3d114015784a27fbb82b1ca087a3a4c9e12fd45468ce104cd09b2d2fb444e802"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50667,20 +50667,20 @@
       },
       "debug_info": {
         "goal": "R : Type u_1\ninst\u271d : CommSemiring R\nn : \u2115\nh : n > 0\nD : Fin (n - 1) \u2192 Finset R\np : MvPolynomial (Fin n) R\n\u22a2 ((@MvPolynomial.sumExceptFirst' R inst\u271d n h D) p).degree \u2264 \u2191(degreeOf \u27e80, h\u27e9 p)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/MvPolynomial/Sumcheck.lean#L112"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/MvPolynomial/Sumcheck.lean#L112"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-09-13T15:50:48-04:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "3ba0b66be41672f73193dbc0c54814d81bd39a60e29c1dfc384a1fd92fd330d0"
+      "id": "dc9d685490ac0d40f67c96b2941f5abb8466c5cc17c162c6fe3f8e8d0361cd14"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50692,20 +50692,20 @@
       },
       "debug_info": {
         "goal": "\u03c3 : Type u_1\ninst\u271d\u2074 : DecidableEq \u03c3\ninst\u271d\u00b3 : Fintype \u03c3\nR : Type u_2\ninst\u271d\u00b2 : CommRing R\ninst\u271d\u00b9 : IsDomain R\ninst\u271d : DecidableEq R\np : MvPolynomial \u03c3 R\nhp : p \u2260 0\nS : \u03c3 \u2192 Finset R\n\u22a2 \u2191{x \u2208 p.vars.pi S | (eval (@MvPolynomial.Function.extendDomain \u03c3 R inst\u271d\u2074 MulZeroClass.toZero p.vars x)) p = 0}.card /\n      \u220f i \u2208 p.vars, \u2191(S i).card \u2264\n    \u2211 i \u2208 p.vars, \u2191(degreeOf i p) / \u2191(S i).card",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/MvPolynomial/Interpolation.lean#L69"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/MvPolynomial/Interpolation.lean#L69"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-10-30T15:40:43-04:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "29e12002846876b6b0671fdaf84b6ce54d8428c752d0dd514b828278f77ea583"
+      "id": "974b3acdce333653e68fef449ea55b875e3c4fea9e6ad747215322680f98d796"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50717,20 +50717,20 @@
       },
       "debug_info": {
         "goal": "\u03c3 : Type u_1\ninst\u271d\u00b3 : DecidableEq \u03c3\ninst\u271d\u00b2 : Fintype \u03c3\nR : Type u_2\ninst\u271d\u00b9 : CommRing R\ninst\u271d : IsDomain R\np q : MvPolynomial \u03c3 R\nS : \u03c3 \u2192 Finset R\nhDegree : \u2200 (i : \u03c3), degreeOf i p < (S i).card\nhEval : \u2200 x \u2208 piFinset fun i => S i, (eval x) p = (eval x) q\n\u22a2 p = q",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/MvPolynomial/Interpolation.lean#L171"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/MvPolynomial/Interpolation.lean#L171"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-10-30T15:40:43-04:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "2389b6ac90ad52a69a822d500f4796ceb877e0032dff86060dac30f9333630a2"
+      "id": "ca05c50d0ed16d82361874ccade85efd21b5ce64c28026ceb577445d2b52b37d"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50742,20 +50742,20 @@
       },
       "debug_info": {
         "goal": "Q : Type u_2\ninst\u271d : Ring Q\np q : @UniPoly Q\ni : \u2115\nhi : i < Array.size (@UniPoly.add_raw Q inst\u271d p q)\n\u22a2 (p ++ Array.replicate (Array.size q - Array.size p) 0)[i] +\n      (q ++ Array.replicate (Array.size p - Array.size q) 0)[i] =\n    p[i]?.getD 0 + q[i]?.getD 0",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/UniPoly/Basic.lean#L571"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/UniPoly/Basic.lean#L571"
       },
       "metadata": {
         "blame_email_hash": "0c5d39c5ece3",
         "blame_date": "2025-03-09T23:22:53-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "a48dea1ef46912d52ab16aa636edbd8e6a7d419213e28cca41011becfae938aa"
+      "id": "c5807aab83d92af6080f2b22e39a4d82e6ba579f10a53ac01bd5656d0b5ed6f4"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50767,20 +50767,20 @@
       },
       "debug_info": {
         "goal": "Q : Type u_2\ninst\u271d : Ring Q\np q r : @UniPoly Q\nhpq : p ++ Array.replicate (Array.size q - Array.size p) 0 = q ++ Array.replicate (Array.size p - Array.size q) 0\nhqr : q ++ Array.replicate (Array.size r - Array.size q) 0 = r ++ Array.replicate (Array.size q - Array.size r) 0\n\u22a2 p ++ Array.replicate (Array.size r - Array.size p) 0 = r ++ Array.replicate (Array.size p - Array.size r) 0",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/Data/UniPoly/Basic.lean#L899"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/Data/UniPoly/Basic.lean#L899"
       },
       "metadata": {
         "blame_email_hash": "0c5d39c5ece3",
         "blame_date": "2025-03-09T23:22:53-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "1b7d6a08fbc5144b47ea2cbb9484fdd847b07e4fd393a52756ace670b73da6c1"
+      "id": "d5c62698046ff210846c1fd324d8b5bebfe0ed57033b9c47ccb78b2b1e17fc3c"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50792,20 +50792,20 @@
       },
       "debug_info": {
         "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\ninst\u271d\u00b2 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' : Type\ninst\u271d\u00b9 : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\ninst\u271d : oSpec.FiniteRange\ndata : TransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\nstmtIn : StmtIn\nwitIn : WitIn\nP : Prover pSpec oSpec StmtIn' WitIn' StmtOut' WitOut'\n\u22a2 (fun a =>\n        (TransportStatement.fStmtOut StmtIn StmtOut StmtIn' StmtOut'\n            (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n            (a.2.2.1, (P.toProverOut.1 a.2.1).1),\n          TransportWitness.fWitOut WitIn WitOut WitIn' WitOut'\n            (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n            (a.2.2.2, (P.toProverOut.1 a.2.1).2),\n          a.1)) <$>\n      Fin.induction\n        (pure\n          (default,\n            P.input\n              (TransportStatement.fStmtIn StmtIn StmtOut StmtIn' StmtOut'\n                (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n                stmtIn)\n              (TransportWitness.fWitIn WitIn WitOut WitIn' WitOut'\n                (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n                witIn),\n            stmtIn, witIn))\n        (fun j ih => do\n          let __discr \u2190 ih\n          match hDir : (pSpec j).1 with\n            | Direction.V_to_P =>\n              (fun a => (Transcript.snoc a __discr.1, P.receiveChallenge \u27e8j, hDir\u27e9 __discr.2.1 a, __discr.2.2)) <$>\n                liftM (query (Sum.inr \u27e8j, hDir\u27e9) ())\n            | Direction.P_to_V =>\n              (fun a => (Transcript.snoc a.1 __discr.1, a.2, __discr.2.2)) <$>\n                (P.sendMessage \u27e8j, hDir\u27e9 __discr.2.1).liftComp (oSpec ++\u2092 [pSpec.Challenge]\u2092))\n        (Fin.last n) =\n    (fun a =>\n        (TransportStatement.fStmtOut StmtIn StmtOut StmtIn' StmtOut'\n            (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n            (stmtIn, (P.toProverOut.1 a.2).1),\n          TransportWitness.fWitOut WitIn WitOut WitIn' WitOut'\n            (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n            (witIn, (P.toProverOut.1 a.2).2),\n          a.1)) <$>\n      Fin.induction\n        (pure\n          (default,\n            P.input\n              (TransportStatement.fStmtIn StmtIn StmtOut StmtIn' StmtOut'\n                (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n                stmtIn)\n              (TransportWitness.fWitIn WitIn WitOut WitIn' WitOut'\n                (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n                witIn)))\n        (fun j ih => do\n          let __discr \u2190 ih\n          match hDir : (pSpec j).1 with\n            | Direction.V_to_P =>\n              (fun a => (Transcript.snoc a __discr.1, P.receiveChallenge \u27e8j, hDir\u27e9 __discr.2 a)) <$>\n                liftM (query (Sum.inr \u27e8j, hDir\u27e9) ())\n            | Direction.P_to_V =>\n              (fun a => (Transcript.snoc a.1 __discr.1, a.2)) <$>\n                (P.sendMessage \u27e8j, hDir\u27e9 __discr.2).liftComp (oSpec ++\u2092 [pSpec.Challenge]\u2092))\n        (Fin.last n)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/OracleReduction/Composition/Virtual.lean#L151"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/OracleReduction/Composition/Virtual.lean#L151"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-06T20:02:30-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "7d162cab36f93cc55ff95276d315a7796766024300e51e010ffc54b9ff735256"
+      "id": "97b455cc79c487be234ecc05bbf622cff35fa4869dcef1edeca459aad320ed08"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50817,20 +50817,20 @@
       },
       "debug_info": {
         "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\ninst\u271d\u00b2 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' : Type\ninst\u271d\u00b9 : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\ninst\u271d : oSpec.FiniteRange\ndata : TransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\nstmtIn : StmtIn\nwitIn : WitIn\nR : Reduction pSpec oSpec StmtIn' WitIn' StmtOut' WitOut'\n\u22a2 (do\n      let a \u2190\n        Prover.run\n            (TransportStatement.fStmtIn StmtIn StmtOut StmtIn' StmtOut'\n              (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n              stmtIn)\n            (TransportWitness.fWitIn WitIn WitOut WitIn' WitOut'\n              (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data) witIn)\n            R.prover\n      (fun a_1 =>\n            ((TransportStatement.fStmtOut StmtIn StmtOut StmtIn' StmtOut'\n                  (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n                  (stmtIn, a.1),\n                TransportWitness.fWitOut WitIn WitOut WitIn' WitOut'\n                  (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n                  (witIn, a.2.1)),\n              a_1, a.2.2)) <$>\n          (Verifier.run stmtIn a.2.2\n                {\n                  verify := fun stmtIn transcript =>\n                    (fun a =>\n                        TransportStatement.fStmtOut StmtIn StmtOut StmtIn' StmtOut'\n                          (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut'\n                            WitOut' data)\n                          (stmtIn, a)) <$>\n                      R.verifier.verify\n                        (TransportStatement.fStmtIn StmtIn StmtOut StmtIn' StmtOut'\n                          (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut'\n                            WitOut' data)\n                          stmtIn)\n                        transcript }).liftComp\n            (oSpec ++\u2092 [pSpec.Challenge]\u2092)) =\n    do\n    let a \u2190\n      Prover.run\n          (TransportStatement.fStmtIn StmtIn StmtOut StmtIn' StmtOut'\n            (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n            stmtIn)\n          (TransportWitness.fWitIn WitIn WitOut WitIn' WitOut'\n            (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data) witIn)\n          R.prover\n    (fun a_1 =>\n          ((TransportStatement.fStmtOut StmtIn StmtOut StmtIn' StmtOut'\n                (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n                (stmtIn, a.1),\n              TransportWitness.fWitOut WitIn WitOut WitIn' WitOut'\n                (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n                (witIn, a.2.1)),\n            TransportStatement.fStmtOut StmtIn StmtOut StmtIn' StmtOut'\n              (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n              (stmtIn, a_1),\n            a.2.2)) <$>\n        (Verifier.run\n              (TransportStatement.fStmtIn StmtIn StmtOut StmtIn' StmtOut'\n                (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n                stmtIn)\n              a.2.2 R.verifier).liftComp\n          (oSpec ++\u2092 [pSpec.Challenge]\u2092)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/OracleReduction/Composition/Virtual.lean#L164"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/OracleReduction/Composition/Virtual.lean#L164"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-06T20:02:30-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "0d697e599d333925687337892f644b3f823c0839d53b5a2aed9c1dbb770f27ad"
+      "id": "03de913ba91ffae4f3d19f400530eb50a1a1b35f1b63cd464e06d99b8ceeebf8"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50842,20 +50842,20 @@
       },
       "debug_info": {
         "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\ninst\u271d\u00b2 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' : Type\ninst\u271d\u00b9 : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\ninst\u271d : oSpec.FiniteRange\ndata : TransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\nstmtIn : StmtIn\nwitIn : WitIn\nR : Reduction pSpec oSpec StmtIn' WitIn' StmtOut' WitOut'\n\u22a2 (do\n      let __discr \u2190\n        Prover.runWithLog stmtIn witIn\n            (Prover.transport n pSpec \u03b9 oSpec StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data R.prover)\n      (fun a => ((__discr.1, __discr.2.1), a.1, __discr.2.2.1, __discr.2.2.2, a.2)) <$>\n          (simulateQ loggingOracle\n                  (Verifier.run stmtIn __discr.2.2.1\n                    {\n                      verify := fun stmtIn transcript =>\n                        (fun a =>\n                            TransportStatement.fStmtOut StmtIn StmtOut StmtIn' StmtOut'\n                              (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut'\n                                WitOut' data)\n                              (stmtIn, a)) <$>\n                          R.verifier.verify\n                            (TransportStatement.fStmtIn StmtIn StmtOut StmtIn' StmtOut'\n                              (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut'\n                                WitOut' data)\n                              stmtIn)\n                            transcript })).run.liftComp\n            (oSpec ++\u2092 [pSpec.Challenge]\u2092)) =\n    do\n    let a \u2190\n      Prover.runWithLog\n          (TransportStatement.fStmtIn StmtIn StmtOut StmtIn' StmtOut'\n            (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n            stmtIn)\n          (TransportWitness.fWitIn WitIn WitOut WitIn' WitOut'\n            (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data) witIn)\n          R.prover\n    (fun a_1 =>\n          ((TransportStatement.fStmtOut StmtIn StmtOut StmtIn' StmtOut'\n                (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n                (stmtIn, a.1),\n              TransportWitness.fWitOut WitIn WitOut WitIn' WitOut'\n                (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n                (witIn, a.2.1)),\n            TransportStatement.fStmtOut StmtIn StmtOut StmtIn' StmtOut'\n              (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' data)\n              (stmtIn, a_1.1),\n            a.2.2.1, a.2.2.2, a_1.2)) <$>\n        (simulateQ loggingOracle\n                (Verifier.run\n                  (TransportStatement.fStmtIn StmtIn StmtOut StmtIn' StmtOut'\n                    (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\n                      data)\n                    stmtIn)\n                  a.2.2.1 R.verifier)).run.liftComp\n          (oSpec ++\u2092 [pSpec.Challenge]\u2092)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/OracleReduction/Composition/Virtual.lean#L177"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/OracleReduction/Composition/Virtual.lean#L177"
       },
       "metadata": {
         "blame_email_hash": "0c5d39c5ece3",
         "blame_date": "2025-03-09T23:22:53-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "f1b372c5acfa2d08c0398be1107f522ccd7b0e8755bd69521b842fd8202c5fe7"
+      "id": "c6b77c460dd1c7c05fcac9f1b4789b6e70d5d9a8af1013f22866f4a283511e0c"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50867,20 +50867,20 @@
       },
       "debug_info": {
         "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\ninst\u271d\u00b2 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' : Type\ninst\u271d\u00b9 : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\ninst\u271d : oSpec.FiniteRange\nrelIn : StmtIn \u2192 WitIn \u2192 Prop\nrelOut : StmtOut \u2192 WitOut \u2192 Prop\nrelIn' : StmtIn' \u2192 WitIn' \u2192 Prop\nrelOut' : StmtOut' \u2192 WitOut' \u2192 Prop\ncompletenessError : NNReal\ndata : TransportDataComplete StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' relIn relIn' relOut relOut'\nR : Reduction pSpec oSpec StmtIn' WitIn' StmtOut' WitOut'\nh :\n  \u2200 (stmtIn : StmtIn') (witIn : WitIn'),\n    relIn' stmtIn witIn \u2192\n      [fun x =>\n          match x with\n          | ((prvStmtOut, witOut), stmtOut, snd) => relOut' stmtOut witOut \u2227 prvStmtOut = stmtOut|run stmtIn witIn R] \u2265\n        1 - \u2191completenessError\nstmtIn : StmtIn\nwitIn : WitIn\nhRelIn : relIn stmtIn witIn\nhR :\n  [fun x =>\n      match x with\n      | ((prvStmtOut, witOut), stmtOut, snd) =>\n        relOut' stmtOut witOut \u2227\n          prvStmtOut =\n            stmtOut|run\n        (TransportStatement.fStmtIn StmtIn StmtOut StmtIn' StmtOut'\n          (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\n            (TransportDataComplete.toTransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' relIn\n              relIn' relOut relOut' data))\n          stmtIn)\n        (TransportWitness.fWitIn WitIn WitOut WitIn' WitOut'\n          (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\n            (TransportDataComplete.toTransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' relIn\n              relIn' relOut relOut' data))\n          witIn)\n        R] \u2265\n    1 - \u2191completenessError\nx\u271d : (StmtOut' \u00d7 WitOut') \u00d7 StmtOut' \u00d7 pSpec.FullTranscript\na\u271d :\n  x\u271d \u2208\n    (run\n        (TransportStatement.fStmtIn StmtIn StmtOut StmtIn' StmtOut'\n          (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\n            (TransportDataComplete.toTransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' relIn\n              relIn' relOut relOut' data))\n          stmtIn)\n        (TransportWitness.fWitIn WitIn WitOut WitIn' WitOut'\n          (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\n            (TransportDataComplete.toTransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' relIn\n              relIn' relOut relOut' data))\n          witIn)\n        R).support\nhRelOut' : relOut' x\u271d.2.1 x\u271d.1.2 \u2227 x\u271d.1.1 = x\u271d.2.1\n\u22a2 ((fun x => relOut x.2.1 x.1.2 \u2227 x.1.1 = x.2.1) \u2218 fun a =>\n      ((TransportStatement.fStmtOut StmtIn StmtOut StmtIn' StmtOut'\n            (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\n              (TransportDataComplete.toTransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' relIn\n                relIn' relOut relOut' data))\n            (stmtIn, a.1.1),\n          TransportWitness.fWitOut WitIn WitOut WitIn' WitOut'\n            (TransportData.toTransportWitness StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\n              (TransportDataComplete.toTransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' relIn\n                relIn' relOut relOut' data))\n            (witIn, a.1.2)),\n        TransportStatement.fStmtOut StmtIn StmtOut StmtIn' StmtOut'\n          (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\n            (TransportDataComplete.toTransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' relIn\n              relIn' relOut relOut' data))\n          (stmtIn, a.2.1),\n        a.2.2))\n    x\u271d",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/OracleReduction/Composition/Virtual.lean#L201"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/OracleReduction/Composition/Virtual.lean#L201"
       },
       "metadata": {
         "blame_email_hash": "d0850777cf0b",
         "blame_date": "2025-04-22T09:32:10-04:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "dacf6dfb409f45c0049af62805802ef6934aae0f05f40046176407a188c856b6"
+      "id": "3d392e04bcb2e6bb231642c93d6b54a90983510cef02e9bf30a6bf8e74900198"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50892,20 +50892,20 @@
       },
       "debug_info": {
         "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\ninst\u271d\u00b2 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\nStmtIn StmtOut StmtIn' StmtOut' : Type\ninst\u271d\u00b9 : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\ninst\u271d : oSpec.FiniteRange\nlangIn : Set StmtIn\nlangOut : Set StmtOut\nlangIn' : Set StmtIn'\nlangOut' : Set StmtOut'\nsoundnessError : NNReal\ndata : TransportDataSound StmtIn StmtOut StmtIn' StmtOut' langIn langOut langIn' langOut'\nV : Verifier pSpec oSpec StmtIn' StmtOut'\nh :\n  \u2200 (WitIn WitOut : Type) (witIn : WitIn) (prover : Prover pSpec oSpec StmtIn' WitIn StmtOut' WitOut),\n    \u2200 stmtIn \u2209 langIn',\n      [fun x =>\n          match x with\n          | (fst, stmtOut, snd) => stmtOut \u2209 langOut'|run stmtIn witIn { prover := prover, verifier := V }] \u2264\n        \u2191soundnessError\nstmtIn hStmtIn : Type\nWitIn : stmtIn\nWitOut : Prover pSpec oSpec StmtIn stmtIn StmtOut hStmtIn\nwitIn : StmtIn\nprover : witIn \u2209 langIn\n\u22a2 [fun x =>\n      match x with\n      | (fst, stmtOut, snd) =>\n        stmtOut \u2209\n          langOut|run witIn WitIn\n        { prover := WitOut,\n          verifier :=\n            Verifier.transport n pSpec \u03b9 oSpec StmtIn StmtOut StmtIn' StmtOut'\n              (TransportDataSound.toTransportStatement StmtIn StmtOut StmtIn' StmtOut' langIn langOut langIn' langOut'\n                data)\n              V }] \u2264\n    \u2191soundnessError",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/OracleReduction/Composition/Virtual.lean#L215"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/OracleReduction/Composition/Virtual.lean#L215"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-06T20:02:30-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "bb3e6eb44b9ae8c4a943da1da5d0b216a6dea03ec1b6c750d894c3960117979f"
+      "id": "c7b24e26eaec9a1df2add76d8cf06376249e32576acf5ff0e2491aa7ce877255"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50917,20 +50917,20 @@
       },
       "debug_info": {
         "goal": "case intro\nn : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\ninst\u271d\u00b2 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\nStmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' : Type\ninst\u271d\u00b9 : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\ninst\u271d : oSpec.FiniteRange\nrelIn : StmtIn \u2192 WitIn \u2192 Prop\nrelOut : StmtOut \u2192 WitOut \u2192 Prop\nrelIn' : StmtIn' \u2192 WitIn' \u2192 Prop\nrelOut' : StmtOut' \u2192 WitOut' \u2192 Prop\nsoundnessError : NNReal\ndata :\n  TransportDataKnowledgeSound StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut' relIn relIn' relOut relOut'\nV : Verifier pSpec oSpec StmtIn' StmtOut'\nE : StraightlineExtractor\nh' :\n  \u2200 (stmtIn : StmtIn') (witIn : WitIn') (prover : Prover pSpec oSpec StmtIn' WitIn' StmtOut' WitOut'),\n    [fun x =>\n        match x with\n        | ((fst, witOut), stmtOut, transcript, proveQueryLog, snd) =>\n          \u00acrelIn' stmtIn (E stmtIn stmtOut witOut transcript proveQueryLog) \u2227\n            relOut' stmtOut witOut|runWithLog stmtIn witIn { prover := prover, verifier := V }] \u2264\n      \u2191soundnessError\n\u22a2 \u2203 extractor,\n    \u2200 (stmtIn : StmtIn) (witIn : WitIn) (prover : Prover pSpec oSpec StmtIn WitIn StmtOut WitOut),\n      [fun x =>\n          match x with\n          | ((fst, witOut), stmtOut, transcript, proveQueryLog, snd) =>\n            \u00acrelIn stmtIn (extractor stmtIn stmtOut witOut transcript proveQueryLog) \u2227\n              relOut stmtOut\n                witOut|runWithLog stmtIn witIn\n            { prover := prover,\n              verifier :=\n                Verifier.transport n pSpec \u03b9 oSpec StmtIn StmtOut StmtIn' StmtOut'\n                  (TransportData.toTransportStatement StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut' WitOut'\n                    (TransportDataKnowledgeSound.toTransportData StmtIn WitIn StmtOut WitOut StmtIn' WitIn' StmtOut'\n                      WitOut' relIn relIn' relOut relOut' data))\n                  V }] \u2264\n        \u2191soundnessError",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/OracleReduction/Composition/Virtual.lean#L229"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/OracleReduction/Composition/Virtual.lean#L229"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-06T20:02:30-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "00b95b5142d7d03ed574d782eeae8b1555e56e4e8fe3e1d0b9c35eb7396b32f5"
+      "id": "fe5794e3ab5b81ffff40309a534c523f91075b05335a926761830a2223a3ca51"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50942,20 +50942,20 @@
       },
       "debug_info": {
         "goal": "x\u271d\u00b3 : StmtIn\nx\u271d\u00b2 : Unit\nx\u271d\u00b9 : StmtOut'\nx\u271d : Unit\np q : Polynomial \u2124\nt : \u2124\nf : Polynomial \u2124\nt' r : \u2124\nhRelOut' : eval r f = t'\nhRelIn : eval 0 p * eval 0 q + eval 1 p * eval 1 q = t\n\u22a2 eval r p * eval r q = t'",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/OracleReduction/Composition/Virtual.lean#L278"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/OracleReduction/Composition/Virtual.lean#L278"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-06T20:31:31-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "8603c12f60dd09e8eae2e1e22bbce655d7d45cf212e7507d9d057796aa032007"
+      "id": "b1dc0323ac10be51a018f7a2325386b44496a480bd5cf1b98e7e541f636841b5"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50967,20 +50967,20 @@
       },
       "debug_info": {
         "goal": "n : \u2115\npSpec : ProtocolSpec n\n\u03b9 : Type\noSpec : OracleSpec \u03b9\ninst\u271d\u00b9 : oSpec.FiniteRange\ninst\u271d : (i : pSpec.ChallengeIdx) \u2192 VCVCompatible (pSpec.Challenge i)\nStmtIn WitIn StmtOut WitOut : Type\nrelIn : StmtIn \u2192 WitIn \u2192 Prop\nrelOut : StmtOut \u2192 WitOut \u2192 Prop\nverifier : Verifier pSpec oSpec StmtIn StmtOut\nknowledgeError : NNReal\nhLt : knowledgeError < 1\nextractor :\n  @Reduction.StraightlineExtractor n pSpec (\u03b9 \u2295 { i // (pSpec i).1 = Direction.V_to_P }) (oSpec ++\u2092 [pSpec.Challenge]\u2092)\n    StmtIn WitIn StmtOut WitOut\nhKS :\n  \u2200 (stmtIn : StmtIn) (witIn : WitIn) (prover : Prover pSpec oSpec StmtIn WitIn StmtOut WitOut),\n    [fun x =>\n        \u00acrelIn stmtIn (@extractor stmtIn x.2.1 x.1.2 x.2.2.1 x.2.2.2.1) \u2227\n          relOut x.2.1 x.1.2|runWithLog stmtIn witIn { prover := prover, verifier := verifier }] \u2264\n      \u2191knowledgeError\nWitIn' WitOut' : Type\nwitIn' : WitIn'\nprover : Prover pSpec oSpec StmtIn WitIn' StmtOut WitOut'\nstmtIn : StmtIn\nhStmtIn : \u2200 (x : WitIn), \u00acrelIn stmtIn x\n\u22a2 [fun x => \u2200 (x_1 : WitOut), \u00acrelOut x.2.1 x_1|run stmtIn witIn' { prover := prover, verifier := verifier }] \u2264\n    \u2191knowledgeError",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/OracleReduction/Security/Basic.lean#L390"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/OracleReduction/Security/Basic.lean#L390"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-06T20:02:30-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "2b94aa73f5f6ee58f8d46b97b74235ab5cab7bae54c16695d25805c6f9eea0c2"
+      "id": "9f50781ddc2eae7f16fda25de38903edcf90e97ed761a895c163083e77fafbd9"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -50992,20 +50992,20 @@
       },
       "debug_info": {
         "goal": "m n : \u2115\npSpec\u2081 : ProtocolSpec m\npSpec\u2082 : ProtocolSpec n\n\u03b9 : Type\ninst\u271d\u00b3 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\nStmt\u2081 Wit\u2081 Stmt\u2082 Wit\u2082 Stmt\u2083 Wit\u2083 : Type\nO\u2098\u2081 : (i : pSpec\u2081.MessageIdx) \u2192 OracleInterface (pSpec\u2081.Message i)\nO\u2098\u2082 : (i : pSpec\u2082.MessageIdx) \u2192 OracleInterface (pSpec\u2082.Message i)\ninst\u271d\u00b2 : (i : pSpec\u2081.ChallengeIdx) \u2192 Sampleable (pSpec\u2081.Challenge i)\ninst\u271d\u00b9 : (i : pSpec\u2082.ChallengeIdx) \u2192 Sampleable (pSpec\u2082.Challenge i)\ninst\u271d : oSpec.DecidableEq\nP\u2081 : Prover pSpec\u2081 oSpec Stmt\u2081 Wit\u2081 Stmt\u2082 Wit\u2082\nP\u2082 : Prover pSpec\u2082 oSpec Stmt\u2082 Wit\u2082 Stmt\u2083 Wit\u2083\nstmt : Stmt\u2081\nwit : Wit\u2081\n\u22a2 run stmt wit (Prover.append m n pSpec\u2081 pSpec\u2082 \u03b9 oSpec Stmt\u2081 Wit\u2081 Stmt\u2082 Wit\u2082 Stmt\u2083 Wit\u2083 P\u2081 P\u2082) = do\n    let __discr \u2190 liftM (run stmt wit P\u2081)\n    @Prover.append_run.match_1 m pSpec\u2081 Stmt\u2082 Wit\u2082\n        (fun __discr =>\n          OracleComp (oSpec ++\u2092 [(pSpec\u2081 ++\u209a pSpec\u2082).Challenge]\u2092) (Stmt\u2083 \u00d7 Wit\u2083 \u00d7 (pSpec\u2081 ++\u209a pSpec\u2082).FullTranscript))\n        __discr fun stmt\u2082 wit\u2082 transcript\u2081 => do\n        let __discr \u2190 liftM (run stmt\u2082 wit\u2082 P\u2082)\n        @Prover.append_run.match_1 n pSpec\u2082 Stmt\u2083 Wit\u2083\n            (fun __discr =>\n              OracleComp (oSpec ++\u2092 [(pSpec\u2081 ++\u209a pSpec\u2082).Challenge]\u2092)\n                (Stmt\u2083 \u00d7 Wit\u2083 \u00d7 (pSpec\u2081 ++\u209a pSpec\u2082).FullTranscript))\n            __discr fun stmt\u2083 wit\u2083 transcript\u2082 => pure (stmt\u2083, wit\u2083, transcript\u2081 ++\u209c transcript\u2082)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/OracleReduction/Composition/Sequential/Basic.lean#L404"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/OracleReduction/Composition/Sequential/Basic.lean#L404"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-12-28T16:03:02+07:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "1b4d5cbef5c1810c394732e9c0fe4f85e9f80d919c075e51baf54d1c28b15396"
+      "id": "c0f077c8c03a45bb3eb933c0832d074004b782fd8fcf1aa270f076c8da46f02b"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -51017,20 +51017,20 @@
       },
       "debug_info": {
         "goal": "m n : \u2115\n\u03b9 : Type\ninst\u271d\u2074 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\npSpec\u2081 : ProtocolSpec m\npSpec\u2082 : ProtocolSpec n\ninst\u271d\u00b3 : (i : pSpec\u2081.ChallengeIdx) \u2192 Sampleable (pSpec\u2081.Challenge i)\ninst\u271d\u00b2 : (i : pSpec\u2082.ChallengeIdx) \u2192 Sampleable (pSpec\u2082.Challenge i)\nStmt\u2081 Wit\u2081 Stmt\u2082 Wit\u2082 Stmt\u2083 Wit\u2083 : Type\nrel\u2081 : Stmt\u2081 \u2192 Wit\u2081 \u2192 Prop\nrel\u2082 : Stmt\u2082 \u2192 Wit\u2082 \u2192 Prop\nrel\u2083 : Stmt\u2083 \u2192 Wit\u2083 \u2192 Prop\ninst\u271d\u00b9 : oSpec.DecidableEq\ninst\u271d : oSpec.FiniteRange\nR\u2081 : Reduction pSpec\u2081 oSpec Stmt\u2081 Wit\u2081 Stmt\u2082 Wit\u2082\nR\u2082 : Reduction pSpec\u2082 oSpec Stmt\u2082 Wit\u2082 Stmt\u2083 Wit\u2083\ncompletenessError\u2081 completenessError\u2082 : NNReal\nh\u2081 : completeness rel\u2081 rel\u2082 R\u2081 completenessError\u2081\nh\u2082 : completeness rel\u2082 rel\u2083 R\u2082 completenessError\u2082\n\u22a2 completeness rel\u2081 rel\u2083 (Reduction.append m n pSpec\u2081 pSpec\u2082 \u03b9 oSpec Stmt\u2081 Wit\u2081 Stmt\u2082 Wit\u2082 Stmt\u2083 Wit\u2083 R\u2081 R\u2082)\n    (completenessError\u2081 + completenessError\u2082)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/OracleReduction/Composition/Sequential/Basic.lean#L434"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/OracleReduction/Composition/Sequential/Basic.lean#L434"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2024-12-01T17:09:18-07:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "9c42e96d46b6828903b5f790028e28d1cc2f7469ee7c1ce8d4b01109772f8a7e"
+      "id": "7fc3b7cbd1809f11ffae57ab8196c431d6ded494738adb8f793ba819043cab4e"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -51042,20 +51042,20 @@
       },
       "debug_info": {
         "goal": "case h.e'_6.h.h.h.h.e'_2.h.h.e\n\u03b9 : Type\ninst\u271d\u00b3 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\ninst\u271d\u00b2 : oSpec.DecidableEq\ninst\u271d\u00b9 : oSpec.FiniteRange\nn : Fin (0 + 1) \u2192 \u2115\npSpec : (i : Fin (0 + 1)) \u2192 ProtocolSpec (n i)\ninst\u271d : (i : Fin (0 + 1)) \u2192 (j : (pSpec i).ChallengeIdx) \u2192 Sampleable ((pSpec i).Challenge j)\nStmt Wit : Fin (0 + 2) \u2192 Type\nrel : (i : Fin (0 + 2)) \u2192 Stmt i \u2192 Wit i \u2192 Prop\nR : (i : Fin (0 + 1)) \u2192 Reduction (pSpec i) oSpec (Stmt i.castSucc) (Wit i.castSucc) (Stmt i.succ) (Wit i.succ)\ncompletenessError : Fin (0 + 1) \u2192 NNReal\nh : \u2200 (i : Fin 1), completeness (rel i.castSucc) (rel i.succ) (R i) (completenessError i)\ne_1\u271d\u00b9 : \u2211 i, n i = n 0\nhe\u271d : compose 0 n pSpec = pSpec 0\nx\u271d : { i // (compose 0 n pSpec i).1 = Direction.V_to_P }\ne_1\u271d : (compose 0 n pSpec \u2191x\u271d).2 = (pSpec 0 \u2191x\u271d).2\n\u22a2 instSampleableChallengeCompose 0 n pSpec inst\u271d = inst\u271d 0",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/OracleReduction/Composition/Sequential/Basic.lean#L464"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/OracleReduction/Composition/Sequential/Basic.lean#L464"
       },
       "metadata": {
         "blame_email_hash": "d0850777cf0b",
         "blame_date": "2025-05-23T10:22:30+07:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "e9b96e0677edf6209eca5aee525854673d20e04d287ebd809c73e1a9f857c53c"
+      "id": "7b3b323452851533deaaa7a2c458c6a61e70dae23a4e8344267e660fd05bc68b"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -51067,20 +51067,20 @@
       },
       "debug_info": {
         "goal": "case succ\n\u03b9 : Type\ninst\u271d\u00b3 : DecidableEq \u03b9\noSpec : OracleSpec \u03b9\ninst\u271d\u00b2 : oSpec.DecidableEq\ninst\u271d\u00b9 : oSpec.FiniteRange\nm : \u2115\nih :\n  \u2200 {n : Fin (m + 1) \u2192 \u2115} {pSpec : (i : Fin (m + 1)) \u2192 ProtocolSpec (n i)}\n    [inst : (i : Fin (m + 1)) \u2192 (j : (pSpec i).ChallengeIdx) \u2192 Sampleable ((pSpec i).Challenge j)]\n    {Stmt Wit : Fin (m + 2) \u2192 Type} {rel : (i : Fin (m + 2)) \u2192 Stmt i \u2192 Wit i \u2192 Prop}\n    (R : (i : Fin (m + 1)) \u2192 Reduction (pSpec i) oSpec (Stmt i.castSucc) (Wit i.castSucc) (Stmt i.succ) (Wit i.succ))\n    (completenessError : Fin (m + 1) \u2192 NNReal),\n    (\u2200 (i : Fin (m + 1)), completeness (rel i.castSucc) (rel i.succ) (R i) (completenessError i)) \u2192\n      completeness (rel 0) (rel (Fin.last (m + 1))) (Reduction.compose \u03b9 oSpec m n pSpec Stmt Wit R)\n        (\u2211 i, completenessError i)\nn : Fin (m + 1 + 1) \u2192 \u2115\npSpec : (i : Fin (m + 1 + 1)) \u2192 ProtocolSpec (n i)\ninst\u271d : (i : Fin (m + 1 + 1)) \u2192 (j : (pSpec i).ChallengeIdx) \u2192 Sampleable ((pSpec i).Challenge j)\nStmt Wit : Fin (m + 1 + 2) \u2192 Type\nrel : (i : Fin (m + 1 + 2)) \u2192 Stmt i \u2192 Wit i \u2192 Prop\nR : (i : Fin (m + 1 + 1)) \u2192 Reduction (pSpec i) oSpec (Stmt i.castSucc) (Wit i.castSucc) (Stmt i.succ) (Wit i.succ)\ncompletenessError : Fin (m + 1 + 1) \u2192 NNReal\nh : \u2200 (i : Fin (m + 1 + 1)), completeness (rel i.castSucc) (rel i.succ) (R i) (completenessError i)\n\u22a2 completeness (rel 0) (rel (Fin.last (m + 1 + 1))) (Reduction.compose \u03b9 oSpec (m + 1) n pSpec Stmt Wit R)\n    (\u2211 i, completenessError i)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/OracleReduction/Composition/Sequential/Basic.lean#L466"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/OracleReduction/Composition/Sequential/Basic.lean#L466"
       },
       "metadata": {
         "blame_email_hash": "d0850777cf0b",
         "blame_date": "2025-05-23T10:22:30+07:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "abcc3ba18dc85bc8e3bdd18578e4d01ca088e32e64961296b25cc7093d4bc55e"
+      "id": "460f7723e21d0f1a4f38854c4a5f99cf266b13f8cba40343a28625c414ad13cf"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -51092,20 +51092,20 @@
       },
       "debug_info": {
         "goal": "m : \u2115\nn : Fin (m + 1) \u2192 \u2115\npSpec : (i : Fin (m + 1)) \u2192 ProtocolSpec (n i)\nT : (i : Fin (m + 1)) \u2192 (pSpec i).FullTranscript\ni : Fin m\n\u22a2 @Fin.dfoldl (\u2191i + 1)\n      (fun i_1 =>\n        FullTranscript\n          (ProtocolSpec.compose (\u2191i_1)\n            (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_38 (\u2191i + 1) i_1)\n              (Fin.take (\u2191i + 1 + 1) \u22ef n))\n            (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_38 (\u2191i + 1) i_1)\n              (Fin.take (\u2191i + 1 + 1) \u22ef pSpec))))\n      (fun i_1 acc =>\n        @dcast\u2082 \u2115 ProtocolSpec (@FullTranscript) ProtocolSpec.instDepCast ProtocolSpec.FullTranscript.instDepCast\u2082\n          (\u2211 i_2, n (Fin.castLE \u22ef (Fin.castLE (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i + 1) i_1) i_2)) +\n            n (Fin.castLE \u22ef i_1.succ))\n          (\u2211 i_2, n (Fin.castLE \u22ef (Fin.castLE (ProtocolSpec.FullTranscript.compose._proof_40 (\u2191i + 1) i_1) i_2)))\n          (ProtocolSpec.append\n            (\u2211 i_2, n (Fin.castLE \u22ef (Fin.castLE (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i + 1) i_1) i_2)))\n            (n (Fin.castLE \u22ef i_1.succ))\n            (ProtocolSpec.compose (\u2191i_1)\n              (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i + 1) i_1)\n                (Fin.take (\u2191i + 1 + 1) \u22ef n))\n              (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i + 1) i_1)\n                (Fin.take (\u2191i + 1 + 1) \u22ef pSpec)))\n            (pSpec (Fin.castLE \u22ef i_1.succ)))\n          (ProtocolSpec.compose (\u2191i_1 + 1)\n            (Fin.take (\u2191i_1 + 1 + 1) (ProtocolSpec.FullTranscript.compose._proof_40 (\u2191i + 1) i_1)\n              (Fin.take (\u2191i + 1 + 1) \u22ef n))\n            (Fin.take (\u2191i_1 + 1 + 1) (ProtocolSpec.FullTranscript.compose._proof_40 (\u2191i + 1) i_1)\n              (Fin.take (\u2191i + 1 + 1) \u22ef pSpec)))\n          (ProtocolSpec.FullTranscript.compose._proof_41 (\u2191i + 1) (Fin.take (\u2191i + 1 + 1) \u22ef n) i_1)\n          (ProtocolSpec.FullTranscript.compose._proof_44 (\u2191i + 1) (Fin.take (\u2191i + 1 + 1) \u22ef n)\n            (Fin.take (\u2191i + 1 + 1) \u22ef pSpec) i_1)\n          (ProtocolSpec.FullTranscript.append\n            (\u2211 i_2, n (Fin.castLE \u22ef (Fin.castLE (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i + 1) i_1) i_2)))\n            (n (Fin.castLE \u22ef i_1.succ))\n            (ProtocolSpec.compose (\u2191i_1)\n              (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i + 1) i_1)\n                (Fin.take (\u2191i + 1 + 1) \u22ef n))\n              (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i + 1) i_1)\n                (Fin.take (\u2191i + 1 + 1) \u22ef pSpec)))\n            (pSpec (Fin.castLE \u22ef i_1.succ)) acc (T (Fin.castLE \u22ef i_1.succ))))\n      (T (Fin.castLE \u22ef 0)) =\n    @dcast\u2082 \u2115 ProtocolSpec (@FullTranscript) ProtocolSpec.instDepCast ProtocolSpec.FullTranscript.instDepCast\u2082\n      (\u2211 i_1, n (Fin.castLE \u22ef i_1) + n i.succ) (\u2211 i_1, n (Fin.castLE \u22ef i_1))\n      (ProtocolSpec.append (\u2211 i_1, n (Fin.castLE \u22ef i_1)) (n i.succ)\n        (ProtocolSpec.compose (\u2191i) (Fin.take (\u2191i + 1) \u22ef n) (Fin.take (\u2191i + 1) \u22ef pSpec)) (pSpec i.succ))\n      (ProtocolSpec.compose (\u2191i + 1) (Fin.take (\u2191i + 1 + 1) \u22ef n) (Fin.take (\u2191i + 1 + 1) \u22ef pSpec)) \u22ef \u22ef\n      (ProtocolSpec.FullTranscript.append (\u2211 i_1, n (Fin.castLE \u22ef i_1)) (n i.succ)\n        (ProtocolSpec.compose (\u2191i) (Fin.take (\u2191i + 1) \u22ef n) (Fin.take (\u2191i + 1) \u22ef pSpec)) (pSpec i.succ)\n        (@Fin.dfoldl (\u2191i)\n          (fun i_1 =>\n            FullTranscript\n              (ProtocolSpec.compose (\u2191i_1)\n                (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_38 (\u2191i) i_1) (Fin.take (\u2191i + 1) \u22ef n))\n                (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_38 (\u2191i) i_1)\n                  (Fin.take (\u2191i + 1) \u22ef pSpec))))\n          (fun i_1 acc =>\n            @dcast\u2082 \u2115 ProtocolSpec (@FullTranscript) ProtocolSpec.instDepCast ProtocolSpec.FullTranscript.instDepCast\u2082\n              (\u2211 i_2, n (Fin.castLE \u22ef (Fin.castLE (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i) i_1) i_2)) +\n                n (Fin.castLE \u22ef i_1.succ))\n              (\u2211 i_2, n (Fin.castLE \u22ef (Fin.castLE (ProtocolSpec.FullTranscript.compose._proof_40 (\u2191i) i_1) i_2)))\n              (ProtocolSpec.append\n                (\u2211 i_2, n (Fin.castLE \u22ef (Fin.castLE (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i) i_1) i_2)))\n                (n (Fin.castLE \u22ef i_1.succ))\n                (ProtocolSpec.compose (\u2191i_1)\n                  (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i) i_1) (Fin.take (\u2191i + 1) \u22ef n))\n                  (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i) i_1)\n                    (Fin.take (\u2191i + 1) \u22ef pSpec)))\n                (pSpec (Fin.castLE \u22ef i_1.succ)))\n              (ProtocolSpec.compose (\u2191i_1 + 1)\n                (Fin.take (\u2191i_1 + 1 + 1) (ProtocolSpec.FullTranscript.compose._proof_40 (\u2191i) i_1)\n                  (Fin.take (\u2191i + 1) \u22ef n))\n                (Fin.take (\u2191i_1 + 1 + 1) (ProtocolSpec.FullTranscript.compose._proof_40 (\u2191i) i_1)\n                  (Fin.take (\u2191i + 1) \u22ef pSpec)))\n              (ProtocolSpec.FullTranscript.compose._proof_41 (\u2191i) (Fin.take (\u2191i + 1) \u22ef n) i_1)\n              (ProtocolSpec.FullTranscript.compose._proof_44 (\u2191i) (Fin.take (\u2191i + 1) \u22ef n) (Fin.take (\u2191i + 1) \u22ef pSpec)\n                i_1)\n              (ProtocolSpec.FullTranscript.append\n                (\u2211 i_2, n (Fin.castLE \u22ef (Fin.castLE (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i) i_1) i_2)))\n                (n (Fin.castLE \u22ef i_1.succ))\n                (ProtocolSpec.compose (\u2191i_1)\n                  (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i) i_1) (Fin.take (\u2191i + 1) \u22ef n))\n                  (Fin.take (\u2191i_1 + 1) (ProtocolSpec.FullTranscript.compose._proof_39 (\u2191i) i_1)\n                    (Fin.take (\u2191i + 1) \u22ef pSpec)))\n                (pSpec (Fin.castLE \u22ef i_1.succ)) acc (T (Fin.castLE \u22ef i_1.succ))))\n          (T (Fin.castLE \u22ef 0)))\n        (T i.succ))",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/OracleReduction/Composition/Sequential/ProtocolSpec.lean#L354"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/OracleReduction/Composition/Sequential/ProtocolSpec.lean#L354"
       },
       "metadata": {
         "blame_email_hash": "d0850777cf0b",
         "blame_date": "2025-05-25T11:02:32+07:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "10079d0fd45f7403c1f60f95fd0e0840f54dd004218b8f091649c5d022a06c92"
+      "id": "9f6dfdc79d65f762662766270a29ad2269c33e7674c55aa319d7391c0d379c44"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -51117,20 +51117,20 @@
       },
       "debug_info": {
         "goal": "R : Type\ninst\u271d\u00b9 : CommSemiring R\ninst\u271d : VCVCompatible R\nn deg m : \u2115\nD : Fin m \u21aa R\n\u03b9 : Type\noSpec : OracleSpec \u03b9\ni : Fin (n + 1)\nstmt : Sumcheck.Spec.Statement R n i.castSucc \u00d7 ((i : Fin 1) \u2192 Sumcheck.Spec.OracleStatement R inst\u271d\u00b9 n deg i)\ntranscript : FullTranscript ![(Direction.P_to_V, \u21a5(degreeLE R \u2191deg)), (Direction.V_to_P, R)]\nx : getType (Sumcheck.Spec.pSpec R inst\u271d\u00b9 deg) 0\nhp_i : \u2191(transcript 0) \u2208 degreeLE R \u2191deg\nhEq : transcript 0 = \u27e8\u2191(transcript 0), hp_i\u27e9\n\u22a2 (do\n      let a \u2190\n        ((OptionT.run (List.mapM (fun i => liftM (query (Sum.inr (Sum.inr \u27e80, \u22ef\u27e9)) (D i))) (List.finRange m))).bind\n                fun __do_lift =>\n                __do_lift.elim (FreeMonad.pure none)\n                  (OptionT.run \u2218 fun evals => do\n                    if evals.sum = Sumcheck.Spec.Statement.target R n i.castSucc stmt.1 then pure () else failure\n                    (fun a =>\n                          Sumcheck.Spec.Statement.mk R n i.succ a\n                            (Fin.snoc (Sumcheck.Spec.Statement.challenges R n i.castSucc stmt.1) (transcript 1))) <$>\n                        liftM (query (Sum.inr (Sum.inr \u27e80, \u22ef\u27e9)) (transcript 1)))).mapM\n            fun {\u03b1} => (OracleInterface.simOracle2 oSpec stmt.2 transcript.messages).impl\n      (fun a =>\n            (a, fun i_1 =>\n              @Prod.snd (Sumcheck.Spec.Statement R n i.castSucc)\n                ((i : Fin 1) \u2192 Sumcheck.Spec.OracleStatement R inst\u271d\u00b9 n deg i) stmt i_1)) <$>\n          a.getM) =\n    (fun a =>\n        (Sumcheck.Spec.Statement.mk R n i.succ (Polynomial.eval (transcript 1) \u2191(transcript 0))\n            (Fin.snoc (Sumcheck.Spec.Statement.challenges R n i.castSucc stmt.1) (transcript 1)),\n          stmt.2)) <$>\n      if \u2211 x, Polynomial.eval (D x) \u2191(transcript 0) = Sumcheck.Spec.Statement.target R n i.castSucc stmt.1 then pure ()\n      else failure",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/ProofSystem/Sumcheck/Basic.lean#L492"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/ProofSystem/Sumcheck/Basic.lean#L492"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-01-18T19:07:20+07:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "d369dfb3fafd7fa937bfdd247b0b7c7b90ef9dbb272a0d4892f8cff9a4ad56b4"
+      "id": "f39eacf11edb3ccb0f8777e129ab06541700e9f70f5afb579518baa0bd2a3b19"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -51142,20 +51142,20 @@
       },
       "debug_info": {
         "goal": "case left\nR : Type\ninst\u271d\u00b3 : CommSemiring R\ninst\u271d\u00b2 : VCVCompatible R\nn deg m : \u2115\nD : Fin m \u21aa R\n\u03b9 : Type\noSpec : OracleSpec \u03b9\ni : Fin (n + 1)\ninst\u271d\u00b9 : DecidableEq \u03b9\ninst\u271d : oSpec.FiniteRange\ntarget : R\nchallenge : Fin \u2191i.castSucc \u2192 R\noStmt : (i : Fin 1) \u2192 Sumcheck.Spec.OracleStatement R inst\u271d\u00b3 n deg i\nwitIn\u271d : Unit\nhValid :\n  \u2211 x \u2208 Fintype.piFinset fun i => Finset.map D univ,\n      (MvPolynomial.eval (Fin.append challenge x \u2218 Fin.cast (Sumcheck.Spec.relation._proof_12 n i.castSucc)))\n        \u2191(@oStmt 0) =\n    target\n\u22a2 ({ prover := Sumcheck.Spec.prover R inst\u271d\u00b3 n deg m D \u03b9 oSpec i,\n                verifier :=\n                  Sumcheck.Spec.oracleVerifier R inst\u271d\u00b3 n deg m D \u03b9 oSpec inst\u271d\u00b2 i }.toReduction.prover.sendMessage\n        \u27e80, \u22ef\u27e9\n        ({ prover := Sumcheck.Spec.prover R inst\u271d\u00b3 n deg m D \u03b9 oSpec i,\n                    verifier :=\n                      Sumcheck.Spec.oracleVerifier R inst\u271d\u00b3 n deg m D \u03b9 oSpec inst\u271d\u00b2\n                        i }.toReduction.prover.toProverIn.input\n          (Sumcheck.Spec.Statement R n i.castSucc \u00d7 ((i : Fin 1) \u2192 Sumcheck.Spec.OracleStatement R inst\u271d\u00b3 n deg i)) Unit\n          ({ prover := Sumcheck.Spec.prover R inst\u271d\u00b3 n deg m D \u03b9 oSpec i,\n                    verifier :=\n                      Sumcheck.Spec.oracleVerifier R inst\u271d\u00b3 n deg m D \u03b9 oSpec inst\u271d\u00b2 i }.toReduction.prover.PrvState\n            0)\n          (Sumcheck.Spec.Statement.mk R n i.castSucc target challenge, oStmt) witIn\u271d)).neverFails \u2227\n    \u2200 (a : Polynomial R) (b : a \u2208 degreeLE R \u2191deg)\n      (b_1 :\n        { prover := Sumcheck.Spec.prover R inst\u271d\u00b3 n deg m D \u03b9 oSpec i,\n                  verifier :=\n                    Sumcheck.Spec.oracleVerifier R inst\u271d\u00b3 n deg m D \u03b9 oSpec inst\u271d\u00b2 i }.toReduction.prover.PrvState\n          1),\n      (\u27e8a, b\u27e9, b_1) \u2208\n          ({ prover := Sumcheck.Spec.prover R inst\u271d\u00b3 n deg m D \u03b9 oSpec i,\n                      verifier :=\n                        Sumcheck.Spec.oracleVerifier R inst\u271d\u00b3 n deg m D \u03b9 oSpec inst\u271d\u00b2\n                          i }.toReduction.prover.sendMessage\n              \u27e80, \u22ef\u27e9\n              ({ prover := Sumcheck.Spec.prover R inst\u271d\u00b3 n deg m D \u03b9 oSpec i,\n                          verifier :=\n                            Sumcheck.Spec.oracleVerifier R inst\u271d\u00b3 n deg m D \u03b9 oSpec inst\u271d\u00b2\n                              i }.toReduction.prover.toProverIn.input\n                (Sumcheck.Spec.Statement R n i.castSucc \u00d7\n                  ((i : Fin 1) \u2192 Sumcheck.Spec.OracleStatement R inst\u271d\u00b3 n deg i))\n                Unit\n                ({ prover := Sumcheck.Spec.prover R inst\u271d\u00b3 n deg m D \u03b9 oSpec i,\n                          verifier :=\n                            Sumcheck.Spec.oracleVerifier R inst\u271d\u00b3 n deg m D \u03b9 oSpec inst\u271d\u00b2\n                              i }.toReduction.prover.PrvState\n                  0)\n                (Sumcheck.Spec.Statement.mk R n i.castSucc target challenge, oStmt) witIn\u271d)).support \u2192\n        \u2200 (x : R),\n          (Verifier.run (Sumcheck.Spec.Statement.mk R n i.castSucc target challenge, oStmt)\n              (Transcript.snoc 2 (Sumcheck.Spec.pSpec R inst\u271d\u00b3 deg) 1 x\n                (Transcript.snoc 2 (Sumcheck.Spec.pSpec R inst\u271d\u00b3 deg) 0 \u27e8a, b\u27e9\n                  (@default (Transcript 0 (Sumcheck.Spec.pSpec R inst\u271d\u00b3 deg)) Unique.instInhabited)))\n              { prover := Sumcheck.Spec.prover R inst\u271d\u00b3 n deg m D \u03b9 oSpec i,\n                    verifier :=\n                      Sumcheck.Spec.oracleVerifier R inst\u271d\u00b3 n deg m D \u03b9 oSpec inst\u271d\u00b2\n                        i }.toReduction.verifier).neverFails",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/ProofSystem/Sumcheck/Basic.lean#L510"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/ProofSystem/Sumcheck/Basic.lean#L510"
       },
       "metadata": {
         "blame_email_hash": "0c5d39c5ece3",
         "blame_date": "2025-03-09T23:22:53-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "4a1bbfb16eb6eb3350d323931c2eb56fb28761b5fd62c79a68490ece24a4cde7"
+      "id": "675d9c587ea97fb0e97a0911261beb07c87a34a8f1ba7ffec4d56142d4803f73"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "tensor-algebra",
-        "commit": "b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -51167,20 +51167,20 @@
       },
       "debug_info": {
         "goal": "R : Type\ninst\u271d\u00b9 : CommSemiring R\nn deg m : \u2115\nD : Fin m \u21aa R\ninst\u271d : VCVCompatible R\n\u22a2 OracleReduction.perfectCompleteness (Sumcheck.Spec.Combined.relIn R inst\u271d\u00b9 n deg m D)\n    (Sumcheck.Spec.Combined.relOut R inst\u271d\u00b9 n deg) (Sumcheck.Spec.Combined.reduction R inst\u271d\u00b9 n deg)",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/b26d47c7d8aced407a40c77d07cf6e8b6c1c09f5/ArkLib/ProofSystem/Sumcheck/Basic.lean#L643"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/ProofSystem/Sumcheck/Basic.lean#L643"
       },
       "metadata": {
         "blame_email_hash": "f335a4ba1b88",
         "blame_date": "2025-02-24T11:52:07-05:00",
-        "inclusion_date": "2025-05-30T03:04:36.739883+00:00"
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "db63ee0b3e014eec5004fa53dcc4f7112f9c1b97654acca14e4c648e1c8a6a6a"
+      "id": "7b2df756c32f6e50328087097961d022ca12d0db081e72063eea9890b4eba371"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "BoltonBailey/merkletree-neverfails",
-        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -51192,20 +51192,20 @@
       },
       "debug_info": {
         "goal": "\u03b1 : Type\ninst : DecidableEq \u03b1\ninst_1 : SelectableType \u03b1\npreexisting_cache : QueryCache (MerkleTree.spec \u03b1)\nn : \u2115\nleaves : List.Vector \u03b1 (2 ^ (n + 1))\n\u22a2 ((simulateQ randomOracle\n          (Vector.mmap (fun x => liftM (query () x))\n            (List.Vector.ofFn fun i =>\n              (leaves.get \u27e82 * \u2191i, MerkleTree.buildLayer._proof_4 n i\u27e9,\n                leaves.get \u27e82 * \u2191i + 1, MerkleTree.buildLayer._proof_5 n i\u27e9)))).run\n      preexisting_cache).neverFails",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/CommitmentScheme/MerkleTree.lean#L193"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/CommitmentScheme/MerkleTree.lean#L193"
       },
       "metadata": {
         "blame_email_hash": "ab200eba5736",
-        "blame_date": "2025-05-26T13:38:13-04:00",
-        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
+        "blame_date": "2025-05-31T21:50:03-04:00",
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "48aacf24629868e0294015262725670c14610e0d8bd449c56ff720020403d04e"
+      "id": "67232c2dafbff1094ba5b90d5f0c270c311eb6929cb42cb2c1c910d2af86c305"
     },
     {
       "repo": {
         "remote": "https://github.com/Verified-zkEVM/ZKLib",
-        "branch": "BoltonBailey/merkletree-neverfails",
-        "commit": "0500c1804c8457a25a494d246df91e37e021667f",
+        "branch": "main",
+        "commit": "7b3c5416354ddbedb53f4d02c4b415fd2e8af881",
         "lean_version": "v4.19.0"
       },
       "location": {
@@ -51217,14 +51217,14 @@
       },
       "debug_info": {
         "goal": "case right\n\u03b1 : Type\ninst\u271d\u00b3 : DecidableEq \u03b1\ninst\u271d\u00b2 : Inhabited \u03b1\ninst\u271d\u00b9 : Fintype \u03b1\ninst\u271d : SelectableType \u03b1\nn : \u2115\nleaves : List.Vector \u03b1 (2 ^ n)\ni : Fin (2 ^ n)\nhash : \u03b1 \u00d7 \u03b1 \u2192 \u03b1\npreexisting_cache : QueryCache (MerkleTree.spec \u03b1)\nmerkle_tree_cache : MerkleTree.Cache \u03b1 n\nquery_cache : QueryCache (MerkleTree.spec \u03b1)\nh_mem_support :\n  (merkle_tree_cache, query_cache) \u2208\n    ((simulateQ randomOracle (MerkleTree.buildMerkleTree \u03b1 n leaves)).run preexisting_cache).support\n\u22a2 ((simulateQ randomOracle\n          (MerkleTree.verifyProof \u03b1 inst\u271d\u00b3 n i (leaves.get i) (MerkleTree.getRoot \u03b1 n merkle_tree_cache)\n            (MerkleTree.generateProof \u03b1 n i merkle_tree_cache))).run\n      query_cache).neverFails",
-        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/0500c1804c8457a25a494d246df91e37e021667f/ArkLib/CommitmentScheme/MerkleTree.lean#L238"
+        "url": "https://github.com/Verified-zkEVM/ZKLib/blob/7b3c5416354ddbedb53f4d02c4b415fd2e8af881/ArkLib/CommitmentScheme/MerkleTree.lean#L238"
       },
       "metadata": {
         "blame_email_hash": "ab200eba5736",
-        "blame_date": "2025-05-26T13:38:13-04:00",
-        "inclusion_date": "2025-05-26T23:22:13.811348+00:00"
+        "blame_date": "2025-05-31T21:50:03-04:00",
+        "inclusion_date": "2025-06-01T03:14:51.997900+00:00"
       },
-      "id": "040ab3f49292950df804530ccea9d7e0c3261c7823cb0ea2bd9cf38eb5477716"
+      "id": "157d7c7408223e9e40019eb8304bfa1d0d4574a74c42102964b9901c20f1e751"
     },
     {
       "repo": {
