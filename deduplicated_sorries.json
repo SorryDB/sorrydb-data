@@ -52400,6 +52400,31 @@
         "inclusion_date": "2025-06-03T03:14:17.361520+00:00"
       },
       "id": "dcdbb87a721ea62a857704f05cea5ef6d3daa0329868a42c0bded58bed0c295a"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/frenzymath/jixia",
+        "branch": "main",
+        "commit": "ba11ef4031d1091650160560522379d3e1652dd9",
+        "lean_version": "v4.19.0"
+      },
+      "location": {
+        "path": "Example.lean",
+        "start_line": 82,
+        "start_column": 55,
+        "end_line": 82,
+        "end_column": 60
+      },
+      "debug_info": {
+        "goal": "\u03b1 : Type u\n\u22a2 \u00ac@Option.IsSome \u03b1 none",
+        "url": "https://github.com/frenzymath/jixia/blob/ba11ef4031d1091650160560522379d3e1652dd9/Example.lean#L82"
+      },
+      "metadata": {
+        "blame_email_hash": "aa8cba96a488",
+        "blame_date": "2024-06-20T19:17:07+08:00",
+        "inclusion_date": "2025-06-04T03:03:33.110137+00:00"
+      },
+      "id": "7c2b787a4cd8b3a3d43d98f26cf6709572ef5c76d19dca0ebc544d4898121d2c"
     }
   ]
 }
