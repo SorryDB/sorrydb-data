@@ -9905,7 +9905,7 @@
       "repo": {
         "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
         "branch": "main",
-        "commit": "51c6063c647276f7c01e848976e6721033829c90",
+        "commit": "e99e6f7b4a57098ded666cd0ed64aae7078440a3",
         "lean_version": "v4.21.0"
       },
       "location": {
@@ -9917,14 +9917,14 @@
       },
       "debug_info": {
         "goal": "\u22a2 \u2203 c, (c =o[atTop] fun x => 1) \u2227 \u2200 (n : \u2115), \u2191(nth Nat.Prime n) = (1 + c n) * \u2191n * log \u2191n",
-        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/51c6063c647276f7c01e848976e6721033829c90/PrimeNumberTheoremAnd/Consequences.lean#L1844"
+        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/e99e6f7b4a57098ded666cd0ed64aae7078440a3/PrimeNumberTheoremAnd/Consequences.lean#L1844"
       },
       "metadata": {
         "blame_email_hash": "11451cd2f124",
         "blame_date": "2024-02-19T02:44:41-08:00",
-        "inclusion_date": "2025-07-13T23:20:18.124737+00:00"
+        "inclusion_date": "2025-07-21T23:21:07.188403+00:00"
       },
-      "id": "33eac6d00a4207b0e8f825fe3f1ab971de21c85c8fbf9c8839873231e16f8293"
+      "id": "5225539158e4a4b30bf6f9a04734f70d99a0cd1227fca5fc227e19e98803ad6c"
     },
     {
       "repo": {
@@ -36055,7 +36055,7 @@
       "repo": {
         "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
         "branch": "main",
-        "commit": "51c6063c647276f7c01e848976e6721033829c90",
+        "commit": "e99e6f7b4a57098ded666cd0ed64aae7078440a3",
         "lean_version": "v4.21.0"
       },
       "location": {
@@ -36067,20 +36067,20 @@
       },
       "debug_info": {
         "goal": "A x : \u211d\nG : \u2102 \u2192 \u2102\nf : \u2115 \u2192 \u211d\nhpos : 0 \u2264 f\nhG : ContinuousOn G {s | 1 \u2264 s.re}\nhG' : EqOn G (fun s => LSeries (fun n => \u2191(f n)) s - \u2191A / (s - 1)) {s | 1 < s.re}\nhf : \u2200 (\u03c3' : \u211d), 1 < \u03c3' \u2192 Summable (nterm (fun n => \u2191(f n)) \u03c3')\n\u03c8 : CS 2 \u2102\nh\u03c8pos : \u2200 (y : \u211d), 0 \u2264 (fourierIntegral \u03c8.toFun y).re \u2227 (fourierIntegral \u03c8.toFun y).im = 0\nhx : 1 \u2264 x\n\u22a2 \u2211' (n : \u2115), \u2191(f n) / \u2191n * fourierIntegral \u03c8.toFun (1 / (2 * Real.pi) * Real.log (\u2191n / x)) -\n      \u2191A * \u222b (u : \u211d) in Ici (-Real.log x), fourierIntegral \u03c8.toFun (u / (2 * Real.pi)) =\n    \u222b (t : \u211d), G (1 + \u2191t * I) * \u03c8.toFun t * \u2191x ^ (\u2191t * I)",
-        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/51c6063c647276f7c01e848976e6721033829c90/PrimeNumberTheoremAnd/Wiener.lean#L2284"
+        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/e99e6f7b4a57098ded666cd0ed64aae7078440a3/PrimeNumberTheoremAnd/Wiener.lean#L2284"
       },
       "metadata": {
         "blame_email_hash": "d7f0e4a42bbb",
         "blame_date": "2024-04-04T12:17:01-07:00",
-        "inclusion_date": "2025-07-13T23:20:18.124737+00:00"
+        "inclusion_date": "2025-07-21T23:21:07.188403+00:00"
       },
-      "id": "677be5bb3c772eb74d336c96e0167fe1919bf08056b4aa7a9b99af4c8a854fc3"
+      "id": "4531ebed9e90fa2c3971b15d47aec6010ea4dd376520c2b7154dbe93c641988e"
     },
     {
       "repo": {
         "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
         "branch": "main",
-        "commit": "51c6063c647276f7c01e848976e6721033829c90",
+        "commit": "e99e6f7b4a57098ded666cd0ed64aae7078440a3",
         "lean_version": "v4.21.0"
       },
       "location": {
@@ -36092,14 +36092,14 @@
       },
       "debug_info": {
         "goal": "A : \u211d\nG : \u2102 \u2192 \u2102\nf : \u2115 \u2192 \u211d\nhpos : 0 \u2264 f\nhG : ContinuousOn G {s | 1 \u2264 s.re}\nhG' : EqOn G (fun s => LSeries (fun n => \u2191(f n)) s - \u2191A / (s - 1)) {s | 1 < s.re}\nhf : \u2200 (\u03c3' : \u211d), 1 < \u03c3' \u2192 Summable (nterm (fun n => \u2191(f n)) \u03c3')\n\u03c8 : CS 2 \u2102\nh\u03c8pos : \u2200 (y : \u211d), 0 \u2264 (fourierIntegral \u03c8.toFun y).re \u2227 (fourierIntegral \u03c8.toFun y).im = 0\n\u22a2 \u2203 B,\n    \u2200 (x : \u211d), 0 < x \u2192 \u2016\u2211' (n : \u2115), \u2191(f n) / \u2191n * fourierIntegral \u03c8.toFun (1 / (2 * Real.pi) * Real.log (\u2191n / x))\u2016 \u2264 B",
-        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/51c6063c647276f7c01e848976e6721033829c90/PrimeNumberTheoremAnd/Wiener.lean#L2306"
+        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/e99e6f7b4a57098ded666cd0ed64aae7078440a3/PrimeNumberTheoremAnd/Wiener.lean#L2306"
       },
       "metadata": {
         "blame_email_hash": "4d01d7c10d46",
         "blame_date": "2024-04-16T02:15:35+02:00",
-        "inclusion_date": "2025-07-13T23:20:18.124737+00:00"
+        "inclusion_date": "2025-07-21T23:21:07.188403+00:00"
       },
-      "id": "331fe1820edfd04fc09d44bdf1379947e942ed9a125da38f331f1955b4dc9445"
+      "id": "ed453abd39af3c700258ee833ad5c21bf3ba4381d561ac4b9c47b82019f8e026"
     },
     {
       "repo": {
@@ -36180,7 +36180,7 @@
       "repo": {
         "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
         "branch": "main",
-        "commit": "51c6063c647276f7c01e848976e6721033829c90",
+        "commit": "e99e6f7b4a57098ded666cd0ed64aae7078440a3",
         "lean_version": "v4.21.0"
       },
       "location": {
@@ -36192,20 +36192,20 @@
       },
       "debug_info": {
         "goal": "\u22a2 (fun x => \u2211 n \u2208 range \u230ax\u230b\u208a, moebius n) =o[atTop] fun x => x",
-        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/51c6063c647276f7c01e848976e6721033829c90/PrimeNumberTheoremAnd/Consequences.lean#L2575"
+        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/e99e6f7b4a57098ded666cd0ed64aae7078440a3/PrimeNumberTheoremAnd/Consequences.lean#L2575"
       },
       "metadata": {
         "blame_email_hash": "5ecb8fcfe98c",
         "blame_date": "2025-02-06T17:41:08+01:00",
-        "inclusion_date": "2025-07-13T23:20:18.124737+00:00"
+        "inclusion_date": "2025-07-21T23:21:07.188403+00:00"
       },
-      "id": "f1569fc0c670aae77b9b851dd9c5a9c18e109263764d4bcb4825342eb3993751"
+      "id": "05cd6b8e573ec4bbbc9d21b31242e7a090e71e169e3bf7944930cbb988636f18"
     },
     {
       "repo": {
         "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
         "branch": "main",
-        "commit": "51c6063c647276f7c01e848976e6721033829c90",
+        "commit": "e99e6f7b4a57098ded666cd0ed64aae7078440a3",
         "lean_version": "v4.21.0"
       },
       "location": {
@@ -36217,20 +36217,20 @@
       },
       "debug_info": {
         "goal": "\u22a2 (fun x => \u2211 n \u2208 range \u230ax\u230b\u208a, (-1) ^ cardFactors n) =o[atTop] fun x => x",
-        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/51c6063c647276f7c01e848976e6721033829c90/PrimeNumberTheoremAnd/Consequences.lean#L2611"
+        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/e99e6f7b4a57098ded666cd0ed64aae7078440a3/PrimeNumberTheoremAnd/Consequences.lean#L2611"
       },
       "metadata": {
         "blame_email_hash": "11451cd2f124",
         "blame_date": "2024-02-19T02:44:41-08:00",
-        "inclusion_date": "2025-07-13T23:20:18.124737+00:00"
+        "inclusion_date": "2025-07-21T23:21:07.188403+00:00"
       },
-      "id": "a430366fffd0b84686d867c982600f847625497a1deff2b1d0f4c9b9dec28f9c"
+      "id": "8d23fe8e774bddf461286c1547d2a79d94456ec400fbb2049359986a5418da31"
     },
     {
       "repo": {
         "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
         "branch": "main",
-        "commit": "51c6063c647276f7c01e848976e6721033829c90",
+        "commit": "e99e6f7b4a57098ded666cd0ed64aae7078440a3",
         "lean_version": "v4.21.0"
       },
       "location": {
@@ -36242,14 +36242,14 @@
       },
       "debug_info": {
         "goal": "\u22a2 (fun x => \u2211 n \u2208 range \u230ax\u230b\u208a, \u2191(moebius n) / \u2191n) =o[atTop] fun x => 1",
-        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/51c6063c647276f7c01e848976e6721033829c90/PrimeNumberTheoremAnd/Consequences.lean#L2635"
+        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/e99e6f7b4a57098ded666cd0ed64aae7078440a3/PrimeNumberTheoremAnd/Consequences.lean#L2635"
       },
       "metadata": {
         "blame_email_hash": "5ecb8fcfe98c",
         "blame_date": "2025-02-06T17:41:08+01:00",
-        "inclusion_date": "2025-07-13T23:20:18.124737+00:00"
+        "inclusion_date": "2025-07-21T23:21:07.188403+00:00"
       },
-      "id": "b0c3ff5fb0697f6233de702e4f3c99dff55d1eee814baf7a07f42b3edbc9373a"
+      "id": "7e3e3b3bb7dcbd55c19cda83af4850bbb572f81d1394548a9cdb10531faff7da"
     },
     {
       "repo": {
@@ -69205,7 +69205,7 @@
       "repo": {
         "remote": "https://github.com/HEPLean/PhysLean",
         "branch": "master",
-        "commit": "a763c59569121bc4fa4db24adf8d88cfc0fbfa6a",
+        "commit": "0354f43f69bbed2cee82d56feb18a99d31f3fbe6",
         "lean_version": "v4.21.0"
       },
       "location": {
@@ -69217,20 +69217,20 @@
       },
       "debug_info": {
         "goal": "d : \u2115\ng : \u2191(LorentzGroup 3)\nE : ElectricField\nB : MagneticField\nx : SpaceTime\n\u22a2 \u2191(toElectricMagneticField.symm (SMul.smul g (E, B))) x =\n    ((realLorentzTensor.F.obj (IndexNotation.OverColor.mk ![realLorentzTensor.Color.up, realLorentzTensor.Color.up])).\u03c1\n        g)\n      (\u2191(toElectricMagneticField.symm (E, B)) x)",
-        "url": "https://github.com/HEPLean/PhysLean/blob/a763c59569121bc4fa4db24adf8d88cfc0fbfa6a/PhysLean/Electromagnetism/LorentzAction.lean#L37"
+        "url": "https://github.com/HEPLean/PhysLean/blob/0354f43f69bbed2cee82d56feb18a99d31f3fbe6/PhysLean/Electromagnetism/LorentzAction.lean#L37"
       },
       "metadata": {
         "blame_email_hash": "7187e3a9e9f5",
         "blame_date": "2025-06-28T08:23:46+00:00",
-        "inclusion_date": "2025-07-17T23:30:51.873090+00:00"
+        "inclusion_date": "2025-07-22T00:02:57.650744+00:00"
       },
-      "id": "6f442c4716eb881a5f4375f04651a073b9df548bc2672210cbc57485e21f9656"
+      "id": "c0140b3271103470ad96e41e9e850893504c438e3bc72fdb8ab8df285bc18bf6"
     },
     {
       "repo": {
         "remote": "https://github.com/HEPLean/PhysLean",
         "branch": "master",
-        "commit": "a763c59569121bc4fa4db24adf8d88cfc0fbfa6a",
+        "commit": "0354f43f69bbed2cee82d56feb18a99d31f3fbe6",
         "lean_version": "v4.21.0"
       },
       "location": {
@@ -69242,20 +69242,20 @@
       },
       "debug_info": {
         "goal": "S : HarmonicOscillator\nIC : ClassicalMechanics.HarmonicOscillator.InitialConditions\n\u22a2 EquationOfMotion (ClassicalMechanics.HarmonicOscillator.sol S IC)",
-        "url": "https://github.com/HEPLean/PhysLean/blob/a763c59569121bc4fa4db24adf8d88cfc0fbfa6a/PhysLean/ClassicalMechanics/HarmonicOscillator/Solution.lean#L295"
+        "url": "https://github.com/HEPLean/PhysLean/blob/0354f43f69bbed2cee82d56feb18a99d31f3fbe6/PhysLean/ClassicalMechanics/HarmonicOscillator/Solution.lean#L295"
       },
       "metadata": {
         "blame_email_hash": "7187e3a9e9f5",
         "blame_date": "2025-06-28T08:23:46+00:00",
-        "inclusion_date": "2025-07-17T23:30:51.873090+00:00"
+        "inclusion_date": "2025-07-22T00:02:57.650744+00:00"
       },
-      "id": "3d2b11c3e29b3ba36a9c2477b41e841991785bd9482f065b11217f63aa40e4a3"
+      "id": "0024ee9b1c50ac6095a5c3761ab54f5ec85504250e9d1607dc3d68adc130d4d0"
     },
     {
       "repo": {
         "remote": "https://github.com/HEPLean/PhysLean",
         "branch": "master",
-        "commit": "a763c59569121bc4fa4db24adf8d88cfc0fbfa6a",
+        "commit": "0354f43f69bbed2cee82d56feb18a99d31f3fbe6",
         "lean_version": "v4.21.0"
       },
       "location": {
@@ -69267,20 +69267,20 @@
       },
       "debug_info": {
         "goal": "S : HarmonicOscillator\nIC : ClassicalMechanics.HarmonicOscillator.InitialConditions\nx : Time \u2192 \u211d\n\u22a2 EquationOfMotion x \u2227\n      x 0 = ClassicalMechanics.HarmonicOscillator.InitialConditions.x\u2080 IC \u2227\n        deriv x 0 = ClassicalMechanics.HarmonicOscillator.InitialConditions.v\u2080 IC \u2192\n    x = ClassicalMechanics.HarmonicOscillator.sol S IC",
-        "url": "https://github.com/HEPLean/PhysLean/blob/a763c59569121bc4fa4db24adf8d88cfc0fbfa6a/PhysLean/ClassicalMechanics/HarmonicOscillator/Solution.lean#L306"
+        "url": "https://github.com/HEPLean/PhysLean/blob/0354f43f69bbed2cee82d56feb18a99d31f3fbe6/PhysLean/ClassicalMechanics/HarmonicOscillator/Solution.lean#L306"
       },
       "metadata": {
         "blame_email_hash": "7187e3a9e9f5",
         "blame_date": "2025-06-28T08:23:46+00:00",
-        "inclusion_date": "2025-07-17T23:30:51.873090+00:00"
+        "inclusion_date": "2025-07-22T00:02:57.650744+00:00"
       },
-      "id": "b5c37053e700bdaa5226c2437de1f1a2980171553e2389c6437a664df74ceb6a"
+      "id": "a54b2f7866ccf83a335824a207978b0872ff10894bdde12ca3f5b543fb57b38a"
     },
     {
       "repo": {
         "remote": "https://github.com/HEPLean/PhysLean",
         "branch": "master",
-        "commit": "a763c59569121bc4fa4db24adf8d88cfc0fbfa6a",
+        "commit": "0354f43f69bbed2cee82d56feb18a99d31f3fbe6",
         "lean_version": "v4.21.0"
       },
       "location": {
@@ -69292,20 +69292,20 @@
       },
       "debug_info": {
         "goal": "S : ClassicalMechanics.HarmonicOscillator\nx : Time \u2192 \u211d\n\u22a2 ClassicalMechanics.HarmonicOscillator.force S x = -ClassicalMechanics.HarmonicOscillator.k S \u2022 x",
-        "url": "https://github.com/HEPLean/PhysLean/blob/a763c59569121bc4fa4db24adf8d88cfc0fbfa6a/PhysLean/ClassicalMechanics/HarmonicOscillator/Basic.lean#L139"
+        "url": "https://github.com/HEPLean/PhysLean/blob/0354f43f69bbed2cee82d56feb18a99d31f3fbe6/PhysLean/ClassicalMechanics/HarmonicOscillator/Basic.lean#L139"
       },
       "metadata": {
         "blame_email_hash": "7187e3a9e9f5",
         "blame_date": "2025-06-28T08:23:46+00:00",
-        "inclusion_date": "2025-07-17T23:30:51.873090+00:00"
+        "inclusion_date": "2025-07-22T00:02:57.650744+00:00"
       },
-      "id": "bbfcde2067f925528e55f1025d210f6f794dceeb2b2cee9ab1499ef41ff08a2f"
+      "id": "6f2ad7d86be99cadaf688900dd6d35a8b5a398235fcb4503a60793e196f4b045"
     },
     {
       "repo": {
         "remote": "https://github.com/HEPLean/PhysLean",
         "branch": "master",
-        "commit": "a763c59569121bc4fa4db24adf8d88cfc0fbfa6a",
+        "commit": "0354f43f69bbed2cee82d56feb18a99d31f3fbe6",
         "lean_version": "v4.21.0"
       },
       "location": {
@@ -69317,20 +69317,20 @@
       },
       "debug_info": {
         "goal": "S : ClassicalMechanics.HarmonicOscillator\nx : Time \u2192 \u211d\n\u22a2 ClassicalMechanics.HarmonicOscillator.EquationOfMotion x \u2194\n    \u2200 (t : Time),\n      ClassicalMechanics.HarmonicOscillator.force S x t =\n        ClassicalMechanics.HarmonicOscillator.m S * deriv (fun t' => deriv x t') t",
-        "url": "https://github.com/HEPLean/PhysLean/blob/a763c59569121bc4fa4db24adf8d88cfc0fbfa6a/PhysLean/ClassicalMechanics/HarmonicOscillator/Basic.lean#L149"
+        "url": "https://github.com/HEPLean/PhysLean/blob/0354f43f69bbed2cee82d56feb18a99d31f3fbe6/PhysLean/ClassicalMechanics/HarmonicOscillator/Basic.lean#L149"
       },
       "metadata": {
         "blame_email_hash": "7187e3a9e9f5",
         "blame_date": "2025-06-28T08:23:46+00:00",
-        "inclusion_date": "2025-07-17T23:30:51.873090+00:00"
+        "inclusion_date": "2025-07-22T00:02:57.650744+00:00"
       },
-      "id": "e2ee631d67556bb26ab67031ac11be9c9a9ec106d87c03461e129f9dc9ec3e95"
+      "id": "8ed9cbeef3f73cd5b229485f90d3ac2b31467a217ba1a4b8597d205708a71283"
     },
     {
       "repo": {
         "remote": "https://github.com/HEPLean/PhysLean",
         "branch": "master",
-        "commit": "a763c59569121bc4fa4db24adf8d88cfc0fbfa6a",
+        "commit": "0354f43f69bbed2cee82d56feb18a99d31f3fbe6",
         "lean_version": "v4.21.0"
       },
       "location": {
@@ -69342,20 +69342,20 @@
       },
       "debug_info": {
         "goal": "x : Time \u2192 \u211d\n\u22a2 ClassicalMechanics.HarmonicOscillator.EquationOfMotion x \u2194 ClassicalMechanics.HarmonicOscillator.ExtremaOfAction x",
-        "url": "https://github.com/HEPLean/PhysLean/blob/a763c59569121bc4fa4db24adf8d88cfc0fbfa6a/PhysLean/ClassicalMechanics/HarmonicOscillator/Basic.lean#L167"
+        "url": "https://github.com/HEPLean/PhysLean/blob/0354f43f69bbed2cee82d56feb18a99d31f3fbe6/PhysLean/ClassicalMechanics/HarmonicOscillator/Basic.lean#L167"
       },
       "metadata": {
         "blame_email_hash": "7187e3a9e9f5",
         "blame_date": "2025-06-28T08:23:46+00:00",
-        "inclusion_date": "2025-07-17T23:30:51.873090+00:00"
+        "inclusion_date": "2025-07-22T00:02:57.650744+00:00"
       },
-      "id": "2463f9ee8a7941f3e3ba058d24bdc3c8e3d981a52906ab868477346dad5b83bb"
+      "id": "2a00d0dc6d4f45cd572e2c717e6b6d1c72e40023dc19b0c0c5dc71e4df34f20d"
     },
     {
       "repo": {
         "remote": "https://github.com/HEPLean/PhysLean",
         "branch": "master",
-        "commit": "a763c59569121bc4fa4db24adf8d88cfc0fbfa6a",
+        "commit": "0354f43f69bbed2cee82d56feb18a99d31f3fbe6",
         "lean_version": "v4.21.0"
       },
       "location": {
@@ -69367,20 +69367,20 @@
       },
       "debug_info": {
         "goal": "\ud835\udd5c : Type u_1\ninst\u271d\u2074 : RCLike \ud835\udd5c\nE : Type u_2\ninst\u271d\u00b3 : NormedAddCommGroup E\ninst\u271d\u00b2 : NormedSpace \ud835\udd5c E\ninst\u271d\u00b9 : InnerProductSpace' \ud835\udd5c E\nf : E \u2192 \ud835\udd5c\ng : E \u2192 E\nx : E\nhf : DifferentiableAt \ud835\udd5c f x\nhg : DifferentiableAt \ud835\udd5c g x\ninst\u271d : FiniteDimensional \ud835\udd5c E\n\u22a2 (LinearMap.trace \ud835\udd5c E) \u2191((fderiv \ud835\udd5c f x).smulRight (g x)) = inner \ud835\udd5c (adjFDeriv \ud835\udd5c f x 1) (g x)",
-        "url": "https://github.com/HEPLean/PhysLean/blob/a763c59569121bc4fa4db24adf8d88cfc0fbfa6a/PhysLean/Mathematics/Calculus/Divergence.lean#L139"
+        "url": "https://github.com/HEPLean/PhysLean/blob/0354f43f69bbed2cee82d56feb18a99d31f3fbe6/PhysLean/Mathematics/Calculus/Divergence.lean#L139"
       },
       "metadata": {
         "blame_email_hash": "c7c59fe619b9",
         "blame_date": "2025-07-01T07:53:27+02:00",
-        "inclusion_date": "2025-07-17T23:30:51.873090+00:00"
+        "inclusion_date": "2025-07-22T00:02:57.650744+00:00"
       },
-      "id": "b0d11a46a7e0ad9a78a80ac8a01679c7b506142d4ad92a9a1f6ee4c41171fc35"
+      "id": "3f080269396446713356f3f97f930f6b2ef202ba653b76720aa11529ad0cb206"
     },
     {
       "repo": {
         "remote": "https://github.com/HEPLean/PhysLean",
         "branch": "master",
-        "commit": "a763c59569121bc4fa4db24adf8d88cfc0fbfa6a",
+        "commit": "0354f43f69bbed2cee82d56feb18a99d31f3fbe6",
         "lean_version": "v4.21.0"
       },
       "location": {
@@ -69392,20 +69392,20 @@
       },
       "debug_info": {
         "goal": "X : Type u_1\ninst\u271d\u2078 : NormedAddCommGroup X\ninst\u271d\u2077 : NormedSpace \u211d X\ninst\u271d\u2076 : MeasurableSpace X\nV : Type u_2\ninst\u271d\u2075 : NormedAddCommGroup V\ninst\u271d\u2074 : NormedSpace \u211d V\ninst\u271d\u00b3 : InnerProductSpace' \u211d V\nf : X \u2192 V\n\u03bc : Measure X\ninst\u271d\u00b2 : IsFiniteMeasureOnCompacts \u03bc\ninst\u271d\u00b9 : \u03bc.IsOpenPosMeasure\ninst\u271d : OpensMeasurableSpace X\nhf : Continuous f\nhg : \u2200 (g : X \u2192 V), IsTestFunction g \u2192 \u222b (x : X), inner \u211d (f x) (g x) \u2202\u03bc = 0\n\u22a2 f = 0",
-        "url": "https://github.com/HEPLean/PhysLean/blob/a763c59569121bc4fa4db24adf8d88cfc0fbfa6a/PhysLean/Mathematics/VariationalCalculus/Basic.lean#L56"
+        "url": "https://github.com/HEPLean/PhysLean/blob/0354f43f69bbed2cee82d56feb18a99d31f3fbe6/PhysLean/Mathematics/VariationalCalculus/Basic.lean#L56"
       },
       "metadata": {
         "blame_email_hash": "7187e3a9e9f5",
         "blame_date": "2025-06-28T08:23:46+00:00",
-        "inclusion_date": "2025-07-17T23:30:51.873090+00:00"
+        "inclusion_date": "2025-07-22T00:02:57.650744+00:00"
       },
-      "id": "41d39fa718849acec43703ba6ae02d545909c9b0e141c87754b06385e90ff019"
+      "id": "88ea472abdcdd955d5ecfc53b6e085ec290928a2696f1c6edbef7c637581af8c"
     },
     {
       "repo": {
         "remote": "https://github.com/HEPLean/PhysLean",
         "branch": "master",
-        "commit": "a763c59569121bc4fa4db24adf8d88cfc0fbfa6a",
+        "commit": "0354f43f69bbed2cee82d56feb18a99d31f3fbe6",
         "lean_version": "v4.21.0"
       },
       "location": {
@@ -69417,20 +69417,20 @@
       },
       "debug_info": {
         "goal": "T : CondensedMatter.TightBindingChain\n\u03c8 \u03c6 : CondensedMatter.TightBindingChain.HilbertSpace T\n\u22a2 inner \u2102\n      (@DFunLike.coe\n        (CondensedMatter.TightBindingChain.HilbertSpace T \u2192\u2097[\u2102] CondensedMatter.TightBindingChain.HilbertSpace T)\n        (CondensedMatter.TightBindingChain.HilbertSpace T) (fun x => CondensedMatter.TightBindingChain.HilbertSpace T)\n        LinearMap.instFunLike (CondensedMatter.TightBindingChain.hamiltonian T) \u03c8)\n      \u03c6 =\n    inner \u2102 \u03c8\n      (@DFunLike.coe\n        (CondensedMatter.TightBindingChain.HilbertSpace T \u2192\u2097[\u2102] CondensedMatter.TightBindingChain.HilbertSpace T)\n        (CondensedMatter.TightBindingChain.HilbertSpace T) (fun x => CondensedMatter.TightBindingChain.HilbertSpace T)\n        LinearMap.instFunLike (CondensedMatter.TightBindingChain.hamiltonian T) \u03c6)",
-        "url": "https://github.com/HEPLean/PhysLean/blob/a763c59569121bc4fa4db24adf8d88cfc0fbfa6a/PhysLean/CondensedMatter/TightBindingChain/Basic.lean#L101"
+        "url": "https://github.com/HEPLean/PhysLean/blob/0354f43f69bbed2cee82d56feb18a99d31f3fbe6/PhysLean/CondensedMatter/TightBindingChain/Basic.lean#L101"
       },
       "metadata": {
         "blame_email_hash": "7187e3a9e9f5",
         "blame_date": "2025-06-28T08:23:46+00:00",
-        "inclusion_date": "2025-07-17T23:30:51.873090+00:00"
+        "inclusion_date": "2025-07-22T00:02:57.650744+00:00"
       },
-      "id": "379a2db320da143ffa7b7c9a964fdb7262042a96cd3d7139068c2cc732510c21"
+      "id": "aa1430890a4c9c0be38e768ce61fbbdace0ababf6f071bd47084bcb20de8e2e9"
     },
     {
       "repo": {
         "remote": "https://github.com/HEPLean/PhysLean",
         "branch": "master",
-        "commit": "a763c59569121bc4fa4db24adf8d88cfc0fbfa6a",
+        "commit": "0354f43f69bbed2cee82d56feb18a99d31f3fbe6",
         "lean_version": "v4.21.0"
       },
       "location": {
@@ -69442,20 +69442,20 @@
       },
       "debug_info": {
         "goal": "T : CondensedMatter.TightBindingChain\n\u22a2 Pairwise fun k1 k2 =>\n    inner \u2102 (CondensedMatter.TightBindingChain.energyEigenstate T k1)\n        (CondensedMatter.TightBindingChain.energyEigenstate T k2) =\n      0",
-        "url": "https://github.com/HEPLean/PhysLean/blob/a763c59569121bc4fa4db24adf8d88cfc0fbfa6a/PhysLean/CondensedMatter/TightBindingChain/Basic.lean#L308"
+        "url": "https://github.com/HEPLean/PhysLean/blob/0354f43f69bbed2cee82d56feb18a99d31f3fbe6/PhysLean/CondensedMatter/TightBindingChain/Basic.lean#L308"
       },
       "metadata": {
         "blame_email_hash": "7187e3a9e9f5",
         "blame_date": "2025-06-28T08:23:46+00:00",
-        "inclusion_date": "2025-07-17T23:30:51.873090+00:00"
+        "inclusion_date": "2025-07-22T00:02:57.650744+00:00"
       },
-      "id": "5b1f865b7d3a4bd2b54e4d863cf91f97fa4182b271efe3b2e4892e014d5694ed"
+      "id": "ef534f9239d047cf7b491c6765f2b204fe0d00f239fd4f918d6b21bbdb82f6f1"
     },
     {
       "repo": {
         "remote": "https://github.com/HEPLean/PhysLean",
         "branch": "master",
-        "commit": "a763c59569121bc4fa4db24adf8d88cfc0fbfa6a",
+        "commit": "0354f43f69bbed2cee82d56feb18a99d31f3fbe6",
         "lean_version": "v4.21.0"
       },
       "location": {
@@ -69467,20 +69467,20 @@
       },
       "debug_info": {
         "goal": "\ud835\udcd5 : FieldSpecification\n\u03c6s : List \ud835\udcd5.FieldOp\n\u03c6s\u039b\u2081 \u03c6s\u039b\u2082 : WickContraction \u03c6s.length\nh : WickContraction.Perm \ud835\udcd5 \u03c6s \u03c6s\u039b\u2081 \u03c6s\u039b\u2082\nhf : \u03c6s\u039b\u2081.IsFull\n\u22a2 \u03c6s\u039b\u2082.IsFull",
-        "url": "https://github.com/HEPLean/PhysLean/blob/a763c59569121bc4fa4db24adf8d88cfc0fbfa6a/PhysLean/QFT/PerturbationTheory/WickContraction/Perm.lean#L70"
+        "url": "https://github.com/HEPLean/PhysLean/blob/0354f43f69bbed2cee82d56feb18a99d31f3fbe6/PhysLean/QFT/PerturbationTheory/WickContraction/Perm.lean#L70"
       },
       "metadata": {
         "blame_email_hash": "7187e3a9e9f5",
         "blame_date": "2025-06-28T08:23:46+00:00",
-        "inclusion_date": "2025-07-17T23:30:51.873090+00:00"
+        "inclusion_date": "2025-07-22T00:02:57.650744+00:00"
       },
-      "id": "051d86247694721a0dc2ac1ba1dd7f378ad65063e7354d0b84174162a644484d"
+      "id": "1888d7fcb029b58a587d3dff26c44bb4fbf19e4c02e032f7fd3433a154b9ce97"
     },
     {
       "repo": {
         "remote": "https://github.com/HEPLean/PhysLean",
         "branch": "master",
-        "commit": "a763c59569121bc4fa4db24adf8d88cfc0fbfa6a",
+        "commit": "0354f43f69bbed2cee82d56feb18a99d31f3fbe6",
         "lean_version": "v4.21.0"
       },
       "location": {
@@ -69492,14 +69492,14 @@
       },
       "debug_info": {
         "goal": "\ud835\udcd5 : FieldSpecification\n\u03c6s : List \ud835\udcd5.FieldOp\n\u03c6s\u039b\u2081 \u03c6s\u039b\u2082 : WickContraction \u03c6s.length\nh : WickContraction.Perm \ud835\udcd5 \u03c6s \u03c6s\u039b\u2081 \u03c6s\u039b\u2082\n\u22a2 \u03c6s\u039b\u2081.uncontractedListGet.Perm \u03c6s\u039b\u2082.uncontractedListGet",
-        "url": "https://github.com/HEPLean/PhysLean/blob/a763c59569121bc4fa4db24adf8d88cfc0fbfa6a/PhysLean/QFT/PerturbationTheory/WickContraction/Perm.lean#L76"
+        "url": "https://github.com/HEPLean/PhysLean/blob/0354f43f69bbed2cee82d56feb18a99d31f3fbe6/PhysLean/QFT/PerturbationTheory/WickContraction/Perm.lean#L76"
       },
       "metadata": {
         "blame_email_hash": "7187e3a9e9f5",
         "blame_date": "2025-06-28T08:23:46+00:00",
-        "inclusion_date": "2025-07-17T23:30:51.873090+00:00"
+        "inclusion_date": "2025-07-22T00:02:57.650744+00:00"
       },
-      "id": "90c7e43c232d16533d33abed0d9f5e5b4a00a0f520e2997c0029df17dd034bb8"
+      "id": "1d4794bb1dc4837c4019cdbe192b197d202bd3122c8b27b1600ea239083d697b"
     },
     {
       "repo": {
@@ -69680,7 +69680,7 @@
       "repo": {
         "remote": "https://github.com/HEPLean/PhysLean",
         "branch": "master",
-        "commit": "a763c59569121bc4fa4db24adf8d88cfc0fbfa6a",
+        "commit": "0354f43f69bbed2cee82d56feb18a99d31f3fbe6",
         "lean_version": "v4.21.0"
       },
       "location": {
@@ -69692,20 +69692,20 @@
       },
       "debug_info": {
         "goal": "n : \u2115\nc : Fin n \u2192 Color\nv : realLorentzTensor.Tensor c\n\u039b : SpecialLinearGroup (Fin 2) \u2102\n\u22a2 \u039b \u2022 (realLorentzTensor.toComplex n c) v = (realLorentzTensor.toComplex n c) (toLorentzGroup \u039b \u2022 v)",
-        "url": "https://github.com/HEPLean/PhysLean/blob/a763c59569121bc4fa4db24adf8d88cfc0fbfa6a/PhysLean/Relativity/Tensors/RealTensor/ToComplex.lean#L112"
+        "url": "https://github.com/HEPLean/PhysLean/blob/0354f43f69bbed2cee82d56feb18a99d31f3fbe6/PhysLean/Relativity/Tensors/RealTensor/ToComplex.lean#L112"
       },
       "metadata": {
         "blame_email_hash": "7187e3a9e9f5",
         "blame_date": "2025-07-03T10:07:51+00:00",
-        "inclusion_date": "2025-07-17T23:30:51.873090+00:00"
+        "inclusion_date": "2025-07-22T00:02:57.650744+00:00"
       },
-      "id": "ad6660e38eb53f401d8f226c4c9482188a1fe7afebf898f73c52c708d1a7afb3"
+      "id": "1af5643157fbf61f474cf03e4f1226acac0331d0458ba8e9b7b7832472d0ae44"
     },
     {
       "repo": {
         "remote": "https://github.com/HEPLean/PhysLean",
         "branch": "master",
-        "commit": "a763c59569121bc4fa4db24adf8d88cfc0fbfa6a",
+        "commit": "0354f43f69bbed2cee82d56feb18a99d31f3fbe6",
         "lean_version": "v4.21.0"
       },
       "location": {
@@ -69717,14 +69717,14 @@
       },
       "debug_info": {
         "goal": "d : \u2115\nu v : \u2191(Velocity d)\n\u22a2 \u2191(LorentzGroup.generalizedBoost d u v) (Sum.inl 0) (Sum.inl 0) =\n    1 + \u2016(\u2191u).timeComponent \u2022 (\u2191v).spatialPart - (\u2191v).timeComponent \u2022 (\u2191u).spatialPart\u2016 / (1 + (minkowskiProduct \u2191u) \u2191v)",
-        "url": "https://github.com/HEPLean/PhysLean/blob/a763c59569121bc4fa4db24adf8d88cfc0fbfa6a/PhysLean/Relativity/LorentzGroup/Boosts/Generalized.lean#L474"
+        "url": "https://github.com/HEPLean/PhysLean/blob/0354f43f69bbed2cee82d56feb18a99d31f3fbe6/PhysLean/Relativity/LorentzGroup/Boosts/Generalized.lean#L474"
       },
       "metadata": {
         "blame_email_hash": "7187e3a9e9f5",
         "blame_date": "2025-07-03T10:07:51+00:00",
-        "inclusion_date": "2025-07-17T23:30:51.873090+00:00"
+        "inclusion_date": "2025-07-22T00:02:57.650744+00:00"
       },
-      "id": "4e756832b56860c2e5b87ab76dd5a490b82ff05875c6878926a78a384f9ea7b7"
+      "id": "b7a22a729d8d92bd85197bde8061598d93ef490cf47e6b2aca8140071b27cc67"
     },
     {
       "repo": {
@@ -72475,6 +72475,356 @@
         "inclusion_date": "2025-07-13T23:20:18.124737+00:00"
       },
       "id": "eedcad1940c6d68f4a23959010bddfe4ebc5b21c1174910a92a7f9142a626aa2"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+        "branch": "main",
+        "commit": "e99e6f7b4a57098ded666cd0ed64aae7078440a3",
+        "lean_version": "v4.21.0"
+      },
+      "location": {
+        "path": "PrimeNumberTheoremAnd/MediumPNT.lean",
+        "start_line": 6587,
+        "start_column": 28,
+        "end_line": 6587,
+        "end_column": 33
+      },
+      "debug_info": {
+        "goal": "SmoothingF : \u211d \u2192 \u211d\nsuppSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\nContDiffSmoothingF : ContDiff \u211d 1 SmoothingF\n\u03c3\u2082 : \u211d\nh_logDeriv_holo : HolomorphicOn (fun s => deriv riemannZeta s / riemannZeta s) (uIcc \u03c3\u2082 2 \u00d7\u2102 uIcc (-3) 3 \\ {1})\nh\u03c3\u2082 : \u03c3\u2082 \u2208 Ioo 0 1\n\u03c3\u2082_ge_half : 1 / 2 \u2264 \u03c3\u2082\nA C\u03b6 : \u211d\nhC\u03b6 : LogDerivZetaHasBound A C\u03b6\nC\u03b6pos : 0 < C\u03b6\nhA : A \u2208 Ioc 0 (1 / 2)\nreOne : re 1 = 1\nimOne : im 1 = 0\nreThree : re 3 = 3\nimThree : im 3 = 0\nelt3 : Real.exp 1 < 3\nS : Set \u211d := \u22ef\nC' : \u211d := \u22ef\nbddAboveS : BddAbove S\nCPrimeNonneg : 0 \u2264 C'\nD : \u211d\nDpos : 0 < D\nMellinSmooth1bBound :\n  \u2200 (\u03c3\u2081 : \u211d),\n    0 < \u03c3\u2081 \u2192\n      \u2200 (s : \u2102),\n        \u03c3\u2081 \u2264 s.re \u2192\n          s.re \u2264 2 \u2192\n            \u2200 (\u03b5 : \u211d), 0 < \u03b5 \u2192 \u03b5 < 1 \u2192 \u2016MellinTransform (fun x => \u2191(Smooth1 SmoothingF \u03b5 x)) s\u2016 \u2264 D * (\u03b5 * \u2016s\u2016 ^ 2)\u207b\u00b9\nC : \u211d := \u22ef\nsInfPos : 0 < sInf ((fun t => \u2016\u2191\u03c3\u2082 + \u2191t * (1 - \u2191\u03c3\u2082) - 3 * I\u2016\u208a ^ 2) '' Icc 0 1)\nCpos : 0 \u2264 C\nX : \u211d\nX_gt_three : 3 < X\n\u03b5 : \u211d\n\u03b5_pos : 0 < \u03b5\n\u03b5_lt_one : \u03b5 < 1\nTlb : \u211d := \u22ef\nthis\u271d : 3 < Tlb\nT : \u211d\nT_gt_Tlb : Tlb < T\n\u03c3\u2081 : \u211d := \u22ef\n\u03c3\u2082_le_\u03c3\u2081 : \u03c3\u2082 \u2264 \u03c3\u2081\nmin\u03c3\u2082\u03c3\u2081 : min \u03c3\u2082 \u03c3\u2081 = \u03c3\u2082\nmax\u03c3\u2082\u03c3\u2081 : max \u03c3\u2082 \u03c3\u2081 = \u03c3\u2081\n\u03c3\u2081_lt_one : \u03c3\u2081 < 1\nthis : 1 * C * X * X ^ (-A / Real.log T ^ 9) / \u03b5 = 1 * (C * X * X ^ (-A / Real.log T ^ 9) / \u03b5)\nf : \u211d \u2192 \u2102 := \u22ef\ntemp :\n  \u2016\u222b (\u03c3 : \u211d) in \u03c3\u2082..\u03c3\u2081,\n        -deriv riemannZeta (\u2191\u03c3 - 3 * I) / riemannZeta (\u2191\u03c3 - 3 * I) *\n            MellinTransform (fun x => \u2191(Smooth1 SmoothingF \u03b5 x)) (\u2191\u03c3 - 3 * I) *\n          \u2191X ^ (\u2191\u03c3 - 3 * I)\u2016 \u2264\n    C * X * X ^ (-A / Real.log T ^ 9) / \u03b5 * |\u03c3\u2081 - \u03c3\u2082|\n\u22a2 |\u03c3\u2081 - \u03c3\u2082| \u2264 1",
+        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/e99e6f7b4a57098ded666cd0ed64aae7078440a3/PrimeNumberTheoremAnd/MediumPNT.lean#L6587"
+      },
+      "metadata": {
+        "blame_email_hash": "4bcdc021face",
+        "blame_date": "2025-07-21T17:30:26-04:00",
+        "inclusion_date": "2025-07-21T23:21:07.188403+00:00"
+      },
+      "id": "71bd7b8e56d34bef836c48dd26334b48d018ca76f5e39e3a867ca751c55d755d"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+        "branch": "main",
+        "commit": "e99e6f7b4a57098ded666cd0ed64aae7078440a3",
+        "lean_version": "v4.21.0"
+      },
+      "location": {
+        "path": "PrimeNumberTheoremAnd/MediumPNT.lean",
+        "start_line": 6723,
+        "start_column": 6,
+        "end_line": 6723,
+        "end_column": 11
+      },
+      "debug_info": {
+        "goal": "reOne : re 1 = 1\nimOne : im 1 = 0\nreThree : re 3 = 3\nimThree : im 3 = 0\nelt3 : Real.exp 1 < 3\nSmoothingF : \u211d \u2192 \u211d\nsupportSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\nContDiffSmoothingF : ContDiff \u211d 1 SmoothingF\n\u03c3\u2082' : \u211d\n\u03c3\u2082'_lt_one : \u03c3\u2082' < 1\nholoOn : HolomorphicOn (fun s => deriv riemannZeta s / riemannZeta s) (uIcc \u03c3\u2082' 2 \u00d7\u2102 uIcc (-3) 3 \\ {1})\n\u03c3\u2082 : \u211d := max (1 / 2) \u03c3\u2082'\n\u03c3\u2082InIoo : \u03c3\u2082 \u2208 Ioo 0 1\nC' : \u211d :=\n  sSup\n    ((fun t => \u2191\u2016-deriv riemannZeta (\u2191\u03c3\u2082 + \u2191t * (1 - \u2191\u03c3\u2082) + 3 * I) / riemannZeta (\u2191\u03c3\u2082 + \u2191t * (1 - \u2191\u03c3\u2082) + 3 * I)\u2016\u208a) ''\n      Icc 0 1)\nS : Set \u211d :=\n  (fun t => \u2191\u2016-deriv riemannZeta (\u2191\u03c3\u2082 + \u2191t * (1 - \u2191\u03c3\u2082) + 3 * I) / riemannZeta (\u2191\u03c3\u2082 + \u2191t * (1 - \u2191\u03c3\u2082) + 3 * I)\u2016\u208a) ''\n    Icc 0 1\nsSupS :\n  sSup\n      ((fun t => \u2191\u2016-deriv riemannZeta (\u2191\u03c3\u2082 + \u2191t * (1 - \u2191\u03c3\u2082) + 3 * I) / riemannZeta (\u2191\u03c3\u2082 + \u2191t * (1 - \u2191\u03c3\u2082) + 3 * I)\u2016\u208a) ''\n        Icc 0 1) =\n    sSup S\nbddAboveS : BddAbove S\n\u22a2 \u2203 b \u2208 S, 0 < b",
+        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/e99e6f7b4a57098ded666cd0ed64aae7078440a3/PrimeNumberTheoremAnd/MediumPNT.lean#L6723"
+      },
+      "metadata": {
+        "blame_email_hash": "cb0b0d4d503a",
+        "blame_date": "2025-07-18T16:34:25-04:00",
+        "inclusion_date": "2025-07-21T23:21:07.188403+00:00"
+      },
+      "id": "95a56b203aa34366f9e35f600b6b3785cf89c236c50ecd45fec08b7dd79a49c1"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+        "branch": "main",
+        "commit": "e99e6f7b4a57098ded666cd0ed64aae7078440a3",
+        "lean_version": "v4.21.0"
+      },
+      "location": {
+        "path": "PrimeNumberTheoremAnd/MediumPNT.lean",
+        "start_line": 7019,
+        "start_column": 6,
+        "end_line": 7019,
+        "end_column": 11
+      },
+      "debug_info": {
+        "goal": "reOne : re 1 = 1\nimOne : im 1 = 0\nreThree : re 3 = 3\nimThree : im 3 = 0\nelt3 : Real.exp 1 < 3\nSmoothingF : \u211d \u2192 \u211d\nsupportSmoothingF : support SmoothingF \u2286 Icc (1 / 2) 2\nSmoothingFnonneg : \u2200 x > 0, 0 \u2264 SmoothingF x\nmass_one : \u222b (x : \u211d) in Ioi 0, SmoothingF x / x = 1\nContDiffSmoothingF : ContDiff \u211d 1 SmoothingF\n\u03c3\u2082' : \u211d\n\u03c3\u2082'_lt_one : \u03c3\u2082' < 1\nholoOn : HolomorphicOn (fun s => deriv riemannZeta s / riemannZeta s) (uIcc \u03c3\u2082' 2 \u00d7\u2102 uIcc (-3) 3 \\ {1})\n\u03c3\u2082 : \u211d := max (1 / 2) \u03c3\u2082'\n\u03c3\u2082InIoo : \u03c3\u2082 \u2208 Ioo 0 1\nC' : \u211d :=\n  sSup\n    ((fun t => \u2191\u2016-deriv riemannZeta (\u2191\u03c3\u2082 + \u2191t * (1 - \u2191\u03c3\u2082) + 3 * I) / riemannZeta (\u2191\u03c3\u2082 + \u2191t * (1 - \u2191\u03c3\u2082) + 3 * I)\u2016\u208a) ''\n      Icc 0 1)\nS : Set \u211d :=\n  (fun t => \u2191\u2016-deriv riemannZeta (\u2191\u03c3\u2082 + \u2191t * (1 - \u2191\u03c3\u2082) + 3 * I) / riemannZeta (\u2191\u03c3\u2082 + \u2191t * (1 - \u2191\u03c3\u2082) + 3 * I)\u2016\u208a) ''\n    Icc 0 1\nsSupS :\n  sSup\n      ((fun t => \u2191\u2016-deriv riemannZeta (\u2191\u03c3\u2082 + \u2191t * (1 - \u2191\u03c3\u2082) + 3 * I) / riemannZeta (\u2191\u03c3\u2082 + \u2191t * (1 - \u2191\u03c3\u2082) + 3 * I)\u2016\u208a) ''\n        Icc 0 1) =\n    sSup S\nbddAboveS : BddAbove S\nCPrimePos : 0 < C'\nCPrimeNonneg : 0 \u2264 C'\nD : \u211d\nDpos : 0 < D\nMellinSmooth1bBound :\n  \u2200 (\u03c3\u2081 : \u211d),\n    0 < \u03c3\u2081 \u2192\n      \u2200 (s : \u2102),\n        \u03c3\u2081 \u2264 s.re \u2192\n          s.re \u2264 2 \u2192\n            \u2200 (\u03b5 : \u211d), 0 < \u03b5 \u2192 \u03b5 < 1 \u2192 \u2016MellinTransform (fun x => \u2191(Smooth1 SmoothingF \u03b5 x)) s\u2016 \u2264 D * (\u03b5 * \u2016s\u2016 ^ 2)\u207b\u00b9\nC : \u211d := C' * D / \u2191(sInf ((fun t => \u2016\u2191\u03c3\u2082 + \u2191t * (1 - \u2191\u03c3\u2082) + 3 * I\u2016\u208a ^ 2) '' Icc 0 1))\nsInfPos : 0 < sInf ((fun t => \u2016\u2191\u03c3\u2082 + \u2191t * (1 - \u2191\u03c3\u2082) + 3 * I\u2016\u208a ^ 2) '' Icc 0 1)\nCpos : 0 < C\nA : \u211d\nAbd : A \u2208 Ioc 0 (1 / 2)\nh\u271d :\n  \u2203 C,\n    \u2203 (_ : 0 < C),\n      \u2200 (\u03c3 T t : \u211d),\n        3 < |t| \u2192\n          |t| \u2264 T \u2192\n            \u03c3 \u2208 Ico (1 - A / Real.log T ^ 9) 1 \u2192\n              \u2016deriv riemannZeta (\u2191\u03c3 + \u2191t * I) / riemannZeta (\u2191\u03c3 + \u2191t * I)\u2016 \u2264 C * Real.log T ^ 9\nX : \u211d\nX_gt_three : 3 < X\n\u03b5 : \u211d\n\u03b5_pos : 0 < \u03b5\n\u03b5_lt_one : \u03b5 < 1\nTlb : \u211d := max 4 (max (Real.exp (A ^ 9\u207b\u00b9)) (Real.exp ((A / (1 - \u03c3\u2082')) ^ 9\u207b\u00b9)))\nthis\u271d : 3 < Tlb\nT : \u211d\nT_gt_Tlb : Tlb < T\n\u03c3\u2081 : \u211d := 1 - A / Real.log T ^ 9\n\u03c3\u2082_le_\u03c3\u2081 : \u03c3\u2082 \u2264 \u03c3\u2081\nmin\u03c3\u2082\u03c3\u2081 : min \u03c3\u2082 \u03c3\u2081 = \u03c3\u2082\nmax\u03c3\u2082\u03c3\u2081 : max \u03c3\u2082 \u03c3\u2081 = \u03c3\u2081\n\u03c3\u2081_lt_one : \u03c3\u2081 < 1\nthis : 1 * C * X * X ^ (-A / Real.log T ^ 9) / \u03b5 = 1 * (C * X * X ^ (-A / Real.log T ^ 9) / \u03b5)\nf : \u211d \u2192 \u2102 :=\n  fun \u03c3 =>\n    -deriv riemannZeta (\u2191\u03c3 + 3 * I) / riemannZeta (\u2191\u03c3 + 3 * I) *\n        MellinTransform (fun x => \u2191(Smooth1 SmoothingF \u03b5 x)) (\u2191\u03c3 + 3 * I) *\n      \u2191X ^ (\u2191\u03c3 + 3 * I)\ntemp :\n  \u2016\u222b (\u03c3 : \u211d) in \u03c3\u2082..\u03c3\u2081,\n        -deriv riemannZeta (\u2191\u03c3 + 3 * I) / riemannZeta (\u2191\u03c3 + 3 * I) *\n            MellinTransform (fun x => \u2191(Smooth1 SmoothingF \u03b5 x)) (\u2191\u03c3 + 3 * I) *\n          \u2191X ^ (\u2191\u03c3 + 3 * I)\u2016 \u2264\n    C * X * X ^ (-A / Real.log T ^ 9) / \u03b5 * |\u03c3\u2081 - \u03c3\u2082|\n\u22a2 C * X * X ^ (-A / Real.log T ^ 9) / \u03b5 * |\u03c3\u2081 - \u03c3\u2082| \u2264 C * X * X ^ (-A / Real.log T ^ 9) / \u03b5",
+        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/e99e6f7b4a57098ded666cd0ed64aae7078440a3/PrimeNumberTheoremAnd/MediumPNT.lean#L7019"
+      },
+      "metadata": {
+        "blame_email_hash": "4bcdc021face",
+        "blame_date": "2025-07-21T16:24:47-04:00",
+        "inclusion_date": "2025-07-21T23:21:07.188403+00:00"
+      },
+      "id": "655deb4b62d6366c87eadad7968135f27721a305f99058b2fe6590ce221d588f"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+        "branch": "main",
+        "commit": "e99e6f7b4a57098ded666cd0ed64aae7078440a3",
+        "lean_version": "v4.21.0"
+      },
+      "location": {
+        "path": "PrimeNumberTheoremAnd/MediumPNT.lean",
+        "start_line": 7333,
+        "start_column": 4,
+        "end_line": 7333,
+        "end_column": 9
+      },
+      "debug_info": {
+        "goal": "case h\n\u03bd : \u211d \u2192 \u211d\n\u03bd_supp : support \u03bd \u2286 Icc (1 / 2) 2\nContDiff1\u03bd : ContDiff \u211d 1 \u03bd\n\u03bd_nonneg : \u2200 x > 0, 0 \u2264 \u03bd x\n\u03bd_massOne : \u222b (x : \u211d) in Ioi 0, \u03bd x / x = 1\nc_close : \u211d\nc_close_pos : c_close > 0\nh_close :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 (\u03b5 : \u211d),\n        0 < \u03b5 \u2192 \u03b5 < 1 \u2192 2 < X * \u03b5 \u2192 \u2016SmoothedChebyshev \u03bd \u03b5 X - \u2191(ChebyshevPsi X)\u2016 \u2264 c_close * \u03b5 * X * Real.log X\nA C_bnd : \u211d\nC_bnd_pos : 0 < C_bnd\nA_in_Ioc : A \u2208 Ioc 0 (1 / 2)\nzeta_bnd : LogDerivZetaHasBound A C_bnd\nholo1 :\n  \u2200 (T : \u211d),\n    3 \u2264 T \u2192\n      HolomorphicOn (fun s => deriv riemannZeta s / riemannZeta s) (Icc (1 - A / Real.log T ^ 9) 2 \u00d7\u2102 Icc (-T) T \\ {1})\n\u03c3\u2082' : \u211d\n\u03c3\u2082 : \u211d := max \u03c3\u2082' (1 / 2)\n\u03c3\u2082_pos : 0 < \u03c3\u2082\n\u03c3\u2082_lt_one : \u03c3\u2082 < 1\nholo2 : HolomorphicOn (fun s => deriv riemannZeta s / riemannZeta s) (uIcc \u03c3\u2082 2 \u00d7\u2102 uIcc (-3) 3 \\ {1})\nc\u2081 : \u211d\nc\u2081pos : c\u2081 > 0\nhc\u2081 : \u2200 (\u03b5 : \u211d), 0 < \u03b5 \u2192 \u03b5 < 1 \u2192 \u2200 (X : \u211d), 3 < X \u2192 \u2200 {T : \u211d}, 3 < T \u2192 \u2016I\u2081 \u03bd \u03b5 X T\u2016 \u2264 c\u2081 * X * Real.log X / (\u03b5 * T)\nc\u2082 : \u211d\nc\u2082pos : 0 < c\u2082\nhc\u2082 :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 {\u03b5 : \u211d},\n        0 < \u03b5 \u2192\n          \u03b5 < 1 \u2192\n            \u2200 {T : \u211d},\n              3 < T \u2192\n                let \u03c3\u2081 := 1 - A / Real.log T ^ 9;\n                \u2016I\u2082 \u03bd \u03b5 T X \u03c3\u2081\u2016 \u2264 c\u2082 * X / (\u03b5 * T)\nc\u2083 : \u211d\nc\u2083pos : 0 < c\u2083\nhc\u2083 :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 {\u03b5 : \u211d},\n        0 < \u03b5 \u2192\n          \u03b5 < 1 \u2192\n            \u2200 {T : \u211d},\n              3 < T \u2192\n                let \u03c3\u2081 := 1 - A / Real.log T ^ 9;\n                \u2016I\u2083 \u03bd \u03b5 T X \u03c3\u2081\u2016 \u2264 c\u2083 * X * X ^ (-A / Real.log T ^ 9) / \u03b5\nc\u2085 : \u211d\nc\u2085pos : 0 < c\u2085\nhc\u2085 : \u2200 (X : \u211d), 3 < X \u2192 \u2200 {\u03b5 : \u211d}, 0 < \u03b5 \u2192 \u03b5 < 1 \u2192 \u2016I\u2085 \u03bd \u03b5 X \u03c3\u2082\u2016 \u2264 c\u2085 * X ^ \u03c3\u2082 / \u03b5\nc\u2087 : \u211d\nc\u2087pos : 0 < c\u2087\nhc\u2087 :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 {\u03b5 : \u211d},\n        0 < \u03b5 \u2192\n          \u03b5 < 1 \u2192\n            \u2200 {T : \u211d},\n              3 < T \u2192\n                let \u03c3\u2081 := 1 - A / Real.log T ^ 9;\n                \u2016I\u2087 \u03bd \u03b5 T X \u03c3\u2081\u2016 \u2264 c\u2087 * X * X ^ (-A / Real.log T ^ 9) / \u03b5\nc\u2088 : \u211d\nc\u2088pos : 0 < c\u2088\nhc\u2088 :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 {\u03b5 : \u211d},\n        0 < \u03b5 \u2192\n          \u03b5 < 1 \u2192\n            \u2200 {T : \u211d},\n              3 < T \u2192\n                let \u03c3\u2081 := 1 - A / Real.log T ^ 9;\n                \u2016I\u2088 \u03bd \u03b5 T X \u03c3\u2081\u2016 \u2264 c\u2088 * X / (\u03b5 * T)\nc\u2089 : \u211d\nc\u2089pos : c\u2089 > 0\nhc\u2089 : \u2200 {\u03b5 : \u211d}, 0 < \u03b5 \u2192 \u03b5 < 1 \u2192 \u2200 (X : \u211d), 3 < X \u2192 \u2200 {T : \u211d}, 3 < T \u2192 \u2016I\u2089 \u03bd \u03b5 X T\u2016 \u2264 c\u2089 * X * Real.log X / (\u03b5 * T)\nc : \u211d := sorry\ncpos : 0 < c\nC : \u211d := sorry\n\u03b5x : \u211d \u2192 \u211d := fun x => Real.exp (-c * Real.log x ^ (1 / 10))\nTx : \u211d \u2192 \u211d := fun x => Real.exp (2 * c * Real.log x ^ (1 / 10))\neventually_\u03b5x_lt_one : \u2200\u1da0 (x : \u211d) in atTop, \u03b5x x < 1\nx : \u211d\nhx : x \u2265 sorry\n\u22a2 2 < x * Real.exp (-c * Real.log x ^ (1 / 10))",
+        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/e99e6f7b4a57098ded666cd0ed64aae7078440a3/PrimeNumberTheoremAnd/MediumPNT.lean#L7333"
+      },
+      "metadata": {
+        "blame_email_hash": "bee09f470e62",
+        "blame_date": "2025-07-19T18:28:56+01:00",
+        "inclusion_date": "2025-07-21T23:21:07.188403+00:00"
+      },
+      "id": "a5d0c5f69ae14ca80ca34e35ab554973635047ec498adc9c1180a0c495704d17"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+        "branch": "main",
+        "commit": "e99e6f7b4a57098ded666cd0ed64aae7078440a3",
+        "lean_version": "v4.21.0"
+      },
+      "location": {
+        "path": "PrimeNumberTheoremAnd/MediumPNT.lean",
+        "start_line": 7334,
+        "start_column": 63,
+        "end_line": 7334,
+        "end_column": 68
+      },
+      "debug_info": {
+        "goal": "\u03bd : \u211d \u2192 \u211d\n\u03bd_supp : support \u03bd \u2286 Icc (1 / 2) 2\nContDiff1\u03bd : ContDiff \u211d 1 \u03bd\n\u03bd_nonneg : \u2200 x > 0, 0 \u2264 \u03bd x\n\u03bd_massOne : \u222b (x : \u211d) in Ioi 0, \u03bd x / x = 1\nc_close : \u211d\nc_close_pos : c_close > 0\nh_close :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 (\u03b5 : \u211d),\n        0 < \u03b5 \u2192 \u03b5 < 1 \u2192 2 < X * \u03b5 \u2192 \u2016SmoothedChebyshev \u03bd \u03b5 X - \u2191(ChebyshevPsi X)\u2016 \u2264 c_close * \u03b5 * X * Real.log X\nA C_bnd : \u211d\nC_bnd_pos : 0 < C_bnd\nA_in_Ioc : A \u2208 Ioc 0 (1 / 2)\nzeta_bnd : LogDerivZetaHasBound A C_bnd\nholo1 :\n  \u2200 (T : \u211d),\n    3 \u2264 T \u2192\n      HolomorphicOn (fun s => deriv riemannZeta s / riemannZeta s) (Icc (1 - A / Real.log T ^ 9) 2 \u00d7\u2102 Icc (-T) T \\ {1})\n\u03c3\u2082' : \u211d\n\u03c3\u2082 : \u211d := max \u03c3\u2082' (1 / 2)\n\u03c3\u2082_pos : 0 < \u03c3\u2082\n\u03c3\u2082_lt_one : \u03c3\u2082 < 1\nholo2 : HolomorphicOn (fun s => deriv riemannZeta s / riemannZeta s) (uIcc \u03c3\u2082 2 \u00d7\u2102 uIcc (-3) 3 \\ {1})\nc\u2081 : \u211d\nc\u2081pos : c\u2081 > 0\nhc\u2081 : \u2200 (\u03b5 : \u211d), 0 < \u03b5 \u2192 \u03b5 < 1 \u2192 \u2200 (X : \u211d), 3 < X \u2192 \u2200 {T : \u211d}, 3 < T \u2192 \u2016I\u2081 \u03bd \u03b5 X T\u2016 \u2264 c\u2081 * X * Real.log X / (\u03b5 * T)\nc\u2082 : \u211d\nc\u2082pos : 0 < c\u2082\nhc\u2082 :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 {\u03b5 : \u211d},\n        0 < \u03b5 \u2192\n          \u03b5 < 1 \u2192\n            \u2200 {T : \u211d},\n              3 < T \u2192\n                let \u03c3\u2081 := 1 - A / Real.log T ^ 9;\n                \u2016I\u2082 \u03bd \u03b5 T X \u03c3\u2081\u2016 \u2264 c\u2082 * X / (\u03b5 * T)\nc\u2083 : \u211d\nc\u2083pos : 0 < c\u2083\nhc\u2083 :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 {\u03b5 : \u211d},\n        0 < \u03b5 \u2192\n          \u03b5 < 1 \u2192\n            \u2200 {T : \u211d},\n              3 < T \u2192\n                let \u03c3\u2081 := 1 - A / Real.log T ^ 9;\n                \u2016I\u2083 \u03bd \u03b5 T X \u03c3\u2081\u2016 \u2264 c\u2083 * X * X ^ (-A / Real.log T ^ 9) / \u03b5\nc\u2085 : \u211d\nc\u2085pos : 0 < c\u2085\nhc\u2085 : \u2200 (X : \u211d), 3 < X \u2192 \u2200 {\u03b5 : \u211d}, 0 < \u03b5 \u2192 \u03b5 < 1 \u2192 \u2016I\u2085 \u03bd \u03b5 X \u03c3\u2082\u2016 \u2264 c\u2085 * X ^ \u03c3\u2082 / \u03b5\nc\u2087 : \u211d\nc\u2087pos : 0 < c\u2087\nhc\u2087 :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 {\u03b5 : \u211d},\n        0 < \u03b5 \u2192\n          \u03b5 < 1 \u2192\n            \u2200 {T : \u211d},\n              3 < T \u2192\n                let \u03c3\u2081 := 1 - A / Real.log T ^ 9;\n                \u2016I\u2087 \u03bd \u03b5 T X \u03c3\u2081\u2016 \u2264 c\u2087 * X * X ^ (-A / Real.log T ^ 9) / \u03b5\nc\u2088 : \u211d\nc\u2088pos : 0 < c\u2088\nhc\u2088 :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 {\u03b5 : \u211d},\n        0 < \u03b5 \u2192\n          \u03b5 < 1 \u2192\n            \u2200 {T : \u211d},\n              3 < T \u2192\n                let \u03c3\u2081 := 1 - A / Real.log T ^ 9;\n                \u2016I\u2088 \u03bd \u03b5 T X \u03c3\u2081\u2016 \u2264 c\u2088 * X / (\u03b5 * T)\nc\u2089 : \u211d\nc\u2089pos : c\u2089 > 0\nhc\u2089 : \u2200 {\u03b5 : \u211d}, 0 < \u03b5 \u2192 \u03b5 < 1 \u2192 \u2200 (X : \u211d), 3 < X \u2192 \u2200 {T : \u211d}, 3 < T \u2192 \u2016I\u2089 \u03bd \u03b5 X T\u2016 \u2264 c\u2089 * X * Real.log X / (\u03b5 * T)\nc : \u211d := sorry\ncpos : 0 < c\nC : \u211d := sorry\n\u03b5x : \u211d \u2192 \u211d := fun x => Real.exp (-c * Real.log x ^ (1 / 10))\nTx : \u211d \u2192 \u211d := fun x => Real.exp (2 * c * Real.log x ^ (1 / 10))\neventually_\u03b5x_lt_one : \u2200\u1da0 (x : \u211d) in atTop, \u03b5x x < 1\neventually_2_lt : \u2200\u1da0 (x : \u211d) in atTop, 2 < x * \u03b5x x\n\u22a2 \u2200\u1da0 (x : \u211d) in atTop, 3 < Tx x",
+        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/e99e6f7b4a57098ded666cd0ed64aae7078440a3/PrimeNumberTheoremAnd/MediumPNT.lean#L7334"
+      },
+      "metadata": {
+        "blame_email_hash": "bee09f470e62",
+        "blame_date": "2025-07-19T18:28:56+01:00",
+        "inclusion_date": "2025-07-21T23:21:07.188403+00:00"
+      },
+      "id": "d2204b59340512e39a5fc633f2a0537fadc50dfb88bf3b2cb06c4ecd3a4b60d8"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+        "branch": "main",
+        "commit": "e99e6f7b4a57098ded666cd0ed64aae7078440a3",
+        "lean_version": "v4.21.0"
+      },
+      "location": {
+        "path": "PrimeNumberTheoremAnd/MediumPNT.lean",
+        "start_line": 7335,
+        "start_column": 91,
+        "end_line": 7335,
+        "end_column": 96
+      },
+      "debug_info": {
+        "goal": "\u03bd : \u211d \u2192 \u211d\n\u03bd_supp : support \u03bd \u2286 Icc (1 / 2) 2\nContDiff1\u03bd : ContDiff \u211d 1 \u03bd\n\u03bd_nonneg : \u2200 x > 0, 0 \u2264 \u03bd x\n\u03bd_massOne : \u222b (x : \u211d) in Ioi 0, \u03bd x / x = 1\nc_close : \u211d\nc_close_pos : c_close > 0\nh_close :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 (\u03b5 : \u211d),\n        0 < \u03b5 \u2192 \u03b5 < 1 \u2192 2 < X * \u03b5 \u2192 \u2016SmoothedChebyshev \u03bd \u03b5 X - \u2191(ChebyshevPsi X)\u2016 \u2264 c_close * \u03b5 * X * Real.log X\nA C_bnd : \u211d\nC_bnd_pos : 0 < C_bnd\nA_in_Ioc : A \u2208 Ioc 0 (1 / 2)\nzeta_bnd : LogDerivZetaHasBound A C_bnd\nholo1 :\n  \u2200 (T : \u211d),\n    3 \u2264 T \u2192\n      HolomorphicOn (fun s => deriv riemannZeta s / riemannZeta s) (Icc (1 - A / Real.log T ^ 9) 2 \u00d7\u2102 Icc (-T) T \\ {1})\n\u03c3\u2082' : \u211d\n\u03c3\u2082 : \u211d := max \u03c3\u2082' (1 / 2)\n\u03c3\u2082_pos : 0 < \u03c3\u2082\n\u03c3\u2082_lt_one : \u03c3\u2082 < 1\nholo2 : HolomorphicOn (fun s => deriv riemannZeta s / riemannZeta s) (uIcc \u03c3\u2082 2 \u00d7\u2102 uIcc (-3) 3 \\ {1})\nc\u2081 : \u211d\nc\u2081pos : c\u2081 > 0\nhc\u2081 : \u2200 (\u03b5 : \u211d), 0 < \u03b5 \u2192 \u03b5 < 1 \u2192 \u2200 (X : \u211d), 3 < X \u2192 \u2200 {T : \u211d}, 3 < T \u2192 \u2016I\u2081 \u03bd \u03b5 X T\u2016 \u2264 c\u2081 * X * Real.log X / (\u03b5 * T)\nc\u2082 : \u211d\nc\u2082pos : 0 < c\u2082\nhc\u2082 :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 {\u03b5 : \u211d},\n        0 < \u03b5 \u2192\n          \u03b5 < 1 \u2192\n            \u2200 {T : \u211d},\n              3 < T \u2192\n                let \u03c3\u2081 := 1 - A / Real.log T ^ 9;\n                \u2016I\u2082 \u03bd \u03b5 T X \u03c3\u2081\u2016 \u2264 c\u2082 * X / (\u03b5 * T)\nc\u2083 : \u211d\nc\u2083pos : 0 < c\u2083\nhc\u2083 :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 {\u03b5 : \u211d},\n        0 < \u03b5 \u2192\n          \u03b5 < 1 \u2192\n            \u2200 {T : \u211d},\n              3 < T \u2192\n                let \u03c3\u2081 := 1 - A / Real.log T ^ 9;\n                \u2016I\u2083 \u03bd \u03b5 T X \u03c3\u2081\u2016 \u2264 c\u2083 * X * X ^ (-A / Real.log T ^ 9) / \u03b5\nc\u2085 : \u211d\nc\u2085pos : 0 < c\u2085\nhc\u2085 : \u2200 (X : \u211d), 3 < X \u2192 \u2200 {\u03b5 : \u211d}, 0 < \u03b5 \u2192 \u03b5 < 1 \u2192 \u2016I\u2085 \u03bd \u03b5 X \u03c3\u2082\u2016 \u2264 c\u2085 * X ^ \u03c3\u2082 / \u03b5\nc\u2087 : \u211d\nc\u2087pos : 0 < c\u2087\nhc\u2087 :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 {\u03b5 : \u211d},\n        0 < \u03b5 \u2192\n          \u03b5 < 1 \u2192\n            \u2200 {T : \u211d},\n              3 < T \u2192\n                let \u03c3\u2081 := 1 - A / Real.log T ^ 9;\n                \u2016I\u2087 \u03bd \u03b5 T X \u03c3\u2081\u2016 \u2264 c\u2087 * X * X ^ (-A / Real.log T ^ 9) / \u03b5\nc\u2088 : \u211d\nc\u2088pos : 0 < c\u2088\nhc\u2088 :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 {\u03b5 : \u211d},\n        0 < \u03b5 \u2192\n          \u03b5 < 1 \u2192\n            \u2200 {T : \u211d},\n              3 < T \u2192\n                let \u03c3\u2081 := 1 - A / Real.log T ^ 9;\n                \u2016I\u2088 \u03bd \u03b5 T X \u03c3\u2081\u2016 \u2264 c\u2088 * X / (\u03b5 * T)\nc\u2089 : \u211d\nc\u2089pos : c\u2089 > 0\nhc\u2089 : \u2200 {\u03b5 : \u211d}, 0 < \u03b5 \u2192 \u03b5 < 1 \u2192 \u2200 (X : \u211d), 3 < X \u2192 \u2200 {T : \u211d}, 3 < T \u2192 \u2016I\u2089 \u03bd \u03b5 X T\u2016 \u2264 c\u2089 * X * Real.log X / (\u03b5 * T)\nc : \u211d := sorry\ncpos : 0 < c\nC : \u211d := sorry\n\u03b5x : \u211d \u2192 \u211d := fun x => Real.exp (-c * Real.log x ^ (1 / 10))\nTx : \u211d \u2192 \u211d := fun x => Real.exp (2 * c * Real.log x ^ (1 / 10))\neventually_\u03b5x_lt_one : \u2200\u1da0 (x : \u211d) in atTop, \u03b5x x < 1\neventually_2_lt : \u2200\u1da0 (x : \u211d) in atTop, 2 < x * \u03b5x x\neventually_T_gt_3 : \u2200\u1da0 (x : \u211d) in atTop, 3 < Tx x\n\u22a2 \u2200\u1da0 (x : \u211d) in atTop, \u03c3\u2082 < 1 - A / Real.log (Tx x) ^ 9",
+        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/e99e6f7b4a57098ded666cd0ed64aae7078440a3/PrimeNumberTheoremAnd/MediumPNT.lean#L7335"
+      },
+      "metadata": {
+        "blame_email_hash": "bee09f470e62",
+        "blame_date": "2025-07-20T16:52:08+01:00",
+        "inclusion_date": "2025-07-21T23:21:07.188403+00:00"
+      },
+      "id": "57fb05da2e73aaf65ae7e933e667990eeeae274559a7cf8886fcc225ab8d18aa"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+        "branch": "main",
+        "commit": "e99e6f7b4a57098ded666cd0ed64aae7078440a3",
+        "lean_version": "v4.21.0"
+      },
+      "location": {
+        "path": "PrimeNumberTheoremAnd/MediumPNT.lean",
+        "start_line": 7388,
+        "start_column": 78,
+        "end_line": 7388,
+        "end_column": 83
+      },
+      "debug_info": {
+        "goal": "\u03bd : \u211d \u2192 \u211d\n\u03bd_supp : support \u03bd \u2286 Icc (1 / 2) 2\nContDiff1\u03bd : ContDiff \u211d 1 \u03bd\n\u03bd_nonneg : \u2200 x > 0, 0 \u2264 \u03bd x\n\u03bd_massOne : \u222b (x : \u211d) in Ioi 0, \u03bd x / x = 1\nc_close : \u211d\nc_close_pos : c_close > 0\nA C_bnd : \u211d\nC_bnd_pos : 0 < C_bnd\nA_in_Ioc : A \u2208 Ioc 0 (1 / 2)\nzeta_bnd : LogDerivZetaHasBound A C_bnd\n\u03c3\u2082' : \u211d\n\u03c3\u2082 : \u211d := max \u03c3\u2082' (1 / 2)\n\u03c3\u2082_pos : 0 < \u03c3\u2082\n\u03c3\u2082_lt_one : \u03c3\u2082 < 1\nholo2 : HolomorphicOn (fun s => deriv riemannZeta s / riemannZeta s) (Icc \u03c3\u2082 2 \u00d7\u2102 Icc (-3) 3 \\ {1})\nc\u2081 : \u211d\nc\u2081pos : c\u2081 > 0\nhc\u2081 : \u2200 (\u03b5 : \u211d), 0 < \u03b5 \u2192 \u03b5 < 1 \u2192 \u2200 (X : \u211d), 3 < X \u2192 \u2200 {T : \u211d}, 3 < T \u2192 \u2016I\u2081 \u03bd \u03b5 X T\u2016 \u2264 c\u2081 * X * Real.log X / (\u03b5 * T)\nc\u2082 : \u211d\nc\u2082pos : 0 < c\u2082\nhc\u2082 :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 {\u03b5 : \u211d},\n        0 < \u03b5 \u2192\n          \u03b5 < 1 \u2192\n            \u2200 {T : \u211d},\n              3 < T \u2192\n                let \u03c3\u2081 := 1 - A / Real.log T ^ 9;\n                \u2016I\u2082 \u03bd \u03b5 T X \u03c3\u2081\u2016 \u2264 c\u2082 * X / (\u03b5 * T)\nc\u2083 : \u211d\nc\u2083pos : 0 < c\u2083\nhc\u2083 :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 {\u03b5 : \u211d},\n        0 < \u03b5 \u2192\n          \u03b5 < 1 \u2192\n            \u2200 {T : \u211d},\n              3 < T \u2192\n                let \u03c3\u2081 := 1 - A / Real.log T ^ 9;\n                \u2016I\u2083 \u03bd \u03b5 T X \u03c3\u2081\u2016 \u2264 c\u2083 * X * X ^ (-A / Real.log T ^ 9) / \u03b5\nc\u2085 : \u211d\nc\u2085pos : 0 < c\u2085\nhc\u2085 : \u2200 (X : \u211d), 3 < X \u2192 \u2200 {\u03b5 : \u211d}, 0 < \u03b5 \u2192 \u03b5 < 1 \u2192 \u2016I\u2085 \u03bd \u03b5 X \u03c3\u2082\u2016 \u2264 c\u2085 * X ^ \u03c3\u2082 / \u03b5\nc\u2087 : \u211d\nc\u2087pos : 0 < c\u2087\nhc\u2087 :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 {\u03b5 : \u211d},\n        0 < \u03b5 \u2192\n          \u03b5 < 1 \u2192\n            \u2200 {T : \u211d},\n              3 < T \u2192\n                let \u03c3\u2081 := 1 - A / Real.log T ^ 9;\n                \u2016I\u2087 \u03bd \u03b5 T X \u03c3\u2081\u2016 \u2264 c\u2087 * X * X ^ (-A / Real.log T ^ 9) / \u03b5\nc\u2088 : \u211d\nc\u2088pos : 0 < c\u2088\nhc\u2088 :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 {\u03b5 : \u211d},\n        0 < \u03b5 \u2192\n          \u03b5 < 1 \u2192\n            \u2200 {T : \u211d},\n              3 < T \u2192\n                let \u03c3\u2081 := 1 - A / Real.log T ^ 9;\n                \u2016I\u2088 \u03bd \u03b5 T X \u03c3\u2081\u2016 \u2264 c\u2088 * X / (\u03b5 * T)\nc\u2089 : \u211d\nc\u2089pos : c\u2089 > 0\nhc\u2089 : \u2200 {\u03b5 : \u211d}, 0 < \u03b5 \u2192 \u03b5 < 1 \u2192 \u2200 (X : \u211d), 3 < X \u2192 \u2200 {T : \u211d}, 3 < T \u2192 \u2016I\u2089 \u03bd \u03b5 X T\u2016 \u2264 c\u2089 * X * Real.log X / (\u03b5 * T)\nc : \u211d := sorry\ncpos : 0 < c\nC : \u211d := sorry\n\u03b5x : \u211d \u2192 \u211d := fun x => Real.exp (-c * Real.log x ^ (1 / 10))\nTx : \u211d \u2192 \u211d := fun x => Real.exp (2 * c * Real.log x ^ (1 / 10))\neventually_\u03b5x_lt_one : \u2200\u1da0 (x : \u211d) in atTop, \u03b5x x < 1\neventually_2_lt : \u2200\u1da0 (x : \u211d) in atTop, 2 < x * \u03b5x x\neventually_T_gt_3 : \u2200\u1da0 (x : \u211d) in atTop, 3 < Tx x\neventually_\u03c3\u2082_lt_\u03c3\u2081 : \u2200\u1da0 (x : \u211d) in atTop, \u03c3\u2082 < 1 - A / Real.log (Tx x) ^ 9\nX : \u211d\nX_gt_3 : 3 < X\n\u03b5_lt_one : \u03b5x X < 1\n\u03b5_X : 2 < X * \u03b5x X\nT_gt_3 : 3 < Tx X\n\u03c3\u2082_lt_\u03c3\u2081 : \u03c3\u2082 < 1 - A / Real.log (Tx X) ^ 9\n\u03b5 : \u211d := \u03b5x X\n\u03b5_pos : 0 < \u03b5\nh_close : \u2016SmoothedChebyshev \u03bd \u03b5 X - \u2191(ChebyshevPsi X)\u2016 \u2264 c_close * \u03b5 * X * Real.log X\n\u03c8_\u03b5_of_X : \u2102 := SmoothedChebyshev \u03bd \u03b5 X\nT : \u211d := Tx X\nholo1 :\n  HolomorphicOn (fun s => deriv riemannZeta s / riemannZeta s) (Icc (1 - A / Real.log T ^ 9) 2 \u00d7\u2102 Icc (-T) T \\ {1})\n\u03c3\u2081 : \u211d := 1 - A / Real.log T ^ 9\n\u03c3\u2081pos : 0 < \u03c3\u2081\n\u03c3\u2081_lt_one : \u03c3\u2081 < 1\nholo2a : HolomorphicOn (SmoothedChebyshevIntegrand \u03bd \u03b5 X) (Icc \u03c3\u2082 2 \u00d7\u2102 Icc (-3) 3 \\ {1})\n\u03c8_\u03b5_diff :\n  \u2016\u03c8_\u03b5_of_X - MellinTransform (fun x => \u2191(Smooth1 \u03bd \u03b5 x)) 1 * \u2191X\u2016 \u2264\n    \u2016I\u2081 \u03bd \u03b5 X T\u2016 + \u2016I\u2082 \u03bd \u03b5 T X \u03c3\u2081\u2016 + \u2016I\u2083 \u03bd \u03b5 T X \u03c3\u2081\u2016 + \u2016I\u2084 \u03bd \u03b5 X \u03c3\u2081 \u03c3\u2082\u2016 + \u2016I\u2085 \u03bd \u03b5 X \u03c3\u2082\u2016 + \u2016I\u2086 \u03bd \u03b5 X \u03c3\u2081 \u03c3\u2082\u2016 +\n          \u2016I\u2087 \u03bd \u03b5 T X \u03c3\u2081\u2016 +\n        \u2016I\u2088 \u03bd \u03b5 T X \u03c3\u2081\u2016 +\n      \u2016I\u2089 \u03bd \u03b5 X T\u2016\n\u22a2 \u2203 C_main > 0, \u2016MellinTransform (fun x => \u2191(Smooth1 \u03bd \u03b5 x)) 1 * \u2191X - \u2191X\u2016 \u2264 C_main * \u03b5 * X",
+        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/e99e6f7b4a57098ded666cd0ed64aae7078440a3/PrimeNumberTheoremAnd/MediumPNT.lean#L7388"
+      },
+      "metadata": {
+        "blame_email_hash": "4bcdc021face",
+        "blame_date": "2025-06-27T13:01:00-04:00",
+        "inclusion_date": "2025-07-21T23:21:07.188403+00:00"
+      },
+      "id": "8b6440865812dcba1b86b95e5d554f1547400f58b4ee471585911ae7fcac9c03"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+        "branch": "main",
+        "commit": "e99e6f7b4a57098ded666cd0ed64aae7078440a3",
+        "lean_version": "v4.21.0"
+      },
+      "location": {
+        "path": "PrimeNumberTheoremAnd/MediumPNT.lean",
+        "start_line": 7428,
+        "start_column": 30,
+        "end_line": 7428,
+        "end_column": 35
+      },
+      "debug_info": {
+        "goal": "\u03bd : \u211d \u2192 \u211d\n\u03bd_supp : support \u03bd \u2286 Icc (1 / 2) 2\nContDiff1\u03bd : ContDiff \u211d 1 \u03bd\n\u03bd_nonneg : \u2200 x > 0, 0 \u2264 \u03bd x\n\u03bd_massOne : \u222b (x : \u211d) in Ioi 0, \u03bd x / x = 1\nc_close : \u211d\nc_close_pos : c_close > 0\nA C_bnd : \u211d\nC_bnd_pos : 0 < C_bnd\nA_in_Ioc : A \u2208 Ioc 0 (1 / 2)\nzeta_bnd : LogDerivZetaHasBound A C_bnd\n\u03c3\u2082' : \u211d\n\u03c3\u2082 : \u211d := max \u03c3\u2082' (1 / 2)\n\u03c3\u2082_pos : 0 < \u03c3\u2082\n\u03c3\u2082_lt_one : \u03c3\u2082 < 1\nholo2 : HolomorphicOn (fun s => deriv riemannZeta s / riemannZeta s) (Icc \u03c3\u2082 2 \u00d7\u2102 Icc (-3) 3 \\ {1})\nc\u2081 : \u211d\nc\u2081pos : c\u2081 > 0\nc\u2082 : \u211d\nc\u2082pos : 0 < c\u2082\nc\u2083 : \u211d\nc\u2083pos : 0 < c\u2083\nc\u2085 : \u211d\nc\u2085pos : 0 < c\u2085\nc\u2087 : \u211d\nc\u2087pos : 0 < c\u2087\nc\u2088 : \u211d\nc\u2088pos : 0 < c\u2088\nc\u2089 : \u211d\nc\u2089pos : c\u2089 > 0\nc : \u211d := sorry\ncpos : 0 < c\nC : \u211d := sorry\n\u03b5x : \u211d \u2192 \u211d := fun x => Real.exp (-c * Real.log x ^ (1 / 10))\nTx : \u211d \u2192 \u211d := fun x => Real.exp (2 * c * Real.log x ^ (1 / 10))\neventually_\u03b5x_lt_one : \u2200\u1da0 (x : \u211d) in atTop, \u03b5x x < 1\neventually_2_lt : \u2200\u1da0 (x : \u211d) in atTop, 2 < x * \u03b5x x\neventually_T_gt_3 : \u2200\u1da0 (x : \u211d) in atTop, 3 < Tx x\neventually_\u03c3\u2082_lt_\u03c3\u2081 : \u2200\u1da0 (x : \u211d) in atTop, \u03c3\u2082 < 1 - A / Real.log (Tx x) ^ 9\nX : \u211d\nX_gt_3 : 3 < X\n\u03b5_lt_one : \u03b5x X < 1\n\u03b5_X : 2 < X * \u03b5x X\nT_gt_3 : 3 < Tx X\n\u03c3\u2082_lt_\u03c3\u2081 : \u03c3\u2082 < 1 - A / Real.log (Tx X) ^ 9\n\u03b5 : \u211d := \u03b5x X\n\u03b5_pos : 0 < \u03b5\nh_close : \u2016SmoothedChebyshev \u03bd \u03b5 X - \u2191(ChebyshevPsi X)\u2016 \u2264 c_close * \u03b5 * X * Real.log X\n\u03c8_\u03b5_of_X : \u2102 := SmoothedChebyshev \u03bd \u03b5 X\nT : \u211d := Tx X\nholo1 :\n  HolomorphicOn (fun s => deriv riemannZeta s / riemannZeta s) (Icc (1 - A / Real.log T ^ 9) 2 \u00d7\u2102 Icc (-T) T \\ {1})\n\u03c3\u2081 : \u211d := 1 - A / Real.log T ^ 9\n\u03c3\u2081pos : 0 < \u03c3\u2081\n\u03c3\u2081_lt_one : \u03c3\u2081 < 1\nholo2a : HolomorphicOn (SmoothedChebyshevIntegrand \u03bd \u03b5 X) (Icc \u03c3\u2082 2 \u00d7\u2102 Icc (-3) 3 \\ {1})\n\u03c8_\u03b5_diff :\n  \u2016\u03c8_\u03b5_of_X - MellinTransform (fun x => \u2191(Smooth1 \u03bd \u03b5 x)) 1 * \u2191X\u2016 \u2264\n    \u2016I\u2081 \u03bd \u03b5 X T\u2016 + \u2016I\u2082 \u03bd \u03b5 T X \u03c3\u2081\u2016 + \u2016I\u2083 \u03bd \u03b5 T X \u03c3\u2081\u2016 + \u2016I\u2084 \u03bd \u03b5 X \u03c3\u2081 \u03c3\u2082\u2016 + \u2016I\u2085 \u03bd \u03b5 X \u03c3\u2082\u2016 + \u2016I\u2086 \u03bd \u03b5 X \u03c3\u2081 \u03c3\u2082\u2016 +\n          \u2016I\u2087 \u03bd \u03b5 T X \u03c3\u2081\u2016 +\n        \u2016I\u2088 \u03bd \u03b5 T X \u03c3\u2081\u2016 +\n      \u2016I\u2089 \u03bd \u03b5 X T\u2016\nC_main : \u211d\nC_main_pos : C_main > 0\nmain_diff : \u2016MellinTransform (fun x => \u2191(Smooth1 \u03bd \u03b5 x)) 1 * \u2191X - \u2191X\u2016 \u2264 C_main * \u03b5 * X\nhc\u2081 : \u2016I\u2081 \u03bd \u03b5 X (Tx X)\u2016 \u2264 c\u2081 * X * Real.log X / (\u03b5 * Tx X)\nhc\u2082 :\n  let \u03c3\u2081 := 1 - A / Real.log (Tx X) ^ 9;\n  \u2016I\u2082 \u03bd \u03b5 (Tx X) X \u03c3\u2081\u2016 \u2264 c\u2082 * X / (\u03b5 * Tx X)\nhc\u2083 :\n  let \u03c3\u2081 := 1 - A / Real.log (Tx X) ^ 9;\n  \u2016I\u2083 \u03bd \u03b5 (Tx X) X \u03c3\u2081\u2016 \u2264 c\u2083 * X * X ^ (-A / Real.log (Tx X) ^ 9) / \u03b5\nhc\u2085 : \u2016I\u2085 \u03bd \u03b5 X \u03c3\u2082\u2016 \u2264 c\u2085 * X ^ \u03c3\u2082 / \u03b5\nhc\u2087 :\n  let \u03c3\u2081 := 1 - A / Real.log (Tx X) ^ 9;\n  \u2016I\u2087 \u03bd \u03b5 (Tx X) X \u03c3\u2081\u2016 \u2264 c\u2087 * X * X ^ (-A / Real.log (Tx X) ^ 9) / \u03b5\nhc\u2088 :\n  let \u03c3\u2081 := 1 - A / Real.log (Tx X) ^ 9;\n  \u2016I\u2088 \u03bd \u03b5 (Tx X) X \u03c3\u2081\u2016 \u2264 c\u2088 * X / (\u03b5 * Tx X)\nhc\u2089 : \u2016I\u2089 \u03bd \u03b5 X (Tx X)\u2016 \u2264 c\u2089 * X * Real.log X / (\u03b5 * Tx X)\n\u22a2 c_close * \u03b5 * X * Real.log X + C_main * \u03b5 * X +\n      (c\u2081 * X * Real.log X / (\u03b5 * T) + c\u2082 * X / (\u03b5 * T) + c\u2083 * X * X ^ (-A / Real.log T ^ 9) / \u03b5 + \u2016I\u2084 \u03bd \u03b5 X \u03c3\u2081 \u03c3\u2082\u2016 +\n                c\u2085 * X ^ \u03c3\u2082 / \u03b5 +\n              \u2016I\u2086 \u03bd \u03b5 X \u03c3\u2081 \u03c3\u2082\u2016 +\n            c\u2087 * X * X ^ (-A / Real.log T ^ 9) / \u03b5 +\n          c\u2088 * X / (\u03b5 * T) +\n        c\u2089 * X * Real.log X / (\u03b5 * T)) =\n    sorry",
+        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/e99e6f7b4a57098ded666cd0ed64aae7078440a3/PrimeNumberTheoremAnd/MediumPNT.lean#L7428"
+      },
+      "metadata": {
+        "blame_email_hash": "4bcdc021face",
+        "blame_date": "2025-06-27T14:56:34-04:00",
+        "inclusion_date": "2025-07-21T23:21:07.188403+00:00"
+      },
+      "id": "4d97f905d48f8644e1317438d95464d955818740b10288158de3fb9354f265aa"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+        "branch": "main",
+        "commit": "e99e6f7b4a57098ded666cd0ed64aae7078440a3",
+        "lean_version": "v4.21.0"
+      },
+      "location": {
+        "path": "PrimeNumberTheoremAnd/MediumPNT.lean",
+        "start_line": 7431,
+        "start_column": 2,
+        "end_line": 7431,
+        "end_column": 7
+      },
+      "debug_info": {
+        "goal": "case h.intro.intro\n\u03bd : \u211d \u2192 \u211d\n\u03bd_supp : support \u03bd \u2286 Icc (1 / 2) 2\nContDiff1\u03bd : ContDiff \u211d 1 \u03bd\n\u03bd_nonneg : \u2200 x > 0, 0 \u2264 \u03bd x\n\u03bd_massOne : \u222b (x : \u211d) in Ioi 0, \u03bd x / x = 1\nc_close : \u211d\nc_close_pos : c_close > 0\nA C_bnd : \u211d\nC_bnd_pos : 0 < C_bnd\nA_in_Ioc : A \u2208 Ioc 0 (1 / 2)\nzeta_bnd : LogDerivZetaHasBound A C_bnd\n\u03c3\u2082' : \u211d\n\u03c3\u2082 : \u211d := max \u03c3\u2082' (1 / 2)\n\u03c3\u2082_pos : 0 < \u03c3\u2082\n\u03c3\u2082_lt_one : \u03c3\u2082 < 1\nholo2 : HolomorphicOn (fun s => deriv riemannZeta s / riemannZeta s) (Icc \u03c3\u2082 2 \u00d7\u2102 Icc (-3) 3 \\ {1})\nc\u2081 : \u211d\nc\u2081pos : c\u2081 > 0\nc\u2082 : \u211d\nc\u2082pos : 0 < c\u2082\nc\u2083 : \u211d\nc\u2083pos : 0 < c\u2083\nc\u2085 : \u211d\nc\u2085pos : 0 < c\u2085\nc\u2087 : \u211d\nc\u2087pos : 0 < c\u2087\nc\u2088 : \u211d\nc\u2088pos : 0 < c\u2088\nc\u2089 : \u211d\nc\u2089pos : c\u2089 > 0\nc : \u211d := sorry\ncpos : 0 < c\nC : \u211d := sorry\n\u03b5x : \u211d \u2192 \u211d := fun x => Real.exp (-c * Real.log x ^ (1 / 10))\nTx : \u211d \u2192 \u211d := fun x => Real.exp (2 * c * Real.log x ^ (1 / 10))\neventually_\u03b5x_lt_one : \u2200\u1da0 (x : \u211d) in atTop, \u03b5x x < 1\neventually_2_lt : \u2200\u1da0 (x : \u211d) in atTop, 2 < x * \u03b5x x\neventually_T_gt_3 : \u2200\u1da0 (x : \u211d) in atTop, 3 < Tx x\neventually_\u03c3\u2082_lt_\u03c3\u2081 : \u2200\u1da0 (x : \u211d) in atTop, \u03c3\u2082 < 1 - A / Real.log (Tx x) ^ 9\nX : \u211d\nX_gt_3 : 3 < X\n\u03b5_lt_one : \u03b5x X < 1\n\u03b5_X : 2 < X * \u03b5x X\nT_gt_3 : 3 < Tx X\n\u03c3\u2082_lt_\u03c3\u2081 : \u03c3\u2082 < 1 - A / Real.log (Tx X) ^ 9\n\u03b5 : \u211d := \u03b5x X\n\u03b5_pos : 0 < \u03b5\nh_close : \u2016SmoothedChebyshev \u03bd \u03b5 X - \u2191(ChebyshevPsi X)\u2016 \u2264 c_close * \u03b5 * X * Real.log X\n\u03c8_\u03b5_of_X : \u2102 := SmoothedChebyshev \u03bd \u03b5 X\nT : \u211d := Tx X\nholo1 :\n  HolomorphicOn (fun s => deriv riemannZeta s / riemannZeta s) (Icc (1 - A / Real.log T ^ 9) 2 \u00d7\u2102 Icc (-T) T \\ {1})\n\u03c3\u2081 : \u211d := 1 - A / Real.log T ^ 9\n\u03c3\u2081pos : 0 < \u03c3\u2081\n\u03c3\u2081_lt_one : \u03c3\u2081 < 1\nholo2a : HolomorphicOn (SmoothedChebyshevIntegrand \u03bd \u03b5 X) (Icc \u03c3\u2082 2 \u00d7\u2102 Icc (-3) 3 \\ {1})\n\u03c8_\u03b5_diff :\n  \u2016\u03c8_\u03b5_of_X - MellinTransform (fun x => \u2191(Smooth1 \u03bd \u03b5 x)) 1 * \u2191X\u2016 \u2264\n    \u2016I\u2081 \u03bd \u03b5 X T\u2016 + \u2016I\u2082 \u03bd \u03b5 T X \u03c3\u2081\u2016 + \u2016I\u2083 \u03bd \u03b5 T X \u03c3\u2081\u2016 + \u2016I\u2084 \u03bd \u03b5 X \u03c3\u2081 \u03c3\u2082\u2016 + \u2016I\u2085 \u03bd \u03b5 X \u03c3\u2082\u2016 + \u2016I\u2086 \u03bd \u03b5 X \u03c3\u2081 \u03c3\u2082\u2016 +\n          \u2016I\u2087 \u03bd \u03b5 T X \u03c3\u2081\u2016 +\n        \u2016I\u2088 \u03bd \u03b5 T X \u03c3\u2081\u2016 +\n      \u2016I\u2089 \u03bd \u03b5 X T\u2016\nC_main : \u211d\nC_main_pos : C_main > 0\nmain_diff : \u2016MellinTransform (fun x => \u2191(Smooth1 \u03bd \u03b5 x)) 1 * \u2191X - \u2191X\u2016 \u2264 C_main * \u03b5 * X\nhc\u2081 : \u2016I\u2081 \u03bd \u03b5 X (Tx X)\u2016 \u2264 c\u2081 * X * Real.log X / (\u03b5 * Tx X)\nhc\u2082 :\n  let \u03c3\u2081 := 1 - A / Real.log (Tx X) ^ 9;\n  \u2016I\u2082 \u03bd \u03b5 (Tx X) X \u03c3\u2081\u2016 \u2264 c\u2082 * X / (\u03b5 * Tx X)\nhc\u2083 :\n  let \u03c3\u2081 := 1 - A / Real.log (Tx X) ^ 9;\n  \u2016I\u2083 \u03bd \u03b5 (Tx X) X \u03c3\u2081\u2016 \u2264 c\u2083 * X * X ^ (-A / Real.log (Tx X) ^ 9) / \u03b5\nhc\u2085 : \u2016I\u2085 \u03bd \u03b5 X \u03c3\u2082\u2016 \u2264 c\u2085 * X ^ \u03c3\u2082 / \u03b5\nhc\u2087 :\n  let \u03c3\u2081 := 1 - A / Real.log (Tx X) ^ 9;\n  \u2016I\u2087 \u03bd \u03b5 (Tx X) X \u03c3\u2081\u2016 \u2264 c\u2087 * X * X ^ (-A / Real.log (Tx X) ^ 9) / \u03b5\nhc\u2088 :\n  let \u03c3\u2081 := 1 - A / Real.log (Tx X) ^ 9;\n  \u2016I\u2088 \u03bd \u03b5 (Tx X) X \u03c3\u2081\u2016 \u2264 c\u2088 * X / (\u03b5 * Tx X)\nhc\u2089 : \u2016I\u2089 \u03bd \u03b5 X (Tx X)\u2016 \u2264 c\u2089 * X * Real.log X / (\u03b5 * Tx X)\nthis : \u2016ChebyshevPsi X - X\u2016 \u2264 sorry\n\u22a2 \u2016(ChebyshevPsi - id) X\u2016 \u2264 C * \u2016X * Real.exp (-c * Real.log X ^ (1 / 10))\u2016",
+        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/e99e6f7b4a57098ded666cd0ed64aae7078440a3/PrimeNumberTheoremAnd/MediumPNT.lean#L7431"
+      },
+      "metadata": {
+        "blame_email_hash": "4bcdc021face",
+        "blame_date": "2024-03-11T23:23:22-04:00",
+        "inclusion_date": "2025-07-21T23:21:07.188403+00:00"
+      },
+      "id": "589a15903655d46fc3567d6fd74361fc9d6421a9aff05ec0bdf1eda3f08e7988"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd",
+        "branch": "main",
+        "commit": "e99e6f7b4a57098ded666cd0ed64aae7078440a3",
+        "lean_version": "v4.21.0"
+      },
+      "location": {
+        "path": "PrimeNumberTheoremAnd/MediumPNT.lean",
+        "start_line": 7313,
+        "start_column": 23,
+        "end_line": 7313,
+        "end_column": 28
+      },
+      "debug_info": {
+        "goal": "\u03bd : \u211d \u2192 \u211d\n\u03bd_supp : support \u03bd \u2286 Icc (1 / 2) 2\nContDiff1\u03bd : ContDiff \u211d 1 \u03bd\n\u03bd_nonneg : \u2200 x > 0, 0 \u2264 \u03bd x\n\u03bd_massOne : \u222b (x : \u211d) in Ioi 0, \u03bd x / x = 1\nc_close : \u211d\nc_close_pos : c_close > 0\nh_close :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 (\u03b5 : \u211d),\n        0 < \u03b5 \u2192 \u03b5 < 1 \u2192 2 < X * \u03b5 \u2192 \u2016SmoothedChebyshev \u03bd \u03b5 X - \u2191(ChebyshevPsi X)\u2016 \u2264 c_close * \u03b5 * X * Real.log X\nA C_bnd : \u211d\nC_bnd_pos : 0 < C_bnd\nA_in_Ioc : A \u2208 Ioc 0 (1 / 2)\nzeta_bnd : LogDerivZetaHasBound A C_bnd\nholo1 :\n  \u2200 (T : \u211d),\n    3 \u2264 T \u2192\n      HolomorphicOn (fun s => deriv riemannZeta s / riemannZeta s) (Icc (1 - A / Real.log T ^ 9) 2 \u00d7\u2102 Icc (-T) T \\ {1})\n\u03c3\u2082' : \u211d\n\u03c3\u2082 : \u211d := \u22ef\n\u03c3\u2082_pos : 0 < \u03c3\u2082\n\u03c3\u2082_lt_one : \u03c3\u2082 < 1\nholo2 : HolomorphicOn (fun s => deriv riemannZeta s / riemannZeta s) (uIcc \u03c3\u2082 2 \u00d7\u2102 uIcc (-3) 3 \\ {1})\nc\u2081 : \u211d\nc\u2081pos : c\u2081 > 0\nhc\u2081 : \u2200 (\u03b5 : \u211d), 0 < \u03b5 \u2192 \u03b5 < 1 \u2192 \u2200 (X : \u211d), 3 < X \u2192 \u2200 {T : \u211d}, 3 < T \u2192 \u2016I\u2081 \u03bd \u03b5 X T\u2016 \u2264 c\u2081 * X * Real.log X / (\u03b5 * T)\nc\u2082 : \u211d\nc\u2082pos : 0 < c\u2082\nhc\u2082 :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 {\u03b5 : \u211d},\n        0 < \u03b5 \u2192\n          \u03b5 < 1 \u2192\n            \u2200 {T : \u211d},\n              3 < T \u2192\n                let \u03c3\u2081 := 1 - A / Real.log T ^ 9;\n                \u2016I\u2082 \u03bd \u03b5 T X \u03c3\u2081\u2016 \u2264 c\u2082 * X / (\u03b5 * T)\nc\u2083 : \u211d\nc\u2083pos : 0 < c\u2083\nhc\u2083 :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 {\u03b5 : \u211d},\n        0 < \u03b5 \u2192\n          \u03b5 < 1 \u2192\n            \u2200 {T : \u211d},\n              3 < T \u2192\n                let \u03c3\u2081 := 1 - A / Real.log T ^ 9;\n                \u2016I\u2083 \u03bd \u03b5 T X \u03c3\u2081\u2016 \u2264 c\u2083 * X * X ^ (-A / Real.log T ^ 9) / \u03b5\nc\u2085 : \u211d\nc\u2085pos : 0 < c\u2085\nhc\u2085 : \u2200 (X : \u211d), 3 < X \u2192 \u2200 {\u03b5 : \u211d}, 0 < \u03b5 \u2192 \u03b5 < 1 \u2192 \u2016I\u2085 \u03bd \u03b5 X \u03c3\u2082\u2016 \u2264 c\u2085 * X ^ \u03c3\u2082 / \u03b5\nc\u2087 : \u211d\nc\u2087pos : 0 < c\u2087\nhc\u2087 :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 {\u03b5 : \u211d},\n        0 < \u03b5 \u2192\n          \u03b5 < 1 \u2192\n            \u2200 {T : \u211d},\n              3 < T \u2192\n                let \u03c3\u2081 := 1 - A / Real.log T ^ 9;\n                \u2016I\u2087 \u03bd \u03b5 T X \u03c3\u2081\u2016 \u2264 c\u2087 * X * X ^ (-A / Real.log T ^ 9) / \u03b5\nc\u2088 : \u211d\nc\u2088pos : 0 < c\u2088\nhc\u2088 :\n  \u2200 (X : \u211d),\n    3 < X \u2192\n      \u2200 {\u03b5 : \u211d},\n        0 < \u03b5 \u2192\n          \u03b5 < 1 \u2192\n            \u2200 {T : \u211d},\n              3 < T \u2192\n                let \u03c3\u2081 := 1 - A / Real.log T ^ 9;\n                \u2016I\u2088 \u03bd \u03b5 T X \u03c3\u2081\u2016 \u2264 c\u2088 * X / (\u03b5 * T)\nc\u2089 : \u211d\nc\u2089pos : c\u2089 > 0\nhc\u2089 : \u2200 {\u03b5 : \u211d}, 0 < \u03b5 \u2192 \u03b5 < 1 \u2192 \u2200 (X : \u211d), 3 < X \u2192 \u2200 {T : \u211d}, 3 < T \u2192 \u2016I\u2089 \u03bd \u03b5 X T\u2016 \u2264 c\u2089 * X * Real.log X / (\u03b5 * T)\nc : \u211d := \u22ef\n\u22a2 0 < c",
+        "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/e99e6f7b4a57098ded666cd0ed64aae7078440a3/PrimeNumberTheoremAnd/MediumPNT.lean#L7313"
+      },
+      "metadata": {
+        "blame_email_hash": "bee09f470e62",
+        "blame_date": "2025-07-19T18:28:56+01:00",
+        "inclusion_date": "2025-07-21T23:21:07.188403+00:00"
+      },
+      "id": "3a154bc58bb26d45238d1ca77a0a303e38b44b3c31ae93f0b446a88bbe09b06b"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/HEPLean/PhysLean",
+        "branch": "Strings-ACC",
+        "commit": "d569dfde8b280c659b2ae068e2c6a9c889108b21",
+        "lean_version": "v4.21.0"
+      },
+      "location": {
+        "path": "PhysLean/StringTheory/FTheory/SU5U1/Quanta/AnomalyCancellation/Charges.lean",
+        "start_line": 59,
+        "start_column": 2,
+        "end_line": 59,
+        "end_column": 7
+      },
+      "debug_info": {
+        "goal": "\ud835\udce9 : Type\ninst\u271d\u00b3 : AddCommGroup \ud835\udce9\ninst\u271d\u00b2 : DecidableEq \ud835\udce9\nx : Charges \ud835\udce9\n\ud835\udce9' : Type\ninst\u271d\u00b9 : DecidableEq \ud835\udce9'\ninst\u271d : AddCommGroup \ud835\udce9'\nf : \ud835\udce9 \u2192 \ud835\udce9'\n\u22a2 FTheory.SU5U1.Charges.AnomalyFreeCharges \ud835\udce9 inst\u271d\u00b3 inst\u271d\u00b2 x \ud835\udce9' inst\u271d\u00b9 inst\u271d f \u2194\n    \u2203 Q, AnomalyCancellationGen \ud835\udce9' f Q.1 Q.2.1 Q.2.2.1 Q.2.2.2 \u2227 Q.toCharges = x",
+        "url": "https://github.com/HEPLean/PhysLean/blob/d569dfde8b280c659b2ae068e2c6a9c889108b21/PhysLean/StringTheory/FTheory/SU5U1/Quanta/AnomalyCancellation/Charges.lean#L59"
+      },
+      "metadata": {
+        "blame_email_hash": "7187e3a9e9f5",
+        "blame_date": "2025-07-21T09:57:16+00:00",
+        "inclusion_date": "2025-07-21T23:54:54.110650+00:00"
+      },
+      "id": "8dae327acf9553d875b8fc94de2a7326a25e6c946e299b96fb2ae4b9fc0552a9"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/HEPLean/PhysLean",
+        "branch": "lodevermeulen/todos/harmonic-potential",
+        "commit": "6b39f9efbf86fbe107473438708ee406b6663304",
+        "lean_version": "v4.21.0"
+      },
+      "location": {
+        "path": "PhysLean/ClassicalMechanics/HarmonicOscillator/Solution.lean",
+        "start_line": 350,
+        "start_column": 23,
+        "end_line": 350,
+        "end_column": 28
+      },
+      "debug_info": {
+        "goal": "S : HarmonicOscillator\nIC : ClassicalMechanics.HarmonicOscillator.InitialConditions\nx : Time \u2192 Space 1\n\u22a2 EquationOfMotion x \u2227\n      x 0 = ClassicalMechanics.HarmonicOscillator.InitialConditions.x\u2080 IC \u2227\n        deriv x 0 = ClassicalMechanics.HarmonicOscillator.InitialConditions.v\u2080 IC \u2192\n    x = ClassicalMechanics.HarmonicOscillator.sol S IC",
+        "url": "https://github.com/HEPLean/PhysLean/blob/6b39f9efbf86fbe107473438708ee406b6663304/PhysLean/ClassicalMechanics/HarmonicOscillator/Solution.lean#L350"
+      },
+      "metadata": {
+        "blame_email_hash": "7187e3a9e9f5",
+        "blame_date": "2025-06-28T08:23:46+00:00",
+        "inclusion_date": "2025-07-21T23:58:58.250119+00:00"
+      },
+      "id": "bd330c2e5983a7edf2e9f0a90f01fe619d27010fca3122ebdf3240e67fc768f5"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/HEPLean/PhysLean",
+        "branch": "lodevermeulen/todos/harmonic-potential",
+        "commit": "6b39f9efbf86fbe107473438708ee406b6663304",
+        "lean_version": "v4.21.0"
+      },
+      "location": {
+        "path": "PhysLean/ClassicalMechanics/HarmonicOscillator/Basic.lean",
+        "start_line": 156,
+        "start_column": 89,
+        "end_line": 156,
+        "end_column": 94
+      },
+      "debug_info": {
+        "goal": "S : ClassicalMechanics.HarmonicOscillator\nx : Time \u2192 Space 1\n\u22a2 ClassicalMechanics.HarmonicOscillator.EquationOfMotion x \u2194\n    \u2200 (t : Time),\n      ClassicalMechanics.HarmonicOscillator.force S (x t) =\n        ClassicalMechanics.HarmonicOscillator.m S \u2022 _root_.deriv (fun t' => _root_.deriv x t') t",
+        "url": "https://github.com/HEPLean/PhysLean/blob/6b39f9efbf86fbe107473438708ee406b6663304/PhysLean/ClassicalMechanics/HarmonicOscillator/Basic.lean#L156"
+      },
+      "metadata": {
+        "blame_email_hash": "f5fc9942cf21",
+        "blame_date": "2025-07-19T19:45:41+02:00",
+        "inclusion_date": "2025-07-21T23:58:58.250119+00:00"
+      },
+      "id": "d5c6c99056c3e41ffb27e4d4ef38ed0d88bbe1d7ff7230ab7cf445eba7c552bf"
+    },
+    {
+      "repo": {
+        "remote": "https://github.com/HEPLean/PhysLean",
+        "branch": "lodevermeulen/todos/harmonic-potential",
+        "commit": "6b39f9efbf86fbe107473438708ee406b6663304",
+        "lean_version": "v4.21.0"
+      },
+      "location": {
+        "path": "PhysLean/ClassicalMechanics/HarmonicOscillator/Basic.lean",
+        "start_line": 174,
+        "start_column": 49,
+        "end_line": 174,
+        "end_column": 54
+      },
+      "debug_info": {
+        "goal": "x : Time \u2192 Space 1\n\u22a2 ClassicalMechanics.HarmonicOscillator.EquationOfMotion x \u2194 ClassicalMechanics.HarmonicOscillator.ExtremaOfAction x",
+        "url": "https://github.com/HEPLean/PhysLean/blob/6b39f9efbf86fbe107473438708ee406b6663304/PhysLean/ClassicalMechanics/HarmonicOscillator/Basic.lean#L174"
+      },
+      "metadata": {
+        "blame_email_hash": "7187e3a9e9f5",
+        "blame_date": "2025-06-28T08:23:46+00:00",
+        "inclusion_date": "2025-07-21T23:58:58.250119+00:00"
+      },
+      "id": "b32cba9a66890a44db7805dd194dbdda136e5ce4c78454d462d6b9d4ce4918af"
     }
   ]
 }
