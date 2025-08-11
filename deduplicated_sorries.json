@@ -8329,8 +8329,8 @@
     {
       "repo": {
         "remote": "https://github.com/leanprover-community/batteries",
-        "branch": "unusedSimpArgs",
-        "commit": "80af8239ad6406f0fa8f3810fdd32aa7b28e3117",
+        "branch": "deprecations_2025-01",
+        "commit": "94211626df318de1408c42167fea29e81dbe8365",
         "lean_version": "v4.22.0-rc4"
       },
       "location": {
@@ -8342,20 +8342,20 @@
       },
       "debug_info": {
         "goal": "h : 1 = 1\n\u22a2 True",
-        "url": "https://github.com/leanprover-community/batteries/blob/80af8239ad6406f0fa8f3810fdd32aa7b28e3117/BatteriesTest/lintunused.lean#L7"
+        "url": "https://github.com/leanprover-community/batteries/blob/94211626df318de1408c42167fea29e81dbe8365/BatteriesTest/lintunused.lean#L7"
       },
       "metadata": {
         "blame_email_hash": "45b5ed8e3c8e",
         "blame_date": "2023-08-08T02:17:31+02:00",
-        "inclusion_date": "2025-07-30T23:51:15.863711+00:00"
+        "inclusion_date": "2025-08-11T03:32:40.475232+00:00"
       },
-      "id": "9da81047e1ff4ad24b92207b26886376fdfbbf1948f6d6cd0c9222f7b64f7949"
+      "id": "9673f4923d802a3111c11cdb3df1c31ec74f3478c7779a50dea40ec7e2e10b3a"
     },
     {
       "repo": {
         "remote": "https://github.com/leanprover-community/batteries",
-        "branch": "unusedSimpArgs",
-        "commit": "80af8239ad6406f0fa8f3810fdd32aa7b28e3117",
+        "branch": "deprecations_2025-01",
+        "commit": "94211626df318de1408c42167fea29e81dbe8365",
         "lean_version": "v4.22.0-rc4"
       },
       "location": {
@@ -8367,20 +8367,20 @@
       },
       "debug_info": {
         "goal": "\u22a2 1 = 1",
-        "url": "https://github.com/leanprover-community/batteries/blob/80af8239ad6406f0fa8f3810fdd32aa7b28e3117/BatteriesTest/lint_unreachableTactic.lean#L24"
+        "url": "https://github.com/leanprover-community/batteries/blob/94211626df318de1408c42167fea29e81dbe8365/BatteriesTest/lint_unreachableTactic.lean#L24"
       },
       "metadata": {
         "blame_email_hash": "45b5ed8e3c8e",
         "blame_date": "2023-08-26T11:27:15+01:00",
-        "inclusion_date": "2025-07-30T23:51:15.863711+00:00"
+        "inclusion_date": "2025-08-11T03:32:40.475232+00:00"
       },
-      "id": "69ca02fba4876c35af0d1b6b461bb15e7bda482c96640d1c02e02c08fe574d08"
+      "id": "95d88111fa17127601ab85f5d0fa16830fc55744b826095f2558a41bf5a21876"
     },
     {
       "repo": {
         "remote": "https://github.com/leanprover-community/batteries",
-        "branch": "unusedSimpArgs",
-        "commit": "80af8239ad6406f0fa8f3810fdd32aa7b28e3117",
+        "branch": "deprecations_2025-01",
+        "commit": "94211626df318de1408c42167fea29e81dbe8365",
         "lean_version": "v4.22.0-rc4"
       },
       "location": {
@@ -8392,14 +8392,14 @@
       },
       "debug_info": {
         "goal": "aa : Nat\n\u22a2 aa = 0 \u2192 t aa = 0",
-        "url": "https://github.com/leanprover-community/batteries/blob/80af8239ad6406f0fa8f3810fdd32aa7b28e3117/BatteriesTest/lint_unreachableTactic.lean#L32"
+        "url": "https://github.com/leanprover-community/batteries/blob/94211626df318de1408c42167fea29e81dbe8365/BatteriesTest/lint_unreachableTactic.lean#L32"
       },
       "metadata": {
         "blame_email_hash": "45b5ed8e3c8e",
         "blame_date": "2023-08-26T11:27:15+01:00",
-        "inclusion_date": "2025-07-30T23:51:15.863711+00:00"
+        "inclusion_date": "2025-08-11T03:32:40.475232+00:00"
       },
-      "id": "b59bccbc44200f93a7fae750d41d67880ef023294c09de36afd6adbbe4222d7c"
+      "id": "36aef5c15a750dffbed0afa7e676e9620bdfd022a999f422f06771314955cf61"
     },
     {
       "repo": {
@@ -32029,8 +32029,8 @@
     {
       "repo": {
         "remote": "https://github.com/leanprover-community/batteries",
-        "branch": "unusedSimpArgs",
-        "commit": "80af8239ad6406f0fa8f3810fdd32aa7b28e3117",
+        "branch": "deprecations_2025-01",
+        "commit": "94211626df318de1408c42167fea29e81dbe8365",
         "lean_version": "v4.22.0-rc4"
       },
       "location": {
@@ -32042,20 +32042,20 @@
       },
       "debug_info": {
         "goal": "\u03b1 : Type u_1\ninst\u271d : Mul \u03b1\na x y : @MulOpposite \u03b1\n\u22a2 @SemiconjBy \u03b1 inst\u271d (@MulOpposite.unop \u03b1 a) (@MulOpposite.unop \u03b1 y) (@MulOpposite.unop \u03b1 x) \u2194\n    @SemiconjBy (@MulOpposite \u03b1) (@MulOpposite.instMul \u03b1 inst\u271d) a x y",
-        "url": "https://github.com/leanprover-community/batteries/blob/80af8239ad6406f0fa8f3810fdd32aa7b28e3117/BatteriesTest/lintsimp.lean#L37"
+        "url": "https://github.com/leanprover-community/batteries/blob/94211626df318de1408c42167fea29e81dbe8365/BatteriesTest/lintsimp.lean#L37"
       },
       "metadata": {
         "blame_email_hash": "8a7dcd08b95f",
         "blame_date": "2022-12-18T15:51:52-05:00",
-        "inclusion_date": "2025-07-30T23:51:15.863711+00:00"
+        "inclusion_date": "2025-08-11T03:32:40.475232+00:00"
       },
-      "id": "7d4050d83bb3bbb74efcfb0c3a9d65b62a1aaad495a286c961f1deab705eb0ca"
+      "id": "0e894c4ca5959ca0eac4ab07316e3e481ccc9dcbd93679899a213fe8a8387f74"
     },
     {
       "repo": {
         "remote": "https://github.com/leanprover-community/batteries",
-        "branch": "unusedSimpArgs",
-        "commit": "80af8239ad6406f0fa8f3810fdd32aa7b28e3117",
+        "branch": "deprecations_2025-01",
+        "commit": "94211626df318de1408c42167fea29e81dbe8365",
         "lean_version": "v4.22.0-rc4"
       },
       "location": {
@@ -32067,14 +32067,14 @@
       },
       "debug_info": {
         "goal": "P : (Nat \u2192 Nat) \u2192 Prop\n\u22a2 P fun n => 0",
-        "url": "https://github.com/leanprover-community/batteries/blob/80af8239ad6406f0fa8f3810fdd32aa7b28e3117/BatteriesTest/conv_equals.lean#L22"
+        "url": "https://github.com/leanprover-community/batteries/blob/94211626df318de1408c42167fea29e81dbe8365/BatteriesTest/conv_equals.lean#L22"
       },
       "metadata": {
         "blame_email_hash": "1e9dd229978a",
         "blame_date": "2023-08-19T05:19:41+02:00",
-        "inclusion_date": "2025-07-30T23:51:15.863711+00:00"
+        "inclusion_date": "2025-08-11T03:32:40.475232+00:00"
       },
-      "id": "0dd1869ef8e35ca81a2a519b5c303fcafd5afdbd3f5cf1d20748be76c04577ea"
+      "id": "7a646929a98f0ee3be31b637457a6e54c93bca6c3a293bb669bbb0e8b5b9b5c5"
     },
     {
       "repo": {
