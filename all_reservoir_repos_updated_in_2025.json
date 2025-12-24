@@ -1,0 +1,1385 @@
+{
+  "documentation": "List of active repositories pulled from reservoir. Generated on 2025-12-24T10:33:59.171086. Includes repositories which have been updated since 2025-01-01 00:00:00+00:00 and have at least 0 GitHub stars.",
+  "repos": [
+    {
+      "remote": "https://github.com/0art0/lean-slides"
+    },
+    {
+      "remote": "https://github.com/0art0/kimina"
+    },
+    {
+      "remote": "https://github.com/1a776/IMO-"
+    },
+    {
+      "remote": "https://github.com/a2435191/lean-logic-formalization"
+    },
+    {
+      "remote": "https://github.com/abdoo8080/lean-cvc5"
+    },
+    {
+      "remote": "https://github.com/acmepjz/md4lean"
+    },
+    {
+      "remote": "https://github.com/acmepjz/lean-iwasawa"
+    },
+    {
+      "remote": "https://github.com/adamtopaz/NodeGraph"
+    },
+    {
+      "remote": "https://github.com/adamtopaz/lean_extras"
+    },
+    {
+      "remote": "https://github.com/adomani/MA4N1_Theorem_proving_with_Lean"
+    },
+    {
+      "remote": "https://github.com/adomani/advents"
+    },
+    {
+      "remote": "https://github.com/AdrienChampion/safeIdx"
+    },
+    {
+      "remote": "https://github.com/AeneasVerif/icfp-tutorial"
+    },
+    {
+      "remote": "https://github.com/ah1112/synthetic_euclid_4"
+    },
+    {
+      "remote": "https://github.com/ahhwuhu/zeta_3_irrational"
+    },
+    {
+      "remote": "https://github.com/alexf91/lean4-ctypes"
+    },
+    {
+      "remote": "https://github.com/alexjbest/leaff"
+    },
+    {
+      "remote": "https://github.com/alexjgreig/QHL-Lean"
+    },
+    {
+      "remote": "https://github.com/alexkeizer/QpfTypes"
+    },
+    {
+      "remote": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd"
+    },
+    {
+      "remote": "https://github.com/AlexKontorovich/RealAnalysisGame"
+    },
+    {
+      "remote": "https://github.com/AlexLoitzl/pumping_cfg"
+    },
+    {
+      "remote": "https://github.com/algebraic-dev/http"
+    },
+    {
+      "remote": "https://github.com/alma-n/ConstructiveLogicCourseGame"
+    },
+    {
+      "remote": "https://github.com/alok/LeanPlot"
+    },
+    {
+      "remote": "https://github.com/alok/lean-inf"
+    },
+    {
+      "remote": "https://github.com/alok/HexLuthor"
+    },
+    {
+      "remote": "https://github.com/alok/ConvolutedProofs"
+    },
+    {
+      "remote": "https://github.com/alok/AsciiPlot"
+    },
+    {
+      "remote": "https://github.com/ammkrn/timelib"
+    },
+    {
+      "remote": "https://github.com/ammkrn/printiest"
+    },
+    {
+      "remote": "https://github.com/Anderssorby/SDL.lean"
+    },
+    {
+      "remote": "https://github.com/andrejbauer/partial-combinatory-algebras"
+    },
+    {
+      "remote": "https://github.com/andrejbauer/lean2sexp"
+    },
+    {
+      "remote": "https://github.com/anlucia/ChromaticPolynomial"
+    },
+    {
+      "remote": "https://github.com/anoma/juvix-lean"
+    },
+    {
+      "remote": "https://github.com/anoma/goose-lean"
+    },
+    {
+      "remote": "https://github.com/apnelson1/Matroid"
+    },
+    {
+      "remote": "https://github.com/arademaker/fad"
+    },
+    {
+      "remote": "https://github.com/arademaker/delphin"
+    },
+    {
+      "remote": "https://github.com/argumentcomputer/ZKSnark.lean"
+    },
+    {
+      "remote": "https://github.com/argumentcomputer/yatima"
+    },
+    {
+      "remote": "https://github.com/argumentcomputer/Wasm.lean"
+    },
+    {
+      "remote": "https://github.com/argumentcomputer/straume"
+    },
+    {
+      "remote": "https://github.com/argumentcomputer/RustFFI.lean"
+    },
+    {
+      "remote": "https://github.com/argumentcomputer/Nova.lean"
+    },
+    {
+      "remote": "https://github.com/argumentcomputer/Megaparsec.lean"
+    },
+    {
+      "remote": "https://github.com/argumentcomputer/LSpec"
+    },
+    {
+      "remote": "https://github.com/argumentcomputer/ix"
+    },
+    {
+      "remote": "https://github.com/argumentcomputer/Http.lean"
+    },
+    {
+      "remote": "https://github.com/argumentcomputer/FFaCiL.lean"
+    },
+    {
+      "remote": "https://github.com/argumentcomputer/Blake3.lean"
+    },
+    {
+      "remote": "https://github.com/arthurpaulino/viper"
+    },
+    {
+      "remote": "https://github.com/arthurpaulino/NumLean"
+    },
+    {
+      "remote": "https://github.com/arthurpaulino/LeanREPL"
+    },
+    {
+      "remote": "https://github.com/arthurpaulino/LeanMySQL"
+    },
+    {
+      "remote": "https://github.com/arthurpaulino/LeanMusic"
+    },
+    {
+      "remote": "https://github.com/arthurpaulino/FxyLang"
+    },
+    {
+      "remote": "https://github.com/astrainfinita/Algorithm"
+    },
+    {
+      "remote": "https://github.com/atlas-computing-org/CoqLeanTranslation"
+    },
+    {
+      "remote": "https://github.com/ATOMSLab/LeanLJ"
+    },
+    {
+      "remote": "https://github.com/ATOMSLab/LeanDimensionalAnalysis"
+    },
+    {
+      "remote": "https://github.com/atrieu/lean-cryptolib"
+    },
+    {
+      "remote": "https://github.com/austinletson/use-lean-standard-action-with-bare-project"
+    },
+    {
+      "remote": "https://github.com/avigad/LeanSudoku"
+    },
+    {
+      "remote": "https://github.com/awodey/joyal"
+    },
+    {
+      "remote": "https://github.com/b-mehta/AharoniKorman"
+    },
+    {
+      "remote": "https://github.com/b-mehta/ABC-Exceptions"
+    },
+    {
+      "remote": "https://github.com/Beneficial-AI-Foundation/NumpySpec"
+    },
+    {
+      "remote": "https://github.com/Beneficial-AI-Foundation/FloatSpec"
+    },
+    {
+      "remote": "https://github.com/Beneficial-AI-Foundation/curve25519-dalek-lean-verify"
+    },
+    {
+      "remote": "https://github.com/bergmannjg/time"
+    },
+    {
+      "remote": "https://github.com/bergmannjg/regex"
+    },
+    {
+      "remote": "https://github.com/bergmannjg/leanCurl"
+    },
+    {
+      "remote": "https://github.com/Bergschaf/Localic-Caratheodory-Extensions"
+    },
+    {
+      "remote": "https://github.com/Bergschaf/lean-banach-tarski"
+    },
+    {
+      "remote": "https://github.com/Bergschaf/banach-tarski"
+    },
+    {
+      "remote": "https://github.com/BinderDavid/haskell-spec"
+    },
+    {
+      "remote": "https://github.com/bkase/verified-gpu"
+    },
+    {
+      "remote": "https://github.com/BoltonBailey/formal-snarks-project"
+    },
+    {
+      "remote": "https://github.com/bridgekat/filter-game"
+    },
+    {
+      "remote": "https://github.com/BRonen/sqlite-lean"
+    },
+    {
+      "remote": "https://github.com/CAIMEOX/json-schema-lean"
+    },
+    {
+      "remote": "https://github.com/CarlKCarlK/range-set-blaze-lean"
+    },
+    {
+      "remote": "https://github.com/chasenorman/CanonicalLean"
+    },
+    {
+      "remote": "https://github.com/chords-project/itc-course"
+    },
+    {
+      "remote": "https://github.com/chrisflav/bruhat-tits"
+    },
+    {
+      "remote": "https://github.com/Clap-lang/clap-lean"
+    },
+    {
+      "remote": "https://github.com/cmu-l3/llmlean"
+    },
+    {
+      "remote": "https://github.com/ctchou/AutomataTheory"
+    },
+    {
+      "remote": "https://github.com/dagurtomas/LeanCondensed"
+    },
+    {
+      "remote": "https://github.com/datokrat/lean-iterators"
+    },
+    {
+      "remote": "https://github.com/Deducteam/lean2dk"
+    },
+    {
+      "remote": "https://github.com/djvelleman/HTPILeanPackage"
+    },
+    {
+      "remote": "https://github.com/Dominique-Lawson/Directed-Topology-Lean-4"
+    },
+    {
+      "remote": "https://github.com/draperlaboratory/ELFSage"
+    },
+    {
+      "remote": "https://github.com/dupuisf/BibtexQuery"
+    },
+    {
+      "remote": "https://github.com/dwrensha/tryAtEachStep"
+    },
+    {
+      "remote": "https://github.com/dwrensha/Rupert.lean"
+    },
+    {
+      "remote": "https://github.com/dwrensha/lean4-maze"
+    },
+    {
+      "remote": "https://github.com/dwrensha/compfiles"
+    },
+    {
+      "remote": "https://github.com/dwrensha/Chess.lean"
+    },
+    {
+      "remote": "https://github.com/dwrensha/animate-lean-proofs"
+    },
+    {
+      "remote": "https://github.com/ecyrbe/lean-units"
+    },
+    {
+      "remote": "https://github.com/ElifUskuplu/Stlc_deBruijn"
+    },
+    {
+      "remote": "https://github.com/emilyriehl/infinity-cosmos"
+    },
+    {
+      "remote": "https://github.com/emilyriehl/ReintroductionToProofs"
+    },
+    {
+      "remote": "https://github.com/eric-wieser/lean-matrix-cookbook"
+    },
+    {
+      "remote": "https://github.com/eshelyaron/lean4-bdd"
+    },
+    {
+      "remote": "https://github.com/fgdorais/lean4-unicode-basic"
+    },
+    {
+      "remote": "https://github.com/fgdorais/lean4-parser"
+    },
+    {
+      "remote": "https://github.com/fgdorais/logic4"
+    },
+    {
+      "remote": "https://github.com/fgdorais/lean4-automata"
+    },
+    {
+      "remote": "https://github.com/fgdorais/extra4"
+    },
+    {
+      "remote": "https://github.com/fgdorais/algebra4"
+    },
+    {
+      "remote": "https://github.com/FLDutchmann/selberg-sieve4"
+    },
+    {
+      "remote": "https://github.com/FormalizedFormalLogic/Incompleteness"
+    },
+    {
+      "remote": "https://github.com/FormalizedFormalLogic/Foundation"
+    },
+    {
+      "remote": "https://github.com/FormalizedFormalLogic/Arithmetization"
+    },
+    {
+      "remote": "https://github.com/formalproofs/probability"
+    },
+    {
+      "remote": "https://github.com/FormalSAT/trestle"
+    },
+    {
+      "remote": "https://github.com/fpvandoorn/BonnLeanSeminar"
+    },
+    {
+      "remote": "https://github.com/fpvandoorn/LogicColloquiumTutorial"
+    },
+    {
+      "remote": "https://github.com/fpvandoorn/LeanCourse25"
+    },
+    {
+      "remote": "https://github.com/fpvandoorn/LeanCourse24"
+    },
+    {
+      "remote": "https://github.com/fpvandoorn/carleson"
+    },
+    {
+      "remote": "https://github.com/fpvandoorn/BonnAnalysis"
+    },
+    {
+      "remote": "https://github.com/FredRaj3/SemicircleLaw"
+    },
+    {
+      "remote": "https://github.com/frenzymath/reap"
+    },
+    {
+      "remote": "https://github.com/frenzymath/jixia"
+    },
+    {
+      "remote": "https://github.com/frenzymath/FATE-M"
+    },
+    {
+      "remote": "https://github.com/frenzymath/FATE-H"
+    },
+    {
+      "remote": "https://github.com/functionally/crypto-lean4"
+    },
+    {
+      "remote": "https://github.com/funexists/raylean"
+    },
+    {
+      "remote": "https://github.com/FWuermse/lean-postgres"
+    },
+    {
+      "remote": "https://github.com/GaloisInc/zk-lean"
+    },
+    {
+      "remote": "https://github.com/GasStationManager/SafeVerify"
+    },
+    {
+      "remote": "https://github.com/GasStationManager/LeanTool"
+    },
+    {
+      "remote": "https://github.com/GasStationManager/FormalizeWithTest"
+    },
+    {
+      "remote": "https://github.com/GasStationManager/CodeProofTheArena"
+    },
+    {
+      "remote": "https://github.com/gdncc/Cryptography"
+    },
+    {
+      "remote": "https://github.com/girafe-ai/lean-course"
+    },
+    {
+      "remote": "https://github.com/girving/ray-render"
+    },
+    {
+      "remote": "https://github.com/girving/ray"
+    },
+    {
+      "remote": "https://github.com/girving/series"
+    },
+    {
+      "remote": "https://github.com/girving/interval"
+    },
+    {
+      "remote": "https://github.com/girving/bottcher"
+    },
+    {
+      "remote": "https://github.com/goens/lost-pop-lean"
+    },
+    {
+      "remote": "https://github.com/google-deepmind/formal-imo"
+    },
+    {
+      "remote": "https://github.com/google-deepmind/formal-conjectures"
+    },
+    {
+      "remote": "https://github.com/google-deepmind/debate"
+    },
+    {
+      "remote": "https://github.com/gsierra99/ExFormMathL4"
+    },
+    {
+      "remote": "https://github.com/Hagb/lean-groebner"
+    },
+    {
+      "remote": "https://github.com/HannahSantos/FMCn_Lean"
+    },
+    {
+      "remote": "https://github.com/hanwenzhu/miller-rabin"
+    },
+    {
+      "remote": "https://github.com/hanwenzhu/LeanArchitect"
+    },
+    {
+      "remote": "https://github.com/hanwenzhu/hammer-demo-irrational-two"
+    },
+    {
+      "remote": "https://github.com/hargoniX/socket.lean"
+    },
+    {
+      "remote": "https://github.com/hargoniX/mini-redis"
+    },
+    {
+      "remote": "https://github.com/hargoniX/Leanwuzla"
+    },
+    {
+      "remote": "https://github.com/hargoniX/Flame"
+    },
+    {
+      "remote": "https://github.com/haruhisa-enomoto/mathlib4-all-tactics"
+    },
+    {
+      "remote": "https://github.com/hdmkindom/mathmatic_in_elementary_number_th"
+    },
+    {
+      "remote": "https://github.com/HEPLean/PhysLean"
+    },
+    {
+      "remote": "https://github.com/HEPLean/PhysLean_notes"
+    },
+    {
+      "remote": "https://github.com/hhu-adam/lean-i18n"
+    },
+    {
+      "remote": "https://github.com/hhu-adam/Robo"
+    },
+    {
+      "remote": "https://github.com/iasakura/lean-yjs"
+    },
+    {
+      "remote": "https://github.com/igrep/lean-workshop"
+    },
+    {
+      "remote": "https://github.com/imbrem/discretion"
+    },
+    {
+      "remote": "https://github.com/imbrem/debruijn-ssa"
+    },
+    {
+      "remote": "https://github.com/ImperialCollegeLondon/M1F-explained"
+    },
+    {
+      "remote": "https://github.com/ImperialCollegeLondon/LAGinLean2024"
+    },
+    {
+      "remote": "https://github.com/ImperialCollegeLondon/IUM"
+    },
+    {
+      "remote": "https://github.com/ImperialCollegeLondon/formalising-mathematics-2024"
+    },
+    {
+      "remote": "https://github.com/ImperialCollegeLondon/FLT"
+    },
+    {
+      "remote": "https://github.com/input-output-hk/Lean-blaster"
+    },
+    {
+      "remote": "https://github.com/Ivan-Sergeyev/seymour"
+    },
+    {
+      "remote": "https://github.com/ivankobe/FactorizationSystems"
+    },
+    {
+      "remote": "https://github.com/ixaxaar/monoid.space"
+    },
+    {
+      "remote": "https://github.com/Izzimach/EffSpec-lean"
+    },
+    {
+      "remote": "https://github.com/Izzimach/lean-glfw"
+    },
+    {
+      "remote": "https://github.com/jaalonso/Calculemus2_es"
+    },
+    {
+      "remote": "https://github.com/jaalonso/Calculemus2"
+    },
+    {
+      "remote": "https://github.com/JadAbouHawili/Raymond-Smullyan-KnightsAndKnaves"
+    },
+    {
+      "remote": "https://github.com/JadAbouHawili/KnightsAndKnaves-Lean4Game"
+    },
+    {
+      "remote": "https://github.com/JamesGallicchio/LeanColls"
+    },
+    {
+      "remote": "https://github.com/JamesGallicchio/http"
+    },
+    {
+      "remote": "https://github.com/jcreedcmu/Noperthedron"
+    },
+    {
+      "remote": "https://github.com/jeswr/RDF.lean"
+    },
+    {
+      "remote": "https://github.com/JobPetrovcic/ArtinWedderburn"
+    },
+    {
+      "remote": "https://github.com/joehendrix/lean-crypto"
+    },
+    {
+      "remote": "https://github.com/josephmckinsey/Flean"
+    },
+    {
+      "remote": "https://github.com/JOSHCLUNE/LeanHammer"
+    },
+    {
+      "remote": "https://github.com/jsm28/IMOLean"
+    },
+    {
+      "remote": "https://github.com/jsm28/AperiodicMonotilesLean"
+    },
+    {
+      "remote": "https://github.com/Julian/generatingfunctionology.lean"
+    },
+    {
+      "remote": "https://github.com/katydid/regex-deriv-reproving-agda-in-lean"
+    },
+    {
+      "remote": "https://github.com/katydid/regex-deriv-lean"
+    },
+    {
+      "remote": "https://github.com/kbuzzard/ClassFieldTheory"
+    },
+    {
+      "remote": "https://github.com/kckennylau/EllipticCurve"
+    },
+    {
+      "remote": "https://github.com/kebekus/ProjectVD"
+    },
+    {
+      "remote": "https://github.com/keilambda/ttfpi"
+    },
+    {
+      "remote": "https://github.com/keilambda/eocia-lean"
+    },
+    {
+      "remote": "https://github.com/kim-em/lean-training-data"
+    },
+    {
+      "remote": "https://github.com/kim-em/lean-finmap"
+    },
+    {
+      "remote": "https://github.com/KislyjKisel/Raylib.lean"
+    },
+    {
+      "remote": "https://github.com/KislyjKisel/lean-pod"
+    },
+    {
+      "remote": "https://github.com/kkaunda/spgf"
+    },
+    {
+      "remote": "https://github.com/kkytola/VirasoroProject"
+    },
+    {
+      "remote": "https://github.com/kkytola/ExtremeValueProject"
+    },
+    {
+      "remote": "https://github.com/klavins/LeanBook"
+    },
+    {
+      "remote": "https://github.com/kmill/lean4-raytracer"
+    },
+    {
+      "remote": "https://github.com/kmill/LeanTeX-mathlib"
+    },
+    {
+      "remote": "https://github.com/kmill/LeanTeX"
+    },
+    {
+      "remote": "https://github.com/knowsys/Formale-Systeme-in-LEAN"
+    },
+    {
+      "remote": "https://github.com/knowsys/CertifyingDatalog"
+    },
+    {
+      "remote": "https://github.com/konne88/functorio"
+    },
+    {
+      "remote": "https://github.com/Koukyosyumei/Runwai"
+    },
+    {
+      "remote": "https://github.com/Koukyosyumei/PoL"
+    },
+    {
+      "remote": "https://github.com/kovach/etch"
+    },
+    {
+      "remote": "https://github.com/lambda-fairy/taleve"
+    },
+    {
+      "remote": "https://github.com/lean-dojo/LeanMillenniumPrizeProblems"
+    },
+    {
+      "remote": "https://github.com/lean-dojo/LeanCopilot"
+    },
+    {
+      "remote": "https://github.com/lean-ja/reference-manual-ja"
+    },
+    {
+      "remote": "https://github.com/lean-ja/lean99"
+    },
+    {
+      "remote": "https://github.com/lean-ja/lean-by-example"
+    },
+    {
+      "remote": "https://github.com/lean-machines-central/lean-machines"
+    },
+    {
+      "remote": "https://github.com/lean-machines-central/lean-machines-examples"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/tutorials4"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/sphere-eversion"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/quote4"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/ProofWidgets4"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/plausible"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/mathematics_in_lean"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/mathport"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/mathlib4"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/llm"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/LeanSearchClient"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/lean4-metaprogramming-book"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/iris-lean"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/import-graph"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/NNG4"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/flt-regular"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/duper"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/con-nf"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/batteries"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/lean-auto"
+    },
+    {
+      "remote": "https://github.com/leanprover-community/aesop"
+    },
+    {
+      "remote": "https://github.com/leanprover/verso"
+    },
+    {
+      "remote": "https://github.com/leanprover/reference-manual"
+    },
+    {
+      "remote": "https://github.com/leanprover/TensorLib"
+    },
+    {
+      "remote": "https://github.com/leanprover/TenCert"
+    },
+    {
+      "remote": "https://github.com/leanprover/subverso"
+    },
+    {
+      "remote": "https://github.com/leanprover/SHerLOC"
+    },
+    {
+      "remote": "https://github.com/leanprover/SampCert"
+    },
+    {
+      "remote": "https://github.com/leanprover/Pantograph"
+    },
+    {
+      "remote": "https://github.com/leanprover/LNSym"
+    },
+    {
+      "remote": "https://github.com/leanprover/LeroyCompilerVerificationCourse"
+    },
+    {
+      "remote": "https://github.com/leanprover/leansat"
+    },
+    {
+      "remote": "https://github.com/leanprover/LeanInk"
+    },
+    {
+      "remote": "https://github.com/leanprover/lean4export"
+    },
+    {
+      "remote": "https://github.com/leanprover/lean4checker"
+    },
+    {
+      "remote": "https://github.com/leanprover/KLR"
+    },
+    {
+      "remote": "https://github.com/leanprover/doc-gen4"
+    },
+    {
+      "remote": "https://github.com/leanprover/cslib"
+    },
+    {
+      "remote": "https://github.com/leanprover/lean4-cli"
+    },
+    {
+      "remote": "https://github.com/LeastAuthority/STIR"
+    },
+    {
+      "remote": "https://github.com/lecopivo/SciLean"
+    },
+    {
+      "remote": "https://github.com/lecopivo/LeanBLAS"
+    },
+    {
+      "remote": "https://github.com/lecopivo/lean4-karray"
+    },
+    {
+      "remote": "https://github.com/lf-lang/reactor-model"
+    },
+    {
+      "remote": "https://github.com/LieLean/LowDimSolvClassification"
+    },
+    {
+      "remote": "https://github.com/lindy-labs/corelib_verification"
+    },
+    {
+      "remote": "https://github.com/lindy-labs/aegis"
+    },
+    {
+      "remote": "https://github.com/loganrjmurphy/LeanEuclid"
+    },
+    {
+      "remote": "https://github.com/logical-intelligence/proofs"
+    },
+    {
+      "remote": "https://github.com/lua-vr/pointwise-birkhoff"
+    },
+    {
+      "remote": "https://github.com/Luka-O/polya-enumeration-theorem"
+    },
+    {
+      "remote": "https://github.com/m4lvin/lean4-pdl"
+    },
+    {
+      "remote": "https://github.com/m4lvin/Gossip-in-Lean"
+    },
+    {
+      "remote": "https://github.com/madvorak/vcsp"
+    },
+    {
+      "remote": "https://github.com/madvorak/read-lean"
+    },
+    {
+      "remote": "https://github.com/madvorak/lean4-koch"
+    },
+    {
+      "remote": "https://github.com/madvorak/fecssk"
+    },
+    {
+      "remote": "https://github.com/madvorak/duality"
+    },
+    {
+      "remote": "https://github.com/madvorak/chomsky"
+    },
+    {
+      "remote": "https://github.com/Maokami/vqc_in_lean"
+    },
+    {
+      "remote": "https://github.com/marcusrossel/lean-snakebird"
+    },
+    {
+      "remote": "https://github.com/marcusrossel/lean-egg"
+    },
+    {
+      "remote": "https://github.com/mariovagomarzal/higher_category_theory"
+    },
+    {
+      "remote": "https://github.com/matematiflo/SumsOfSquares"
+    },
+    {
+      "remote": "https://github.com/matematiflo/CompAssistedMath2024"
+    },
+    {
+      "remote": "https://github.com/math-xmum/gametheory"
+    },
+    {
+      "remote": "https://github.com/math-xmum/AbstractAlgebra"
+    },
+    {
+      "remote": "https://github.com/mdbrnowski/apportionmentlib"
+    },
+    {
+      "remote": "https://github.com/mhuisi/Uniq"
+    },
+    {
+      "remote": "https://github.com/MichaelStollBayreuth/Weights"
+    },
+    {
+      "remote": "https://github.com/MichaelStollBayreuth/Heights"
+    },
+    {
+      "remote": "https://github.com/MichaelStollBayreuth/EulerProducts"
+    },
+    {
+      "remote": "https://github.com/mirefek/lean-tactic-programming-guide"
+    },
+    {
+      "remote": "https://github.com/misaka10987/archimedes"
+    },
+    {
+      "remote": "https://github.com/mkaratarakis/HopfieldNet"
+    },
+    {
+      "remote": "https://github.com/mo271/FormalBook"
+    },
+    {
+      "remote": "https://github.com/model-checking/rust-lean-models"
+    },
+    {
+      "remote": "https://github.com/MohanadAhmed/LeanMathSigProc"
+    },
+    {
+      "remote": "https://github.com/monsterkrampe/Existential-Rules-in-Lean"
+    },
+    {
+      "remote": "https://github.com/morganfshirley/CommComp"
+    },
+    {
+      "remote": "https://github.com/mortarsanjaya/IMOSLLean4"
+    },
+    {
+      "remote": "https://github.com/mseri/BET"
+    },
+    {
+      "remote": "https://github.com/mtoohey31/tabular-types"
+    },
+    {
+      "remote": "https://github.com/NethermindEth/risczero-fv"
+    },
+    {
+      "remote": "https://github.com/NethermindEth/CertiPlonk"
+    },
+    {
+      "remote": "https://github.com/NethermindEth/FVIntmax"
+    },
+    {
+      "remote": "https://github.com/NethermindEth/FF_CVC5_Lean"
+    },
+    {
+      "remote": "https://github.com/NethermindEth/EVMYulLean"
+    },
+    {
+      "remote": "https://github.com/NethermindEth/CompPoly"
+    },
+    {
+      "remote": "https://github.com/niklasmohrin/lean-seminar-2023"
+    },
+    {
+      "remote": "https://github.com/nimarasekh/Formalization-SoSe25"
+    },
+    {
+      "remote": "https://github.com/nomeata/loogle"
+    },
+    {
+      "remote": "https://github.com/nomeata/lean-calcify"
+    },
+    {
+      "remote": "https://github.com/NUS-Math-Formalization/CalculusSkeleton"
+    },
+    {
+      "remote": "https://github.com/NyxFoundation/tsl-formal-verification"
+    },
+    {
+      "remote": "https://github.com/objectionary/proof"
+    },
+    {
+      "remote": "https://github.com/ocfnash/LieClassification"
+    },
+    {
+      "remote": "https://github.com/oliver-butterley/SpectralThm"
+    },
+    {
+      "remote": "https://github.com/oOo0oOo/LeanSerde"
+    },
+    {
+      "remote": "https://github.com/oOo0oOo/LeanSage"
+    },
+    {
+      "remote": "https://github.com/oOo0oOo/LeanDoomed"
+    },
+    {
+      "remote": "https://github.com/opencompl/lean-mlir"
+    },
+    {
+      "remote": "https://github.com/optsuite/optlib"
+    },
+    {
+      "remote": "https://github.com/or4nge19/NeuralNetworks"
+    },
+    {
+      "remote": "https://github.com/or4nge19/MCMC"
+    },
+    {
+      "remote": "https://github.com/Oscario0/LeanBisection"
+    },
+    {
+      "remote": "https://github.com/pandaman64/lean-regex"
+    },
+    {
+      "remote": "https://github.com/Paper-Proof/paperproof"
+    },
+    {
+      "remote": "https://github.com/parabamoghv/DashedMonoids"
+    },
+    {
+      "remote": "https://github.com/PatrickMassot/verbose-lean4"
+    },
+    {
+      "remote": "https://github.com/PatrickMassot/GlimpseOfLean"
+    },
+    {
+      "remote": "https://github.com/PatrickMassot/checkdecls"
+    },
+    {
+      "remote": "https://github.com/Paul-Lez/PersistentDecomp"
+    },
+    {
+      "remote": "https://github.com/paulch42/lean-spec"
+    },
+    {
+      "remote": "https://github.com/pawelsberg/lean-directory-browser"
+    },
+    {
+      "remote": "https://github.com/peabrainiac/lean-catdg"
+    },
+    {
+      "remote": "https://github.com/PeterKementzey/graph-library-for-lean4"
+    },
+    {
+      "remote": "https://github.com/physicslib/physicslib4"
+    },
+    {
+      "remote": "https://github.com/pimpale/llm.lean"
+    },
+    {
+      "remote": "https://github.com/pitmonticone/LeanProject"
+    },
+    {
+      "remote": "https://github.com/pitmonticone/NewProject"
+    },
+    {
+      "remote": "https://github.com/pitmonticone/LeanInVienna2024"
+    },
+    {
+      "remote": "https://github.com/pitmonticone/ItaLean2025"
+    },
+    {
+      "remote": "https://github.com/pitmonticone/LeanCHANGE"
+    },
+    {
+      "remote": "https://github.com/PnVDiscord/software-foundations-lean"
+    },
+    {
+      "remote": "https://github.com/pnwamk/lean4-assert-command"
+    },
+    {
+      "remote": "https://github.com/powdr-labs/leanr"
+    },
+    {
+      "remote": "https://github.com/project-numina/LeanGeo"
+    },
+    {
+      "remote": "https://github.com/proofs-and-programs/proofs-and-programs-25"
+    },
+    {
+      "remote": "https://github.com/provables/special-numbers"
+    },
+    {
+      "remote": "https://github.com/provables/sequencelib"
+    },
+    {
+      "remote": "https://github.com/quangvdao/ZKLib-deprecated"
+    },
+    {
+      "remote": "https://github.com/rahul3613/ProofNet-lean4"
+    },
+    {
+      "remote": "https://github.com/rahul3613/miniF2F-lean4"
+    },
+    {
+      "remote": "https://github.com/rami3l/PLFaLean"
+    },
+    {
+      "remote": "https://github.com/reilabs/proven-zk"
+    },
+    {
+      "remote": "https://github.com/remimimimimi/leansec"
+    },
+    {
+      "remote": "https://github.com/RemyDegenne/testing-lower-bounds"
+    },
+    {
+      "remote": "https://github.com/RemyDegenne/lean-bandits"
+    },
+    {
+      "remote": "https://github.com/RemyDegenne/kolmogorov_extension4"
+    },
+    {
+      "remote": "https://github.com/RemyDegenne/CLT"
+    },
+    {
+      "remote": "https://github.com/RemyDegenne/brownian-motion"
+    },
+    {
+      "remote": "https://github.com/riccardobrasca/Numbers"
+    },
+    {
+      "remote": "https://github.com/riccardobrasca/demontrer2025"
+    },
+    {
+      "remote": "https://github.com/riccardobrasca/LFTCM2024"
+    },
+    {
+      "remote": "https://github.com/riccardobrasca/kaplanski4"
+    },
+    {
+      "remote": "https://github.com/riccardobrasca/flt3"
+    },
+    {
+      "remote": "https://github.com/RikHeurter/LeanBscThesisFormalisation"
+    },
+    {
+      "remote": "https://github.com/risc0/risc0-lean4"
+    },
+    {
+      "remote": "https://github.com/rkirov/category-theory-in-context-lean"
+    },
+    {
+      "remote": "https://github.com/roos-j/lean-booleanfun"
+    },
+    {
+      "remote": "https://github.com/rzrn/ground_zero"
+    },
+    {
+      "remote": "https://github.com/Seasawher/mk-exercise"
+    },
+    {
+      "remote": "https://github.com/Seasawher/mdgen"
+    },
+    {
+      "remote": "https://github.com/Seasawher/mathlib4-help"
+    },
+    {
+      "remote": "https://github.com/Seasawher/lean-book"
+    },
+    {
+      "remote": "https://github.com/Seasawher/import-all"
+    },
+    {
+      "remote": "https://github.com/Shreyas4991/DGAlgorithms"
+    },
+    {
+      "remote": "https://github.com/siddhartha-gadgil/Saturn"
+    },
+    {
+      "remote": "https://github.com/siddhartha-gadgil/Polylean"
+    },
+    {
+      "remote": "https://github.com/siddhartha-gadgil/proofs-and-programs-2023"
+    },
+    {
+      "remote": "https://github.com/siddhartha-gadgil/MetaExamples"
+    },
+    {
+      "remote": "https://github.com/siddhartha-gadgil/LeanLion"
+    },
+    {
+      "remote": "https://github.com/siddhartha-gadgil/LeanLangur"
+    },
+    {
+      "remote": "https://github.com/siddhartha-gadgil/LeanAideTools"
+    },
+    {
+      "remote": "https://github.com/siddhartha-gadgil/LeanAide"
+    },
+    {
+      "remote": "https://github.com/siddhartha-gadgil/lean-loris"
+    },
+    {
+      "remote": "https://github.com/sinhp/LeanFibredCategories"
+    },
+    {
+      "remote": "https://github.com/smmercuri/adele-ring_locally-compact"
+    },
+    {
+      "remote": "https://github.com/somombo/formalized-quicksort"
+    },
+    {
+      "remote": "https://github.com/sorrachai/FAA2025"
+    },
+    {
+      "remote": "https://github.com/SrGaabriel/soma"
+    },
+    {
+      "remote": "https://github.com/starkware-libs/formal-proofs"
+    },
+    {
+      "remote": "https://github.com/strata-org/Strata"
+    },
+    {
+      "remote": "https://github.com/sunblaze-ucb/verina"
+    },
+    {
+      "remote": "https://github.com/sven-manthe/A-formalization-of-Borel-determinacy-in-Lean"
+    },
+    {
+      "remote": "https://github.com/sysghent/learn-lean-riddles"
+    },
+    {
+      "remote": "https://github.com/T-Brick/lean-wasm"
+    },
+    {
+      "remote": "https://github.com/T-Brick/Numbers"
+    },
+    {
+      "remote": "https://github.com/T-Brick/lean2wasm"
+    },
+    {
+      "remote": "https://github.com/T-Brick/DateTime"
+    },
+    {
+      "remote": "https://github.com/T-Brick/ControlFlow"
+    },
+    {
+      "remote": "https://github.com/tdzl2003/LeanEuclid"
+    },
+    {
+      "remote": "https://github.com/teorth/pfr"
+    },
+    {
+      "remote": "https://github.com/teorth/expdb"
+    },
+    {
+      "remote": "https://github.com/teorth/equational_theories"
+    },
+    {
+      "remote": "https://github.com/teorth/analysis"
+    },
+    {
+      "remote": "https://github.com/thefundamentaltheor3m/Sphere-Packing-Lean"
+    },
+    {
+      "remote": "https://github.com/Timeroot/Lean-QuantumInfo"
+    },
+    {
+      "remote": "https://github.com/Timeroot/ComputableReal"
+    },
+    {
+      "remote": "https://github.com/todbeibrot/Lean-Oscar"
+    },
+    {
+      "remote": "https://github.com/Trequetrum/lean4game-logic"
+    },
+    {
+      "remote": "https://github.com/TristanCacqueray/gen-zmk"
+    },
+    {
+      "remote": "https://github.com/tydeu/lean4-partax"
+    },
+    {
+      "remote": "https://github.com/tydeu/lean4-itertools"
+    },
+    {
+      "remote": "https://github.com/tydeu/lean4-alloy"
+    },
+    {
+      "remote": "https://github.com/ufmg-smite/lean-smt"
+    },
+    {
+      "remote": "https://github.com/urkud/SardMoreira"
+    },
+    {
+      "remote": "https://github.com/ValorZard/lean-sdl3"
+    },
+    {
+      "remote": "https://github.com/ValorZard/lean-sdl-test"
+    },
+    {
+      "remote": "https://github.com/VCA-EPFL/leanses"
+    },
+    {
+      "remote": "https://github.com/VCA-EPFL/graphiti"
+    },
+    {
+      "remote": "https://github.com/verified-optimization/CvxLean"
+    },
+    {
+      "remote": "https://github.com/Verified-zkEVM/VCV-io"
+    },
+    {
+      "remote": "https://github.com/Verified-zkEVM/clean"
+    },
+    {
+      "remote": "https://github.com/Verified-zkEVM/ArkLib"
+    },
+    {
+      "remote": "https://github.com/verse-lab/veil"
+    },
+    {
+      "remote": "https://github.com/verse-lab/lean-ssr"
+    },
+    {
+      "remote": "https://github.com/verse-lab/loom"
+    },
+    {
+      "remote": "https://github.com/vihdzp/rubik-lean4"
+    },
+    {
+      "remote": "https://github.com/vihdzp/combinatorial-games"
+    },
+    {
+      "remote": "https://github.com/vikraman/event-structures"
+    },
+    {
+      "remote": "https://github.com/vltanh/lean4-analysis-tao"
+    },
+    {
+      "remote": "https://github.com/VTrelat/ZFLean"
+    },
+    {
+      "remote": "https://github.com/wellecks/ntptutorial"
+    },
+    {
+      "remote": "https://github.com/wellecks/llmstep"
+    },
+    {
+      "remote": "https://github.com/wupr/order-p-q"
+    },
+    {
+      "remote": "https://github.com/WuProver/groebner_proj"
+    },
+    {
+      "remote": "https://github.com/wvhulle/ennreal-arith"
+    },
+    {
+      "remote": "https://github.com/Xiyou-Wu/RiemannianGeometry"
+    },
+    {
+      "remote": "https://github.com/YaelDillies/Toric"
+    },
+    {
+      "remote": "https://github.com/YaelDillies/MiscYD"
+    },
+    {
+      "remote": "https://github.com/YaelDillies/LeanCamCombi"
+    },
+    {
+      "remote": "https://github.com/YaelDillies/LeanAPAP"
+    },
+    {
+      "remote": "https://github.com/YaelDillies/ChandraFurstLipton"
+    },
+    {
+      "remote": "https://github.com/YaelDillies/add-combi"
+    },
+    {
+      "remote": "https://github.com/yangky11/miniF2F-lean4"
+    },
+    {
+      "remote": "https://github.com/yangky11/lean4-example"
+    },
+    {
+      "remote": "https://github.com/YellPika/quasi-borel-spaces"
+    },
+    {
+      "remote": "https://github.com/YnirPaz/PCF-Theory"
+    },
+    {
+      "remote": "https://github.com/yuma-mizuno/lean-math-workshop"
+    },
+    {
+      "remote": "https://github.com/zkcrypto/cryptolib"
+    }
+  ]
+}
