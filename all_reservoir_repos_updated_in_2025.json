@@ -1,5 +1,5 @@
 {
-  "documentation": "List of active repositories pulled from reservoir. Generated on 2025-12-24T10:33:59.171086. Includes repositories which have been updated since 2025-01-01 00:00:00+00:00 and have at least 0 GitHub stars.",
+  "documentation": "List of active repositories pulled from reservoir. Generated on 2025-12-27T12:10:46.069070. Includes repositories which have been updated since 2025-01-01 00:00:00+00:00 and have at least 0 GitHub stars.",
   "repos": [
     {
       "remote": "https://github.com/0art0/kimina"
@@ -440,6 +440,9 @@
       "remote": "https://github.com/alok/lean-inf"
     },
     {
+      "remote": "https://github.com/amarmaduke/lean-stlc"
+    },
+    {
       "remote": "https://github.com/ammkrn/printiest"
     },
     {
@@ -746,7 +749,7 @@
       "remote": "https://github.com/hdmkindom/mathmatic_in_elementary_number_th"
     },
     {
-      "remote": "https://github.com/hhu-adam/Robo"
+      "remote": "https://github.com/hhu-adam/GameSkeleton"
     },
     {
       "remote": "https://github.com/hhu-adam/lean-i18n"
@@ -1103,6 +1106,9 @@
       "remote": "https://github.com/mtoohey31/tabular-types"
     },
     {
+      "remote": "https://github.com/nasqret/fineqs"
+    },
+    {
       "remote": "https://github.com/niklasmohrin/lean-seminar-2023"
     },
     {
@@ -1178,9 +1184,6 @@
       "remote": "https://github.com/pitmonticone/LeanProject"
     },
     {
-      "remote": "https://github.com/pitmonticone/NewProject"
-    },
-    {
       "remote": "https://github.com/pnwamk/lean4-assert-command"
     },
     {
@@ -1197,9 +1200,6 @@
     },
     {
       "remote": "https://github.com/provables/special-numbers"
-    },
-    {
-      "remote": "https://github.com/quangvdao/ZKLib-deprecated"
     },
     {
       "remote": "https://github.com/rahul3613/ProofNet-lean4"
